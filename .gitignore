@@ -13,6 +13,7 @@ X_*.md
 # Python cache
 __pycache__/
 *.py[cod]
+.venv/
 
 # Temporary files
 *.part

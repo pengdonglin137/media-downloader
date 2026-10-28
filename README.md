@@ -8,7 +8,8 @@
 - X/Twitter 视频
 - X/Twitter 图片帖子和图片直链
 - X Article：正文、标题、作者、发布时间和封面
-- 断点续传和已存在文件保护
+- X 公共视频优先从网页提取 CDN 直链，不依赖 X API
+- 断点续传、CDN 节点切换和已存在文件保护
 
 ## 安装依赖
 
@@ -21,7 +22,13 @@ ffmpeg -version
 python3 --version
 ```
 
-如果没有安装 `yt-dlp`，运行下载器时会显示安装提示。也可以提前选择一种方式安装：
+X 的公开视频和图片可以优先使用网页直链下载；Bilibili、YouTube 等其他网站，以及 X 页面无法直接提取时的兜底方案，需要 `yt-dlp`。如果没有安装，运行下载器时会显示安装提示。也可以使用项目脚本安装到本地虚拟环境：
+
+```bash
+./setup.sh
+```
+
+手动安装方式：
 
 ```bash
 # Ubuntu/Debian
@@ -74,7 +81,13 @@ COOKIES_FROM_BROWSER=chrome ./download_media.sh '媒体链接'
 使用 HTTP 或 SOCKS 代理时：
 
 ```bash
-YTDLP_PROXY=http://127.0.0.1:7890 ./download_media.sh '媒体链接'
+  YTDLP_PROXY=http://127.0.0.1:7890 ./download_media.sh '媒体链接'
+```
+
+如果 X 的视频 CDN 节点被当前网络重置，脚本会自动探测多个 IPv4 节点，并使用 `.part` 文件断点续传。也可以用 `X_CDN_IPS` 覆盖自动探测顺序，多个节点用逗号分隔：
+
+```bash
+X_CDN_IPS=151.101.76.158 ./download_media.sh 'X 视频链接'
 ```
 
 ## 限制
