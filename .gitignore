@@ -1,0 +1,19 @@
+# Downloaded media and generated article files
+*.mp4
+*.m4a
+*.webm
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.webp
+*.avif
+X_*.md
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Temporary files
+*.part
+*.ytdl
