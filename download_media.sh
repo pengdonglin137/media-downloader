@@ -205,7 +205,7 @@ run_ytdlp() {
         --retries 5
         --fragment-retries 5
         --merge-output-format mp4
-        --output "$output_directory/%(title)s [%(id)s].%(ext)s"
+        --output "$output_directory/%(title).100B [%(id)s].%(ext)s"
     )
 
     if [[ -n $cookies_from_browser ]]; then
