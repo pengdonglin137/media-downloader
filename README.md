@@ -42,7 +42,7 @@ python3 -m venv .venv
 .venv/bin/pip install -U yt-dlp
 ```
 
-下载器会优先使用项目内的 `.venv/bin/yt-dlp`，其次使用 `bin/yt-dlp`，最后使用系统 PATH 中的 `yt-dlp`。
+下载器会优先使用项目内的 `bin/yt-dlp`，其次使用 `.venv/bin/yt-dlp`，最后使用系统 PATH 中的 `yt-dlp`。
 
 ## 使用
 
@@ -81,7 +81,7 @@ COOKIES_FROM_BROWSER=chrome ./download_media.sh '媒体链接'
 使用 HTTP 或 SOCKS 代理时：
 
 ```bash
-  YTDLP_PROXY=http://127.0.0.1:7890 ./download_media.sh '媒体链接'
+YTDLP_PROXY=http://127.0.0.1:7890 ./download_media.sh '媒体链接'
 ```
 
 如果 X 的视频 CDN 节点被当前网络重置，脚本会自动探测多个 IPv4 节点，并使用 `.part` 文件断点续传。也可以用 `X_CDN_IPS` 覆盖自动探测顺序，多个节点用逗号分隔：
