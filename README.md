@@ -94,3 +94,29 @@ X_CDN_IPS=151.101.76.158 ./download_media.sh 'X 视频链接'
 ## 限制
 
 私密内容、会员内容、DRM、地区限制、已删除内容和网络不可达的 CDN 不能保证下载成功。下载内容时请遵守目标网站的服务条款和版权规定。
+
+## 英文视频转中文配音
+
+`translate_to_zh.py` 把英文视频转成中文配音视频：faster-whisper 识别英文（`asr.py`），`codex exec` 或 `claude -p` 翻译，Edge-TTS 逐句配音（`dub.py`），ffmpeg 合成。依赖本机的 pyVideoTrans（默认 `/vol_1t/pyvideotrans`，可用 `PVT_DIR` 覆盖）和已配置好的 codex 或 claude 命令行。
+
+```bash
+./translate_to_zh.py 'https://youtu.be/xxxx'                 # 默认输出到 /vol_1t/Videos
+./translate_to_zh.py ~/Videos/talk.mp4 --subs hard           # 本地文件，双语字幕烧进画面
+./translate_to_zh.py 'URL' --engine claude                 # 改用 claude 翻译，模型由 CLAUDE_MODEL 指定，默认 opus
+./translate_to_zh.py 'URL' --sub-pos top --model large-v3 --title 'Linux 内核调度器'
+```
+
+- 视频在网站上有人工英文字幕时直接使用，否则用 faster-whisper 识别（`--no-source-subs` 强制识别）。
+- 识别前由模型从标题和简介中提取专有名词作为热词（`--hotwords` 可手动指定），识别结果按词级时间戳切成完整句子。
+- 翻译前先通读全文生成术语表（工作目录里的 `glossary.txt`），统一术语译法并纠正识别错误；`--no-glossary` 关闭。
+- 热词有时会让识别漏掉正文。视频超过 10 分钟时，先用一段 5 分钟的音频分别试识别（加热词和不加热词），加热词明显更差就不用热词；整段识别后仍发现异常（只剩热词、语速过低），会去掉热词重新识别。
+- 配音逐句合成并统一响度，放不进时间段时用 Edge-TTS 自带语速参数重新合成；需要提速超过 15% 的句子交给模型缩短后重配（`--shorten`）。统计结果在 `tts_stats.json`。
+- 播放器里显示的字幕按每屏不超过 26 个汉字拆分，每屏至少显示约 1.5 秒。
+- 默认按音高判断每句话是男声还是女声，分别用 `--male-voice`（默认云希）和 `--female-voice`（默认晓晓）配音；`--voice zh-CN-YunyangNeural` 可统一用一个音色。
+- 成品有两条音轨（中文配音、English 原声）和三条字幕轨（中文、English、中英双语），在播放器里切换。
+- 翻译时按每句时长限制字数，避免配音被迫加速。
+- 画面默认用 x264 `crf 23` 重新压缩，讲座类视频体积约为原来的 1/3，`--crf 0` 直接复制原画面。画面短边超过 1080 像素（2K、4K）时缩小到 1080p，`--max-height 0` 保持原分辨率。中文配音 64k。英文原声和中文配音响度相差 1 dB 以上时调到相同响度再编码，否则直接复制；`--keep-en-volume` 保持原音量。
+- 可以一次传多个链接或文件依次处理，单个失败不影响后面的；`--clean` 在成功后删除工作目录。
+- 用 `--subs hard` 把双语字幕烧进画面；原视频底部已有字幕时可加 `--sub-pos top`。
+
+每一步的结果保存在输出目录下的 `.zh_work_*` 里，中途失败后重新运行会从断点继续。
