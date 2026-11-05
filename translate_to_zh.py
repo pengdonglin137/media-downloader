@@ -7,6 +7,7 @@
 """
 
 import argparse
+import hashlib
 import html
 import json
 import os
@@ -325,6 +326,18 @@ def translate_chunk(engine, items, context, info, effort, workdir, attempt_log, 
     return {n: t for n, t in result.items() if n in want and t}
 
 
+ZH_RATE = 4.5  # 按原句时长每秒 4.5 字给译文限长。实测放宽到占用句间空隙后，译文质量没有提高，提速的句子反而翻倍
+
+
+def char_budget(entries):
+    """每句可用的配音字数。"""
+    out = {}
+    for i, e in enumerate(entries):
+        a, b = (srt_sec(x) for x in e["time"].split("-->"))
+        out[i + 1] = max(4, int((b - a) * ZH_RATE))
+    return out
+
+
 def step_translate(en_srt, work, info, chunk, effort, engine):
     out = work / "zh.srt"
     if out.exists():
@@ -336,9 +349,7 @@ def step_translate(en_srt, work, info, chunk, effort, engine):
     cache = work / "translate_parts"
     cache.mkdir(exist_ok=True)
     attempt_log = work / f"{engine}.log"
-    # 中文配音语速按每秒 4.5 字估算
-    budget = {i: max(4, int((lambda a, b: (srt_sec(b) - srt_sec(a)) * 4.5)(*e["time"].split("-->"))))
-              for i, e in enumerate(entries, 1)}
+    budget = char_budget(entries)
     zh = {}
     with tempfile.TemporaryDirectory(prefix="llm_tr_") as tmp:
         for start in range(0, len(entries), chunk):
@@ -378,6 +389,57 @@ def step_translate(en_srt, work, info, chunk, effort, engine):
     return out
 
 
+def step_review(en_srt, zh_srt, work, info, engine, effort, chunk=80):
+    """对照英文逐句校对译文，只改有实质问题的句子：误译、漏掉关键信息、术语不统一、明显不通顺、超出字数。"""
+    done = work / "reviewed.json"
+    if done.exists():
+        return json.loads(done.read_text(encoding="utf-8"))
+    en, zh = parse_srt(en_srt), parse_srt(zh_srt)
+    budget = char_budget(en)
+    parts = work / "review_parts"
+    parts.mkdir(exist_ok=True)
+    fixed = {}
+    with tempfile.TemporaryDirectory(prefix="llm_rv_") as tmp:
+        for start in range(0, len(en), chunk):
+            idx = range(start + 1, min(start + chunk, len(en)) + 1)
+            part = parts / f"{start + 1:05d}.json"
+            if part.exists():
+                fixed.update({int(k): v for k, v in json.loads(part.read_text(encoding="utf-8")).items()})
+                continue
+            log(f"{engine} 校对第 {idx[0]}-{idx[-1]} 条 ...")
+            lines = "\n".join(f"{n} [≤{budget[n]}字]\n  EN: {en[n - 1]['text']}\n  ZH: {zh[n - 1]['text']}" for n in idx)
+            prompt = (
+                f"你是资深技术翻译审校。\n{info['background']}\n"
+                + (f"术语表：\n{info['glossary']}\n" if info.get("glossary") else "") +
+                "下面是视频字幕的英文原文和中文配音译文，请逐句对照检查，只找出有实质问题的句子：\n"
+                "- 误译：意思和原文不同、理解错了技术概念或说话人意图；\n"
+                "- 漏译：丢掉了影响理解的关键信息（数字、条件、否定、因果、对比）；口头禅、重复可以省略；\n"
+                "- 术语和术语表不一致，或同一术语前后译法不同；\n"
+                "- 读起来明显不通顺、不像中文口语；\n"
+                "- 超出 [≤N字] 的字数上限（一个英文单词按 2 字计）。\n"
+                + (f"{info['asr_note']}" if info.get("asr_note") else "") +
+                "风格差异、可改可不改的不要改。对有问题的句子给出修改后的译文，仍须遵守字数上限，"
+                "一句话被拆到相邻几行时不要把内容挪到别的行。\n"
+                "输出格式为每行「编号: 新译文」，只输出需要修改的行；全部没问题就输出「无」。\n\n" + lines)
+            r = llm_call(engine, prompt, effort, tmp, work / f"{engine}.log") or ""
+            got = {}
+            for line in r.splitlines():
+                m = re.match(r"^\s*(\d+)\s*[:：]\s*(.+)$", line)
+                if m and int(m.group(1)) in idx:
+                    n, t = int(m.group(1)), m.group(2).strip()
+                    if t and t != zh[n - 1]["text"]:
+                        got[n] = t
+            part.write_text(json.dumps(got, ensure_ascii=False), encoding="utf-8")
+            fixed.update(got)
+    for n, t in fixed.items():
+        zh[n - 1]["text"] = t
+    write_srt(zh_srt, zh)
+    write_srt(work / "bilingual.srt", [{"time": z["time"], "text": f"{z['text']}\n{e['text']}"} for z, e in zip(zh, en)])
+    done.write_text(json.dumps(sorted(fixed)), encoding="utf-8")
+    log(f"  校对修改了 {len(fixed)} 句（共 {len(zh)} 句）")
+    return sorted(fixed)
+
+
 def step_gender(video, work):
     out = work / "gender.json"
     if not out.exists():
@@ -403,9 +465,14 @@ def step_shorten(zh_srt, work, stats, info, engine, effort, limit):
     """正常语速下读不完、需要提速超过 limit 的句子，让模型按可用时长重写得更短。返回改写的条数。"""
     entries = parse_srt(zh_srt)
     en = parse_srt(work / "en.srt")
-    todo = [(i + 1, p[2]) for i, p in enumerate(stats["per"]) if p[2] > 1 + limit]
+    tried_file = work / "shorten_tried.json"
+    tried = set(json.loads(tried_file.read_text(encoding="utf-8"))) if tried_file.exists() else set()
+    todo = [(i + 1, p[2]) for i, p in enumerate(stats["per"])
+            if p[2] > 1 + limit and entries[i]["text"] not in tried]
     if not todo:
         return 0
+    tried_file.write_text(json.dumps(sorted(tried | {entries[n - 1]["text"] for n, _ in todo}), ensure_ascii=False),
+                          encoding="utf-8")
     log(f"有 {len(todo)} 句需要提速 {int(limit * 100)}% 以上才读得完，请 {engine} 缩短 ...")
     lines = []
     for n, need in todo:
@@ -433,16 +500,19 @@ def step_shorten(zh_srt, work, stats, info, engine, effort, limit):
     write_srt(zh_srt, entries)
     write_srt(work / "bilingual.srt", [{"time": z["time"], "text": f"{z['text']}\n{e['text']}"}
                                        for z, e in zip(entries, en)])
-    (work / "shortened.json").write_text(json.dumps(sorted(new), ensure_ascii=False), encoding="utf-8")
     return len(new)
 
 
 def step_tts(zh_srt, work, video, voice, male, female, info, engine, effort, shorten):
-    final = work / f"dub_v3_{voice if voice != 'auto' else male + '+' + female}.wav"
+    entries = parse_srt(zh_srt)
+    tag = voice if voice != "auto" else male + "+" + female
+    key = hashlib.md5((Path(zh_srt).read_text(encoding="utf-8") + tag).encode()).hexdigest()[:10]
+    final = work / f"dub_{key}.wav"
     if final.exists():
         log("配音已存在，跳过")
         return final
-    entries = parse_srt(zh_srt)
+    for old in work.glob("dub_*.wav"):
+        old.unlink()
     voices = [voice] * len(entries)
     if voice == "auto":
         gender = step_gender(video, work)
@@ -453,10 +523,13 @@ def step_tts(zh_srt, work, video, voice, male, female, info, engine, effort, sho
     vfile.write_text(json.dumps(voices), encoding="utf-8")
     log(f"Edge-TTS 逐句配音（男声 {sum(v == male for v in voices)} 句，女声 {sum(v == female for v in voices)} 句）...")
     stats = run_dub(zh_srt, work, video, vfile, final)
-    if shorten and not (work / "shortened.json").exists():
-        if step_shorten(zh_srt, work, stats, info, engine, effort, shorten):
-            log("用缩短后的译文重新配音（其余句子直接用缓存）...")
-            run_dub(zh_srt, work, video, vfile, final)
+    if shorten and step_shorten(zh_srt, work, stats, info, engine, effort, shorten):
+        log("用缩短后的译文重新配音（其余句子直接用缓存）...")
+        run_dub(zh_srt, work, video, vfile, final)
+    # 记下最终译文对应的配音，下次运行可以直接复用
+    key = hashlib.md5((Path(zh_srt).read_text(encoding="utf-8") + tag).encode()).hexdigest()[:10]
+    if final.name != f"dub_{key}.wav":
+        final = final.replace(work / f"dub_{key}.wav")
     return final
 
 
@@ -684,6 +757,7 @@ def main():
     ap.add_argument("--cpu", action="store_true", help="语音识别不用显卡")
     ap.add_argument("--hotwords", help="语音识别热词，逗号分隔；默认由模型从标题和简介中提取，传空字符串关闭")
     ap.add_argument("--no-glossary", action="store_true", help="翻译前不生成术语表")
+    ap.add_argument("--no-review", action="store_true", help="翻译后不做逐句校对")
     ap.add_argument("--shorten", type=int, default=15,
                     help="配音需要提速超过这个百分比的句子交给模型缩短后重配，默认 15；0 关闭")
     ap.add_argument("--engine", choices=["codex", "claude"], default="codex",
@@ -768,6 +842,8 @@ def process_one(src, args):
     if not args.no_glossary:
         info["glossary"] = step_glossary(en, work, info, args.engine, args.effort)
     zh = step_translate(en, work, info, args.chunk, args.effort, args.engine)
+    if not args.no_review:
+        step_review(en, zh, work, info, args.engine, args.effort)
     wav = step_tts(zh, work, video, args.voice, args.male_voice, args.female_voice,
                    info, args.engine, args.effort, args.shorten / 100)
     n_src, n_disp = step_display_subs(work)
