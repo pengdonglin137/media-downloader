@@ -1,0 +1,1074 @@
+# 本仓库的 AI 执行入口
+
+## 当前总任务断点：2026-11-11 新增Performance Ninja待办，总71部，技术完成53对
+
+- 新增用户链接2tzdkC6IDbo：easyperf的Performance Ninja -- Welcome Video，时长4分24秒，2021-07-27上传。仅登记所给单视频，未扩展为整个播放列表；排在已有未完成任务之后。
+- prepare实际终态0，原片和20个英文自动字幕来源单元已保存，状态awaiting_translation；尚未翻译、TTS或制作导读/成片。原始视频不覆盖，缓存和媒体不纳入Git提交，不新增交付外挂文件。
+- 总请求71＝原40＋既有新30＋本次补充1；技术完成仍53对，未技术完成18。既有70部范围、生产记录、原声保留规则和全部质量门禁保持；新增20单元待全文译审，不再把“全部来源已出全文草稿”理解为包含这次新片。
+- 本片沿用中文有声AI导读、内嵌中文章节、母版保留原声音轨及中文烧字上传版；听辨不清的原问按v14规则在两版中文主音轨保留实际原声。规则登记不是音频已回填或人工验收通过。
+- 新入口：/home/pengdl/Videos/translated_backlog/.workflow_logs/backlog-20261110/checkpoint-performance-ninja-v15/execution-progress.json；同目录queued-video.json绑定来源与真实prepare日志/出口，metadata-registration.json、verification.json和final-run-receipt.json记录核验。冻结根Python未改；没有重做已成功53对或发布平台。
+
+## 历史总任务断点：2026-11-11 用户确认保留原声，媒体仍53/70对
+
+- 用户明确选择“保留原声”：无法可靠辨识的原始发言不猜译、不删除、不根据回答补造问题。能可靠翻译的部分继续中文译配；确实听辨不清处只在内嵌字幕标注“原声保留：听辨不清”，不把审校备注送TTS。
+- 母版继续保留完整正文原声音轨；中文主音轨及单音轨中文上传版也须在经核对的对应区间保留实际原声，不能只把原问留在另一个音轨、使上传版遗漏。原片不覆盖，不新增外挂交付文件。
+- 原声区间必须绑定源文件、音频流、原片绝对时窗、增益及导读偏移；禁止TTS覆盖原问、剪掉未完句或跨人合成。边界不明时不猜窄窗，可提出完整原声问答区间，但仍须核对两端与相邻配音；原声保留不等于已解决换人边界、事实或声音质量门禁。
+- 本轮仅登记用户决定和续做策略，尚未回填生产音频，没有新TTS/ASR/编码，也未关闭任何既有门禁。仍53/70技术对、17部未技术完成；全片人耳、PotPlayer及最终批准仍未完成。不要为这条决定重复已有失败的弱声ASR或重做成功53对。
+- 新续做入口：`/home/pengdl/Videos/translated_backlog/.workflow_logs/backlog-20261110/checkpoint-original-voice-v14/execution-progress.json`；同目录original-voice-policy.json、metadata-registration.json、independent-registration-verification.json及final-run-receipt.json分别记录规则和实际核验。v13媒体/来源完整证据继续保留；下一先实现显式版本的原声回填并验证，不能把策略批准冒充生产完成。
+
+## 历史总任务断点：2026-11-11 矩阵乘法双版本技术通过，53/70对，十份全文草稿仍待门禁
+
+- 最新入口：`/home/pengdl/Videos/translated_backlog/.workflow_logs/backlog-20261110/checkpoint-matrix-v13/execution-progress.json`。原40仍v134的34对/6声音门禁；新30现19对/2891生产译单元，合计53/70技术对。仍11新片与原6门禁未技术完成，不称70全完或最终人工批准。
+- 矩阵乘法新增双用途自包含MP4：中文有声AI导读约26.917秒、30内嵌中文章；母版双音轨/三软字幕，上传单中文音轨/烧字。16真实/复用子步骤终态0、完整解码、正文帧保持、两版中文AAC及有限VLC检查通过；八张当前实际上传版JPEG逐张查看（旧版八张另保留），不冒充全片视觉/人耳或PotPlayer实测。
+- 原656来源的27同人短尾合并为629：词序、合计中文和最外语义窗保持，来源/任务/全映射与旧稿都保留。177个配音意群、176组不变；519–524内部停顿候选只改524等义朗读并实际重合成一组，原窗4030.65–4066.516秒外PCM完全相同。未dismiss、未剪静音/截尾/借窗/额外atempo，最高+15%不变。
+- 当前源6901＝生产2891＋ARM184＋十草稿3826；初始6910、修订前6928和旧矩阵656封存都保留。十稿均已全文写完，待全文0，但ABI/异常/Cliff/VTune/Timur/硬件/并发拆分/Top-Down/战争之影/原子操作仍须各自来源/角色/事实处置，禁止草稿直接TTS。
+- 新批现985声音候选未人工复核、71局部成片图；ARM165→166/64候选、原6门禁、65显示边界、LPMD/Rust混源和重定位人耳问题不关闭。异常片2647–2655秒弱声提问，新缓存large-v3左右声道/降噪三次仍未恢复，不从答案造问题。
+- 首次矩阵render显示跨组1、预演缺numpy1、恢复quality1及pretts旧绑定1都保留；修复后的生产成功不把历史失败写成0。冻结根Python未改，未重跑既有18对媒体。当前无活动媒体/ASR会话，目标API仍blocked，不称后台自动续跑。
+- 续做先核v13最终登记与独立验证真实0；十稿仍须来源/角色处理，不回头重合成已成功矩阵。旧版8张图实际检查后发现导读错把上传日写成录屏日，已只改屏幕上传字样重封装，正文/导读声音缓存不变；当前8张图重看，旧8张另保留。v5外层143、fidelity无子出口的真实中断不补0。最终逐帧核验改为可恢复精确PTS分块，不是抽样。
+- 本次仅纠正文档中的成片图数量笔误：实际当前8张、旧版8张分别已看，不重编码或重做媒体。当前登记/复核/最终收据见v13目录的metadata-registration-v2.json、independent-registration-verification-v2.json、final-run-receipt-v2.json；旧登记和两次旧schema核验失败完整保留。
+
+## 历史总任务断点：2026-11-11 全部来源已出全文草稿，11部待正式重建，总70未完成
+
+- 最新入口：`/home/pengdl/Videos/translated_backlog/.workflow_logs/backlog-20261110/checkpoint-prepared-eleven-v12/execution-progress.json`。技术成片仍52/70对：原40的34对/6声音门禁，新30的18对/2262生产译单元。12个新片和原6门禁仍未技术完成，没有新增成片或生产导入。
+- 已封存11完整草稿/4482来源单元：原十稿3556加原子操作926；待全文0。源6928＝生产2262＋ARM184＋草稿4482；初始6910及旧快照不改。全文草稿不是生产批准，禁止直接TTS。
+- 原子操作：2017-09-25题页、2017-10-10上传，926全文译审、11受限来源JPEG逐张查看、8片双ASR完整文本和2017原讲义/N4659选定条款已核。恢复TSO/QPI；atomic不可复制、is_always_lock_free为静态布尔值；relaxed仍有coherence。MMX/16字节、SPARC屏障与cache-line算术冲突保留；804–808措辞和漏问、777/881混人须正式重建。
+- 矩阵656已封存，下一优先登记实图代码/时间数值和口误处理、清除草稿备注口播、审定同人完整语义后走正式导入。其他十稿仍须各自改源、角色与事实门禁，不因全文写完自动许可合成。
+- 新批856声音候选、63局部成片图范围不变；本轮11来源图不计成片数。ARM165→166/64候选、原6门禁、65显示边界、LPMD/Rust混源、重定位人耳问题不关闭。战争ASR历史143与恢复核验0分开保留。
+- 全片人耳/视觉、PotPlayer和最终语言声音批准未完成；目标API仍blocked。本检查点无活动ASR/媒体会话。保持每用途独立MP4、有声AI导读、内嵌中文章及中文烧字上传版；不另加交付附件或发布。
+- 下一推进矩阵正式来源/朗读修订。旧草稿不改写，不把方括号审校备注、说话人标签或未定问题直接送TTS。
+
+## 历史总任务断点：2026-11-11 新18部双版本技术通过，10部完整草稿待来源重建，总70未完成
+
+- 最新入口：`/home/pengdl/Videos/translated_backlog/.workflow_logs/backlog-20261110/checkpoint-prepared-ten-v11/execution-progress.json`。原40仍v134的34对技术通过/6声音门禁；新30仍18对、2262生产译单元，合计52/70对。12个新片与原6门禁仍未技术完成，本轮没有新增成片、生产导入或重跑成功媒体。
+- 已封存10部完整草稿/3556来源单元：ABI236、异常255、Cliff259、VTune327(v3)、Timur272、硬件296、并发拆分465、Top-Down490、战争之影300、矩阵乘法656。草稿不是生产批准，禁止直接TTS。
+- 矩阵乘法2026-10-30上传：656全文译审、17来源JPEG逐张查看、3片双本地ASR与作者全文、C11草案选定条款已核。复合字面量非整数指针强转；(float[]){0}只有一元素，后来改(float[4]){0}。const视图不保护pointee；32位=8字节、j当行和1.55/1.57/0.1口误仍须正式处置。实图是clock_gettime_nsec_np、sizeof *c.data、0.152/0.010=15.2，不能泛化跨平台或纯缓存收益。
+- 仅原子操作ZQFzMfHIxng926尚未全文审译。源6928＝已生产2262＋ARM184＋草稿3556＋待全文926；初始6910及历史快照不改。Top-Down技术冲突、战争之影算术/角色和ASR外层143及恢复核验0均完整保留。
+- 新批856声音候选未人工复核、63成片图仅局部查看；新增17来源图不计成片数。ARM165→166/64候选、原6门禁、65显示边界、LPMD/Rust混源及重定位人耳问题不自动关闭。
+- 全片人耳/视觉、PotPlayer及最终语言声音批准未完成，目标API仍blocked。当前无活动ASR/媒体会话，不声称后台自动续跑。每用途独立MP4、有声中文AI导读/内嵌中文章、中文烧字上传版，不另加交付附件或发布。
+- 先完成原子926全文；十份草稿先按证据正式改源、登记角色和重导，再合成。矩阵草稿方括号是审校备注，不能整段直接送TTS。
+
+## 历史总任务断点：2026-11-11 新18部双版本技术通过，9部完整草稿待来源重建，总70未完成
+
+- 最新入口：`/home/pengdl/Videos/translated_backlog/.workflow_logs/backlog-20261110/checkpoint-prepared-nine-v10/execution-progress.json`。原40仍v134的34对技术通过/6声音门禁；新30仍18对、2262生产译单元，合计52/70对。仍12个新片＋原6门禁未技术完成，本轮没有新增成片、生产导入或重跑成功媒体。
+- 已封存9部完整作者稿/2900来源单元：ABI236、异常255、Cliff259、VTune327(v3)、Timur272、硬件296、并发拆分465、Top-Down490、战争之影300。都是待来源/角色/事实处理的草稿，禁止直接TTS。
+- Top-Down：IDF2015、2020-07-23上传，21来源JPEG和19片双ASR已审读。恢复调度/DSB/SGX/Processor Trace及图中CPI0.376；矩阵41.3→5.1→4.1→2.8秒，原话近10倍不等于图中首步8.1倍。Haswell已支持AVX2/FMA，不能背书Skylake首次支持或所有FMA吞吐翻倍；漏问和采样频率方向冲突仍保留。
+- 战争之影：GDC2018、2020-01-17上传，300全文稿、20来源JPEG、GDC原讲义及10片双ASR文本已核。48×64=768与后续骨骼总量在原图/原话就冲突；最高mip66%不能泛化理想二维完整链。双模型JSON完整但外层24967实际143、无原.exit；新只读输出核验0，不伪造ASR成功。首次封存1和首个下载22保留，恢复封存v2为0，无重跑ASR。
+- 尚未全文审译仅2部/1582来源：矩阵乘法zJ4y_JNBRKg656、原子操作ZQFzMfHIxng926。源6928＝已生产2262＋ARM184＋草稿2900＋待全文1582；初始6910及历史快照不改。
+- 新批856声音候选未人工复核、63张成片图只局部查看；本轮41张来源JPEG不计成片图。ARM165→166/64候选、原6门禁、65显示边界、LPMD/Rust混源及重定位人耳问题不自动关闭。
+- 全片人耳/视觉、PotPlayer及最终语言声音批准未完成，目标API仍blocked。当前无活动ASR/媒体会话，不声称后台自动续跑。保持每用途独立MP4、有声中文AI导读/内嵌章、中文烧字上传版，不新增交付附件或发布。
+- 续做先读v10剩余两部；九稿不得直接合成。ASR非零外层与完整输出核验分开，角色、原文修订和全稿重导必须在生产前完成。
+
+## 历史总任务断点：2026-11-11 新18部双版本技术通过，7部完整草稿待来源重建，总70未完成
+
+- 最新入口：`/home/pengdl/Videos/translated_backlog/.workflow_logs/backlog-20261110/checkpoint-prepared-seven-v9/execution-progress.json`。原40仍v134的34对技术通过/6声音门禁；新30仍18对、2262已生产单元，合计52/70对。未技术完成仍12个新片＋原6门禁，共18项。本轮只推进译审，没有新增成片、生产导入或重跑成功媒体。
+- 已封存7部完整作者草稿/2110来源单元：ABI236、异常255、Cliff259、VTune327(v3)、Timur272、硬件296、并发拆分465。全部保留来源/角色/事实门禁，禁止直接TTS。Timur已通读并写完272行，不能再按旧断点把它当未全文译审。
+- VTune已封存10区域/53轮候选，两轮新ASR真实0；原图明确22 ranks×4 threads与4×22均88逻辑线程、`aps.sh --report=.../stat_20170531`，但run-script图未打开脚本；结尾重叠与Performance Reports短交接仍未解决。
+- 硬件296：双本地ASR补查加载存储问答，13张来源JPEG已查看；U880、100/101/102内部示意编号、FNV代码已据图核对。寄存器重命名不消除哈希累加器RAW真依赖；socket漏问/TAGE名称/多人交接仍需重建。
+- 并发拆分465：2025-09-22报告、2025-10-07上传；22张来源JPEG、20片双ASR和作者原书已核查。保留蒙特卡洛十倍样本/多一位与标准误差平方根规律的冲突、绝对0.0907与10%混淆，不能把源报告误差当AI背书；观众漏答/姓名/尾句未决。
+- 尚未全文审译4部/2372来源：矩阵乘法zJ4y_JNBRKg656、原子操作ZQFzMfHIxng926、游戏性能nkCaQ-x-zyA300、Top-Down kjufVhyuV_A490。源总数6928＝已生产2262＋ARM184＋草稿2110＋待全文2372；初始6910及旧快照不改。
+- 已通过新批856声音候选未人工复核、63张成片JPEG仅局部图审；本轮新增来源图不计入成片63。ARM165→166仍quality1、64候选独立；原六门禁、65显示边界、LPMD/Rust混源与重定位人耳问题均保留。
+- 全片人耳/视觉、PotPlayer及最终语言声音批准未完成。目标API仍blocked；当前无活动ASR/媒体制作，不声称后台自动续跑。仍按每用途单MP4、有声中文AI导读/内嵌章、中文烧字上传版交付，不增交付附件或发布。
+- 续做先读v9的awaiting_full_source_translation；七草稿不是可直接合成的批准。恢复问答须先正式改来源/角色、重新导出任务，再导入全稿；不靠ASR替代听辨。
+
+## 历史总任务断点：2026-11-11 新18部双版本技术通过，70项尚未全部完成
+
+- 最新新批入口：`/home/pengdl/Videos/translated_backlog/.workflow_logs/backlog-20261110/checkpoint-reviewed-eighteen-v8/execution-progress.json`。原40仍v134的34对技术通过/6声音门禁；新30中18对、2262源译单元，合计52对。仍12个新片＋原6门禁，共18项未技术完成；未重跑前17对或原40成功媒体。
+- 最新MPI/ITAC：388单元、20.94240837696335秒有声中文AI导读、37中文章；15个持久子步骤全0。母版双音轨三软字幕，上传单中文音轨烧字；严格原窗、前后词边界、正文帧/AAC保持、完整解码和有限VLC通过，五张成片JPEG逐张局部查看。
+- MPI为2018上传的历史内容；导读有声区分层次效率与单因素理想时间/可加潜在收益，不把理想时间比直接相乘。三对同主讲尾句正式合并391→388，当前新30来源6928，初始6910及旧6931/6934快照保留。四重分组窗外PCM逐样本相同、84朗读项及91缓存身份保持，不是耳听证明。
+- ABI236、C++异常255、Cliff259全文作者草稿及双本地ASR已落盘；漏问/混人/模糊来源仍需恢复，未安装生产译文、禁止直接TTS。Cliff的Java volatile/final及简化缓存动画另有官方JLS核查限制；不把2016观点当2026事实。
+- 已通过新批856声音候选未人工复核；累计63张受限成片JPEG只代表局部图审。ARM165未完提问接166另一人哪页仍quality1、64候选单列；原六门禁/65显示边界/LPMD/Rust混人及重定位人耳未决保持。
+- 全片人耳/视觉、PotPlayer、最终语言声音批准均未完成，目标API仍blocked，总70未完成。当前无活动媒体/ASR进程；不声称后台自动续跑。
+- 续做先完整审读Timur272来源；ABI236、异常255、Cliff259均已有全文作者草稿与双ASR，但交接/漏问未决、禁止直接配音。
+
+## 历史总任务断点：2026-11-11 新17部双版本技术通过，70项尚未全部完成
+
+- 最新新批入口：`/home/pengdl/Videos/translated_backlog/.workflow_logs/backlog-20261110/checkpoint-reviewed-seventeen-v7/execution-progress.json`。原40仍v134的34对技术通过/6声音门禁；新30中17对、1874源译单元，合计51对。仍13个新片＋原6门禁、共19项未技术完成。
+- 最新两片：KrksBdWcZgQ：193单元、17.25秒有声导读、33中文章；YEWp3O7Kem8：217单元、20.8秒有声导读、34中文章。各15个持久子步骤全0，母版双音轨三软字幕、上传单中文音轨烧字；严格原窗、前后登记词边界、正文帧保持、AAC、完整解码与有限VLC均通过。没有重跑前15对或原40成功媒体。
+- x86为Black Hat 2017历史报告，Christopher Domas及指令名据原图/官方PDF核对；末193掌声独立静音，不把统计silent=0写成1。性能排查为2020历史报告，导读有声澄清submit_bio_wait不能单独证明队列已满、fdatasync仍可能同步必要元数据；不把旧版psnapper/xcapture换成今天实现，不实际调参。
+- 当前新30来源6931，初始6910、前一6934快照及ARM/LKMM来源修订保留。LKMM原64109真实143和恢复27375真实0保持。ARM165未完提问接另一人166哪页仍quality1，64候选单列，不改句号、不跨人合组、不假登记听辨。
+- 已通过新批820声音候选未人工复核；累计58张受限成片JPEG仅局部视觉检查。全片人耳、全片视觉、PotPlayer与最终语言声音批准均未完成；目标API仍blocked，总70未完成。
+- 下一片Epwds3uR6Fg已通读236来源，双本地ASR恢复会话95006真实0；原仓库Python缺faster_whisper的出口1保留。尚未写中文或修改来源；35/36、76、126/127及161后多人问答先恢复轮次，不把236草稿直接合成。两片生产均终态0，无活动媒体制作。
+
+## 历史总任务断点：2026-11-11 新15部双版本技术通过，70项尚未全部完成
+
+- 最新新批入口：`/home/pengdl/Videos/translated_backlog/.workflow_logs/backlog-20261110/checkpoint-reviewed-fifteen-v6/execution-progress.json`，独立检查点真实出口0。原40仍v134的34对技术通过/6声音门禁；新30中15对、1464源译单元，合计49对。仍15个新片＋原6门禁、共21项未技术完成。
+- 最新新增iFDKhIxKhoQ完整双版本，181单元，18.92秒有声中文AI导读、29中文内嵌章；母版双音轨三软字幕，上传单中文音轨烧字。15个持久子步骤、严格原窗、前后词边界、正文帧保持、AAC、完整解码与有限VLC均通过；不是全片人耳、视觉或PotPlayer批准。
+- 当前新30来源6931，初始6910和前一6934历史快照保持。LKMM来源184→181修复两段混合问答，八轮各自独立，全文中文定稿在编译前完成。题页/执行图和GenMC/Dat3M工具据图核对；未核实报告日期与研究中心地名，保留限制而不猜造。
+- LKMM原生产会话64109在fidelity中真实143、外层.exit缺失；13个成功子步骤保持，原state/空日志/部分framehash保留。只补未完成fidelity与VLC，恢复会话27375真实0。不补造原外层0，不重跑成功TTS或编码。
+- ARM当前184单元正文已验证，但165未完观众提问接166另一人哪页，quality真实1；不改句号、不跨人合组、不假登记听辨来清门禁，未计技术对。其64声音候选独立于已通过新批708候选；累计50张成片JPEG只是局部视觉检查。总70未完成，目标API仍blocked。
+- 下一部KrksBdWcZgQ全文193单元已译审、编译通过；同一主讲1–192合为96组，193掌声独立静音，生产进行中。QP327仍14疑点禁止合成；原6门禁、65显示边界、LPMD/Rust混人和重定位听辨未解除。
+
+## 历史总任务断点：2026-11-11 新14部双版本技术通过，70项尚未全部完成
+
+- 最新新批入口：`/home/pengdl/Videos/translated_backlog/.workflow_logs/backlog-20261110/checkpoint-reviewed-fourteen-v5/execution-progress.json`，独立检查及登记真实出口0。原40仍v134的34对技术通过/6声音门禁；新30中14对、1283源译单元，合计48对。仍16个新片＋原6门禁、共22项未技术完成。
+- 新增Linux Storage Stack Explained双版本，全文200单元已译审；2024年维也纳报告与上传日期分开。tune2fs/BIO/blk-mq/statx/DRBD/VFS/extent及创始人姓名交叉核对，ctime不译为创建时间，extent三个值不误作三层；最后199/200身份不明各自独立。15子步骤全0，未重跑此前13部或原40的成功媒体。
+- ARM内存屏障报告当前184单元已译审、严格原窗和前后词边界检查通过、正文render/verify通过，但quality真实1：165未完提问后接166另一人的哪页，触发cross-unit-fragment候选。不能把真实交接改句号或跨人合组来绕过门禁，未制作导读母版/上传版，也未计第15对。64未复核声音候选单独登记，不混入已技术通过14部的656候选。
+- 当前新30来源6934，初始6910快照保留。ARM按双ASR恢复中段遗漏插问和片尾多轮问答，170→184，改变源词面并留精确备份与映射；99–106与146–184不合组。原2013-10-24报告/ARMv7与Linux3.11/3.12背景，不当作2026实现建议。初次TTS重叠1、随后等义朗读修订与原窗通过、最终真实quality1均保留。
+- ARM恢复外层会话91014真实143、外层.exit缺失；持久子步骤明确在quality以1停止，不补造外层0或猜测原因。片尾ASR会话72414同为143而两份结果完整，中段ASR89689真实0；ASR和有限VLC/dummy音频不等于人耳。全片听辨/视觉、PotPlayer及最终语言声音批准仍false，目标API仍blocked。
+- 下一部iFDKhIxKhoQ已完整读184旧源单元、作者中文草稿覆盖不变来源范围并核对九张源图；问答混合来源重建尚未应用，不可把草稿直接合成。QP327仍有14疑点，禁止合成。原6声音门禁、65显示边界、LPMD/Rust混人及重定位听辨均未解除。
+
+## 历史总任务断点：2026-11-11 新13部双版本技术通过，70项尚未全部完成
+
+- 最新新批入口：`/home/pengdl/Videos/translated_backlog/.workflow_logs/backlog-20261110/checkpoint-reviewed-thirteen-v4/execution-progress.json`，独立登记真实出口0。原40仍v134的34对技术通过/6声音门禁；新30中13对技术通过、1083源/译单元，合计47对。剩17个新片及原6门禁，23项未技术完成，不可宣称全部70项完成。
+- 本轮新完成wlIvfrLNqlk（VTune，133单元）和-8UZhDjgeZU（数据结构，138单元），各自15个子步骤均0；两版均有约24/23秒有声中文AI导读与16/20内嵌章。母版双音轨/三软字幕，上传单中文音轨/烧字；没有新交付学习页、摘要、PBF、外挂字幕或平台发布。
+- 初始6910来源快照不改，XJ/NtEB纯音乐拆分后6912，本轮两部来源修订后6920。VTune修复片头you伪影和遗漏的编译器问答，132→133；数据结构前111源单元不改，问答重建27轮，131→138。两份本地ASR只是佐证，不是人耳；本轮修订改变源词面，不能写成纯守恒拆分。原JSON3、旧派生源、时间重叠映射与精确备份均保留。
+- 新批累计42张实际上传版JPEG登记已看，本轮只新看7张，不称重看全42。每张长边≤1280且实际≤98304字节，逐张加载；VTune APS帧无中文字幕，其他六帧含实际中文烧字。控制累计请求负载，不能保证第三方网关永不413。561声音候选、全片听辨/视觉、PotPlayer实机和最终语言声音批准仍未完成。
+- -8外层工具会话99529真实终态143，外层.exit缺失，不补造0；持久15子步骤、fidelity/VLC结果均0，独立检查点96828真实0后完成技术登记，不重跑媒体。VTune执行器38163真实0。原图m公式漏负号、口头hash set/红黑树及简化安全示例仍列内容复核；source_provenance的规范文本摘要字段另有v2元数据更正，未改生产绑定输入。
+- 后续新片用RUN内`materialize_reviewed_plans_v2.py`支持显式逐组speaker_id，但问答轮次不强合；`run_reviewed_production_v3.py`只处理全新且当前Agent完整译审/分组/导读绑定的工程，不自动翻译。导读标题/屏幕文字≤32字、中文字幕≤28字；VTune最初33字标题拒绝记录保留。严格当前来源原窗、同人完整意群≤40秒、最高+15%，禁额外atempo/借窗/截尾/重叠，重定位读chóng dìng wèi。
+- 不重下载已齐备来源，不重跑成功TTS/编码/解码，也不修改原40的269项冻结生产实现。原6声音门禁、65旧显示边界、LPMD交接、Rust混合源及重定位人耳复核均未解除。QP327单元仍有14疑点的草稿，禁止合成；hCKruOlLPIQ仅读过1–4及189–200源单元，未完整译审。媒体会话均终态，目标API仍blocked。
+
+## 历史总任务断点：2026-11-11 新11部双版本技术通过，70项尚未全部完成
+
+- 当前唯一新批综合入口：`/home/pengdl/Videos/translated_backlog/.workflow_logs/backlog-20261110/checkpoint-reviewed-eleven-v3/execution-progress.json`，登记出口0。原40仍以v134的34对技术通过/6声音门禁为权威，未重跑或扩充原40群体；新30中11对技术通过，共812源/译单元，合计45对，剩19个新片及原6门禁尚未技术完成。不能写成70项已完成。
+- 新11为ejv9、qlk、iJ_e、emYm、BR3、aQhh、3F78、XJFE、fa7、NtEB、Qkb；每片均有有声中文AI导读、完整正文、中文内嵌章节的母版及单中文音轨/烧字上传版。新批35张受限上传版JPEG已逐张审看，正文逐帧/中文AAC、全片解码既有证据及有限VLC通过；479声音候选仍未人工复核，全片人耳/全片视觉/PotPlayer实机和最终语言声音批准均为false。
+- 原新30来源快照仍6910单元，不改历史文件；XJFE和NtEB各按原JSON3把开头音乐与语言纯守恒拆出一单元，当前6912。NtEB新161单元旁白始于6.879秒；Qkb138单元明确是2018年报告，导读标注当年草案背景，不能把当时评审与Zam/Ztso状态说成最新。
+- NtEB最初合成前词边界调用误用了要求有效narration的CLI，出口1、输入未变、无TTS；v2只改编排，继承成功group-import，调用`pretts_boundary_check_v1.py`后继续，15步骤全0。后续全新、已完整译审/分组/导读的工程使用RUN内`run_reviewed_production_v3.py ID TERMS_JSON`；它在TTS前检查当前计划，在TTS后编码前检查严格原窗及实际配音绑定术语，不是自动翻译器。不要重复已完成11片或原40的成功TTS/编码/解码。
+- Compiler旧显示边界失败、Python原窗超时及等义恢复、预取两子命令失败、NtEB接口失败均保留。XJ特定词表最初“编码前”时序声明已撤回，正式更正和新的编码后绑定审计在本片目录；不可按文件名倒推发生时间。原6声音门禁、旧65显示边界、LPMD交接、Rust混合来源及重定位人耳复核均未解除。
+- QP327单元仍为有14处疑点及多人交接待核的草稿，禁止合成；`-8UZhDjgeZU`131源单元本轮已完整阅读，但尚未写入翻译，112–130问答有混合讲者，下一须先精确登记交接，不可整段按同人合并。其余未完成ID在新综合入口中，不重下载已准备来源。
+- 每用途一个自包含MP4，不另交学习页/摘要/PBF/外挂，不外部发布；Edge-TTS/zh-CN-YunxiNeural非全离线。完整同人意群≤40秒、严格原窗、最多+15%，禁止额外atempo/借窗/截尾/重叠，重定位读chóng dìng wèi。图像先转长边≤1280且实际≤98304字节JPEG、逐张加载，不重发大PNG，不保证第三方413永不发生。已观察媒体会话均终态，目标API真实状态仍blocked。
+
+## 历史总任务断点：2026-11-11 新30来源齐备，实际译配继续
+
+- 总范围70项（原40＋新增30，69 YouTube＋1 X），不展开播放列表。原40权威仍是v134：34对技术通过、六声音门禁保留；不重做成功生产、不扩原40验证群体。
+- 新30已全部完成来源准备，共6910源单元；`source-progress.json`只表示来源阶段，不能据其中translation_started=false断言后来尚未翻译。新输出在`/home/pengdl/Videos/translated_backlog`，原40成品不移动。
+- 独立新批入口`/home/pengdl/Videos/translated_backlog/.workflow_logs/backlog-20261110/checkpoint-initial-five-v2/execution-progress.json`：ejv9、qlk、iJ_e、emYm、BR3五部236源/译单元已生成双版本，12生产/验证步骤、全片解码、正文逐帧/中文AAC及有限VLC均通过；15张受限成片图已逐张看过。合计39对技术通过，不等于70项完成或全片人耳验收。两张额外烧字图已看，最终记录需另绑定。
+- QP__S-yGtFU完整327单元仅是草稿，见`agent-translation/QP__S-yGtFU/complete-draft-review-v1.json`；14处来源词面/姓名/比较及多人交接待核，含待核占位符，禁止导入合成。另两片aQhhAwQC9DE（80单元）和3F78j15O_IU（20单元）已译审，生产会话继续，未提前计完成。
+- 新Arm/Python批次在TTS后、编码前增加严格原窗PCM与登记术语边界检查。Python17–18首次21.6464秒超过20.360秒源窗，已在编码前拒绝；只精简该组等义朗读并正式重编译/导入，v2原窗检查0，原v1非零日志、原输入与缓存保留。emYm旧render跨显示边界失败及v2恢复、预取两项失败历史同样不抹除。
+- 每用途一个自包含MP4：有声中文AI导读、完整正文和中文内嵌章节；母版双音轨/三软字幕，上传版单中文音轨/烧字。不另交学习页、摘要、PBF或外挂，不外部发布。TTS为Edge-TTS/zh-CN-YunxiNeural；同人完整意群≤40秒、严格原窗、最多+15%，禁止额外atempo/截尾/借窗/重叠；重定位读chóng dìng wèi，未听辨不称字音通过。
+- 图像先用`prepare_review_image.py`转JPEG，长边≤1280、实际≤98304字节，逐张加载并控制累计载荷；不重发大PNG，不保证第三方413永不发生。当前目标API真实状态为blocked，不沿用旧HANDOFF的active。旧65字幕边界、六声音门禁、LPMD交接、Rust混合来源及重定位人耳复核均不自动解除。
+
+## 原40权威断点：2026-11-10 v134 drgn双版本v15正式安装
+
+- 本轮progress。入口`/vol_1t/Videos/.workflow_logs/ai_intro_20261108/WfWrIwQw0O8/paired-v134/completed-paired-installation-v134.json`；先核对independent-installed-v134-b.json及independent-installed-b.exit=0，再核对metadata-registration-v134-b.json/register-b.exit=0和independent-registration-v134.json/final.exit=0。4957继承raw按真实四文件归档映射重核，十份原元数据精确备份保留。生产269项身份未改，不重跑成功TTS、v131预览/母版、v132契约或v133上传编码/完整解码/全帧SSIM/AAC/六图审。首轮只读独立审计错误地对模型符号链接raw坐标调用归档路由的canonical guard而出口1，原脚本/日志/出口保留；b仅将精确原四文件交给ArchiveRouter，其余raw保留原绝对坐标并逐字节哈希，不改模型、正式媒体或生产guard。首轮登记在写入前因quality.checked_at刷新被整体字典比较误拒1，原代码/日志/出口保留；诊断仅该观察时间戳变化，b只归一这一明确字段，媒体/事务/门禁及其余字段保持严格相等。
+- paired15实际preflight/create/ready/prepare/plan/promote均0，母版、上传和两清单四文件committed，原四文件完整归档；只读rollback-plan0，未实际回滚。ready配置与installed-canonical-runtime.json保留paired-v132声明坐标。辅助安装门禁按真实接口分开核对34对preflight与原40source-quality，不要求preflight提供不存在的videos字段；未产生此项失败、未放宽冻结生产guard。
+- 正式权威`/vol_1t/Videos/.workflow_logs/ai_intro_20261108/WfWrIwQw0O8/paired-v134/current-mixed-batch-v134.json`：34对，7v1/9v2/6v3/各1v4至v15，仍6840/6840、34允许/六声音blocked，其余33对身份保持。本片真实source upload2/inner1/preview3/native6 producer_revision4保持，仅字幕187/188的完整async、await显示切点；声音、角色及时间未改。两用途仍20.88秒有声中文AI导读、28中文章，母版双音轨/三软字幕，上传版单中文音轨/烧字，不计第35部。
+- 正式路径Linux libVLC/Xvfb有限章节、轨道切换与渲染0，全34/原40batch0；完整10314条/10280相邻边界扫描0，正式从66边界/81命中/19部变为65/80/18，仅移除本片一项。跳转日志原警告完整保留，不称连续全片无警告、人耳、人工GUI或PotPlayer实测。下一按原序完整审读AiYdDK7flB4，不重复安装。
+- 两条新请求元数据真实出口0，XpRL7exdFL8为C++ Exception Handling（3497秒），kjufVhyuV_A为Intel Skylake Top-Down Analysis（2897秒），按OFgxAFdxYAQ→XpRL7exdFL8→kjufVhyuV_A登记新不可变队列pending-video-requests-v134.json。总70=69YouTube+1X，新增30仅元数据，不扩播放列表或原40验证群体，不提前下载、翻译、TTS或外部发布。
+- 六声音门禁、LPMD67/120/150真实交接、Rust239/240混合来源及五部20项30词次重定位未听辨保持；重定位读chóng dìng wèi，同讲者语义分段、严格原窗、最高+15%，禁额外atempo/截尾/借窗/重叠。每用途单个自包含视频含有声AI导读/内嵌章，另有中文烧字上传版，不增交付学习页/摘要/PBF/外挂；逐张JPEG长边≤1280、≤96KiB并控制累计载荷，不保证第三方413永不发生。
+
+
+## 当前续做断点：2026-11-10 v133 drgn断点双版本候选验收通过，尚未安装
+
+- 本轮progress，总质量目标active。入口`/vol_1t/Videos/.workflow_logs/ai_intro_20261108/WfWrIwQw0O8/paired-v133/completed-upload-candidate-checkpoint-v133.json`；先核对independent-candidate-validation-v133.json、complete-candidate.exit=0及原会话65883真实0，再核对independent-registration-v133.json/final.exit=0。4847继承raw重核并精确备份十元数据；冻结269项生产身份未改。
+- 原会话51207已观察真实终态0，实际source2/inner1/preview3/native6 producer_revision4保持，中文烧字上传候选输出协议15，仅编码一次。新候选32321帧=522导读+31799正文，逐帧原画区SSIM均值0.9995616334271907/最低0.994513，全部PTS与帧时长误差0；CRF20有损不称像素无损。全片解码实际0且日志空，30304个中文AAC有序载荷/PTS/DTS/时长/flags与母版相同。
+- 六张实际编码JPEG已逐张看过，累计206482字节，每张≤1280/≤96KiB；187/188的Python交互式命令行和完整async、await限定句清晰单行，代码/会场小窗/按钮不被覆盖，导读与末条样本无裁切。28中文逻辑章及20.88秒有声导读保持，候选母版双音轨/三软字幕内容时间核验通过，上传版中文单音轨/烧字。未重跑TTS、v131母版/206栅格/六张叠加预览或既有成功基线；13项纯帧域契约按相同AST复用。
+- 候选Linux libVLC/Xvfb有限章节/音轨/字幕切换与渲染实际0；原日志保留no frame!、get_buffer/thread_get_buffer、decode_slice_header及Could not convert timestamp跳转警告，不称连续全片无警告、人耳听辨或PotPlayer实测。首个snapshot实际1仅因辅助脚本把模型符号链接坐标resolve为blob路径；字节/mtime/SHA完全相同。原失败源码/日志/出口保留，新b辅助脚本保留原绝对坐标后snapshot-b实际0，未改模型、冻结生产器或重跑成功媒体。
+- 正式权威仍paired-v129：34对、6840/6840、34允许/六声音blocked，7v1/10v2/6v3/各1v4至v14；显示66边界/81命中/19部。本片正式上传仍v2，候选一处修复不提前扣成65/80/18，不计第35部。已清空当前next_upload_command，ready_for_encoding=False、upload_encoding_pending=False，paired_installation_pending=False，无活动媒体进程，避免重复生产。
+- 最终登记真实0后，按checkpoint的next_preflight_command及next_create_command用冻结paired15、既有paired-v132声明UUID做意向/预检/创建；ready配置必须仍放paired-v132，绑定已声明installed-canonical-runtime.json。完整34/原40 ready预检通过后才四文件事务、原文件归档/只读回滚计划，再做正式路径VLC、全批复验和新显示扫描；不得只安装母版。
+- 六声音门禁、LPMD67/120/150真实交接未决、Rust239/240混合来源及五部20项30词次重定位未听辨保持，重定位读chóng dìng wèi；同讲者语义分段、严格原窗、最高+15%，禁额外atempo/截尾/借窗/重叠。68明确请求，新28片仅元数据，最新OFgxAFdxYAQ仍排lQcTxVygROw后。每用途自包含有声中文AI导读/内嵌中文章，含中文烧字上传版，不增交付学习页/摘要/PBF/外挂或平台发布；逐张受限JPEG并控制累计载荷，不能保证第三方413永不发生。
+
+
+## 当前续做断点：2026-11-10 v132 drgn断点匹配生产协议与全34/原40基线通过，尚未上传编码
+
+- 本轮progress，总质量目标active。入口`/vol_1t/Videos/.workflow_logs/ai_intro_20261108/WfWrIwQw0O8/paired-v132/completed-production-protocol-checkpoint-v132.json`；先核对independent-protocol-v132.json及verify.exit=0，再核对independent-registration-v132.json与final.exit=0。4764继承raw及十元数据精确备份已保留；不重跑v131成功的206栅格、六图、母版候选或既有TTS/完整解码。
+- 新增并冻结caption_boundary_upload_v12.py、paired_delivery_v15.py、paired_status_v15.py、mixed_paired_batch_v12.py；完整269项实现身份，旧v1至v14模块和路由不改。实际source2/inner1/preview3/native6 producer_revision4保持，新增输出协议为15，不改旧候选标签或放宽guard。109项有限生产契约、12项配置契约通过；mock/header不冒称实际编码、安装或播放器验收。原40文件事务契约按精确身份复用。
+- 四原文件已真实复制归档并通过ArchiveRouter重放，审计钩子阻挡直读原母版/上传/清单，当前质量render_state读取明确允许；没有替换正式文件或实际安装/回滚。三次派生脚本在生产写入前guard失败，derive/derive-b/derive-c实际出口1及原日志保留，derive-d恢复0，不覆写失败或冻结模块。
+- 当前链路真实全34/原40基线实际0；6840/6840、34允许/六声音blocked，原34顺序及全部成品不变。仅计划WfWrIwQw0O8从v2至v15；正式仍paired-v129：7v1/10v2/6v3/各1v4至v14，显示66边界/81命中/19部，不提前计未来65/80/18或第35部。本轮未编码、未安装、未新图审、无人耳/PotPlayer验收。
+- 最终登记真实0后，按checkpoint唯一next_upload_command，以新production-preview-context-v132.json和full-34-production-baseline-v132.json编码一次中文烧字上传候选；ready_for_encoding=True，但upload_encoding_pending与paired_installation_pending仍False。已有进程/候选先接续，不因静默重启。随后完整解码、全帧原画/时间/中文AAC、实际编码受限JPEG及有限VLC，再作paired15双版本四文件事务和ready全34/原40预检；不只安装母版。
+- 六声音门禁、LPMD67/120/150真实交接未决、Rust239/240混合来源及五部20项30词次重定位未听辨保留；重定位读chóng dìng wèi。严格原窗、同讲者语义分段、最高+15%，禁额外atempo/截尾/借窗/重叠。68明确请求仍保留，新28片仅元数据，最新OFgxAFdxYAQ排lQcTxVygROw后。每用途自包含有声中文AI导读/内嵌中文章节，含中文配音烧字上传版，不增交付附件或平台发布。图审逐张JPEG长边≤1280/≤96KiB并限制累计载荷，不加载巨型PNG，不保证第三方413永不出现。
+
+
+## 当前续做断点：2026-11-10 v131 drgn断点async/await字幕与母版候选完成，正式仍v129
+
+- 本轮实测progress，总目标active。入口`/vol_1t/Videos/.workflow_logs/ai_intro_20261108/WfWrIwQw0O8/caption-boundary-v131/independent-candidate-v131.json`；先核对native.exit=0、verify.exit=0，再核对independent-registration-v131.json与final.exit=0。4692继承raw逐字节重核，按v130最终登记备份八文档、当前Wf resume和handoff共十份元数据；未改冻结生产模块。
+- LPMD源67/120/150缺少可靠真实交接证据，本轮保留v130全部证据/unknown，不假装解决或重跑已成功ASR/TTS；整体未受阻，因为原34成品还有其他明确同讲者的显示问题。本轮顺原请求顺序转入下一WfWrIwQw0O8《Breakpoints in drgn》，不是丢弃那三处或缩小总范围。
+- 本片真实source upload2/inner1，既有116–118为omar组；本轮逐条审读115–119英文/中文/朗读与审校，历史128源/64实际项的完整审读按精确源哈希复用，不冒称本轮全文新审。115角色未明和119新问题均不合入。187/188只把对async、整体移到后条，完整async、await不再跨条；Python CLI不友好、核心已异步、以后可新增异步API的限定保持，字符/空格/标点/全部原时间及原声音窗不变。
+- 冻结repair v3生成206条显示预览，8项有限文字契约通过；全部206条实际libass栅格、ASS字词和双语英文后缀通过。2张原片与4张真实ASS叠加JPEG已逐张看过，每张≤1280/≤96KiB，合计见实际图审；仅叠加预览，不冒称已编码上传帧。无声音、人耳或PotPlayer验收声明。
+- 真实native6 producer_revision4母版候选已生成，双音轨/英文字幕/原画有序编码包与PTS/DTS保持；206条中英双语字幕已从候选提取核验，28中文逻辑章节与20.88秒有声AI导读保持。只重封装中文字幕与双语轨，没有TTS、音视频编码或正式安装，不计第35部，也不重复全片解码凑证据。
+- 正式权威仍g35Pda5RaMo/paired-v129/current-mixed-batch-v129.json：34对、原40为6840/6840、34允许/六声音blocked；正式显示仍66边界/81命中/19部。当前新候选仅修本片一处，不把候选的0个已登记拆词或未来65/80/18算成正式结果。六声音门禁、Rust239/240及五部20项30词次重定位未听辨继续保留，重定位读chóng dìng wèi。
+- 下一WfWrIwQw0O8先补匹配生产协议：实际source2/inner1/preview3/native6-revision4不得伪装成source1。旧source2→v12生产器要求旧batch基线，而当前保留v14的batch只允许source1→v14；实际拒绝已保存production-route-gap-v131.json，不放宽旧guard或伪造baseline。必须保留全部当前v1–v14路由并通过全34/原40生产基线后才编码；ready_for_encoding=False、next_upload_command=None，无活动媒体进程。不得重跑已成功本轮栅格/六图/母版或既有TTS/媒体。68明确请求仍保留，新28片仅元数据；每用途自包含有声中文导读/章节和中文配音烧字上传版，不增交付附件或平台发布，严格原窗、最高+15%，禁额外atempo/截尾/借窗/重叠。
+
+
+## 当前续做断点：2026-11-10 v130 LPMD三处交接独立取证，正式仍v129
+
+- 本轮是实测progress，总质量目标active。入口`/vol_1t/Videos/.workflow_logs/ai_intro_20261108/g35Pda5RaMo/source-turn-evidence-v130/independent-source-evidence-v130.json`；核对validate.exit=0及independent-registration-v130.json/final.exit=0。先逐字节重核4636继承raw，并从最终metadata-registration-v129-d.json精确备份十份现行元数据。没有重做v129成功媒体或改冻结生产模块。
+- 从原片提取源67/120/150附近18/20/22秒原声音频，合计60秒；本地large-v3、CPU int8、无提示词、word_timestamps实测，词时间只是估计，不是声纹分人或已核实声学边界。独立验证从原片再解码的PCM完全相同。源67的daemon/Intel P state识别不可靠，源150末尾Peace out.为保留待核的可疑ASR输出，不据此改英文。
+- 隔离TTS缓存测源120/150共四段、正常及+15%八项，全部在provider提示窗内拟合。首个“对。”正常7185/24000=0.299375秒、+15%6431样本，均≤保守9599样本分配；因此不能再断言0.4秒一定放不下。但1043.48/1304.12提示各落在ASR估计的so/yeah词内部，不能用拟合成功授权切源、角色或合并。原字幕窗/朗读文本守恒仅对假设分段成立，不是实际声学换人已证实。
+- 初次TTS误用仓库解释器缺edge_tts，真实出口1及原日志保留；改用既有pyvideotrans解释器后tts-b.exit=0，没有安装包、覆盖失败或重跑成功TTS。ASR弃用警告保留。未做新图审、人耳听辨、PotPlayer或平台发布；本轮不新增交付附件。
+- 正式权威与显示审计仍paired-v129：34对（7v1/10v2/6v3/各1v4至v14），原40为6840/6840、34允许/六声音blocked，显示66边界/81命中/19部；本片24秒有声中文AI导读、27中文内嵌章、母版双音轨三软字幕及中文配音烧字上传版保持。没有新编码、安装或第35部；68明确请求中的OFgxAFdxYAQ仍在lQcTxVygROw后，仅排队元数据。
+- 下一仍对g35Pda5RaMo源67/120/150获取可复核的真实交接/人物证据；保持unknown、不dismiss，不反向借151/152角色覆盖混合150，不把provider或ASR时戳当声学授权。六声音门禁、Rust239/240及五部20项30词次重定位未听辨保留；重定位读chóng dìng wèi，严格原窗、最高+15%，禁额外atempo/截尾/借窗/重叠。不重跑本轮成功ASR、八项TTS或v129媒体凑进度。
+
+
+## 当前续做断点：2026-11-10 v129 Intel LPMD双版本v14正式安装，全34/原40复验通过
+
+- 最终证据收尾补充：原b安装验收把自身尚未关闭的空日志纳入raw，随后打印终态令日志变化，旧最终登记真实出口1及全部原报告/日志/出口保留；不是媒体或事务失败。c在元数据映射晚于归档解析处真实失败1，原代码/日志/出口保留；d先按已声明十元数据精确映射再做归档解析，独立复验原安装，排除自身活日志及可变共享元数据的媒体raw闭包；不重跑编码/解码/SSIM/AAC/图审/VLC/TTS或已commit事务。当前最终核对independent-installed-v129-d.json、independent-installed-d.exit=0、metadata-registration-d.exit=0及independent-registration-d.exit=0；independent-registration-v129.json由d收尾验收生成。
+
+- 本轮progress，质量目标active。入口`/vol_1t/Videos/.workflow_logs/ai_intro_20261108/g35Pda5RaMo/paired-v129/completed-paired-installation-v129.json`；先核对independent-installed-v129.json及实际independent-installed-b.exit=0，再核对independent-registration-v129.json及最终真实出口0。v128候选及恢复登记均真实0，4508继承raw与十份元数据原字节备份重核。不得重跑成功TTS、v126母版/253栅格/十图、v127契约/来源基线、v128上传编码/完整解码/全帧SSIM/AAC/六实际JPEG图审或v129已committed事务。
+- 匹配paired14实际完成intent/preflight/create、ready全34预检和prepare/plan/promote四文件commit；母版、上传、两清单同步安装，原四文件完整归档，只读rollback-plan通过，未执行真实回滚。ready配置正确保留在paired-v127，installed runtime亦在其声明路径。v128元数据助手旧proof接口失败1及恢复0、v129派生助手顺序guard失败1及b恢复0、只读验收器误用v7平铺来源字段失败1及按真实v6引用链恢复均保留原代码/日志/出口，不是新媒体失败，未改冻结生产模块。
+- 正式权威`/vol_1t/Videos/.workflow_logs/ai_intro_20261108/g35Pda5RaMo/paired-v129/current-mixed-batch-v129.json`：34对，7v1/10v2/6v3/各1v4至v14；原40仍6840/6840、34允许/六声音blocked，仅本片v1到v14，其余33对身份不变。实际source upload1/inner1/preview3/native6 producer_revision4分开保留。母版双音轨/三软字幕与中文烧字上传版均有24秒有声AI导读、27中文内嵌章；25Hz实际36884帧=600导读+36284正文。
+- 正式路径有限VLC章节/切轨/渲染与全34/原40复验通过，正式媒体精确复用已验收候选。原画区全帧SSIM平均0.999485611647364、最低0.99724，PTS/帧时长误差0，34581中文AAC逐包保留；CRF20有损，不称像素无损。六张实际编码JPEG此前逐张看过、累计238019字节，每张≤1280/≤96KiB；安装阶段没有重新编码、TTS、全片解码或新图审。VLC真实seek/decoder警告保留，不称全片连续无警告、人耳或PotPlayer实测。
+- 正式显示现66边界/81命中、19部（10314字幕/10280相邻边界），只去掉本片184/185的CPU一个命中；125/126/127 audience-power原组及128回答独立、字符/时间/声音保持。源67 intel_pstate缺同人锚点、源120 Ubuntu和源150 schedutil内部交接三处仍未决；provider提示1043.48/1304.12秒不是声学边界，不强配角色、不dismiss。下一g35Pda5RaMo继续这三处独立来源取证，不能把单处显示修复称全片全修。encoding/installation pending均False、next_upload_command=None。
+- 六声音门禁、Rust239/240混合源延期、五部20项30词次重定位未听辨保持，读chóng dìng wèi，严格原窗及最高+15%，禁额外atempo/截尾/借窗/重叠。68明确请求中最新OFgxAFdxYAQ在lQcTxVygROw后，新增28片仍仅元数据，不扩播放列表或原40群体。每用途自包含有声中文AI导读/中文章及中文配音烧字上传版，不增交付学习页/摘要/PBF/外挂或平台发布。逐张JPEG并控制累计载荷，不保证第三方413永不发生。
+
+
+## 当前续做断点：2026-11-10 v128 Intel LPMD中文烧字候选v14验收通过，正式未安装
+
+- 登记助手曾因沿用旧batch.pairs.proof接口真实出口1，八文档及resume已写、handoff未写；原脚本/日志/出口及九项部分写入身份均保留。恢复器直接使用原严格比较函数，只续完登记，不改冻结生产器或验证规则，不重跑成功媒体。最终需核对metadata-registration-recovery.exit=0和独立登记真实0，原metadata-registration.exit=1不得覆盖。
+
+- 本轮progress，质量目标active。入口`/vol_1t/Videos/.workflow_logs/ai_intro_20261108/g35Pda5RaMo/paired-v128/completed-upload-candidate-checkpoint-v128.json`；先核对independent-candidate-validation-v128.json和原会话24372真实终态0，再核对independent-registration-v128.json及最终真实出口0。4401继承raw与候选独立4488raw已重核，十份元数据原字节备份保留。上传原会话3568真实0，不重跑成功编码/全片解码、SSIM/AAC/六图审/VLC、v126母版/253栅格/十图、v127契约/来源基线或TTS。
+- 实际source upload1/inner1/preview3/native6 producer_revision4/upload14分别保持。母版双音轨/三软字幕/27中文章，上传中文AAC/烧字/27章；实际25Hz、36884帧=600导读+36284正文、24秒偏移。全帧原画区平均SSIM0.999485611647364、最低0.99724，预先阈值.99/.95未改，PTS/帧时长最大误差均0；CRF20有损，不称像素无损。34581中文AAC有序payload/PTS/DTS/duration/size/flags保持，没有新TTS。
+- 六张实际编码JPEG均逐张查看，累计238019字节，每张长边≤1280/实际≤96KiB。导读明确“AI导读·非讲者原话”，184称呼引导语和185完整CPU/GPU问题、末条253均清晰，字幕在新增黑带不遮投影/会议控件；不是旧ASS图冒充，也不是全片人工图审、词级同步或耳听。纯partition原13契约按相同AST复用，新测试0。候选双版本有限VLC通过，真实get_buffer/thread_get_buffer/decode_slice_header/no frame及Could not convert timestamp跳转警告保留，不称连续全片无警告或PotPlayer实测。
+- 已清除当前重复编码入口：next_upload_command=None、ready_for_encoding=False、upload_encoding_pending=False。下一仅在本轮最终登记真实0后，按冻结paired14及既有UUID执行intent/preflight/create；ready配置必须仍在paired-v127以包含其installed-canonical-runtime.json，先完整34/原40预检，再四文件事务/原文件归档/只读回滚计划。正式路径VLC及全批复验/新显示扫描在真实安装后进行，不能只装母版。
+- 正式权威仍`/vol_1t/Videos/.workflow_logs/ai_intro_20261108/d2HvN0v7V24/paired-v125/current-mixed-batch-v125.json`：34对，8v1/10v2/6v3/各1v4至v13，本片仍正式upload1；原40部6840/6840、34允许/六声音blocked，正式显示仍67边界/82命中、19部（10314字幕/10280相邻边界），候选未安装不扣数。只修184/185的CPU切点，既有125/126/127 audience-power组未混入128回答。源67 intel_pstate无同人锚点、源120 Ubuntu和源150 schedutil内部交接三处仍未决，1043.48/1304.12秒provider提示不是声学边界；不强配角色、不dismiss。
+- 六声音门禁、Rust239/240混合源延期、五部20项30词次重定位未听辨保持；读chóng dìng wèi，严格原窗/最高+15%，禁额外atempo/截尾/借窗/重叠。仍68明确请求，最新OFgxAFdxYAQ在lQcTxVygROw后，新增28片仅元数据，不扩播放列表或原40群体。每用途自包含有声中文AI导读及中文内嵌章、另有中文配音烧字上传版；不增交付学习页/摘要/PBF/外挂或平台发布。逐张JPEG及累计载荷受限，不保证第三方413永不出现。
+
+
+## 当前续做断点：2026-11-10 v127 Intel LPMD匹配v14生产协议与真实全34/原40基线通过，尚未上传编码
+
+- 本轮progress，质量目标active。入口`/vol_1t/Videos/.workflow_logs/ai_intro_20261108/g35Pda5RaMo/paired-v127/completed-production-protocol-checkpoint-v127.json`；先核对independent-protocol-v127.json和实际independent-protocol.exit=0，再核对independent-registration-v127.json及最终真实出口0。前轮v126为真实验证progress，4326继承raw及十元数据原字节备份重核；不重跑已成功v126的39契约、253栅格、十图图审、原生母版、旧TTS/编码/解码。
+- 新增并冻结caption_boundary_upload_v11.py、paired_delivery_v14.py、paired_status_v14.py、mixed_paired_batch_v11.py；只接受真实source upload1/inner1/preview3/native6 producer_revision4到成对v14，旧模块不改、不改历史格式标签。按真实v126平铺字段消费审校、栅格和登记，新增上传回执显式保留源版本/预览版本/原生生产修订。冻结前两次键名、消息和整数/完整253边界计数收紧均保留原实现与成功预检，以c版及最终冻结模块为准，没有覆盖旧报告或伪造失败。
+- 105项本片有限契约全过，覆盖来源/母版头、布尔/浮点版本拒绝、v1–v14路由、253条精确字幕/英文后缀/栅格及三处未决不可冒充全修；不是全局完备或真实编码/安装测试。真实四文件副本经ArchiveRouter完整重放，阻止直接读取历史母版/上传/上传清单，当前质量render_state有意可读；未删除/替换正式文件，未真实安装或回滚。原40文件事务契约仅按精确身份复用，没有重跑凑数。
+- 当前v14生产器实际全34成对与原40来源基线完成，6840/6840、34允许/六声音blocked，旧v1至v13路由及全部正式身份保持。编码授权是`/vol_1t/Videos/.workflow_logs/ai_intro_20261108/g35Pda5RaMo/paired-v127/full-34-production-baseline-v127.json`，计划是本目录planned-batch-configuration-v127.json；使用checkpoint.next_upload_command，目标为尚不存在的upload-candidate。现可编码但尚未启动，encoding/installation pending均False；不要重启成功母版、TTS或把旧协议guard放宽。
+- 正式权威仍`/vol_1t/Videos/.workflow_logs/ai_intro_20261108/d2HvN0v7V24/paired-v125/current-mixed-batch-v125.json`：34对，8v1/10v2/6v3/各1v4至v13，正式显示仍67边界/82命中、19部（10314字幕/10280相邻边界）。本片正式upload1，候选仅修184/185的CPU，不提前扣数；源67 intel_pstate无同人锚点、源120 Ubuntu及源150 schedutil混合交接保留，1043.48/1304.12秒provider提示不是声学边界，不登记假角色、不dismiss，继续独立来源取证和严格原窗测时。
+- 实际帧域25Hz、36884总帧=600有声AI导读+36284正文，24秒偏移、27中文内嵌章；复用v126母版双音轨/三软字幕及十张受限JPEG，不是本轮新上传帧或听辨。后续须观察单次编码真实终态、完整解码、全帧原画SSIM/时间/AAC、实际编码JPEG逐张审图及有限VLC，再ready全34预检/四文件事务/正式路径VLC/全34与原40复验。ready配置仍放paired-v127以包含已声明runtime路径，防止再现v125配置父目录错误。
+- 保留六声音门禁、Rust239/240混合源延期、五部20项30词次重定位未听辨与chóng dìng wèi、严格原窗及最高+15%，禁额外atempo/截尾/借窗/重叠。68明确请求（67 YouTube+1 X）及新增28片仅元数据不变，最新OFgxAFdxYAQ；每用途自包含有声AI导读/中文章及中文烧字上传版，不增学习页/摘要/PBF/外挂、不发布平台。逐张JPEG≤1280/实际≤96KiB并控制累计载荷，不保证第三方413永不发生，不宣称PotPlayer或全片耳听实测。
+
+
+## 当前续做断点：2026-11-10 v126 Intel LPMD单处显示预览及原生母版候选通过，三处来源待核，未安装
+
+- 本轮progress，质量目标active。入口`/vol_1t/Videos/.workflow_logs/ai_intro_20261108/g35Pda5RaMo/caption-boundary-v126/completed-reviewed-preview-and-native-candidate-v126.json`；先核对independent-candidate-v126.json及实际independent-candidate.exit=0，再核对independent-registration-v126.json及最终真实出口0。4206继承raw已重核，十份元数据原字节备份保留；未重跑v125成功安装、旧TTS/编码/解码，不覆盖历史失败。
+- g35Pda5RaMo完整审读170源原文/中文/朗读、96实际朗读及原审校，保留46既有组、全部音色/声音窗和24秒正文偏移。仅184/185的C｜PU属于既有125/126/127 audience-power问题；称呼引导语后换条，下一条完整保留CPU/GPU功率分配问题，不混入128回答。253条原时间/字符/空格/标点、双语英文后缀保持；25项实际分区有限契约及全253条真实libass栅格通过。
+- 六张来源JPEG与四张ASS覆盖JPEG均已逐张实际看过，每张长边≤1280/实际≤96KiB，总517559字节；字幕在新增黑带，不遮投影，CPU/GPU各完整单行。185显示2.143秒、17.5宽度单位，约8.166单位/秒，仅是阅读负担诊断，不称词级同步、人耳或实际上传编码帧；累计载荷仍需控制，不能保证第三方413永不发生。
+- 103/104 intel_pstate源67仍无同人登记锚点；177/178 Ubuntu源120与222/223 schedutil源150包含内部交接。原JSON3分别给1043.48与1304.12秒提示，但不是声学或词级对齐。六图不授权伪造角色/把整项当单人；三个真实未知角色拒绝契约通过，未dismiss、未来源迁移、未跨人合组，继续定向来源取证，不宣称四处全修。
+- 复用冻结caption_boundary_master_v4.py，真实source upload1/inner package1/preview3/native6 producer_revision4分别保持，另14项本片图审门禁契约通过。已生成隐藏原生母版候选，独立逐包比较原画、双音轨、英文字幕全部payload/顺序/PTS/DTS保持；双音轨/三软字幕及27中文章标题/时间独立验收通过。章节数据包可重建，不宣称字节相同；无新音画编码、TTS或全片解码，正式四文件未动。
+- 正式权威仍`/vol_1t/Videos/.workflow_logs/ai_intro_20261108/d2HvN0v7V24/paired-v125/current-mixed-batch-v125.json`：34对（8v1/10v2/6v3/各1v4至v13），原40部6840/6840、34允许/六声音blocked；正式显示仍67边界/82命中、19部，10314字幕/10280相邻边界。候选仅去掉本片一处，尚不扣正式数。本片正式仍upload1，须建立匹配source1/preview3/native6-revision4的显式生产协议和全34/原40基线，不能套v10的preview1/native4或v12的source2，也不能改标签绕过；下一编码命令None、encoding/installation pending均False。
+- 保留Rust239/240混合源延期、五部20项30词次重定位未听辨与chóng dìng wèi、严格原窗及最高+15%，禁额外atempo/截尾/借窗/重叠。68明确请求（67 YouTube+1 X）及新增28片仅元数据不变，最新OFgxAFdxYAQ在lQcTxVygROw后；每用途一个自包含有声AI导读/中文内嵌章视频，另有中文配音烧字上传版；不增学习页/摘要/PBF/外挂、不发布平台、不宣称PotPlayer或全片耳听实测。
+
+
+## 当前续做断点：2026-11-10 v125 文件系统回收双版本v13正式安装，完整34/原40复验通过
+
+- 本轮progress，质量目标active。入口`/vol_1t/Videos/.workflow_logs/ai_intro_20261108/d2HvN0v7V24/paired-v125/completed-paired-installation-v125.json`；先核对independent-installed-v125.json及实际independent-installed.exit0，再核对independent-registration-v125.json及最终真实出口0。前轮v124为已验证progress，4119继承raw及十份元数据精确备份核验；不重跑已成功TTS、v121的52契约/455栅格/八图、v122原生母版及72契约、v123协议测试、v124上传编码/全片解码/全帧SSIM/AAC/六实际JPEG图审。
+- 匹配paired13已实际完成intent/preflight/create及ready全34预检，然后可恢复四文件事务prepare/plan/promote committed；原四文件完整归档，另有只读rollback-plan通过，未执行真实回滚。原ready配置因放在v125目录、不包含既有v123运行收据路径而拒绝1，原脚本/错误配置/日志/出口保留；新恢复仅把完全相同配置放回声明的v123父目录，未改冻结模块、候选、UUID或重建已成功包。实际installed runtime仍在paired-v123/installed-canonical-runtime.json。
+- 正式新权威`/vol_1t/Videos/.workflow_logs/ai_intro_20261108/d2HvN0v7V24/paired-v125/current-mixed-batch-v125.json`：34对，8v1/10v2/6v3/各1v4至v13；原40仍6840/6840、34允许/六声音blocked。仅本片正式v2→v13，其余33对身份不变。真实source2/package1/preview4/native7/producer_revision1分开保留，不改格式标签。母版双音轨/三软字幕轨与中文烧字上传版均有声AI导读及33中文内嵌章。
+- 已在正式路径运行有限VLC章节/切轨/渲染检查，全34/原40真实复验通过；实际33章及75542帧（590导读+74952正文）候选内容身份相同。沿用逐帧原画区SSIM均值0.9987218927881311/最低0.993975、PTS/帧时长最大误差0及70823中文AAC逐包证明；不是像素无损。本轮无新AV编码、TTS、全片解码或新图审。VLC的get_buffer/thread_get_buffer/decode_slice_header/no frame与Could not convert timestamp跳转警告保留，不称连续全片无警告、人耳或PotPlayer验收。
+- 实际正式显示扫描现为67边界/82命中、19部（10314字幕、10280相邻边界），比前轮仅去掉17/18一对的两个嵌套峰会名命中；本片局部词表0。只是显示后缀移动，7/8与9/10两原组、13.172秒显示间隙及声音保持，未假称新听辨。下一g35Pda5RaMo须先完整审读源/译文/朗读、角色和严格原窗，不把词表命中当换人或声音证据。重复编码指令仍None，encoding/installation pending均False。
+- 六声音门禁、Rust239/240混人对应585/586与589/590延期、五部20项30词次重定位未听辨保持，读chóng dìng wèi；同人语义分组、严格原窗、最高+15%，禁额外atempo/截尾/借窗/重叠。仍68明确请求，最新OFgxAFdxYAQ在lQcTxVygROw后，新增28片仅元数据，不扩播放列表/原40或发布平台。每用途一个自包含有声AI导读/内嵌中文章节视频，含中文配音烧字上传版；不增学习页/摘要/PBF/外挂。逐张JPEG长边≤1280/实际≤96KiB并控制累计载荷，不能保证第三方413永不出现。
+
+
+## 当前续做断点：2026-11-10 v124 文件系统回收中文烧字候选v13验收通过，正式未安装
+
+- 本轮progress，质量目标active。入口`/vol_1t/Videos/.workflow_logs/ai_intro_20261108/d2HvN0v7V24/paired-v124/completed-upload-candidate-checkpoint-v124.json`；先核对independent-candidate-validation-v124.json及原会话42017真实终态0，再核对本轮independent-registration-v124.json及最终真实出口0。原4020raw与候选独立4104raw已核验；十份元数据原字节备份保留。原上传会话59887真实终态0，禁止重启成功编码、全片解码、SSIM/AAC/六图审/VLC、旧契约、原生母版或TTS。
+- 实际上传候选已经编码并完整解码，真实source2/preview4/native7/producer_revision1/upload13分别保持；母版沿用双音轨、三字幕轨及33中文章，上传版中文AAC/烧字/33章。全75542帧（590导读+74952正文）逐帧原画区比较，平均SSIM0.9987218927881311、最低0.993975，预先阈值.99/.95未改，PTS/帧时长最大误差均0；不冒称像素无损。70823中文AAC有序payload/PTS/DTS/duration/size/flags保持，无新TTS。
+- 已逐张查看六张实际编码JPEG，累计255444字节，逐张长边≤1280/实际≤96KiB：导读“AI导读·非讲者原话”、17/18完整峰会名及末条455均清楚未裁切，字幕在新增黑带、不遮讲者或投影。不是全片人工图审、词级同步或听辨。13项纯partition契约按完全一致AST复用，新测试0。候选双版本有限VLC通过，但保留get_buffer/thread_get_buffer/decode_slice_header/no frame及Could not convert timestamp跳转警告，不称连续全片无警告或PotPlayer实测。
+- 已清除旧next_upload_command，设None，ready_for_encoding=False、upload_encoding_pending=False，避免重复生产。下一仅在本轮最终登记实际0后，按既有UUID路径和匹配paired13执行intent/preflight/create、ready配置及完整34/原40预检，再可恢复四文件事务；installed runtime仍声明在paired-v123/installed-canonical-runtime.json。成功安装后才做正式路径VLC、全批复验和新显示扫描。
+- 正式权威仍`/vol_1t/Videos/.workflow_logs/ai_intro_20261108/GoNFugnhfAc/paired-v120/current-mixed-batch-v120.json`：34对，8v1/11v2/6v3/各1v4至v12，本片正式上传仍v2，v13未安装；6840/6840、34允许/六声音blocked保持。正式显示仍68边界/84命中、20部，不提前扣除。只移17/18显示后缀，7/8与9/10两原组及13.172秒显示间隙保持，无声音移动。全部历史失败及冻结生产模块不改。
+- 六声音门禁、Rust239/240混人延期、五部20项30词次重定位未听辨保持；读chóng dìng wèi，同人语义分组、严格原窗、最高+15%，禁额外atempo/截尾/借窗/重叠。仍68明确请求，最新OFgxAFdxYAQ排lQcTxVygROw后，新增28片仅元数据，未下载/译配，不扩播放列表或原40验证群体。每用途一个自包含有声AI导读/内嵌中文章节视频，含中文配音烧字上传版；不增学习页/摘要/PBF/外挂或发布平台。逐张受限JPEG并控制累计载荷，不能保证第三方413永不出现。
+
+
+## 当前续做断点：2026-11-10 v123 文件系统回收匹配生产协议v13及全34/原40基线通过，尚未上传编码
+
+- 本轮progress，质量目标active。入口`/vol_1t/Videos/.workflow_logs/ai_intro_20261108/d2HvN0v7V24/paired-v123/completed-production-protocol-v123.json`；先核对independent-protocol-v123.json与实际independent-protocol-b.exit0，再核对independent-registration-v123.json与最终真实出口0。前轮v122是已验证progress，3946旧raw及十份元数据备份核对；不重跑成功TTS、v121的52契约/455栅格/八JPEG图审、v122的72契约/原生母版或既有编码解码。
+- 新增并冻结caption_boundary_projection_v3.py、caption_boundary_upload_v10.py、paired_delivery_v13.py、paired_status_v13.py、mixed_paired_batch_v10.py。真实package1/source2/preview4/master7/producer_revision1分别保留，新上传/成对输出协议为13；旧v1至v12生产链路及全部历史实现不改。新projection用独立proof_v2重建完整455中文、英文后缀、原时间及ASS，不调用三个原预览变换入口，不新增角色、不重标签。
+- 本轮有限测试实际107次运行，通过92个不同测试方法（15次继承重复，不冒称107种独立情形或全局完备）；v1至v13路由、严格头部/类型、双原组证明/原栅格、断点拒绝均覆盖。实际四原文件归档回放通过，审计钩子阻挡直接读取历史正式媒体；无安装或真实回滚，原40事务契约按精确实现复用。两个辅助脚本各一次真实失败1（替换次数预期不符、派生导入名错误）与原源码/日志/出口保留，分别b恢复0；生产模块、成功测试和基线未重跑或改标签。
+- 当前新生产链路真实全34/原40基线通过，6840/6840、34允许/六声音blocked保持；验证器和导出器已绑定本片两个真实7/8与9/10组、13.172秒显示间隙及33章。实际25/1、75542帧=590导读+74952正文。此轮无新媒体、AV编码、TTS、全片新解码或新图审，沿用有声AI导读/双音轨母版候选；v122的VLC跳转解码警告仍保留，不冒称耳听、PotPlayer或连续全片无警告。
+- 正式权威仍`/vol_1t/Videos/.workflow_logs/ai_intro_20261108/GoNFugnhfAc/paired-v120/current-mixed-batch-v120.json`：34对，8v1/11v2/6v3/各1v4至v12，v13尚未安装；正式显示仍68边界/84命中、20部，本片正式上传仍v2，不提前扣数。仅在本轮最终独立登记实际0后，按断点唯一匹配命令编码一次中文烧字上传版；持续观察真实进程，不能因静默/超时重启。随后完整解码、全帧原画区/时间/中文AAC、实际编码受限图审/VLC及ready全34预检通过，才可四文件事务及正式路径验收。
+- 六声音门禁、Rust239/240混人延期、五部20项30词次重定位未听辨、chóng dìng wèi、最高+15%及严格原窗不变。仍68明确请求，最新OFgxAFdxYAQ在lQcTxVygROw后，新增28片仅元数据，不扩播放列表或原40群体。每用途一个自包含有声中文AI导读/内嵌中文章节视频，另有中文配音烧字上传版；不增学习页/摘要/PBF/外挂或发布平台。逐张JPEG长边≤1280、实际≤96KiB并控制累计载荷，不能保证第三方413永不出现。
+
+
+## 当前续做断点：2026-11-10 v122 文件系统回收原生母版候选v7/revision1通过，尚未上传编码或安装
+
+- 本轮progress，质量目标active。入口`/vol_1t/Videos/.workflow_logs/ai_intro_20261108/d2HvN0v7V24/native-master-v122/completed-native-master-candidate-v122.json`；先核对independent-candidate-v122.json及真实independent-candidate.exit0，再核对independent-registration-v122.json及最终真实出口。继承3895旧raw及十份元数据备份；不重跑v121成功52契约/455栅格/八JPEG图审、任何成功TTS或旧媒体阶段。
+- 新增并冻结caption_boundary_proof_v2.py和caption_boundary_master_v6.py，文件名v6的真实输出是母版格式7/producer_revision1，明确接受真实package1/upload2/preview4。独立证明重建全部455条，不调用v4变换/计划验证/预览验证三个入口；严格比较完整证明、类型/字段/有序集合、双原组及全部ASS。72项新有限契约通过，不冒称全局完备；全部旧实现和真实历史失败保留。
+- 隐藏母版候选已实际重封装并独立核验：75542视频包、70823中文AAC包、130137英文AAC包、623英文字幕包的有序payload/PTS/DTS/duration/size/flags保持；仅两条中文/双语字幕转mov_text，全部455中文和英文双语后缀准确，33章逻辑标题/时间、语言及默认轨保持。章节辅助包重建，不称字节不变；沿用原全片解码证据并证明编码包保持，不冒称新全片AV解码或音视频编码。
+- 17/18只将“也就是 Linux 存储、”从17末移至18首；真实7/8与9/10两组合成窗分别仍为61.199–89.600及89.600–116.720秒，13.172秒显示间隙保持。完整人工语义审读仍仅源6–11，不冒称全301人工读完；301源/138合成项/102登记组及实际朗读投影保持，不新增角色、不借窗或强并55.521秒大组。原八JPEG428800字节图审复用，未生成新上传图或新增已看图的声明。
+- 本轮Linux libVLC/Xvfb有限实测核对33章、六次章节跳转、三次双音轨切换、四次字幕切换和三张渲染快照；快照未加载图审。保留真实seek/decoder警告，不称连续全片无警告、耳听、人工GUI或PotPlayer实测，dummy audio并非试听。
+- 正式权威仍`/vol_1t/Videos/.workflow_logs/ai_intro_20261108/GoNFugnhfAc/paired-v120/current-mixed-batch-v120.json`：34对，8v1/11v2/6v3/各1v4至v12；原40部6840/6840、六声音blocked与正式68边界/84命中、20部保持。本片正式上传仍v2，v122只有隐藏母版候选，没有上传编码、正式路径替换或四文件事务，不能提前扣除正式显示问题。
+- 下一步建立匹配真实preview4/master7revision1的新upload/paired/mixed生产协议及有限契约，运行真实全34/原40基线后才可声明一次上传编码命令。随后实际编码/完整解码/全帧时序与AAC/受限编码图审/VLC/全34预检通过才安装。六声音门禁、Rust239/240混人延期、五部20项30词次重定位未听辨、chóng dìng wèi、最高+15%和原窗限制不变；68明确请求、最新OFgxAFdxYAQ及新增28片仅元数据不变。每用途自包含有声导读/中文章节视频与中文配音烧字上传版，不增学习页/摘要/PBF/外挂或发布平台；JPEG≤1280/96KiB并控制累计载荷，不能保证第三方413永不发生。
+
+
+## 当前续做断点：2026-11-10 v121 文件系统回收双组专名显示预览通过，尚未母版/编码/安装
+
+- 本轮progress，质量目标active。入口`/vol_1t/Videos/.workflow_logs/ai_intro_20261108/d2HvN0v7V24/caption-boundary-v121/completed-reviewed-display-preview-v121.json`；先核对independent-candidate-v121.json及真实independent-candidate.exit0，再核对independent-registration-v121.json及最终真实出口。前轮v120为已验证progress，原登记失败1与b恢复0/封口0分别保留；本轮3805旧raw重核，未重跑任何成功TTS、旧编码/解码或v120安装。
+- d2HvN0v7V24实际301源/138合成项/102登记组。完整人工语义审读范围是源6–11的英文、中文、朗读及原窗，不冒称全301人工审读；程序逐源核全部覆盖及实际朗读投影。17/18峰会名跨真实7/8与9/10两个组，显示有13.172秒间隙，不能伪造同一合成窗。既有7/8朗读以重要性句号结束，9/10朗读已从完整峰会名起首，角色均为已登记matthew-wilcox，不以音色推断身份或新增单项角色。
+- 新增并冻结caption_boundary_repair_v4.py的显式preview4协议；只将17尾部“也就是 Linux 存储、”移至18起首，前条原逗号保留并明确与朗读句号不同。两条各归原真实组，不合并55.521秒大组、不借用声音窗口、不填显示间隙。全部455字符/空格/标点/时间、英文双语后缀保持；52项有限契约和全部455条真实libass安全带栅格通过，不称全局完备测试或词级同步。
+- 四张原片JPEG与四张ASS全幅/字幕带JPEG均已逐张实际看过，长边≤1280、每张≤96KiB，总428800字节；峰会全名完整在同一行，换行在后方逗号，不遮原画。这些不是新上传编码帧或听辨。新模块冻结前PIL依赖缺失、tuple/JSON坐标比较两次真实出口1的实现/日志/出口保留；改用既有ffprobe并在新v4入口规范JSON坐标，原审校和计划没有覆盖，plan-c及两组契约/预览/栅格/图审真实0，所有旧协议未改。
+- 正式权威仍`/vol_1t/Videos/.workflow_logs/ai_intro_20261108/GoNFugnhfAc/paired-v120/current-mixed-batch-v120.json`：34对，8v1/11v2/6v3/各1v4至v12；原40部6840/6840、六声音blocked不变。正式显示仍68边界/84命中、20部；隐藏候选只去掉本片一对两嵌套命中，未提前扣数或替换成片。当前正式本片上传仍v2，无新母版、上传编码或四文件事务。
+- 下一步先建立精确接受真实preview4/双真实组的新原生母版生产器与独立包/字幕证明，保留原视频、双音轨、英文编码包及33章；现有master/projection只接受preview2/3，禁止改标签绕过。之后还需匹配新生产协议、有限契约、全34/原40基线，才可声明上传编码命令并继续完整媒体验收/安装。保持六声音门禁、Rust混人延期、五部20项30词次重定位未听辨，chóng dìng wèi、最高+15%及所有原窗限制；68明确请求与新增片仅元数据不变，每用途自包含有声导读/中文章节和中文配音烧字上传版，不增学习页/摘要/PBF/外挂或平台发布；受限JPEG及累计载荷不保证第三方413永不发生。
+
+
+## 当前续做断点：2026-11-10 v120 实时/KVM双版本正式v12安装，两处显示切点已修复
+
+- 本轮progress，质量目标active。入口`/vol_1t/Videos/.workflow_logs/ai_intro_20261108/GoNFugnhfAc/paired-v120/completed-paired-installation-v120.json`；先核对independent-installed-v120.json及真实出口0，再核对independent-registration-v120.json及最终真实出口。前轮v119是已验证progress，3626旧raw经四文件归档路由重核；不重跑成功TTS、v118 balanced预览/411栅格/八ASS图审/原生母版、v119协议或v120上传编码/完整解码/全帧检查/十图审及安装。
+- GoNFugnhfAc实际上传来源v2、既有组显示预览v3、母版格式v6/producer_revision4和正式成对v12分别保留；五个v119生产模块及全部旧实现冻结。77/78仅移实时两字，使实时任务完整，339/340保留完整Paul McKenney及句读；全部字符、原时间、英文双语后缀、28章、既有角色/语义组与严格原窗保持，无新增singleton角色。
+- 四文件可恢复事务真实committed，原四文件精确归档，回滚仅作计划未实际执行；复用v118母版，无新TTS或母版AV编码。唯一一次中文上传编码及完整解码实际出口0，解码日志空；两版中文AAC共62629包的有序payload/PTS/DTS/时长保持。实际25/1、66801帧=564导读+66237正文，全帧原画区SSIM均值0.998699962441、最低0.992877，PTS/帧时长误差0，不是逐像素无损。本轮比较子进程另有持久启动/真实出口0收据，不重跑或覆盖历史v117的143。
+- 十张实际编码JPEG均已逐张看过，覆盖导读、四条修订的全幅/字幕带及片尾；长边≤1280、实际每张≤96KiB，总449452字节，正文字幕在新增黑带不遮原画。候选及正式路径有限libVLC/Xvfb章节/轨道/渲染通过，实际seek/解码警告保留，不称全片连续无警告、人耳或PotPlayer实机验收。13项25Hz有限帧域契约本轮通过，原90项生产和40项事务契约精确复用，不称重跑。
+- 当前权威`/vol_1t/Videos/.workflow_logs/ai_intro_20261108/GoNFugnhfAc/paired-v120/current-mixed-batch-v120.json`：34对，8v1/11v2/6v3/各1v4至v12；原40部6840/6840、34允许/六声音blocked。全34重扫10314字幕/10280边界，68边界/84命中、20部；仅移除本片77/78和339/340两对两命中，无新增，其他33对不变。登记词表扫描不是完整实体识别或人耳验收。
+- 续做审读下一有证据项目`d2HvN0v7V24`的完整来源/角色/原窗。Rust239/240两处真实混人保持延期而非dismiss；六声音门禁及五部20项30词次重定位未听辨保持，重定位读chóng dìng wèi，最高+15%，禁额外atempo/截尾/借窗/重叠。仍68请求，最新OFgxAFdxYAQ在lQcTxVygROw后，新增片未下载/译配，不扩播放列表或原40群体；每用途一个有声中文AI导读/内嵌中文章视频并保留中文配音烧录字幕上传版，不增学习页/摘要/PBF/外挂或平台发布，逐张受限JPEG并控制累计载荷，不保证第三方413永不发生。
+
+
+## 当前续做断点：2026-11-10 v119 实时/KVM真实source2/preview3/master6匹配v12生产协议通过，尚未编码
+
+- 本轮progress，目标active。入口`/vol_1t/Videos/.workflow_logs/ai_intro_20261108/GoNFugnhfAc/paired-v119/completed-production-protocol-v119.json`；先核对independent-protocol-v119.json及真实independent-protocol.exit0，再核对independent-registration-v119.json及最终真实出口。前轮v118是已验证progress，3561旧raw重核，原来源误判出口1及b恢复0均保持；不重跑成功TTS、v118已选balanced预览/411栅格/八ASS图审/原生母版或旧编码解码。
+- 新增并冻结caption_boundary_projection_v2.py、caption_boundary_upload_v9.py、paired_delivery_v12.py、paired_status_v12.py、mixed_paired_batch_v9.py；全部旧实现保持。实际上传来源v2、内层package v1、当前正式上传v2、既有组预览v3和母版格式v6/producer_revision4分别保留，不能伪造preview2或source1。新projection精确重建全部字符/时间/双语英文及严格类型v3证明，不新增singleton角色或伪造v2角色注册/证明字段。
+- 90项有限契约本轮通过，含原生头部/类型、明确v2到v12迁移、v1至v12路由、全部411字幕重建/ASS/原栅格收据及断点拒绝；不是全局完备测试。实际四原文件归档回放通过，直接历史媒体读取由审计钩子阻挡；只读重建成功，没有安装或实际回滚，原40项事务契约按精确实现复用而非重跑。
+- 当前v12导出器已消费新生产链路真实全34/原40基线并绑定本片source2/preview3/master6-revision4；实际25/1、66801帧=564导读+66237正文、28章保持。预览/原生母版不重做，本轮没有新上传候选、TTS、AV编码、全片新解码或生产替换。只在最终独立登记真实0后，允许按交接中唯一匹配命令编码一次；随后完整解码、全帧原画区/时间/中文AAC、实际编码受限图审/VLC及就绪全批预检，才可四文件事务。
+- 正式权威仍`/vol_1t/Videos/.workflow_logs/ai_intro_20261108/7kPn2Kf7AJM/paired-v117/current-mixed-batch-v117.json`：34对，8v1/12v2/6v3/各1v4至v11，未来v12未安装；原40部6840/6840、34允许/六声音blocked。显示仍70边界/86命中、21部，不提前扣为候选68/84/20。Rust239/240两处真实混人保持延期而非dismiss；五部20项30词次重定位未听辨，读chóng dìng wèi，最高+15%，禁额外atempo/截尾/借窗/重叠。
+- 仍68明确请求，最新OFgxAFdxYAQ在lQcTxVygROw后，新增片仅元数据，不扩播放列表或原40群体。每用途一个有声中文AI导读及内嵌中文章节的视频，另有中文配音烧录字幕上传版，不增学习页/摘要/PBF/外挂或平台发布。逐张JPEG长边≤1280/实际≤192KiB并控制累计载荷，不保证第三方413永不出现；PotPlayer及人耳未验收。
+
+
+## 当前续做断点：2026-11-10 v118 实时/KVM两处显示切点及v6原生母版候选通过，未安装
+
+- 本轮progress，目标active。入口`/vol_1t/Videos/.workflow_logs/ai_intro_20261108/GoNFugnhfAc/caption-boundary-v118/completed-reviewed-preview-candidate-v118.json`；先核对independent-candidate-v118-b.json及independent-candidate-b.exit真实0，再核对independent-registration-v118.json与最终真实出口。前轮v117真实0已观察，3395旧raw重核；不重跑成功的旧编码、TTS或v118已选预览、411栅格、图审及原生母版重封装。
+- GoNFugnhfAc实际上传来源v2、内层package v1、当前正式上传v2、已登记组显示预览v3、原生母版格式v6/producer_revision4分别保留；原验收器误将内层v1当上传来源，原实现/日志/真实出口1保留，新b适配器严格按真实头部及正式权威绑定，11项类型/版本有限契约通过，未改媒体或生产模块。仅审读源44–52和199–207共18项的完整英文/中文/朗读及两组原审校，程序核全241源/112实际项/91组与逐源朗读精确投影，不声称人工读了全片241项。77/78只移动实时两字，使实时任务完整；339/340在上一修复句号后切开，Paul McKenney与说服及RCU选项完整留后句。只用既有48/49及203/204的leonardo-bras角色，不新增单项角色或以音色证明身份。
+- 初步整句预览成功但未选，原收据/栅格/图片保留，仅逐张看了其中78/340两张全幅；已选balanced-text-preview第一处只移两字，后条宽度单位/秒8.172531降到6.129398，第二处保留完整句读及人名前后原空格。四张来源JPEG和八张已选ASS图均逐张看过，长边≤1280/实际≤192KiB；这些不是实际上传编码帧或词级/人耳同步证据。17项初步计划、10项平衡计划和10项图审有限契约本轮通过，旧协议/模块不改。
+- 全411条字符、空格、标点、时间和双语英文后缀守恒；原画、双音轨和英文字幕的全部编码packet有序payload/PTS/DTS保持，28逻辑中文章相同。只重封装软字幕，未TTS、音视频编码、新上传候选、全片新解码或安装。实际source2/preview3/master6-revision4还需独立匹配生产协议，再授权一次上传编码，不能把preview3改标签冒用v11的source2/preview2路径。
+- 正式权威仍`/vol_1t/Videos/.workflow_logs/ai_intro_20261108/7kPn2Kf7AJM/paired-v117/current-mixed-batch-v117.json`：34对，8v1/12v2/6v3/各1v4至v11；原40部6840/6840、34允许/六声音blocked，真实全34/原40本轮刷新且全部正式对不变。显示仍70边界/86命中、21部，不能提前扣为候选68/84/20。Rust585/586、589/590经源239/240全上下文再审为真实混合交接，明确待证据延期而非dismiss，不给整项强配同一人，不放宽原门禁；继续其他有证据的质量工作。
+- 下一为本片冻结真实source2/preview3/master6-revision4至未来成对v12的生产协议，先核最终独立登记真实0。六声音门禁、五部20项30词次重定位未听辨保持，读chóng dìng wèi，最高+15%，禁额外atempo/截尾/借窗/重叠。仍68明确请求，最新OFgxAFdxYAQ在lQcTxVygROw后，新片未下载/译配，不扩播放列表或原40群体。每用途一个有声AI导读及内嵌中文章的视频，含中文配音烧录字幕上传版，不增学习页/摘要/PBF/外挂或平台发布；逐张受限JPEG并控制累计载荷，不保证第三方413永不出现。
+
+
+## 当前续做断点：2026-11-10 v117 Rust双版本正式v11安装，三处会议名显示切点已修复
+
+- 本轮progress，质量目标active。入口`/vol_1t/Videos/.workflow_logs/ai_intro_20261108/7kPn2Kf7AJM/paired-v117/completed-paired-installation-v117.json`；先核对independent-installed-v117.json及真实出口0，再核对independent-registration-v117.json及最终真实出口。前轮v116已验证progress，3207旧raw经四文件归档路由重核；不重跑成功TTS、v115预览/605栅格/七来源九ASS图审/原生母版、v117上传编码/完整解码/14图审或四文件事务。
+- 实际上传来源v2、角色预览v2、母版格式v6/producer_revision4与正式成对v11分别保留；五个v116生产模块及全部旧实现冻结。只改71/72、99/100、383/384切点，Linux Plumbers Conference完整进入后句；全部字符、空格、标点、时间、英文双语后缀、25章及严格原窗保持。源38唯一新显示角色，原239/240混合交接与585/586、589/590不动。
+- 四文件可恢复事务真实committed，原四文件精确归档，仅做回滚计划未实际回滚；复用v115母版，无新TTS或母版AV编码。唯一一次中文上传编码及完整解码出口0且解码日志空，中文AAC共71936包的有序payload/PTS/DTS/时长保持。实际60/1帧率，184150帧=1471导读+182679正文；全帧原画区SSIM均值0.998995848895、最低0.992913，PTS/帧时长误差0，不是逐像素无损。
+- 14张实际上传JPEG均已逐张看过，长边≤1280/实际≤192KiB，覆盖导读、六条修订的全幅和字幕带及片尾；正文字幕位于新增黑带，不遮原画。候选与正式路径有限libVLC/Xvfb章节/轨道/渲染通过，实际警告原样保留，不冒称全片连续无警告、人耳或PotPlayer实机验收。13项60Hz帧域有限契约本轮通过，复用85项生产及原40项事务契约，不称重跑旧测试。原全帧比较已生成完整184150帧结果，但外层工具终态143且未写shell出口，原因未知；原143/日志/实现保留，只读恢复独立逐条重核全部SSIM与两套packet网格真实0，不重跑编码或解码，不把原外层冒记为0。
+- 当前权威`/vol_1t/Videos/.workflow_logs/ai_intro_20261108/7kPn2Kf7AJM/paired-v117/current-mixed-batch-v117.json`：34对，8v1/12v2/6v3/各1v4至v11；原40部6840/6840、34允许/六声音blocked。全34重扫10314字幕/10280边界，70边界/86命中、21部；精确移除Rust三对9命中，无新增，其他33对保持。登记词表不等于完整实体识别或人耳验收。
+- 原ready-preflight因命令路径含..被绝对规范路径守卫拒绝，出口1及日志保留，未触碰生产；仅修正CLI输入为规范绝对路径，ready-preflight-b真实全34预检出口0。冻结生产/验证脚本不改，适配器只更正终态证据入口，所有媒体、归档和事务检查照常执行。
+- 下一审完整来源/角色/原窗，首个项目7kPn2Kf7AJM；Rust剩余两处混人、X未决项、六声音门禁及五部20项30词次重定位未听辨保持，重定位读chóng dìng wèi，最高+15%，无额外atempo/截尾/借窗/重叠。仍68请求，最新OFgxAFdxYAQ排在lQcTxVygROw后，新增片未下载/译配，不扩播放列表或原40群体。每用途一个含有声中文AI导读和内嵌中文章节的视频，另含中文配音烧录字幕上传版，不增学习页/摘要/PBF/外挂或平台发布；逐张受限JPEG并控制累计载荷，不保证第三方413永不发生。
+
+
+## 当前续做断点：2026-11-10 v116 Rust真实source2/preview2/master6匹配v11生产协议通过，尚未编码或安装
+
+- 本轮progress，目标active。入口`/vol_1t/Videos/.workflow_logs/ai_intro_20261108/7kPn2Kf7AJM/paired-v116/completed-production-protocol-v116.json`；先核对independent-protocol-v116.json及其真实出口0，再核对independent-registration-v116.json和最终真实出口。前轮v115终态0重核，3140旧raw身份保持；不重跑v115预览、605栅格、七来源/九ASS图审、原生母版或TTS。
+- 新增并冻结caption_boundary_projection.py、caption_boundary_upload_v8.py、paired_delivery_v11.py、paired_status_v11.py、mixed_paired_batch_v8.py；复用冻结paired_source_v2。实际上传来源v2、角色预览v2、母版格式v6/producer_revision4与未来成对v11分开保留，不改标签冒充旧master5/revision3。新projection仅规范化resolved_literal_matches顺序，并用canonical SHA严格比较JSON类型和原母版证明收据；旧proof/master和全部v1至v10实现保持。
+- 85项有限生产契约通过，覆盖真实头部、全605条ASS/栅格收据、严格类型证明、明确v2到v11迁移和v7至v11路由；实际四原文件归档回放通过，直接历史媒体读取被审计钩子阻挡。原40项四文件事务契约精确复用，未声称本轮重跑、实际安装或回滚。新协议绑定v115原生候选及最终登记终态，不递归追认可变元数据旧哈希。
+- 新链路真实全34对/原40部基线通过，上传导出器已实际消费验证。正式权威仍x_2118745007628726684/paired-v114/current-mixed-batch-v114.json：8v1/13v2/6v3/各1v4至v10，正式v11为0；6840/6840、34允许/六声音blocked、全局显示73边界/95命中保持。只在计划中7k由v2转v11，不影响X正式v10；三处会议名切点未安装，不提前扣除。
+- 下一仅允许入口next_upload_command执行一次匹配上传编码，先验证本轮最终独立登记真实0；真实60/1帧域184150=1471导读+182679正文，随后完整解码、全帧原画区/PTS/时长、中文AAC逐包、实际编码受限JPEG逐张图审与有限VLC，再ready预检、四文件事务及正式全批复验。不能把元数据或既有ASS预览当新编码图/全片解码；当前无新上传候选、AV编码或播放器/人耳验收。
+- 仍68请求，最新OFgxAFdxYAQ排在lQcTxVygROw后，新增片未下载/译配。源38唯一新角色、239/240混人和585/586、589/590未决保持；六声音门禁及五部20项30词次重定位未听辨，读chóng dìng wèi，最高+15%，无额外atempo/截尾/借窗/重叠。每用途一个含有声中文AI导读及内嵌中文章的视频，含中文配音烧录字幕上传版，不增学习页/摘要/PBF/外挂或平台发布；JPEG逐张长边≤1280/实际≤192KiB并控制累计载荷，不承诺第三方413永不发生，不冒称PotPlayer实机验收。
+
+
+## 当前续做断点：2026-11-10 v115 Rust三处会议名显示切点及v6原生母版候选通过，未安装
+
+- 本轮progress，质量目标active。入口`/vol_1t/Videos/.workflow_logs/ai_intro_20261108/7kPn2Kf7AJM/caption-boundary-v115/completed-reviewed-preview-candidate-v115.json`；先核对independent-candidate-v115.json及independent-candidate-b.exit真实0，再核对independent-registration-v115.json和最终真实出口。3006旧raw已复核；仅登记八文档、7kPn2Kf7AJM resume与总handoff十项，不改X或其他resume，不重跑成功阶段。
+- 完整读247源/译/逐源朗读、86组审校，144实际合成项与逐源精确拼接一致；七张来源JPEG与九张ASS预览图均已逐张看过。只新增源38的miguel-ojeda显示角色，锚定35–37及445/463秒来源图；既有26/27、158/159保持。239/240仍有真实混合交接，585/586、589/590不动，不把全景或音色当说话人/人耳证明。
+- 全605条仅改71/72、99/100、383/384切点，使Linux Plumbers Conference完整进入后句；全部字符、空格、标点、时间、英文双语后缀与严格未量化声音窗保持。605栅格及受限JPEG图审已过；不是新上传编码帧。本片词表11命中/5边界变为候选2命中/2边界，正式全局仍73边界/95命中、21部，未安装不得提前扣除。
+- 冻结旧repartition遍历set导致逐review多命中列表跨进程无序，原raster-and-overlays出口1与实现/日志保留；新caption_boundary_proof仅规范化resolved_literal_matches集合顺序，16项有限契约及0/1/42/random四次真实重建通过。独立终验另用canonical_proof的SHA比较严格区分JSON类型，其他字段/成员/重复数均不放宽；旧预览/模块未改或重做。独立候选首轮缺Pillow出口1保留，b改用既有ffprobe核图并修正审计字段名，不安装依赖或改媒体。
+- 实际上传来源v2、预览v2、caption_boundary_master_v5.py产出的母版格式v6/producer_revision4分别保留；新proof/master模块均冻结。原画184150包、双音轨71936/132181包和英文719包的有序payload/PTS/DTS保持，25逻辑章节相同；实际ffprobe为60/1、184150帧=1471导读+182679正文，这是元数据/包验收而非新全片解码。无新TTS、音视频编码、上传候选或安装。
+- 正式权威仍x_2118745007628726684/paired-v114/current-mixed-batch-v114.json，34对：8v1/13v2/6v3/各1v4至v10；原40部6840/6840、34允许/六声音blocked，本轮真实全批刷新保持。下一必须建立真实source2/preview2/master6/revision4生产协议及全34/原40基线、归档路由和四文件事务契约；旧upload_v6/paired_v9只认master5/revision3，不能改标签冒充或只装母版。协议过后才允许一次上传编码、全解码、真实帧域/AAC/编码图审与有限VLC及成对安装。
+- 仍68请求（67 YouTube+1 X），最新OFgxAFdxYAQ排在lQcTxVygROw后，队列`/vol_1t/Videos/.workflow_logs/new-video-requests-20261110/pending-video-requests-v112b.json`；新增片仅元数据核实，未下载/译配，不扩播放列表或原40群体。六声音门禁、五部20项30词次重定位未听辨保留，重定位读chóng dìng wèi，最高+15%，不额外atempo/截尾/借窗/重叠。每用途一个含有声中文AI导读和内嵌中文章节的视频，另含中文配音烧录字幕上传版，不增学习页/摘要/PBF/外挂或平台发布。逐张JPEG长边≤1280/实际≤192KiB并控制累计载荷，不保证第三方413永不发生；不冒称PotPlayer或人耳验收。
+
+
+## 当前续做断点：2026-11-10 v114 X视频双版本正式v10安装，CLAUDE.md显示切点已修复
+
+- 本轮progress，质量目标active。入口`/vol_1t/Videos/.workflow_logs/ai_intro_20261108/x_2118745007628726684/paired-v114/completed-paired-installation-v114.json`；先核对independent-installed-v114.json及真实出口0，再核对independent-registration-v114b.json及最终真实出口。不重跑成功TTS、v112预览/302栅格/原生母版、v114上传编码/完整解码/八图审或四文件事务。
+- 实际上传来源v1、严格既有组预览v1、母版格式v4/producer_revision2与正式成对v10分别保留，五个v113新生产模块及全部旧实现继续冻结。只改显示44/45切点，CLAUDE.md完整进入45；全部字符、标点、空格、时间、双语英文后缀、21章、既有lamis组和严格原窗保持，不伪装角色登记或v90/v92历史标签。
+- 四文件可恢复事务真实committed，原四文件精确归档，仅做回滚计划未实际回滚；复用v112母版，无新TTS或母版AV编码。唯一一次中文上传编码及完整解码出口0且解码日志空，中文AAC有序payload/PTS/DTS/时长保持。实际30000/1001帧率，全56408帧=639导读+55769正文，原画区SSIM均值0.998490308892、最低0.994351，PTS/帧时长误差0；不是逐像素无损。
+- 八张实际上传JPEG已逐张看过，长边≤1280/实际≤192KiB；正文字幕置于新增黑带，不遮原画。候选及正式路径有限libVLC/Xvfb章节/轨道/渲染通过，解码/seek警告原样保留，不冒称全片连续无警告、人耳或PotPlayer实机验收。13项实际NTSC有理帧域有限契约通过；沿用64项生产契约和原40项事务契约，不称重跑了旧测试。
+- 启动观察晚到、encoder已退出导致读取/proc失败，原startup-observation出口1及日志保留；原编码会话50856真实终态0已观察，terminal-observation出口0恢复。不把观察竞态当编码失败，不重编码或抹除失败。
+- 当前权威`/vol_1t/Videos/.workflow_logs/ai_intro_20261108/x_2118745007628726684/paired-v114/current-mixed-batch-v114.json`：34对，8v1/13v2/6v3/各1v4至v10；原40部6840/6840、34允许/六声音blocked。全34重扫10314字幕/10280边界，实测73边界/95命中、21部；只精确移除X一对CLAUDE.md，无新命中，其他33对保持。登记词表不等于完整实体识别或人耳验收。
+- 下一审完整来源/角色/原窗，首个项目7kPn2Kf7AJM；X八个unknown、184/186混人、53措辞、截断回答及12声音候选均未解决，六声音门禁与五部20项30词次重定位未听辨保留。重定位读chóng dìng wèi，最高+15%。仍68请求，最新OFgxAFdxYAQ排在lQcTxVygROw后，新增片未下载/译配，不扩播放列表或原40群体。每用途一个含有声中文AI导读和内嵌中文章节的视频，另含中文上传版；不增学习页/摘要/PBF/外挂交付或平台发布。逐张受限JPEG并控制累计载荷，不保证第三方413永不出现。
+- 登记终验首轮把随复核刷新的quality.checked_at误当恒定身份，原independent-registration出口1、脚本与日志保留；独立b只排除此一个运行时戳，其余成对字段、质量门禁及文件SHA仍精确比较，十项有限比较契约通过。未改原验证器、冻结模块或媒体，未重做编码/安装/图审。
+
+
+## 当前续做断点：2026-11-10 v113 X视频真实v1来源匹配v10生产协议通过，尚未编码或安装
+
+- 本轮progress，目标active。入口`/vol_1t/Videos/.workflow_logs/ai_intro_20261108/x_2118745007628726684/paired-v113/completed-production-protocol-v113.json`；先核对independent-protocol-v113.json及其真实出口0，再核对independent-registration-v113.json和最终真实出口。上一轮v112终态0已重核，2768旧raw身份保持；不重跑v112预览、302栅格、来源/ASS图审、原生母版或TTS。
+- 新增并冻结paired_source_v1.py、caption_boundary_upload_v7.py、paired_delivery_v10.py、paired_status_v10.py、mixed_paired_batch_v7.py。实际上传来源v1、严格既有组预览v1、母版格式v4/revision2与未来成对v10分开保留，修复X工程规范ID的生产投影，不伪装角色登记、v90/v92历史断点或源v2。全部旧v1至v9实现和正式对保留。
+- 64项有限契约通过，覆盖实际头部、全302条ASS/栅格收据、明确v1到v10迁移、X/YouTube身份及v9/v10路由；实际四原文件归档回放通过，直接历史媒体读取被审计钩子阻挡，未安装或实际回滚。原40项事务契约不变，不称本轮重跑了旧测试；未把契约当人耳/全片验收。
+- 新链路真实全34对/原40部基线通过，上传导出器已实际消费验证。正式权威仍XEhDipqOpsI/paired-v111/current-mixed-batch-v111.json：9v1/13v2/6v3/各1v4至v9，正式v10为0；6840/6840、34允许/六声音blocked、全局显示74边界/96命中均保持。已审CLAUDE.md一对还未安装，不提前扣除。
+- 下一仅允许入口next_upload_command执行一次匹配上传编码；随后完整解码、真实30000/1001全56408帧=639导读+55769正文的原画区/PTS/时长、中文AAC逐包、实际编码受限JPEG逐张图审及有限VLC，再ready预检、四文件事务和正式全批复验。不能套用Swap60Hz或SFrame25Hz。当前无新上传候选、AV编码、新全片解码、播放器或人耳验收。
+- 请求仍68部，最新OFgxAFdxYAQ排在lQcTxVygROw后，未开始新片媒体处理；八个unknown、184/186混人、53措辞、截断回答、六声音门禁和五部20项30词次重定位未听辨保持。重定位读chóng dìng wèi，最高+15%；每用途一个含有声中文AI导读和内嵌中文章的视频，含中文上传版，不新增学习页/摘要/PBF/外挂交付或发布平台。JPEG逐张长边≤1280、实际≤192KiB并控制累计载荷，不承诺第三方413绝不发生。
+
+
+## 当前续做断点：2026-11-10 v112 X视频CLAUDE.md显示切点及原生母版候选通过，未安装
+
+- 本轮progress，质量目标active。入口`/vol_1t/Videos/.workflow_logs/ai_intro_20261108/x_2118745007628726684/caption-boundary-v112/completed-reviewed-preview-candidate-v112.json`；先核对independent-candidate-v112.json及其真实出口0，再核对independent-registration-v112.json与最终真实出口。前轮v111安装/登记实际0已复核，2660旧raw SHA保持；不重跑成功阶段。
+- 已完整读本片208源文/译文/逐源朗读及78组审校；86实际项与逐源朗读精确拼接相同。四张来源JPEG逐张实际看过，目标[22,23,24]属于既有lamis组并在严格原声音窗内；不补其他八个unknown单项，不把音色或静帧当人耳验收。
+- 302条显示字幕只改44/45切点，使CLAUDE.md完整进入后条；全部字符、标点、空格、时间、双语英文后缀及21章保持。全302栅格、两张字幕带和两张全幅ASS叠加图通过，均逐张受限JPEG审阅；不是新上传编码帧。首个助手因tuple与JSON列表直接比较误拒绝，出口1保留；独立b仅作精确JSON等价比较后出口0，未重做预览或放宽声音窗。
+- 当前实际上传来源v1、严格既有组预览v1、原生母版格式v4/producer_revision2分别保留。原画、双音轨及英文字幕有序编码包/PTS/DTS保持，实际帧率30000/1001；无新TTS、音视频编码、上传候选、全片解码或安装。不能套用Swap的60Hz或SFrame的25Hz帧数，也不能伪装v90/v92历史断点来绕过旧上传导出器守卫。
+- 正式权威仍为XEhDipqOpsI/paired-v111/current-mixed-batch-v111.json：34对，9v1/13v2/6v3/各1v4至v9；原40部6840/6840、34允许/六声音blocked。本轮真实全批刷新通过，所有34正式对保持；全局显示仍74边界/96命中，候选一对未安装，不提前扣除。下一先验证/补齐真实source-v1/preview-v1/master-v4匹配生产协议及全批基线，才允许一次上传编码、四文件事务及正式复验；冻结模块不改，不只装母版。
+- 新链接lQcTxVygROw、OFgxAFdxYAQ元数据均已核实，依次排在a12jYibw0vs后，累计68请求（67 YouTube+1 X），未下载/翻译/配音；队列`/vol_1t/Videos/.workflow_logs/new-video-requests-20261110/pending-video-requests-v112b.json`，不扩播放列表或原40验证群体。原184/186问答澄清混人片段、53措辞候选、截断回答、六声音门禁及五部20项30词次重定位仍待核；重定位读chóng dìng wèi，最高+15%。每用途一个含有声中文AI导读和内嵌章节的视频，含中文上传版，不增学习页/摘要/PBF/外挂交付或平台发布；JPEG逐张长边≤1280、实际≤192KiB并控制累计载荷，不承诺第三方413绝不发生。
+
+
+## 当前续做断点：2026-11-10 v111 Swap双版本正式v9安装，两对显示切点已修复
+
+- 本轮progress，质量目标仍active。入口`/vol_1t/Videos/.workflow_logs/ai_intro_20261108/XEhDipqOpsI/paired-v111/completed-paired-installation-v111.json`；先核对independent-installed-v111.json及其出口0，再核对independent-registration-v111.json及最终真实出口。不重跑已成功TTS、v109预览/全641栅格/原生母版、v111上传编码/全解码/十图审或四文件事务。
+- 实际v2上传来源、角色/原SRT显示域预览v2、母版格式v5/producer_revision3与正式成对v9分开保留；四个v110生产模块继续冻结，旧v8/v7及其他正式实现未改。156/157的交换缓存和276/277的完整folio_mark_accessed现已同时安装到内嵌与烧录字幕，全部字符、时间、双语英文、29章、同讲者分组及声音窗保持。
+- 原四文件可恢复事务真实committed，均有精确归档；仅做回滚计划，未实际回滚。复用v109母版，无新TTS或母版AV编码；中文上传完整解码出口0且日志空，中文AAC逐包/时序保持。全部198569帧60Hz=1448导读+197121正文，原画区SSIM均值0.998783586013、最低0.993362，PTS/帧时长误差0；不是逐像素无损。
+- 十张实际上传JPEG均逐张看过，长边≤1280/实际≤192KiB，全部四条修订包含在内；候选和正式路径有限libVLC/Xvfb章节/轨道/渲染通过，日志中的解码/seek警告原样保留，不冒称全片连续无警告、人耳或PotPlayer实机验收。13个实际60Hz帧域有限契约通过，沿用已绑定127项生产契约和原40项事务契约，不称新跑了这些旧测试。
+- 当前权威`/vol_1t/Videos/.workflow_logs/ai_intro_20261108/XEhDipqOpsI/paired-v111/current-mixed-batch-v111.json`：34对，9v1/13v2/6v3/各1v4至v9；原40部6840/6840、34允许/六声音blocked。全34登记词表重扫10314字幕/10280边界，实测74边界/96命中、22部；只精确移除Swap两对，无新命中，不等于完整实体识别或声音已验收。其他33正式对保持。
+- 下一审剩余边界的完整来源、角色和原窗，首个待审项目x_2118745007628726684；六声音门禁及五部20项30词次重定位未听辨保留，读chóng dìng wèi、最高+15%。请求仍66部，最新a12jYibw0vs，按序后置且不扩播放列表/原40群体。每用途仍一个含有声中文AI导读和内嵌章节的视频，不增加学习页/摘要/PBF/外挂交付或平台发布；截图逐张受限JPEG并控制累计载荷，不保证第三方413永不发生。
+
+
+## 当前续做断点：2026-11-10 v110 Swap独立v9协议及真实全批基线通过，尚未编码/安装
+
+- 本轮progress，质量目标仍active。入口`/vol_1t/Videos/.workflow_logs/ai_intro_20261108/XEhDipqOpsI/paired-v110/completed-production-protocol-v110.json`；独立验收及最终登记均须核对真实出口0，复用已成功的v109预览/栅格/原生母版，不重跑TTS或重封装。
+- 新增且冻结`caption_boundary_upload_v6.py`、`paired_delivery_v9.py`、`paired_status_v9.py`、`mixed_paired_batch_v6.py`，明确保留实际v2上传来源、角色/原SRT显示域预览v2和母版格式v5/producer_revision3。旧v8/v7及其他正式协议原样保留，不伪装版本；尚无正式v9媒体。
+- 127项有限契约通过（69协议/栅格、35混版配置/路由/归档、23真实来源/角色/显示域）；原四身份真实归档回放通过，直接历史媒体读取被审计钩子阻挡，未执行实际安装或回滚。初次归档预检因来源收据早于新增导出器守卫而严格拒绝，失败出口1保留；独立b阶段以最终身份通过，未放宽验证。
+- 新生产链路真实全34对/原40部基线通过：6840源/译稿、34允许/六声音blocked；正式仍9v1/14v2/6v3/各1v4至v8、v9为0，权威仍s3BtU2Bdyts/paired-v108/current-mixed-batch-v108.json。全局显示仍76边界/98命中，不提前扣除Swap候选两对。新请求仍66部，最新a12jYibw0vs，原40验证范围不扩张。
+- 当前仅允许下一阶段匹配上传编码，完整命令见入口`next_upload_command`；编码后还须全解码、真实60Hz全部198569帧（1448导读/197121正文）原画区域/PTS/时长、中文AAC逐包、实际上传受限JPEG图审及有限VLC，才可ready预检、四文件事务和正式全批复验。不套用SFrame的25Hz/59657帧。
+- 本轮没有新上传候选、AV编码、全片解码或新播放器/人耳验收；六声音门禁及五部20项30词次“重定位”未听辨保持，读chóng dìng wèi，最高+15%。每用途一个含有声中文AI导读和内嵌章节的视频，不增加学习页/摘要/PBF/外挂交付或平台发布；截图逐张JPEG长边≤1280且≤192KiB并控制累计载荷，不保证第三方413永不发生。
+
+
+## 当前续做断点：2026-11-10 v109 Swap两对显示候选及原生v5母版通过，尚未安装
+
+- 本轮progress，质量目标active。入口`/vol_1t/Videos/.workflow_logs/ai_intro_20261108/XEhDipqOpsI/caption-boundary-v109/completed-reviewed-preview-candidate-v109.json`；核对independent-candidate.exit=0，登记终验见independent-registration-v109.json及其真实出口。2275旧raw SHA与十元数据原样快照保持。
+- 已完整读288源文/译文/朗读，211实际合成项与逐源朗读精确拼接相同，72组审校记录保持；实际逐张看五张原片JPEG，只有单项62/110经源文及登记组画面锚点独立审校，未按音色填其他unknown。
+- 156/157的交换缓存及276/277的folio_mark_accessed只改四条显示切点；641条字符/时间、双语英文后缀及29章保持。25有限契约、全641栅格及六张ASS叠加图通过；叠加图不是新上传编码帧。
+- 原生预览v2、母版格式v5/producer_revision3、实际上传来源v2分别保留。原画/双音轨/英文字幕编码包及PTS/DTS保持；无新TTS/AV编码、无新上传或安装。两处约0.333毫秒归属差只由原SRT显示量化证明，不扩音频窗。
+- 下一先实现匹配上述真实格式、保留现有v8/v7及其余版本的独立生产链路，有限契约与真实全34生产基线后才可编码。冻结v8要求预览v1/母版v4，不能冒用、伪装格式、只安装母版或重跑成功阶段。六声音门禁和重定位未听辨保持。
+
+- 正式权威仍为s3BtU2Bdyts/paired-v108/current-mixed-batch-v108.json：34对，9v1/14v2/6v3/1v4/1v5/1v6/1v7/1v8；原40部6840/6840、34允许/六声音blocked。全局显示仍76边界/98命中、23部，候选两对未安装，不提前扣除。
+- 请求仍66部，最新a12jYibw0vs；新请求仅元数据及入队，原40验证范围不扩大。每用途仍为含有声中文AI导读和内嵌章节的单视频，不新增学习页/摘要/PBF/外挂交付或平台发布。
+
+## 当前续做断点：2026-11-10 v108 SFrame双版本正式安装，两对显示切点已修复
+
+- 本轮progress，质量目标仍active。入口`/vol_1t/Videos/.workflow_logs/ai_intro_20261108/s3BtU2Bdyts/paired-v108/completed-paired-installation-v108.json`；先核对independent-installed-v108.json及independent-installed.exit=0，再核对independent-registration-v108.json与真实终验出口。不重跑已成功TTS、预览/栅格/母版重封装、上传编码、全解码、十图审或四文件事务。
+- 正式权威为同目录current-mixed-batch-v108.json；实际v2来源、严格预览v1、母版格式v4/producer_revision2与正式成对v8分别保留，四个v107生产模块仍冻结不改。原四身份经本事务archive保留并独立raw核对。
+- 复用v106母版；实际上传编码/全解码、全部59657帧25Hz比较（570导读/59087正文）、中文AAC逐包、十张实际编码JPEG及候选/正式有限VLC通过。原画SSIM均值0.9986898621787977、最低0.994133，PTS/帧时长误差0；不是逐像素无损、连续全片VLC无警告或人耳/PotPlayer验收。
+- 回滚仅做计划，未无故执行真实回滚。六声音门禁和五部20朗读项30词次重定位未听辨保持，读chóng dìng wèi。同讲者语义组、原窗、最高+15%保持，不补造SFrame unknown角色。图片逐张JPEG≤1280/192KiB，控制累计载荷，不加载巨大PNG或保证第三方413永不出现。
+- 下一安全动作：Review full original/translation/spoken context and roles for XEhDipqOpsI display boundary 156/157 before authorizing any repair.
+
+- 当前正式34对：9v1/14v2/6v3/1v4/1v5/1v6/1v7/1v8；Futex v7及其他32对保持。原40部6840/6840、34允许/六声音blocked。显示审计76边界/98命中、23部，10314字幕/10280相邻边界；仅精确移除SFrame两对，不宣称全部专名识别或声音问题清零。
+- 请求现为66部，其中26条追加，最新a12jYibw0vs；只按明确链接处理，不扩播放列表或原40验证群体。新请求只核实元数据及入队，未下载/翻译/配音。
+
+## 当前续做断点：2026-11-10 v107 实际v2→v8生产协议冻结，匹配上传待编码
+
+- 本轮progress，质量目标active。入口`/vol_1t/Videos/.workflow_logs/ai_intro_20261108/s3BtU2Bdyts/paired-v107/completed-production-protocol-v107.json`；独立生产验证`freeze-protocol.exit=0`，86项生产契约与真实全34/原40生产baseline通过。登记终验另见`independent-registration-v107.json`及其真实出口，不把报告存在当成功。
+- 四个新生产模块caption_boundary_upload_v5.py、paired_delivery_v8.py、paired_status_v8.py、mixed_paired_batch_v5.py已冻结。实际来源v2、严格预览v1、母版格式v4/producer_revision2保持；明确v2→v8、保留Futex正式v7及其他33对。不要重跑已成功TTS/预览/栅格/六图审/母版重封装。
+- 原四文件经真实ArchiveRouter归档重放，未执行正式安装或回滚。新checkpoint的ready_for_matching_upload_encoding=true只授权下一匹配上传编码，不代表新上传已生成；v106的ready=false保留为source-only历史。执行checkpoint内next_upload_command，随后完整解码、25Hz时序/画质/AAC、实际编码小图/有限运行验证、成对ready预检和四文件事务。
+- 五部20朗读项30词次重定位仍未听辨，读chóng dìng wèi；同讲者语义组、原窗、最高+15%保持。六声音门禁和SFrame unknown角色不改。逐张JPEG最长边≤1280、实际≤192KiB并控制累计载荷；不加载巨大PNG，不保证第三方413永不出现，不冒称人耳/PotPlayer或新全片解码通过。
+
+- 正式权威仍为KPDkA8_wyJU/paired-v105/current-mixed-batch-v105.json：34对，9v1/15v2/6v3/1v4/1v5/1v6/1v7；原40部6840/6840、34允许/六声音blocked。显示仍78边界/100命中、24部，SFrame两对未安装，不提前扣除。
+- 请求现为61部，其中21条追加，最新YEWp3O7Kem8；按明确链接顺序，不扩播放列表，原40验证范围不变。新增只获取元数据、未下载/翻译/配音。每用途仍是含有声AI导读及内嵌中文章节的单视频，无学习页/摘要/PBF/外挂交付或平台发布。
+
+## 当前续做断点：2026-11-10 v106 SFrame两对字幕及母版候选独立通过，未安装
+
+- 本轮progress，目标active。先读`/vol_1t/Videos/.workflow_logs/ai_intro_20261108/s3BtU2Bdyts/caption-boundary-v106/completed-reviewed-preview-candidate-v106.json`，核对`independent-candidate.exit=0`和`source-candidate-preflight.exit=0`；登记终验另见`independent-registration-v106.json`及真实出口。194源单元/91实际合成项/81既有组审校已完整读取，不重复成功的TTS、预览、栅格、图审或母版重封装。
+- 42/43的.eh_frame与91/92的SFrame只改四条显示切点，354条字符/时间、双语英文后缀和24章保持。实际严格预览v1、母版格式v4/producer_revision2，不改为Futex的v3/v6；19有限契约通过。六张受限JPEG已逐张看，最大79526字节，只是原母版ASS叠加图，不是新上传编码帧。
+- 独立核对原1631原始SHA、十元数据原样副本及本轮必要候选身份；原画/双音轨/英文字幕编码包、PTS/DTS保持。最终栅格契约另存`final-raster-contract-v106.json`，原栅格收据不改。真实v2来源预检通过但ready_for_encoding=False；planned_pair_version_not_installed=6不是新生产授权。
+- 下一先实现支持实际v2来源且保留Futex正式v7及其他33对的生产适配：旧mixed v3不接受v7，v4迁移仅v1→v7，旧upload v3基线硬绑定mixed v3。须有限契约及真实全34/原40生产baseline后才编码，再完整媒体/实际小图/运行验证、ready预检、四文件事务及终验；不能伪装版本、降级Futex、只安母版或用来源预检授权。
+- 六声音门禁、五部20项30词次重定位未听辨及chóng dìng wèi保持，最高+15%、原窗和同讲者语义组不变。不补造SFrame unknown角色；不冒称人耳/PotPlayer/新全片解码通过。图片逐张JPEG≤1280/192KiB、控制累计载荷，不加载巨大PNG或保证第三方413永不出现。
+- 正式权威仍为`KPDkA8_wyJU/paired-v105/current-mixed-batch-v105.json`：34对，9v1/15v2/6v3/1v4/1v5/1v6/1v7；原40部6840/6840、34允许/六声音blocked。显示仍78边界/100命中、24部，本轮两对未安装，不提前扣除。
+- 各用途仍自包含单视频，含有声中文AI导读和内嵌中文章节；无学习页/摘要/PBF/外挂交付或平台发布。45请求和五条追加顺序保持，zJ4y_JNBRKg尚未下载/译配；两个SSH环境仅备用。
+
+## 当前续做断点：2026-11-10 v105 Futex双版本正式安装，五处显示切点已修复
+
+- 本轮progress，质量目标仍active。入口`/vol_1t/Videos/.workflow_logs/ai_intro_20261108/KPDkA8_wyJU/paired-v105/completed-paired-installation-v105.json`；先核对`independent-installed-v105.json`及`independent-installed-b.exit=0`，再核对`independent-registration-v105.json`和真实`independent-registration.exit=0`。不重跑已经成功的TTS、母版、上传编码、全解码、图审或事务。
+- 正式权威更新为同目录`current-mixed-batch-v105.json`：34双版本，9v1/15v2/6v3/1v4/1v5/1v6/1v7；Futex已正式v7，其他33对保持。原40部6840/6840、34允许/六blocked保持。显示审计`current-display-boundaries-v105.json`为78边界/100命中、24部（10314字幕/10280相邻边界），只移除Futex五对，不宣称全部专名识别或声音问题清零。
+- 原v1来源、实际v3预览、v6母版候选格式与正式成对v7分开；冻结四个生产模块继续不改。本轮复用v103母版，不TTS/重封装；实际上传编码、全解码、全部152346帧60Hz比较（1448导读/150898正文）、中文AAC逐包证明、17张实际编码小JPEG及候选/正式有限VLC通过。原画区域平均SSIM 0.9990233323552952、最低0.994081，PTS/帧时长误差0；不是逐像素无损声明。
+- 四文件事务已committed，原四身份经本事务archive逐一原始SHA核对，新正式四文件符合desired；旧1497库存独立核对、十元数据原样快照保留，compact terminal不内联可变历史库存。回滚只做计划，未无故真实回滚。
+- 原session61048外层143、子退出未知，`installed-batch.log`及原完整报告保留，不补造出口0；独立只读全批重验`current-mixed-batch-v105b.json`/`installed-batch-b.exit=0`。首版独立脚本因四个质量报告checked_at变化出口1，原源码/日志/出口保留；新`verify_installed_v105b.py`只区分这四处观察时间戳，其余字段/媒体身份仍精确相等，未修改生产门禁。
+- 下一先审`s3BtU2Bdyts`的42/43（.eh_frame）、91/92（SFrame）两处显示候选：全文源/译文/朗读与角色重读后才能预览，不把字面扫描当修复授权。45请求及五条追加队列保持，最新`zJ4y_JNBRKg`已排在qYPCL1KGdQA之后，尚未下载/译配；不扩播放列表或原40验证范围。
+- 六声音门禁、五部20实际朗读项30词次重定位未听辨、chóng dìng wèi及最高+15%保持。VLC使用dummy音频且seek/停止有解码警告，不冒称人耳、PotPlayer或连续全片无警告验收。逐张JPEG长边≤1280、实际≤192KiB、小字裁剪并控制累计载荷，不加载巨型PNG或保证第三方413永不出现。每用途仍自包含单视频，含有声AI导读和内嵌中文章节；无学习页/摘要/PBF/外挂交付或平台发布；SSH仅备用。
+
+## 当前续做断点：2026-11-10 v104 Futex生产适配与真实全批基线通过，尚未编码/安装
+
+- 本轮progress，质量目标仍active。先读`/vol_1t/Videos/.workflow_logs/ai_intro_20261108/KPDkA8_wyJU/paired-v104/completed-production-protocol-v104.json`、`independent-production-protocol-v104.json`及真实`independent-protocol.exit=0`；登记后终验另见`independent-registration-v104.json`及出口，不把生产基线当新媒体完成。
+- 新冻结`caption_boundary_upload_v4.py`、`paired_delivery_v7.py`、`paired_status_v7.py`、`mixed_paired_batch_v4.py`。66项有限契约真实通过，真实原上传v1/预览v3/母版候选格式v6分别保持，新成对协议才是v7，不伪装v90/v92或把既有K8的成对v6当本片母版协议。旧冻结实现不改。
+- 原1406身份独立原始SHA核对通过；真实v1来源预检、原四文件副本的ArchiveRouter重放、实际全34/原40生产baseline通过。归档重放明确阻止旧母版/上传/上传清单直接载荷读取，当前质量所需正式render_state读取另行允许；原正式路径未移除或替换，不冒称安装/回滚。新生产基线`full-34-production-baseline-v104.json`才授权后续编码，不能借旧source-only预检授权。
+- 下一复用v103精确母版、477条预览/栅格及13张既有ASS图审，不TTS、重封装或重跑旧图审。用新上传入口及本轮生产baseline创建全新`paired-v104/upload-candidate`；完成全解码、152346帧原画SSIM/PTS/帧时长（60Hz，1448导读/150898正文）、中文AAC逐包、实际编码受限JPEG逐张审看及有限VLC后，才v7包/ready全34预检、四文件事务、正式路径与全34/原40终验。当前无活跃媒体会话、候选上传或生产事务，不跳过这些门禁。
+- 正式权威仍`K8TTzdEXsdY/paired-v102/current-mixed-batch-v102b.json`：34双版本、10v1/15v2/6v3/1v4/1v5/1v6，Futex仍v1；83边界/105命中不扣候选五处。原40部6840/6840、34允许/六blocked保持。
+- 新增四条明确视频请求已核对元数据并按发送顺序入队：KrksBdWcZgQ、-8UZhDjgeZU、qYPCL1KGdQA、zJ4y_JNBRKg，排在既有VTune QP__S-yGtFU之后。最新不可变队列`/vol_1t/Videos/.workflow_logs/new-video-requests-20261110/pending-video-requests-v104c.json`；总45请求/五条追加，不扩大原40验证群体或播放列表。新片未下载/翻译/配音/发布；12项入队契约通过。交付仍有声AI导读、内嵌中文章节、母版与中文上传版各自单视频，无学习页/摘要/PBF/外挂交付。
+- 六声音门禁、五部20实际朗读项30词次重定位未听辨、chóng dìng wèi及最高+15%保持，不自动listened/confirmed_correct/dismissed。图片只逐张JPEG、长边≤1280、实际≤192KiB并控制累计载荷，小字先裁剪，不加载巨型PNG或承诺第三方413绝不再现。SSH两环境仅备用，未连接或执行内核任务。
+
+## 当前续做断点：2026-11-10 v103 Futex五处显示切点及母版候选完成，未正式安装
+
+- 本轮progress，质量目标仍active。先读`/vol_1t/Videos/.workflow_logs/ai_intro_20261108/KPDkA8_wyJU/caption-boundary-v103/completed-reviewed-preview-candidate-v103.json`、`independent-candidate-validation-v103.json`及真实`independent-candidate.exit=0`；登记后终验另见`independent-registration-v103.json`和出口，不拿候选收据冒充正式安装。
+- 已完整重读Futex的289源/译文/逐源朗读、122实际合成项及97既有组审校。五对16/17、202/203、334/335、356/357、377/378分别修Qube Research & Technologies、Chrome、vDSO、list_op_pending、futex_robust_try_unlock的显示拆分；全部属于已有Steven组。三对触及SRT毫秒显示量化，不能拿严格音频域v1直接批准；仅从原SRT序列化派生显示域，不加任意容差、不改声音窗或补造单项角色。
+- 新冻结`caption_boundary_repair_v3.py`（实际预览v3）与`caption_boundary_master_v4.py`（实际母版候选v6）；23项预览及10项图审门禁有限契约通过。477条全文字/时间/ASS字流、登记词、实际栅格和双语英文后缀通过；13张JPEG逐张审看（10字幕带/3全图，最大61525字节），只是源母版ASS叠加图，不是新上传编码帧。
+- 母版候选296968604字节，SHA`bdf1f7687f98af21e899357b5a2a9ca912a5970cc4553ca1dfcf48a2c8ac32b7`；独立核对152346视频包、59513中文AAC包、109354原声AAC包、637英文字幕包的载荷/PTS/DTS签名保持，30逻辑章和内嵌字幕通过。没有TTS、视频/音频重编码、新全片解码、画质比较、VLC/PotPlayer或人耳验收。原1274身份在登记前全部原始SHA保持。
+- 正式权威仍为v102的`K8TTzdEXsdY/paired-v102/current-mixed-batch-v102b.json`；全34仍10v1/15v2/6v3/1v4/1v5/1v6，Futex仍正式上传v1，全批仍83边界/105命中，不能减去本轮候选五处。下一需要明确接受真实v1来源、实际v3预览/实际v6母版并保留所有现有版本的新上传/成对/混版适配；有限契约和实际全34/原40生产基线后才可编码上传、全解码/画质/真实编码图审、运行/ready预检和四文件安装。不得伪装v90/v92、借v101源预检授权或只安装母版。既有机械逗号/混合交接、六声音门禁、五部20项30词次重定位未听辨、chóng、+15%、41请求/VTune后置及SSH备用约束保持。
+
+## 当前续做断点：2026-11-10 v102 PGO双版本18处字幕边界已正式安装
+
+- 本轮progress，目标仍active。正式权威更新为`K8TTzdEXsdY/paired-v102/current-mixed-batch-v102b.json`；先读同目录`completed-paired-installation-v102b.json`、`independent-installed-v102b.json`、`registration-v102b.json`与独立登记终验及真实出口。以下v101及更早“当前断点”全部作为历史，不再要求重新开发已完成的生产适配器。
+- 新冻结`caption_boundary_upload_v3.py`、`paired_delivery_v6.py`、`paired_status_v6.py`、`mixed_paired_batch_v3.py`；60项有限契约及实际全34/原40生产基线通过。真实原上传v2、复用v100母版的实际v4格式、新成对包v6、文件事务v4分别保持，旧冻结实现未改。
+- K8的18对/36条显示切点已四文件成对安装；174源、74合成项、277交付字幕、21.12秒有声导读、24内嵌中文章节及全部声音不变。复用89785144字节母版，不重封装或TTS。上传候选完整解码、46382帧原画区域比较（528导读/45854正文）、PTS/帧时长误差0、SSIM均值0.999499822991673/最低0.996978；43486中文AAC包载荷与时间保持。
+- 42张实际上传编码JPEG逐张图审，包含全部36条改动字幕裁剪；长边≤1280、实际≤192KiB，不加载巨型PNG。候选/正式路径Linux Xvfb/VLC有限章节/轨道/渲染验证通过，但保留seek/停止时解码及时间戳警告；不是无警告连续全片播放、PotPlayer或人耳验收。
+- 正式全34仍34，版本为10v1/15v2/6v3/1v4/1v5/1v6；原40部6840/6840、34允许/六blocked，其余33对不变。原1229身份安装验收成功后，登记真实1暴露独立terminal内联历史哈希清单误将可变文档当永久生产依赖；保留原收据，真实四文件回滚到v2，再用独立terminal v102b、新意向/配置/事务重装相同候选。最终见b版全批/独立终验；旧事务rolled_back、新事务committed，不改旧生产实现或重跑媒体。全批登记跨条由99/121降为83/105，另外两对`.ko`按本片补充词表验过。
+- 初次契约夹具1、第一次ready包装会话64782终态143/空日志、原登记1均保留；不伪造缺失的子进程出口。原ready v102b已通过，修正依赖后的最终ready为`full-34-candidate-preflight-v102c.json`，配置为`ready-batch-configuration-v102b.json`；生产模块冻结不变，历史哈希清单只作文件引用证据。下一从83处剩余显示边界上下文继续；六声音门禁、五部20项30词次重定位未听辨、chóng、+15%、41请求/原40及单视频用途保持，两SSH环境未连接。
+
+## 当前续做断点：2026-11-10 v101原v2来源及全批基线通过，生产适配器仍待完成
+
+- 本轮progress，质量目标仍active。先读`/vol_1t/Videos/.workflow_logs/ai_intro_20261108/paired-source-v101/independent-source-preflight-v101.json`、完成checkpoint、registration与真实出口；源预检不是新上传版或正式字幕更新。上一轮50876已观察真实0：登记后1125原始哈希、58 AST、66空白检查及精确10元数据更新通过。
+- 新`paired_source_v2.py`与`paired_migration_preflight.py`经本轮最终验收已冻结，不再修改。前者按实际v2格式复验原上传、候选、字幕ASS、中文AAC、既有解码/有限VLC/图审及前任v1归档；显式resolve当前四文件，不能把v2伪装为v1。后者只提供`source-preflight-only`，保留现有v1至v5真实路由；`ready_for_encoding=False`、`paired_installation_protocol_verified=False`。
+- 原始快照1125文件、10元数据副本；最终62项有限契约真实0。实际全34/原40预检真实0，仍10v1/16v2/6v3/1v4/1v5、6840/6840、34允许/六blocked。K8原上传仍v2，复用的v100母版候选仍实际v4格式；v6只作为后续成对协议的显式计划，不是已生成或安装的版本。
+- 实际K8归档重放真实0：复用四份原字节/mtime副本，Python审计钩子禁止直接读取四个正式路径，也检查子进程实参；四类来源均从副本解析，保留真实前任v1归档，ASS精确重建、中文AAC相同。正式路径物理上未移除或替换；不是生产ArchiveRouter、安装/回滚或新VLC运行测试。
+- 最初49项契约通过后，新模块尚未生产冻结时发现两处集成缺口：完整全批内层已通过，但外层预检误用旧raster字段而真实1；归档重放发现旧equivalent参数重开正式路径而真实1。原源码副本、配置、日志和出口均保留；只修新模块，显式解析后的来源及独立的已登记词/raster契约恢复，没有修改旧生产器、历史收据或验收条件。
+- 独立验收1183原始哈希、56 AST，重新验证原40编译契约并重数6840/6840；全34正式对及既有来源不变。K8最终277条ASS逐条检查完整字流和登记词；复用v100实际字形结果，不重做栅格、图审、母版重封装、TTS或编码。
+- 下一仍须新增真正独立的上传/成对/混版生产适配器，接受实际v2来源并保留wh9 v5、BMX v4、六个v3及其他版本；可复用本轮源解析和v100候选，但新生产实现还要有限契约及实际全34基线，之后才可编码、完整解码/画质/真实上传JPEG/运行验证、ready preflight与四文件成对安装。不得拿本轮源预检直接批准编码，或只安装母版。
+- 正式权威继续为`wh9GJDnbaMs/paired-v99/current-mixed-batch-v99.json`，正式跨条仍99/121；六声音门禁、五部20项30词次重定位未听辨、chóng读音、+15%、41请求/原40验证范围和单视频用途交付均保持。SSH两环境仅备用，本轮未连接；没有新全片解码、播放器或人耳验收。
+
+## 当前续做断点：2026-11-10 v100全99处来源上下文与PGO18处字幕母版候选完成，正式仍v99
+
+- 本轮progress，持续质量目标仍active。先读`/vol_1t/Videos/.workflow_logs/ai_intro_20261108/display-context-v100/completed-context-master-preview-v100.json`、`independent-preview-validation-v100.json`与registration/原始出口；复用成功的来源审计、文字预览、逐字形检查、图审及母版重封装，不重跑TTS或已有媒体阶段。
+- 新只读`caption_boundary_context.py`已成功绑定，后续冻结；20项有限契约通过。实际全34登记命中连接原文、角色元数据及严格声音/序列化显示窗：26部99边界121命中，61同登记组、31未登记实际单项、6空隙、1跨合成换人或未知，15处量化影响归属、2处共享cue连锁；自动批准0。不能从同音色、同组元数据或分类结果自动合并/听辨。
+- 改动前原始身份快照796文件，实读原40部6840/6840源/译稿。K8TTzdEXsdY完整读当前174源、74实际合成项和277交付字幕，逐项审18对：原词表16对，全文另发现`.ko`16/17与92/93两对。仅本片词表补`.ko`，没有改全局登记词表；每对严格属于同一既有登记合成窗，无epsilon、换人合并、声音/时间改写。
+- 36条字幕重分字符，全部277条字符、空格、时间及双语英文后缀守恒。图审后仅追加本地显示保护词“看一下”“构建时”，只改变ASS第54/92条的普通词换行；最终预览为`text-preview-refined/preview-proof.json`。全277条重新实际字形检查通过；原22张与改进4张共26张JPEG逐张看过，最终选22张（18张双条字幕带、4张全画面），4898–85873字节、合计428143字节，长边1280；18张旧图由完整ASS头/对应行相等证明复用。字幕带对照是两帧裁剪，不是假称同一视频帧；全部仍是原片ASS叠加，不是已编码上传帧。
+- 母版候选`master-candidate/master-caption-boundary-preview.mp4`，89785144字节，SHA`505024810fc9c495e54a5a7fec26b9855fd96c76f4b5876153b1833443cd3906`。复用冻结`caption_boundary_master_v2.py`，识别六核心流加章节data；46382总视频包、43486中文AAC包、79904原声AAC包、376英文字幕包载荷/PTS/DTS有序签名保持，24逻辑章节不变。不是新的全片解码/逐帧/播放器/人耳验收，章节data包不称字节相同；无视频/声音编码或TTS。
+- 独立验收原始SHA-256复核1119文件、45个根Python AST，并从真实候选重新提取三字幕轨；全34正式对及全40来源不变。三个独立助手原出口1保留：v4/v5状态无旧input_sha256字段、JSON元组/列表直接比较、Python3.10无hashlib.file_digest；各在相应媒体/栅格/哈希开始前失败，独立新助手恢复，不改生产实现、守恒条件或原收据。
+- 当前正式权威仍`wh9GJDnbaMs/paired-v99/current-mixed-batch-v99.json`：34双版本10v1/16v2/6v3/1v4/1v5；正式跨条仍99/121，不能写成83或已修18处。本轮没有新上传版、正式安装、回滚、VLC/PotPlayer或人耳测试。六声音门禁、五部20项30词次重定位未听辨及最高+15%不变；VTune仍后置排队，总请求41，原验证群体40不扩张。
+- 下一需真正独立的上传/成对/混版协议，明确接受K8当前v2来源并保留wh9 v5、BMX v4、六个v3及其余版本，先有限契约和全34实际生产基线，再编码匹配上传、完整解码/画质/真实上传JPEG/运行验证、preflight、四文件原子安装与全34/原40终验。冻结v4/v5安装只接受旧上传v1，mixed v2不能以已有v5集合开始新迁移；不得伪装v1、改旧验证器、只安装母版或重封装本候选。
+- 两个SSH内核环境仅备用，无内核测试任务；本轮未连接或把环境可用计为译配进展。截图仍逐张受限JPEG，整次请求的累计载荷也需控制，单张≤192KiB不保证第三方网关永不413。
+
+## 当前续做断点：2026-11-10 v99四处字幕双版本正式安装与全批验收完成
+
+- 本轮progress，持续质量目标仍active。wh9由v1显式迁移到v5，四文件事务`deca8ef8ed49461e98950959a47f145f`真实committed；原母版、上传版及两个清单均归档。只执行回滚预演，未实际回滚，不把沿用的v94四文件40项契约称为40次新媒体安装测试。
+- 新独立`caption_boundary_upload_v2.py`、`paired_delivery_v5.py`、`paired_status_v5.py`、`mixed_paired_batch_v2.py`已成功绑定，后续不可修改；旧冻结实现也未修改。71项有限协议/模拟门禁及真实v98文字/ASS重建通过；实际全34 planned baseline先通过，才编码、审图，ready候选preflight通过后才成对安装。原71项首次前身60项因归档夹具路径/文件后缀错误而1，失败源码与收据保留，生产代码未为此放宽。
+- 复用v98母版SHA`8e6dea7ae4ec1af516d5061dccddf7e84a819fdf831d83cad97ad20d52126e7d`，没有重封装或TTS；上传版SHA`6dd740d22ea1f9b53d410afc68dd8089d762b8b5706b99f9b901bfda2fd946b6`，445330372字节。Steam Deck、EEVDF、完整David Dai、Netlink四处现已在正式内嵌/烧录字幕中修复，487条全部字符、空格、时间和双语英文不变。
+- 上传完整解码出口0且日志空；全部178847帧=1477导读+177370正文，PTS/帧时长误差0；原画区SSIM平均0.9982513477777152、最低0.989944，预声明阈值仍.99/.95。中文69864个AAC包及1/24000时基保持；没有新音频编码、额外atempo、截断或借窗。10张实际上传JPEG已逐张查看，均1280×816、28594–94572字节，字幕不盖原画。
+- 首次freeze助手误取v98不存在的formal_before字段而1；首次帧分域助手把精确1477/60与其向上舍入浮点值比较，误计1478导读而1，均保留原源码/日志/出口。独立v99b证明原manifest偏移是精确帧边界的浮点投影，以原整数帧数和实际均匀60Hz有理数时间轴分域；无epsilon、改时间或重编码，复用已保存的两份全包清单。
+- 候选和正式路径均有有限libVLC/Xvfb章节/音轨/字幕/渲染检查；日志仍含no frame/get_buffer/decode_slice警告，不能称全片连续无错、人耳或PotPlayer实机通过。独立正式验收原始哈希335个文件，实读全40部6840源/译稿并验证真实归档路由，其他33正式对不变。
+- 当前权威`/vol_1t/Videos/.workflow_logs/ai_intro_20261108/wh9GJDnbaMs/paired-v99/current-mixed-batch-v99.json`同时覆盖34双版本及原40基础/质量：10v1/16v2/6v3/1v4/1v5、34允许/6blocked；六个v3精确路由及BMX v4保持。全34注册词表重扫10314字幕/10280边界，99受影响边界/121字面命中，较v96只移除本片四处；完整David Dai另有扩展词表证据，不称全实体识别。
+- 先读本目录`completed-paired-installation-v99.json`、`registration-v99.json`及独立终态，复用全部成功阶段。下一审剩余99边界的完整来源/讲者/时窗，不自动合并或清六声音门禁；新VTune仍后置排队，总请求41但原验证群体40不变。重定位chóng dìng wèi五部20项30词次仍未听辨，最高+15%、有声AI导读、内嵌章节及各用途单文件交付保持。
+- 后续只读用`paired_delivery_v5.py verify`及匹配`mixed_paired_batch_v2.py packages/batch`；旧v4/v97或`video_package.validate`不能直接验证当前v5正式包，安装后不得调用依赖旧正式路径的`repair_v2.verify_preview`。新生产验证从原意向及严格四路径ArchiveRouter重建。若需改正文，先显式回滚匹配v5事务到原v1包，再按原包恢复正文和重新基线，不把旧恢复器冒充支持v5。
+
+## 历史候选断点：2026-11-10 v98角色/显示域协议与wh9母版候选完成，尚未安装
+
+- 上一轮仅核对用户提供的内核测试环境，对译配目标属no_progress；本轮新增协议、实际四边界预览及母版候选，属progress，目标active。内核环境未运行测试，不把SSH连通算作译配验收。
+- 新`caption_boundary_repair_v2.py`不修改冻结repair/v4生产器：逐项绑定原片、en/zh/spoken、音色、编译、叙述和分组及真实单项，登记[6]/[8]/[44]的源文/画面审校；不能从同音色或邻组自动赋角色，不能覆盖既有合成组。96个其他单项仍unknown。49项有限协议契约真实0，不是49项媒体安装测试。
+- 5张原片JPEG已逐张查看，12/30秒为既有角色锚点，86/111/578秒对应三个目标单项；578秒幻灯片明确写David Dai，现可支持既有显示拼写，但不是听辨，不改原英文自动字幕。声音、音色、朗读分组与源译稿均不变。
+- unit44音频窗末仍608.056666…，显示归属只由原SRT序列化/解析得到608.057，不加容差、不借时间、不重写原字幕时间。487条字幕仅22/23、28/29、115/116、326/327移动字符边界；全字词/空格/时间及487条双语英文后缀守恒。四处完整实体包括David Dai另作扩展词表只读校验，生成相同ASS；旧词表实际只含David，不伪称已含全名。
+- 新`caption_boundary_master_v3.py`生成独立v5格式母版候选：原画178847个总视频编码包、中文69864/原声128375个AAC包、英文608包的载荷/PTS/DTS/时长有序签名相同；总视频包数不是177370正文帧数。18个逻辑章节不变，章节data包不称逐字节一致；无视频/音频编码、无TTS。487条实际字形均在新增黑带；8张ASS原片叠加JPEG已实际逐张查看，不是编码上传截图。
+- 权威候选目录`/vol_1t/Videos/.workflow_logs/ai_intro_20261108/wh9GJDnbaMs/caption-boundary-v98`，以`completed-role-display-master-preview-v98.json`、registration及independent终态为准。正式仍v96/34双版本11v1/16v2/6v3/1v4，40部6840源译稿、34允许/6blocked；新VTune仅排队，总请求41而原验证群体40不扩张。
+- 首次完整实体检查混淆4个受影响边界与5个字面命中（David和David Dai嵌套），真实出口1、原源码/日志和已保存的8图实际审阅均保留；独立v98b按完整清单核验5命中/4边界→0，不改生产源或已完成候选，不重封装、编码或图审。完成记录跨11-09/11-10，目录日期是历史命名而非当前日期。
+- 下一复用此母版候选，新增独立匹配上传生产器、paired v5及混版/基础状态验证；当前v4和v97混版只支持v1→v4，不能注入新角色或伪装旧实现。新链路全34真实基线后才能编码上传候选，再补完整解码、全部正文帧/PTS、中文AAC时基1/24000、有限VLC、至少6张真实上传JPEG及独立候选终态，最后才四文件事务安装。尚无上传候选或安装，不重跑已成功母版重封装；六门禁、重定位chóng dìng wèi未听辨、+15%、各用途单文件保持。
+
+## 历史准备断点：2026-11-09 v97混版v4基线通过，wh9四处修订仍待协议支持
+
+- 上轮仅发音身份复核，属no_progress；本轮progress，目标active。新`mixed_paired_batch.py`不改冻结v94/v95/v96实现，显式支持原v1→v4，保留最近表的全部六个v3（含M-r）及BMX v4。计划/就绪配置分离：`baseline`检当前34部，`preflight`须就绪配置并检实际候选，`packages/batch`须实际安装；不能把baseline称候选/安装通过。
+- 权威准备目录`/vol_1t/Videos/.workflow_logs/ai_intro_20261108/wh9GJDnbaMs/caption-boundary-v97`。44项有限配置/模拟分派契约真实0，全34真实baseline原19438终态0，全40源/质量原29297终态0。首次契约因测试夹具全局mock误改旧目录检查而1，原源码/日志保留；只修夹具，第二次43项0，再隔离共享数据并增加一项后44项0。没有媒体安装测试或新TTS。
+- 正式媒体仍v96，34双版本11v1/16v2/6v3/1v4；40部6840源/译稿、34允许/6blocked保持。配置里的10v1/16v2/6v3/2v4只是预期，尚未发生；全局current_package_validation/current_base_status仍指v96同一完整表，不覆盖为准备收据。
+- wh9四处源文/完整显示文本已审读：Steam Deck 22/23、EEVDF 28/29、完整David Dai 115/116、Netlink 326/327。实际`contexts_for`给单项[6]/[8]/[44]的角色是unknown，不能用同音色或邻组代填；只有[158,159]有登记changwoo-min。源44英文自动字幕David thai与中文David Dai的拼写差异不因本轮显示审校宣称听辨解决。
+- 单项44还存在显示域量化：cue116末608.057，原合成窗末608.056666…，相差约0.333毫秒。必须使用原SRT序列化的明确量化证明，不能任意容差、扩大声音窗口或改字幕时间。冻结v4在text_projection内部重建旧contexts并绑定旧repair实现；只改预览/注入角色无法正式晋升。
+- 下一先实现独立版本的逐单元角色审校/显示量化协议及匹配生产/混版分派，全部绑定真实来源，不能修改冻结实现或只修Netlink冒充四处完成。`wh9-context-and-protocol-gaps-v97.json`是缺口证据，不是可执行批准；无文字/媒体候选、无新编码/截图/听辨/发布。重定位chóng dìng wèi及五部20项30词次提示未变，六门禁、+15%、单文件用途交付保持。
+
+## 历史权威断点：2026-11-09 v96调度QoS两条字幕正式修复，既有v4保持
+
+- 上轮v95是progress；本轮继续progress，目标active。新`mixed_caption_batch.py`显式v1/v2→v3字幕上传迁移并保留既有v3证据路由和全部v4；17项有限迁移/模拟分派契约真实0，原28221全34部实际预检0。不改已冻结v94/v95或旧v3生产器。
+- M-rMSzJiwAQ cue107的QoS管理器、cue238的任务行为已在真实上传版消除条内断词，仅移动换行；原母版、字幕字符/时间、声音及所有正文输入保持。原73957候选0，原11370正式安装0；事务896eb2be5578419fa0a03896684695a3已提交，回滚只预演未应用。新上传41775172字节、SHA 1aedd215b304b76c49a43e2c09d537353062cad8e1aa4a57a2fb042e9e89e82c。
+- 271条实际ASS/全部字形在144px新增黑带内，y=1139–1205；原87033全32693帧/PTS证明0，平均SSIM=.9995426845502213、最低.996976，PTS/帧时长误差0，不称像素逐字节同一。五张1280×816、26874–62643字节真实帧JPEG已逐张实际看；首次额外截图助手字段错误出口1与原源码保留，修助手后0，没有重复TTS或媒体编码。
+- 原6004候选、29775正式路径有限VLC均0，decoder/get_buffer/no frame警告保留，不称全片连续无错、人耳、GUI或PotPlayer验收。原86274全34/全40混版复核0：正式11v1/16v2/6v3/1v4，6840源/译稿、34允许/6blocked不变；BMX v4四个正式文件及事务保持，母版/旧帧证明只按身份复用。
+- 权威目录`/vol_1t/Videos/.workflow_logs/ai_intro_20261108/M-rMSzJiwAQ/caption-layout-v96`；`completed-caption-evidence-v96.json`、`current-mixed-batch-v96.json`、registration和independent终态为准。新全34跨条重扫仍10314字幕/10280边界、103受影响边界/125命中，无增减；条内改善31→33，余P6一条/wGe两条均held，可执行条内队列0，不将held退休或称全批完成。
+- 下一显示项目wh9GJDnbaMs，从Steam Deck 22/23及该片四个同合成窗候选开始逐项上下文审校，只走受支持的v1→v4双版本路径；不能自动批准或用纯换行器处理跨条文字。`mixed_caption_batch.py`当前配置的previous_configuration保留v95根配置，previous_pairs/base才是本轮新表；旧v3全批验证器不得碰BMX。
+- 重定位=chóng dìng wèi，重第二声；五部20项30词次提示及222显示输入身份复核保持，未听辨，不自动listened/confirmed_correct/dismiss。M-r52声音候选保持；六门禁、最高+15%、单文件用途交付、无外挂/发布保持。显示下一目标用caption_next_project_id，不覆盖声音next_video_id。
+
+## 历史权威断点：2026-11-09 v95生产v4双版本已安装并实测回滚
+
+- 本轮progress，目标active。`paired_delivery_v4.py`已接入真实候选/新版本/旧版本验证回调，`paired_batch_v4.py`显式保持原34部及既有v4路由；只支持新v1→v4迁移，不冒称支持v2/v3→v4。冻结这两个实现及v94文件层，不改绑定源码或哈希。
+- BMX实际安装→验证→四文件真实回滚→旧版本验证→新事务重新安装→验证完成；当前事务`7ac07fb9581044d68623453cfc0f8494`为committed，首次`f16dd02ae5d34646b5a933ba2629ef11`为rolled_back。最终回滚仅预演，未执行。逐文件rename/fsync不是多文件同时原子可见。
+- 权威目录`/vol_1t/Videos/.workflow_logs/ai_intro_20261108/paired-package-v95`；完成断点`completed-paired-installation-v95.json`、当前34部表`current-package-validation-v95.json`及全40基础表`current-batch-status-complete-v95.json`。正式34双版本：12v1/16v2/5v3/1v4；6840源/译稿、34允许/6blocked保持。BMX总1257.036秒=21.92导读+1235.116正文，59合成项、30声音候选未听辨。
+- 新37项适配/分派契约真实0；v94原40项文件层契约只按身份复用。新正式路径有限VLC通过，decoder/get_buffer/no frame等日志保留；不称全片连续无错、人耳或PotPlayer通过。既有TTS/编码/完整解码/SSIM/受限图审仅按身份复用。
+- 全34部新跨条审计10314字幕/10280边界，105→103受影响边界、127→125字面命中，只移除BMX两处；条内改善30→31，剩3部5条，其中M-rMSzJiwAQ两条可推进、P6/wGe三条仍held。下一字幕项目使用独立`caption_next_project_id`，不覆盖原声音门禁next_video_id；先扩展或选定可保留v4的明确批量验证路径，不能盲跑旧v3全批命令。
+- 重定位（relocation）=chóng dìng wèi，重第二声，不读zhòng。五部20项30词次TTS专用整词提示仍保持，显示字幕/章节不出现内部“崇定位”；v95复核输入身份及当前显示，仍未逐处听辨，不自动listened/confirmed_correct/dismiss。六门禁、最高+15%、单文件用途交付、无外挂/发布保持。
+- 两次新基础状态汇总失败真实出口1及原源码保留：先补旧v1缺省版本，再仅排除质量观察时间checked_at比较，其他质量字段严格相同；第三次真实0。旧检查器不得调用BMX的旧v3包校验，也不把旧delivery_check指纹冒充当前证明。登记/独立终态以本目录registration及independent收据为准。
+
+## 历史权威断点：2026-11-09 v4文件事务基础通过，生产包分派仍待实现
+
+- 本轮progress，目标active。v93补充中文AAC逐包证明原session10961真实终态0，29463包载荷/PTS/DTS/时长/大小/标志及time_base相同；独立原14218终态0，候选双版本与34部正式旧交付身份复核通过。不重跑TTS、编码、解码、画质或VLC。
+- 新`paired_delivery_transaction.py`只提供四路径文件事务和严格归档解析器，不是生产v4包安装入口。最终40项真实契约0失败/0错误/0跳过，证据在`paired-transaction-v94/transaction-contracts-final.json`；首次30项及原实现快照另外保留，不冒称同一源码结果。
+- 小文件隔离测试覆盖4处替换失败、8个安装进程硬退出点、4个回滚硬退出点、3个准备退出点及首次替换前暂存退出；均非断电/真实视频/播放器验收。逐文件rename及fsync不等于多文件同时原子可见。工程锁、拒绝外部修改、未完成事务阻挡和显式恢复已测试。
+- 归档解析只接受原母版/上传版/两个旧清单的精确原身份和本事务快照；拒绝第五路径或过期其他依赖，不全局替换`state.matches`。生产工程没有创建`paired_revisions`，没有正式媒体或清单变更。
+- 下一先实现真实新生产来源的v4包/上传验证器与全34部显式版本分派，接入本事务的候选/新版本/旧版本三个验证回调，新增集成契约后才允许生产prepare/预演/安装/验证/回滚。不得直接调用文件层API配空验证器晋升，不用旧v3晋升器，不改已绑定代码或哈希。
+- 正式仍v90、34双版本/16v2/5v3/0v4；105跨条边界/127字面命中、30已应用条内改善及4部6条队列不减。六门禁、6840源/译稿沿用，重定位chóng dìng wèi五部20项30词次提示仍未逐处听辨。最高+15%、单文件用途交付、无外挂/发布/PotPlayer实测保持。
+
+## 历史权威断点：2026-11-09 同字幕候选双版本验证完成，未正式安装
+
+- 上轮是progress，v92独立终态1017为0。当前正式仍v90、34双版本/16v2/5v3，原105跨条边界/127字面命中、30已应用条内改善及4部6条队列保持；候选完成不计第35部，也不提前减队列。
+- 新`caption_boundary_upload.py`12项配置/进程身份契约真实0，复用v92的30+8+6原契约/160条字形而未重跑。原session68144终态0：上传候选28778755字节、SHA b584e86045a9cb2cea3cd49c7b30802081da8abf5e51972f85ee9c5907a99a86，1920×1224/单中文AAC/无软字幕/30章/1257.036秒，完整解码通过、日志为空，中文AAC与候选母版相同。无新TTS或正式媒体变更。
+- 原78052全31425帧原画比较终态0：平均SSIM=0.9996366826412035、最低0.996981，PTS/帧时长误差0，不宣称有损像素字节相同。原6585准备的六张1280×816、27178–64396字节真实上传帧JPEG已实际逐张看，导读、目标字幕和片尾清楚，原画/控件不遮挡；区别于v92叠加图。
+- 原49894候选双版本VLC有限seek/轨道/章节/渲染终态0，各6次章节跳转、共5次音轨/4次母版字幕切换；decoder/get_buffer/no frame/Timestamp消息保留，不称全片无错连续播放、人耳或PotPlayer通过。
+- 下一独立v4包校验和双文件预演/安装/验证/回滚，具体约束见docs/caption-boundary-repair.md。旧母版/上传及两个旧清单必须归档，仅这四路径允许原身份归档路由；需要明确新包生产来源与全34部v4分派，不调用旧v3晋升器，不手改旧依赖哈希。当前未实现此事务/正式v4包路由，不直接安装。
+- 六个原门禁、6840源/译稿、重定位chóng dìng wèi五部20项30词次提示与未听辨状态、最高+15%、无额外atempo/截尾/重叠、各用途单文件、无外挂/发布保持。BMX141源/译稿已在v92刷新；总目标active，本轮progress。
+
+## 历史权威断点：2026-11-09 跨条文字预览与内嵌母版候选通过，正式仍v90
+
+- 上轮是progress：v91只读审计及独立66787、断点终态89126均0，正式仍v90。本轮新`caption_boundary_repair.py`明确逐项审校/同人同合成窗/组合全部字符与原时窗守恒；BMX33/34的高精度定｜时器、37/38的CP｜U仅在隐藏预览修复，正式105边界/127命中未减少。
+- 实际30项文字、8项双语和6项章节布局契约通过。160条ASS文字/全部字形在新增144px黑带内，y=1139–1204；四张1280×816、62314–64555字节源帧叠加JPEG已实际逐张看，术语完整、原画/控件不遮挡。它们不是新上传视频截图或人耳验收，原字数比例时间仍非词级对齐。
+- 原`caption_boundary_master.py`因第七个bin_data/text章节轨安全拒绝、真实出口1且未创建候选；旧代码/8项结果不改。新`caption_boundary_master_v2.py`显式保留逻辑章节，原session37210终态0，生成隐藏母版候选cb1b7bc1345dae859314ae7aa5f80db3f52b1c6d7b606854624009ae29a3cca6。31425视频包、29463/54138音轨包、241英文字幕包载荷及PTS/DTS保持；三字幕/30章/1257.036秒实提取验证。章节数据包不声称字节一致。
+- 下一同字幕烧录上传候选及独立双版本事务/验证/回滚，不能用旧v3晋升器或直接改旧包清单。操作契约见docs/caption-boundary-repair.md；`caption-layout-v91`仍未初始化，未晋升、未编码音画/新TTS、不计第35部。原34双版本/16v2/5v3、30条改善、4部6条旧队列、六门禁保持。
+- BMX恢复记录中的旧138源/译稿和早期输出指纹需按本轮实际141源/译稿及当前正式母版刷新并保留旧快照，不把138当当前库存。重定位chóng dìng wèi整词提示保持未听辨，最高+15%、无额外atempo/截尾/重叠、单文件用途交付和无外部发布保持；目标active，本轮progress。
+
+## 历史权威断点：2026-11-09 显示跨条边界审计完成，正式交付仍为v90
+
+- 新只读审计`display-cue-boundary-audit-v91/current-display-boundaries.json`已完成；原session49215及独立66787真实终态0，12项检测器契约原结果0且身份复核，没有重跑旧媒体测试。34部已打包视频、10314条字幕、10280个相邻边界中，28部105个边界有127个登记字面命中；嵌套词不重复计边界，不能宣称全部为已确认缺陷或全40部全实体覆盖。
+- BMX第33/34条在292.308秒拆为“高精度定｜时器”；两张1280×720、64164/61816字节JPEG已实际逐张查看。第37/38条另有“CP｜U”，文字已核对。二者都在各自同一实际合成窗口；这是显示拆分，不能据此宣称配音有停顿。其他登记命中仍需逐项上下文审读。
+- 原v3只证明每条字幕内容/时窗及条内折行，未覆盖跨条完整词。禁止修改已绑定v3代码/证据追认修复；下一先设计独立版本的跨条修复与字词守恒、角色、原合成窗和内嵌/烧录字幕一致性验证。BMX`caption-layout-v91`尚未初始化，不启动编码或TTS。
+- 当前交付仍34双版本/16v2/5v3、6840源/译稿、30条已应用折行改善；原4部6条队列（2部3条可推进）及六个原质量门禁保持。审计完成不是第35部、不是v91安装完成，总目标active，本轮progress。
+- 重定位=chóng dìng wèi，重第二声。独立复核五部20实际朗读项30词次的TTS整词提示、160规范显示文件及34导读输入对；提示写法“崇定位”不进入显示、不全局替换单字重，仍未逐处听辨。最高+15%、无额外atempo/截尾/重叠、各用途单一自包含视频、无外挂交付/外部发布保持。
+- 独立收据`display-cue-boundary-audit-v91/independent-audit-verification.json`另绑定真实内层manifest；原报告`package_manifest`键实际指`render_state.json`，须按路径解释，不修改历史报告。两张图审与未修复事项见本目录新checkpoint，正式完成证据仍为oex/v90。
+
+## 历史权威断点：2026-11-09 drgn内核转储调试安全字幕带正式更新，v90
+
+- 当前v90_caption_installed_verified，属于progress，总目标active。oexQRN_OwA8第27条141.960–147.544秒“实时任务”已改为整词分行；来源11–20、原审校和两张受限旧上传/母版图已核对。保留CPU2上两个实时任务及低优先级XFS读锁持有者被饿死的案例语义，图上未口述的数字不补进朗读。只修显示，不改来源、正文、声音、角色、时窗或母版，不计第35部。
+- 原预览60759、全帧画质7943、候选VLC64557、图像准备94571、安装流水线4047及prepare44451均已观察真实终态0，全部安装子阶段出口0。事务6367e55f01e24b2c8c487eae61ed1294为committed，原上传版/清单完整归档；生产回滚只有plan、没有apply。初次进程观测已经是candidate-complete且owner/encoder均不活，不能把历史PID写成仍在运行。
+- 全89条实际ASS/逐条libass字形独立核验通过，字形y=1139–1205完全位于新增144px黑带，原1920×1080不缩放/裁切，正式1920×1224；最大既有量化5ms、无重叠。四张1280×816、24900–91559字节JPEG已实际逐张看，片头、“实时任务”、XFS下文和片尾字幕清楚，原图/演示控制条/会议控件不覆盖；不是全片人眼、人耳或PotPlayer验收。
+- 候选完整解码、中文AAC一致；13854帧原画区域平均SSIM=0.99950025、最低0.996992，PTS/帧时长误差0，不声称有损像素逐字节相同。正式上传与候选同inode/SHA 462bea0183c35772e6ecf71c80b35e0dbe47b4e27e2f41c8a01089f57b3e9b61、21278484字节；23.68秒有声导读/21章/554.210秒保持，没有新TTS或候选后重复编码/完整解码。VLC有限seek的decoder/timestamp消息原日志保留，不宣称全片无错误连续播放。
+- 新显式batch/route配置真实预检通过，复用未改v87候选/全批与v88生命周期、正式VLC和可配置独立终态实现；旧42+7+33+12+9契约仅验证身份复用，没有重跑测试，实际复用检查为lifecycle-contracts-reuse。全34同顺序母版/其他33上传不变，全40部6840源/译稿复核通过；现34双版本/16v2/5v3、六个原质量门禁保持。
+- 新入口oexQRN_OwA8/caption-layout-v90/completed-caption-evidence-v90.json及installed-state-identities-v90.json；finalize后使用未改verify_installed_terminal_configured_v88.py独立核对真实媒体、七文档/handoff/resume、当前门禁/队列和实际终态并保存收据。可复用CLI/配置流程见docs/ai-execution-workflow.md的v89工具表；不复制或修改已绑定实现追认历史，已有v3禁止旧upload/upload-verify。
+- 当前已应用30条显示改善，剩4部6条，其中2部3条可推进、P6/wGe两部3条仍阻挡。下一BMXR0XcDciA/caption-layout-v91尚未初始化；先来源/画面/质量，再候选/实际图审/预演/安装/终态，不把字幕改善等同于六部门禁解决。
+- 重定位仍读chóng dìng wèi，五部正文20实际朗读项30词次提示及160规范显示/34导读输入再次核对，仍未逐处听辨，不自动listened/confirmed_correct/dismiss。本片69源/16组/30实际朗读、14声音候选及模型版本/旧人名不确定保持；最高+15%，无额外atempo/截尾/重叠，各用途单一自包含视频、无外挂交付或外部发布，PotPlayer未测。
+
+## 历史权威断点：2026-11-09 drgn内核转储调试字幕候选已启动，v90
+
+- 前轮是progress：RGl/v89正式更新及独立会话84804终态0、收据和当前身份已核验。正式仍34双版本/16v2/4v3、29条显示改善、六个原质量门禁；目标active。
+- 本轮oexQRN_OwA8/caption-layout-v90已读来源11–20、原审校和两张1280×720、66459/62382字节JPEG，并实际逐张查看。第27条141.960–147.544秒只修“实时任务”词内折行。保留CPU2上两个实时任务及低优先级XFS读锁持有者被饿死的案例语义；图上数字不补进原未口述的朗读。69源/16组/30实际朗读及14未听辨声音候选保持。
+- 当前v90_caption_candidate_started_pending_terminal，原预览session60759；首次观察阶段candidate-complete，进程实际观测在started-checkpoint-v90.json，只证明该时刻状态。后续轮询原handle和真实出口，不因超时重启。原1920×1080下加144px黑带，不改正文、声音、角色、时窗或母版；尚未正式安装，不计第35部。
+- 新显式batch/route配置真实预检通过，目标仅本片v1→v3、16v2/5v3。复用不可变v87/v88候选/全批/生命周期/正式VLC/独立终态工具；42+7+33+12+9契约仅做实际身份复用检查，不称重跑。接着全字幕/字形、全帧画质、受限JPEG图审和候选/正式VLC，再预演/安装/独立终态。
+- 重定位读chóng dìng wèi，五部20实际项30词次提示仍未逐处听辨，不自动确认/关闭声音问题；最高+15%，禁止额外atempo/截尾/重叠、外挂交付或外部发布。各用途仍为含有声中文AI导读和内嵌章节的单一视频；PotPlayer未测，六门禁保持。
+
+## 历史权威断点：2026-11-09 CPU自主性能选择安全字幕带正式更新，v89
+
+- 当前v89_caption_installed_verified，属于progress，总目标active。RGlrdYc5BoM第160条790.446–795.262秒“自主选择”已改为整词分行；来源94–98、原审校和两张受限旧上传/母版图已核对。Desired请求的省略不等于取消MIN/MAX/EPP等约束。只修显示，不改来源、正文、配音、角色、时窗或母版，不计第35部。
+- 原预览2916、全帧画质72939、候选VLC38369、图像准备80599、安装流水线6224和prepare71938均已观察真实终态0；全部安装子阶段出口0。事务91fa970fbac8433d9a98ad5c3624aa06为committed，原上传版/清单完整归档；生产回滚只保存plan，没有apply。
+- 全239条实际ASS/逐条libass字形独立核验通过，字形y=1139–1205完全位于新增144px黑带；原1920×1080不缩放/裁切，正式1920×1224，最大既有量化5ms、无重叠。四张1280×816、27836–86089字节JPEG已实际逐张看，片头、前导语、“自主选择”和片尾字幕清楚，回调表格及底部会议控件不覆盖。不是全片人眼、人耳或PotPlayer验收。
+- 候选完整解码、中文AAC一致；32573帧原画区域平均SSIM=0.99938269、最低0.997932，PTS/帧时长误差0，不声称有损像素逐字节相同。正式上传与候选同inode/SHA 2c6a23d4b53642d6c0b16c433e37982ec1dd491d23aa4c19e9ff97747d5537ca、35895734字节；25.56秒有声导读/32章/1302.960秒保持，没有新TTS或候选后重复编码/完整解码。候选/正式VLC有限seek的decoder/timestamp消息原日志保留，不宣称全片无错误连续播放。
+- 本轮通过新显式batch/route配置真实预检，复用不可变v87候选/全批与v88生命周期、正式VLC、可配置独立终态工具，未复制或修改绑定代码。旧42+7+33+12+9契约仅验证身份复用，没有重跑测试；本轮实际复用检查出口为lifecycle-contracts-reuse。全34同顺序母版/其他33上传不变，全40部6840源/译稿复核通过；现34双版本/16v2/4v3、六个原质量门禁保持。
+- 新入口RGlrdYc5BoM/caption-layout-v89/completed-caption-evidence-v89.json及installed-state-identities-v89.json；finalize后使用未改verify_installed_terminal_configured_v88.py独立核对真实媒体、七文档/handoff/resume、原门禁/队列及真实终态并保存收据。docs/ai-execution-workflow.md已增加配置、不可变CLI复用表、真实session/同步chunk记录与预演→安装→独立终态操作约定；没有新增用户交付文件。
+- 当前已应用29条显示改善，剩5部7条，其中3部4条可推进、P6/wGe两部3条受真实门禁阻挡。下一oexQRN_OwA8/caption-layout-v90尚未初始化；以新配置继续复用不可变工具，先来源/画面/质量，后候选/实际图审/预演/安装/终态。已有v3禁止旧upload/upload-verify。
+- 重定位仍读chóng dìng wèi，五部正文20实际朗读项30词次提示及160规范显示/34导读输入再次核对，全部未逐处听辨，不自动listened/confirmed_correct/dismiss。本片153源/38组/92实际朗读与58声音候选保持。最高+15%、无额外atempo/截尾/重叠、各用途单一自包含视频、无外挂交付或外部发布，PotPlayer未测，六门禁不解除。
+
+## 历史权威断点：2026-11-09 CPU自主性能选择字幕候选已启动，v89
+
+- 前轮为progress：96/v88正式上传版和独立终态99548出口0及收据已核验。当前正式34双版本/16v2/3v3、28条显示改善和六个原质量门禁保持；总目标active。
+- 本轮RGlrdYc5BoM/caption-layout-v89已核对来源94–98及原审校，两张1280×720、85275/80840字节JPEG实际逐张查看。第160条790.446–795.262秒只修“自主选择”词内折行；不发送Desired请求不意味着取消MIN/MAX或其他性能约束，不改来源、正文、声音、角色、时窗或母版。本片153源/38组/92实际朗读、58声音候选仍未听辨。
+- 当前v89_caption_candidate_started_pending_terminal，原预览session2916；首次实际观察阶段encoding，进程观测记录在started-checkpoint-v89.json，只证明该时刻状态。后续轮询原会话及真实出口，不因超时重启。采用未改v3生产器，原1920×1080下加144px字幕带，候选尚未正式安装，不计第35部。
+- 新显式batch/route配置预检通过，声明仅本片v1→v3、目标16v2/4v3。复用不可变v87候选/全批与v88生命周期、正式VLC和可配置独立终态工具；42+7+33+12+9契约本轮只验证身份复用、不称重新跑测试。接着完成全字幕/字形、全帧画质、受限JPEG实际图审和候选/正式VLC，通过后预演/安装/独立终态。
+- 重定位仍读chóng dìng wèi，五部20实际朗读项30词次提示未逐处听辨，不自动listened/confirmed_correct/dismiss；最高+15%、无额外atempo/截尾/重叠、每用途单一自包含视频、无外挂交付或外部发布，PotPlayer未测，六门禁不能被字幕更新解除。
+
+## 历史权威断点：2026-11-09 Python性能工具安全字幕带正式更新，v88
+
+- 当前v88_caption_installed_verified，属于progress，总目标active。96HHq_gP1Zo第94条480.369–485.910秒的“perf annotate界面”改为整词分行；来源53–56及原审校已核对，519行Python与1272行C不是等功能性能基准。只修显示，不改来源、译稿、配音、角色、原窗或母版，不计第35部。
+- 原预览62153、全帧画质99473、候选VLC33967、安装流水线31449及prepare79267均已观察真实终态0；晋升、正式验证、仅计划回滚、正式VLC、34双版本与40范围各阶段出口0。事务a3de2ae76e934f3d8d7a2e527c101435为committed，原上传版/清单完整归档；生产回滚没有apply。
+- 全198条实际ASS/逐条libass字形独立核验通过，字形y=1139–1205位于新增144px黑带，原1920×1080不缩放/裁切，正式1920×1224；最大既有量化5ms、无重叠。四张1280×816、24131–66556字节JPEG已逐张实际看，片头、两条代码行数对照和片尾可读，原幻灯片/会议控件不覆盖；全片人眼、人耳与PotPlayer未验收。
+- 候选完整解码/中文AAC一致；25285帧原画区域平均SSIM=0.99948006、最低0.996387，PTS/帧时长误差0，不声称有损像素逐字节相同。正式上传与候选同inode/SHA 62e544e56d038809d4da7186d5b5bde48bd2eb0a2af44543730c1eb592165e3b、34447068字节；22.64秒有声导读/29章/1011.439秒保持，没有新TTS或候选后重复编码/完整解码。VLC有限seek期间decoder消息原日志保留，不宣称全片无错误连续播放。
+- 未改v87配置化全批验证器、候选checker及旧v86/v72绑定实现；本轮新显式batch/route配置真实预检通过。新增通用轮次lifecycle的9项隔离队列/计数/拒绝契约通过，旧42+7+33+12项只按身份复用，不称本轮重跑。全34同顺序母版/其他33上传不变，全40部6840源/译稿复核通过；现34双版本/16v2/3v3、六个原质量门禁保持。
+- 新入口96HHq_gP1Zo/caption-layout-v88/completed-caption-evidence-v88.json及installed-state-identities-v88.json；finalize后由verify_installed_terminal_configured_v88.py独立核对真实媒体、七文档/handoff/resume、当前门禁/队列与真实终态，保留其报告和收据。已有v3仍走video_upload_delivery_v3.py，禁止旧upload/upload-verify；后续以新配置复用不可变工具，不重复成功媒体任务。
+- 当前已应用28条显示改善，剩6部8条，其中4部5条可推进、P6/wGe两部3条受真实门禁阻挡。下一RGlrdYc5BoM/caption-layout-v89尚未初始化；仍须先核对来源/画面/质量，再候选、图审、预演、安装和终态，不改旧绑定代码追认历史。
+- 重定位（relocation）读chóng dìng wèi，重第二声、不读zhòng；五部正文20实际朗读项30词次提示与160规范显示/34导读输入再次核对，仍未逐处听辨，不自动listened/confirmed_correct/dismiss。本片17声音候选仍保留。最高+15%、无额外atempo/截尾/重叠、每用途一个自包含视频、无交付附件或外部发布保持。
+
+## 历史权威断点：2026-11-09 Python性能工具字幕候选已启动，v88
+
+- 前轮为progress：Y4/v87正式上传版更新及独立终态75139出口0，收据和旧证据保留；当前正式仍34双版本/16v2/2v3、27条显示改善、6真实门禁，总目标active。
+- 本轮96HHq_gP1Zo/caption-layout-v88已核对来源53–56及原审校，并实际逐张查看两张1280×720、65350/61860字节JPEG。第94条480.369–485.910秒把perf annotate界面拆行；519行Python与1272行C不是等功能性能基准，只修显示分行，不改正文、配音或时窗。
+- 当前v88_caption_candidate_started_pending_terminal。原预览session62153已启动；首次实际观察owner_pid=3475497，活=True、encoder_pid=3475739，活=True，只证明当时状态。后续看原会话和真实阶段/出口，不因超时重启。采用未改v3生产器，1920×1080原画下加144px；候选尚未正式安装，不计第35部。
+- 下一完成全部字幕/字形、原片区域全帧画质、受限JPEG实际图审与候选/正式VLC；复用绑定的configured_batch_validation_v87.py但创建本轮新配置/路由，明确目标16v2/3v3，不修改v87/v86/v72工具或旧交付实现。重定位chóng五部20项30词次仍待听辨，不自动关闭声音候选；最高+15%，无额外atempo/截尾/重叠/外挂交付/外部发布，PotPlayer未测。
+
+## 历史权威断点：2026-11-09 栈跟踪安全字幕带正式更新，v87
+
+- 前轮progress及v86独立终态收据保留；本轮原预览24010、全帧画质35129、候选VLC27278、晋升/正式路径VLC/全批27209及准备89089均已观察终态0。事务3b24559ab3474762a971984e0232433c为committed，旧上传版/清单完整归档，生产回滚仅plan未apply。
+- Y4RV7xnrndM第80条设备号显示断行已修。全部213实际ASS/逐条libass字形验证通过，最大既有量化5ms、无重叠，字形y=1139–1205完全在新增144px黑带；原1920×1080不缩放裁切，正式1920×1224。四张1280×816、28283–70061字节JPEG已实际逐张看，片头/设备号/规范重定位/片尾可读，代码和会议控件不覆盖。
+- 候选完整解码/AAC通过；全部29082帧原画区域SSIM平均0.99970754、最低0.998071，PTS/帧时长不变，不是有损像素逐字节相同。正式文件与已审候选同inode/SHA 5e43112d380d6cf3ddd5a25c1105c75a8cffb8cbc67f82e2f72fb28d561dacfa、33271207字节；22.48秒有声导读/31章/1163.323秒保持，无TTS或候选后重复编码/完整解码，母版与旧33部上传不变。
+- 新configured_batch_validation_v87.py以显式配置复用不可变v1/v2/v3 inspector，12项配置/门禁/路由/精确X别名契约通过，旧42+7+33契约按当前实现身份复用。全34同顺序双版本/40部6840源译复核通过；当前34双版本/16v2/2v3、27条显示改善、6门禁，非第35部。已有v3仍走video_upload_delivery_v3.py，禁止旧upload/upload-verify；全批走新包装器和batch-configuration.json，不修改绑定v86/v72工具。
+- 当前v87_caption_installed_verified，最终入口Y4RV7xnrndM/caption-layout-v87/completed-caption-evidence-v87.json及installed-state-identities-v87.json；收尾须独立核对真实出口、当前七文档/handoff/resume及媒体身份。剩7部9条（5部6条可推进、P6/wGe两部3条阻挡），下一96HHq_gP1Zo/caption-layout-v88尚未初始化；同一包装器可用新配置声明下一批，不复制硬编码计数。
+- 重定位chóng五部20项30词次提示和160规范显示/34导读计划已再次核对，仍待逐处听辨；Y4来源45哈希句矛盾及37声音候选不关闭。最高+15%、无额外atempo/截尾/重叠、单用途单文件、无外部发布保持；PotPlayer未测，总目标active。
+
+## 历史权威断点：2026-11-09 bpf_fault安全字幕带正式更新，v86
+
+- 前轮是progress，完整v3候选/362字幕/45509帧画质与四张受限JPEG图审有效。本轮独立新增upload_delivery_v3.py和video_upload_delivery_v3.py，保留旧模块/工具/候选；42项交付契约与7项补充恢复测试通过，均为隔离文件系统故障注入或只读真实候选检查，未对正式成片执行回滚。先前33项生产契约按身份复用，未重跑TTS/编码/完整解码。
+- 原安装会话46124及promotion-apply、installed-verify、rollback-plan、canonical-vlc、all-pairs、all-batch均终态0。事务491ab03f93bd48efb449ec390b249482已committed，原上传版和清单完整归档，正式上传文件与已审候选同inode/SHA b520e60c01d5657037ca3cdbc36b7c04f9c74b87b2f50f9d5b15c7f912648d38、52451537字节；实际回滚只做plan，未apply。原画1920×1080不缩放/裁切，下加144px，正式1920×1224；25.4秒有声导读、36章、1820.396秒及中文AAC保持。
+- 新正式路径VLC章节/seek/轨道/渲染通过，未重复母版或候选VLC；全34部同顺序双版本及全40部/6840源译复核通过，34允许/6原门禁不变。正式现34双版本/16部v2/1部v3，显示修正26条，剩8部10条（6部7条可推进，P6/wGe两部3条仍阻挡）。45509帧SSIM与旧44874正文/母版证明分别按新候选/未变媒体身份复用，不能声称有损像素比特相同或人耳/PotPlayer验收。
+- 当前v86_safe_band_installed_verified，真实证据和七文档/resume/总交接由safe-band-v3/completed-safe-band-evidence-v86.json及installed-state-identities-v86.json绑定；旧candidate/hold/encoding身份保持历史。总目标active，不计第35部；下一Y4RV7xnrndM/caption-layout-v87尚未初始化，声音审计下一v69。需用独立混合版本校验/路由入口，不修改绑定脚本；旧v72/v2-only全批工具不能直接续做当前v3批次。
+- 当前上传验证使用video_upload_delivery_v3.py verify，晋升/回滚使用同入口显式promote/rollback和--apply；已有v3工程不得再调用旧CLI的upload或upload-verify，以免旧协议不识别或降级。下一轮应通过新配置化包装器复用既有v1/v2/v3 inspector，绑定下一批路径和版本计数，不改本轮已绑定实现或重跑成功媒体。
+- 重定位读chóng dìng wèi，“重”第二声，五部20项30词次提示已应用但仍待逐处听辨；本轮无源/译稿/音色/角色/原窗修改，不自动listened/confirmed_correct/dismiss。六真实门禁、最高+15%、无外挂交付/外部发布保持。
+
+## 历史权威断点：2026-11-09 bpf_fault安全字幕带候选已验证，待v3晋升
+
+- 前轮是progress：旧bottom候选遮挡页脚，真实暂缓及重定位输入复核已固化。本轮独立新增upload_export_v3.py和video_workflow_v3.py，仅支持upload-preview；原v1/v2生产器、晋升器、已绑定工具及旧快照未改。33项契约含真实libass正反例通过；新入口不支持upload/package/rollback，不能通过旧v2晋升器强装v3。
+- 本片safe-band-v3原session41941已观察终态0，preview/VLC/images/pipeline出口均0；初次owner2833488/encoder2833750真实活性只作历史。完整候选52451537字节、SHA b520e60c01d5657037ca3cdbc36b7c04f9c74b87b2f50f9d5b15c7f912648d38。原1920×1080不缩放、不裁切，下增144px黑带，实际1920×1224；25.4秒有声导读、36章、1820.396秒、中文AAC及角色/原窗保持。
+- 全362条实际ASS与旧候选事件逐字段一致、非空白字符守恒，最大既有量化5ms且无量化后重叠。逐条真实libass字形边界y=1139–1205，全部在新增黑带；独立解析通过。四张1280×816、26933–85002字节JPEG核对SHA后实际查看，742.114秒蓝字/会议控件完整、片头/密集代码/片尾未被字幕覆盖；不作逐帧人眼或人耳验收。
+- 新候选完整解码/AAC/VLC均通过；另独立比较全部45509帧原片区域，帧数/PTS/帧时长无变化，平均SSIM0.99960819、最低0.99699400。此为有损H264画质度量，不是原片像素逐字节相同；旧44874正文/母版证明仍只复用未变媒体。原33618画质及58974截图会话均终态0，不重跑已成功编码、完整解码或TTS。
+- 当前safe_band_verified_pending_promotion，正式仍v85、34双版本/16部v2/0部v3、25条改善及6门禁，目标active。下一实现独立v3可回滚晋升、当前版本分派和相应全批验证，再正式安装；不得套旧v72晋升/prepare/finalize/check或初始化下一片。新断点safe-band-v3/verified-candidate-checkpoint.json与candidate-state-identities.json为当前入口，旧hold/active快照是历史。
+- 重定位读chóng dìng wèi，“重”第二声，五部20项30词次提示已应用但未听辨；本轮无新音轨或发音修订，声音审计下一v69、最高+15%、无新增用户交付附件/外部发布保持。PotPlayer未实测。
+
+## 历史权威断点：2026-11-09 bpf_fault候选图审暂缓，v86
+
+- 原session73901已观察终态0，preview、candidate-vlc、images和candidate-pipeline出口均0；历史owner2628070/encoder2628132现已退出，不再登记活动编码器。当前20项契约及362条实际ASS独立解析通过，旧16+6项保护按身份复用、未变正文/母版44874帧证据只读复用，不冒称新测试。
+- 三张受限JPEG已核对源/图SHA、尺寸/字节并实际查看：742.114秒候选和旧正式上传版均遮挡幻灯片底部“No handler thread, no cross-vCPU blocking”。候选不得晋升，正式仍v85、34双版本/16部v2、25条显示改善、6门禁；总目标active，当前工程保持visual_review_hold，未解决前不得初始化下一片。
+- 新增底部144px安全字幕带的1920×1224原型仅单帧验证；原1920×1080区域RGB逐字节相同，中文字幕不覆盖蓝字或会议控件。原型ASS事件为静帧相对0–5秒，不能直接用于全片；正式方案须独立版本入口和全片/字幕/音轨/章节/时长/VLC验证，不修改已绑定v1/v2生产器，不重复成功bottom候选编码或冒称PotPlayer实测。
+- 重定位（relocation）读chóng dìng wèi，“重”第二声、不读zhòng；五部20实际朗读项30词次配音专用提示已应用，规范字幕不变，仍未逐处听辨，不自动listened/confirmed_correct/dismiss。当前声音审计仍v68、下一v69，最高+15%、无外挂交付或发布保持。真实视觉和续做记录见本片caption-layout-v86/visual-review-checkpoint-v86.json，不以旧active-checkpoint推断当前进程。
+
+## 历史权威断点：2026-11-09 bpf_fault字幕候选启动，v86
+
+- 上轮v85独立终态与补充证据/当前交接身份通过，前轮progress。本轮TnTg4AXen30/362字幕仅cue146“环形缓冲区”显示折行候选，两项登记写法对应同一条，不算两处；文字/时间/声音/角色/原窗、25.4秒有声导读、36章、1820.396秒及44874正文帧保持。正式仍34双版本/16部v2、25条显示改善、6门禁，目标active。
+- 原session73901已启动，初次真实owner2628070/encoder2628132均活、完整命令已留证，只证明该次观察。七文档后原v75记录器同步实际阶段/resume/总交接，后续以原会话及真实阶段为准，不因超时重启；当前20项契约、旧16+6元数据保护按身份复用与未变正文/母版全帧证据分开，不改绑定工具或重跑成功媒体。
+- 候选终态0后核对源/图SHA并逐张实际查看≤1280长边/192KiB JPEG，通过才原八阶段promote、prepare、七文档完成态、原finalize/check、原v84终态工具及补充身份核验。重定位chóng五部20项30词次提示仍待听辨，下一声音审计v69、六门禁、最高+15%、无外挂或发布保持。
+
+## 历史权威断点：2026-11-09 Android厂商钩子字幕正式更新，v85
+
+- 上轮v84独立终态/补充证据及当前交接身份通过，前轮progress。本轮IszxPqRh5iU/141字幕仅cue76“基于窗口的负载跟踪”、109“厂商钩子”显示折行正式修正，字词/时间/声音/角色/原窗、22.16秒有声导读、27章、950.634秒保持。固定40部/6840源及译稿、34双版本、16部v2及6真实门禁，目标active，不计第35部。
+- 原候选25792、八阶段晋升46443、prepare87032均已观察终态0；当前20项契约、候选完整解码/AAC一致、候选及正式VLC、全40/全34复核通过。529.759/761.32秒两张1280×720、71396/55078字节JPEG核对SHA后逐张实际查看，术语完整、两行可读无截断；第一行靠近幻灯片下缘装饰管线、原会议控件紧邻第二行下方，仅这两帧，不作全片视觉、人耳或PotPlayer验收。
+- 事务bb41d451799d447c98a9b87066ec3b87保留原上传/清单；正式27003828字节、SHA ea7a2e5a36f4eb3d5f20b958ea42476ec42ec462541dbfa990089ace51186c1d与候选一致，无TTS或候选后重复编码/解码。23211正文帧/PTS只读复用未变正文/母版证明，旧上传fidelity保持历史。初次活编码器与原v75实际candidate-complete断点分开，旧16项保护及终态工具旧六项输入保护按代码/日志身份复用未重跑，不能冒称新媒体或声音测试。
+- source-context-review-v85.json绑定源48/49及77，映射正文506.599–512.716/738.16–743.891秒；保留源76介绍、77的>>真实交接和移除WALT困难的限定，不跨人合组或新增实施结论。independent-ass-content-check-v85.json独立解析全部141条实际ASS，非空白字符与SRT一致，两处行布局精确匹配；仅既有10ms格式量化，最大起止误差各5ms，不是新时间偏移或全片可见性证明。
+- 七文档完成态后原finalize/check、原verify_caption_terminal_v84.py及补充身份核验收尾，以真实出口为准，所有已绑定工具不得修改。累计25条显示改善，剩9部11条，其中7部8条可推进、P6/wGe两部3条仍阻挡；下一TnTg4AXen30/v86，以remaining-caption-rollout-v85.json为准。重定位chóng五部20项30词次提示仍待逐处听辨，声音审计v69、六门禁、最高+15%及无外挂/发布保持。
+
+## 历史权威断点：2026-11-09 Android厂商钩子字幕候选，v85
+
+- 上轮v84的独立终态与补充证据/当前交接身份通过，前轮progress。当前IszxPqRh5iU的141条字幕仅cue76“基于窗口的负载跟踪”、109“厂商钩子”显示折行候选；文字/时间/声音/角色/原窗、22.16秒有声导读、27章、950.634秒及23211正文帧保持。正式仍34双版本/15部v2、23条显示改善和6真实门禁，目标active。
+- 原session25792已启动，初次真实owner2529626/encoder2529677均活、完整命令已保存，只证明该次观察；后续以原会话和实际阶段为准，不因超时重启。七文档后用原v75记录器同步实际阶段/resume/总交接，再当前20项契约、旧16项保护及v84终态工具六项保护按身份复用，不重跑旧测试或改绑定实现。
+- 原候选终态0后核对源/图SHA并逐张实际查看≤1280长边/192KiB JPEG，通过才原八阶段晋升、prepare、七文档完成态、原finalize/check、原verify_caption_terminal_v84.py及补充身份核验；不重跑成功TTS/媒体，旧fidelity只复用未变正文/母版。重定位chóng五部20项30词次提示仍待听辨，声音审计v69、六门禁、最高+15%、无外挂或发布保持。
+
+## 历史权威断点：2026-11-09 性能工具与提示字幕正式更新，v84
+
+- 上轮v83完整收尾通过，前轮progress。本轮RyO7vdjpfes的261条字幕仅cue148“请求大小分布”、cue156“内核”显示折行正式修正，字词/时间/角色/声音/原窗、25.64秒有声导读、31章、1458.567秒保持。固定40部/6840源及译稿、34双版本、15部v2、6真实门禁，目标active，不计第35部。
+- 原候选7197、八阶段晋升46627及prepare16394均已观察终态0；当前20项契约、候选完整解码/中文AAC、候选及正式VLC、全40刷新与全34复核通过。816.688/870.211秒两张1280×720 JPEG，82985/78091字节，核对源/图SHA后逐张实际查看，两处术语完整、两行可读无截断；第一行靠近幻灯片下缘、原会议控件紧邻第二行下方，只证明这两帧，不作全片视觉、人耳或PotPlayer验收。
+- 事务d295275e3d3a4703950cdfeb06fb4985保留原上传/清单；正式上传48209914字节、SHA 0dcf7397e5a08c875b1afc53c3d8b1c134e12f5fac1618c003a47c3c670ba013与已审候选一致，无TTS或候选后重复编码/解码。35822正文帧/PTS只读复用未变正文/母版证明，旧fidelity上传身份保持历史。初次活编码器观察与原v75实际full-decoding断点分开，旧16项元数据保护按身份复用，不能把历史观察当后续活性。
+- source-context-review-v84.json保留来源102/109及上下文，分别映射正文790.048–795.858/843.571–850.153秒，保留采集方法疑问和“输出仍须验证”限定，不把优化机会当实测收益。新增只读verify_caption_terminal_v84.py及六项输入拒绝契约已绑定，后续不得修改；原finalize/check后用真实原会话终态参数执行，另核对terminal-verifier-contracts.json及remaining-six-current-binding-recheck-v84.json。六部当前源/朗读/输入及blocker与v68上下文一致，只证明身份未变，未听辨或解除门禁。
+- 七文档完成态使用原finalize/check与独立终态证明收尾，以真实出口为准。累计23条显示改善，剩10部13条，其中8部10条可推进、P6/wGe两部3条仍阻挡；下一IszxPqRh5iU/v85，以remaining-caption-rollout-v84.json为准。重定位chóng dìng wèi五部20项30词次提示仍待逐处听辨，下一声音审计v69、最高+15%、六门禁、无外挂或发布保持。
+
+## 历史权威断点：2026-11-09 性能工具与提示字幕候选，v84
+
+- 上轮v83已完整收尾：独立check/终态证明及当前交接身份通过，前轮分类progress。本轮RyO7vdjpfes的261条字幕只修cue148“请求大小分布”和cue156“内核”显示折行；字词/时间/角色/声音/原窗、25.64秒有声导读、31章、1458.567秒及35822正文帧保持。正式仍34双版本、14部v2、21条显示改善、6真实门禁，目标active。
+- 原候选session7197已启动，初次真实观察owner2414613与encoder2414829均活且完整命令保存于initial-process-observation.json，仅证明该次观察。后续以原会话和实际阶段为准，不因超时重启；七文档后用原v75记录器同步真实阶段/resume/总交接。当前20项契约与旧16项元数据保护复用分开，不宣称新声音验证。
+- 原候选终态0后核对源/图SHA并逐张实际查看≤1280长边且≤192KiB JPEG，通过才原八阶段晋升、prepare、七文档完成态、finalize/check与独立终态证明。未变正文/母版逐帧证据只读复用，不改绑定实现或重跑成功媒体。重定位chóng dìng wèi五部20项30词次提示仍待听辨，下一声音审计v69，六门禁/最高+15%/无外挂或发布保持。
+
+## 历史权威断点：2026-11-09 内核锁竞争字幕正式更新，v83
+
+- 上轮v82的finalize/check与独立终态证明通过；本轮4rdkSDfNiKo的119条字幕只修cue12显示折行，完整保留“界面关键线程”，文字/时间/声音/原窗、22.92秒有声导读、24章、816.857秒保持。固定40部/6840源及译稿、34双版本、6真实门禁、14部v2，目标active，不计第35部。
+- 原候选session25556、八阶段晋升16244、prepare43080均已观察终态0；当前20项契约、候选完整解码/中文AAC一致、候选及当前VLC与全40/全34复核通过。57.207秒的一张1280×720、54614字节JPEG核对SHA后实际查看，两行可读无截断，完整术语位于第二行开头；第一行靠近幻灯片页脚，原会议控件紧邻字幕下缘，仅证明该帧，不作全片视觉、人耳或PotPlayer验收。
+- 事务a94390421526497ea1616bc9f2dede26保留原上传及清单；正式上传23107601字节、SHA 528c17af0c198269619e8df12192f5aa1ca967b2023825d11c82ab54245a0fc5与候选一致，无TTS或晋升后重编码/解码。19847正文帧/PTS只读复用未变正文/母版证明；原fidelity-precheck字段假设失败出口1完整保留，新recovery按真实checked_ffmpeg_exit_code0通过，未改绑定代码或放宽验证。
+- source-context-review-v83.json保留原3/4/5、交付56.207–61.679映射正文33.287–38.759、前句九十赫兹条件及实际所见UI-critical thread；不改不佳ASR、不泛化11毫秒或约4.7%案例。原v75记录器实际candidate-complete，不宣称活编码器，16项旧元数据保护按身份复用未重跑。七文档完成态使用原finalize/check与独立终态证明固化，以本片真实出口及证据为准。
+- 累计21条显示改善已应用，剩11部15条，其中9部12条可推进、P6/wGe两部3条仍阻挡；下一RyO7vdjpfes/v84，以remaining-caption-rollout-v83.json为准。重定位chóng dìng wèi（重第二声）五部20项30词次整词提示保持、仍待逐处听辨，下一声音审计v69；六门禁、最高+15%、无外挂或外部发布保持。
+
+## 历史权威断点：2026-11-09 内核锁竞争字幕候选进行中，v83
+
+- 上轮QeAJFHZYxnw/v82已观察原finalize47381、check12551终态0，独立completion-terminal-proof-v82.json通过。当前仅4rdkSDfNiKo的cue12显示折行候选，将“界面关键线程”保持在同一行；文字/时间/声音/原窗、22.92秒有声导读、24章、816.857秒不变。正式仍34/40双版本、13部v2、累计20条显示改善及6真实门禁，目标active。
+- 原候选session25556已启动，实际阶段及进程以candidate-live-state.json、原会话和真实命令为准，不因超时重启。七文档活动态后用原v75记录器记录实际阶段并同步resume/总交接；当前20项契约与未变正文/母版19847帧证明分别核对，旧16项元数据测试只按身份复用，不能冒称新媒体或活编码器验证。
+- 候选终态0后先核对源/图SHA，实际逐张查看长边≤1280且≤192KiB JPEG，才原八阶段晋升、prepare、七文档完成态、finalize/check及独立终态证明。不改绑定代码、不重复成功TTS/媒体。重定位chóng dìng wèi（重第二声）五部20项30词次整词提示保持，仍待逐处听辨；下一声音审计v69，六门禁、最高+15%、无外挂或发布保持。
+
+## 历史权威断点：2026-11-09 实时任务支持字幕正式更新，v82
+
+- 上轮v81为progress且收尾终态0；本轮QeAJFHZYxnw的138条字幕仅cue98 RT任务显示折行正式修正，文字/时间/声音/原窗、22.64秒有声导读、23章、945.309秒保持。固定40部/6840源/译稿、34双版本、6真实门禁、13部v2，目标active，不计第35部。
+- 原候选session12652、晋升71509均已观察终态0；20项当前契约、候选完整解码/中文AAC一致、候选及当前VLC与八阶段预演/apply/验证/幂等/缓存/全40刷新/全34复核通过。一张1280×720、75744字节JPEG核对源/图SHA后实际查看707.479秒，RT任务完整位于第一行末尾、两行可读无截断；第一行靠近幻灯片下缘、原会议控件紧邻第二行下缘，仅该帧，不作全片视觉、人耳或PotPlayer验收。
+- 事务f9e4814f457d48cc84c19fba093db8c8保留原上传/清单；正式上传29093927字节、SHA 1de0de699760f6b72920fdcadb4a817fcb2b747db879768653c419e531f1b5ef与候选一致，无TTS或晋升后重复编码/解码。23066正文帧/PTS依未变正文/母版只读复用，旧fidelity上传身份保持历史，所有绑定实现未改；source-context-review-v82.json绑定原84/85、实际所见TODAY/PROPOSED图、时间映射与字词守恒，保留源85内>>交接标记，不新增角色归属、优先级方向或已实现结论。
+- 通用v75记录器实际已candidate-complete，不宣称记录时编码器仍活；较早启动阶段encoding及owner2211690/encoder2211790完整命令与原会话终态0分别观察。原16项元数据保护按身份复用未重跑，不当作本轮媒体测试；外层post-promotion.log/.exit正确，prepare/session17204终态0。七文档完成态使用原finalize/check固化，以本片completed-caption-evidence.json、independent-check.json及真实出口为准。
+- 累计20条显示改善已应用，剩12部16条，其中10部13条可推进、P6/wGe两部三条仍阻挡；下一4rdkSDfNiKo/v83，以remaining-caption-rollout-v82.json为准。重定位chóng dìng wèi（重第二声）五部20项30词次提示仍待逐处听辨，下一声音审计v69、六门禁、最高+15%及无外挂/发布保持。旧active-checkpoint/图审时production_applied=false保留历史，不重跑成功媒体。
+
+## 历史权威断点：2026-11-09 实时任务支持字幕候选进行中，v82
+
+- 上轮v81为progress且收尾终态0；当前QeAJFHZYxnw的138条字幕仅cue98 RT任务显示折行候选，文字/时间/声音/原窗、22.64秒有声导读、23章、945.309秒保持。正式仍40部/6840源/译稿、34双版本、6真实门禁、12部v2、累计19条显示改善，目标active。
+- 原候选session12652已启动，实际观察encoding及owner2211690/encoder2211790完整命令；后续以candidate-live-state.json、真实进程及原会话出口为准，不因观察超时重启。尚未图审或晋升、production_applied=false，不把文件存在/自动检查当完成或人耳/PotPlayer验收。
+- 七文档同步后原v75记录器记录session12652实际阶段并同步resume/总交接，运行当前20项v72契约；23066帧/PTS只读复用未变正文/母版证明。候选真实终态0后核对源/图SHA并逐张实际查看≤1280长边/192KiB JPEG，图审通过才原promote八阶段，外层post-promotion.log/.exit，再prepare、七文档完成态、finalize/check，不改绑定实现或重跑成功媒体。原16项元数据保护按身份复用，不冒称重跑或本轮媒体测试。
+- 重定位chóng dìng wèi（重第二声）五部20项30词次整词提示仍待逐处听辨，下一声音审计v69、六门禁、最高+15%及无外挂/发布保持，字幕v82不是新声音审计。
+
+## 历史权威断点：2026-11-09 DAMON字幕正式更新，v81
+
+- 上轮v80为progress且收尾终态0；本轮Ryo9xDAz4wc的235条字幕仅cue81数据属性显示折行正式修正，文字/时间/声音/原窗、25.72秒有声导读、30章、1454.537秒保持。固定40部/6840源/译稿、34双版本、6真实门禁、12部v2，目标active，不计第35部。
+- 原候选session31002、晋升22550均已观察终态0；20项当前契约、候选完整解码/中文AAC一致、候选及当前VLC与八阶段预演/apply/验证/幂等/缓存/全40刷新/全34复核通过。一张1280×720、58175字节JPEG核对源/图SHA后实际查看513.6秒，数据属性完整位于第一行引号内，两行在幻灯片下方深色区可读无截断；原会议控件位于字幕上方，该帧未见遮挡，仅该帧，不作全片视觉、人耳或PotPlayer验收。
+- 事务a16a2368587441e69149f2cc2a48f12b保留原上传/清单；正式上传38608009字节、SHA a557f7c073120293c3a5a884f1f0cd6f9951a89ade45cfab3ecf720211e588d3与候选一致，无TTS或晋升后重复编码/解码。35719正文帧/PTS依未变正文/母版只读复用，旧fidelity上传身份保持历史，所有绑定实现未改；source-context-review-v81.json绑定原44/45、实际所见Data Access→Data Attribute幻灯片、原/交付时轴映射及字词守恒，不作新翻译修订或听辨。
+- 通用v75记录器实际已记录candidate-complete，不宣称记录时编码器仍活；此前启动阶段的encoding及owner2108736/encoder2108894完整命令与原会话终态0分别观察。原16项元数据保护按身份复用未重跑，不当作本轮媒体测试。外层post-promotion.log/.exit正确，prepare/session79355终态0；七文档完成态使用原finalize/check固化，以本片completed-caption-evidence.json、independent-check.json及真实出口为准。
+- 累计19条显示改善已应用，剩13部17条，其中11部14条可推进、P6/wGe两部三条仍阻挡；下一QeAJFHZYxnw/v82，以remaining-caption-rollout-v81.json为准。重定位chóng dìng wèi（重第二声）五部20项30词次提示仍待逐处听辨，下一声音审计v69、六门禁、最高+15%及无外挂/发布保持。旧active-checkpoint/图审时production_applied=false保留历史，不重跑成功媒体。
+
+## 历史权威断点：2026-11-09 DAMON字幕候选进行中，v81
+
+- 上轮v80为progress且收尾终态0；本轮Ryo9xDAz4wc的235条字幕仅cue81数据属性显示折行候选，文字/时间/声音/原窗、25.72秒有声导读、30章、1454.537秒保持。正式仍40部/6840源/译稿、34双版本、6真实门禁、11部v2、累计18条显示改善，目标active。
+- 原候选session31002已启动，实际观察encoding及owner2108736/encoder2108894完整命令；后续以candidate-live-state.json、真实进程及原会话出口为准，不因观察超时重启。尚未图审或晋升、production_applied=false，不把文件存在/自动检查当完成或人耳/PotPlayer验收。
+- 七文档同步后用未改v75记录器记录session31002实际阶段并同步resume/总交接，运行当前20项v72契约；35719帧/PTS只读复用未变正文/母版证明。候选真实终态0后核对源/图SHA并逐张实际查看≤1280长边/192KiB JPEG，图审通过才原promote八阶段，外层post-promotion.log/.exit，再prepare、七文档完成态、finalize/check，不改任何绑定实现或重跑成功媒体。旧16项元数据保护按身份复用，不冒称重跑或本轮媒体测试。
+- 重定位chóng dìng wèi（重第二声）五部20项30词次整词提示仍待逐处听辨，下一声音审计v69、六门禁、最高+15%及无外挂/发布保持，字幕v81不是新声音审计。
+
+## 历史权威断点：2026-11-09 压缩内存服务字幕正式更新，v80
+
+- 上轮v79为progress且收尾终态0；本轮8r6PNOopV44的331条字幕仅cue154缺页处理显示折行正式修正，文字/时间/声音/原窗、24.24秒有声导读、31章、1867.858秒保持。固定40部/6840源/译稿、34双版本、6真实门禁、11部v2，目标active，不计第35部。
+- 原候选session58115、晋升85060均已观察终态0；20项当前契约、候选完整解码/中文AAC一致、候选及当前VLC与八阶段预演/apply/验证/幂等/缓存/全40刷新/全34复核通过。一张1280×720、63666字节JPEG核对源/图SHA后实际查看868.942秒，缺页处理完整位于第一行末尾、两行可读无截断；首行靠近原装饰管道、底部会议控件紧邻下缘，仅该帧，不作全片视觉、人耳或PotPlayer验收。
+- 事务ab42e857acdf47bb9a36862324bf8f81保留原上传/清单；正式上传58068771字节、SHA 44433bfe92098d48bd6c0db4dc42b88913d071106a2f3820dad9ebaa6efe8381与候选一致，无TTS或晋升后重复编码/解码。46089正文帧/PTS依未变正文/母版只读复用，旧fidelity上传身份保持历史，所有绑定实现未改；source-context-review-v80.json记录原94/95的faults上下文、原/交付时轴映射与字词守恒，不作新翻译修订或听辨。
+- 通用v75记录器实际记录encoding及owner2009046/encoder2009202完整命令；原16项元数据保护按身份复用未重跑，不当作本轮媒体测试，不宣称完成后编码器仍活。外层post-promotion.log/.exit正确保存，prepare/session56630终态0；七文档完成态使用原finalize/check固化，以本片completed-caption-evidence.json、independent-check.json及真实出口为准。
+- 累计18条显示改善已应用，剩14部18条，其中12部15条可推进、P6/wGe两部三条仍阻挡；下一Ryo9xDAz4wc/v81，以remaining-caption-rollout-v80.json为准。重定位chóng dìng wèi（重第二声）五部20项30词次整词提示仍待逐处听辨，下一声音审计v69、六门禁、最高+15%及无外挂/发布保持。旧active-checkpoint/图审时production_applied=false保留历史，不重跑成功媒体。
+
+## 历史权威断点：2026-11-09 压缩内存服务字幕候选进行中，v80
+
+- 上轮v79为progress且收尾终态0；当前8r6PNOopV44的331条字幕仅cue154缺页处理显示折行候选，文字/时间/声音/原窗、24.24秒有声导读、31章、1867.858秒保持。正式仍40部/6840源/译稿、34双版本、6真实门禁、10部v2、累计17条显示改善，目标active。
+- 原候选session58115已启动，实际观察encoding及owner2009046/encoder2009202完整命令；后续以candidate-live-state.json、真实进程及原会话出口为准，不因观察超时重启。尚未图审或晋升、production_applied=false，不把自动检查/文件存在当完成或人耳/PotPlayer验收。
+- 七文档同步后复用未改v75记录器记录session58115实际阶段并同步resume/总交接，运行当前20项v72契约；46089正文帧/PTS只读复用未变正文/母版证明。候选真实终态0后核对源/图SHA并逐张实际查看≤1280长边/192KiB JPEG，图审通过才原promote八阶段，外层保存post-promotion.log/.exit，再prepare、七文档完成态、finalize/check；不得修改任何绑定实现或重跑成功媒体。
+- 原16项元数据保护按身份复用、不冒称本轮重跑或媒体测试；重定位chóng dìng wèi（重第二声）五部20项30词次整词提示仍待逐处听辨，下一声音审计v69、六门禁、最高+15%及无外挂/发布保持，字幕v80不是新声音审计。
+
+## 历史权威断点：2026-11-09 长期延迟监测字幕正式更新，v79
+
+- 上轮v78为progress且收尾终态0；本轮AVlzBJLOOCE的452条字幕仅cue172“三十二位”显示折行正式修正，文字/时间/声音/原窗、21.28秒有声导读、35章、2851.677秒保持。固定40部/6840源/译稿、34双版本、6真实门禁、10部v2，目标active，不计第35部。
+- 原候选session8945、晋升49219均已观察终态0；20项当前契约、候选完整解码/中文AAC一致、候选及当前VLC与八阶段预演/apply/验证/幂等/缓存/全40刷新/全34复核通过。一张1280×720、80831字节JPEG核对源/图SHA后实际查看1101.542秒，“三十二位”完整位于第一行末尾、两行可读无截断；第一行叠原幻灯片英文页脚、底部会议控件靠近第二行下缘，仅该帧，不作全片视觉、人耳或PotPlayer验收。
+- 事务c37b44e4dbe44d3d807bc225bbbeff00保留原上传/清单；正式上传88060204字节、SHA 40a54afcf774966cb45d547c67da66c60aa4c561441987005b83cca25f6db5e6与候选一致，无TTS或晋升后重复编码/解码。70759正文帧/PTS依未变正文/母版只读复用，旧fidelity上传身份保持历史，所有绑定实现未改；原文105明确32-bit value，source-context-review-v79.json记录原/交付时间映射及显示字词守恒，不作听辨。
+- 通用v75记录器实际记录encoding及owner1907394/encoder1907557完整命令；原16项元数据保护按身份复用未重跑，不当作本轮媒体测试，也不宣称完成后编码器仍活。外层正确保存post-promotion.log/.exit，无上轮命名问题；prepare/session70696终态0，七文档完成态使用原finalize/check固化，以本片completed-caption-evidence.json、independent-check.json及真实出口为准。
+- 累计17条显示改善已应用，剩15部19条，其中13部16条可推进、P6/wGe两部三条仍阻挡；下一8r6PNOopV44/v80，以remaining-caption-rollout-v79.json为准。重定位chóng dìng wèi（重第二声）五部20项30词次提示保持、仍待逐处听辨，下一声音审计v69、六门禁、最高+15%及无外挂/发布保持。旧active-checkpoint/图审时production_applied=false保留历史，不重跑成功媒体。
+
+## 历史权威断点：2026-11-09 长期延迟监测字幕候选进行中，v79
+
+- 上轮v78为progress且收尾终态0；本轮AVlzBJLOOCE的452条字幕仅cue172“三十二｜位”改为完整“三十二位”的显示折行候选，文字/时间/声音/原窗、21.28秒有声导读、35章、2851.677秒保持。正式仍40部/6840源/译稿、34双版本、6真实门禁、9部v2、累计16条显示改善，目标active。
+- 原候选session8945已启动，刚实际观察encoding及owner1907394/encoder1907557完整命令；实际阶段以candidate-live-state.json及进程为准，不因观察超时重启。尚未图审或晋升、production_applied=false，不把文件存在/自动检查当完成或人耳/PotPlayer验收。
+- 下一七文档同步后复用未改v75记录器记录实际阶段并同步resume/总交接，运行当前20项v72契约；70759正文帧/PTS仅复用未变正文/母版证明。候选真实终态0后核对源/图SHA，逐张实际查看≤1280长边/192KiB JPEG，通过才执行原八阶段promote，外层必须保存post-promotion.log/.exit，再prepare、七文档完成态、finalize/check，保留真实出口、不改绑定实现。
+- 原16项元数据保护按身份复用，不冒称本轮重跑或媒体测试；重定位chóng dìng wèi（重第二声）五部20项30词次整词提示仍待逐处听辨，下一声音审计v69、六门禁、最高+15%及无外挂/发布保持，字幕v79不是新声音审计。
+
+## 历史权威断点：2026-11-09 GPU作业调度字幕正式更新，v78
+
+- 上轮v77为progress且收尾终态0；本轮AiYdDK7flB4的312条字幕仅cue19命令缓冲区、cue86作业队列显示行正式修正，文字/时间/声音/原窗、20.2秒有声导读、30章、1931.714秒保持。固定40部/6840源/译稿、34双版本、6真实门禁、9部v2，目标active，不计第35部。
+- 原候选session72125、晋升7381均已观察终态0；20项当前契约、完整解码/AAC一致、候选/当前VLC和八阶段预演/apply/验证/幂等/缓存/全40刷新/全34复核通过。两张1280×720 JPEG分别67451/67036字节，核对源/图SHA后逐张实际查看80.851/530.469秒采样，两词完整位于第二行开头、可读无截断；原会议控件紧邻下缘，仅该两帧，不作全片视觉、人耳或PotPlayer验收。
+- 事务976f3723eeeb4bbb97f502464064172a保留原上传/清单；正式上传52130336字节、SHA b6627dac1f075bf8e26249356052d7121dca8fbd1579191d03ad34356454d968与候选一致，无TTS或晋升后重复编码/解码。47787正文帧/PTS依未变正文/母版只读复用，旧fidelity上传身份保持历史，所有绑定实现未改。
+- 通用v75记录器如实记录candidate-complete；原16项元数据保护按代码身份复用，未重跑、不作新媒体测试。首次JPEG身份预检缺PIL出口1保留，改用既有ffprobe只读核对；首次prepare因外层日志命名缺post-promotion.exit出口1保留，以原7381真实0日志/出口硬链接绑定期望路径，promotion-terminal-alias.json记录原始身份，不伪造出口或重跑媒体。prepare-v2/session73919终态0；七文档完成态用原finalize/check固化，以本片completed-caption-evidence.json、independent-check.json及真实出口为准。
+- 累计16条显示改善已应用，剩16部20条，其中14部17条可推进、P6/wGe两部三条仍阻挡；下一AVlzBJLOOCE/v79，以remaining-caption-rollout-v78.json为准。重定位chóng dìng wèi（重第二声）五部20项30词次提示、160显示及34导读102场景本轮只读复核保持，仍待逐处听辨；下一声音审计v69、六门禁、最高+15%及无外挂/发布保持。旧active-checkpoint/图审时production_applied=false保留历史，不重跑成功媒体。
+
+## 历史权威断点：2026-11-09 GPU作业调度字幕候选完成，v78待审
+
+- 上轮v77为progress且收尾终态0；当前AiYdDK7flB4的312条字幕仅cue19命令缓冲区、cue86作业队列显示折行候选，文字/时间/声音/原窗、20.2秒有声导读、30章、1931.714秒保持。正式仍40部/6840源/译稿、34双版本、6真实门禁、8部v2、累计14条显示改善，目标active，不计第35部。
+- 原候选session72125已观察真实终态0，preview/VLC/受限JPEG准备出口均0，实际candidate-complete；不能宣称编码器仍活，也不重复编码。两张JPEG尚未实际查看，尚未晋升，production_applied=false，不等于人耳或PotPlayer验收。
+- 下一七文档更新后复用未改v75记录器同步resume/总交接，再运行当前20项v72契约、核对源/图SHA并逐张实际查看≤1280长边/192KiB JPEG；通过后原通用promote八阶段及prepare、七文档完成态、finalize/check。47787帧/PTS只读复用未变正文/母版证明，不把旧上传身份当当前上传验收，不改绑定实现或历史证据；旧16项元数据保护按身份复用不冒称重跑。
+- 重定位（relocation）明确读chóng dìng wèi，“重”第二声、不读zhòng；五部20实际朗读项30词次已做配音专用整词同音提示、显示保留规范字，仍待逐处听辨，不自动listened/confirmed_correct/dismiss。六门禁、下一声音审计v69、最高+15%及无外挂/发布保持，字幕v78不是新声音审计。
+
+## 历史权威断点：2026-11-09 drgn字幕正式更新完成，v77
+
+- 上轮v76为progress且收尾终态0；本轮WfWrIwQw0O8《Breakpoints in drgn》的206条字幕仅cue181“大语｜言模型”显示行正式修正，文字/时间/声音/原窗、20.88秒有声导读、28章、1292.893秒保持。固定40部/6840源/译稿、34双版本、6真实门禁、8部v2，目标active，不计第35部。
+- 原候选session15366、晋升96441均已观察终态0；20项当前契约、完整解码/AAC一致、候选/当前VLC及八阶段预演/apply/验证/幂等/缓存/全40刷新/全34双版本复核通过。一张1280×720、44403字节JPEG核对源/图SHA后实际查看1160.814秒采样，“大语言模型”完整位于第一行，文字可读无截断；原会议控件靠近第二行下缘，仅该帧，不作全片视觉、人耳或PotPlayer验收。
+- 事务`06c7aeaf7eff4c7381b0c64fdb8affe3`保留原视频/清单；正式上传35869611字节、SHA `49219388f570bb2842141a54a0b1176589f5259d1fbf936d4d9b84851c50cfe7`与候选一致。无TTS或晋升后重复编码/解码，未重复本片实际回滚；原31799正文帧/PTS依未变正文/母版复用，旧fidelity上传身份仍为历史，所有绑定实现保持。
+- 复用原v75记录器时实际已candidate-complete，断点如实记录完成阶段，不宣称编码器仍活；原工具会话15366另行观察到终态0。当前目标/cue181/v77/七文档/resume/总交接与原16项元数据保护证明分别绑定于本片`checkpoint-reuse-validation.json`，原测试未重跑，不当作新媒体/听辨测试。prepare终态0，七文档完成态随后由通用finalize/check固化并核对真实出口；权威本片`caption-layout-v77/completed-caption-evidence.json`、`independent-check.json`及v77全34/全40表。
+- 累计14条显示改善已应用，剩17部22条，其中15部19条可推进、P6/wGe两部三条仍阻挡；下一AiYdDK7flB4/v78，以`remaining-caption-rollout-v77.json`为准。六门禁、重定位chóng dìng wèi待逐处听辨、下一声音审计v69、最高+15%及无外挂/发布保持；旧active-checkpoint/图审时production_applied=false保留历史，不重跑成功媒体。
+
+## 历史权威断点：2026-11-09 PGO字幕正式更新完成，v76
+
+- 上轮v75为progress且收尾终态0；本轮K8TTzdEXsdY的277条字幕只cue192“热｜代码节”显示行正式改为完整词，文字/时间/声音/原窗、21.12秒有声导读、24章、1855.334秒保持。固定40部/6840源/译稿、34双版本、6真实门禁、7部v2，目标active，不计第35部。
+- 原候选session2082、晋升25698均已观察终态0，20项当前契约、完整解码/AAC一致、候选/当前VLC及八阶段预演/apply/验证/幂等/缓存/全40刷新/全34双版本复核通过。一张1280×720、73558字节JPEG核对源/图SHA后实际查看1167.728秒采样，“热代码节”完整位于第二行，文字可读无截断；底部原会议控件靠近字幕下缘，仅确认该帧，不作全片视觉、人耳或PotPlayer验收。
+- 事务`6fef160928a64269908d25cea2f70249`保留原视频/清单；正式上传52147226字节、SHA `bd129e964c9646ea30b5166c40ed69812f98376755b355990e5f83af21eb3bdb`与候选一致。无TTS或晋升后重复编码/解码，未重复本片实际回滚；原45854正文帧/PTS证明依未变正文/母版复用，实际旧fidelity位于relocation-remaining-20261109/K8TTzdEXsdY，旧上传身份保持历史，不改任何绑定实现。
+- 本轮实际复用未改v75通用断点记录器，当前目标/cue192/v76/session2082/七文档/resume/总交接及实际编码命令独立核对，证据本片`checkpoint-reuse-validation.json`；原16项元数据保护测试按代码身份复用、未重复，不冒称新媒体/听辨测试。prepare终态0，七文档完成态随后由原通用finalize/check固化并核对真实出口；权威本片`caption-layout-v76/completed-caption-evidence.json`、`independent-check.json`及v76全34/全40表。
+- 累计13条显示改善已应用，剩18部23条，其中16部20条可推进、P6/wGe两部三条仍阻挡；下一WfWrIwQw0O8/v77，以`remaining-caption-rollout-v76.json`为准。六门禁、重定位chóng dìng wèi待逐处听辨、下一声音审计v69、最高+15%及无外挂/发布保持；旧active-checkpoint/图审时production_applied=false保留历史，不重跑成功媒体。
+
+## 历史权威断点：2026-11-09 文件系统回收字幕正式更新完成，v75
+
+- 上轮v74为progress且收尾终态0；本轮d2HvN0v7V24《Filesystem and memory reclaim》的455条字幕仅cue133文件系统、cue261输入输出显示行正式更新，文字/时间/声音/原窗、23.6秒有声导读、33章、3021.738秒保持。固定40部、6840源/译稿、34双版本、6真实门禁、6部v2，目标active，不计第35部。
+- 原候选session70815、晋升8287均已观察终态0，20项原通用契约、完整解码/AAC一致、候选/当前VLC及八阶段正式预演/apply/验证/幂等/缓存/全40刷新/全34双版本复核通过。两张1280×720、86364/81450字节JPEG先核对候选/图SHA再实际分别查看868.04/1748.597秒采样，术语各自完整、字幕清楚且无截断；仅两帧，不是全片视觉、人耳或PotPlayer验收。
+- 事务`3ba3056a9b46419894d6f10f03f9e1f2`保留原视频/清单；正式上传277210807字节、SHA `2cdcdeea1050cab1319d5f424007a6b7cd94a0e8c039a217352ba7a86ef7d4c4`与候选一致。无TTS、晋升后重复编码/解码或本片实际回滚重演；依未变正文/母版复用74952正文帧/PTS证明，旧fidelity上传身份保持历史，所有旧绑定实现未改。
+- 新隐藏通用`record_caption_checkpoint_v75.py`以显式目录/真实session同步七文档/resume/总交接，版本/目标/cue/前版计数从基线推导，不复用硬编码旧目标脚本；16项元数据安全测试通过，拒绝并发/错目标/改代码/缺活体/漏文档/重复记录，另有当前真实编码owner/encoder观察。权威本片`checkpoint-contract-result.json`绑定新实现/测试/日志及实际断点；测试不生成生产媒体或冒称图审/听辨。后续复用该脚本与原v72共享链路，不修改已绑定实现。
+- prepare已终态0；七文档完成态随后由通用finalize/check固化resume/总交接并核对真实出口。权威本片`caption-layout-v75/completed-caption-evidence.json`及`independent-check.json`、v75全34/全40表；累计12条显示改善已应用，剩19部24条，其中17部21条可推进、P6/wGe两部三条仍阻挡。下一K8TTzdEXsdY/v76，以`remaining-caption-rollout-v75.json`为准；六门禁、重定位chóng dìng wèi未逐处听辨、下一声音审计v69、最高+15%及无外挂/发布保持，旧active-checkpoint/图审时production_applied=false保留历史。
+
+## 历史权威断点：2026-11-09 实时负载字幕正式更新完成，v74
+
+- 上轮v73收尾和独立检查均终态0；本轮GoNFugnhfAc《Linux for Real Time Workloads: bare metal and KVM》的411条字幕仅cue141“时｜间片”正式改为完整“时间片”，文字/时间/声音/原窗、22.56秒有声导读、28章及2672.097秒保持。固定40部、6840源/译稿、34双版本、6真实门禁、5部v2，目标active，不计第35部。
+- 原候选session28865、晋升87716已观察终态0；20项通用契约、完整解码/AAC一致、候选/当前VLC及八阶段正式预演/apply/验证/幂等/缓存/全40刷新/全34双版本复核通过。一张1280×720、86497字节JPEG核对候选/图SHA后实际查看，939.247秒完整“时间片”可读；不是全片视觉、人耳或PotPlayer验收。
+- 事务`298b1467d065497794942f869c9f28e3`保留原视频/清单；正式上传237619203字节、SHA `43432fb83e9501c1f731699d5f931f0e8fbbcfb5fecc87e6f27858a09fd2207a`与候选一致。无TTS、晋升后重复编码/解码或本片实际回滚重演，依未变正文/母版复用66237正文帧/PTS证明；旧fidelity上传身份保留历史。共享初始化/晋升/测试及旧生产器/验证器未改，metadata只读检查曾直接导入dub因缺edge_tts出口1，改用纯文本计数，不安装依赖或改生产代码。
+- prepare终态0；权威本片`caption-layout-v74/completed-caption-evidence.json`及`independent-check.json`、全批`current-thirtyfour-package-validation-v74-caption-v2.json`与`current-batch-status-v74-caption-promoted.json`；七文档完成态随后由通用finalize/check固化并核对真实出口及resume/总交接身份。旧active-checkpoint/production_applied=false图审保留历史，不重跑成功媒体。
+- 累计10条显示改善已应用，剩20部26条，其中18部23条可推进、P6/wGe两部三条仍受门禁阻挡；下一d2HvN0v7V24/v75，以`remaining-caption-rollout-v74.json`为准。五部20实际朗读项30词次整词提示及160规范显示/34导读清单计划只读复核通过，不是新v69审计或听辨；重定位chóng dìng wèi未逐处听辨、六门禁、最高+15%及无外挂/发布保持。
+
+## 历史权威断点：2026-11-09 SFrame字幕正式更新完成，v73
+
+- 上轮v72为progress且收尾终态0；本轮s3BtU2Bdyts的354条字幕仅cue102“应用二进制接口”和cue328“用户空间”两处显示折行正式更新，文字/时间/配音/原窗、22.8秒有声导读、24章、2386.336秒保持。固定40部、6840源/译稿、34/40双版本、6真实门禁、4部v2上传，目标active，不计第35部。
+- 原候选session99746、晋升19904均终态0；完整解码/AAC一致、目标VLC、20项通用契约检查通过。两张1280×720 JPEG（87862/79262字节）核对候选/图SHA后实际查看，分别在708.537/2240.925秒确认完整词可读；仅这两帧，不等于全片视觉、人耳或PotPlayer验收。
+- 八阶段正式预演/apply/验证/幂等/缓存/当前VLC/全40刷新/全34双版本复核均出口0；事务`471308eb39d94b78ae5e4b54b9f16015`保留原视频/清单。当前上传198093986字节，SHA `cf0d5495af18f531522f409cd85d68d08f5c37a29c60b5afcf1d91d853828141`与候选一致；无TTS或晋升后重复编码/解码，依未变正文/母版复用原59087正文帧/PTS证明，不改旧fidelity的历史上传身份。
+- 权威本片`caption-layout-v73/completed-caption-evidence.json`及`independent-check.json`、全批`current-thirtyfour-package-validation-v73-caption-v2.json`与`current-batch-status-v73-caption-promoted.json`；prepare已终态0，七文档更新后依通用流程finalize/check并核对实际出口，再继续下一片。共享初始化器/晋升器/测试器和旧生产器/验证器均未改；旧active-checkpoint保留历史，不重跑成功媒体。
+- 累计9条显示改善已应用，剩21部27条，其中19部24条可推进，P6/wGe两部三条仍受门禁阻挡；下一GoNFugnhfAc/v74，以`remaining-caption-rollout-v73.json`为准。六门禁、重定位chóng dìng wèi未逐处听辨、下一声音审计v69、最高+15%及无外挂/外部发布保持。
+
+## 历史权威断点：2026-11-09 Rust字幕正式更新完成，v72
+
+- 上轮v71为progress且收尾终态0，本轮新增真实显示改善及通用核验流程；固定40部，当前34/40双版本、6真实门禁、6840源/译稿、3部v2上传，目标active。累计7条显示改善已正式应用，Rust更新不是第35部。
+- 原候选session15856终态0，7kPn2Kf7AJM的605条字幕只cue185“内｜核”改为第二行完整“内核”；文字/时间/声音、24.5167秒有声导读/25章/3069.2107秒保持。一张1280×720、52006字节JPEG先核对源/图SHA再实际查看，整词清晰，不能扩大为全片视觉、人耳或PotPlayer验收。
+- 原晋升session71772终态0，八阶段正式预演/apply/只读验证/幂等/默认缓存/当前路径VLC/全40刷新/独立34双版本复核均出口0。正式上传320236861字节，SHA `f832363a68a378e361ebe7c8b979d9aa540105476f9841492f2998160c01caac`与候选一致；事务`978fa69c5dc04df2ae6aede95da9770a`实际保留原视频/清单，未重做Rust实际回滚。候选仅必要编码/完整解码一次，无TTS或晋升后重复编码；按未变母版/正文复用原182679正文帧/PTS证明，当前AAC一致。
+- 新共享`prepare_caption_rollout_v72.py`、`caption_rollout_v72.py`和`test_caption_rollout_v72.py`按显式目录/原基线/队列工作；20项结构、字段拒绝、目标、计数及精确源适配检查通过，且本片真实八阶段已完成。全40刷新只精确适配原v3源的4个位置，固定40/6840/34/6，v2计数相对前版加1；全34继续原未改v3验证器和当前显式映射，不修改任何已绑定旧模块或项目脚本。
+- 权威`7kPn2Kf7AJM/caption-layout-v72/completed-caption-evidence.json`及`independent-check.json`，全批`current-thirtyfour-package-validation-v72-caption-v2.json`、`current-batch-status-v72-caption-promoted.json`。七文档/resume/总交接同步，旧active-checkpoint保留历史；旧fidelity的upload身份不匹配如实保留，不改旧报告伪装当前输出。
+- 剩22部29条显示改善，20部26条可推进，P6/wGe三条仍受真实门禁阻挡；下一s3BtU2Bdyts/v73，按本片`remaining-caption-rollout-v72.json`及工作流通用步骤，复用共享检查器并实际逐张看受限JPEG后再晋升。六门禁、重定位chóng dìng wèi未逐处听辨、下一声音审计v69、最高+15%及无外挂/外部发布保持。
+
+## 历史权威断点：2026-11-09 XEh字幕正式晋升完成，v71
+
+- 上轮v70为progress且收尾终态0，本轮新增真实显示改进与预览入口修复；固定40部，当前34/40双版本、6真实门禁、6840源/译稿、目标active。UL7五处加XEhDipqOpsI cue336一处，共6条已正式应用，不计第35部。
+- 旧`video_workflow.py upload-preview`真实双锁失败1、媒体未启动，原证据保留。新`video_workflow_v2.py upload-preview ID --caption-candidate DIR --caption-terms TERMS`要求stage-first，由未改的候选生产器独占工程锁，其余阶段委托旧CLI；真实OS旧失败/单锁/竞争锁/委托、8项非法参数与目标绑定检查通过。旧CLI、`upload_delivery.py`、候选生产器及历史验证器未改；不要再用旧预览入口或修改已绑定代码追认历史。
+- 原候选session56194已终态0，完整解码/AAC/目标正确VLC通过。641条字幕仅cue336“页｜表项”改为完整“页表项”第二行，文字/时间/声音不变；一张1280×720、89971字节JPEG已核对源/图SHA并实际查看，整词可读，不是全片视觉或人耳/PotPlayer验收。
+- 原晋升session50981终态0，八阶段预演/apply/只读验证/幂等/默认缓存/当前路径VLC/全40刷新/独立34双版本验证均出口0。正式上传350778100字节、SHA `9d15620368bd5a10c55951eb068c06ec06cd3b59f724fb6c52e35de69a2bed95`与候选相同；事务`5c1392e18bd9456cb84cd5192556027f`保留原视频/清单归档，未重做本片实际回滚。24.1333秒有声导读/29章/3309.5253秒保持，复用原197121正文帧/PTS证明，当前AAC一致；候选仅编码/解码一次，无TTS或晋升后重复编码。
+- 权威`XEhDipqOpsI/caption-layout-v71/completed-caption-evidence.json`及`independent-check.json`，全批`current-thirtyfour-package-validation-v71-caption-v2.json`与`current-batch-status-v71-caption-promoted.json`，当前v2上传2部。仍用未改v3验证器和本片新显式v2映射，不修改旧upload身份不匹配的历史报告；七文档/resume/总交接同步，旧active-checkpoint与失败均保留为历史。
+- 剩23部30条显示改善：21部27条可推进，P6/wGe三条仍有真实门禁；下一`7kPn2Kf7AJM`/v72，按本片`remaining-caption-rollout-v71.json`走新预览入口及可复用的明确目标检查器，实际逐张受限JPEG图审后再dry-run/apply。下一声音审计仍v69，重定位chóng dìng wèi未逐处听辨、六门禁、最高+15%及无外挂/外部发布保持。
+
+## 历史权威断点：2026-11-09 字幕v2正式晋升与回滚通过，v70
+
+- 固定39部YouTube＋1部X；当前34/40双版本、剩6真实品质门禁，40基础verified、6840源/译稿、34质量允许/6blocked，总目标active。本轮替换UL7既有上传版，不计第35部，不重做媒体、TTS或全片解码。
+- `upload_delivery.py`与正式`video_workflow.py`已接入版本分派、只读`upload-verify`、默认dry-run的候选晋升/回滚和显式`--apply-caption-update`。v1沿用原实现，v2显式验证当前依赖/证据；不得伪造旧实现哈希或修改已绑定代码。10项文件系统事务用例与7项非法CLI拒绝通过，未完成事务阻断普通上传，未知外部修改/损坏归档拒绝覆盖。
+- UL7五处显示折行已正式应用，546条字幕文字/时间、音频、20.6667秒有声导读、35章、2696.907秒保持。九阶段正式CLI全部终态0，实际回滚恢复原视频/清单字节和mtime，随后再晋升并验证幂等/默认缓存复用。当前事务`b67cd6ca8f4d4e5bb555410897b13f0f`，已回滚事务`92a07b1a38f34bd284c6ff6ab20156f7`保留；正式上传SHA为`797260d5d43fcbae75759d3deba53696780de384a0fe6e4f36939512706b7a37`，与已图审v69候选完全相同。
+- 当前正式路径VLC和独立34双版本复核通过；使用`caption-promotion-v70/validate_packages_v3.py`及其显式`v2-evidence-map.json`，不能用旧验证器或修改旧证据使v2伪装v1。五张图审按相同视频SHA复用，本轮未重新看图；Linux/Xvfb、dummy音频不等于人耳、全片连续播放或PotPlayer实测。
+- 权威`UL7PfLAisbE/caption-promotion-v70/completed-promotion-evidence.json`及`independent-check.json`，全批`current-thirtyfour-package-validation-v70-caption-v2.json`、`current-batch-status-v70-caption-promoted.json`。原prepare的字段名比较失败1保留，新恢复包装器严格统一old_lines/legacy_lines并核对text/全部字段，10项比较测试通过，不改历史报告。
+- 剩24部31条显示改善，其中22部28条质量允许、P6与wGe共3条仍受真实门禁阻挡。下一按`remaining-caption-rollout-v70.json`先做XEhDipqOpsI的v71候选，逐张受限JPEG审图后再dry-run/apply；使用新目标适配器，不修改UL7已绑定脚本。下一声音审计仍v69，重定位读chóng dìng wèi且仍未逐处听辨、六部门禁、最高+15%和无交付附件/外部发布均保持。
+
+## 历史权威断点：2026-11-09 字幕词级排版候选验收，v69
+
+- 固定40部，已完成34/40双版本、剩6部真实品质门禁；总目标active。v68第34部finalize/check均已实际终态0，本轮不重做VRG媒体或TTS。
+- 新增`caption_layout.py`和`upload_export_v2.py`，不修改旧`upload_export.py`、打包实现或历史验证器。显式词表保护整词、人名、代码和数值单位，最多两行；放不下就拒绝，不删字、缩字号或退回词内断行。只是登记词覆盖，不是完整语义识别，更不是声音修复。
+- 1443词的40部11573条当前显示字幕预检通过，36条旧词内折行得到新排版；13项确定性检查、1000项固定种子样本中918可排版/82明确拒绝，真实语料拒绝0。UL7的546条有5条变化，包含“时｜间片”、优先级倒置、调度服务质量、内核、处理器亲和性；字幕文字、时间、音频未改。
+- UL7完整自包含上传候选原session80733已终态0，全部解码0，中文AAC与母版一致，20.6667秒有声导读/35章/总2696.907秒保持，真实libVLC3.0.16章节/跳转/音轨/渲染检查通过。五处变化帧已先核对源/图SHA再逐张看受限JPEG，均1280×720、41467–102222字节，整词可读；仅五帧审图，不是全片人耳或PotPlayer验收。
+- 当前成片与旧绑定未替换，仍34/40，不把候选计第35部或把36条预检当全批已修。新权威`UL7PfLAisbE/caption-layout-v69/checkpoint.json`及独立检查同步七文档/resume/总交接。下一补显式v2当前输出校验、正式CLI接入及可回滚晋升，不能给新输出冒写旧实现哈希或修改历史验证器；候选媒体/TTS/解码不重跑。
+- 剩余六门禁、重定位chóng dìng wèi且未逐处听辨、最高+15%与无外挂交付要求均保持。下一新的声音边界审计仍v69；本轮字幕专项不冒充该审计。
+
+## 历史权威断点：2026-11-09 第34部双版本技术验收完成，v68
+
+- 本节覆盖以下历史。固定39部YouTube＋1部X，共40部；当前34/40部双版本技术验收完成、剩6部，40基础verified、6840源/译稿、34质量允许/6blocked。原33部完成顺序已独立复核，VRG追加为第34部；总目标active，本轮progress，不标complete。
+- VRG当前290源/89组/198正文实际项保持；三段正常速率中文有声AI导读共16.7167秒，48个内嵌中文章节，总时长3736.879秒。母版双音轨/三字幕，上传版单中文音轨/中文硬字幕；两个用途各自一个独立视频，无交付用外挂/网页/摘要，没有发布平台。
+- 原session84534/PID78989已终态0，14阶段全部出口0，不重启。222983正文帧逐帧MD5保持、1002导读帧、223985母版帧及PTS偏移误差0，两版中文AAC一致、两版完整解码及Linux/Xvfb真实libVLC章节/轨道/渲染检查通过。MP4章节辅助文本可能额外出现在VLC字幕菜单，不当成普通英文字幕；未做PotPlayer或人耳验收。
+- 七张当前上传版JPEG已先核对源/图SHA再逐张实际看图，均1280×720、26295–70090字节；三张导读与109/110/151/289四张正文字幕可读，容量图3/4、尾后位置说明及结尾致谢保留。图审只覆盖七个采样帧，不代表全片视觉或声音验收。仅按dry-run→apply清理三个白名单可再生视频，名义722852857字节，原片/正文归档/WAV/缓存/计划/字幕/绑定均保留，不把该数当实际磁盘释放量。
+- v68登记1443词、40正文6840源、34导读102实际场景；正文仅Tn合法完整分句转场候选，导读无跨场景词候选。重定位读chóng dìng wèi，五部20实际项30词次配音专用整词提示、160规范显示及34导读/章节无同音提示泄漏，仍未逐处听辨或证明音素强控；本片81声音候选保持未听辨。
+- 权威为`VRGRTvfOxb4/completed-delivery-evidence-v68.json`及独立检查、`current-thirtyfour-package-validation-v68.json`和`remaining-six-continuation-v68.json`；七文档/resume/总交接同步。下一按`remaining-six-review-contexts-v68.json`复核1g51、jF165、Rfyp135/136、asSZ105/106、P6旧62/现63、wGe67的真实门禁；P6旧反馈current=false原样保留，不把thread/threat或irq_isolated背景当flag词面证据。UL7“时｜间片”显示折行候选、旧160归属及全部原来源/角色限定仍未消除。
+- 下一新审计v69，不覆盖v68或修改旧绑定脚本/验证器/失败证据；不得自动listened/confirmed_correct/dismiss。修改已打包来源先package-restore；最高+15%，禁额外atempo/截尾/重叠及借后续发言时间。截图继续逐张受限JPEG，先核对源/图SHA，不加载大PNG、不新增交付附件或外部发布。
+
+## 历史权威断点：2026-11-09 VRG双版本已生成、逐帧验收继续/v68b
+
+- 上一目标轮为progress：中文有声导读母版、v68正文/实际导读审计和活跃交接已完成。本轮原session84534/PID78989的upload真实出口0；母版及中文硬字幕上传版均已生成并完整解码，16.7167秒导读、48章、290源/89组/198正文实际项保持。文件存在和全片解码不等于最终双版本验收，仍33/40部、剩7部，不提前计34。
+- 原流水线正在fidelity，后续VLC、单片验证及七张JPEG仍由同一owner排队；实际以`VRGRTvfOxb4/reviewed-delivery-live-state.json`和进程为准，先轮询84534，不能因观察超时重启。正文/母版逐帧MD5/PTS检查本身较长，不改旧验证器、不把尚未产出的result当通过，也不重跑已完成TTS/上传编码。
+- 新`VRGRTvfOxb4/current-relocation-input-coverage-v68.json`复核1443词、40正文6840源、34导读102实际场景：五部20实际项30词次整词提示、160规范显示及34导读/章节无提示泄漏；重定位读chóng dìng wèi、重第二声，仍未逐处听辨。81正文声音候选与另六部真实门禁保留，不自动listened/confirmed_correct/dismiss。
+- 六部门禁新证据`VRGRTvfOxb4/remaining-six-review-contexts-v68.json`绑定当前原文、中文、实际合成组、原片和WAV；P6旧反馈仍报62/current=false，当前“additional thread or something”锚点在63（583.92秒），只澄清编号，不改反馈、不把ASR/irq_isolated背景当flag词面证据。
+- 新权威活跃证据`VRGRTvfOxb4/delivery-validation-checkpoint-v68b.json`绑定七文档/resume/总交接。下一等原14阶段全部真实终态0后逐张实际看七张受限JPEG，记录`delivery-image-review-notes-v68.json`，再用已准备的`finalize_vector_delivery_v68.py collect`独立验证34部/40部、更新七文档后finalize/check。该最终脚本尚未执行，不把语法通过当完成；下一新增审计v69。原来源/角色限定、旧160归属及末尾有声致谢保持，总目标active，无交付附件/平台发布或PotPlayer/人耳验收声明。
+
+## 历史权威断点：2026-11-09 VRG有声导读母版完成，原任务继续/v68
+
+- 上一目标轮为progress：v67正文语义、1443词及七文档/resume/总交接已经闭环。本轮基于当前290源/89组/198实际项审定三段完整导读、47个正文章节；新增16.7167秒正常速率中文导读、总48内嵌中文章的母版已完成，双音轨/三字幕及全片解码出口0。原正文/WAV未重合成，仍保留旧160归属和全部原来源限定。
+- 原生产session84534/PID78989当前排队并执行upload→fidelity→VLC→单片验证→七张受限JPEG，实际状态以`VRGRTvfOxb4/reviewed-delivery-live-state.json`和进程为准。不要因观察超时重启；先轮询原handle。母版存在不等于双版本完成，仍33/40部双版本、剩7部；v67的40基础verified/6840源/34质量允许/6blocked为打包前快照，待新全批重扫。
+- v68正文1443词/40部6840源已复查，仍仅Tn合法分句转场候选；34实际导读102完整场景均正常速率、文本及音频身份匹配计划，跨场景词候选0，不等于人耳或完整实体识别。当前81正文声音候选与另六部真实门禁保持，不能自动listened/confirmed_correct/dismiss。
+- 权威活跃断点为`VRGRTvfOxb4/active-delivery-checkpoint-v68.json`；最终仍需原流水线全部终态0、七张JPEG实际图审、独立34部/40部刷新及七文档交接，才计第34部。重定位读chóng dìng wèi，20项30词次专项输入证据仍为v67，未逐处听辨。截图先核对源/图SHA，逐张≤1280长边/192KiB；不加交付附件或平台发布，旧绑定实现及历史证据不改，总目标active。
+
+## 历史权威断点：2026-11-09 VRG全文语义修订已应用，v67
+
+- 本节覆盖以下历史。固定39部YouTube＋1部X，共40部；仍33/40部双版本、剩7部，40基础verified、6840源/译稿。当前34质量允许/6blocked，但VRG尚无新导读及双版本，不能计第34部。总目标active，本轮progress，下一审计v68。
+- v66纯来源迁移独立保留；本次另行完整审定118个语义边界候选，应用89组/198实际配音项、40处完整短语移位，未跨明确问答/致谢边界强并。108个变更项已逐项读稿，v2另审26处标点与两处技术表述。生产速率197项为0、源219一项+10%，全部严格原窗拟合、修订窗外PCM逐样本相同；既有源2事件静音保留，不把实际项数当全为有声片段。
+- 英文、音色、290源编号和原时间保持。显示稿仅109/110按画面澄清Washington三次push_back到3/4及Colorado6/6，148区分list与双向迭代器，151澄清end返回尾后迭代器；不静默修英文或假称已分清讲者/ASR。正文222983个编码视频packet、codec、PTS/DTS及duration完全相同，仅复制画面更新音轨/字幕；原验证器未改，新外挂字幕已隐藏归档。
+- 真实quality-check出口0、当前无blocker，但81声音候选仍未听辨：24术语、10短尾停顿、47未知缩写。不得把文字修订或新扫描自动记为listened、confirmed_correct或dismiss。另六部真实门禁、旧160个人偏好归属、人名/来源限定及UL7显示折行候选保持；末尾289/290两段有声致谢不删。
+- v67登记1443词，40正文6840源与33导读99实际场景已复查；正文仅Tn合法完整分句转场候选，导读无跨场景词候选。重定位=chóng dìng wèi，重第二声、不读zhòng；五部20实际项30词次配音专用整词提示及Tn等义导读保持，160显示文件及导读/章节无同音提示泄漏，仍未逐处听辨或证明音素强控。
+- 权威为`VRGRTvfOxb4/full-text-review-20261109/semantic-checkpoint-evidence-v67.json`、独立检查及`production-ready-continuation-v67.json`。下一基于当前290源制作中文有声AI导读、内嵌章节、母版及中文硬字幕上传版；复用已审定正文和TTS，不重跑旧v66断言或不变视频编码。两版完整解码、正文/AAC/帧/PTS保持、受限JPEG实看及真实VLC后才计34。
+- 七文档、resume及总交接同步本断点；旧绑定脚本/验证器/失败证据保留。最高+15%，禁额外atempo/截尾/重叠及借后续发言时间。修改已打包工程先正式package-restore；图像逐张JPEG、长边≤1280/实际≤192KiB且先核对源/图SHA。不新增交付网页、外挂、摘要，不发布平台或冒称PotPlayer/人耳验收。
+
+## 历史断点：2026-11-09 VRG纯来源迁移完成，v66
+
+- 本节覆盖以下历史。固定39部YouTube＋1部X，仍33/40部双版本、剩7部；当前40基础verified、6840源/译稿、33质量允许/7blocked。总目标active，本轮progress，不标complete。新权威为`VRGRTvfOxb4/full-text-review-20261109/source-migration-checkpoint-evidence-v66.json`及独立检查，下一审计v67。
+- VRG旧275源/270实际项已经完整文字审读；13处交接候选正式独立纯拆为290源/285实际项，原4组只映射。复用28段已预检TTS，285实际项全部正常速率，额外atempo0/overlap0；全文、逐源字幕/朗读、音色、原覆盖窗守恒，13个旧源窗外PCM逐样本不变。正文222983个编码视频packet的字节哈希、PTS/DTS、duration及codec完全相同，没有重编码或重复全片解码。未做任何独立语义修订，不计第34部。
+- 原JSON3词段偏移与问答/致谢文本不是声学换人对齐或真实人物身份。旧160个人偏好归属仍不明。118处语义边界候选已完整映射到新源编号，旧109/110仍为109/110，图示Washington三次push_back到3/4与Colorado6/6的数字矛盾尚未修。下一按`semantic-refinement-continuation-v66.json`独立审定全部候选、数字和术语，不能只修四个门禁便宣称全文完成。
+- 真实quality-check仍出口1；当前VRG为126声音候选未听辨，4个高风险源254/257/263/282，issue分别为bcbd05fbffe19525830592b1、045be367c1e456054ff78400、164a7bd7a7d8ceb6d0ea3549、eab32052eeaafee93dc8a19c。旧256映射261/262/263，旧e62861e18f3114c205ca4e84仅作为历史保存，不冒充新版本issue；其余六部门禁与UL7显示折行候选保持。禁止伪听辨、confirmed_correct或dismiss，最高+15%，禁额外atempo/截尾/重叠及借后续发言时间。
+- v66登记词仍1432，40正文6840源、33导读99实际场景；仅Tn合法完整分句转场候选，导读无跨场景词候选。重定位仍读chóng dìng wèi，五部20项30词次提示和规范显示保持，未逐处听辨。33部原完成顺序已重新验证。两份本片外挂SRT已隐藏归档；旧验收器最初因查找根目录外挂得到39基础verified，失败证据和出口1保留；新显式路径适配器仅将两处查找指向隐藏原字节，原字幕抽取/内容/时间/解码检查全部执行，未改旧验证器，普通inspect亦可复核为verified。不要恢复外挂作为用户交付附件。
+- 已同步七文档、VRG resume和总交接；旧绑定脚本/报告保留，不重跑已完成迁移、TTS或不变视频编码。修改已打包工程先正式package-restore；截图仍逐张JPEG、长边≤1280/实际≤192KiB，核对源/图SHA后查看。不新增网页/外挂字幕/摘要，不发布平台或声称PotPlayer/人耳验收。
+
+## 历史断点：2026-11-09 VRG全文审读及原窗预检完成，生产未改
+
+- 本节覆盖以下历史。固定39部YouTube＋1部X，仍33/40部双版本、剩7部；40基础verified、6825源/译稿、33质量允许/7blocked。v65的1432登记词、33导读99实际场景及重定位输入覆盖均未改变，下一新审计v66。总目标active，本轮progress，不标complete。
+- VRGRTvfOxb4已承接原实际TTS1–45/源1–47，补齐实际46–270/源48–275及全部32行原审校；当前275源/270实际项/4旧组已经完整文字阅读，不再从46接着读。最终批次输出截断后，266–270与审校1–10已单独补读。新证据`VRGRTvfOxb4/full-text-review-20261109/complete-text-review-evidence.json`；文字审读不是听辨或修订已应用。
+- 本轮逐张看九张新来源JPEG，加前轮两张共11张有实际图审记录；新图全部1280×720、49202–70531字节，先核对源/图SHA。1455/1480秒画面明确Colorado为6/6，Washington为0/0、1/1、2/2、3/4。旧源109/实际107的“第四次左右”及旧源110/实际108的“size六又分配并留一位”与图示有出入，独立语义阶段需澄清，不混入纯迁移或假称已分清讲者/ASR。Mike图只显示名字，不能据此核实Shah；1.429/2.749秒只属本次展示，不是通用性能结论。
+- 全文共118处语义边界审查候选，未应用、不等于118个确诊错误；合法完整分句/列表/冒号转场另列，不机械全并。旧160/162/163/252/254/256/260/261/265/266/267/270/271的13处交接候选已依据原JSON3词段偏移独立预检，28段均正常速率严格原窗拟合，额外atempo0；原声音身份和生产输入未改。原词段与文本角色不等于声学换人对齐，160的个人偏好归属仍不明。
+- 下一执行`VRGRTvfOxb4/full-text-review-20261109/complete-review-continuation.json`：逐项审定来源交接、规划备份后独立做纯来源迁移；若13处全采用，预期275→290源、270→285实际项、4旧组只映射。复用已测28段缓存，不重跑预检或整片编码。先证明英文/显示/逐源朗读/音色/原窗守恒与严格窗外PCM，再独立处理完整短语、标点和数字图示问题，纯迁移首个新审计v66，语义阶段再用新版本；禁止整块跨人合组、超过+15%、额外atempo/截尾/重叠或借后续发言时间。
+- 当前旧源256真实门禁e62861e18f3114c205ca4e84及125声音候选全部未听辨、未解除，其余六部门禁和UL7字幕“时间片”的显示折行候选保持。本轮仅新建隐藏审读/图证/TTS测时材料，无生产来源/正文音视频/门禁变更，不计34。三新脚本语法、独立断点及七文档/resume/总交接校验见新checkpoint；旧绑定脚本、报告、成品不改，不新增交付附件或发布平台。修改已打包工程前正式package-restore，图片仍逐张受限JPEG。
+
+## 历史断点：2026-11-09 第33部双版本完成，续审 Almost Always Vector
+
+- 本节覆盖以下历史。固定39部YouTube＋1部X，共40部；当前33/40部双版本已完成、剩7部，40基础verified、6825源/译稿、33质量允许/7blocked。总目标active，本轮为progress，不标complete。
+- UL7PfLAisbE两版均已完成：20.6667秒中文有声AI导读、三段完整场景正常速率TTS、35内嵌中文章节及完整正文；母版双音轨/三字幕，上传版单中文音轨/中文硬字幕。正文160571帧逐帧及PTS偏移、两版中文AAC身份、完整解码、真实libVLC运行、单片与33部汇总验证均通过。原session25960/PID3240944已终态0，无存活任务，不重启或重复排队媒体处理。
+- UL7正文228源/75组/148实际项，140正常、3项+5%、3项+10%、2项+15%，额外atempo0/overlap0。纯来源迁移/v63与独立语义修订/v64及其严格原窗/窗外PCM证明保持。66声音候选、源93/145、209/214内部箭头及190/191process回声疑点保留；解码/VLC不是人耳或PotPlayer实机验收。
+- 当前证据为`current-thirtythree-package-validation-v65.json`、`current-batch-status-v65-ul7-complete.json`及`UL7PfLAisbE/completed-delivery-evidence-v65.json`。v65登记1432词、40正文6825源、33母版99实际导读场景；正文仅Tn合法完整分句转场候选，导读无跨场景词边界候选。下一新审计v66，不覆盖v65或旧绑定脚本/验证器。
+- “重定位”=**chóng dìng wèi**，重第二声、不读zhòng。五部20实际项30词次的配音专用整词提示及Tn导读“按需修正地址”已复核当前输入；160个显示文件及33导读/章节计划没有“崇定位”泄漏，显示保留规范字，不全局替换“重”。证据`UL7PfLAisbE/current-relocation-input-coverage-v65.json`；实际字音仍未逐处听辨，不声称音素强控或confirmed_correct。
+- 三张导读和三张正文受限JPEG已逐张实际查看；1198/2650秒正文图处于字幕空隙，额外活跃字幕图补证。字幕“时间片”存在“时｜间片”的非阻断显示折行候选，未应用修复，不冒称TTS停顿或词级字幕折行全部实现。后续用版本化渲染器/适配器保留原32绑定，不能直接修改旧`upload_export.py`或无计划重编码全批。
+- 下一工程VRGRTvfOxb4，当前275源/270实际配音，已读实际TTS1–45/源1–47及全部原审校、已看两张来源JPEG；从**实际TTS46/源48**接续全文审读，不重读1或只修256就交付。256→257真实门禁及其余六部全部保留，JSON3词段偏移不等于声学换人对齐。续做见`UL7PfLAisbE/remaining-seven-continuation-v65.json`及VRG的`translation_resume.json`。修改已打包工程前正式package-restore；图片逐张JPEG、长边≤1280/实际≤192KiB，先核对源与图SHA，不加载大PNG。不新增交付附件、不发布平台。
+
+## 历史断点：2026-11-09 Sched QoS母版完成，上传版编码中
+
+- 本节覆盖以下历史。固定39部YouTube＋1部X，封装前完整状态为40基础verified、6825源/译稿、33质量允许/7blocked；仍32/40部已验收双版本、剩8部。UL7新增母版已完成，上传版/交付验收尚未完成，不计第33部；总目标active。
+- UL7已完成独立两阶段：七处交接纯221→228来源迁移/v63，14段均正常语速严格原窗拟合；再做全文语义/标点修订/v64，62个实际配音项更新、23个完整短语移位、32处定向逗号修订。两段等义改写保留usually/算法比较和失败条件/反馈/完善，不能声称整个语义阶段字词守恒。仅移除末尾配音的掌声标签，真实两段致谢保留；六处合法完整分句转场不机械修掉。
+- 当前228源/75组/148实际项，140正常、3项+5%、3项+10%、2项+15%，额外atempo0/overlap0。严格原窗测时、目标朗读比对、各阶段修订窗外PCM保持、render/verify与quality均通过。原221到当前228正文160571编码视频包及codec/PTS/DTS/时长保持；当前双音轨全片解码通过，不等于听辨。66声音候选全部未听辨，源93时间片、145姓名、209/214内部箭头及190/191process回声等疑点保留。
+- 当前完成表`current-thirtytwo-package-validation-bodyreview-v64.json`仍为原32同顺序。含X的40部新状态`current-batch-status-v64-ul7-full-review.json`已完整刷新；原status CLI拒绝X的argparse2/外层1保留，不是32部验证失败，也未重跑其验证。v64为1432词、40正文6825源、32导读96实际场景，仅Tn原完整句转场候选；下一新增审计v65，不覆盖旧报告/绑定脚本。
+- “重定位”=**chóng dìng wèi**，重第二声、不读zhòng。五部20实际项30词次的配音专用整词提示及Tn导读等义表达已重新核对当前输入；字幕/章节保留规范“重定位”，不全局替换“重”。证据`UL7PfLAisbE/full-text-review-20261109/current-relocation-input-coverage-v64.json`；输入提示、ASR或解码不是音素/听辨验收。
+- UL7已正式package终态0，母版含20.6667秒中文有声AI导读、三段正常速率完整场景TTS、35内嵌章节、双音轨/三字幕，母版完整解码0。当前存活流水线session25960/PID3240944正在本地上传版编码，已排队正文逐帧/PTS、AAC、VLC、单片验证及五张受限JPEG准备。先读`UL7PfLAisbE/reviewed-delivery-live-state.json`并poll原会话，不重启编码或重复排队；后续实际逐张看图、v65导读审计和最终33部断点仍须执行。当前32部完成表及40部状态是封装前快照，不以新母版代替两版验收。
+- 续做入口`UL7PfLAisbE/active-delivery-checkpoint.json`。不重复正文TTS/编码，七部真实门禁全部保留；本片现已打包，后续修改前也必须正式package-restore。不加交付网页/外挂附件、不发布平台；prepare_review_image只生成单张长边≤1280/实际≤192KiB的JPEG，不查看VLC原始PNG。
+
+## 历史断点：2026-11-09 Sched QoS全片文字审读完成，修订待执行
+
+- 本节覆盖以下历史。固定40部仍32/40双版本、剩8部；40基础verified、6818源/译稿、33质量允许/7blocked。生产来源、75组/141实际项、正文音视频、词表及v62审计均未改变；下一审计仍v63。自动quality允许不等于本片文字问题已修好，不计第33部。
+- UL7PfLAisbE当前221源英文与141实际朗读已完整文字审读：承接前轮TTS1–48/源1–72，本轮补读TTS34并读49–141/源73–221，46行审校全文已读。逐张查看七张来源JPEG，全部1280×720、39431–88921字节，来源/图片SHA均核对；其中1198/2028秒两张为本轮重新实际查看，不沿用历史图审。
+- 新隐藏证据目录`UL7PfLAisbE/full-text-review-20261109/`：`full-review-inputs.json`绑定完整原源、实际朗读、27处块内标点候选、31处边界审查点、七处字幕交接候选及图像身份。31处中包含完整分句转场，不能一律判错或机械移词；当前均未应用、未实测新TTS。七交接候选为当前184/200/208/210/215/216/221；200/215只来自原JSON3词段偏移，不是声学换人对齐；209/214内部箭头及190/191的process回声仍不确定，不能仅凭箭头或相同音色拆合。
+- 下一执行新`full-text-review-continuation.json`：先核对交接并在严格原窗做TTS预检，必要的纯来源迁移与后续语义修订分阶段；再审27处标点和31处边界、补词表并跑v63。禁止跨人或强并超40秒、超15%提速、借后续时间或以补句号清门禁。旧targeted证据/旧continuation保持为历史，不修改旧绑定脚本。
+- “重定位”=chóng dìng wèi，重第二声、不读zhòng；五部20实际项30词次提示和Tn导读等义表达当前输入覆盖仍为v62，显示字幕/章节不改字，实际声音仍未逐处听辨。不把输入提示、解码或词典登记当读音已验收。70声音候选及其他七部真实门禁全部保留；本轮没有TTS/编码重跑或新增交付附件，总目标active。
+
+## 历史断点：2026-11-09 Sched QoS定向交接与意群修复
+
+- 本节覆盖以下历史。固定40部仍32/40双版本、剩8部；40基础verified、6818源/译稿，33质量允许/7blocked。完成表`current-thirtytwo-package-validation-bodyreview-v62.json`仍为原32同顺序；UL7质量允许不是第33部交付。总目标active，无存活任务。
+- UL7PfLAisbE本轮只定向读旧183–193及相关实际合成项，不冒称全片复审或看过新截图。旧188依JSON3在2311.119/2316.640/2320.320秒三次交接分四段，先纯218→221迁移/v61，四段均正常语速严格原窗拟合，原74组只映射；英文、显示、逐源原朗读、音色与原窗守恒。
+- 独立语义/v62修3实际项：仅合当前191–192在2320.320–2324.880的完整策略句，下一位回应不合；“比如你运行”整个短语从185末移至同人186开头，另去掉“运行，bash”和“需要，不同策略”两处机械逗号。没有加删词，英文/显示/音色/原窗及实际朗读字词次序保持。最终221源/75组/141实际项，133正常/8最多+15%、额外atempo0/overlap0。
+- 两阶段实际全缓存严格字幕原窗解码测时、修订窗外PCM保持通过；原218正文到当前221正文160571编码视频包、codec、PTS/DTS及包时长保持，未因此重复全片解码。render/verify及quality真实0，原188高风险机械切点不再触发；70声音候选未听辨，未写dismiss或confirmed_correct。
+- UL7仍无导读/上传版，不计33；旧184混人、该进程与English process回声位置、旧189比较对象朗读简化及全片其余范围仍待复审。下一执行`UL7PfLAisbE/full-review-continuation.json`，读全部221源/141实际项及全部审校、受限来源图，再决定进一步修订/导读。不得以定向修复替代完整交付验收。
+- v62为1396登记词、40正文6818源、32导读96实际场景，仅保留Tn完整句转场候选；v61的UL三条候选对应两处切点，旧报告不改。重定位仍读chóng dìng wèi、重第二声；五部20项30词次提示与Tn等义导读当前输入已复核，全部未听辨，字幕不改字。
+- 证据`UL7PfLAisbE/targeted-body-review-evidence.json`，七文档/resume/总交接已同步。下一审计v63；保留VRG256、1g51、jF165、Rfyp135/136、asSZ105/106、P6旧62/当前63、wGe67及全部其他待核事项。修改已打包工程前正式`package-restore`；不新增交付附件、平台发布或虚假听辨/播放器验收。
+
+## 历史断点：2026-11-09 内存取证正文修订，真实停顿门禁保留
+
+- 本节覆盖以下历史。固定40部仍32/40部双版本、剩8部；40基础verified、6815源/译稿，当前32质量允许/8blocked。完成表为`current-thirtytwo-package-validation-bodyreview-v60.json`，原32同顺序；总目标active，无存活任务。
+- wGe4PYrs-1o已完整读原114源/56实际配音项及全部审校，逐张核对11张来源JPEG，实际均1280×720、59718–72575字节，没有加载原始大PNG。旧67/72/73/82/105/114按六处JSON3交接纯114→120迁移/v59，12分段均正常语速严格原窗拟合；原37组只映射，英文/显示/逐源朗读/音色/时窗守恒。
+- 独立语义阶段/v60修13实际合成项：三个完整同人短语移位，七处定向标点，四处同人完整组合；只给旧16配音补回显示稿已有的“它”，修“某进程把改为”语病，不假称纯字词守恒。额外K个无关页面不再跨合成块，超40秒的原两组没有强并。
+- 最终120源/40组/58实际配音，57正常/1+5%、额外atempo0/overlap0。全部实际缓存只解码测时、严格字幕原窗无容差通过；两阶段原修订窗外PCM保持。原114正文至当前120正文28615编码视频包、codec、PTS/DTS与包时长保持，不为此重复全片解码。末尾是两人有声致谢，不沿用timerlat的“末尾必须掌声静音”专用假设；独立验证器不改旧脚本或严格PCM规则。
+- render/verify通过，但quality真实出口1：当前67“可以……”在673.280秒另一人插入，issue3379248547f389b2815392a7仍需听辨，不跨人合组、不补句号消门禁；29声音候选未听辨。旧65初始Mhm、75初始Yes遗漏，65/66“向｜用户态”与113串场Red Hat Summit疑点仍保留，无导读/上传版、不计33。
+- v60为1388登记词、40正文6815源、32导读96实际场景；仅保留Tn“用户态。｜进程”完整句转场候选。重定位=chóng dìng wèi，重第二声，不读zhòng；五部20项30词次配音提示及Tn等义导读当前输入已复核，字幕保留规范字，仍未逐处听辨。
+- 两次prepare定位错误及首次缺审读文件的probe出口1均保留；只改尚未绑定包装器，不改旧验证器。证据`wGe4PYrs-1o/body-review-final-evidence.json`、新resume与总交接同步。固定原顺序已到末片，下一审计v61；下一优先真实声音/来源门禁，不重启已结束任务、不清除asSZ105/106、Rfyp135/136、jF165、P6旧62/当前63或其他门禁。修改已打包工程前正式`package-restore`，不加交付附件、不发布平台。
+
+## 历史断点：2026-11-09 实时IRQ正文审校，词面门禁保留
+
+- 本节覆盖以下历史。固定40部，仍32/40部两用途版本、剩8部；40基础verified、6809源/译稿、33质量允许/7blocked。当前完成表`current-thirtytwo-package-validation-bodyreview-v58.json`仍只含原32部，总目标active，无存活任务。
+- P6hZJWYIZvw已完整读原146源/73生产合成项、全部审校，逐张查看并核对六张受限来源JPEG。旧55/78/79/87/100/121/128/145依八处JSON3交接纯146→154迁移/v57，原44组只映射；16个分段均正常速率严格原窗拟合，显示/英文/逐源朗读/音色/原窗守恒。
+- 独立语义阶段/v58修24个合成项：四个完整短语只在同一实际发言连续窗移动、十二处机械标点、十处完整同人组合；旧2只补回配音漏掉的指示语“这”，避免把参会听众说成用例。字幕原已有“这里”；因此不能宣称本阶段纯字词守恒，须说明除这一补字外字词次序守恒。最终154源/47组/71生产合成项，速率统计70正常/1+10%，额外atempo0/overlap0。
+- 全部实际缓存只解码测时、严格原字幕窗无容差通过，各阶段原修订窗外PCM保持；原146正文至当前154正文32320编码视频包、codec、PTS/DTS及包时长保持，未因此重复全片解码。render/verify通过，但quality真实1、60声音候选未听辨，无本片导读或上传版、不计第33部。
+- 旧62现新63的“额外标志”仍缺口述词面证据：字幕thread、独立ASR threat都不能证明flag，幻灯片irq_isolated背景也不是听辨。原问题55821e37e9594a09bf2054b0及旧反馈不改、不解除；current=false只是历史版本绑定，仍阻断，映射在source-revision/resume。旧38标记、55/87非词语前缀、127/136遗漏前缀及142驱动名仍保留疑点，不把纯迁移说成全部交接或翻译已修。
+- 初次语义prepare误将“接下来，”选为旧39、实际属于旧38，保护检查真实出口1、生产未改；原源码与失败说明归档，修正未绑定包装器后恢复，未改旧验证器或门禁。证据`P6hZJWYIZvw/body-review-final-evidence.json`，七文档/resume及总交接同步。
+- v58登记1343词、40正文6809源、32导读96实际场景；Tn“用户态。｜进程”完整句转场候选保留。重定位=chóng dìng wèi，重第二声；五部正文20项30词次提示及Tn导读等义修订当前输入已复核，全部未听辨，显示规范字不改。
+- 下一原顺序`wGe4PYrs-1o`完整审读，下一审计v59。asSZ105/106、Rfyp135/136、jF165及其他门禁保持；已打包工程修改前正式`package-restore`，不新增交付附件/网页、不发布平台、不冒称PotPlayer或人耳验收。
+
+## 历史断点：2026-11-09 proxy/futex 正文审校，真实换人门禁保留
+
+- 本节覆盖以下历史断点。固定40部，仍32/40部两用途版本、剩8部；40基础verified、6801源/译稿、33质量允许/7blocked。当前完成表`current-thirtytwo-package-validation-bodyreview-v56.json`与原32同顺序，不计未打包asSZ。总目标active，无存活任务。
+- asSZOD4_F3g已完整审读原121源/77实际朗读、26行原审校及七张受限来源JPEG。四阶段独立留证：旧88观众回复仅朗读等义修订/v53；16混合来源20次交接纯121→141迁移/v54；29项完整语义/标点修订/v55；只增同一主讲91–92完整解释/v56。最后阶段增量追加一组，原39组不变，不重复追加全组。
+- 当前141源/40组/92实际朗读，89正常/3最高+15%，额外atempo0/overlap0。全部实际缓存只解码测时，严格原字幕窗无容差通过；各阶段严格修订窗外PCM保持。最初121正文至当前141正文31432编码视频包及codec/PTS/DTS/时长保持，此检查不重复全片解码。正文render/verify通过，但没有AI导读或上传版。
+- 91–92安全修好；105→106是984.320秒另一人插入澄清，986.399秒再返回原人，原省略语气不改，不跨人合并、不补句号消门禁。quality真实出口1保留，73声音候选未听辨；旧103/108/112/114的交接或漏确认等疑点也保留。不得打包或计第33部；Rfyp135/136、jF165及其他门禁不动。
+- v56登记1304词、40正文6801源、32导读96实际场景；只保留Tn“用户态。｜进程”完整句转场候选。重定位=chóng dìng wèi，重第二声；五部正文20项30词次专用配音提示和Tn导读“按需修正地址”已复核当前输入，全部未听辨，显示仍为“重定位”。不改扫描器、旧绑定脚本或写假听辨/dismiss。
+- 增量验证器先因只认full生产的generated字段出口1，后因用浮点秒比值代替实际整数帧分配再次出口1；原脚本/日志均归档。独立增量核验按生产整数帧精确比较恢复0，不加容差、不改生产声音、不重跑TTS。证据`asSZOD4_F3g/body-review-final-evidence.json`及总交接；七文档/resume同步。
+- 下一原顺序`P6hZJWYIZvw`完整审读，下一审计v57。含导读工程改动前仍先正式`package-restore`；不新增用户交付网页/摘要/外挂字幕、不发布平台，不冒称PotPlayer或人耳验收。
+
+## 历史断点：2026-11-09 timerlat 两用途版本完成
+
+- 本节覆盖以下历史断点。固定40部，当前32/40部双版本、剩8部；40基础verified、6781源/译稿、33质量允许/7blocked。完成表`current-thirtytwo-package-validation.json`，原31同顺序加oA，不重复计数。总目标active。
+- oA先独立补回旧139“他们操作时……”并把旧50的完整疑问等义改为“我吗？”（v50）；再按JSON3交接纯169→173源迁移（v51），英文/中文/逐源朗读/音色/原窗守恒；最后仅将同一提问者143–144完整问题合组（v52），142首位发言及145下一回答保持独立。三个阶段及窗外PCM分别留证，不混成一个纯迁移声明。
+- 旧49原整体约6.6毫秒超窗，现按三段实际发言拆为49/50/51，各自正常速率严格拟合；旧50也分为52/53。最终173源/38组/116实际朗读，115正常/1最高+15%；全部实际缓存音频只解码测时、严格原slot无容差通过，无额外atempo/截尾/重叠。36声音候选未听辨；quality允许不是人耳验收。旧失败报告与出口保留。
+- oA两版都有22.56秒有声AI导读、31中文内嵌章节、完整正文，总1426.601秒；35100正文帧与35664母版帧逐帧MD5一致、PTS偏移误差0，中文AAC两版相同。原169正文至修复正文35100编码包/codec/PTS/DTS保持。完整解码、Linux/Xvfb下VLC及五张受限上传JPEG检查通过，不称PotPlayer或人耳验收。最初VLC缺DISPLAY真实1及显式Xvfb恢复0分开保留；不再重跑TTS/全片解码。
+- v52登记1264词、40正文6781源、32导读96实际场景；Tn“用户态。｜进程”完整句转场候选原样保留，不改扫描器或写声音dismiss。重定位=chóng dìng wèi，重第二声；五部正文20项30词次配音提示及Tn导读等义修订保持，当前输入覆盖已刷新，仍全部未听辨，显示术语不改。
+- 本轮证据`oA0cGsboxok/delivery-final-evidence.json`及总交接；后续修改oA也必须先正式`package-restore`。下一原顺序`asSZOD4_F3g`尚未开始完整审读，下一审计v53；Rfyp135/136、jF165及其他门禁保留。七文档、工程resume及交接同步，不新增交付网页/摘要/外挂字幕、不发布平台。
+
+## 历史断点：2026-11-09 timerlat 正文审校
+
+- 以下更早的“当前断点”均为历史。仍31/40部双版本、剩9部，40基础verified、6777源/译稿、32允许/8blocked；当前完成表为`current-thirtyone-package-validation-bodyreview-v49.json`，不新增第32部。
+- `oA0cGsboxok`接续前轮1–165源文审读，本轮补读166–169、113实际朗读及全部原审校，逐张看五张受限来源JPEG。17项定向修订、七个完整短语只在同一主讲的连续既有组之间移位，另修13处标点/空格；169源/37组/113朗读、显示/音色/原窗保持，111正常/2最高+15%。严格字幕窗及原分配窗外PCM相同，35100个编码视频包及codec/PTS/DTS保持，两音轨完整解码通过，不冒称人耳验收。
+- 首次全组导入因旧策略仍有效、变成追加而真实出口1；持锁归档37旧组后导出新任务恢复。严格v2校验真实出口1：未改动的源49原/新时长均2.1266秒，原slot为2.1200000000000045秒，约6.6毫秒超窗。独立证明只覆盖17项修订和窗外PCM，不是严格全局通过；不改旧验证器、不加容差、不为消错重跑TTS。
+- 139/140质量门禁仍在，37声音候选未听辨。JSON3事件1115/1117在1171.720秒换人，首位发言仅1秒且当前漏译；“他们操作时……”正常速率实测0.8302秒，但仅测时、尚未补译。下一先独立补译139，再纯迁移分离两个讲者，最后只合后半提问者与旧140；每阶段独立留证，不能把补译混进纯守恒迁移。源49需另审其内部交接及超窗。
+- v49登记1264词、40正文6777源、31导读93实际场景。正文保留一条Tn“用户态。｜进程”候选；原8完整结束缺页转交用户态，原9新起“进程若想……”，文字审校判为完整句转场，未改声音、扫描器或写dismiss/听辨。导读0候选不等于音质验收。
+- 重定位=chóng dìng wèi仍按完整词组控制；五部正文20项30词次提示与Tn导读等义修订保持，v49输入覆盖已核对，全部未听辨。Rfyp135/136、jF165及其他门禁保持。下轮从oA139继续，下一审计v50；之后原顺序asSZOD4_F3g。证据为`oA0cGsboxok/body-review-final-evidence.json`及总交接；总目标active。
+
+- 当前续做断点（2026-11-09，EEVDF正文品质修订）：仍31/40部双版本，剩9部；40基础verified、6777源/译稿、32允许/8blocked。RfypRCcJfX8完整读145源/69实际朗读/全部审校及七张受限图，按JSON3十一处混合来源十二交接纯迁移145→157/v47，原40组仅映射、81朗读。独立修16项17处块内标点、12处朗读交接前缀与四对完整短语，43组/77朗读，76正常/1提速5%；序列计数器跨块已修，全朗读字词顺序、严格原窗外PCM和33752个编码视频包/PTS/DTS保持。原121与122首个Yeah同主讲完整组保留省略号，但旧126→新135/136澄清交接仍有1.7秒未听辨门禁；quality真实1保留，49声音候选未听辨，不制作导读/上传版、不计第32部。首次prepare因重复对的缓存mtime不一致出口1，独立核对同字节/哈希/解码时长后恢复，未改旧报告或重跑TTS。当前完成表current-thirtyone-package-validation-bodyreview-v48.json；1227词/40正文6777源及31导读93实际场景为v48，无登记跨块候选不等于听辨。重定位五部20项30词次提示与Tn导读等义修订保持，全部未听辨；jF165仍blocked。下一原顺序oA0cGsboxok需完整审校其139门禁，下一v49，继续v2证据映射，总目标active。
+
+- 历史第29部推进断点（2026-11-09）：29/40部两个用途版本完成技术核验，剩11部；40基础verified、6751源/译稿、32质量允许/8blocked。tTiT1fF9ETw已完整读90旧源/43实际朗读/全部审校并逐张看六张受限来源图；旧25/64/81/87依JSON3在269.040/584.320/716.720及765.360/774.800秒明确换人，先纯迁移为95源。原28组仅映射，纯48朗读与v36固化；独立去旧82/新85笑声口述、将旧9的经常出现移至完整后句并补的情况是，48.32秒两组不强并；仅扩展新92–94同一主讲回答，确认和提问独立。最终28组/47朗读，46正常、1加速10%，无额外atempo/截尾/重叠，源文/显示译文/音色/原窗及严格窗外PCM保持。独立修订初始化缺失video_package导入，原70890出口1保留；未改变生产输入，保留半成设置目录后用新包装器显式提供依赖，未改旧绑定脚本或验证器。两版25.08秒有声导读、28章、827.934秒，20070正文帧保持、PTS误差0、中文AAC及完整解码/VLC通过，四张上传JPEG逐张已看。11声音候选未听辨；11%真实报告和95%小基准不混同，31%非root不等于全无特权，草稿需人审，发布不等于合入；旧83调试器名和复现稳定性标准未决。v37绑定1052词、40正文及29导读/87实际场景无登记跨块候选，不是完整实体识别或人耳验收。当前完成表current-twentynine-package-validation.json；旧28部及全部历史非零出口保留。A3重定位提示未听辨，另四正文及Tn导读未改声音。下一片BMXR0XcDciA，下一审计v37→v38；目标仍active。
+
+- 开始或续做视频译配前，先读 `docs/ai-execution-workflow.md`，再检查实际工程与进程状态。该文档包含用户已经确认的交付要求、真实命令、实现缺口与验收标准。
+- 本仓库使用 `video_workflow.py`、`translation.tsv` 和语义组 JSON。不要套用其他仓库的 `dubber.py`、`--run` 或不存在的任务导入命令。全局 `local-video-dubbing` Skill 当前链接到另一仓库，其通用原则可参考，命令以本仓库 CLI 为准。
+- 用户要求每部视频自包含：有中文配音的 AI 导读、正文、内嵌中文章节、音轨及字幕均在视频文件中；导读不能只有文字卡或静音。不得新增学习页、摘要文件、PBF 或交付用外挂字幕。另需中文配音上传版；每个用途版本各自是一个独立可播放的视频文件，不是把不同演讲合成一个长视频。
+- 截至2026-11-09，仍31/40双版本，由current-thirtyone-package-validation-bodyreview-v48.json独立复核；1227词/6777源/31导读93场景为v48。Rfyp正文已修，当前135/136真实澄清交接未听辨、quality1且未计32；jF165仍blocked。下一oA0cGsboxok先审139门禁，下一v49。历史逐部断点只作历史保留。
+- 改含导读工程的源文、审校、配音或导读计划之前，先对当前有效版本执行 `package-restore`；恢复后才改正文、重编译/渲染及重新打包。`video_package.py` 自身哈希也绑定成片，不能改清单绕过失效。
+- 原片时间、正文配音时间与新增片头后的交付时间分别保存；所有字幕和章节使用明确映射。用户关注 PotPlayer、VLC；没有实机测试证据时不得声称已实测兼容。
+- 配音最多提速 15%，禁止额外 atempo、截尾、重叠或为拟合移动后续发言。换人混合单元先按来源证据细分，再合成同一发言的完整语义句。
+- 语义分段额外核对人名、专有名词和固定短语：不在完整专名内部设置合成边界，不让字幕换行或机械拼接引入停顿。每部完整读稿后补充本片实际朗读别名，并在新增导读/上传前执行 `speech_boundary_audit.py`；发现候选先核对来源、换人和时间，不带着已确认的错误切点继续编码。v19复查40部/6737源单元、683项词表无登记跨块候选，证据为 `registered-term-boundary-batch-v19.json`；二十部60个实际导读场景另查通过。该结论只绑定当次输入，不能沿用到下一片新词表。此前小词表仍漏掉未登记写法：Futex 的“比较，｜并交换”、SFrame 的“栈，｜回溯”及文件系统回收报告的会议全名均已局部正式重合成，并证明修订时窗外PCM逐样本相同。会议名称跨组不能强并55.521秒，须保留两个原窗并局部重写完整语句；历史3个别名候选对应一处，不能覆盖为零。Futex 先正式恢复正文再改来源。不能用小词表的零结果声称完整覆盖。该工具只覆盖登记写法，不是完整专名识别或已接入TTS的自动硬门禁。字母缩写的正常逐字母读法与异常断词分开判断；整句合成仍异常时核对朗读文本和实际引擎能力，不全局删空格/标点、不直接删静音，不声称全部历史边界已修好。
+- 语义组合并后还须定向审校块内标点，不能保留字幕换行带来的“转换，工具”“交给，Han”等机械停顿。`K8TTzdEXsdY` 已修21组、22处，词语、音色、74个合成项及绝对时窗不变。PCM边界比较必须匹配实际混音的 `int(seconds * sample_rate)`，不能另用 `round`：568.8秒处曾因此误报一采样点；原失败61878出口1和日志保留，修验证后窗外PCM相同，没有为通过验证重跑TTS或扩大容差。先查真实差异，不把任何窗外差异都归为舍入。
+- `g35Pda5RaMo` 已完整审读170源单元/96实际朗读项及40行审校，修18组21处“硬件，反馈接口”“每瓦，性能”等标点；7单元只去掉对应`[laughter]`的“现场笑声。”口述描述，实际语言不删，170掌声仍静音。保持46合并组、96合成项、原音色/时窗、显示译文，窗外PCM相同；不能把整组静音或把事件描述当讲者原话。107/114/140仍保留待听辨，不武断认定Steam或游戏引擎。后续登记词表可用隐藏证据目录的 `advance_boundary_audits.py` 显式生成新版本；不得覆盖旧版本或把词表结果当人耳验收。
+- `WfWrIwQw0O8` 已完整审读128源单元/64实际朗读项/31行审校及六张受限来源图，修20组20处机械标点，另在10–12组只去掉源12的笑声描述，实际语言不删。保留45合并组、64合成项、音色、时窗与显示译文；逐项目标朗读及窗外PCM证明通过。两版20.88秒有声导读、28章、31799帧正文保持及VLC通过。29项声音候选、93/120混合来源及115角色不确定仍保留；`AiYdDK7flB4` 续修证据见下一项，不以导读掩盖声音问题。
+- `AiYdDK7flB4` 已完整审读206旧源单元/96旧朗读项及全部审校、六张来源图；旧131/135依据原JSON3明确交接拆为208源单元，保留完整编号、词语、译文和音色映射，当前62合并组/95朗读项。只合同一发言的132–136及137–138，另修25个旧组，包含“固件级｜调度器”跨块及“基数，树”等机械标点。实际朗读精确比对及修订窗外PCM相同，旧高风险候选不再检出，未写听辨/dismiss反馈；57声音候选、当前111/194不确定及其他混合来源仍保留。两版20.2秒有声导读、30章、47787正文帧及VLC通过。全批审计变更单元数须显式 `--source-revision`，核对原始哈希、全文与206→208完整映射及其他39片来源不变；七项保护验证通过，不可简单放宽总数检查。
+- `AVlzBJLOOCE` 已完整读286源单元/120实际朗读项/35行审校及七张来源、三张交付受限图，修“负载｜场景”“偶发｜尖峰”“内存｜压力”三处及13处块内标点；283仅移除笑声口述描述。18朗读项（17旧组＋283）局部重合成，286源单元/106组/120朗读项、音色/时窗/显示译文和窗外PCM保持。两版21.28秒有声导读、35章、2851.677秒及70759正文帧验证通过。38声音候选、191底层调用及240/250/279/283/285混合来源仍待审，不泛化NTPsec配置或把长期观测当未来上界。
+- `8r6PNOopV44` 已完整读195源/110实际朗读/31行审校、五张来源及三张交付受限图。52项本片词表检出并正式修复“跑不｜过熊”“文件｜映射”两处，另修33处机械标点，32实际朗读项精确等于审定目标；195源/53组/110朗读项、音色/原窗/显示译文和窗外PCM保持。两版24.24秒有声导读、31章、1867.858秒、46089正文帧及当前AAC/完整解码/VLC通过；15声音候选、未定姓名及混合交接仍待审，174未跨人合组。基准全部由DRAM支撑，zswap停顿未归因，动态分区未定，不补造194防抖回答。初次计划85261出口1因一条29字字幕超过28字，后续只拆显示行、完整场景TTS文本不变；保留原失败。
+- `Ryo9xDAz4wc` 已完整读143源/70实际朗读/35行原审校、七张来源和三张上传版受限图；56项本片词表无登记跨块候选，但正式修26旧组32处块内标点，另独立修74–75重复接口名和101–102重复只。28实际朗读项精确等于审定目标，143源/44组/70朗读项、音色/原窗/显示译文与窗外PCM保持；67正常、3在+15%内提速，2/143事件窗PCM全零，无额外atempo/截尾/重叠。两版25.72秒有声导读、30章、1454.537秒、35719正文帧/PTS误差0及当前AAC/完整解码/VLC通过。33声音候选、未定姓名与旧混合交接未解决；NMI接口/2027 ETA/自动管理/默认启用争议仍保留设计限定，不泛化DMA访问位或设备内存结论，report-api来源图实为第一阶段图。历史26组纯标点提案仍保留applied=false，实际修订以applied.json和PCM证明为准，不重做TTS。
+- `2L2-tZaOsIE`（Page fault locking）已完整读116源、67实际朗读、全部原审校、四张来源和三张上传版受限JPEG。52项本片词表检出81–82→83“复合页，｜锁”，保留原窗移词，让83完整朗读复合页锁，不合并末尾观众take；累计真实跨块修复十处。另修26旧组31处机械标点，59只去掉笑声口述描述；29实际朗读项精确等于审定目标，116源/35组/67朗读项、显示译文、音色/原窗与窗外PCM保持。67均正常语速，无额外atempo/截尾/重叠。两版21.56秒有声导读、26章、1248.085秒、30662正文帧/PTS误差0及当前AAC/完整解码/VLC通过。20声音候选及旧混合交接保留；无folio锁只是激进提案，当前文件缺页仍拿锁，fork/RCU/驱动条件仍未解决。27145外层143保留，shell出口文件0不作为外层终态；母版已有效，只恢复缺失上传71618，不重做package或TTS。37404/7226独立解码、64142比较及62279十七部汇总均真实终态0。dry-run后仅清理34518467字节白名单派生视频，不等于磁盘实际释放量。
+- 第十八部 `QeAJFHZYxnw`（RT tasks in sched-ext support）已完整读113源、47实际朗读、全部原审校、五张来源和四张上传版受限JPEG。修9旧组12处机械标点，另独立去掉源2/54/85重复的实时、调频器、调度器措辞；12实际朗读项精确等于审定目标。113源/33组/47朗读项、显示译文、音色及原生产分配保持，47均正常语速；113事件窗PCM仍全零。本片43项词表无新增登记跨块候选，累计真实跨块修复仍十处。两版22.64秒有声导读、23章、945.309秒、23066正文帧/PTS误差0及当前AAC/完整解码/VLC通过。43声音候选及旧混合交接保留；RT纳入、IRQ、暂转公平类和退出安全仍是未定提案，不泛化优先级方向、性能收益或上游支持。54580真实出口1保留：原字幕窗外确有18962差异样本，但该组原生产分配延至413.270秒，原新声音均在原分配内；独立证明原生产分配窗外PCM逐样本相同，未重跑TTS、扩生产窗或加容差，85896恢复终态0。69129外层143时已有23632母版帧、完整日志和checked ffmpeg出口0凭据；独立复核及比较保留，不重解码、不改写143。57940十八部汇总、92836全批扫描均真实终态0；仅清理31878705字节白名单派生视频，不等于磁盘实际释放量。
+- 第十九部 `4rdkSDfNiKo`（Kernel Lock Contention Hotspots）已完整读82源、38实际朗读、全部原审校、十张来源和三张上传版受限JPEG。50项本片词表检出源5→6、实际3–5→6–8两组的“锁，｜争用”；两组合计60.28秒，未强并，只把“同时采集锁”移到6开头，在同一primary-presenter的两个原窗内保持合计字词，累计真实跨块修复十一处。另修11个纯标点组15处，以及3个混合修订项内5处；55/67只去掉重复调用，33改为压缩内存的压缩过程，不把这些措辞修订冒称纯标点。16实际朗读项精确等于审定目标，82源/24组/38项、显示译文、音色、原生产分配及原字幕窗外PCM保持。38项均正常语速，无额外atempo/截尾/重叠，82事件窗PCM仍全零。两版22.92秒有声导读、24章、816.857秒、19847正文帧/PTS误差0及当前AAC/完整解码/VLC通过。12声音候选、旧混合交接及来源850/1000测试次数、Binder口述3ms/图8ms差异保留。4.7%全部掉帧与>90%锁导致掉帧分母不同，722→235是次数、约65%是耗时；性能收益只限定来源设备/负载，RFC及库打包、代理执行建议不追认为通用已合入结论。显式v2内部验证器绑定旧生产器哈希与原slot，先验证原分配，再独立比较原字幕窗；两类窗外PCM本片均相同，不改旧v1/Qe失败证据，不重跑TTS来修验证假设。
+- `1gBlJmozYaw`已完整读78源、42实际朗读、全部原审校及六张来源/两张交接受限图，正式修25实际朗读项：三处登记跨块切点及两处悬空引导短语均在同一barry的两个原窗内移词，五对组合均超40秒，未强并。另修12个纯标点组13处、一个空格组及混合修订项5处标点；65去重复分配器、77去笑声口述，真实结束语与78事件静音保留。78源/26组/42项、显示译文、音色/原窗及两类窗外PCM保持，42均正常速率；累计登记真实跨块修复十四处，另有两处悬空短语修订。正式正文render/verify、完整视频/双音轨解码及原编码视频payload保持均通过，但51/52的Here/it is说话人仍不明，朗读原样保留；质量检查真实出口1，25声音候选和该门禁继续保留，未package/upload。该轮新格式为19/40，正文修订没有算成新格式完成。后续 `RyO7vdjpfes` 已作为第20部完成，见后续记录；本片门禁并未解除，v18及十九部报告继续保留为历史。
+- ASR、解码、播放命令及波形检查不等于人耳验收；不得自动登记 `listened`、`confirmed_correct` 或 dismiss。保留真实文字问题和质量门禁，不以减少 blocked 数量为目的改反馈。
+- 图像取证只逐张加载受限 JPEG：长边不超过 1280、实际不超过 192 KiB，小字先裁剪。发生 413 先落盘断点并减少上下文，不重发大 PNG。
+- 工程、缓存、备份及验证证据留在隐藏工作目录，不作为用户必须携带的交付文件。保留既有未提交修改；未获明确要求不提交、不建分支，不发布或上传到外部平台。
+- 空间回收只用 `package_cleanup.py` 预览，再显式 `--apply`：需当前两用途版本、全片解码及正文逐帧保持证明，持有工程锁，仅删当前组合目录的 `body-video.mp4`、`video.mp4`、`intro-video.mp4`。原片、正文归档、导读WAV、缓存、计划、字幕和绑定不得删除；默认不清旧版本或其他目录。
+
+- 第20部完成记录：`RyO7vdjpfes`（Performance Tools and Prompts，Brendan Gregg）完整读174旧源、68实际朗读、全部原审校及八张来源图；依据原JSON3事件563/1251在635.800/1380.040秒的明确交接正式迁移为176源，保留英文、显示中文、逐单元原朗读、音色及完整编号映射。只合完整同人发言，当前58组/68实际朗读项。13个既有项定向修订：9个纯标点组10处标点、两处笑声描述及两组之间完整移动“除此之外，还有”；另有4个新完整发言组，其中3组修5处机械标点。两组合长56.040秒的悬空短语只在原窗移词，没有强并。实际朗读精确等于审定目标，真实词语/数字/条件、修订原字幕窗外PCM及176事件静音保持；64项正常、4项在+15%内提速，无额外atempo/截尾/重叠。当前正文编码视频payload与不可变旧正文相同。两版25.64秒正常语速有声导读、31章、1458.567秒，35822正文帧保持、PTS误差0、当前中文AAC相同及完整解码通过。Linux/Xvfb下VLC章节、轨道、位置和实际渲染快照检查通过，但seek期间decoder/timestamp消息完整保留，不宣称全片播放日志无错误。旧168/新169开头未译Oh后接Hi的来源不确定及其他旧混合交接仍保留，62当前声音候选未听辨；不能把旧61当当前扫描结果。格式图为My guesses，86.2%明确无效，大页4%只属案例，片中命令和Use subagents不是执行授权。仅dry-run→apply清理47227865字节白名单派生视频，不等于实际磁盘释放量；原片/正文/WAV/计划/绑定保留。
+- 第20部时的历史断点（非当前）：当时40/40基础verified、6737/6737译稿、32质量允许/8 blocked，新格式20/40部双版本，剩20部及未决品质工作继续。v19在625项旧词表基础上合并本片72项及别名去重，共683项；40部正文及二十部60个实际导读场景无登记跨块候选，不等于完整实体识别、块内韵律、人耳、人工GUI或PotPlayer验收。`current-twenty-package-validation.json` 独立重核当前二十部；v18、十九部报告及所有历史非零出口保留，1gBlJmozYaw门禁仍未解除。下一原顺序 `IszxPqRh5iU`（Vendor hooks in Android kernels?，Todd Kjos）100源已完整审读，44实际朗读、全部原审校及五张来源图已查；43项本片词表检出一处“底层｜功能”候选，旧96的890.240秒明确交接已定位。仅保存审定提案与v2交接补充，尚未修改生产来源、重合成或制作第21部；下一新词表使用前版v19、新v20、标签twentyone及 `current-twenty-package-validation.json`，真实源迁移须显式提供完整source-revision。截图继续逐张受限JPEG，长边≤1280、实际≤192KiB；没有新增用户交付学习页、摘要或外挂文件，未修改打包实现、未发布平台。
+
+- `Y4RV7xnrndM` 的纯113→114迁移先固化v24，独立20项朗读修订再固化v25；禁止混改源文和朗读后放宽守恒审计。旧107在1096.680秒明确交接，107独立、108–110仅同观众；七对语句不是七处新增术语断词。该轮v25→v26顺序为历史；下一审计从当前v27→v28，完成清单为current-twentyfour-package-validation.json。
+
+- 第24部最终证据：`A3C94byoIcs/delivery-final-evidence.json`；原94053正文、44402母版、14964 VLC、63989受限截图/实际导读审计及39912独立24部/全40刷新均终态0。不重跑已完成TTS或解码。新重定位提示仅A3已应用，四部正文及Tn导读未修，不自动关闭声音候选。
+
+- 第25部证据：`96HHq_gP1Zo/delivery-final-evidence.json`；原策略追加拒绝及首次计划字段错误两次出口1保留。需仅重分已有有效组时，不能再次把全组回复追加到旧策略；先持锁显式完整归档旧策略，再重新导出完整真实任务并正式导入，最后重合成/验证窗外PCM，不手改清单哈希。
+
+- 第26部`xMoTdFfYkBk`已完成纯143→144迁移和独立五项朗读修订；v30/v31分别绑定，不将两阶段混改。当前37组/68朗读、25.88秒有声导读/33章、30099正文帧保持，四张上传版受限JPEG已看。证据为本片delivery-final-evidence.json；旧准备提案applied=false保留为历史，不覆盖冒充实际执行状态。下一片RGlrdYc5BoM，下一审计v31→v32，前序表current-twentysix-package-validation.json；无活动媒体进程。
+
+- 第27部RGlrdYc5BoM的原增量round边界确实覆盖下一句一个采样点，保留80327出口1；完整归档38组再正式重导，full原int分配修复后严格窗外PCM保持。不能改旧生产器或把round统计当成可扩大下一句窗口的授权。两阶段151→153纯迁移/v32和完整同人组/v33分别固化；不重复已成功TTS/编码/解码。下一片oexQRN_OwA8，前序current-twentyseven-package-validation.json，下一v33→v34。
+
+- 第28部full生产可占用下一句前空隙，不等于符合源字幕原窗。原49609出口1保留；本片去一个可选逗号后回到原窗并严格证明窗外PCM，未改生产器/验证器/容差，不将本片误认上一片round边界问题。下一tTiT1fF9ETw，v35→v36，当前完成表current-twentyeight-package-validation.json。
+
+- 第29部原70890是缺失导入导致的修订初始化出口1，未改生产输入；failed-correction-setup和原脚本均保留，新包装器只显式提供依赖，不修改旧绑定/验证器。90→95纯迁移/v36与独立完整意群/v37分开固化，下一BMXR0XcDciA，v37→v38，当前完成表current-twentynine-package-validation.json。
+
+- 第30部BMX的增量round/int预检、两次TTS连接超时及只改审校未改变编译契约的完整重导拒绝，四个出口1保留。显式127等值朗读覆盖与新任务完整重导后严格窗外PCM相同；不能通过修改历史绑定或放宽误差恢复。下一jFkjPfEoGyg，v42。
+
+- 本轮三片重定位只修配音输入，显示术语不变。s3一项新旧PCM相同不是失败字音或正确字音证据；旧验证器出口1保留，新只读专用证明按实际输入和严格原窗核验。runtime依赖用新包装器恢复、label用合法值重试，原1/1/2均保留。五部20朗读项30词次已覆盖但全部未听辨，不自动关闭候选；下一v43。
+
+- jF旧165/168/170纯240→243迁移/v43与两组同观众完整句/v44分别固化；165未完句接另一人请说仍需真实听辨，不为清门禁改句号或跨人合并。quality出口1与v43缺参数出口2均保留；旧172的0.64秒确认+15%仍放不下，不强拆。下一安全推进M-rMSzJiwAQ，jF待审而非完成31。
+
+- 第31部原音色列表哈希假设失败1、恢复依赖缺失1及逐帧外层143均保留；复用原正文帧，只补母版，不重跑TTS或改旧绑定验证器。纯152→160/v45与独立完整语义/v46分开固化；旧137/144后半+15%仍超原窗，未强拆。下一RfypRCcJfX8，v47，完成表current-thirtyone-package-validation.json。
+
+- Rfyp145→157/v47纯来源迁移与独立语义/v48证明分开；原prepare缓存mtime失败1及当前quality门禁1均保留，未修改旧报告或生产器。33752编码包/时序与严格原窗外PCM保持，43组/77朗读；未制作本片导读/上传版。详见RfypRCcJfX8/body-review-final-evidence.json；下一oA0cGsboxok，v49。
