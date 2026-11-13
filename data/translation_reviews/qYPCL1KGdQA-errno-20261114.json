@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "video_id": "qYPCL1KGdQA",
+  "unit_id": 85,
+  "purpose": "Retain the source code identifier errno in speech instead of relying on a generic error-code gloss. Preserve the approximate-count alternative, historical talk and book, contrast with no return value, two outcomes and each-operation failure qualification.",
+  "source_start": 1541.72,
+  "source_end": 1566.72,
+  "source": "So I don't totally agree with void but one approach is to give an approximate number and the talk last year talked about that and this book has more. But I'll come close to void instead of no value I'll return one of two and that would be zero for success and errno for failure. And as far as I know you only have one type of failure for each of these. So Boolean which is pretty close.",
+  "before_display": "所以，我不完全赞成返回 void。一种办法是返回近似数量；去年的报告讲过，书里也有更多介绍。不过，我也会选一个接近 void 的办法：不是完全不返回值，而是返回两类结果，成功为零，失败返回 errno 错误码。据我所知，这两个操作，各自都只有一种失败情况，那用一个布尔结果也差不多。",
+  "before_spoken": "我不完全赞成返回void。一种办法是给近似数量，去年的报告讲过，书里还有。我会选接近void的办法：仍返回值，成功为零，失败为错误码。据我所知，两个操作各只有一种失败，那布尔结果也差不多。",
+  "display_changed": false,
+  "voice": "zh-CN-YunxiNeural",
+  "probe_rate_percent": 0,
+  "max_rate_percent": 15,
+  "extra_atempo": false,
+  "candidates": [
+    {
+      "label": "full-display-explicit-identifier",
+      "text": "所以，我不完全赞成返回 void。一种办法是返回近似数量；去年的报告讲过，书里也有更多介绍。不过，我也会选一个接近 void 的办法：不是完全不返回值，而是返回两类结果，成功为零，失败返回 E R R N O 错误码。据我所知，这两个操作，各自都只有一种失败情况，那用一个布尔结果也差不多。",
+      "reason": "Keep the complete reviewed display wording and spell the identifier explicitly in spoken input. This is not a claim about a standard library API setting or returning the errno variable."
+    },
+    {
+      "label": "complete-natural-explicit-identifier",
+      "text": "我不完全赞成返回 void。可以给个近似数量，去年的报告讲过，书里介绍得更多。不过，我会选个接近 void 的办法：仍返回两种结果；成功是零，失败是 E R R N O 错误码。据我所知，这两个操作各只有一种失败情况，那用布尔结果也差不多。",
+      "reason": "Use natural complete Chinese while retaining every source claim and qualification. Still returning two outcomes carries the contrast with returning no value; do not collapse errno into only a generic error code."
+    }
+  ],
+  "selection_policy": "Measure both complete alternatives at normal rate. Prefer the full reviewed wording if it fits unchanged; otherwise inspect the complete-natural alternative against all source propositions rather than choosing a shorter text merely for easier fitting. Preserve real failures and remain within the existing maximum +15% if further measured fitting is needed. Timing, ASR and WordBoundary never approve emotional delivery or phonetics.",
+  "identifier_spelling_is_spoken_only": true,
+  "no_global_identifier_or_translation_replacement": true,
+  "source_text_windows_or_roles_changed": false,
+  "human_listened": false,
+  "pronunciation_approved": false,
+  "emotional_delivery_approved": false,
+  "automatic_listening_decision": false,
+  "production_applied": false
+}
