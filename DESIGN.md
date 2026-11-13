@@ -1,5 +1,14 @@
 # 译配工作流契约
 
+## 2026-11-14：Advisor正式来源、严格TTS与西语原声复合契约
+
+- 正式84单元与原66句／80项草稿分开绑定；旧59句按真实词窗分成道歉、版本、Survey，不跨长停顿提前发言。3139个primary索引完整有序分配、17个secondary恢复、37处旧词面匹配和3项额外修订独立记账；仅原索引覆盖守恒。
+- 全片TTS通过冻结严格原窗，完整PCM逐样本等缓存重放；23／38／42只等义精简spoken，显示与时窗不变。84统计项含82语言和2零占位，不能写成84项语言合成；83旧缓存身份／79项正常合成复用／3个新MP3分别核验。
+- 新来源`original-voice-composite-es-v1`仅由请求内`original_voice_v1.py`显式验证。先启用西语元数据AST，再按冻结基线验证producer／依赖，复合窗内精确等源、窗外精确等TTS；十进制原毫秒乘24 kHz避免尾界少1样本。原声首尾实际进入中文主轨，不以另留西语轨代替。
+- 冻结workflow的verify派生裸检查子进程不继承AST；首个真实1保留。`verify_spanish_v1.py`在已转换的原`check_videos`模块调用同一main，未删减轨道、字幕、时窗或质量检查；没有改98根Python、旧运行时或重编码成功正文。
+- 双版本含21.875秒三场景导读、39章；源至正文32466视频／58262原AAC包及有理时间保持，正文至母版32466解码帧、525帧偏移保持，两版中文AAC／PCM相同。最终母版西语原声因加片头重编码；VLC有限API通过但保留seek解码诊断，不等同无错播放、人耳或最终发音／情感批准。
+- 可提交配方新增`data/translation_reviews/EOd6xIgOKPA-original-voice-20261114.json`和`data/translation_reviews/EOd6xIgOKPA-package-20261114.json`；实物、真实终态、边界与待验门禁见`docs/advisor-delivery-2026-11-14.md`及本片`checkpoint-final-20261114-v1`。原始失败和8组待听A/B不覆盖。
+
 ## 2026-11-14：绑定来源的译稿韵律／发音审校配方
 
 - `data/translation_reviews/EOd6xIgOKPA-20261114.json` 保存本片Agent文本修订，而非媒体缓存或发布附件；以旧稿、逐词来源投影和局部ASR的SHA-256锁定输入，分开登记显示译文、朗读覆盖、局部术语别名与等义单位换算。

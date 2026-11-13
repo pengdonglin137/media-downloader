@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "video_id": "EOd6xIgOKPA",
+  "source_language": "es",
+  "source_sha256": "aaf6f75d44efc878a555b4e13b790b36d759f6b4f324a5d68085676e4f10affa",
+  "source_audio_stream": "0:a:0",
+  "sample_rate": 24000,
+  "gain_db": 0.0,
+  "source_time_to_sample_rule": "Exact decimal milliseconds times sample rate; no binary-float truncation.",
+  "ranges": [
+    {"unit_id": 1, "source_start": 0.0, "source_end": 5.24, "start_sample": 0, "end_sample": 125760, "purpose": "Retain the actual Spanish source opening instead of speaking a display-only label."},
+    {"unit_id": 84, "source_start": 1336.14, "source_end": 1352.841, "start_sample": 32067360, "end_sample": 32468184, "purpose": "Retain the full original ending; do not guess-translate the isolated disputed Gracias ASR token."}
+  ],
+  "invariants": [
+    "The complete synthesized base PCM remains identical outside the two original-voice windows; never overwrite TTS inside those windows.",
+    "The entire opening and ending PCM must equal the source decoded at the same absolute sample indices, at 0 dB gain.",
+    "Validate the final reserved endpoint against the actual complete decoded-source PCM frame count, not only rounded container duration.",
+    "Preserve the base TTS producer, successful cache identities, failed first TTS status, compilation, source windows and display text.",
+    "Use the explicit request-local Spanish metadata and original-voice runtime; bare frozen CLI does not understand this new origin.",
+    "Any packaged result must later verify both Chinese main tracks at the measured intro offset; a separate original track alone is insufficient."
+  ],
+  "human_listened": false,
+  "pronunciation_approved": false,
+  "emotional_delivery_approved": false
+}

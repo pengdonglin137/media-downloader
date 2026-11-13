@@ -1,5 +1,13 @@
 # 批量译配操作
 
+## 2026-11-14：Advisor完成双版本后的真实续做入口
+
+- 先读本片`checkpoint-final-20261114-v1/execution-progress.json`与`RUNTIME.md`，详细范围见`docs/advisor-delivery-2026-11-14.md`。正式84单元／完整TTS／原声回填／39章双版本已生成，旧`quality-polish-20261114-v1`只作草稿与8组A/B历史证据，不重复合成。
+- 新复合来源必须使用请求内`original_voice_v1.py run`，同时安装西语元数据与原声基线验证；裸旧CLI不能验证该来源。只读成品验收通过`verify_spanish_v1.py`调用已转换原检查器main，不用会派生裸英语子进程的旧workflow verify；原失败1保留，不靠重编码正文修语言标签。
+- 中文主轨已在两个完整预留原窗回填21.941秒真实原声，源流／0 dB／绝对样本／21.875秒导读偏移均绑定；完整西语备用轨不能代替上传版中文主轨的实际回填。最终有损AAC不声明与源PCM位级相同。
+- 已有18成功子步骤、完整解码／逐帧／两版中文AAC和PCM核验及21张局部图审；有限VLC API通过，但seek解码诊断原样保留。不得无理由重做成功媒体或刷新样片；仅为具体未决风险续做必要检查。
+- 后续实际听辨8组A/B和26发音候选，按源文核对缩写、单位、反问、道歉与结语的重音和语气，再通过绑定当前版本的正常反馈流程登记。不得把时长／ASR／自动播放当成情感或字音批准；全片人耳／视觉、逐词声画、PotPlayer和所有旧门禁继续待验。
+
 ## 2026-11-14：Advisor译稿韵律／字音候选的续做顺序
 
 - 先读 `docs/translation-polish-2026-11-14.md` 和本片 `quality-polish-20261114-v1/execution-progress.json`。完整新版草稿为该目录 `authored-translation-v2.json`；Git中配方锁定旧稿／来源哈希，不覆盖旧 `authored-translation-v1.json`。

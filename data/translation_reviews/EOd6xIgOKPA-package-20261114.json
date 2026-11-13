@@ -1,0 +1,86 @@
+{
+  "version": 1,
+  "video_id": "EOd6xIgOKPA",
+  "source_language": "es",
+  "source_sha256": "aaf6f75d44efc878a555b4e13b790b36d759f6b4f324a5d68085676e4f10affa",
+  "upload_date": "20191216",
+  "title": "Intel Advisor：从屋顶线到数据布局",
+  "voice": "zh-CN-YunxiNeural",
+  "intro": [
+    {
+      "heading": "从现象出发，定位性能瓶颈",
+      "screen": ["西班牙语原讲 · 中文译配", "Intel Advisor 与 N 体模拟"],
+      "source_unit_ids": [2, 3, 4],
+      "review_note": "AI导读概括原讲的N体示例、工具及性能瓶颈主题；不是讲者原话，不增造性能承诺。",
+      "captions": [
+        {"zh": "跟着这段西班牙语教程，", "en": "Sigamos este tutorial en español"},
+        {"zh": "用英特尔分析工具定位性能瓶颈。", "en": "para localizar cuellos de botella con una herramienta de análisis de Intel."}
+      ]
+    },
+    {
+      "heading": "从屋顶线到内存访问模式",
+      "screen": ["计算上限与带宽上限", "对比 SoA 布局前后的向量化效率"],
+      "source_unit_ids": [17, 30, 57, 69, 73],
+      "review_note": "按原讲顺序概括屋顶线、访存和SoA对照；50%到81%仅为向量化效率指标，不说成加速比例。朗读不用拆碎的缩写。",
+      "captions": [
+        {"zh": "先看屋顶线，再分析访存，", "en": "Primero, el modelo Roofline; después, los accesos a memoria."},
+        {"zh": "比较调整数据布局前后的向量化效率。", "en": "Compararemos la eficiencia de vectorización antes y después de cambiar la disposición de los datos."}
+      ]
+    },
+    {
+      "heading": "保留历史语境，区分原讲与澄清",
+      "screen": ["2019年12月16日上传，非录制日期", "硬件与带宽示例不作为配置依据", "向量化须满足正确性条件"],
+      "source_unit_ids": [5, 6, 20, 22],
+      "review_note": "上传日绑定原始metadata；305秒图的型号/端口及原口述AVX2/FMA、360秒图的1.866与口述1.8MHz不统一。只提示矛盾，不在导读猜造硬件规格；正确性提醒明确属于AI澄清。",
+      "captions": [
+        {"zh": "这是二〇一九年上传的历史演示。", "en": "Es una demostración histórica publicada en dos mil diecinueve."},
+        {"zh": "片中硬件和带宽表述有矛盾，", "en": "Las referencias al hardware y al ancho de banda contienen contradicciones."},
+        {"zh": "请勿照搬配置；向量化仍须保证正确性。", "en": "No deben copiarse como configuración; la vectorización sigue requiriendo corrección."}
+      ]
+    }
+  ],
+  "chapters": [
+    {"unit_id": 1, "title": "开场原声与完整正文"},
+    {"unit_id": 2, "title": "课程背景与 N 体示例"},
+    {"unit_id": 4, "title": "计算受限与内存受限"},
+    {"unit_id": 5, "title": "自动向量化与依赖条件"},
+    {"unit_id": 7, "title": "连续访问与 SoA 布局"},
+    {"unit_id": 11, "title": "认识 Intel Advisor"},
+    {"unit_id": 16, "title": "回顾逐步优化思路"},
+    {"unit_id": 17, "title": "屋顶线模型的两个上限"},
+    {"unit_id": 20, "title": "原讲峰值计算性能示例"},
+    {"unit_id": 22, "title": "带宽估算与原讲单位"},
+    {"unit_id": 27, "title": "计算与内存上限的约束"},
+    {"unit_id": 30, "title": "算术强度与每字节运算量"},
+    {"unit_id": 32, "title": "多级带宽与计算屋顶线"},
+    {"unit_id": 35, "title": "Advisor 的屋顶线图"},
+    {"unit_id": 39, "title": "圆点大小、开销与颜色"},
+    {"unit_id": 42, "title": "进入实际演示"},
+    {"unit_id": 43, "title": "make 命令与采集流程"},
+    {"unit_id": 46, "title": "为何选择改进版本演示"},
+    {"unit_id": 49, "title": "零号版本的分析结果"},
+    {"unit_id": 51, "title": "AVX2 版本与 Survey 采集"},
+    {"unit_id": 54, "title": "向量化效率与步长十"},
+    {"unit_id": 55, "title": "Survey 与 Roofline 界面"},
+    {"unit_id": 57, "title": "启动内存访问分析"},
+    {"unit_id": 59, "title": "访存彩条与步长类别"},
+    {"unit_id": 61, "title": "采集屋顶线分析数据"},
+    {"unit_id": 63, "title": "定位仍可优化的循环"},
+    {"unit_id": 67, "title": "非连续访问与向量打包"},
+    {"unit_id": 68, "title": "AoS 与 SoA 布局"},
+    {"unit_id": 69, "title": "重做 SoA 版本分析"},
+    {"unit_id": 71, "title": "SoA 与 AVX2 实际版本"},
+    {"unit_id": 72, "title": "重新采集 Survey 结果"},
+    {"unit_id": 73, "title": "向量化效率：50% 到 81%"},
+    {"unit_id": 74, "title": "检查单位步长访问"},
+    {"unit_id": 76, "title": "布局改造后的结果"},
+    {"unit_id": 80, "title": "各版本优化路径总结"},
+    {"unit_id": 82, "title": "云端数据与不同机器的结果"},
+    {"unit_id": 83, "title": "结束语"},
+    {"unit_id": 84, "title": "完整原声片尾"}
+  ],
+  "human_listened": false,
+  "pronunciation_approved": false,
+  "emotional_delivery_approved": false,
+  "current_hardware_guidance_claimed": false
+}
