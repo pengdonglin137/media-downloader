@@ -2,7 +2,7 @@
 """按字幕时间轴生成中文配音。
 
 每句先用正常语速合成；放不进时间段时，用 Edge-TTS 自带的语速参数重新合成（比事后变速自然），
-仍超出时再用 ffmpeg atempo 做少量压缩。句子可以占用到下一句开始前的空隙。
+最多提高 15% 语速，禁止额外 atempo 压缩。仍放不下时停止，不截断句尾。
 
 用法: dub.py <zh.srt> <out.wav> <缓存目录> --voices voices.json
 voices.json 是与字幕等长的音色列表。需要在 pyVideoTrans 的虚拟环境里运行（自带 edge-tts、numpy）。
@@ -10,18 +10,23 @@ voices.json 是与字幕等长的音色列表。需要在 pyVideoTrans 的虚拟
 
 import argparse
 import asyncio
-import hashlib
+import importlib.metadata
 import json
+import os
 import re
 import subprocess
+import tempfile
 from pathlib import Path
 
 import edge_tts
 import numpy as np
 
+from dubbing_state import check_stats, digest, identity, policy, signature, synthesis_contract
+from prepare_videos import save_json
+
 SR = 24000
-MAX_RATE = 40      # Edge-TTS 语速最多提高 40%
-MAX_TEMPO = 1.15   # 之后再允许 atempo 压缩 15%
+MAX_RATE = 15
+MAX_TEMPO = 1.0
 LEAD = 0.05        # 和下一句之间至少留 50ms
 TARGET_DB = -20.0  # 每句统一到这个响度（有声部分的 RMS），避免换音色时音量跳变
 
@@ -67,14 +72,17 @@ def decode(path, tempo=1.0):
 
 
 async def synth(text, voice, rate, cache, sem):
-    key = hashlib.md5(f"{voice}|{rate}|{text}".encode()).hexdigest()
+    key = signature({'voice': voice, 'rate': rate, 'text': text,
+                     'engine': importlib.metadata.version('edge-tts'), 'implementation': digest(__file__)})
     path = cache / f"{key}.mp3"
     if path.exists() and path.stat().st_size > 0:
         return path
     async with sem:
         for attempt in range(5):
+            descriptor, temporary = tempfile.mkstemp(prefix=key + '.', suffix='.mp3', dir=cache)
+            os.close(descriptor)
+            tmp = Path(temporary)
             try:
-                tmp = path.with_suffix(".tmp")
                 await edge_tts.Communicate(text, voice, rate=f"{rate:+d}%").save(str(tmp))
                 if tmp.stat().st_size < 200:
                     raise RuntimeError("没有返回音频")
@@ -85,9 +93,11 @@ async def synth(text, voice, rate, cache, sem):
                     print(f"  警告：Edge-TTS 合成失败，这句留空: {text[:30]} ({e})", flush=True)
                     return None
                 await asyncio.sleep(2 * (attempt + 1))
+            finally:
+                tmp.unlink(missing_ok=True)
 
 
-async def dub_one(i, entries, voice, cache, sem):
+async def dub_one(i, entries, voice, cache, sem, quality):
     a, c, text = entries[i]
     nxt = entries[i + 1][0] if i + 1 < len(entries) else c + 2.0
     slot = max(c - a, nxt - a - LEAD)
@@ -99,18 +109,15 @@ async def dub_one(i, entries, voice, cache, sem):
     if len(y) == 0:
         return i, y, 0, 1.0, 0.0, slot
     if need > 1.0:
-        rate = min(MAX_RATE, int(np.ceil((need - 1) * 100 / 5)) * 5)
+        rate = min(quality['max_rate'], int(np.ceil((need - 1) * 100 / 5)) * 5)
         y = decode(await synth(text, voice, rate, cache, sem))
         need = len(y) / SR / slot
-        if need > 1.0:
-            tempo = min(MAX_TEMPO, need)
-            y = decode(await synth(text, voice, rate, cache, sem), tempo)
     return i, level(y), rate, tempo, need0, slot
 
 
-async def run(entries, voices, cache, workers):
+async def run(entries, voices, cache, workers, quality):
     sem = asyncio.Semaphore(workers)
-    tasks = [dub_one(i, entries, voices[i], cache, sem) for i in range(len(entries))]
+    tasks = [dub_one(i, entries, voices[i], cache, sem, quality) for i in range(len(entries))]
     results, done = [None] * len(entries), 0
     for coro in asyncio.as_completed(tasks):
         i, y, rate, tempo, need0, slot = await coro
@@ -121,7 +128,7 @@ async def run(entries, voices, cache, workers):
     return results
 
 
-def main():
+def main(argv=None):
     ap = argparse.ArgumentParser()
     ap.add_argument("srt")
     ap.add_argument("out")
@@ -129,15 +136,24 @@ def main():
     ap.add_argument("--voices", required=True)
     ap.add_argument("--workers", type=int, default=6)
     ap.add_argument("--total", type=float, default=0, help="输出音频总时长（秒）")
-    a = ap.parse_args()
+    ap.add_argument('--max-rate', type=int, default=MAX_RATE, choices=range(16))
+    ap.add_argument('--max-tempo', type=float, default=MAX_TEMPO, choices=[1.0])
+    a = ap.parse_args(argv)
+    quality = policy(a.max_rate, a.max_tempo)
+    if a.workers < 1 or not np.isfinite(a.total) or a.total < 0:
+        ap.error('workers 必须为正数，total 必须为非负有限数')
 
     entries = parse_srt(a.srt)
     voices = json.loads(Path(a.voices).read_text(encoding="utf-8"))
-    assert len(voices) == len(entries), "音色列表和字幕条数不一致"
+    if not entries or not isinstance(voices, list) or len(voices) != len(entries) or not all(isinstance(voice, str) and voice for voice in voices):
+        ap.error('音色列表和非空字幕条数必须一致')
+    if any(end <= start or start < 0 for start, end, text in entries):
+        ap.error('字幕时间无效')
     cache = Path(a.cache)
     cache.mkdir(parents=True, exist_ok=True)
 
-    results = asyncio.run(run(entries, voices, cache, a.workers))
+    contract = synthesis_contract(a.srt, a.voices, a.total, quality, importlib.metadata.version('edge-tts'))
+    results = asyncio.run(run(entries, voices, cache, a.workers, quality))
 
     total = max(a.total, entries[-1][1] + 2)
     out = np.zeros(int(total * SR) + SR, np.float32)
@@ -151,9 +167,6 @@ def main():
         if entries[i][0] + len(results[i][0]) / SR > entries[i + 1][0] + 0.01:
             overflow += 1
     out = np.clip(out, -1, 1)
-    subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-f", "f32le", "-ar", str(SR), "-ac", "1", "-i", "-",
-                    "-c:a", "pcm_s16le", a.out], input=out[:int(total * SR)].tobytes(), check=True)
-
     rates = [r[1] for r in results]
     tempos = [r[2] for r in results]
     stats = {
@@ -166,8 +179,28 @@ def main():
         "overlap": overflow,
         # 每句：Edge-TTS 提速百分比、额外压缩倍数、正常语速时的 时长/可用时长、可用时长（秒）
         "per": [[r[1], round(r[2], 3), round(r[3], 3), round(r[4], 2)] for r in results],
+        'duration_seconds': [round(len(result[0]) / SR, 4) for result in results],
+        'quality': quality,
     }
-    Path(a.out).with_suffix(".stats.json").write_text(json.dumps(stats, ensure_ascii=False), encoding="utf-8")
+    check_stats(stats, len(entries))
+    if any(len(result[0]) / SR > result[4] + 0.01 for result in results):
+        raise ValueError('严格语速下仍超出时窗，请审校朗读稿，不得截断或额外压缩')
+    if a.total and np.any(out[int(a.total * SR):] != 0):
+        raise ValueError('配音越过原片结尾，拒绝裁掉语音')
+    if synthesis_contract(a.srt, a.voices, a.total, quality, importlib.metadata.version('edge-tts')) != contract:
+        raise ValueError('合成期间输入发生变化')
+    destination = Path(a.out)
+    descriptor, temporary = tempfile.mkstemp(prefix=destination.stem + '.', suffix='.wav', dir=destination.parent)
+    os.close(descriptor)
+    try:
+        subprocess.run(['ffmpeg', '-loglevel', 'error', '-y', '-f', 'f32le', '-ar', str(SR), '-ac', '1', '-i', '-',
+                        '-c:a', 'pcm_s16le', temporary], input=out[:int(total * SR)].tobytes(), check=True)
+        Path(temporary).replace(destination)
+    finally:
+        Path(temporary).unlink(missing_ok=True)
+    save_json(destination.with_suffix('.stats.json'), stats)
+    save_json(destination.with_suffix('.provenance.json'), {'contract': contract, 'waveform': identity(destination),
+                                                          'statistics_sha256': digest(destination.with_suffix('.stats.json'))})
     print(f"共 {stats['entries']} 句：正常语速 {stats['normal']}，提速 {stats['rate_up']}"
           f"（其中 ≥25% 的 {stats['rate_ge_25']}），额外压缩 {stats['atempo']}，与下一句重叠 {stats['overlap']}"
           + (f"，合成失败留空 {stats['silent']}" if stats["silent"] else ""))

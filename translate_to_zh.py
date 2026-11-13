@@ -7,7 +7,6 @@
 """
 
 import argparse
-import hashlib
 import html
 import json
 import os
@@ -17,9 +16,14 @@ import subprocess
 import sys
 import tempfile
 import time
+import wave
 from pathlib import Path
 
 import numpy as np
+
+from dubbing_state import (QUALITY, bind_render, digest, identity, load, matches,
+                           render_dependencies, signature, synthesis_contract)
+from prepare_videos import save_json
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 PVT_DIR = Path(os.environ.get("PVT_DIR", "/vol_1t/pyvideotrans"))
@@ -52,14 +56,15 @@ def run(cmd, logfile=None, cwd=None, timeout=None):
 
 
 # ---------------------------------------------------------------- SRT
-def parse_srt(path):
+def parse_srt(path, preserve_lines=False):
     entries = []
     text = Path(path).read_text(encoding="utf-8-sig").replace("\r\n", "\n").strip()
     for block in re.split(r"\n\s*\n", text):
         lines = [l for l in block.strip().split("\n")]
         if len(lines) < 2 or "-->" not in lines[1]:
             continue
-        entries.append({"time": lines[1].strip(), "text": " ".join(l.strip() for l in lines[2:]).strip()})
+        separator = "\n" if preserve_lines else " "
+        entries.append({"time": lines[1].strip(), "text": separator.join(line.strip() for line in lines[2:]).strip()})
     return entries
 
 
@@ -456,8 +461,15 @@ def run_dub(zh_srt, work, video, vfile, out):
          str(work / "tts_cache"), "--voices", str(vfile), "--total", f"{probe_duration(video):.3f}"],
         logfile=work / "tts.log")
     log("  " + (work / "tts.log").read_text(encoding="utf-8").strip().splitlines()[-1])
-    tmp.with_suffix(".stats.json").replace(work / "tts_stats.json")
+    statistics = load(tmp.with_suffix('.stats.json'))
+    save_json(work / 'tts_stats.json', statistics)
+    save_json(out.with_suffix('.stats.json'), statistics)
+    tmp.with_suffix('.stats.json').unlink()
     tmp.replace(out)
+    producer = load(tmp.with_suffix('.provenance.json'))
+    producer['waveform'] = identity(out)
+    save_json(out.with_suffix('.provenance.json'), producer)
+    tmp.with_suffix('.provenance.json').unlink()
     return json.loads((work / "tts_stats.json").read_text(encoding="utf-8"))
 
 
@@ -505,14 +517,6 @@ def step_shorten(zh_srt, work, stats, info, engine, effort, limit):
 
 def step_tts(zh_srt, work, video, voice, male, female, info, engine, effort, shorten):
     entries = parse_srt(zh_srt)
-    tag = voice if voice != "auto" else male + "+" + female
-    key = hashlib.md5((Path(zh_srt).read_text(encoding="utf-8") + tag).encode()).hexdigest()[:10]
-    final = work / f"dub_{key}.wav"
-    if final.exists():
-        log("配音已存在，跳过")
-        return final
-    for old in work.glob("dub_*.wav"):
-        old.unlink()
     voices = [voice] * len(entries)
     if voice == "auto":
         gender = step_gender(video, work)
@@ -520,16 +524,40 @@ def step_tts(zh_srt, work, video, voice, male, female, info, engine, effort, sho
             die("性别判断结果和字幕条数不一致，删除工作目录里的 gender.json 后重试")
         voices = [female if g == "F" else male for g in gender]
     vfile = work / "voices.json"
-    vfile.write_text(json.dumps(voices), encoding="utf-8")
+    if not vfile.exists() or load(vfile) != voices:
+        save_json(vfile, voices)
+    engine_version = subprocess.run([str(PVT_DIR / '.venv/bin/python'), '-c',
+                                     "import importlib.metadata; print(importlib.metadata.version('edge-tts'))"],
+                                    capture_output=True, text=True, check=True).stdout.strip()
+    contract = synthesis_contract(zh_srt, vfile, probe_duration(video), QUALITY, engine_version)
+    final = work / f'dub_{signature(contract)[:20]}.wav'
+    provenance = final.with_suffix('.provenance.json')
+    if final.exists() and provenance.exists():
+        producer = load(provenance)
+        if producer['contract'] == contract and matches(producer['waveform']):
+            statistics_path = final.with_suffix('.stats.json')
+            if not statistics_path.exists() or digest(statistics_path) != producer.get('statistics_sha256'):
+                raise ValueError('缓存配音统计缺失或变化，请重新生成')
+            save_json(work / 'tts_stats.json', load(statistics_path))
+            log('配音依赖绑定一致，复用缓存')
+            return final
     log(f"Edge-TTS 逐句配音（男声 {sum(v == male for v in voices)} 句，女声 {sum(v == female for v in voices)} 句）...")
     stats = run_dub(zh_srt, work, video, vfile, final)
     if shorten and step_shorten(zh_srt, work, stats, info, engine, effort, shorten):
         log("用缩短后的译文重新配音（其余句子直接用缓存）...")
         run_dub(zh_srt, work, video, vfile, final)
     # 记下最终译文对应的配音，下次运行可以直接复用
-    key = hashlib.md5((Path(zh_srt).read_text(encoding="utf-8") + tag).encode()).hexdigest()[:10]
-    if final.name != f"dub_{key}.wav":
-        final = final.replace(work / f"dub_{key}.wav")
+    contract = synthesis_contract(zh_srt, vfile, probe_duration(video), QUALITY, engine_version)
+    destination = work / f'dub_{signature(contract)[:20]}.wav'
+    if final != destination:
+        old_provenance = final.with_suffix('.provenance.json')
+        final.with_suffix('.stats.json').replace(destination.with_suffix('.stats.json'))
+        producer = load(old_provenance)
+        final.replace(destination)
+        producer['waveform'] = identity(destination)
+        save_json(destination.with_suffix('.provenance.json'), producer)
+        old_provenance.unlink()
+        final = destination
     return final
 
 
@@ -623,7 +651,7 @@ def measure_lufs(path, stream="0:a:0"):
 def step_loudness(video, wav, work):
     """测中文配音和英文原声的响度，结果缓存在 loudness.json。"""
     cache = work / "loudness.json"
-    key = f"{wav.name}:{wav.stat().st_mtime:.0f}"
+    key = signature({'waveform': identity(wav), 'source': identity(video)})
     if cache.exists():
         d = json.loads(cache.read_text(encoding="utf-8"))
         if d.get("key") == key:
@@ -638,19 +666,80 @@ def step_loudness(video, wav, work):
 MP4_AUDIO_COPY = {"aac", "mp3", "ac3", "eac3", "alac"}
 
 
-def step_mux(video, wav, work, out, subs, sub_pos, crf, zh_bitrate, match_loudness=True, max_height=1080):
+def bound_display_subs(work, duration):
+    adjustments = []
+    bounded = {}
+    for name in ("zh_display.srt", "en_display.srt", "bilingual_display.srt"):
+        entries = parse_srt(work / name, preserve_lines=True)
+        if not entries:
+            raise ValueError(f"显示字幕为空，不能渲染: {name}")
+        for index, entry in enumerate(entries, 1):
+            start, end = (srt_sec(value) for value in entry["time"].split("-->"))
+            if start < 0 or end <= start or start >= duration:
+                raise ValueError(f"显示字幕时窗超出原片，需复核而非丢弃文字: {name} 第 {index} 条")
+            if end > duration:
+                adjustments.append({"file": name, "cue": index, "start": start,
+                                    "original_end": end, "end": duration})
+                entry["time"] = f"{sec_srt(start)} --> {sec_srt(duration)}"
+        bounded[name] = entries
+    for name in {item["file"] for item in adjustments}:
+        write_srt(work / name, bounded[name])
+    (work / "display_timing_adjustments.json").write_text(
+        json.dumps({"source_duration": duration, "adjustments": adjustments}, ensure_ascii=False, indent=2),
+        encoding="utf-8")
+
+
+def verify_dub_tail(wav, duration):
+    with wave.open(str(wav), "rb") as audio:
+        audio.setpos(min(audio.getnframes(), int(duration * audio.getframerate())))
+        silence = 128 if audio.getsampwidth() == 1 else 0
+        while True:
+            samples = audio.readframes(65536)
+            if not samples:
+                break
+            if any(sample != silence for sample in samples):
+                raise ValueError("中文配音在原片结束后仍有音频，需修订时窗或朗读，不能截断句尾")
+
+
+def step_mux(video, wav, work, out, subs, sub_pos, crf, zh_bitrate, match_loudness=True, max_height=1080,
+             preserve_video=False):
     """音轨：中文配音（默认）+ 英文原声；字幕：soft 模式下为中文、English、中英双语三条可选轨道。"""
-    log(f"合成视频（字幕: {subs}，画面: {'重新压缩 crf ' + str(crf) if crf or subs == 'hard' else '直接复制'}）...")
+    log(f'合成视频（字幕: {subs}）...')
     info = probe_streams(video)
     dur = f"{float(info['format']['duration']):.3f}"
+    verify_dub_tail(wav, float(dur))
+    if subs in {"soft", "hard"}:
+        bound_display_subs(work, float(dur))
+    dependencies = render_dependencies(work, wav, video)
+    settings = {'version': 1, 'source': dependencies['source'], 'crf': crf, 'max_height': max_height,
+                'hard_subtitles': digest(work / 'bilingual_display.srt') if subs == 'hard' else None,
+                'sub_pos': sub_pos if subs == 'hard' else None,
+                'encoder': subprocess.run(['ffmpeg', '-version'], capture_output=True, text=True,
+                                          check=True).stdout.splitlines()[0]}
+    cache_path = work / 'video_cache.json'
+    cached = load(cache_path) if cache_path.exists() else None
+    reusable = bool(cached and cached['settings'] == settings and matches(cached['output']))
+    if preserve_video:
+        cached_hard_subtitles = cached and cached.get('settings') and cached['settings'].get('hard_subtitles')
+        if (subs == 'hard' or cached_hard_subtitles or not cached
+                or cached['source'] != dependencies['source'] or not matches(cached['output'])):
+            raise ValueError('无法保留画面：缺少同原片的有效画面绑定，或请求了硬字幕')
+        reusable = True
+    if reusable:
+        log('画面身份与策略匹配：复制已有编码，仅更新音轨/软字幕')
+    else:
+        log(f"画面: {'重新压缩 crf ' + str(crf or 20) if crf or subs == 'hard' else '直接复制原片'}")
     src_audio = next((st["codec_name"] for st in info["streams"] if st["codec_type"] == "audio"), None)
 
     tmp_out = out.with_name(out.stem + ".part.mp4")
     cmd = ["ffmpeg", "-y", "-loglevel", "error", "-i", str(video), "-i", str(wav)]
-    maps = ["-map", "0:v:0", "-map", "1:a:0"] + (["-map", "0:a:0"] if src_audio else [])
+    if reusable:
+        cmd += ['-i', cached['output']['path']]
+    subtitle_offset = 3 if reusable else 2
+    maps = ["-map", "2:v:0" if reusable else "0:v:0", "-map", "1:a:0"] + (["-map", "0:a:0"] if src_audio else [])
     vcodec = ["-c:v", "copy"]
     vf = []
-    if subs == "hard" or crf:
+    if not reusable and (subs == "hard" or crf):
         vcodec = ["-c:v", "libx264", "-preset", "veryfast", "-crf", str(crf or 20), "-pix_fmt", "yuv420p"]
         v = next((st for st in info["streams"] if st["codec_type"] == "video"), {})
         w, h = int(v.get("width") or 0), int(v.get("height") or 0)
@@ -659,11 +748,11 @@ def step_mux(video, wav, work, out, subs, sub_pos, crf, zh_bitrate, match_loudne
             vf.append(f"scale=-2:{max_height}" if w >= h else f"scale={max_height}:-2")
             vf[-1] += ":flags=lanczos"
             log(f"  画面 {w}x{h} 缩小到短边 {max_height}")
-    elif max_height:
+    elif max_height and not reusable:
         log("  --crf 0 直接复制画面，不缩小分辨率")
     if subs != "hard" and vf:
         vcodec = ["-vf", ",".join(vf)] + vcodec
-    if subs == "hard":
+    if subs == "hard" and not reusable:
         # 在工作目录里运行并使用相对路径，避免 subtitles 滤镜转义特殊字符
         # SRT 经 ffmpeg 转换后按旧版 SSA 编号解释 Alignment，6 表示顶部居中，用来避开原视频自带的底部字幕
         style = "FontName=Noto Sans CJK SC,FontSize=16,Outline=1,MarginV=20" + (",Alignment=6" if sub_pos == "top" else "")
@@ -673,7 +762,7 @@ def step_mux(video, wav, work, out, subs, sub_pos, crf, zh_bitrate, match_loudne
                   ("bilingual_display.srt", "chi", "中英双语"))
         for f, _, _ in tracks:
             cmd += ["-i", f]
-        cmd += maps + sum((["-map", f"{i + 2}:0"] for i in range(len(tracks))), []) + vcodec + ["-c:s", "mov_text"]
+        cmd += maps + sum((["-map", f"{i + subtitle_offset}:0"] for i in range(len(tracks))), []) + vcodec + ["-c:s", "mov_text"]
         for i, (_, lang, title) in enumerate(tracks):
             cmd += [f"-metadata:s:s:{i}", f"language={lang}", f"-metadata:s:s:{i}", f"title={title}",
                     f"-disposition:s:{i}", "0"]
@@ -701,12 +790,23 @@ def step_mux(video, wav, work, out, subs, sub_pos, crf, zh_bitrate, match_loudne
     cmd += ["-t", dur, "-movflags", "+faststart", str(tmp_out)]
     run(cmd, cwd=work)
     verify_output(tmp_out, float(dur), subs, bool(src_audio))
+    if dependencies != render_dependencies(work, wav, video):
+        raise ValueError('渲染期间原片、字幕或配音发生变化，未替换旧成品')
     tmp_out.replace(out)
+    options = {'subs': subs, 'sub_pos': sub_pos, 'crf': crf, 'max_height': max_height,
+               'zh_bitrate': zh_bitrate, 'match_loudness': match_loudness,
+               'video_reused': reusable, 'preserve_video': preserve_video}
+    save_json(cache_path, {'origin': cached['origin'] if reusable else 'encoded',
+                           'source': dependencies['source'], 'settings': cached['settings'] if reusable else settings,
+                           'output': identity(out)})
+    bind_render(work, out, wav, video, options)
 
 
 def verify_output(path, want_dur, subs, has_src_audio):
     """检查成品的轨道数量和时长，避免把有问题的文件当成成品。"""
     info = probe_streams(path)
+    if abs(float(info["format"]["duration"]) - want_dur) > 1.0:
+        die(f"成品容器时长与原视频 {want_dur:.3f} 秒不一致: {path}")
     kinds = [st["codec_type"] for st in info.get("streams", [])]
     want = {"video": 1, "audio": 1 + int(has_src_audio), "subtitle": 3 if subs == "soft" else 0}
     for k, n in want.items():
