@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "video_id": "qYPCL1KGdQA",
+  "record_kind": "source-and-explicit-letter-input-selected-rcu-phrase-production-plan",
+  "production_applied": false,
+  "voice": "zh-CN-YunxiNeural",
+  "changed_display_units": [36],
+  "changed_spoken_units": [36],
+  "selection_authority": "Direct review of the complete English example, adjacent productivity context and Chinese explanatory syntax. Explicit R、C、U keeps the original three Latin letters without an invented expansion. Not recognizer voting or acoustic approval.",
+  "new_tts_requested": false,
+  "new_original_source_asr_requested": false,
+  "source_text_windows_roles_or_voices_changed": false,
+  "samples": [
+    {
+      "unit_id": 36,
+      "source_start": 531.33,
+      "source_end": 549.25,
+      "source": "For example, if you put me in Linux kernel RCU, which I originated and I'm lead maintainer of, I can do pretty well. If you threw me into some random web framework or something like that, it probably would take me some time before I could learn enough about it to do anything at all.",
+      "before_display": "比如，让我做 Linux 内核 RCU，我是它的创始开发者，也是首席维护者，那我能做得不错。可要把我扔进某个陌生的 Web 框架，恐怕得先学上好一阵，才能动手做点什么。",
+      "before_spoken": "比如，让我做 Linux 内核 R C U，我是它的创始开发者，也是首席维护者，那我能做得不错。可要把我扔进某个陌生的 web 框架，恐怕得先学上好一阵，才能动手做点什么。",
+      "after_display": "比如，让我做 Linux 内核的 RCU，我能做得不错：我是它的创始开发者，也是首席维护者。可要把我扔进某个陌生的 Web 框架，恐怕得先学上好一阵，才能动手做点什么。",
+      "after_spoken": "比如，让我做 Linux 内核的 R、C、U，我能做得不错：我是它的创始开发者，也是首席维护者。可要把我扔进某个陌生的 web 框架，恐怕得先学上好一阵，才能动手做点什么。",
+      "preview": "technical-contrast-preview-v1/comparison.json",
+      "selected_label": "B-separated-rcu-and-explanatory-contrast",
+      "reason": "Finish the conditional capability clause before explaining both existing maintenance roles, and retain the unfamiliar-framework contrast, uncertainty and learning prerequisite. Display preserves canonical RCU/Web spelling while spoken uses the same three explicit letters. Reordering is not a new causal claim, an expertise guarantee or a new speaker.",
+      "source_propositions": [
+        "Conditional example of working in Linux kernel RCU",
+        "Lecturer originated it",
+        "Lecturer is lead maintainer",
+        "Can do pretty well in this context, not universal expertise",
+        "Contrasting unfamiliar web framework",
+        "Probably needs time to learn enough before doing anything"
+      ],
+      "context_only_unit_ids": [35, 37],
+      "candidate_actual_samples": 341916,
+      "candidate_actual_seconds": 14.2465,
+      "original_window_samples": 430080,
+      "rate_percent": 0,
+      "actual_pronunciation_or_emotion_approved": false
+    }
+  ],
+  "term_register_policy": "Preserve every v5 term and its forms; add R、C、U as an explicit alias for the same RCU entity. Require nonempty observed RCU coverage and no cross-synthesis term split. This is a boundary/input check, not phonetics.",
+  "old_preview_plan_left_unchanged": true,
+  "not_selected_other_previews": [15, 58, 27, 107],
+  "speech_database_decision_or_resolution_requested": false,
+  "human_listened": false,
+  "pronunciation_approved": false,
+  "naturalness_approved": false,
+  "emotional_delivery_approved": false,
+  "automatic_asr_promotion": false,
+  "finished_delivery": false,
+  "objective_status": "active"
+}
