@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "video_id": "qYPCL1KGdQA",
+  "purpose": "Preserve source conversational meaning and rhetorical relationships in complete natural Chinese, without selecting unlistened prosody-only alternatives or inventing emotional approval.",
+  "voice": "zh-CN-YunxiNeural",
+  "probe_rate_percent": 0,
+  "max_rate_percent": 15,
+  "extra_atempo": false,
+  "source_windows_or_roles_changed": false,
+  "samples": [
+    {
+      "unit_id": 27,
+      "source_start": 373.81,
+      "source_end": 380.37,
+      "source": "You know, whoops, I don't know what that did, but it wasn't good. There we are. I'll be more careful.",
+      "kind": "unknown-effect-and-comparative-caution",
+      "before_display": "哎呀，不知道刚才按到了什么，反正不妙。好了，回来了。看来，我得小心点。",
+      "after_display": "哎呀，不知道刚才怎么了，反正不妙。好了，回来了。我得再小心点。",
+      "before_spoken": "哎呀，刚按了什么？不太妙。好了，回来了。我得小心点。",
+      "selected_label": "unknown-effect-more-careful",
+      "candidates": [
+        {
+          "label": "unknown-effect-more-careful",
+          "text": "哎呀，不知道刚才怎么了，反正不妙。好了，回来了。我得再小心点。",
+          "reason": "The source expresses uncertainty about the effect of an action, not which button was pressed. Preserve the interjection, unfavorable result, recovery and comparative more careful; do not invent a specific key, cause or laugh. This is a source-semantic revision, not approval of the earlier punctuation-only preview."
+        }
+      ]
+    },
+    {
+      "unit_id": 90,
+      "source_start": 1656.05,
+      "source_end": 1675.89,
+      "source": "And this was a real, continues to be a real problem, because you get somebody who may be really smart, they dig themselves a really deep hole. And they say how horrible this is, and you shouldn't do concurrency, and other people say, wow, that guy's really smart, and he has a problem with it, I'm not even going to try. And, well yeah,",
+      "kind": "complete-conversational-acknowledgment",
+      "before_display": "这以前是真问题，现在也依然如此：很聪明的人，也会给自己挖一个很深的坑。然后他说：“太可怕了，千万别碰并发！”别人一听：“他那么聪明，都搞不定，那我更别试了。”确实，",
+      "after_display": "这以前是真问题，现在也依然如此：很聪明的人，也会给自己挖一个很深的坑。然后他说：“太可怕了，千万别碰并发！”别人一听：“他那么聪明，都搞不定，那我更别试了。”嗯，确实。",
+      "before_spoken": "这以前是真问题，现在也依然如此：很聪明的人，也会给自己挖一个很深的坑。然后他说：“太可怕了，千万别碰并发！”别人一听：“他那么聪明，都搞不定，那我更别试了。”确实，",
+      "selected_label": "acknowledgment-not-dangling-clause",
+      "candidates": [
+        {
+          "label": "acknowledgment-not-dangling-clause",
+          "text": "这以前是真问题，现在也依然如此：很聪明的人，也会给自己挖一个很深的坑。然后他说：“太可怕了，千万别碰并发！”别人一听：“他那么聪明，都搞不定，那我更别试了。”嗯，确实。",
+          "reason": "Render well yeah as a complete conversational acknowledgment rather than leave a dangling Chinese 确实，. The next source unit continues with the key thing today; retain that transition without merging the 42.48-second pair, borrowing time, endorsing avoidance of concurrency or adding a new speaker."
+        }
+      ]
+    },
+    {
+      "unit_id": 124,
+      "source_start": 2340.03,
+      "source_end": 2368.67,
+      "source": "The key points, if you remember nothing else from this presentation, parallelism is but one optimization of many. Use the right one for the job, check for a faster algorithm before you go taking hundreds of thousands of lines of code and doing some random parallelization of it. Leverage the work of others where you can. Use libraries, use frameworks, use things where there's already concurrent, and save yourself the trouble. In general, do it the easy way where possible. Your future self, to say nothing of your future colleagues, will thank you for this.",
+      "kind": "future-self-and-colleagues-rhetorical-order",
+      "before_display": "如果整场报告只记住一点，那就是：并行只是许多优化手段中的一种。要根据任务选合适的方法。在给几十万行代码随意加并行之前，先看看，有没有更快的算法。能利用别人的成果，就尽量利用。使用库、框架，以及已经处理好并发的软件，省下自己的麻烦。总的来说，能走简单的路，就尽量走简单的路。别说未来的同事，就连未来的你，都会感谢现在这个决定。",
+      "after_display": "如果整场报告只记住一点，那就是：并行只是许多优化手段中的一种。要根据任务选合适的方法。在给几十万行代码随意加并行之前，先看看，有没有更快的算法。能利用别人的成果，就尽量利用。使用库、框架，以及已经处理好并发的软件，省下自己的麻烦。总的来说，能走简单的路，就尽量走简单的路。未来的你会感谢这个决定，未来的同事就更不用说了。",
+      "before_spoken": "整场只记一点的话：并行只是许多优化之一，得选对方法。别急着给几十万行代码随意加并行，先找找更快的算法。能借别人力量，就用库、框架和已经实现并发的软件，省点麻烦。总之，能简单就简单。未来的你，别说未来的同事了，都会感谢这个决定。",
+      "selected_label": "future-you-then-colleagues",
+      "candidates": [
+        {
+          "label": "future-you-then-colleagues",
+          "text": "整场只记一点的话：并行只是许多优化之一，得选对方法。别急着给几十万行代码随意加并行，先找找更快的算法。能借别人力量，就用库、框架和已经实现并发的软件，省点麻烦。总之，能简单就简单。未来的你会感谢这个决定，未来的同事就更不用说了。",
+          "reason": "Keep both future beneficiaries and the source rhetorical order: future self first, to say nothing of future colleagues. Remove the awkward interrupted predicate without deleting algorithm, library, framework, scale or simplicity conditions; this preserves the personal address but does not prove emotional vocal delivery."
+        }
+      ]
+    }
+  ],
+  "selection_policy": "Only source-supported full-utterance candidates measured inside unchanged original windows may be adopted. Preserve real fitting failures without clipping, borrowing or extra atempo. Do not infer emotional, pronunciation, role or listening approval from text, duration, WordBoundary, ASR or pause detectors.",
+  "previous_prosody_only_candidates_27_and107_remain_unadopted": true,
+  "errno_unit85_targeted_pronunciation_review_still_required": true,
+  "full119_language_text_review_repeated": false,
+  "human_listened": false,
+  "pronunciation_approved": false,
+  "emotional_delivery_approved": false,
+  "automatic_listening_decision": false,
+  "production_applied": false
+}
