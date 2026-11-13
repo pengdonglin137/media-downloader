@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "video_id": "qYPCL1KGdQA",
+  "purpose": "Complete the current 119-language-unit fidelity review, remove an unsupported universal quantifier, clarify a connection relation, and retain the speaker's self-directed humor without inventing emotional approval.",
+  "voice": "zh-CN-YunxiNeural",
+  "probe_rate_percent": 0,
+  "max_rate_percent": 15,
+  "extra_atempo": false,
+  "source_windows_or_roles_changed": false,
+  "finished_delivery": false,
+  "human_listened": false,
+  "pronunciation_approved": false,
+  "emotional_delivery_approved": false,
+  "automatic_listening_decision": false,
+  "samples": [
+    {
+      "unit_id": 4,
+      "kind": "unsupported-universal-quantifier",
+      "before_display": "幻灯片之后会放出来；每页底部的链接，还会更详细地介绍这个过程及其他相关内容。",
+      "after_display": "幻灯片之后会放出来；底部的链接，还会更详细地介绍这个过程及其他相关内容。",
+      "before_spoken": "幻灯片之后会放出来；每页底部的链接，还会更详细地介绍这个过程及其他相关内容。",
+      "source_evidence": "there's a URL at the bottom",
+      "candidates": [
+        {
+          "label": "remove-every-page",
+          "text": "幻灯片之后会放出来；底部的链接，还会更详细地介绍这个过程及其他相关内容。",
+          "reason": "Remove only 每页: the source locates one URL at the bottom but does not say every slide has one. Retain later publication and the additional-detail scope."
+        }
+      ],
+      "human_selection_required_for_prosody": false
+    },
+    {
+      "unit_id": 100,
+      "kind": "explicit-connection-relation",
+      "before_display": "你们会发现，袋子里的蓝色乐高积木，一开始看上去也是类似的形状。但按现在这种摆法，它们并没有全部连接起来。每四块能连成一组，但十六块还没有连成一个整体。",
+      "after_display": "你们会发现，袋子里的蓝色乐高积木，一开始看上去也是类似的形状。但按现在这种摆法，它们并没有全部连接起来。每四块能连成一组，但十六块还没有连成一个整体。",
+      "before_spoken": "袋里的蓝色乐高，原先也是类似形状，但这样摆，并没有全连起来。每四块一组，十六块还没连成整体。",
+      "source_evidence": "The group of four sticks together, but all 16 of them don't.",
+      "candidates": [
+        {
+          "label": "four-connected-blocks",
+          "text": "袋里的蓝色乐高，原先也是类似形状，但这样摆，并没有全连起来。每四块连成一组，十六块还没连成整体。",
+          "reason": "The old concise wording leaves connection implicit rather than demonstrably wrong. Add 连成 to state the source's four-block connection explicitly, retain the sixteen-block contrast and all existing display text."
+        }
+      ],
+      "human_selection_required_for_prosody": false
+    },
+    {
+      "unit_id": 105,
+      "kind": "speaker-directed-self-deprecation",
+      "before_display": "我也试试，看这双手还听不听使唤。",
+      "after_display": "我也试试，看这双手还听不听使唤。",
+      "before_spoken": "看手指灵不灵。",
+      "source_evidence": "Let's see if I can even make my fingers work at all here.",
+      "candidates": [
+        {
+          "label": "my-fingers",
+          "text": "看我手指灵不灵。",
+          "reason": "Restore the explicit first-person target of the speaker's self-deprecation with only 我 added. Do not add laughter, an audience reaction or unsupported performance directions; preserve the 2.18-second original window."
+        }
+      ],
+      "human_selection_required_for_prosody": false
+    }
+  ],
+  "no_change_decisions": [
+    {"unit_id": 12, "reason": "Display already specifies the house purchase price; do not churn a normally fitted spoken condensation without a demonstrated misleading interpretation."},
+    {"unit_id": 20, "reason": "Preserve the source's historical year unless explicitly researched and separated from speaker attribution; do not silently substitute a remembered acquisition date."},
+    {"unit_id": 27, "reason": "Earlier punctuation-only prosody preview remains unadopted pending listening."},
+    {"unit_id": 42, "reason": "IoT interpretation requires stronger source/context evidence; do not silently replace it with a factual correction."},
+    {"unit_id": 107, "reason": "Earlier punctuation-only prosody preview remains unadopted pending listening."}
+  ],
+  "selection_policy": "Only a source-justified full-utterance candidate measured inside its unchanged original window may be adopted. Duration, pause metrics and ASR do not approve emotion, phonetics or actual listening. Retain the original-voice reservations and every historical failed or successful artifact."
+}

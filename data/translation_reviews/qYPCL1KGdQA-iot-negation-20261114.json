@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "video_id": "qYPCL1KGdQA",
+  "unit_id": 42,
+  "source_start": 677.13,
+  "source_end": 704.31,
+  "source_evidence": "I admit that we aren't doing IoT. We've left the low end out a little like that",
+  "diagnostics": {
+    "directory": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-qYPCL1KGdQA-20261114/iot-source-investigation-v1",
+    "models": ["medium", "small"],
+    "language": "en",
+    "initial_prompt": null,
+    "hotwords": null,
+    "expected_transcript_supplied": false,
+    "both_observed_negated_doing_iot": true,
+    "human_listened": false,
+    "new_clear_source_window_not_repeated_weak_audience_asr": true
+  },
+  "finding": "The current Chinese weakens aren't doing IoT into 没有全做 or only some low-end scenarios. Both new unprompted local observations support the existing English negation. This is evidence about the speaker's wording, not an independent claim about Linux support or its current capabilities.",
+  "before_display": "关键是，别过度追求通用性。什么人的什么需求都想包办，往往是在搬石头砸自己的脚。顺便说一句，我们这些 Linux 内核开发者，也该引以为戒，因为 Linux 内核正是想做到对所有人都适用。我承认，物联网这块，我们并没有全做。像其中一些低端场景，我们就留在外面了。但用户需求依然五花八门，所以，还是得谨慎。",
+  "proposed_display": "关键是，别过度追求通用性。什么人的什么需求都想包办，往往是在搬石头砸自己的脚。顺便说一句，我们这些 Linux 内核开发者，也该引以为戒，因为 Linux 内核正是想做到对所有人都适用。我承认，物联网我们没有做，低端这头多少留了一些空白。但用户需求依然五花八门，所以，还是得谨慎。",
+  "before_spoken": "关键是，别太追求通用性。想包办所有人的所有需求，往往是在搬石头砸自己的脚。我们这些Linux内核开发者，也该当心，因为内核恰恰想对所有人都适用。我承认，像物联网的一些低端场景，我们并没有全做。但用户需求还是五花八门，得谨慎。",
+  "proposed_spoken": "关键是，别太追求通用性。想包办所有人的所有需求，往往是在搬石头砸自己的脚。我们这些Linux内核开发者，也该当心，因为内核恰恰想对所有人都适用。我承认，物联网我们没做，低端这头留了一些空白。但用户需求还是五花八门，得谨慎。",
+  "status": "source_supported_candidate_awaiting_original_window_preview_and_adoption",
+  "production_applied": false,
+  "synthesized_or_measured": false,
+  "source_text_windows_or_roles_changed": false,
+  "human_listened": false,
+  "pronunciation_approved": false,
+  "emotional_delivery_approved": false,
+  "next_action": "Measure the complete proposed utterance at normal rate in the unchanged 27.18-second source window, review its full-source meaning, and then use a new versioned production/adoption with exact backups. Do not silently edit the completed 4/100/105 run or claim this correction is already audible."
+}
