@@ -1,5 +1,11 @@
 # 本仓库的 AI 执行入口
 
+## 2026-11-14：新增wq91kJXcIyE单片，来源准备完成，待正式译审
+
+- 仅用户新链接`wq91kJXcIyE`，CAB401 - Using intel VTune Profiler；上传者Azeez B，片头Azeez Bodija，上传日2020-08-14不是独立确认的录制日。实际590.879秒、1080p原片及原始JSON3已保存，prepare真实0；初始43自动字幕块／323事件尚未按完整意群重建，没有全文译文、TTS或双版本，不冒称技术完成。
+- 九张受限来源JPEG已逐张查看，长边≤1280、实际≤32768字节，仅来源局部图审。顺序结果界面实际0.878／4逻辑CPU、22.0%、92.604秒，与字幕0.078有冲突；并行63.442秒、33线程、2.135／4逻辑CPU、53.4%不得混成物理核数或通用收益。Static Analysis分类确在原图，不擅当自动字幕拼错；kernel-claim文件512秒实为Upsides页，不能据文件名确认内核能力／否定。初始字幕尾591.839秒超过实片0.960秒，须核对完整thank you后正式修界，不截原音。
+- 新独立入口：`/home/pengdl/Videos/translated_backlog/.workflow_logs/request-wq91kJXcIyE-20261114/checkpoint-initial-v1/execution-progress.json`；详细待核实项见`data/translation_reviews/wq91kJXcIyE-request-20261114.json`。先原声定点核对、完整意群重建、全文译审，再按既有有声AI导读／中文章／母版与烧字上传版制作；2020分类、历史、平台、AMD限制不背书2026配置。不扩播放列表、不改共享队列／并行总数、不发布、不重跑旧成功项目、不改98根Python；人耳、发音／情感及成片验收均未完成，不声称后台自动续跑。
+
 ## 2026-11-14：RCU字母输入与完整解释句已进入双版本，声音门禁仍待完成
 
 - 本轮补齐独立闭环：994个登记身份逐项只读核验0，正式收据／`execution-progress.json`已实际生成；新增独立正式采用JSON，历史计划`production_applied:false`不改。此前用户要求的5文件已由`0575e60d0bea`提交推送，本次只补采用与核验证据，不补造此前未运行的核验或提交日志，不重制成功媒体。
