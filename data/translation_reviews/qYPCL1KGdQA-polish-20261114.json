@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "video_id": "qYPCL1KGdQA",
+  "voice": "zh-CN-YunxiNeural",
+  "purpose": "Bound current-production versus normal-rate pronunciation/prosody candidates; fix a source hedge without inventing listening approval.",
+  "selection_policy": "Measured original-window fit first; ASR is a diagnostic, not a pronunciation, emotion, or human-listening verdict. Prosody-only candidates remain unadopted without listening.",
+  "display_corrections": [
+    {
+      "unit_id": 123,
+      "before": "最后总结一下。这里的图像是自由女神，我也想让大家从并发编程那些无意招来的、不必要的麻烦里，解放出来。倒是很应景。",
+      "after": "最后总结一下。图里的形象看着像自由女神，我也想让大家从并发编程那些无意招来的、不必要的麻烦里，解放出来。倒是很应景。",
+      "source_phrase": "It looks like we're Lady Liberty",
+      "reason": "Restore the original comparison rather than assert that the illustrated character is literally the Statue of Liberty; retain the liberation wordplay."
+    }
+  ],
+  "samples": [
+    {
+      "unit_id": 14,
+      "kind": "processor-designation",
+      "before_spoken": "中间可以看到一颗 Intel 80386 C P U。再强调一下，它是 80386，速度并不快，而且缺少一些指令。",
+      "candidates": [
+        {"label": "explicit-digits", "text": "中间可以看到一颗英特尔八零三八六 C P U。再强调一下，它是八零三八六，速度并不快，而且缺少一些指令。", "reason": "Make the processor designation's digit sequence explicit, retain both occurrences and all performance/instruction qualifications."},
+        {"label": "compact-explicit-digits", "text": "中间是英特尔八零三八六处理器。注意，是八零三八六；速度不算快，还缺一些指令。", "reason": "Equivalent concise alternative if the longer explicit spelling does not fit normally; CPU is rendered as processor, not omitted."}
+      ],
+      "human_selection_required_for_prosody": false,
+      "pronunciation_approved": false
+    },
+    {
+      "unit_id": 27,
+      "kind": "speaker-self-correction",
+      "before_spoken": "哎呀，刚按了什么？不太妙。好了，回来了。我得小心点。",
+      "candidates": [
+        {"label": "connected-self-correction", "text": "哎呀，刚按了什么？不太妙……好了，回来了，我得小心点。", "reason": "Compare connected self-correction without deleting any words; a changed pause detector result alone cannot approve this rendition."}
+      ],
+      "human_selection_required_for_prosody": true,
+      "pronunciation_approved": false
+    },
+    {
+      "unit_id": 107,
+      "kind": "short-tail-filler",
+      "before_spoken": "好，这是一种拼法。好。",
+      "candidates": [
+        {"label": "connected-filler", "text": "好，这是一种拼法，好。", "reason": "Only join the final complete acknowledgment with a comma; preserve both original all-right fillers, no automatic short-tail dismissal."}
+      ],
+      "human_selection_required_for_prosody": true,
+      "pronunciation_approved": false
+    },
+    {
+      "unit_id": 122,
+      "kind": "pdf-letter-spelling",
+      "before_spoken": "好。找到了。怪我刚才看的是幻灯片页码，而不是 PDF 页码，因为有些幻灯片被我跳过去了。",
+      "candidates": [
+        {"label": "spaced-pdf", "text": "好。找到了。怪我刚才看的是幻灯片页码，而不是 P D F 页码，因为有些幻灯片被我跳过去了。", "reason": "Isolate letter spelling as the only change; do not simultaneously alter opening prosody or page-number contrast."}
+      ],
+      "human_selection_required_for_prosody": false,
+      "pronunciation_approved": false
+    },
+    {
+      "unit_id": 123,
+      "kind": "source-hedge-and-wordplay",
+      "before_spoken": "总结：图像是自由女神，我也想解放大家，摆脱并发编程中无意招来的多余麻烦。很应景。",
+      "candidates": [
+        {"label": "restore-looks-like", "text": "总结：图里像是自由女神，我也想解放大家，摆脱并发编程中无意招来的多余麻烦。很应景。", "reason": "Restore looks-like with one extra character; preserve the liberation metaphor and all unnecessary-hassle qualifiers."}
+      ],
+      "human_selection_required_for_prosody": false,
+      "pronunciation_approved": false
+    }
+  ],
+  "max_rate_percent": 15,
+  "probe_rate_percent": 0,
+  "extra_atempo": false,
+  "source_windows_or_roles_changed": false,
+  "automatic_listening_decision": false,
+  "human_listened": false,
+  "emotional_delivery_approved": false,
+  "finished_delivery": false
+}
