@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "video_id": "qYPCL1KGdQA",
+  "parent_production_recipe": "qYPCL1KGdQA-production-20261114.json",
+  "source_audio_stream": "0:a:0",
+  "decoded_source_sample_rate": 24000,
+  "decoded_source_frames": 59441598,
+  "decoded_source_end_seconds": "2476.73325",
+  "formal_last_unit_id": 130,
+  "formal_last_unit_end_seconds": "2476.734",
+  "formal_tail_excess_samples": 18,
+  "action": "Reuse the exact successful source decode from the failed first composition. Copy all actual closing source samples to the true decoded endpoint, then retain the baseline's 18 zero samples through the rounded subtitle endpoint.",
+  "source_display_or_synthesis_windows_changed": false,
+  "actual_original_samples_cut": 0,
+  "failed_composition_exit_retained": 1,
+  "failed_compose_produced_narration": false,
+  "source_decode_repeated": false,
+  "human_listened": false,
+  "pronunciation_approved": false,
+  "emotional_delivery_approved": false,
+  "finished_delivery": false
+}

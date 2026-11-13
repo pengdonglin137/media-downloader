@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "video_id": "qYPCL1KGdQA",
+  "parent_package_recipe": "qYPCL1KGdQA-package-20261114.json",
+  "purpose": "Source-bound original-voice composition and production-sized AI-guide captions; no human pronunciation or emotion approval.",
+  "audio_stream": "0:a:0",
+  "sample_rate": 24000,
+  "gain_db": 0.0,
+  "body_offset_seconds": 0,
+  "original_voice_ranges": [
+    {"unit_id": 1, "source_start": "0.000", "source_end": "14.100"},
+    {"unit_id": 43, "source_start": "707.300", "source_end": "727.000"},
+    {"unit_id": 51, "source_start": "865.070", "source_end": "879.660"},
+    {"unit_id": 63, "source_start": "1105.520", "source_end": "1142.320"},
+    {"unit_id": 76, "source_start": "1367.740", "source_end": "1384.140"},
+    {"unit_id": 81, "source_start": "1478.370", "source_end": "1498.240"},
+    {"unit_id": 96, "source_start": "1767.010", "source_end": "1792.290"},
+    {"unit_id": 108, "source_start": "2020.520", "source_end": "2049.370"},
+    {"unit_id": 115, "source_start": "2186.980", "source_end": "2199.790"},
+    {"unit_id": 118, "source_start": "2256.080", "source_end": "2281.640"},
+    {"unit_id": 130, "source_start": "2452.990", "source_end": "2476.734"}
+  ],
+  "intro_scene_overrides": [
+    {
+      "scene_index": 0,
+      "screen": ["Paul E. McKenney · KR 2025", "报告2025-09-22｜上传2025-10-07", "以下为AI导读，不是讲者原话"],
+      "captions": [
+        {"zh": "这份二〇二五年的报告，", "en": "This is a talk from 2025."},
+        {"zh": "讨论先拆分工作和资源，再选择同步方式。", "en": "It discusses partitioning work and resources before choosing synchronization."},
+        {"zh": "下面的AI澄清，不是讲者原话。", "en": "The following AI clarifications are not quotations from the speaker."}
+      ]
+    },
+    {
+      "scene_index": 1,
+      "screen": ["级数末项：相对误差约2.9%", "独立均匀抽样：标准误差∝1/√N", "标准误差缩小10倍，通常需100倍样本"],
+      "captions": [
+        {"zh": "级数表最后一行的相对误差，约百分之二点九，", "en": "The series table's last row has about 2.9 percent relative error,"},
+        {"zh": "不是已核实的百分之十。", "en": "not a verified ten percent."},
+        {"zh": "独立均匀的蒙特卡洛抽样，", "en": "For independent uniform Monte Carlo sampling,"},
+        {"zh": "若要把标准误差缩小十倍，", "en": "reducing standard error tenfold"},
+        {"zh": "通常需要约一百倍样本。", "en": "generally requires about one hundred times as many samples."}
+      ]
+    },
+    {
+      "scene_index": 2,
+      "screen": ["避免死锁 ≠ 已证明公平或无饥饿", "较大任务块仍须兼顾并行度、负载均衡", "听辨不清的现场交流保留实际原声"],
+      "captions": [
+        {"zh": "避免死锁，就一定公平、没有饥饿吗？并不是。", "en": "Does avoiding deadlock guarantee fairness or freedom from starvation? No."},
+        {"zh": "少分几大块，也得兼顾并行度和负载均衡。", "en": "Larger partitions still need adequate parallelism and load balance."},
+        {"zh": "听辨不清的现场交流，保留原声，不猜译。", "en": "Unclear live exchanges retain original audio rather than guessed translations."}
+      ]
+    }
+  ],
+  "constraints": [
+    "Use decimal source seconds for absolute samples; never float-truncate an exact millisecond one sample early.",
+    "Base TTS must have passed the frozen strict source-window checker; every original slot is zero PCM before composition.",
+    "Inside each original range copy decoded source PCM at 0 dB; outside all ranges retain every base-TTS sample.",
+    "A voiced question and its answer add rhetorical contrast in the AI guide, not an emotion or pronunciation certification.",
+    "Bind final guide offset separately before claiming original-voice retention in the final two Chinese main tracks.",
+    "Original English AAC retention in the body and final re-encoded original audio must be reported separately."
+  ],
+  "human_listened": false,
+  "pronunciation_approved": false,
+  "emotional_delivery_approved": false,
+  "finished_delivery": false
+}
