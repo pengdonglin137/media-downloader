@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "video_id": "qYPCL1KGdQA",
+  "comparison_recipe": "qYPCL1KGdQA-polish-20261114.json",
+  "selected": [
+    {"unit_id": 14, "label": "explicit-digits", "reason": "Keep both 80386 occurrences and every qualification; explicitly spell the designation rather than compress a normally fitting sentence."},
+    {"unit_id": 122, "label": "spaced-pdf", "reason": "Make the intended three English letters explicit without changing the page-number contrast or punctuation."},
+    {"unit_id": 123, "label": "restore-looks-like", "reason": "Restore the source comparison in display and narration; do not identify the illustrated penguin literally as the Statue of Liberty."}
+  ],
+  "unadopted_prosody_units": [27, 107],
+  "unadopted_alternative": {"unit_id": 14, "label": "compact-explicit-digits", "reason": "The full-information explicit spelling already fits at normal rate; no need to compact this sentence."},
+  "source_windows_or_roles_changed": false,
+  "maximum_rate_percent": 15,
+  "selected_changes_require_normal_rate": true,
+  "extra_atempo": false,
+  "original_audio_ranges_changed": false,
+  "human_listened": false,
+  "pronunciation_approved": false,
+  "emotional_delivery_approved": false,
+  "automatic_listening_decision": false,
+  "selection_is_not_an_acoustic_superiority_claim": true
+}
