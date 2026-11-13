@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "video_id": "qYPCL1KGdQA",
+  "record_kind": "source-faithful-whole-window-quantity-and-code-line-preview-plan-not-production-adoption",
+  "production_applied": false,
+  "voice": "zh-CN-YunxiNeural",
+  "rate_percent": 0,
+  "extra_atempo": false,
+  "time_windows_or_roles_changed": false,
+  "basis": "The previous full actual-AAC audit found both models writing 十一次 for correct 十亿次 and 型 for the code-line classifier. Those are diagnostic clues, not proven wrong actual speech. The candidates also address an observable text-boundary problem: the existing comma separates 行 from 代码.",
+  "previous_audit": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-qYPCL1KGdQA-20261114/checkpoint-full-language-aac-audit-v1/execution-progress.json",
+  "baseline_policy": "Authenticate existing complete actual-final AAC clips and reuse their exact-current two-model observations. Separately replay the existing production MP3 into its actual composite PCM; do not synthesize a fresh baseline or treat a preview as final AAC.",
+  "selection_policy": "No selected candidate or automatic promotion. Normal-rate original-window fit, word boundaries and two-model output are not listening, phoneme, naturalness or emotional-delivery approval.",
+  "samples": [
+    {
+      "unit_id": 58,
+      "kind": "billion-trials-quantity-with-verb-first-context",
+      "source_start": 1001.86,
+      "source_end": 1015.24,
+      "source": "And the thing is you can actually run a billion trials in a reasonable time even on one something like this, but if you want a thousand, a hundred thousand, a million digits, this is not going to be wonderful.",
+      "before_display": "即使在这样一台设备上，十亿次试验也能在合理时间内跑完。但如果你想算到一千位，十万位，甚至一百万位，这种方法就不怎么样了。",
+      "before_spoken": "即使在这样一台设备上，十亿次试验也能在合理时间内跑完。但如果你想算到一千位，十万位，甚至一百万位，这种方法就不怎么样了。",
+      "candidates": [
+        {
+          "label": "B-verb-before-billion-trials",
+          "text": "即使在这样一台设备上，也能在合理时间内完成十亿次试验。但如果你想算到一千位，十万位，甚至一百万位，这种方法就不怎么样了。",
+          "reason": "Put the verb 完成 immediately before 十亿次试验 in one natural grammatical phrase. Preserve even on this device, reasonable time, the billion quantity, all three digit targets and the negative qualification. No extra explanation or numerical reinterpretation."
+        }
+      ],
+      "semantic_checks": ["one such device remains sufficient", "reasonable time", "a billion trials, not eleven", "1000, 100000 and 1000000 digit targets", "method remains unsuitable for those targets"],
+      "selected_label": null
+    },
+    {
+      "unit_id": 125,
+      "kind": "contiguous-code-line-count-and-separate-property-clause",
+      "source_start": 2370.35,
+      "source_end": 2392.09,
+      "source": "Some may argue that given the part of the kernel that I'm best known for, I shouldn't be saying things like that. But on the other hand, when Jack and I first came up with this, it allowed him to drop 16,000 lines of really difficult buggy-prone code on the floor. So in some situations it does have some serious ease of use advantages.",
+      "before_display": "有人可能会说，考虑到我最出名的那部分内核工作，我不该说这些话。但另一方面，当初我和 Jack 第一次提出它时，它让 Jack 直接扔掉了一万六千行，非常难写、又容易出错的代码。所以，至少在某些场景里，它确实有相当明显的易用性优势。",
+      "before_spoken": "有人可能会说，考虑到我最出名的那部分内核工作，我不该说这些话。但另一方面，当初我和 Jack 第一次提出它时，它让 Jack 直接扔掉了一万六千行，非常难写、又容易出错的代码。所以，至少在某些场景里，它确实有相当明显的易用性优势。",
+      "candidates": [
+        {
+          "label": "B-contiguous-code-lines",
+          "text": "有人可能会说，考虑到我最出名的那部分内核工作，我不该说这些话。但另一方面，当初我和 Jack 第一次提出它时，它让 Jack 直接扔掉了一万六千行代码。那些代码非常难写，又容易出错。所以，至少在某些场景里，它确实有相当明显的易用性优势。",
+          "reason": "Keep 一万六千行代码 contiguous rather than separating the classifier from its noun with a comma and a long modifier. Follow with a complete clause preserving both difficulty and error-proneness. Keep the rhetorical objection, both people, first development and situation-qualified ease-of-use claim."
+        }
+      ],
+      "semantic_checks": ["possible objection remains a rhetorical attribution", "lecturer and Jack first developed it", "Jack can remove exactly 16000 code lines", "those same lines are difficult and error-prone", "ease-of-use benefit remains qualified by some situations"],
+      "target_classifier_not_observed_phoneme": "代码行: háng; not a global 行 substitution",
+      "selected_label": null
+    }
+  ],
+  "phoneme_control_claimed": false,
+  "human_listened": false,
+  "pronunciation_approved": false,
+  "emotional_delivery_approved": false,
+  "objective_status": "active"
+}

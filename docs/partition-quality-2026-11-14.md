@@ -1,5 +1,13 @@
 # 分区报告：正式来源、自然朗读与原声回填
 
+## 当前量级／代码行完整原窗候选，正式片未替换
+
+- 新入口`/home/pengdl/Videos/translated_backlog/.workflow_logs/request-qYPCL1KGdQA-20261114/checkpoint-quantity-preview-v1/execution-progress.json`只登记58／125预演；原制作仍`checkpoint-names-v1`，全119当前AAC诊断保持有效，不改旧RUNTIME或将预演冒充新成片。
+- 两项各一个正常速率候选：58以“完成十亿次试验”建立连续动宾语境，保留原设备、合理时间、全部位数目标和不适用条件；125保持“一万六千行代码”在输入中相邻，另成完整句保留难写／易出错，讲者反问、Jack、首次开发与仅某些场景的易用性优势不改。正式源／显示／spoken、角色、原窗、复合旁白及两版媒体均未改。
+- 实际280867／501215样本，11.702791667／20.883958333秒；原窗321120／521760样本，剩余40253／20545样本只补零，均正常速率，无额外atempo／借窗／截尾。2旧缓存独立复放且等于实际复合PCM及零尾，不重合成基线；另各有完整实际AAC／源声，8完整窗加2原长候选WAV只作内部对照。
+- 4份新候选无提示双模型诊断与4份精确当前AAC旧诊断分开。两模型候选58写“十亿次试验”，125写“16000行代码／一万六千行代码”，旧AAC则写“十一次／型”；small仍有“异用性”。词边界／正确识别／时长不是实际音素或情感证明，没有选择、正式采用或听辨决定。
+- 内部`quantity-preview-v1/asr-comparison.html`提供实际AAC／源声／候选整句对照、全部8观察及量级／háng量词／反问对比／句尾听辨清单。182音频身份、202诊断身份、1025最终身份与6实际步骤通过；49机器候选、数据库真实决定0、98根Python及所有未证人耳／自然度／情感／全片视觉／逐词声画／PotPlayer门禁保持。目标active，下一步须真实完整对照，不能仅凭识别文字自动晋升。
+
 ## 当前119中文单元实际AAC全量诊断
 
 - 最新只读诊断入口`/home/pengdl/Videos/translated_backlog/.workflow_logs/request-qYPCL1KGdQA-20261114/checkpoint-full-language-aac-audit-v1/execution-progress.json`；真正制作仍以`checkpoint-names-v1`及原`RUNTIME.md`为准，当前两版媒体、正式en／zh／spoken、复合旁白、11原声区与数据库未改。
