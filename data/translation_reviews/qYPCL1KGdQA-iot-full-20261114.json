@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "video_id": "qYPCL1KGdQA",
+  "unit_id": 42,
+  "previous_candidate": "data/translation_reviews/qYPCL1KGdQA-iot-negation-20261114.json",
+  "purpose": "Restore the source negation and prefer the complete source-supported Chinese wording, including the speaker's aside and caution, over an unnecessary condensation if the complete utterance fits normally.",
+  "voice": "zh-CN-YunxiNeural",
+  "probe_rate_percent": 0,
+  "max_rate_percent": 15,
+  "extra_atempo": false,
+  "source_start": 677.13,
+  "source_end": 704.31,
+  "source_evidence": "I admit that we aren't doing IoT. We've left the low end out a little like that",
+  "display": "关键是，别过度追求通用性。什么人的什么需求都想包办，往往是在搬石头砸自己的脚。顺便说一句，我们这些 Linux 内核开发者，也该引以为戒，因为 Linux 内核正是想做到对所有人都适用。我承认，物联网我们没有做，低端这头多少留了一些空白。但用户需求依然五花八门，所以，还是得谨慎。",
+  "candidates": [
+    {
+      "label": "full-source-caution",
+      "text": "关键是，别过度追求通用性。什么人的什么需求都想包办，往往是在搬石头砸自己的脚。顺便说一句，我们这些 Linux 内核开发者，也该引以为戒，因为 Linux 内核正是想做到对所有人都适用。我承认，物联网我们没有做，低端这头多少留了一些空白。但用户需求依然五花八门，所以，还是得谨慎。",
+      "reason": "Keep the full reviewed display wording as speech, including the aside, explicit Linux referent, negation, qualified low-end omission and concluding caution. This is the historical speaker's statement, not an independent current Linux capability claim."
+    },
+    {
+      "label": "earlier-concise-proposal",
+      "text": "关键是，别太追求通用性。想包办所有人的所有需求，往往是在搬石头砸自己的脚。我们这些Linux内核开发者，也该当心，因为内核恰恰想对所有人都适用。我承认，物联网我们没做，低端这头留了一些空白。但用户需求还是五花八门，得谨慎。",
+      "reason": "Retain the earlier source-supported concise candidate for an honest comparison. Do not choose it merely because it is shorter or leaves more silence if the full wording fits at normal rate."
+    }
+  ],
+  "selection_policy": "Prefer the full-source-caution candidate if it strictly fits the unchanged original window at normal rate. Do not infer emotional or pronunciation approval from timing, WordBoundary, ASR or a textual choice. If normal fitting fails, preserve the failure and review the actual full-source alternative under the existing maximum +15% policy rather than clipping or borrowing time.",
+  "source_text_windows_or_roles_changed": false,
+  "human_listened": false,
+  "pronunciation_approved": false,
+  "emotional_delivery_approved": false,
+  "automatic_listening_decision": false,
+  "production_applied": false
+}
