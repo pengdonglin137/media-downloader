@@ -1,5 +1,12 @@
 # 批量译配操作
 
+## 2026-11-14：Advisor译稿韵律／字音候选的续做顺序
+
+- 先读 `docs/translation-polish-2026-11-14.md` 和本片 `quality-polish-20261114-v1/execution-progress.json`。完整新版草稿为该目录 `authored-translation-v2.json`；Git中配方锁定旧稿／来源哈希，不覆盖旧 `authored-translation-v1.json`。
+- author-v2、8组真实云溪A/B及独立verify-v1均已成功，不重复合成。内部 `index.html` 提供原片候选窗、旧稿与新候选对照；需实际听辨后才能声称发音／情感改善，不能代填listened或用时长证明语言品质。
+- 接下来仍须正式重建66句到80项语言来源及独立首尾事件，逐项核对26条已有词面修订、59句ASR补漏及完整映射，再走本请求 `RUNTIME.md` 的西语运行时正式compile。首尾应按既有策略保留真实原声，不把事件说明送TTS。
+- 当前源文件和生产工程未改；不得拿草稿样片冒充正式生产，或借此重跑成功成片、修改共享总量和关闭QP等旧门禁。后续导读、双用途成片、严格原窗、字幕／章节、完整解码及人耳验收仍分别执行。
+
 ## 2026-11-13：4lUKE1Prypk现代无锁报告恢复入口
 
 - 本片305正式单元全文译审、26.860167秒中文有声AI导读、82内嵌中文章及双用途自包含MP4均已生成。先读输出目录`.workflow_logs/request-4lUKE1Prypk-20261113/checkpoint-final-v1/execution-progress.json`与最终收据，复用成功下载／TTS／媒体，不展开列表、不发布或重算共享队列。
