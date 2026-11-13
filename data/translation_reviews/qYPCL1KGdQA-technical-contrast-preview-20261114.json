@@ -1,0 +1,74 @@
+{
+  "version": 1,
+  "video_id": "qYPCL1KGdQA",
+  "record_kind": "whole-window-specialist-phrasing-and-rhetorical-contrast-preview-plan-not-adoption",
+  "production_applied": false,
+  "voice": "zh-CN-YunxiNeural",
+  "rate_percent": 0,
+  "extra_atempo": false,
+  "time_windows_or_roles_changed": false,
+  "basis": "The exact-current full119 AAC audit writes 辅典 for 浮点 and RCEO for RCU in both models. These spellings do not establish wrong actual phonemes. Separately, unit90's source says he has a problem, not that he cannot solve it; preserve the quoted deterrence and the lecturer's understated transition without strengthening that claim.",
+  "previous_quantity_preview_remains_unadopted": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-qYPCL1KGdQA-20261114/checkpoint-quantity-preview-v1/execution-progress.json",
+  "baseline_policy": "Authenticate full exact-current actual-final AAC and original-source windows. Replay the existing production MP3 into the exact current composite PCM, including its zero tail; never regenerate the baseline. Reuse only observations bound to exact current PCM and unchanged model files, package versions and unprompted parameters.",
+  "selection_policy": "No selected candidate, automatic promotion, speech-database decision or quality approval. Timing fit, WordBoundary, spelling and model agreement do not establish pronunciation, intelligibility, naturalness or emotional delivery.",
+  "samples": [
+    {
+      "unit_id": 15,
+      "kind": "floating-point-context-without-homophone-substitution",
+      "source_start": 145.55,
+      "source_end": 152.87,
+      "source": "But we've got this gold chip there. That's a floating point accelerator because this is back before floating point was actually on the chip itself.",
+      "before_display": "不过，旁边还有这颗金色芯片。它是浮点加速器，因为那时候，浮点单元还没有集成到 CPU 芯片里。",
+      "before_spoken": "旁边这颗金色芯片是浮点加速器。那时，浮点单元还没集成进C P U。",
+      "candidates": [
+        {
+          "label": "B-floating-point-operation-context",
+          "text": "旁边这颗金色芯片，是浮点运算加速器。那时C P U还没集成浮点单元。",
+          "reason": "Keep the correct 浮点 spelling and use its natural 运算 context. Retain the nearby gold chip, accelerator and historical absence of an integrated floating-point unit; the second sentence explains why a separate accelerator was present. This is a lexical-context candidate, not phoneme control."
+        }
+      ],
+      "semantic_checks": ["nearby gold chip", "floating-point accelerator", "historical context explains separate accelerator", "floating-point unit not yet integrated into CPU"],
+      "listening_targets": ["Both 浮点 occurrences require actual tonal listening, not an ASR-spelling decision", "CPU letters remain intelligible", "Historical explanation stays connected to the separate chip", "Complete ending within the original window"],
+      "selected_label": null
+    },
+    {
+      "unit_id": 36,
+      "kind": "separated-rcu-letters-and-confident-to-humble-contrast",
+      "source_start": 531.33,
+      "source_end": 549.25,
+      "source": "For example, if you put me in Linux kernel RCU, which I originated and I'm lead maintainer of, I can do pretty well. If you threw me into some random web framework or something like that, it probably would take me some time before I could learn enough about it to do anything at all.",
+      "before_display": "比如，让我做 Linux 内核 RCU，我是它的创始开发者，也是首席维护者，那我能做得不错。可要把我扔进某个陌生的 Web 框架，恐怕得先学上好一阵，才能动手做点什么。",
+      "before_spoken": "比如，让我做 Linux 内核 R C U，我是它的创始开发者，也是首席维护者，那我能做得不错。可要把我扔进某个陌生的 web 框架，恐怕得先学上好一阵，才能动手做点什么。",
+      "candidates": [
+        {
+          "label": "B-separated-rcu-and-explanatory-contrast",
+          "text": "比如，让我做 Linux 内核的 R、C、U，我能做得不错：我是它的创始开发者，也是首席维护者。可要把我扔进某个陌生的 web 框架，恐怕得先学上好一阵，才能动手做点什么。",
+          "reason": "Try explicit enumeration punctuation between the same three Latin letters, without Chinese homophone replacement or an invented expansion. Move the existing attribution after the capability claim as a complete explanation, then retain the unfamiliar-framework contrast, uncertainty and learning prerequisite. Same lecturer throughout; no new questioner or emotional voice setting."
+        }
+      ],
+      "semantic_checks": ["conditional example of work in Linux kernel RCU", "lecturer originated it", "lecturer is lead maintainer", "can do pretty well, not universal expertise", "unfamiliar web framework", "probably must first learn enough before doing anything"],
+      "listening_targets": ["R, C and U must each be heard without an added E or O", "Linux and web must remain intelligible", "Attribution stays an explanation, not a separate speaker", "Capability-to-humility contrast remains conversational rather than boastful", "Final learning condition is complete"],
+      "selected_label": null
+    },
+    {
+      "unit_id": 90,
+      "kind": "quoted-deterrence-without-invented-inability-to-solve",
+      "source_start": 1656.05,
+      "source_end": 1675.89,
+      "source": "And this was a real, continues to be a real problem, because you get somebody who may be really smart, they dig themselves a really deep hole. And they say how horrible this is, and you shouldn't do concurrency, and other people say, wow, that guy's really smart, and he has a problem with it, I'm not even going to try. And, well yeah,",
+      "before_display": "这以前是真问题，现在也依然如此：很聪明的人，也会给自己挖一个很深的坑。然后他说：“太可怕了，千万别碰并发！”别人一听：“他那么聪明，都搞不定，那我更别试了。”嗯，确实。",
+      "before_spoken": "这以前是真问题，现在也依然如此：很聪明的人，也会给自己挖一个很深的坑。然后他说：“太可怕了，千万别碰并发！”别人一听：“他那么聪明，都搞不定，那我更别试了。”嗯，确实。",
+      "candidates": [
+        {
+          "label": "B-difficulty-not-inability-and-quoted-reaction",
+          "text": "这以前是真问题，现在也一样：很聪明的人，也可能给自己挖个很深的坑。然后他说：“太可怕了，千万别碰并发！”别人一听：“哇，他那么聪明，都遇到了麻烦，那我干脆就不试了。”嗯，是啊。",
+          "reason": "Replace the stronger 搞不定 with 遇到了麻烦 for he has a problem; retain both historical and continuing concern, the deep-hole metaphor, attributed anti-concurrency warning and the other person's refusal even to try. Restore source wow and keep the understated closing acknowledgment. Units89 and91 remain context only; this is not the lecturer personally warning against all concurrency."
+        }
+      ],
+      "semantic_checks": ["problem was real and continues", "intelligence does not prevent the deep-hole example", "warning against concurrency belongs to the quoted person", "other people perceive a smart person's difficulty, not established inability to solve", "wow and not even trying", "understated closing acknowledgment leads into unit91's existing advice"],
+      "context_only_unit_ids": [89, 91],
+      "listening_targets": ["并发 rather than a different word", "Quoted warning and reaction remain distinguishable inside the same lecturer voice", "Humorous caution does not become hostile shouting", "No loss of 遇到了麻烦 or 就不试了", "嗯，是啊 retains the understated bridge into the next unit, not a new standalone answer"],
+      "selected_label": null
+    }
+  ]
+}

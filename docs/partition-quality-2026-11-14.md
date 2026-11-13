@@ -1,5 +1,12 @@
 # 分区报告：正式来源、自然朗读与原声回填
 
+## 最新专业词与引用语气候选，尚未采用
+
+- 仅15／36／90各一个正常速率完整原窗候选。15试“浮点运算”且保留正确浮点；36试`R、C、U`枚举边界，把既有创始／维护身份移到能力判断后解释，保留陌生框架先学后做；90按`he has a problem`改候选为“遇到了麻烦”，不加重成无法解决，保留哇、拒绝尝试与克制收尾。15命题逐项文字审读，89／91仅上下文，正式译文／spoken和媒体未改。
+- 三候选157065／341916／411371样本，6.544375／14.2465／17.140458333秒，适配175680／430080／476160原窗，18615／88164／64789剩余样本只补零，均0%提速。原MP3、WordBoundary及规范解码器保留，3旧缓存等完整实际复合PCM；实际AAC与源声另计，共12完整窗及3原长候选，无额外atempo／借窗／裁切。
+- 两模型新RCU均写三个字母，旧实际AAC均写RCEO；浮点仍写辅典，语境候选没有消除识别歧义；90保留了新“哇／遇到了麻烦”，也仍写病发／不是了。不用同音转写或词边界宣布字音／自然度／情感批准，没有总体改善或自动采用结论。初次ASR错误要求统一版本字段而真实1，v2按两种真实字段及模型／参数／包／完整PCM校验，只续未完成观察；成功TTS与基线不重做，失败原件保留。
+- 194音频／51报告／235登记／237引用身份、6新加6复用诊断及12声音入口分开核对；收据前7实际步骤0与原ASR1保留。新入口`/home/pengdl/Videos/translated_backlog/.workflow_logs/request-qYPCL1KGdQA-20261114/checkpoint-technical-contrast-preview-v1/execution-progress.json`；内部整句对照`technical-contrast-preview-v1/asr-comparison.html`。制作仍`checkpoint-names-v1`，58／125与27／107仍未采用，49机器候选、实际决定0、98根Python和全部未证人工门禁保持，目标active。
+
 ## 当前量级／代码行完整原窗候选，正式片未替换
 
 - 新入口`/home/pengdl/Videos/translated_backlog/.workflow_logs/request-qYPCL1KGdQA-20261114/checkpoint-quantity-preview-v1/execution-progress.json`只登记58／125预演；原制作仍`checkpoint-names-v1`，全119当前AAC诊断保持有效，不改旧RUNTIME或将预演冒充新成片。
