@@ -1,0 +1,133 @@
+{
+  "version": 1,
+  "video_id": "qYPCL1KGdQA",
+  "record_kind": "complete-current-language-aac-diagnostic-with-source-faithful-text-triage-not-listening-approval",
+  "objective_status": "active",
+  "production_applied": false,
+  "production_or_formal_text_or_database_modified": false,
+  "current_production_checkpoint_retained": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-qYPCL1KGdQA-20261114/checkpoint-names-v1/execution-progress.json",
+  "diagnostic_checkpoint": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-qYPCL1KGdQA-20261114/checkpoint-full-language-aac-audit-v1/execution-progress.json",
+  "actual_final_pcm": {
+    "representation": "s16le, mono, 24000 Hz",
+    "sha256": "e2b997068651844d4ccf4eb21f1255b2e43584d1c4a56549aa2f874e2848633c",
+    "actual_intro_offset_samples": 840960,
+    "window_selection": "int(original_start_seconds * 24000) through int(original_end_seconds * 24000), plus exact actual intro offset; complete original windows, no VAD trimming"
+  },
+  "current_outputs_unchanged": [
+    {
+      "purpose": "master",
+      "sha256": "b911b6032cfaeb6109c4c21752a11b5073f701357140ef7e42f178434ebfe345"
+    },
+    {
+      "purpose": "upload",
+      "sha256": "ba03c5f89cdee7549bc62fed35f12106fc336566b87da8a1177d32092e4f4c2b"
+    }
+  ],
+  "scope": {
+    "formal_units": 130,
+    "all_current_chinese_language_units": 119,
+    "original_voice_reservations_explicitly_excluded": 11,
+    "ai_introduction_included": false,
+    "original_source_asr_repeated": false,
+    "new_tts_or_media_encoding_performed": false
+  },
+  "models": ["medium", "small"],
+  "model_observations": 238,
+  "new_observations": 228,
+  "exact_current_previous_observations_reused": 10,
+  "reused_unit_ids_both_models": [60, 113, 85, 90, 124],
+  "reuse_authority": "Entire decoded current final-AAC window is byte-equal to the prior actual-final waveform; exact model files, package versions, parameters and observation identities verified. Neither unchanged spoken text nor a preview is sufficient authority.",
+  "parameters": {
+    "language": "zh",
+    "beam_size": 5,
+    "temperature": 0,
+    "word_timestamps": true,
+    "condition_on_previous_text": false,
+    "vad_filter": false,
+    "initial_prompt": null,
+    "hotwords": null,
+    "device": "cuda",
+    "compute_type": "int8",
+    "local_files_only": true
+  },
+  "agent_text_review": {
+    "source_and_spoken_cases_re_read": 119,
+    "diagnostic_transcripts_read": 238,
+    "review_pages": 12,
+    "all_display_text_claimed_newly_re_read": false,
+    "display_identity_independently_verified": true,
+    "new_source_semantic_correction_established": false,
+    "literal_negation_presence_hints_are_not_complete_negation_accuracy_proof": true,
+    "internal_index": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-qYPCL1KGdQA-20261114/full-language-aac-audit-v1/review-pages/index.html",
+    "delivery_attachment": false
+  },
+  "new_high_priority_listening_cases": [
+    {
+      "unit_id": 58,
+      "source_quantity": "a billion trials",
+      "correct_current_spoken_quantity": "十亿次试验",
+      "medium_observed_quantity": "十一次试验",
+      "small_observed_quantity": "十一次试验",
+      "concern": "Potential amount/intelligibility ambiguity, not established actual wrong speech. Do not change the correct billion quantity to match either recognizer.",
+      "next_safe_step": "Preview a source-faithful whole-window variant with a clear verb, quantity and trial phrase; retain the later 1000, 100000 and 1000000 digit targets and original conditions."
+    },
+    {
+      "unit_id": 125,
+      "source_quantity": "16,000 lines of really difficult buggy-prone code",
+      "correct_current_spoken_fragment": "一万六千行，非常难写、又容易出错的代码",
+      "both_models_observed_fragment": "一万六千型",
+      "target_code_line_classifier": "háng",
+      "concern": "A potential classifier/pronunciation problem and a punctuation boundary separating 行 from 代码; model spelling alone does not prove the actual phoneme.",
+      "next_safe_step": "Preview contiguous 一万六千行代码 and a separate source-faithful difficult/error-prone clause, preserving Jack, qualified ease-of-use claim, role and complete original window. Do not globally replace 行 or change execution/parallel-programming readings."
+    }
+  ],
+  "additional_targeted_pending_unit_ids": [15, 17, 26, 36, 39, 60, 70, 78, 85, 90, 113, 122, 124],
+  "additional_targeted_limits": "Both15辅典 for浮点 and36RCEO forRCU, proper names, errno letters, parallel/concurrent terms, summary articulation and small113repeated当然 remain listening clues, not automatic errors. Homophones such as计数器/技术器 and栈/站 must not corrupt correct inputs.",
+  "nonempty_asr_segments_assigned_entirely_to_exact_zero_pcm": [
+    {"unit_id": 20, "model": "medium", "samples": 33600, "nonzero_samples": 0, "text": "我只想跟你說一句話"},
+    {"unit_id": 40, "model": "medium", "samples": 6721, "nonzero_samples": 0, "text": "中文字幕小組"},
+    {"unit_id": 40, "model": "small", "samples": 7200, "nonzero_samples": 0, "text": "我愛你"},
+    {"unit_id": 49, "model": "medium", "samples": 20640, "nonzero_samples": 0, "text": "在我心中,我只想在你心中"},
+    {"unit_id": 111, "model": "medium", "samples": 33600, "nonzero_samples": 0, "text": "在我心中,我只想在你心中"},
+    {"unit_id": 111, "model": "small", "samples": 9600, "nonzero_samples": 0, "text": "好"},
+    {"unit_id": 116, "model": "medium", "samples": 33599, "nonzero_samples": 0, "text": "在我面前的一切"}
+  ],
+  "exact_zero_evidence_limits": "No speech exists at those assigned sample intervals. Recognition versus timestamp-alignment failure is not automatically distinguished; this evidence does not authorize trimming media or treating transcript additions as actual spoken words.",
+  "independent_verification": {
+    "all_119_complete_windows_rebuilt_from_actual_final_raw_pcm": true,
+    "all_238_per_unit_per_model_observations_verified": true,
+    "all_238_segment_energy_records_independently_rebuilt": true,
+    "acoustic_provenance_identity_count": 956,
+    "final_checkpoint_identity_count": 980,
+    "actual_successful_read_only_steps_before_final_receipt": 10,
+    "observed_model_driver_tool_session": 30538,
+    "observed_model_driver_exit": 0,
+    "inputs_sha256": "1cae2b1614b01580573496e9110af93cf43eab9ad7bc3cab1cc06d3d8e404048",
+    "review_report_sha256": "ff10b15b6e28044050ed11282fe128302f3b415438a9c1f3cb3bcd6d73d3078f",
+    "acoustic_verification_sha256": "e094422a05f50a4dc00581df1eb7b2b4480ecde18a736d9b8a0dd5367896ee55",
+    "agent_text_review_sha256": "3f84244e57b716ce1d52a2c2eae7adca704f5fb32a283f1f6971de8e53ebaa02",
+    "silence_diagnostic_sha256": "2a710ff08606858d012afc4c1de2b898179091e8b68065ede84201eaa219acfe",
+    "silence_independent_verification_sha256": "e0d2317d7c40da1d23f6f358a5c61b42aab06d8fa716b6ef5a87b3c0e1373766"
+  },
+  "unchanged_gates": {
+    "machine_sound_candidates": 49,
+    "pronunciation_term_candidates": 30,
+    "short_tail_candidates": 14,
+    "original_voice_long_pause_candidates": 5,
+    "actual_database_listening_decisions": 0,
+    "actual_database_repair_resolutions": 0,
+    "new_targeted_cases_separate_from_machine_candidate_count": true,
+    "old_unadopted_prosody_only_units": [27, 107]
+  },
+  "frozen_root_python_unchanged": 98,
+  "shared_queue_or_global_counts_written": false,
+  "playlist_expanded_or_platform_published": false,
+  "phoneme_control_claimed": false,
+  "human_listened": false,
+  "pronunciation_approved": false,
+  "emotional_delivery_approved": false,
+  "full_visual_review_complete": false,
+  "word_by_word_alignment_verified": false,
+  "potplayer_tested": false,
+  "finished_delivery": false
+}
