@@ -1,0 +1,62 @@
+{
+  "version": 2,
+  "video_id": "qYPCL1KGdQA",
+  "purpose": "Explicit documented Chinese name aliases in complete natural narration, preserving original Latin display identities, source qualifications, humor and original windows; not phoneme control or acoustic approval.",
+  "voice": "zh-CN-YunxiNeural",
+  "probe_rate_percent": 0,
+  "max_rate_percent": 15,
+  "extra_atempo": false,
+  "source_windows_or_roles_changed": false,
+  "display_changes_requested": false,
+  "primary_name_reference": {
+    "title": "外国科学家译名手册（试用稿）",
+    "authors": ["全国科学技术名词审定委员会"],
+    "host": "National Astronomical Data Center / China-VO astronomical terminology archive",
+    "year": 2012,
+    "url": "https://nadc.china-vo.org/astrodict/s-astrodict/2016/committeeArticles/foreign_name_translation_2012.pdf",
+    "table_rows_used": ["Machin, John — 梅钦", "Dijkstra, Edsger Wybe — 戴克斯特拉"],
+    "historical_trial_table_not_claimed_current_universal_standard": true,
+    "does_not_verify_dutch_or_english_phonetics": true
+  },
+  "samples": [
+    {
+      "unit_id": 60,
+      "source_start": 1030.1,
+      "source_end": 1053.74,
+      "source": "And so I'm going to take us back to 1706 and we have a guy named John Machin. This guy was a real seriously crazy guy. He used the formula on the top and the standard arctangent series there and he computed by hand on paper 100 digits of pi.",
+      "kind": "single-chinese-full-name-without-bilingual-spoken-duplication",
+      "before_display": "所以，咱们回到 1706 年，看看 John Machin，也就是约翰·梅钦的方法。这位可真是个了不起的“狂人”。靠上面的公式，再加上标准的反正切级数，他拿纸和笔，手算出了一百位的圆周率。",
+      "after_display": "所以，咱们回到 1706 年，看看 John Machin，也就是约翰·梅钦的方法。这位可真是个了不起的“狂人”。靠上面的公式，再加上标准的反正切级数，他拿纸和笔，手算出了一百位的圆周率。",
+      "before_spoken": "所以，咱们回到 1706 年，看看 John Machin，也就是约翰·梅钦的方法。这位可真是个了不起的“狂人”。靠上面的公式，再加上标准的反正切级数，他拿纸和笔，手算出了一百位的圆周率。",
+      "selected_label": "john-machin-chinese-full-name",
+      "candidates": [{
+        "label": "john-machin-chinese-full-name",
+        "text": "所以，咱们回到 1706 年，看看约翰·梅钦的方法。这位可真是个了不起的“狂人”。靠上面的公式，再加上标准的反正切级数，他拿纸和笔，手算出了一百位的圆周率。",
+        "reason": "Retain the documented full Chinese name once instead of repeating the same referent in English then Chinese in speech. Display remains exact; keep 1706, the playful crazy-guy evaluation, both formulas, manual paper calculation and one hundred digits. This does not establish the old audio was wrong or the new voice natural."
+      }]
+    },
+    {
+      "unit_id": 113,
+      "source_start": 2135.82,
+      "source_end": 2170.84,
+      "source": "How many people have heard of the dining philosophers problem? Okay, we got quite a few. And, you know, you've got these philosophers, represented by brown circles, because I'm not that great at graphics. And now, Dijkstra, when he posed this in 1969, said that there was some very difficult spaghetti, so he had to have two forks to eat it. And I haven't come across any spaghetti like that during my entire life. So I'm moving it eastwards a little bit, and we're using chopsticks instead. And for chopsticks I have had the experience of requiring two of them to eat unless I can stab it or something.",
+      "kind": "explicit-chinese-surname-alias-in-philosophers-introduction",
+      "before_display": "有多少人听说过“哲学家就餐问题”？好，不少人。这些棕色圆圈代表哲学家。没办法，我画图就这个水平。Dijkstra 在 1969 年提出这个问题时，说有一种特别难对付的意大利面，得用两把叉子才能吃。活到现在，我还真没遇到过这种面。所以，我把背景稍微往东挪一点，改用筷子。筷子我倒有经验，得用两根才能吃。当然，拿一根直接戳，又是另一回事。",
+      "after_display": "有多少人听说过“哲学家就餐问题”？好，不少人。这些棕色圆圈代表哲学家。没办法，我画图就这个水平。Dijkstra 在 1969 年提出这个问题时，说有一种特别难对付的意大利面，得用两把叉子才能吃。活到现在，我还真没遇到过这种面。所以，我把背景稍微往东挪一点，改用筷子。筷子我倒有经验，得用两根才能吃。当然，拿一根直接戳，又是另一回事。",
+      "before_spoken": "有多少人听说过“哲学家就餐问题”？好，不少人。这些棕色圆圈代表哲学家。没办法，我画图就这个水平。Dijkstra 在 1969 年提出这个问题时，说有一种特别难对付的意大利面，得用两把叉子才能吃。活到现在，我还真没遇到过这种面。所以，我把背景稍微往东挪一点，改用筷子。筷子我倒有经验，得用两根才能吃。当然，拿一根直接戳，又是另一回事。",
+      "selected_label": "dijkstra-documented-chinese-surname",
+      "candidates": [{
+        "label": "dijkstra-documented-chinese-surname",
+        "text": "有多少人听说过“哲学家就餐问题”？好，不少人。这些棕色圆圈代表哲学家。没办法，我画图就这个水平。戴克斯特拉在 1969 年提出这个问题时，说有一种特别难对付的意大利面，得用两把叉子才能吃。活到现在，我还真没遇到过这种面。所以，我把背景稍微往东挪一点，改用筷子。筷子我倒有经验，得用两根才能吃。当然，拿一根直接戳，又是另一回事。",
+        "reason": "Use the documented Chinese surname in spoken text only, keeping Dijkstra exact in display/source. Retain the lecturer's 1969 attribution, question, drawing joke, two-fork comparison, eastward move and one-chopstick aside. Do not silently correct historical attribution or claim a universal modern transliteration standard."
+      }]
+    }
+  ],
+  "selection_policy": "Only complete selected-label candidates measured inside unchanged original windows may be adopted. Keep display/source exact and validate actual production separately; aliases are input controls, not phoneme, naturalness or emotional approval.",
+  "existing_sound_and_targeted_diagnostic_gates_preserved": true,
+  "human_listened": false,
+  "pronunciation_approved": false,
+  "emotional_delivery_approved": false,
+  "automatic_listening_decision": false,
+  "production_applied": false
+}
