@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "video_id": "qYPCL1KGdQA",
+  "expected_source_sha256": "effe3f1f4393e4982b529e2fe8b0431592e8274e0ebe76af7e2b1203dd57c9f2",
+  "semantic_ranges": [
+    "1", "2-3", "4-5", "6", "7-9", "10", "11", "12-15", "16-17", "18", "19-20", "21-22", "23-24", "25-27", "28-29", "30-31", "32-34", "35-38", "39-41", "42-46", "47-52", "53-55", "56-60", "61", "62-66", "67-70", "71-73", "74-77", "78-79", "80-83", "84-86", "87-92", "93-94", "95-99", "100-102", "103-104", "105-108", "109-113", "114-117", "118-123", "124-128", "129-132", "133-137", "138-139", "140-141", "142-144", "145-148", "149-151", "152-157", "158-161", "162-166", "167-171", "172-176", "177-180", "181-185", "186-187", "188-190", "191-193", "194-195", "196-199", "200-202", "203-207", "208-217", "218-223", "224-227", "228-231", "232-235", "236-237", "238-240", "241-244", "245-247", "248-251", "252-257", "258-261", "262-264", "265-267", "268-274", "275-279", "280-281", "282-285", "286-291", "292-293", "294-295", "296-298", "299-302", "303-307", "308-311", "312-314", "315-317", "318-320", "321-324", "325-328", "329-330", "331-334", "335-337", "338-341", "342-344", "345-348", "349-350", "351-353", "354-357", "358-361", "362-364", "365-369", "370", "371-373", "374-375", "376-384", "385-386", "387-391", "392-397", "398-401", "402-408", "409-412", "413-415", "416-419", "420-424", "425-428", "429", "430-431", "432-434", "435-437", "438-439", "440-445", "446-448", "449-450", "451-454", "455-459", "460-461", "462-465"
+  ],
+  "source_corrections": [
+    {"id": 20, "before": "sequence symmetry model CPU board", "after": "Sequent Symmetry Model C CPU board", "evidence": "source-images-v1/board.jpg and board-properties.jpg; established source audit"},
+    {"id": 25, "before": "83D6", "after": "80386", "evidence": "board-properties source frame"},
+    {"id": 26, "before": "83D6", "after": "80386", "evidence": "board-properties source frame"},
+    {"id": 46, "before": "SQL guys", "after": "Sequent guys", "evidence": "Explicit contextual spelling correction: speaker's employer in42 and Symmetry in45; not new acoustic confirmation"},
+    {"id": 61, "before": "in the early but", "after": "in the early 90s, but", "evidence": "verification clip, both existing ASR models"},
+    {"id": 65, "before": "to get a single CPU system these days.", "after": "It's a little bit difficult to get a single CPU system these days.", "evidence": "verification clip at340.38-344.98 and340.98-344.80; existing old tail supplies these days"},
+    {"id": 68, "before": "Michael long-termed", "after": "Michael Wong termed", "evidence": "iron-triangle source frame and author's perfbook; not ASR agreement on surname"},
+    {"id": 103, "before": "lead manhiner", "after": "lead maintainer", "evidence": "Explicit lexical repair of malformed ASR in maintainer context; no claim of new listening"},
+    {"id": 127, "before": "major-pros viewpoint", "after": "major professor's viewpoint", "evidence": "Explicit contextual expansion; academic user-viewpoint example, not new acoustic evidence"},
+    {"id": 133, "before": "and it may expand that acronym for you.", "after": "Can anybody expand that acronym for me?", "evidence": "Existing medium yagni clip at711.10-713.62; distil wording differs"},
+    {"id": 135, "before": "soft development", "after": "software development", "evidence": "Existing medium yagni clip and immediate software context"},
+    {"id": 154, "before": "Klinik's kernel", "after": "Linux kernel", "evidence": "Explicit contextual spelling repair of Linux kernel"},
+    {"id": 156, "before": "the currency", "after": "concurrency", "evidence": "Explicit contextual ASR repair; no financial currency discussion"},
+    {"id": 160, "before": "the currency", "after": "concurrency", "evidence": "Parallel speedup context and existing kiss clip"},
+    {"id": 182, "before": "compete pi", "after": "compute pi", "evidence": "Explicit contextual verb repair; pi estimation demonstration"},
+    {"id": 185, "before": "5 over 4", "after": "pi over 4", "evidence": "monte-carlo source frame and circle/square area definition"},
+    {"id": 186, "before": "an embarrassing parallel", "after": "embarrassingly parallel", "evidence": "Explicit technical-term spelling repair, same independent-trials context"},
+    {"id": 196, "before": "John Mashen", "after": "John Machin", "evidence": "Actual1076-second machin-formula source frame;1040-second old filename is not this formula"},
+    {"id": 232, "before": "the exact number of hash table", "after": "the exact number of elements in the hash table", "evidence": "hash-api source frame and existing audit of post-operation element count"},
+    {"id": 252, "before": "parallel axis control", "after": "parallel access control", "evidence": "Explicit contextual term repair: concurrency design/access control slide"},
+    {"id": 263, "before": "in a of red", "after": "in a sea of red", "evidence": "Explicit grammatical recovery of island/sea metaphor; original red/green frame supports meaning, not exact missing word"},
+    {"id": 300, "before": "air no", "after": "errno", "evidence": "Actual hash-status source frame; no unsupported minus sign added"},
+    {"id": 363, "before": "manual exterior", "after": "manual dexterity", "evidence": "Explicit contextual lexical repair in hand-assembly comparison; not acoustic approval"},
+    {"id": 380, "before": "Hahaha.", "after": "[Laughter]", "evidence": "Non-language event classification, entire mixed interaction reserved original"},
+    {"id": 383, "before": "Hahaha.", "after": "[Laughter]", "evidence": "Non-language event, not a word to synthesize"},
+    {"id": 409, "before": "five philosophies", "after": "five philosophers", "evidence": "Explicit subject-name repair, dining-philosophers source frame"},
+    {"id": 429, "before": "So to make it work do it.", "after": "So again, keep it simple, stupid. If you can do something stupid and make it work, do it.", "evidence": "Both existing faint-asr-v2 simple-continuation clips; explicit source-window change required"},
+    {"id": 459, "before": "vertical", "after": "brittle", "evidence": "Explicit contextual repair of peanut-brittle referent; not new acoustic confirmation"}
+  ],
+  "window_revisions": [
+    {"range": "1", "start": 0.0, "end": 14.1, "reason": "Complete original opening, including medium's earlier10.96-second All right and primary thanks, not a narrowed synthesis boundary."},
+    {"range": "2-3", "start": 16.06, "reason": "Existing medium opening segment starts16.06; explicit earlier source boundary, not unchanged old window."},
+    {"range": "429", "start": 2284.44, "end": 2289.54, "reason": "Union of the complete recovered maxim in existing two-model output; old2287.35-2289.41 omitted its first half."},
+    {"range": "462-465", "end_basis": "actual_media_duration", "reason": "Retain Cheers and complete physical tail, including any unresolved extra thanks; no silent removal based on ASR disagreement."}
+  ],
+  "original_voice_reservations": [
+    {"range": "1", "reason": "Original opening, possible introduction and complete initial thanks; no opening speech guessed."},
+    {"range": "133-137", "reason": "YAGNI prompt, audience answer and speaker reply; narrow turn boundaries not human-approved."},
+    {"range": "162-166", "reason": "KISS prompt/answer and unresolved late90s statement, retained rather than guessed70s."},
+    {"range": "208-217", "reason": "A load question, audience answer, repetition and joke; old211 contains more than one voice."},
+    {"range": "265-267", "reason": "SE Linux identity unresolved after existing independent ASR; historical performance claim not independently benchmarked."},
+    {"range": "286-291", "reason": "Entire hash-table prompt/weak audience answer/repetition, including1490.2-1494.2 gap omitted from primary captions."},
+    {"range": "338-341", "reason": "Physical-demo pause with sentence interrupted by taking objects out; no continuousTTS dragged across8-second pause."},
+    {"range": "376-384", "reason": "Mixed physical-demo exchange and laughter, roles uncertain; laughter is not spoken hahaha."},
+    {"range": "413-415", "reason": "Complete philosophers prompt/weak answer/reply including2190.3-2194.1, no answer invented from later solution."},
+    {"range": "425-428", "reason": "Chuck/Willy spelling and attribution uncertainty retained in original voice; speaker's I want to say preserved."},
+    {"range": "462-465", "reason": "Complete closing and unresolved tail voice, not only a separate alternate original track."}
+  ],
+  "source_additions": [
+    {"after_id": 134, "text": "[Audience] You ain't gonna need it. [Speaker]", "start": 713.94, "end": 714.96, "reason": "Existing two-model yagni clip; recovered text and role insertion are explicit additions."},
+    {"after_id": 163, "text": "[Audience] Keep it simple, stupid. [Speaker]", "start": 870.14, "end": 871.26, "reason": "Existing kiss ASR; fine turn timing remains unapproved, whole mixed span retained."},
+    {"after_id": 289, "text": "[Audience speech unclear; original audio retained]", "start": 1490.2, "end": 1494.2, "reason": "Not reconstructed lexical speech; two existing ASR outputs conflict."},
+    {"after_id": 413, "text": "[Audience speech unclear; original audio retained]", "start": 2190.3, "end": 2194.1, "reason": "Not the speaker's later paraphrase; preserve actual answer without guessing."}
+  ],
+  "source_deletions": [],
+  "invariants": [
+    "Every old source ID1 through465 belongs to exactly one formal unit, in original order.",
+    "Only the pre-correction, pre-addition old English token stream is conserved; new lexical repairs, event classifications and recoveries are separately recorded.",
+    "No language synthesis unit crosses a registered original-voice reservation; every language unit has an explicit same-speaker semantic range no longer than40seconds.",
+    "Original-voice reservation is not completed retention: actual source PCM must be backfilled into both Chinese main tracks before final delivery.",
+    "A wide original interval does not resolve internal roles, weak-word identification, external identity, performance facts, or human boundary approval.",
+    "Original media, primaryASR, old465-row draft, prior audits, ASR outputs and98rootPython files remain unchanged; exact old work-input backups precede formal source replacement.",
+    "No new ASR, TTS, render, platform publication, playlist expansion, shared-queue mutation or global-count changes are performed by source materialization."
+  ],
+  "human_listened": false,
+  "source_alignment_human_verified": false,
+  "finished_delivery": false
+}
