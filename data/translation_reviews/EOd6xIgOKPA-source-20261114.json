@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "video_id": "EOd6xIgOKPA",
+  "source_language": "es",
+  "expected_base_draft_sha256": "6717af3d7fe870f4df6e3684932bde8f4f1a9f116c7c4ac6134682f28e3f4a9f",
+  "expected_probe_plan_sha256": "34f5ea9527ca7e435771f09cf6575879d20a41d736012b389f36c40a0825087b",
+  "expected_primary_word_count": 3139,
+  "expected_formal_units": 84,
+  "expected_language_units": 82,
+  "source59_parts": [
+    {
+      "ref": "translation:59:apology",
+      "start": 1116.2,
+      "end": 1118.92,
+      "zh": "稍等，控制台不见了，抱歉。",
+      "spoken": "稍等，控制台不见了，抱歉。",
+      "source": "Secondary roofline-results segments at 1116.20 and 1118.54 seconds; explicit recovered phrase, not primary ASR text."
+    },
+    {
+      "ref": "translation:59:version",
+      "start": 1128.48,
+      "end": 1140.02,
+      "zh": "这里用的是 SoA 布局的 AVX2 版本。",
+      "spoken": "这里用的是 S O A 布局的 A V X 二版本。",
+      "source": "Primary words before Vamos; secondary version/soa/a x2 at 1135.02-1140.02; actual 1150-second terminal path supports ver-soa-avx2."
+    },
+    {
+      "ref": "translation:59:survey",
+      "start": 1143.66,
+      "end": 1152.48,
+      "zh": "我们做一次 Survey 分析，再用 Intel Advisor 查看结果。",
+      "spoken": "我们做一次 Survey 分析，再用英特尔 Advisor 查看结果。",
+      "source": "All remaining primary sentence59 words starting at Vamos."
+    }
+  ],
+  "extra_source_corrections": [
+    {"sentence_id": 8, "before": "vectorizase siempre", "after": "vectorizase no siempre", "reason": "Secondary opening-pragmas at 126.00-133.52 explicitly contains no siempre; preserve the negation already present in the Chinese draft."},
+    {"ref": "translation:59:version", "before": "version soa", "after": "versión SoA", "reason": "Explicit spelling normalization of recovered low-confidence ASR; terminal filename is separate visual evidence, not a claim of two-model agreement."},
+    {"ref": "translation:59:version", "before": "a x2", "after": "AVX2", "reason": "Recovered ASR approximate lettering; the actual terminal path supports avx2, not an unconditional hardware capability claim."}
+  ],
+  "original_voice_reservations": [
+    {"ref": "original:opening", "start": 0.0, "end_basis": "first primary word start", "source_text": "[Audio original de apertura]", "zh": "原声保留：片头", "spoken": "…"},
+    {"ref": "original:ending", "start_basis": "last primary language word end", "end_basis": "actual media duration", "source_text": "[Audio original de cierre]", "zh": "原声保留：片尾", "spoken": "…"}
+  ],
+  "invariants": [
+    "Every one of the 3139 original primary word indices belongs to exactly one formal language unit; original order is unchanged.",
+    "The 26 existing correction rules have 37 non-overlapping literal matches. Apply longer literals before shorter contained names and retain every match record.",
+    "Recovered secondary words and the restored negation are separate explicit additions; never claim post-correction or post-recovery word conservation.",
+    "Replace only the former combined sentence59 unit with three complete units at measured source word windows; no later unit moves and no cross-role synthesis.",
+    "The two non-TTS reservations must receive actual source audio in the Chinese main track before any master or upload can be considered complete; a silent base TTS placeholder is not original-voice retention.",
+    "Source media, primary and secondary ASR, old drafts, successful A/B media, prior nonzero logs and all root Python files remain unchanged.",
+    "Spanish metadata runtime remains mandatory; source en.srt and en keys contain Spanish, not English or website auto-translation."
+  ],
+  "source_alignment_human_verified": false,
+  "human_listened": false,
+  "pronunciation_approved": false,
+  "emotional_delivery_approved": false
+}

@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "video_id": "EOd6xIgOKPA",
+  "scope": "Three evidence-based spoken-only equivalences after the first full TTS rejection; never change source windows or display text.",
+  "before_compilation_sha256": "6227fbfbd902371644c9cad0785798b4de8821e4e41c556dbd901d1dce9c0afb",
+  "before_overrides_sha256": "97051743c89a87fb355c01b148fe65493eca330da5301824621e4a8a758d31f7",
+  "cached_fit_diagnostic_sha256": "02c6d4bdc8647760e27c8177b0a2187f692d1a86cbc810bd68ca9b0f55e16671",
+  "edits": [
+    {
+      "unit_id": 23,
+      "source_ref": "translation:24",
+      "before": "这大致就是屋顶线模型，它展示了这两个上限。",
+      "after": "这大致就是屋顶线模型的两个上限。",
+      "strict_source_window_seconds": 3.54,
+      "measured_old_seconds": 3.725416666666667,
+      "reason": "Combine the repeated model/it construction; retain 大致, Roofline and both limits. Do not use the inter-unit gap to fit the old reading."
+    },
+    {
+      "unit_id": 38,
+      "source_ref": "translation:34",
+      "before": "稍后我们会演示怎样通过命令行获得它，再以图形方式查看。",
+      "after": "稍后用命令行生成，再看图形结果。",
+      "strict_source_window_seconds": 3.32,
+      "measured_old_seconds": 4.601958333333333,
+      "reason": "Retain the future demonstration, command-line generation and graphical inspection; remove the redundant 我们会演示怎样/通过/以方式 scaffolding, not an operation or condition."
+    },
+    {
+      "unit_id": 42,
+      "source_ref": "translation:38",
+      "before": "好，下面开始 英特尔 Advisor 的实际演示。",
+      "after": "好，开始英特尔 Advisor 演示。",
+      "strict_source_window_seconds": 3.04,
+      "measured_old_normal_seconds": 3.776875,
+      "measured_old_15_percent_seconds": 3.285625,
+      "reason": "Keep the greeting transition, start of demonstration and full Intel Advisor name; omit redundant 下面/的实际 rather than the tool name, source content or following speech."
+    }
+  ],
+  "invariants": [
+    "Preserve the source SRT, all display translations, all 84 source windows, the restored negation and all 17 recovered secondary words.",
+    "Retain the first failed TTS shell status 1 and all 83 existing MP3 cache identities; reuse unaffected successful per-unit synthesis instead of resynthesizing it.",
+    "Use the frozen formal CLI through the explicit Spanish metadata runtime, with a +15% ceiling, no extra atempo, no cutoff and no overlap.",
+    "Successful fitting and registered-term checks are not proof of pronunciation, expressive delivery or human listening. Original opening/ending audio still requires actual backfill."
+  ],
+  "human_listened": false,
+  "final_voice_approval": false
+}
