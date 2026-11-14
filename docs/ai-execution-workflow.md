@@ -1,5 +1,9 @@
 # AI 执行工作流：自包含中文译配视频
 
+## 2026-11-15：来源对齐与完整结尾试读分开准入
+
+复用共享`speech_variants`生成完整正常速率候选，用已有`speech_polish.write_page`做内部AAC/候选/原片对照；之前窗从已验证当前完整PCM精确取样，不重解码全片、不拿旧MP3冒充当前AAC。`cjiUXZh0ZCo`308/315–320七窗八条真实试读/检查通过，318两读法无胜者；319/320取舍配对归位，不称全局漏译。现成输出只读check，勿重跑preview；后续采用须新当前质量权威收据和既有暂存/媒体/安装合同，不能把历史install-check直接冒充质量收据或修改已绑定适配器。入口`checkpoint-closing-speech-v1`及命令见`science-performance-closing-speech-2026-11-15.md`；191候选与全部人工/声音/播放器门禁保持。
+
 ## 2026-11-15：历史计划显式归档后正式安装，不改旧guard
 
 `cjiUXZh0ZCo`257/258两句正常完整候选已正式采用，31项新事务committed，prepare/apply/check0。`editorial_history`只为精确派生工程将原guard的历史身份/读取路由到终态旧事务精确归档，不改全局state I/O/绑定代码。41有限检查含22拒绝；旧失败1与回滚保留，新权威/运行时/安装证明分开绑定，后续用该显式入口check，不能裸套旧runtime或重试旧事务。

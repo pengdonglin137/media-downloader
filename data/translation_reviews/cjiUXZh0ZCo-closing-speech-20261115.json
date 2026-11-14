@@ -1,0 +1,187 @@
+{
+  "kind": "closing-complete-utterance-editorial-review-v1",
+  "video_id": "cjiUXZh0ZCo",
+  "work": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo",
+  "request": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/closing-speech-v1",
+  "review_date": "2026-11-15",
+  "voice": "zh-CN-YunxiNeural",
+  "rate": "+0%",
+  "scope": "Seven complete source windows, eight independent whole-utterance readings; no production installation or automatic winner.",
+  "source_reviews": [
+    {
+      "unit_id": 308,
+      "source_start": "5313.25",
+      "source_end": "5330.44",
+      "source": "I think this is one of the very exciting for me because I think it's one of the few new articles about how we can use artificial intelligence with with with with performance or performance engineering or science of performance",
+      "finding": "Restore the speaker's qualified assessment that these new articles are few. Retain his personal excitement; do not make a claim about the literature in 2026 or substitute an unsupported final-direction label."
+    },
+    {
+      "unit_id": 315,
+      "source_start": "5439.01",
+      "source_end": "5453.2",
+      "source": "are you looking for a performance engineering job yes this is all about this talk or are you interested in performance is also to this talk I",
+      "finding": "Use inviting questions addressed to the listener without inventing an audience turn, a hiring promise or new career advice. The formal source retains its trailing I."
+    },
+    {
+      "unit_id": 316,
+      "source_start": "5453.2",
+      "source_end": "5476.6",
+      "source": "do you want to learn about performance is it your is it your your life professional think that you want to do yeah so actually people they think that and they're maybe they do mistakes between software engineer and performance engineer which is two different things",
+      "finding": "Keep both the learning/career question and the possibility of confusing two different jobs; do not change may confuse to an established universal mistake."
+    },
+    {
+      "unit_id": 317,
+      "source_start": "5476.6",
+      "source_end": "5493.28",
+      "source": "you need to know about software but also you need to know about hard work you cannot be expert in the software and your good performance engineer this is why you need first you need to do the system architecture of the CPU memory the you know Hennessy and Patterson book",
+      "finding": "Keep the existing hardware interpretation, explicit software/hardware requirements, insufficiency of software expertise alone, system architecture, CPU, memory and both book authors. Preserve literal hard work in the English source; this is not new acoustic adjudication. Do not add a book title, edition or verified Chinese author-name pronunciation."
+    },
+    {
+      "unit_id": 318,
+      "source_start": "5493.28",
+      "source_end": "5504.95",
+      "source": "this is going to be similar thing as my career you don't need to do the research I did research because I loved research and they still love research I love also teaching",
+      "finding": "Retain the autobiographical comparison, no research requirement, love as the reason for doing research, continuing love of research and love of teaching. Two full-sentence readings compare 喜欢/热爱, not invented emotional labels or an acoustically approved winner. Literal they remains unchanged in the source."
+    },
+    {
+      "unit_id": 319,
+      "source_start": "5504.95",
+      "source_end": "5517.989",
+      "source": "you need to know how to develop application and Java and Hadoop - not an expert but the general understanding of software you need to be good in cost and TCO",
+      "finding": "Retain application development, Java, Hadoop, not an expert/general software understanding and both cost and total cost of ownership. Trade-off was already translated in this unit; relocate it to source unit320, not a global omission. Preserve the previously corrected formal Java/Hadoop source."
+    },
+    {
+      "unit_id": 320,
+      "source_start": "5517.989",
+      "source_end": "5529.98",
+      "source": "or trade of things that you don't need and optimisation good in analytics but perfection is bad you don't need to be perfect thank you",
+      "finding": "Put trade-offs back inside their own source window, keeping unnecessary things, optimization, analytical ability, the warning against perfection, no need to be perfect and the closing thanks. Do not move the5529.98applause boundary."
+    }
+  ],
+  "speaker_review": {
+    "same_speaker": true,
+    "evidence": "The existing formal-source-v1/revision.json documents308and315-320as presenter/main presenter textually reviewed with provisional-presenter; not human-approved. Current source/text/voice mappings and surrounding304-321were read. These are complete existing presenter units;321is an original-applause reservation and excluded. Documentary review is not a new acoustic or human speaker-boundary approval."
+  },
+  "cases": [
+    {
+      "key": "body-308-research-excitement",
+      "unit_id": 308,
+      "display": "这个方向让我特别兴奋。因为在我看来，把人工智能用于性能、性能工程，也就是性能科学的这类新文章，还不多。",
+      "spoken": "这个方向让我特别兴奋。因为在我看来，把人工智能用于性能、性能工程，也就是性能科学的这类新文章，还不多。",
+      "reason": "Restore the few-new-articles clause with the speaker's I-think qualification; express excitement naturally without the unsupported 最后 label or a mechanical break after 人工智能.",
+      "preserved_facts": [
+        "The excitement is personal to the speaker.",
+        "The few-new-articles assessment remains qualified and belongs to the historical talk.",
+        "Artificial intelligence is related to performance, performance engineering and science of performance."
+      ]
+    },
+    {
+      "key": "body-315-inviting-question",
+      "unit_id": 315,
+      "display": "你在找性能工程方面的工作吗？那这场报告正好围绕这个话题。或者，你只是对性能感兴趣？这场报告也同样适合你。",
+      "spoken": "你在找性能工程方面的工作吗？那这场报告正好围绕这个话题。或者，你只是对性能感兴趣？这场报告也同样适合你。",
+      "reason": "Make the two listener-directed questions conversational while retaining relevance to job seekers and those simply interested in performance; no audience response or job outcome is fabricated.",
+      "preserved_facts": [
+        "Looking for a performance engineering job is a question, not an assertion about the audience.",
+        "The talk addresses that subject.",
+        "An interest in performance alone also makes the talk relevant."
+      ]
+    },
+    {
+      "key": "body-316-career-distinction",
+      "unit_id": 316,
+      "display": "你想学习性能，把它当成自己今后的职业吗？有些人可能会把软件工程师和性能工程师混为一谈，但这是两种不同的工作。",
+      "spoken": "你想学习性能，把它当成自己今后的职业吗？有些人可能会把软件工程师和性能工程师混为一谈，但这是两种不同的工作。",
+      "reason": "Preserve the career invitation and the may-confuse qualification; call these two jobs rather than two vague things. Question punctuation is a delivery proposal, not proof of rhetorical intonation.",
+      "preserved_facts": [
+        "Learning about performance and a possible professional direction remain explicit.",
+        "Confusion between software engineering and performance engineering remains possible rather than universal.",
+        "The two jobs remain distinct."
+      ]
+    },
+    {
+      "key": "body-317-architecture-and-authors",
+      "unit_id": 317,
+      "display": "性能工程师既要懂软件，也得懂硬件；只精通软件可不够。先学系统架构：CPU、内存，比如 Hennessy 和 Patterson 书中的内容。",
+      "spoken": "性能工程师既要懂软件，也得懂硬件；只精通软件可不够。先学系统架构：C P U、内存，比如 Hennessy 和 Patterson 书中的内容。",
+      "reason": "Use parallel software/hardware clauses and a complete system-architecture example; retain author spellings rather than promote an unverified transliteration to a pronunciation correction. CPU spelling is scoped to speech, not display.",
+      "preserved_facts": [
+        "A performance engineer needs software and hardware knowledge.",
+        "Software expertise alone is insufficient.",
+        "System architecture comes first and includes CPU and memory.",
+        "Both Hennessy and Patterson remain explicit without an invented book title or edition."
+      ]
+    },
+    {
+      "key": "body-318-affection-natural",
+      "unit_id": 318,
+      "display": "这和我的职业经历有些相似，但你不必做研究。我当年做研究，就是因为喜欢。现在仍然喜欢，也喜欢教学。",
+      "spoken": "这和我的职业经历有些相似，但你不必做研究。我当年做研究，就是因为喜欢。现在仍然喜欢，也喜欢教学。",
+      "reason": "Make the personal reason and continuing affection conversational while retaining the research-is-not-required qualification; do not add enthusiasm instructions that the engine has not actually applied.",
+      "preserved_facts": [
+        "The speaker compares this path to his own career.",
+        "Research is not required.",
+        "He did research because he loved it, still loves it and also loves teaching."
+      ]
+    },
+    {
+      "key": "body-318-affection-explicit",
+      "unit_id": 318,
+      "display": "这和我的职业经历有些相似，但你不必做研究。我做研究，是因为热爱；现在依然热爱研究，也热爱教学。",
+      "spoken": "这和我的职业经历有些相似，但你不必做研究。我做研究，是因为热爱；现在依然热爱研究，也热爱教学。",
+      "reason": "Compare a second full-sentence faithful rendering of loved/love using 热爱, preserving every qualification. This is not a selected emotional or acoustic winner.",
+      "preserved_facts": [
+        "The same complete autobiographical comparison and research-is-not-required clause are retained.",
+        "Love explains the research choice and continues in the present of the talk.",
+        "Love of teaching is explicit, not replaced by a generic interest."
+      ]
+    },
+    {
+      "key": "body-319-cost-software-foundations",
+      "unit_id": 319,
+      "display": "你得会开发应用，对 Java 和 Hadoop 有基本了解；不要求成为专家，但要有软件基础，也要懂成本和总拥有成本。",
+      "spoken": "你得会开发应用，对 Java 和 Hadoop 有基本了解；不要求成为专家，但要有软件基础，也要懂成本和总拥有成本。",
+      "reason": "Keep the expertise limit, general software foundation, tools and cost/TCO while relocating the already-translated trade-off to320. This pair must be reviewed together before any future production adoption.",
+      "preserved_facts": [
+        "Know how to develop applications.",
+        "Java and Hadoop remain named with no expertise requirement.",
+        "General software understanding is required.",
+        "Both cost and total cost of ownership remain explicit.",
+        "Trade-offs remain globally present in the paired320candidate, not removed from the talk."
+      ]
+    },
+    {
+      "key": "body-320-tradeoffs-and-thanks",
+      "unit_id": 320,
+      "display": "还要懂取舍，知道什么不需要、怎样优化，也要善于分析。但追求完美反而不好；你不需要事事完美。谢谢大家！",
+      "spoken": "还要懂取舍，知道什么不需要、怎样优化，也要善于分析。但追求完美反而不好；你不需要事事完美。谢谢大家！",
+      "reason": "Restore trade-offs to their own original source window rather than report a global omission; retain the perfection warning and the complete closing thanks. Do not extend into original applause321.",
+      "preserved_facts": [
+        "Trade-offs and recognizing unnecessary things remain explicit.",
+        "Optimization and analytical ability remain explicit.",
+        "The warning about perfection and not needing to be perfect are retained.",
+        "The final thanks is complete, with the original5529.98applause boundary unchanged."
+      ]
+    }
+  ],
+  "author_name_reading": {
+    "display_and_spoken_preserve": ["Hennessy", "Patterson"],
+    "chinese_transliteration_adopted": false,
+    "primary_source_and_acoustic_pronunciation_verified": false,
+    "reason": "No usable primary-source author-name reading evidence was retained. A local exploratory retrieval returned HTTP404; it is not evidence for a spelling, a published transliteration or acoustic pronunciation."
+  },
+  "admission": {
+    "production_text_or_audio_modified": false,
+    "human_listened": false,
+    "pronunciation_or_emotion_approved": false,
+    "speaker_boundary_acoustically_approved": false,
+    "automatic_winner": null,
+    "database_decisions_written": false,
+    "strict_production_admission_proven": false,
+    "source_english_modified": false,
+    "extra_atempo_or_audio_trimming": false,
+    "original_speech_or_applause_modified": false,
+    "goal_status": "active"
+  },
+  "next_action": "Bind current installed inputs and complete current-AAC reference windows, synthesize all eight whole utterances once at normal rate, preserve measured failures/over-window trials and review before any separate production-admission transaction."
+}
