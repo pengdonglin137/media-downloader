@@ -1,5 +1,13 @@
 # AI 执行工作流：自包含中文译配视频
 
+## 2026-11-14：保留历史的正式安装入口
+
+- 候选完整验证后用`python -m media_workflow.editorial_install prepare INSTALL.json --output NEW_INSTALL`；配置只绑定原工程、候选配置／验证身份及固定作用域。旧源译／审校／私库／正式媒体须匹配基线，先归档31项原状态和候选，不改正式文件。
+- 再`apply`逐文件登记和原子替换，精确复制媒体不重编码；正式路径实扫当前WAV、保留最新候选全SQL历史，重建render-bound质量和原生技术release。成功后只`check`，不重启成功制作。
+- 失败／中断先查真实进程和日志；`recover`显式恢复旧文件及原来的不存在，保留生成版和失败，不覆盖未知人工修改。未提交不能正常复用，已提交不隐式回滚；配置和适配器身份须保持，不套用旧单片v4。多文件整体不是文件系统原子提交。
+- 实跑prepare／apply／check／正式路径有限VLC四外层真实0；64有限检查含27拒绝、namespace CLI、435原身份交账及31当前项核验通过。414原身份不变、21归档；98根Python／293MP3／原私库不变，私库85→86扫描、191候选和旧行保留，0新人耳决定／解决。
+- 有限VLC68行解码／时间戳告警原因未确立，不称无告警或全片播放验收。六真实渲染受限JPEG逐张看过，v1限额断言1保留、v2缩尺寸后通过；不重做媒体。入口`checkpoint-editorial-install-v1`，详见`docs/editorial-install.md`；发音／情感、人耳／全片视觉／逐词／PotPlayer待批准，目标active。
+
 ## 2026-11-14：共享媒体生产，先隔离后验证
 
 - 用`python -m media_workflow.editorial_media prepare MEDIA.json --output NEW_MEDIA`派生工程；只绑定成功preflight配置／清单、术语、1至16线程及固定隔离作用域。预检工程保持不可变，私库从其最新扫描一致性备份。

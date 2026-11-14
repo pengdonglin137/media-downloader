@@ -1,5 +1,12 @@
 # Media Downloader
 
+## 当前进度：两处补句已进入正式双版
+
+- `cjiUXZh0ZCo`142／270补句已正式安装到`Science of Performance 2019_中文配音.mp4`和`Science of Performance 2019_中文上传版.mp4`，保留40.2秒中文有声导读、85章和完整正文；旧版精确归档，不重编码。
+- 新入口`python -m media_workflow.editorial_install`提供prepare／apply／check／recover；共享事务保存每个旧版和生成版本。说明见`docs/editorial-install.md`，断点`checkpoint-editorial-install-v1`。
+- 64有限检查、435原身份交账和正式路径质量重绑通过；98根Python、293MP3、原私库不变。私库保留85个旧扫描并追加第86个，191候选未听辨，无新人耳决定／解决。
+- 正式路径有限VLC断言通过但保留68行解码／时间戳告警，六受限图仅局部检查。发音、情感、全片听看、逐词声画和PotPlayer未批准；新链接0sZlaQr3e2w仍441来源单元待译，不把本片安装当作全部任务完成。
+
 ## 当前进度：补句已生成双版候选，旧正式媒体保留
 
 - `cjiUXZh0ZCo`142／270补句已通过共享适配器生成真实母版／烧字上传候选，均含40.2秒中文导读和85章。两版完整解码、视频呈现时间、中文AAC／PCM与当前质量绑定通过；旧正式路径尚未替换。
