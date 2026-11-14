@@ -1,5 +1,11 @@
 # 本仓库的 AI 执行入口
 
+## 2026-11-14：AI纠正有声卡片与五项图审修订，正文仍待准入
+
+- 新共享`media_workflow.commentary_visual`复用16条完整AI试读，已生成12类纠正的16个独立有声MKV候选；全部明确非讲者原话／未选胜。295.368秒原WAV逐样本保持，7391实际视频帧／295.640秒逐帧RGB等于卡片；不是16个已安装插段或新增全片时长，字幕锚点仅有单候选有理映射，不证明真实交接。
+- 逐张看16张实际图发现四处行首标点和两处短尾行、合计五条；v2只重编码这五条、其余11条按字节复用，全16声音不重合成。旧v1源码以只读txt归档绑定，旧媒体／manifest保留，当前代码明确v2；不可用新CLI冒充旧制作器身份。再看五张实际修订图，共21受限图已看，当前16张证据为5新＋11精确复用，不称21张全为当前新图。
+- v2当前48有限检查含29拒绝及namespace CLI通过；两版各prepare／render／check、独立核验真实0。392原身份、66旧v1实物与归档、9模型资产及98根Python保持；fps_mode诊断与图像包装器真实1保留，不重跑成功音频／ASR。入口`request-0sZlaQr3e2w-20261114/checkpoint-commentary-visual-v1/execution-progress.json`，说明`docs/ai-commentary-visual.md`；只提交本轮自身文件，正式仍awaiting_translation，角色／发音／情感／人耳／全片视觉／PotPlayer未批准，目标active。
+
 ## 2026-11-14：Linux性能访谈来源核对与阅读修订，仍隔离
 
 - `0sZlaQr3e2w`六个完整语境片段各用已有medium／distil离线ASR，一次解码／六次取段／十二ASR共19子步骤及原外层真实0。没有证据强改unperformant或disk-bound；170删除中文凭空增加的“名字归名字”，称呼仍显式待听辨，436仅改善文字自嘲语气。新隔离阅读稿只改这两项，其余439项保持，备注绝不送TTS，旧绑定稿／AI计划和正式`awaiting_translation`不动。

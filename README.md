@@ -1,5 +1,11 @@
 # Media Downloader
 
+## 2026-11-14：AI纠正有声画面审片
+
+- `0sZlaQr3e2w`已有16条明确标注非讲者原话的独立有声卡片候选，12类纠正及四组对照均保留；没有自动选胜、重做TTS或切原片。图审修订版只新编码五条、其余11条视频按字节复用，全部原WAV声音保持。
+- 当前7391视频帧及完整音频核对通过；21张实际受限图逐张看过，当前16条证据为5张修订新图＋11张精确复用。正式工程仍`awaiting_translation`，这不是全片完成或发音／情感／人耳批准。
+- 运行与实物：`docs/ai-commentary-visual.md`；独立入口`/home/pengdl/Videos/translated_backlog/.workflow_logs/request-0sZlaQr3e2w-20261114/checkpoint-commentary-visual-v1/execution-progress.json`。本轮仅选择性提交自身实现、作者稿及说明，其他并行改动保留，目标active。
+
 ## 2026-11-14：Linux性能访谈来源观察
 
 - `0sZlaQr3e2w`六段双模型离线核对及441块全文来源索引完成；只在新隔离阅读稿修170疑似称呼与436自嘲表达，其余439项不变。19实际子步骤及原外层0，不代表人耳、角色、发音或情感批准。

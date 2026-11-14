@@ -1,0 +1,24 @@
+{
+  "kind": "ai-commentary-visual-editorial-v1",
+  "bound_audio_plan": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-0sZlaQr3e2w-20261114/checkpoint-commentary-v1/bound-plan.json",
+  "audio_previews": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-0sZlaQr3e2w-20261114/commentary-previews-v1",
+  "font": {"path": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc", "index": 2},
+  "cards": [
+    {"key": "load-explanatory", "heading": "负载并非 CPU 使用率", "terms": ["CPU", "指数平滑", "不可中断"]},
+    {"key": "cgroup-origin", "heading": "控制组属于内核机制", "terms": ["cgroups", "Linux", "systemd"]},
+    {"key": "cgroup-membership", "heading": "归属由启动路径与配置决定", "terms": ["ls", "dnf", "资源权重"]},
+    {"key": "vmstat-intervals", "heading": "先区分快照与区间速率", "terms": ["vmstat", "首行", "采样区间"]},
+    {"key": "nfs-wait-caution", "heading": "等待状态与信号不能混同", "terms": ["Ctrl+C", "kill", "NFS", "D状态"]},
+    {"key": "interrupt-counts", "heading": "中断计数不等于网络流量", "terms": ["中断", "网络包", "PCI MSI-X"]},
+    {"key": "nice-native-term", "heading": "分清 PRI、NI 与相对权重", "terms": ["PRI", "NI", "nice", "-20至19"]},
+    {"key": "oom-spelled-acronyms", "heading": "OOM 评分方向必须纠正", "terms": ["OOM", "sshd", "内存泄漏"]},
+    {"key": "free-native-columns", "heading": "free 与 available 含义不同", "terms": ["free", "available", "换页"]},
+    {"key": "anonymous-memory", "heading": "匿名内存不等于不能换出", "terms": ["匿名页", "交换空间", "锁定"]},
+    {"key": "swap-use-cases", "heading": "交换空间按用途核对", "terms": ["休眠", "内存回收", "崩溃转储", "RHEL9"]},
+    {"key": "metrics-retention", "heading": "区分指标、保留期与因果", "terms": ["PCP", "轮转", "因果"]},
+    {"key": "load-rhetorical", "heading": "四个 CPU 就会自动除以四吗？", "terms": ["CPU", "指数平滑", "不可中断"]},
+    {"key": "nice-meaning-first", "heading": "优先级栏与 nice 值栏要分开", "terms": ["PRI", "NI", "nice", "-20至19"]},
+    {"key": "oom-meaning-first", "heading": "高评分通常意味着更高风险", "terms": ["OOM", "SSH", "内存泄漏"]},
+    {"key": "free-meaning-first", "heading": "两个表头，不是同一个数", "terms": ["free", "available", "换页"]}
+  ]
+}
