@@ -1,5 +1,11 @@
 # AI 执行工作流：自包含中文译配视频
 
+## 2026-11-15：GPU/软件试读断点，禁止全12条直接暂存
+
+- 当前入口`request-cjiUXZh0ZCo-20261114/checkpoint-gpu-software-preview-v1`；运行根`gpu-software-v1`。12试读/11原窗已成功，先check及核对独立收据，不能重复合成；正式双版仍前轮172/173来源修订安装版本。
+- 209有A/B两条，正式选择只能留一条；不得按时长或词边界冒称情感胜者。188/204披露需显式源文修订，完整12含重复209会被真实validator拒绝；有限夹具通过不是实际stage准入。205仍留recurrent歧义，不临时猜成递归。
+- 378词边界和全量PCM/当前AAC完整窗通过，仅技术证据。内部页25媒体路由/12按钮静态检查，不记录试听或自动决定；正式数据库101扫描/186候选/12非dismiss分类/0决定不改。新2本地ASR及12联网TTS如实登记，无新全片解码/编码，后续来源→字幕→质量→媒体→安装须分别真实执行。见`docs/science-performance-gpu-software-2026-11-15.md`。
+
 ## 2026-11-15：来源修订成片已安装，续做只核验成功事务
 
 - 当前入口`request-cjiUXZh0ZCo-20261114/checkpoint-memory-storage-installed-v1`；`memory-storage-media-v1/media-v2`真实生产外层/九操作0，`install-v1`prepare/apply/check0，九单元/33中文短句和172/173源修订已正式采用。不得重做成功试读、投影、编码、解码或安装apply。

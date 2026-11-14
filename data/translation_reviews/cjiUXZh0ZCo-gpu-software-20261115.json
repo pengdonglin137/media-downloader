@@ -1,0 +1,593 @@
+{
+  "kind": "complete-gpu-software-source-and-reading-review-v1",
+  "review_date": "2026-11-15",
+  "video_id": "cjiUXZh0ZCo",
+  "work": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo",
+  "scope": "Complete30units186-215 source/display/spoken review;12 isolated complete trials on11units, including two unit209 warning alternatives. No formal adoption.",
+  "review_basis": [
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-v1/current-context-186-215.json",
+      "bytes": 26239,
+      "mtime_ns": 1794698882615422750,
+      "sha256": "ba89444b4465c51798b91ffd8918e8d27c358202038bfc586071872157bd0c02"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-v1/source-images-v1/source-3220.jpg",
+      "bytes": 29523,
+      "mtime_ns": 1794698947579104181,
+      "sha256": "859d86fb1f442906536972069b9d8203a91476c80c5614c91f108094068fd1ff"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-v1/source-images-v1/source-3460.jpg",
+      "bytes": 32198,
+      "mtime_ns": 1794698948793116988,
+      "sha256": "2f1778841cc7c1a48d52e9118ca1a15c30976fc0636cf16d59d3f671c6dc8114"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-v1/source-images-v1/source-3540.jpg",
+      "bytes": 32351,
+      "mtime_ns": 1794698950046130209,
+      "sha256": "9fb40a013383239c95004a24ac9975f1d76aaa96e3df98b44b34013e8c26fed7"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/source-images-v2/frame-3250.jpg",
+      "bytes": 32509,
+      "mtime_ns": 1794615629794353914,
+      "sha256": "f485c323420a0af1780a786a5821e9269808ab9dea6c92e15aa31b00e2ea1909"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/source-images-v1/source-3600.jpg",
+      "bytes": 27026,
+      "mtime_ns": 1794613515821914024,
+      "sha256": "09888cb9526565939bdfaff6b7e2b73b435db2d748590a34340d1472bc1201de"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-v1/source-asr-algorithms-v1/software-algorithms-medium.json",
+      "bytes": 28383,
+      "mtime_ns": 1794699038203066813,
+      "sha256": "45f3f5455803e3ed1c96f87aede2b2fd0f7c18eedfcde58d1c35606cdc9fa41e"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-v1/source-asr-algorithms-v1/software-algorithms-distil-large-v3.json",
+      "bytes": 28503,
+      "mtime_ns": 1794699021978893536,
+      "sha256": "89189cb39233d66c5d2456773a0fb0fcf494bd8e39177e881a8ef2a1b0e200e2"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/source-asr-recovery-v3/network-and-bcrypt-medium.json",
+      "bytes": 49633,
+      "mtime_ns": 1794617527346147257,
+      "sha256": "731711e344076310575a2491d15bc4f08c1d78722e7b1b7d786100c08267443a"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/source-asr-recovery-v3/network-and-bcrypt-distil-large-v3.json",
+      "bytes": 50959,
+      "mtime_ns": 1794616938119623476,
+      "sha256": "9dd746562eb3adf463eb9179b3691238a07ec06240fbb862474544cda5907bfd"
+    }
+  ],
+  "source_amendment_proposal_path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-v1/source-amendment-proposal-v1.json",
+  "source_evidence_limits": {
+    "images": "Five bounded source JPEGs individually opened:3 new,2 existing; only local source review.",
+    "ASR": "Two new unprompted local observations of one previously uncovered72second source clip;2 existing GPU observations reused. No human hearing.",
+    "source188": "Xeon spelling from medium+slide,distil Xion; inference too supported by both.",
+    "source204": "Code efficiency or algorithm efficiency supported by both new ASRs.",
+    "source205": "Recurrent agrees in the two ASRs but intended recurrence versus recursion remains unresolved; no new trial or adoption for this unit.",
+    "source187": "Parallel is slide-supported only; both ASRs say power. Source unchanged,not silently corrected."
+  },
+  "context_units_textually_read": [
+    {
+      "unit_id": 186,
+      "status": "retain-source-fragment-limitation",
+      "reason": "The search/access/data list remains ambiguous in both existing ASRs; do not invent a product or new data-access promise."
+    },
+    {
+      "unit_id": 187,
+      "status": "hold-legacy-English-wording",
+      "reason": "Current Chinese parallel processing is supported by the actually viewed slide. Both existing ASRs still say power; do not call this dual-ASR correction or silently revise source."
+    },
+    {
+      "unit_id": 188,
+      "status": "source-amendment-and-complete-preview",
+      "reason": "Medium says Xeon, distil says Xion, and the slide spells Xeon CPU; both support inference too. Explicit revision remains required."
+    },
+    {
+      "unit_id": 189,
+      "status": "retain-attributed-encryption",
+      "reason": "The source slide and lecture call bcrypt encryption. Keep this attributed/quoted, not an independently certified algorithm definition. Medium incorrectly says BigQuery."
+    },
+    {
+      "unit_id": 190,
+      "status": "complete-preview",
+      "reason": "Keep OpenCL versus CUDA in this historical FPGA project, not a universal contemporary programming limitation."
+    },
+    {
+      "unit_id": 191,
+      "status": "complete-preview",
+      "reason": "Support relation and complete Arria10 model name, no invented brand phonemes."
+    },
+    {
+      "unit_id": 192,
+      "status": "source-reservation-preserved",
+      "reason": "Actual source transition/question remains; no TTS and no role merge."
+    },
+    {
+      "unit_id": 193,
+      "status": "source-reservation-preserved",
+      "reason": "Actual TPU question exchange remains; do not replace it with a guessed question."
+    },
+    {
+      "unit_id": 194,
+      "status": "retain-qualified-personal-recollection",
+      "reason": "Keep the speaker inability to name a current TPU application, not a global assertion that TPU applications do not exist."
+    },
+    {
+      "unit_id": 195,
+      "status": "retain-hold-chip-taxonomy",
+      "reason": "Do not turn the lecturer V100/tensor discussion into a verified identification of V100 as a Google TPU."
+    },
+    {
+      "unit_id": 196,
+      "status": "source-reservation-preserved",
+      "reason": "Long audience question/unclear addressed name remains actual source; do not guess the person or synthesize across speakers."
+    },
+    {
+      "unit_id": 197,
+      "status": "complete-preview",
+      "reason": "Software/not hardware contrast and historical upcoming-processor qualification restored."
+    },
+    {
+      "unit_id": 198,
+      "status": "retain-historical-training-inference",
+      "reason": "Keep FPGA mostly-inference and unspecified new training product; no invented processor family."
+    },
+    {
+      "unit_id": 199,
+      "status": "hold-unclear-old-toolkit-referent",
+      "reason": "Old image/vision toolkit remains unnamed and uncertain; do not invent a product or a clear replacement target."
+    },
+    {
+      "unit_id": 200,
+      "status": "hold-fragmentary-partnership-claim",
+      "reason": "The final with others fragment is not stronger evidence of a contractual collaboration or fully proprietary toolkit."
+    },
+    {
+      "unit_id": 201,
+      "status": "complete-preview",
+      "reason": "Restore the source I think qualifier and historical scope; keep all three recognition tasks."
+    },
+    {
+      "unit_id": 202,
+      "status": "complete-preview",
+      "reason": "Restore most and the try-to-explain scope; keep three distinct software-performance topics."
+    },
+    {
+      "unit_id": 203,
+      "status": "complete-preview",
+      "reason": "Historical15th announcement without inferred month/year; full applications/tools/vectorization/profiling retained."
+    },
+    {
+      "unit_id": 204,
+      "status": "source-amendment-and-complete-preview",
+      "reason": "Both new unbiased local ASRs support code efficiency or algorithm efficiency; propose one exact source repair and keep Big-O whole."
+    },
+    {
+      "unit_id": 205,
+      "status": "hold-recurrent-versus-recursive-interpretation",
+      "reason": "Both new ASRs say recurrent solution, not an explicit recursive alternative. Current Chinese offers recurrence OR recursion. Intended implementation is not shown by the graph; do not pick a meaning or call human hearing complete."
+    },
+    {
+      "unit_id": 206,
+      "status": "complete-preview",
+      "reason": "Both new ASRs and source graph support the one in O(1); restore it to speech, retain attributed example, no universal dictionary guarantee."
+    },
+    {
+      "unit_id": 207,
+      "status": "retain",
+      "reason": "2012, C/C++, PHP and web-application scope are preserved; no new language survey inference."
+    },
+    {
+      "unit_id": 208,
+      "status": "complete-preview",
+      "reason": "Restore dynamic allocation and attributed reluctance/lazy criticism, with2012–2018 scope."
+    },
+    {
+      "unit_id": 209,
+      "status": "two-complete-warning-alternatives",
+      "reason": "Measured versus conversational warnings preserve the conditional and consequences; neither is an acoustic/emotional winner."
+    },
+    {
+      "unit_id": 210,
+      "status": "retain-local-survey-scope",
+      "reason": "Nearly95% remains the lecturer local scope. Actual slide is94.5%; do not infer a worldwide percentage or an unstated sample denominator."
+    },
+    {
+      "unit_id": 211,
+      "status": "hold-contextual-simulation-terminology",
+      "reason": "Preserve simulation/emulation labels; do not silently impose a universal Chinese distinction before their actual explanation is reviewed."
+    },
+    {
+      "unit_id": 212,
+      "status": "retain",
+      "reason": "Internal monitoring, transactions, response time, CPU, disk and network packet topics remain."
+    },
+    {
+      "unit_id": 213,
+      "status": "retain",
+      "reason": "Data-center/server/FreeBSD monitoring questions remain questions, not invented infrastructure counts."
+    },
+    {
+      "unit_id": 214,
+      "status": "retain",
+      "reason": "Below/above30% and confidentiality are preserved; no guessed confidential figures."
+    },
+    {
+      "unit_id": 215,
+      "status": "retain",
+      "reason": "Benchmark comparison/evaluation introduction remains; do not invent later profiling details."
+    }
+  ],
+  "cases": [
+    {
+      "key": "body-188-training-inference-contrast",
+      "unit_id": 188,
+      "display": "训练主要用 GPU；推理主要用 FPGA，也会用至强 CPU。下面，是我们和英特尔合作的一个项目。",
+      "spoken": "训练主要用 G P U；推理主要用 F P G A，也会用至强 C P U。下面，是我们和英特尔合作的一个项目。",
+      "reason": "Use parallel contrast for training versus inference, preserve mostly and the additional Xeon option. Correct source exam/entrance explicitly before adoption.",
+      "preserved_facts": [
+        "GPU is mainly used for training.",
+        "FPGA is mainly used for inference, with Xeon CPU also used.",
+        "The following project was done with Intel."
+      ],
+      "source": "and mostly we use GPUs for training and FPGAs for inferencing but we use also the exam CPUs for entrance into this is one of the project that we did with Intel for",
+      "source_start": "3217.14",
+      "source_end": "3230.4",
+      "current_display": "我们主要用 GPU 做训练，用 FPGA 做推理，但也会用 Xeon CPU 做推理。下面，是我们和 Intel 合作的一个项目。",
+      "current_spoken": "我们主要用 G P U 做训练，用 F P G A 做推理，但也会用 至强 C P U 做推理。下面，是我们和 英特尔 合作的一个项目。",
+      "before_waveform": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-v1/current-aac-before/unit-188-current-complete.wav",
+        "bytes": 636524,
+        "mtime_ns": 1794699312267043093,
+        "sha256": "9df71c2cedd1fd8fb11bae5b0865084770d19dc250a369c1a5ca3cc4fd4fa063"
+      },
+      "speaker_review": {
+        "same_speaker": true,
+        "evidence": "Existing complete lecturer unit, canonical voice map and preserved source-unit geometry; selected units are separate from actual source-reserved192/193/196. No adjacent speech, audience question or source reservation is merged; no new acoustic speaker approval."
+      },
+      "requires_explicit_source_amendment_before_adoption": true
+    },
+    {
+      "key": "body-190-opencl-project-not-universal-rule",
+      "unit_id": 190,
+      "display": "我们用 FPGA 加速这部分“加密”处理，软件层用 OpenCL。与 GPU 上的 CUDA 不同，这个英特尔项目用的是 OpenCL。",
+      "spoken": "我们用 F P G A 加速这部分“加密”处理，软件层用 Open C L。与 G P U 上的 CUDA 不同，这个英特尔项目用的是 Open C L。",
+      "reason": "Keep lecturer encryption terminology quoted and scope the CUDA/OpenCL contrast to the described Intel FPGA project, not a timeless ban on another programming layer.",
+      "preserved_facts": [
+        "FPGA accelerates the described processing.",
+        "OpenCL is the software layer in this Intel FPGA project.",
+        "The lecture contrasts this with CUDA for GPUs; no2026 compatibility claim."
+      ],
+      "source": "and then we used we used actually FPGA to to accelerate the encryption the encryption for use and OpenCL because FPGAs at the Intel it's not like cuda for GPUs we use OpenCL as a layer software layer",
+      "source_start": "3241.02",
+      "source_end": "3257.039",
+      "current_display": "我们用 FPGA 加速这部分处理，使用的是 OpenCL。Intel 的 FPGA 并不像 GPU 那样使用 CUDA，而是把 OpenCL 作为软件层。",
+      "current_spoken": "我们用 F P G A 加速这部分处理，使用的是 Open C L。英特尔 的 F P G A 并不像 G P U 那样使用 CUDA，而是把 Open C L 作为软件层。",
+      "before_waveform": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-v1/current-aac-before/unit-190-current-complete.wav",
+        "bytes": 768956,
+        "mtime_ns": 1794699312268043104,
+        "sha256": "969a9851ffc55be690948cb6873d25bda8917dde8c539b4235ae60f9da015e14"
+      },
+      "speaker_review": {
+        "same_speaker": true,
+        "evidence": "Existing complete lecturer unit, canonical voice map and preserved source-unit geometry; selected units are separate from actual source-reserved192/193/196. No adjacent speech, audience question or source reservation is merged; no new acoustic speaker approval."
+      },
+      "requires_explicit_source_amendment_before_adoption": false
+    },
+    {
+      "key": "body-191-arria-model-complete-name",
+      "unit_id": 191,
+      "display": "英特尔 Altera 的 FPGA 支持这个方案，具体型号是 Arria 10。",
+      "spoken": "英特尔 Altera 的 F P G A 支持它，型号是 Arria 十。",
+      "reason": "Make the support relation natural; keep Altera and Arria as complete English names and render model number10 as Chinese ten without inventing a phonetic brand spelling.",
+      "preserved_facts": [
+        "Intel Altera FPGA supports the project.",
+        "The model is Arria10, confirmed on the source slide."
+      ],
+      "source": "and it's supported by Intel Altera FPGA and then in the name of the FPGA is the Arria 10",
+      "source_start": "3257.039",
+      "source_end": "3265.7",
+      "current_display": "这是 Intel Altera FPGA 所支持的，具体 FPGA 型号是 Arria 10。",
+      "current_spoken": "这是 英特尔 Altera F P G A 所支持的，具体 F P G A 型号是 Arria 10。",
+      "before_waveform": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-v1/current-aac-before/unit-191-current-complete.wav",
+        "bytes": 415772,
+        "mtime_ns": 1794699312269043115,
+        "sha256": "6cab4c86a4394f1a68fcf265b4f1d5bf239f3ba7dc0cb9a48746d5e09785ae05"
+      },
+      "speaker_review": {
+        "same_speaker": true,
+        "evidence": "Existing complete lecturer unit, canonical voice map and preserved source-unit geometry; selected units are separate from actual source-reserved192/193/196. No adjacent speech, audience question or source reservation is merged; no new acoustic speaker approval."
+      },
+      "requires_explicit_source_amendment_before_adoption": false
+    },
+    {
+      "key": "body-197-openvino-software-historical-processor",
+      "unit_id": 197,
+      "display": "英特尔有 OpenVINO。先分清楚：它是软件层，不是硬件，我自己也在用。讲者当时还说，英特尔很快会推出一款深度学习处理器。",
+      "spoken": "英特尔有 Open Vino。先分清楚：它是软件层，不是硬件，我自己也在用。讲者当时还说，英特尔很快会推出一款深度学习处理器。",
+      "reason": "Use audible contrast for software/not hardware and bind the coming processor to the historical lecture, without asserting a current release or identifying an unstated chip.",
+      "preserved_facts": [
+        "OpenVINO is a software layer, not hardware.",
+        "The lecturer uses it.",
+        "A processor coming soon is the lecturer historical statement, not a current promise."
+      ],
+      "source": "yeah actually until they have open vino open vino is it's a software layer it's not a hardware they use therefore that I use actually they have a deep learning processor coming out very soon",
+      "source_start": "3360.14",
+      "source_end": "3373.62",
+      "current_display": "Intel 有 OpenVINO。要注意，它是软件层，不是硬件。我也在用。讲者还说，他们当时有一款深度学习处理器即将推出。",
+      "current_spoken": "英特尔 有 Open Vino。要注意，它是软件层，不是硬件。我也在用。讲者还说，他们当时有一款深度学习处理器即将推出。",
+      "before_waveform": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-v1/current-aac-before/unit-197-current-complete.wav",
+        "bytes": 647084,
+        "mtime_ns": 1794699312269043115,
+        "sha256": "42ea0ed321762586e4e033c721590622f8df539bcd40c3d581a859f93cedb412"
+      },
+      "speaker_review": {
+        "same_speaker": true,
+        "evidence": "Existing complete lecturer unit, canonical voice map and preserved source-unit geometry; selected units are separate from actual source-reserved192/193/196. No adjacent speech, audience question or source reservation is merged; no new acoustic speaker approval."
+      },
+      "requires_explicit_source_amendment_before_adoption": false
+    },
+    {
+      "key": "body-201-qualified-historical-hardware-view",
+      "unit_id": 201,
+      "display": "说到硬件，按讲者当时的了解，英特尔有用于人脸、图像和语音识别的自家处理器。其他硬件，他判断主要还是 NVIDIA 或 AMD 的 GPU。",
+      "spoken": "说到硬件，按讲者当时的了解，英特尔有用于人脸、图像和语音识别的自家处理器。其他硬件，他判断主要还是英伟达或 A M D 的 G P U。",
+      "reason": "Restore I think for the other-hardware claim, preserve all three recognition tasks, and use the established Chinese NVIDIA name in speech rather than treating a language choice as acoustic approval.",
+      "preserved_facts": [
+        "Face, image and speech recognition are all retained.",
+        "Intel own-processor statement is attributed to the lecturer at that time.",
+        "Other hardware is a qualified mostly-NVIDIA-or-AMD view."
+      ],
+      "source": "but for hardware I know for Intel they have their own processor for for face recognition and also image recognition and speech recognition to other other hardware I think it's going to be mostly and video GPUs or AMD GPUs",
+      "source_start": "3417.96",
+      "source_end": "3443.089",
+      "current_display": "硬件方面，据我了解，Intel 有自己的处理器，用于人脸、图像和语音识别。其他硬件，则主要还是 NVIDIA 或 AMD 的 GPU。",
+      "current_spoken": "硬件方面，据我了解，英特尔 有自己的处理器，用于人脸、图像和语音识别。其他硬件，则主要还是 NVIDIA 或 A M D 的 G P U。",
+      "before_waveform": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-v1/current-aac-before/unit-201-current-complete.wav",
+        "bytes": 1206236,
+        "mtime_ns": 1794699312270043126,
+        "sha256": "07c9804280afde52ec91891887e2a391fb051be172f5c50b9ed60fc4084bb374"
+      },
+      "speaker_review": {
+        "same_speaker": true,
+        "evidence": "Existing complete lecturer unit, canonical voice map and preserved source-unit geometry; selected units are separate from actual source-reserved192/193/196. No adjacent speech, audience question or source reservation is merged; no new acoustic speaker approval."
+      },
+      "requires_explicit_source_amendment_before_adoption": false
+    },
+    {
+      "key": "body-202-monitor-benchmark-profile-majority",
+      "unit_id": 202,
+      "display": "接下来谈软件性能。先分清监控、基准测试和性能剖析。这几个概念，大多数人容易混在一起，我会尽量解释清楚。",
+      "spoken": "接下来谈软件性能。先分清监控、基准测试和性能剖析。这几个概念，大多数人容易混在一起，我会尽量解释清楚。",
+      "reason": "Restore most rather than many and preserve try-to-explain rather than guaranteeing a complete definition; use a natural three-part spoken list.",
+      "preserved_facts": [
+        "Monitoring, benchmarking and profiling remain distinct named topics.",
+        "Most people is restored as the lecturer assessment.",
+        "The explanation remains an intention, not a guarantee."
+      ],
+      "source": "okay software we are going to talk about monitoring and benchmarking versus profiling I think most of people they they very confused between what's monitor and compared to benchmark in month and profiling I'm going to try to explain this",
+      "source_start": "3443.089",
+      "source_end": "3458.65",
+      "current_display": "接着讲软件。首先分清监控、基准测试和性能剖析。这些概念，很多人容易混淆，我会试着解释清楚。",
+      "current_spoken": "接着讲软件。首先分清监控、基准测试和性能剖析。这些概念，很多人容易混淆，我会试着解释清楚。",
+      "before_waveform": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-v1/current-aac-before/unit-202-current-complete.wav",
+        "bytes": 746972,
+        "mtime_ns": 1794699312271043137,
+        "sha256": "3791520f57e7cfd681569f66f4726fc57ffce2fcc70cd542893f96a50a7f8595"
+      },
+      "speaker_review": {
+        "same_speaker": true,
+        "evidence": "Existing complete lecturer unit, canonical voice map and preserved source-unit geometry; selected units are separate from actual source-reserved192/193/196. No adjacent speech, audience question or source reservation is merged; no new acoustic speaker approval."
+      },
+      "requires_explicit_source_amendment_before_adoption": false
+    },
+    {
+      "key": "body-203-historical-fifteenth-seminar",
+      "unit_id": 203,
+      "display": "还会讲剖析工具，以及实际解决过的问题。讲者当时预告，15号另有一场研讨会，会用真实应用、真实工具，演示向量化和性能剖析，让大家看清这里的定义与实际操作怎样对应。",
+      "spoken": "还会讲剖析工具，以及实际解决过的问题。讲者当时预告，十五号另有一场研讨会，会用真实应用、真实工具，演示向量化和性能剖析，让大家看清这里的定义与实际操作怎样对应。",
+      "reason": "Mark the fifteen announcement as historical rather than a current upcoming event. Do not infer a month/year or replace vectorization with a vague optimization label.",
+      "preserved_facts": [
+        "Profiling tools and real solved issues remain.",
+        "Another seminar on the15th is a historical announcement; no inferred calendar month.",
+        "Real applications, tools, vectorization and profiling connect definitions to practice."
+      ],
+      "source": "profiling tools a real issue that we solve I'm going to show you a real issue that we saw actually for the 15 because we have another seminar for the 15 I'm going to try to be more in real application doing some Victor ization profiling - with the real tools like this you see what what as a definition here and what's real and how we are doing it",
+      "source_start": "3458.65",
+      "source_end": "3483.91",
+      "current_display": "还会讲剖析工具和实际解决过的问题。15号还有另一场研讨，到时我会更多使用真实应用、真实工具，演示向量化和性能剖析，把这里的定义和实际工作对应起来。",
+      "current_spoken": "还会讲剖析工具和实际解决过的问题。15号还有另一场研讨，到时我会更多使用真实应用、真实工具，演示向量化和性能剖析，把这里的定义和实际工作对应起来。",
+      "before_waveform": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-v1/current-aac-before/unit-203-current-complete.wav",
+        "bytes": 1212524,
+        "mtime_ns": 1794699312272043148,
+        "sha256": "73eb61b466d6c10d626a74df114180500277fae2b78542fe24a0905a3257facb"
+      },
+      "speaker_review": {
+        "same_speaker": true,
+        "evidence": "Existing complete lecturer unit, canonical voice map and preserved source-unit geometry; selected units are separate from actual source-reserved192/193/196. No adjacent speech, audience question or source reservation is merged; no new acoustic speaker approval."
+      },
+      "requires_explicit_source_amendment_before_adoption": false
+    },
+    {
+      "key": "body-204-big-o-code-algorithm-efficiency",
+      "unit_id": 204,
+      "display": "也会介绍一些性能工具。谈软件性能，就得谈代码效率和算法效率。大 O 记法，像指数级、线性这些复杂度，都是开发者需要掌握的基础。",
+      "spoken": "也会介绍一些性能工具。谈软件性能，就得谈代码效率和算法效率。大欧记法，像指数级、线性这些复杂度，都是开发者需要掌握的基础。",
+      "reason": "Restore algorithm efficiency and a complete Big-O reading; both new unprompted local ASRs support code efficiency or algorithm efficiency instead of called/algorithm see. Explicit source correction is required before adoption.",
+      "preserved_facts": [
+        "Performance tools will also be covered.",
+        "Code efficiency and algorithm efficiency are both present.",
+        "Big-O, exponential and linear complexity remain basic developer knowledge."
+      ],
+      "source": "and I'm going to talk about some performance tools - so software if we talk about software is going to be about called efficiency or algorithm see everyone knows about the big o exponential linear this is this is the this is the basic things that developers need to know",
+      "source_start": "3483.91",
+      "source_end": "3505.9",
+      "current_display": "也会介绍一些性能工具。说到软件，就是代码效率和算法。大家都知道大 O：指数级、线性这些复杂度，是开发者需要掌握的基本知识。",
+      "current_spoken": "也会介绍一些性能工具。说到软件，就是代码效率和算法。大家都知道大 O：指数级、线性这些复杂度，是开发者需要掌握的基本知识。",
+      "before_waveform": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-v1/current-aac-before/unit-204-current-complete.wav",
+        "bytes": 1055564,
+        "mtime_ns": 1794699312274043170,
+        "sha256": "c803d1eadd503e6fec253df8ac9ecb32f64aedcac4d069d890364887689c6ca0"
+      },
+      "speaker_review": {
+        "same_speaker": true,
+        "evidence": "Existing complete lecturer unit, canonical voice map and preserved source-unit geometry; selected units are separate from actual source-reserved192/193/196. No adjacent speech, audience question or source reservation is merged; no new acoustic speaker approval."
+      },
+      "requires_explicit_source_amendment_before_adoption": true
+    },
+    {
+      "key": "body-206-constant-order-spoken-one",
+      "unit_id": 206,
+      "display": "谈效率，讲者这里举了字典及常数级 O(1) 的例子。无论如何，都要继续思考：算法还能怎样更好，复杂度还能怎样改进？",
+      "spoken": "谈效率，讲者这里举了字典和常数阶复杂度的例子，也就是大欧一。无论如何，都要继续思考：算法还能怎样更好？复杂度还能怎样改进？",
+      "reason": "Restore the source explicit one to spoken O(1), which the old spoken override omitted; preserve the current attributed example and do not claim all dictionary operations guarantee constant time.",
+      "preserved_facts": [
+        "Dictionary and O(1) are the lecturer example, not a universal operation guarantee.",
+        "The numeral one is explicitly spoken.",
+        "The continuing search for a better algorithm/complexity remains a question."
+      ],
+      "source": "for this efficiency looks like the the the binary the the dictionary is one of the best in in term of efficiency with Big O of one but always think about the what's the best thing you can you can do in terms of algorithms you're a Big O",
+      "source_start": "3525.65",
+      "source_end": "3548.529",
+      "current_display": "谈效率，讲者这里举了字典及常数级 O(1) 的例子。无论如何，都要继续思考：算法还能怎样更好，复杂度还能怎样改进？",
+      "current_spoken": "谈效率，讲者这里举了字典和常数阶复杂度的例子。无论如何，都要继续思考：算法还能怎样更好，复杂度还能怎样改进？",
+      "before_waveform": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-v1/current-aac-before/unit-206-current-complete.wav",
+        "bytes": 1098236,
+        "mtime_ns": 1794699312276043192,
+        "sha256": "861d7948987b7a48f071837098d885e619760a36c44f6fc93b85126db1559a59"
+      },
+      "speaker_review": {
+        "same_speaker": true,
+        "evidence": "Existing complete lecturer unit, canonical voice map and preserved source-unit geometry; selected units are separate from actual source-reserved192/193/196. No adjacent speech, audience question or source reservation is merged; no new acoustic speaker approval."
+      },
+      "requires_explicit_source_amendment_before_adoption": false
+    },
+    {
+      "key": "body-208-dynamic-allocation-attributed-criticism",
+      "unit_id": 208,
+      "display": "从2012年到2018年，我们看到，C、C++ 应用大量转向 Java。一个主要原因是动态内存分配：按讲者的说法，人们嫌麻烦，不愿每次都手动分配，再释放内存。",
+      "spoken": "从二零一二年到二零一八年，我们看到，C、C 加加应用大量转向 Java。一个主要原因是动态内存分配：按讲者的说法，人们嫌麻烦，不愿每次都手动分配，再释放内存。",
+      "reason": "Restore the explicit dynamic-memory-allocation term and the lecturer lazy/reluctant criticism without endorsing every migration as developer laziness. Preserve the precise2012–2018 local history.",
+      "preserved_facts": [
+        "2012 to2018 and the C/C++ to Java change remain.",
+        "Dynamic memory allocation is explicit.",
+        "Reluctance to allocate and free manually is attributed to the lecturer."
+      ],
+      "source": "and then you know from 2012 to 2018 we saw this big jump from C C++ application to Java and mostly it's because of this dynamic memory allocation or people are lazy to you know allocate memory and C C++ and then after this try to you know empty the memory each time",
+      "source_start": "3567.71",
+      "source_end": "3587.82",
+      "current_display": "从2012年到2018年，我们看到，从 C、C++ 应用转向 Java 的明显变化。一个重要原因，是内存管理：人们不想每次都手动分配、再释放内存。",
+      "current_spoken": "从2012年到2018年，我们看到，从 C、C 加加 应用转向 Java 的明显变化。一个重要原因，是内存管理：人们不想每次都手动分配、再释放内存。",
+      "before_waveform": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-v1/current-aac-before/unit-208-current-complete.wav",
+        "bytes": 965324,
+        "mtime_ns": 1794699312277043203,
+        "sha256": "024563845e9b7041c8d5e9f42d490914a53c12c67e9d988aa1c9364b0ff43ebe"
+      },
+      "speaker_review": {
+        "same_speaker": true,
+        "evidence": "Existing complete lecturer unit, canonical voice map and preserved source-unit geometry; selected units are separate from actual source-reserved192/193/196. No adjacent speech, audience question or source reservation is merged; no new acoustic speaker approval."
+      },
+      "requires_explicit_source_amendment_before_adoption": false
+    },
+    {
+      "key": "body-209-warning-a-measured",
+      "unit_id": 209,
+      "display": "Java 通过垃圾回收来处理这些事。但如果不了解它，只顾给对象反复分配内存，越建越多，那就真会出性能问题。",
+      "spoken": "Java 通过垃圾回收来处理这些事。但如果不了解它，只顾给对象反复分配内存，越建越多，那就真会出性能问题。",
+      "reason": "Measured warning alternative: retain the conditional and repeated-allocation/object-growth chain; convey real performance issue without adding crash, leak certainty or a stronger severity claim.",
+      "preserved_facts": [
+        "Java handles the described memory management through garbage collection.",
+        "The warning is conditional on not understanding it and repeated allocations/object creation.",
+        "This creates a real performance issue; no crash or guaranteed leak is added."
+      ],
+      "source": "so Java is doing this through the garbage collection but that the problem is when you don't know how to do it and you just allocate every time memory for your object and create more and more object then it's going to be a real performance issue",
+      "source_start": "3587.82",
+      "source_end": "3602.94",
+      "current_display": "Java 通过垃圾回收来处理这些事。但如果不了解它，只是反复为对象分配内存、不断创建对象，就可能带来严重的性能问题。",
+      "current_spoken": "Java 通过垃圾回收来处理这些事。但如果不了解它，只是反复为对象分配内存、不断创建对象，就可能带来严重的性能问题。",
+      "before_waveform": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-v1/current-aac-before/unit-209-current-complete.wav",
+        "bytes": 725804,
+        "mtime_ns": 1794699312278043214,
+        "sha256": "e50ed2521753a19d5467f94009f4b473dde24f9b8a34c6f51a64119ae9e5a68f"
+      },
+      "speaker_review": {
+        "same_speaker": true,
+        "evidence": "Existing complete lecturer unit, canonical voice map and preserved source-unit geometry; selected units are separate from actual source-reserved192/193/196. No adjacent speech, audience question or source reservation is merged; no new acoustic speaker approval."
+      },
+      "requires_explicit_source_amendment_before_adoption": false
+    },
+    {
+      "key": "body-209-warning-b-conversational",
+      "unit_id": 209,
+      "display": "Java 用垃圾回收来处理这些事。可如果你不清楚该怎么做，只是一遍遍给对象分配内存，创建越来越多的对象——那可就真会出性能问题。",
+      "spoken": "Java 用垃圾回收来处理这些事。可如果你不清楚该怎么做，只是一遍遍给对象分配内存，创建越来越多的对象——那可就真会出性能问题。",
+      "reason": "Conversational warning alternative with an explicit conditional lead-in and dash before the consequence. This is a prosody intention only; neither alternative is automatically selected or approved as more emotional.",
+      "preserved_facts": [
+        "Same garbage-collection context and conditional as alternativeA.",
+        "Repeated allocation and increasing object count both remain.",
+        "Real performance issue remains the consequence, with no new failure mode."
+      ],
+      "source": "so Java is doing this through the garbage collection but that the problem is when you don't know how to do it and you just allocate every time memory for your object and create more and more object then it's going to be a real performance issue",
+      "source_start": "3587.82",
+      "source_end": "3602.94",
+      "current_display": "Java 通过垃圾回收来处理这些事。但如果不了解它，只是反复为对象分配内存、不断创建对象，就可能带来严重的性能问题。",
+      "current_spoken": "Java 通过垃圾回收来处理这些事。但如果不了解它，只是反复为对象分配内存、不断创建对象，就可能带来严重的性能问题。",
+      "before_waveform": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-v1/current-aac-before/unit-209-current-complete.wav",
+        "bytes": 725804,
+        "mtime_ns": 1794699312278043214,
+        "sha256": "e50ed2521753a19d5467f94009f4b473dde24f9b8a34c6f51a64119ae9e5a68f"
+      },
+      "speaker_review": {
+        "same_speaker": true,
+        "evidence": "Existing complete lecturer unit, canonical voice map and preserved source-unit geometry; selected units are separate from actual source-reserved192/193/196. No adjacent speech, audience question or source reservation is merged; no new acoustic speaker approval."
+      },
+      "requires_explicit_source_amendment_before_adoption": false
+    }
+  ],
+  "prosody_intentions_not_approved": [
+    "Contrast training/inference and software/not hardware without merging source windows.",
+    "Read Big-O/O(1) as complete 大欧记法/大欧一; keep OpenCL,CUDA and model/brand names in one complete synthesis.",
+    "Compare two conditional warnings for unit209 with measured versus conversational punctuation; no automatic winner."
+  ],
+  "reading_inputs_not_phoneme_or_acoustic_approval": [
+    "NVIDIA display,英伟达 spoken",
+    "Arria10 display,Arria十 spoken",
+    "大O display,大欧 spoken",
+    "O(1) display,大欧一 spoken"
+  ],
+  "invariants": {
+    "source_windows": 321,
+    "original_regions": 23,
+    "reserved_units": 39,
+    "intro_offset_seconds": "40.2",
+    "chapters": 85,
+    "production_source_text_audio_and_media_modified": false,
+    "new_database_decisions": 0,
+    "rate": "+0%",
+    "extra_atempo_trimming_or_window_borrowing": false,
+    "human_listened": false,
+    "pronunciation_or_emotional_approval": false,
+    "full_film_visual_wordlevel_or_PotPlayer_approval": false
+  },
+  "adoption_contract": "Preview only. Preserve formal media and original source. Before adoption,select one unit209 alternative for editorial reasons only and explicitly revise disclosed source188/204 through the real versioned source contract; do not equate preview fit with strict admission or voice approval."
+}

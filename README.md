@@ -1,5 +1,7 @@
 # Media Downloader
 
+2026-11-15续审GPU/软件性能：30来源单元、11原窗/12条正常语速完整试读已核验，209两种警示语气尚未试听选胜者，205递推/递归仍待核。188/204源文仅显式提案，正式双版未换，186声音候选及发音/情感/人耳门禁保持。内部对照与续做边界见`docs/science-performance-gpu-software-2026-11-15.md`；仅工作日志试听页，不增交付附件。
+
 2026-11-15来源修订成片已正式采用：新增`media_workflow.source_corrected_media`及显式历史安装桥，九句/33中文短句、两处源文和完整英文565/566同步更新；74有限检查、完整解码及事务安装通过，旧版31文件精确归档，没有新TTS/ASR。36张实际烧字样图仅局部图审，186声音候选和全部人耳/发音/情感门禁仍待验；目标active。正式双版与只读续做入口见`docs/source-corrected-installation.md`，生产合同见`docs/source-corrected-media.md`。
 
 2026-11-15来源感知字幕：`media_workflow.source_caption_projection`将九条既有完整试读投影为33中文/双语短句，完整英文1028句仅两处显式修订；90有限检查和隔离当前音频质量通过，全部旧数据库历史保留、0人耳决定。正式成片未换，发音/情感仍待听辨；使用及真实夹具失败见`docs/source-aware-caption-projection.md`。
