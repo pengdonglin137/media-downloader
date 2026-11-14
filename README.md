@@ -1,5 +1,7 @@
 # Media Downloader
 
+2026-11-15：性能报告BIOS实际观察、SPEC限定与PCIe扩展机会三句已进入正式母版/中文烧字上传版，旧版精确归档；13张成片图逐张检查，有限VLC通过但诊断未解决，发音/情感/全片批准仍待完成。当前历史权威、保护范围分账、真实失败与续做入口见`docs/science-performance-hardware-install-2026-11-15.md`。Linux直播待核项及其他未提交工作保持。
+
 2026-11-15：性能报告BIOS实际结果、SPEC限定与PCIe扩展机会三句完成来源修订、正常速率整句试读及候选暂存；新双版正在编码验证，未替换正式成片，也未批准发音/情感。内部试听入口、扫描历史与真实作业断点见`docs/science-performance-hardware-configuration-2026-11-15.md`。
 
 2026-11-15：Linux性能直播新增30组原生原声待核语境，覆盖全部27语言hold、23供应商标记及片头尾；当前内部页四处显式区分AI的OOM纠错。离线浏览器有限检查及两局部图审通过，不等于人耳、发音或情感批准；正式中文双版尚未生成。入口与真实失败边界见`docs/linux-performance-native-auditions-2026-11-15.md`，共享工具见`docs/native-audition.md`。

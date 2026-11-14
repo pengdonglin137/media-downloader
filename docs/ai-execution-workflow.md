@@ -1,5 +1,11 @@
 # AI 执行工作流：自包含中文译配视频
 
+## 2026-11-15：硬件三句已正式安装，续做只用当前历史权威
+
+`cjiUXZh0ZCo`原session21051媒体四操作/外层及七编码解码收据均0；13张实际上传版受限JPEG逐张打开，候选/正式有限VLC均0但各74诊断/16条no frame不关闭。旧计划真实零替换归档后，用新`hardware-configuration-v1/history-authority-v1.json`、`install-config-v1.json`与原stage执行安装三操作0；后续只check，不重跑成功prepare/apply、TTS或媒体。
+
+31目标旧身份另验精确归档、23实际替换；2517不可变证据（不含直接活动目标）及前2359均原位保持。正式98扫描/6575问题/11681出现、190候选/12非dismiss分类/0决定，不以数量下降批准声音。四个真实失败与修正分别保留，绑定代码不动。当前`checkpoint-hardware-installed-v1`及`docs/science-performance-hardware-install-2026-11-15.md`；目标active，Linux/其他队列/总数和全部人工门禁保持，只交本轮，不声称后台自动续跑。
+
 ## 2026-11-15：硬件三句候选续做，不重启成功语音或活动编码
 
 `cjiUXZh0ZCo/hardware-configuration-v1`三条完整正常试读、stage、13字幕短句和隔离quality均0；正式工程未换。候选媒体session21051/PID2202400已实查同start ticks/存活/子命令，登记时prepare0、encode运行中；恢复先查同handle和真实终态，不因超时、锁或文件存在判停止/重启。待完整媒体验证、图审与播放器证据，再用既有历史计划合同安装；190候选不等于少1声音错误已解决。流程与所有待验收范围见`docs/science-performance-hardware-configuration-2026-11-15.md`。

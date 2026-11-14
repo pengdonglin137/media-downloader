@@ -1,0 +1,202 @@
+{
+  "kind": "source-faithful-hardware-configuration-installed-result-v1",
+  "recorded_at": "2026-11-14T21:28:59+00:00",
+  "video_id": "cjiUXZh0ZCo",
+  "scope": "Only source-faithful complete units143,147,152; no new ASR/TTS in this installation continuation and no other project changes",
+  "selected_units": [
+    143,
+    147,
+    152
+  ],
+  "source_selection_not_acoustic_winner": true,
+  "installed": true,
+  "references": {
+    "candidate_verification": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/hardware-configuration-v1/media-v1/verification.json",
+      "bytes": 20025,
+      "mtime_ns": 1794690959653558078,
+      "sha256": "10d63563e2a302771c34fb224403dcde01839349c25d1b61ce5a8bd7d7c6261b"
+    },
+    "candidate_independent": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/hardware-configuration-v1/candidate-independent-verification.json",
+      "bytes": 22196,
+      "mtime_ns": 1794691516131589605,
+      "sha256": "f2d68fda897d2922a82e7fee080d26ad2d98f16af5c83a55597ab7bb1ea522dd"
+    },
+    "installed_independent": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/hardware-configuration-v1/installation-independent-verification.json",
+      "bytes": 5206,
+      "mtime_ns": 1794691673835596961,
+      "sha256": "03ecadb551e39f1f5e3fe5faa1ee1a933ee0652e6f01b0d158f0e119ca6a7ca7"
+    },
+    "native_installation_verification": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/hardware-configuration-v1/install-v1/installation-verification.json",
+      "bytes": 11439,
+      "mtime_ns": 1794691562370177726,
+      "sha256": "5928347b7ba8bb1d8e78ecce723a8c980749a9fc3b8906b3014fbdce392bfd79"
+    },
+    "history_authority": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/hardware-configuration-v1/history-authority-v1.json",
+      "bytes": 3127,
+      "mtime_ns": 1794690989158927795,
+      "sha256": "425154a0614683d1b98c13026466b22da05f4568d0ccf84e280c4f220bdd47d1"
+    },
+    "history_application": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/hardware-configuration-v1/install-v1/historical-application.json",
+      "bytes": 1686,
+      "mtime_ns": 1794691567979249096,
+      "sha256": "f6b92f7b37d6574b290a8e039a65b70a4aa6569e27eb0536af12ebbf1ff93a34"
+    },
+    "canonical_transaction": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/hardware-configuration-v1/install-v1/file-transaction/transaction.json",
+      "bytes": 38700,
+      "mtime_ns": 1794691562381177866,
+      "sha256": "a7edace83aaed7d78900030c932216afbd5cc1f3dc0893559056f3001d92af90"
+    },
+    "scope_verification": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/hardware-configuration-v1/coverage-scope-verification.json",
+      "bytes": 22101,
+      "mtime_ns": 1794691739081428542,
+      "sha256": "31711f236d0c1e5505ff1f0b15e8ee40ba0b395ac1b9753d80f6fa2e95610017"
+    },
+    "actual_upload_image_observations": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/hardware-configuration-v1/upload-caption-images-v1/agent-observations.json",
+      "bytes": 20046,
+      "mtime_ns": 1794691516119589453,
+      "sha256": "d578c3463670486ca718f20b3d276c624a5a978e1b622998a1a638875ae9db10"
+    },
+    "candidate_vlc_diagnostics": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/hardware-configuration-v1/vlc-candidate-v2/diagnostics.json",
+      "bytes": 9120,
+      "mtime_ns": 1794691516125589529,
+      "sha256": "1b4663983e83c979f7b3d0cb754b1648d1c7618755ae9e34f60a6fa238ebb1c1"
+    },
+    "formal_vlc_diagnostics": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/hardware-configuration-v1/vlc-installed-v1/diagnostics.json",
+      "bytes": 9120,
+      "mtime_ns": 1794691673828596872,
+      "sha256": "61f0143b23d798d5efe3f69784b43da07697a3f509ab716369ac5c135da4e8d3"
+    }
+  },
+  "master": {
+    "path": "/home/pengdl/Videos/translated_backlog/Science of Performance 2019_中文配音.mp4",
+    "bytes": 566095209,
+    "mtime_ns": 1794689935486249680,
+    "sha256": "79f59ad76be4f16abe78875b2759ab5768298c47e7cc9b4f82e81f8bfcac3e03"
+  },
+  "upload": {
+    "path": "/home/pengdl/Videos/translated_backlog/Science of Performance 2019_中文上传版.mp4",
+    "bytes": 452322186,
+    "mtime_ns": 1794690572749768769,
+    "sha256": "d5dcfe12dc4dc56b562feca813bda6b3fd6e87bf322cf1321d0d413ce95d30a9"
+  },
+  "body_offset_seconds": 40.2,
+  "duration_seconds": 5572.982,
+  "embedded_chapters": 85,
+  "master_tracks": {
+    "video": 1,
+    "audio": 2,
+    "subtitle": 3
+  },
+  "upload_tracks": {
+    "video": 1,
+    "audio": 1,
+    "subtitle": 0
+  },
+  "strict_original_windows": 321,
+  "original_regions": 23,
+  "reserved_units": 39,
+  "actual_complete_normal_rate_utterances_reused": 3,
+  "complete_utterance_seconds": [
+    12.552,
+    9.408,
+    12.864
+  ],
+  "actual_TTS_word_boundaries": 95,
+  "display_phrases": 13,
+  "original_English_and_task_unchanged": true,
+  "media_driver_terminal_exit": 0,
+  "all_four_media_operations_exit": 0,
+  "all_seven_encoding_decoding_receipts_exit": 0,
+  "installation_prepare_apply_check_exits": [
+    0,
+    0,
+    0
+  ],
+  "transaction_state": "committed",
+  "canonical_targets_with_exact_original_archives": 31,
+  "actual_canonical_replacement_intents": 23,
+  "protected_immutable_evidence_records_live_unchanged": 2517,
+  "previous_stage_2359_records_live_unchanged": 2359,
+  "protection_scope_excludes_direct_live_canonical_targets": true,
+  "frozen_root_python_unchanged": 98,
+  "production_mp3_unchanged": 293,
+  "unrelated_untracked_unchanged": 13,
+  "SQL_counts": {
+    "decisions": 0,
+    "issues": 6575,
+    "occurrences": 11681,
+    "projects": 60,
+    "repair_resolutions": 0,
+    "scans": 98,
+    "terms": 41
+  },
+  "unreviewed_sound_candidates": 190,
+  "new_listening_decisions_or_resolutions": 0,
+  "old_SQL_immutable_rows_and_unrelated_project_pointers_preserved": true,
+  "source_synthetic_tail_classifications_not_dismissals": 12,
+  "caption_only_terms": 56,
+  "database_dictionary_terms": 41,
+  "actual_upload_JPEG_images_individually_opened": 13,
+  "image_dimensions": [
+    1280,
+    720
+  ],
+  "maximum_JPEG_bytes": 31912,
+  "candidate_formal_VLC_exits": [
+    0,
+    0
+  ],
+  "candidate_formal_VLC_matching_diagnostic_lines": [
+    74,
+    74
+  ],
+  "candidate_formal_VLC_no_frame_lines": [
+    16,
+    16
+  ],
+  "VLC_diagnostics_resolved": false,
+  "retained_failures": [
+    {
+      "operation": "baseline-write-v1",
+      "exit": 1,
+      "reason": "apply_patch argv exceeded byte limit; stdin v2 succeeds, no canonical mutation"
+    },
+    {
+      "operation": "candidate-vlc-v1",
+      "exit": 1,
+      "reason": "existing helper parent absent from import path; v2 adds explicit path without changing helper"
+    },
+    {
+      "operation": "candidate-independent-v1",
+      "exit": 1,
+      "reason": "nested donor/caption identity maps misread as one identity"
+    },
+    {
+      "operation": "candidate-independent-v2",
+      "exit": 1,
+      "reason": "overstrict key-set assertion rejected the explicitly selected new spoken override147"
+    }
+  ],
+  "candidate_independent_v3_exit": 0,
+  "installation_independent_v1_exit": 0,
+  "full_native_media_verification_done_once_in_existing_driver": true,
+  "no_new_full_decode_encoding_TTS_ASR_during_installation": true,
+  "human_listened_or_pronunciation_emotion_approved": false,
+  "full_visual_wordlevel_AV_or_PotPlayer_approved": false,
+  "other_parallel_requests_queues_or_global_totals_modified": false,
+  "linux_0sZlaQr3e2w_27_holds_23_markers_F08_unchanged": true,
+  "goal_status": "active",
+  "checkpoint": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/checkpoint-hardware-installed-v1/execution-progress.json",
+  "final_git_verification": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/checkpoint-hardware-installed-v1/git-final-verification.json"
+}

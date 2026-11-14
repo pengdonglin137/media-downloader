@@ -1,5 +1,12 @@
 # 本仓库的 AI 执行入口
 
+## 2026-11-15：硬件配置三句双版正式采用，原声与未知门禁保持
+
+- 仅`cjiUXZh0ZCo`143/147/152及13显示短句已正式采用；恢复BIOS实际观察、SPEC only与PCIe扩展机会/或示例，不作声学选胜。321原窗/23原声区/39占位、40.2秒导读/85章/5572.982秒保持，母版双音轨三软字幕、上传版单中文轨烧字。
+- 原session21051媒体prepare/encode/verify/check和外层0，七编码/解码收据0；精确旧计划归档0替换/0意图，新history安装prepare/apply/check0，31目标committed、23实际替换意图。2517选定不可变证据及前2359均原位保持；不含直接活动目标，31旧活动目标另验精确归档。98根Python/293生产MP3/13其他文件保持。
+- 正式98扫描/6575问题/11681出现，190未人工候选、12非dismiss原声分类、0决定保持。13张实际上传版1280×720受限JPEG逐张看、最大31912字节；有限VLC候选/正式均0但各74诊断/16条no frame仍未解决，不称全片/人耳/发音情感/PotPlayer批准。
+- 基线argv过长1、VLC辅助模块导入1、两次独立只读核验1保留；stdin基线v2、显式路径VLC v2、独立v3及安装独立v1均0，未改绑定代码或重做成功制作。入口`checkpoint-hardware-installed-v1`，说明`docs/science-performance-hardware-install-2026-11-15.md`；后续使用本轮history-authority/install-config/stage显式check，不重跑prepare/apply。Linux27hold/23标记/F08、其他请求/队列/总数及目标active保持，只提交本轮，不声称后台自动续跑。
+
 ## 2026-11-15：硬件配置三句来源修订暂存，候选编码已启动
 
 - 仅`cjiUXZh0ZCo`143/147/152，恢复实际BIOS观察、SPEC only与扩展机会/或示例，不把性能影响保证为提升或设备数量。三完整正常试读12.552/9.408/12.864秒，95真实词界、13短句及stage/quality通过；321原窗/23原声区/39占位保持，未作声音选胜。
