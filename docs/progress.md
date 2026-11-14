@@ -1,5 +1,12 @@
 # 工作流优化验证记录
 
+## 2026-11-14：SPEC修订旁白／原生包暂存与38项回归测试
+
+- 新请求内`editorial_narration_runtime_v1.py`在独立暂存工程登记显式单意群编辑来源；当前编译、321行统计、新基础／原声复合WAV、155完整548352样本／22.848秒正常试读及27.47秒原窗、23实际原声区／39原声项绑定。旧全片TTS仅作谱系，`historical_generation_proven=false`，未新合成或重编媒体，裸冻结校验器主动拒绝新契约。
+- `editorial_package_runtime_v1.py`仅验证暂存目录，绑定真实候选生产器／正文／双版、三字幕、当前旁白与render依赖、双版／AAC及10张局部图审证明。85章与40.2秒导读保持；新计划只变来源哈希，旧导读生产计划及音频证据不伪改为新生成。
+- 旁白21项、包17项测试均真实0；有效记录可用，旧编译／其他译文／统计／时窗／语义组／音频身份、原声增益／atempo／错误作用域、目的媒体／字幕／旧计划／缺图审或证明、假人耳／情感／质量／安装状态均拒绝。四绑定／测试步骤及登记均真实0，487身份核验通过。
+- 正式项目／两版、98根Python、290生产MP3、189旧声音候选及决定未改；暂存无新speech-review、delivery-quality或upload-export，下一步仍须刷新质量／原声停顿分类与数据库历史验证，再另做正式生产运行时、归档事务安装及有限VLC恢复核验。入口`checkpoint-editorial-native-staging-v1/execution-progress.json`及`data/translation_reviews/cjiUXZh0ZCo-editorial-native-staging-20261114.json`，不称已安装、人耳／情感／发音或最终批准，目标active。
+
 ## 2026-11-14：Science of Performance补回SPEC语境的双版候选验证
 
 - 155源文末明确运行SPEC基准，候选补回该单元语境；156原已提SPEC 2006，不称整节缺译。影子任务显式导入后321来源窗／角色、其余320译文与英语保持，复用正常云溪完整22.848秒MP3，在27.47秒内仅响度增益；无新网络生产TTS、裁剪、atempo、借窗或并行任务改动。

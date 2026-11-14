@@ -1,5 +1,13 @@
 # 本仓库的 AI 执行入口
 
+## 2026-11-14：SPEC修订旁白与原生包暂存绑定，38项测试通过
+
+- 仅`cjiUXZh0ZCo`：新增请求内显式旁白来源`single-source155-editorial-original-voice-v1`，在独立`editorial-native-v1/.zh_work_yt_cjiUXZh0ZCo`绑定当前编译／统计／完整新PCM、155试读生产证据和23实际原声区；不是拿旧全片TTS生产器冒充新合成。`historical_generation_proven=false`，裸冻结旁白校验器因附加契约主动拒绝，旧来源仍走旧验证。
+- 新暂存原生包绑定实际候选正文／母版／上传、三字幕、新旁白及render依赖、独立双版／AAC／10张局部图审证明。85章节、40.2秒导读保持；计划只更新当前译文来源哈希，真实旧导读生成计划及音频身份保留，不重新合成或伪称新片头。
+- 旁白21项、包17项共38测试真实0，涵盖当前依赖可用及旧编译／统计／作用域、音频／两用途／字幕错配、缺证明、非零原声增益、atempo、假质量／安装／听辨批准等拒绝路径；四生产／测试步骤与登记均真实0，487身份核验通过。未重复TTS、ASR或编码，98根Python、290生产MP3及189旧声音候选保持。
+- 此运行时仅授权精确暂存目录，不授权正式安装；新暂存工程尚无speech-review／delivery-quality／upload-export绑定。下一步须按新依赖和真实路径刷新质量、保留数据库问题与旧候选、重新验证原声停顿分类，再以另外的生产运行时归档并事务式安装、做有限VLC／恢复检查；不能直接复制暂存状态冒充交付。
+- 入口`/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/checkpoint-editorial-native-staging-v1/execution-progress.json`；索引`data/translation_reviews/cjiUXZh0ZCo-editorial-native-staging-20261114.json`，操作见请求内`EDITORIAL-NATIVE-STAGING-v1.md`。正式两版与原工程仍不变，目标active，人耳／情感／术语发音／全片视觉／逐词声画／PotPlayer最终批准仍待完成，不改队列或并行总量、不发布或新增外挂，不声称后台自动继续。
+
 ## 2026-11-14：Science of Performance补回SPEC语境的完整双版本候选
 
 - 仅`cjiUXZh0ZCo`影子工程155单元：源文明确有运行SPEC基准的语境，候选中文补回；邻156原已提SPEC 2006，不夸大为整段缺译。其余320单元、全部英语／来源绝对窗／角色不变；复用正常云溪完整22.848秒试读，27.47秒原窗内无裁剪、atempo、借窗或新网络生产TTS。

@@ -1,5 +1,12 @@
 # AI 执行工作流：自包含中文译配视频
 
+## 2026-11-14：编辑旁白与原生包暂存的续做入口
+
+- `cjiUXZh0ZCo`先读`checkpoint-editorial-native-staging-v1/execution-progress.json`及请求内`EDITORIAL-NATIVE-STAGING-v1.md`。旁白绑定、21测试、包绑定、17测试及登记均已有真实0，不重跑成功媒体、TTS、ASR或覆盖证明。暂存入口为请求内`editorial-native-v1/.zh_work_yt_cjiUXZh0ZCo`，非正式工程。
+- 只读核验用现有媒体Python执行`editorial_narration_runtime_v1.py check`或`editorial_package_runtime_v1.py check-staging`。新旁白有附加来源契约，裸冻结校验器会拒绝；包运行时明确仅允许暂存目录，不以复制文件或旧生产器身份冒充正式安装。
+- 新编译／统计／完整新PCM、23实际原声区、真实媒体生产器／三字幕／render、85章节及40.2秒偏移已绑定；计划只重绑当前来源哈希，旧导读生成计划和音频仍是真实历史证据。487身份检查和38测试不代表新的质量扫描、人工听辨或情感批准。
+- 下一步为真实工程工作：按新依赖及实际工作路径刷新speech-review／delivery-quality，保留数据库历史、全部189旧候选及已确认问题，重新证明原声暂停的合成短尾不适用分类；再另做生产运行时、精确归档和事务式安装，绑定上传记录并做有限VLC／恢复检查。当前这些新质量／上传文件尚不存在，不照搬影子旧报告或把暂存包当成已安装成片；人耳、专业发音／情感、全片视觉、逐词声画、PotPlayer仍单独待验。
+
 ## 2026-11-14：SPEC语境修订候选的恢复边界
 
 - `cjiUXZh0ZCo`先读`checkpoint-editorial-candidate-v1/execution-progress.json`和请求内`EDITORIAL-RUNTIME-v1.md`。候选准备、实际v2媒体、独立准备／母版／双版验证、新AAC双模型诊断、前缀试读及10张实际样图观察均有真实成功出口；不要重复成功TTS、ASR、解码或编码，也不要运行历史准备器未采用的media模式。
