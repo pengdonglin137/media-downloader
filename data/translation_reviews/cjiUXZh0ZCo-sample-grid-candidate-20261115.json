@@ -1,0 +1,61 @@
+{
+  "kind": "sample-grid-candidate-production-review-v1",
+  "version": 1,
+  "id": "cjiUXZh0ZCo",
+  "checked_at": "2026-11-14T17:59:05+00:00",
+  "checkpoint": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/checkpoint-sample-grid-candidate-v1/execution-progress.json",
+  "goal_status": "active",
+  "adapter": {
+    "path": "/home/pengdl/media-downloader/media_workflow/editorial_sample_grid.py",
+    "bytes": 27552,
+    "mtime_ns": 1794677096694772931,
+    "sha256": "28b17e4dac5697f8aa6a862c93cf5cf91b34b8b71223f712ad347039bef251d2"
+  },
+  "source_units": [
+    257,
+    258
+  ],
+  "finite_checks_reused_not_rerun": 42,
+  "candidate_pair_verified": true,
+  "candidate_installed": false,
+  "formal_media_unchanged_after_rollback": true,
+  "source_windows": 321,
+  "actual_original_regions": 23,
+  "reserved_units": 39,
+  "decoded_frames_with_exact_rational_schedule": 167187,
+  "chinese_aac_packets": 130618,
+  "master_upload_pcm_equal": true,
+  "complete_audio_diagnostics": 25,
+  "full_decode_both_exit0": true,
+  "actual_upload_images_individually_opened": 10,
+  "max_actual_image_bytes": 29724,
+  "finite_vlc_helper_passed": true,
+  "new_vlc_diagnostic_lines_unresolved": 55,
+  "old_vlc68_not_closed": true,
+  "successful_commands": 17,
+  "failed_commands": 2,
+  "installation_prepare0_apply1": true,
+  "installation_check_not_executed": true,
+  "transaction_restored_entries": 31,
+  "historical_plan_guard_not_modified_or_bypassed": true,
+  "protected_old_identities_unchanged": 521,
+  "frozen_root_python_unchanged": 98,
+  "production_mp3_unchanged": 293,
+  "additional_preview_mp3_unchanged": 2,
+  "current_unreviewed_sound_candidates": 191,
+  "new_decisions_or_resolutions": 0,
+  "human_listened": false,
+  "pronunciation_or_emotional_approval": false,
+  "verification": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/checkpoint-sample-grid-candidate-v1/independent-verification.json",
+    "bytes": 2318,
+    "mtime_ns": 1794679145021873289,
+    "sha256": "de62a86ef3590164c46389f93d943a16657e02da0fe5b40d59439e478dc77f1e"
+  },
+  "receipt": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/checkpoint-sample-grid-candidate-v1/final-run-receipt.json",
+    "bytes": 14526,
+    "mtime_ns": 1794679145026873361,
+    "sha256": "e888aafad352158ac3e9e540e5ef11f681da705a8a5c267f6f21c42394c7493e"
+  }
+}
