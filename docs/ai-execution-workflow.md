@@ -1,5 +1,9 @@
 # AI 执行工作流：自包含中文译配视频
 
+## 2026-11-15：完整当前质量与精确归档先于正式安装
+
+复用现有runtime实际检查当前安装，再取`delivery_quality.require`完整质量对象，勿把缺quality字段的旧收据重命名。七窗/22句stage/project/quality已通过；未来安装前用既有单文件事务作源/目标同身份的精确计划备份，核对0规范写入/0意图、真实终态及历史权威validate，不伪称媒体安装。1037旧身份和既有声音/人工门禁保持，继续原媒体作业不因超时重启；入口`checkpoint-closing-stage-v1`与`science-performance-closing-stage-2026-11-15.md`。
+
 ## 2026-11-15：来源对齐与完整结尾试读分开准入
 
 复用共享`speech_variants`生成完整正常速率候选，用已有`speech_polish.write_page`做内部AAC/候选/原片对照；之前窗从已验证当前完整PCM精确取样，不重解码全片、不拿旧MP3冒充当前AAC。`cjiUXZh0ZCo`308/315–320七窗八条真实试读/检查通过，318两读法无胜者；319/320取舍配对归位，不称全局漏译。现成输出只读check，勿重跑preview；后续采用须新当前质量权威收据和既有暂存/媒体/安装合同，不能把历史install-check直接冒充质量收据或修改已绑定适配器。入口`checkpoint-closing-speech-v1`及命令见`science-performance-closing-speech-2026-11-15.md`；191候选与全部人工/声音/播放器门禁保持。

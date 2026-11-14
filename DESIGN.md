@@ -1,5 +1,9 @@
 # 译配工作流契约
 
+## 2026-11-15：先绑定真实当前质量，再零改写归档当前计划
+
+来源选择不能冒充听辨胜者，完整当前质量收据必须来自实际native检查及`delivery_quality.require`；七窗/22短句暂存通过不等于媒体安装。旧导读计划可用既有`FileTransaction`单文件源/目标同身份精确备份：真实prepare/install/commit/check、0规范写入与0意图，随后既有`editorial_history`绑定终态归档。它不是媒体安装或假造失败，不修改已绑定代码。实证与1037旧身份/98根Python/293MP3保持见`docs/science-performance-closing-stage-2026-11-15.md`。
+
 ## 2026-11-15：结尾整句候选与正式状态隔离
 
 结尾试读只复用`speech_variants`和`speech_polish.write_page`：七个当前AAC完整窗按真实40.2秒导读偏移/24kHz十进制绝对样本提取，八条完整正常速率MP3/WAV及WordBoundary与当前输入精确绑定，不改已绑定实现。319/320取舍归位必须配对，318两读法不得自动选胜，正常适配不升级为严格生产准入。949旧身份/98根Python/293生产MP3及私库保持，未验证姓名音译不进入朗读。实证、真实出口及下一权威接口见`docs/science-performance-closing-speech-2026-11-15.md`。

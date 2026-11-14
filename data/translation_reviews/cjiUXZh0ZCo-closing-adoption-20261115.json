@@ -1,0 +1,146 @@
+{
+  "kind": "closing-source-fidelity-staging-review-v1",
+  "video_id": "cjiUXZh0ZCo",
+  "review_date": "2026-11-15",
+  "work": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo",
+  "request": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/closing-adoption-v1",
+  "previous_review": "data/translation_reviews/cjiUXZh0ZCo-closing-speech-20261115.json",
+  "preview_plan": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/closing-speech-v1/reviewed-plan-v1.json",
+  "selection_scope": "Source fidelity and complete natural Chinese text only, not a listening decision, automatic acoustic winner or pronunciation/emotional approval.",
+  "selections": [
+    {
+      "key": "body-308-research-excitement",
+      "source_fidelity_selected": true,
+      "reason": "Restore the speaker-qualified few-new-articles assessment and personal excitement; remove the unsupported final-direction label and mechanical punctuation after artificial intelligence. This is a historical attributed assessment, not a 2026literature claim.",
+      "human_listened": false,
+      "pronunciation_or_emotion_approved": false
+    },
+    {
+      "key": "body-315-inviting-question",
+      "source_fidelity_selected": true,
+      "reason": "The source contains two listener-directed invitations; preserve job seekers and those merely interested in performance without inventing an audience speaker, employment outcome or universal career prescription.",
+      "human_listened": false,
+      "pronunciation_or_emotion_approved": false
+    },
+    {
+      "key": "body-316-career-distinction",
+      "source_fidelity_selected": true,
+      "reason": "Keep the career question, may-confuse qualification and two distinct jobs explicit. The selection improves the specificity and natural Chinese of the text, not verified interrogative prosody.",
+      "human_listened": false,
+      "pronunciation_or_emotion_approved": false
+    },
+    {
+      "key": "body-317-architecture-and-authors",
+      "source_fidelity_selected": true,
+      "reason": "Retain software and hardware requirements, insufficiency of software expertise alone, system architecture, CPU, memory and both authors in a complete parallel sentence. Preserve Hennessy/Patterson spellings and the unchanged English hard-work wording; do not claim author pronunciation or new acoustic source correction.",
+      "human_listened": false,
+      "pronunciation_or_emotion_approved": false
+    },
+    {
+      "key": "body-318-affection-explicit",
+      "source_fidelity_selected": true,
+      "reason": "Select 热爱 on lexical source fidelity to loved research/still love research/love teaching, retaining the autobiographical comparison and no research requirement. The 喜欢 reading remains an immutable complete alternative; no acoustic winner or stronger emotion has been verified.",
+      "human_listened": false,
+      "pronunciation_or_emotion_approved": false
+    },
+    {
+      "key": "body-319-cost-software-foundations",
+      "source_fidelity_selected": true,
+      "reason": "Retain application development, Java/Hadoop, no expert requirement, general software knowledge, cost and TCO. Select together with320: trade-off was already translated globally and is only reassigned to its own source window.",
+      "human_listened": false,
+      "pronunciation_or_emotion_approved": false
+    },
+    {
+      "key": "body-320-tradeoffs-and-thanks",
+      "source_fidelity_selected": true,
+      "reason": "Select together with319to restore trade-offs to their actual source window while preserving unnecessary things, optimization, analytics, the perfection warning, no need to be perfect and complete thanks. Original applause321and its5529.98boundary remain untouched.",
+      "human_listened": false,
+      "pronunciation_or_emotion_approved": false
+    }
+  ],
+  "caption_edits": [
+    {
+      "key": "body-308-research-excitement",
+      "unit_id": 308,
+      "chunks": [
+        {"zh": "这个方向让我特别兴奋。", "spoken": "这个方向让我特别兴奋。", "en": "I think this is one of the very exciting for me"},
+        {"zh": "因为在我看来，把人工智能用于性能、性能工程，也就是性能科学的这类新文章，还不多。", "spoken": "因为在我看来，把人工智能用于性能、性能工程，也就是性能科学的这类新文章，还不多。", "en": "because I think it's one of the few new articles about how we can use artificial intelligence with with with with performance or performance engineering or science of performance"}
+      ],
+      "review_note": "Two complete semantic display phrases preserve the full English word stream and exact Chinese/spoken strings; no boundary inside 人工智能 or 性能工程. WordBoundary projection is not word-level English/Chinese AV approval."
+    },
+    {
+      "key": "body-315-inviting-question",
+      "unit_id": 315,
+      "chunks": [
+        {"zh": "你在找性能工程方面的工作吗？", "spoken": "你在找性能工程方面的工作吗？", "en": "are you looking for a performance engineering job"},
+        {"zh": "那这场报告正好围绕这个话题。", "spoken": "那这场报告正好围绕这个话题。", "en": "yes this is all about this talk"},
+        {"zh": "或者，你只是对性能感兴趣？这场报告也同样适合你。", "spoken": "或者，你只是对性能感兴趣？这场报告也同样适合你。", "en": "or are you interested in performance is also to this talk I"}
+      ],
+      "review_note": "Keep each invitation and its complete relevance statement; the literal trailing I remains in the source stream, not recast as another speaker."
+    },
+    {
+      "key": "body-316-career-distinction",
+      "unit_id": 316,
+      "chunks": [
+        {"zh": "你想学习性能，把它当成自己今后的职业吗？", "spoken": "你想学习性能，把它当成自己今后的职业吗？", "en": "do you want to learn about performance is it your is it your your life professional think that you want to do yeah"},
+        {"zh": "有些人可能会把软件工程师和性能工程师混为一谈，但这是两种不同的工作。", "spoken": "有些人可能会把软件工程师和性能工程师混为一谈，但这是两种不同的工作。", "en": "so actually people they think that and they're maybe they do mistakes between software engineer and performance engineer which is two different things"}
+      ],
+      "review_note": "Do not split either professional role; retain may-confuse and the distinction as a complete phrase."
+    },
+    {
+      "key": "body-317-architecture-and-authors",
+      "unit_id": 317,
+      "chunks": [
+        {"zh": "性能工程师既要懂软件，也得懂硬件；", "spoken": "性能工程师既要懂软件，也得懂硬件；", "en": "you need to know about software but also you need to know about hard work"},
+        {"zh": "只精通软件可不够。", "spoken": "只精通软件可不够。", "en": "you cannot be expert in the software and your good performance engineer"},
+        {"zh": "先学系统架构：CPU、内存，", "spoken": "先学系统架构：C P U、内存，", "en": "this is why you need first you need to do the system architecture of the CPU memory"},
+        {"zh": "比如 Hennessy 和 Patterson 书中的内容。", "spoken": "比如 Hennessy 和 Patterson 书中的内容。", "en": "the you know Hennessy and Patterson book"}
+      ],
+      "review_note": "CPU remains intact as a displayed term, with letter reading only in spoken; both complete author names stay in one display phrase. Literal source hard work is retained rather than silently corrected."
+    },
+    {
+      "key": "body-318-affection-explicit",
+      "unit_id": 318,
+      "chunks": [
+        {"zh": "这和我的职业经历有些相似，但你不必做研究。", "spoken": "这和我的职业经历有些相似，但你不必做研究。", "en": "this is going to be similar thing as my career you don't need to do the research"},
+        {"zh": "我做研究，是因为热爱；", "spoken": "我做研究，是因为热爱；", "en": "I did research because I loved research"},
+        {"zh": "现在依然热爱研究，也热爱教学。", "spoken": "现在依然热爱研究，也热爱教学。", "en": "and they still love research I love also teaching"}
+      ],
+      "review_note": "Retain the no-research requirement, past reason and continuing love/teaching, without changing literal they or claiming acoustic emotional superiority."
+    },
+    {
+      "key": "body-319-cost-software-foundations",
+      "unit_id": 319,
+      "chunks": [
+        {"zh": "你得会开发应用，", "spoken": "你得会开发应用，", "en": "you need to know how to develop application"},
+        {"zh": "对 Java 和 Hadoop 有基本了解；", "spoken": "对 Java 和 Hadoop 有基本了解；", "en": "and Java and Hadoop -"},
+        {"zh": "不要求成为专家，但要有软件基础，", "spoken": "不要求成为专家，但要有软件基础，", "en": "not an expert but the general understanding of software"},
+        {"zh": "也要懂成本和总拥有成本。", "spoken": "也要懂成本和总拥有成本。", "en": "you need to be good in cost and TCO"}
+      ],
+      "review_note": "Keep Java/Hadoop and 总拥有成本 whole. Trade-offs are assigned to320rather than duplicated or globally omitted; the source dash remains in the exact English stream."
+    },
+    {
+      "key": "body-320-tradeoffs-and-thanks",
+      "unit_id": 320,
+      "chunks": [
+        {"zh": "还要懂取舍，知道什么不需要、怎样优化，", "spoken": "还要懂取舍，知道什么不需要、怎样优化，", "en": "or trade of things that you don't need and optimisation"},
+        {"zh": "也要善于分析。", "spoken": "也要善于分析。", "en": "good in analytics"},
+        {"zh": "但追求完美反而不好；你不需要事事完美。", "spoken": "但追求完美反而不好；你不需要事事完美。", "en": "but perfection is bad you don't need to be perfect"},
+        {"zh": "谢谢大家！", "spoken": "谢谢大家！", "en": "thank you"}
+      ],
+      "review_note": "Keep the full trade-off/optimization/analytics/perfection/thanks sequence and the original5529.98applause boundary. Source-clause projection is not cross-language phoneme alignment."
+    }
+  ],
+  "registered_caption_terms": ["人工智能", "性能工程", "性能工程师", "软件工程师", "系统架构", "CPU", "Hennessy", "Patterson", "Java", "Hadoop", "总拥有成本"],
+  "invariants": {
+    "new_tts_requested": false,
+    "source_english_or_windows_modified": false,
+    "automatic_acoustic_winner": null,
+    "human_listened_or_pronunciation_emotion_approved": false,
+    "speaker_boundary_acoustically_approved": false,
+    "original_speech_or_applause_changes_requested": false,
+    "existing_bound_adapters_changes_requested": false,
+    "database_decisions_or_resolutions_requested": 0,
+    "goal_status": "active"
+  }
+}
