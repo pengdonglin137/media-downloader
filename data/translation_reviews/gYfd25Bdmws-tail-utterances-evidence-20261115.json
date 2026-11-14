@@ -1,0 +1,54 @@
+{
+  "kind": "source-utterance-tail-evidence-index-v1",
+  "video_id": "gYfd25Bdmws",
+  "objective_status": "active",
+  "registration": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-gYfd25Bdmws-20261114/checkpoint-utterance-tail-v1/metadata-registration.json",
+    "bytes": 16824,
+    "mtime_ns": 1794673161163269049,
+    "sha256": "0777f42c8e9449e18e7b84eed6dc4d23ba7ac88f67e5f6400030e930049d2978"
+  },
+  "draft": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-gYfd25Bdmws-20261114/checkpoint-utterance-tail-v1/draft-v1/reading.json",
+    "bytes": 369781,
+    "mtime_ns": 1794672706480701759,
+    "sha256": "c5727a32fc7f75a01fc27d349d9571dcad3fc1ae331cc2badf076b30ba336776"
+  },
+  "bindings": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-gYfd25Bdmws-20261114/checkpoint-utterance-tail-v1/draft-v1/bindings.json",
+    "bytes": 11622,
+    "mtime_ns": 1794672706476701661,
+    "sha256": "88c42d53dae641f68e0100a043c6d2521e7c1cb250b783496cf1a1ccf1e89300"
+  },
+  "verification": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-gYfd25Bdmws-20261114/checkpoint-utterance-tail-v1/draft-v1/verification.json",
+    "bytes": 988,
+    "mtime_ns": 1794672706481701783,
+    "sha256": "de1297bb1e25e2b38c1d3018717e196e30345ea96352841c331052c708910fe5"
+  },
+  "author_plan": {
+    "path": "/home/pengdl/media-downloader/data/translation_reviews/gYfd25Bdmws-tail-utterances-20261115.json",
+    "bytes": 109256,
+    "mtime_ns": 1794672706073691855,
+    "sha256": "479a4cafe1232ed16813e7023ad6a28dbc0e7f9f45c298b445a44993a6c80e23"
+  },
+  "new_entries": 75,
+  "old_entries_unchanged": 149,
+  "cumulative_entries": 224,
+  "new_source_tokens": 3429,
+  "source_tokens_covered": 10350,
+  "source_tokens_total": 10350,
+  "remaining_source_tokens": 0,
+  "fully_covered_source_units": 269,
+  "next_source_coordinate": null,
+  "last_source_coordinate_inclusive": [
+    269,
+    16
+  ],
+  "original_token_partition_complete": true,
+  "full_talk_translation_complete": false,
+  "actual_spoken_is_null": true,
+  "production_admitted": false,
+  "new_asr_or_tts": false,
+  "checkpoint": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-gYfd25Bdmws-20261114/checkpoint-utterance-tail-v1/execution-progress.json"
+}
