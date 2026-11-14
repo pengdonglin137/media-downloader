@@ -1,5 +1,9 @@
 # Media Downloader
 
+## 内存分配来源核对更新（2026-11-14）
+
+`gYfd25Bdmws`已用两个现有本地模型核对8段完整语境，16份结果真实完成并只读复核；七项新阅读候选恢复关键否定/超额承诺条件、统计API归属及原问的C++库语境。旧稿和所有来源/声音门禁保留，这不是已完成中文配音或人耳批准。入口见`docs/memory-allocation-source-probes-2026-11-14.md`；可复用命令见`docs/source-probes.md`。
+
 ## 内存分配报告全文阅读进展（2026-11-14）
 
 `gYfd25Bdmws`全部269个自动字幕块已读并形成隔离中文候选，其中33项仍部分待辨，不是已完成中文配音。已核对12张来源图和12份主源文档，分开记录calloc、jemalloc尺寸接口、NUMA及超额承诺等限定；尚未TTS或生成双版本。当前状态及续做入口见`docs/memory-allocation-source-draft-2026-11-14.md`，Linux性能报告原27处hold保持。

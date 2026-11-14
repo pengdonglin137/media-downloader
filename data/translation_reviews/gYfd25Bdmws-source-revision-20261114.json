@@ -1,0 +1,179 @@
+{
+  "kind": "quarantined-source-text-overrides-v1",
+  "video_id": "gYfd25Bdmws",
+  "objective_status": "active",
+  "baseline_draft": {
+    "path": "data/translation_reviews/gYfd25Bdmws-quarantined-draft-20261114.json",
+    "sha256": "02840b1e1452a142f92b0e678c90493a9b934a6f0fe01ec75ee92a282630d384"
+  },
+  "baseline_review": {
+    "path": "data/translation_reviews/gYfd25Bdmws-technical-review-20261114.json",
+    "sha256": "c20b641e5a936f9f393e738455c5165108fc75454304b8b8cf32aa7e0c649cb3"
+  },
+  "source_tsv_sha256": "cadf132644a60b9a2ddfe553498eb4de6c180043eab3c44f2e9a93c5b54b6f60",
+  "probe_plan": "data/translation_reviews/gYfd25Bdmws-source-probes-20261114.json",
+  "checkpoint": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-gYfd25Bdmws-20261114/checkpoint-source-probes-v1",
+  "probe_results_directory": "probes-v1",
+  "evidence_policy": {
+    "models": ["medium", "distil-large-v3"],
+    "language": "en",
+    "hotwords": "",
+    "diagnostic_reference": "16kHz mono PCM16; exact complete windows of one full diagnostic decode, not native signal preservation",
+    "result_binding": "probes-v1/observations.json and inputs.json bind all sixteen individual observations, raw words, probabilities, dependencies and model files",
+    "source_english_or_times_modified": false,
+    "word_times_are_acoustic_boundaries": false,
+    "human_listened": false,
+    "speaker_roles": "unknown",
+    "speaker_handoffs_verified": false,
+    "spoken": null,
+    "tts_admitted": false,
+    "pronunciation_or_emotional_delivery_approved": false,
+    "canonical_stage": "awaiting_translation",
+    "canonical_translation_created": false,
+    "all_twenty_source_hold_records_retained": true,
+    "all_thirty_three_historical_partial_markers_retained": true,
+    "technical_findings_closed": [],
+    "old_draft_and_review_are_immutable": true
+  },
+  "overrides": [
+    {
+      "source_unit": 145,
+      "zh_candidate": "macOS 的分配器也会提供统计。glibc 提供 malloc_info，而 jemalloc 提供 malloc_stats_print。后者会给出许多信息，包括实际分配了多少页，以及这些页面中……",
+      "source_hold_ids": ["H09"],
+      "probe": "statistics-apis",
+      "reason": "Both models mention the macOS allocator separately before a new Glypsey/Pipsy has malloc info clause. Normalize the latter candidate to glibc using its historical implementation, not to macOS. Neither model spells the library name exactly; this is an explicit evidence-backed normalization, not a verbatim or human-verified transcript.",
+      "technical_finding_ids_still_open": ["F05"],
+      "quoted_source_not_endorsed_advice": "The speaker's page-count description remains a quotation candidate; allocated/active/resident are not interchangeable counters. F05 and the separately observed slide formula must accompany any future technical presentation."
+    },
+    {
+      "source_unit": 146,
+      "zh_candidate": "有多少没有使用。用这两类数据的比值，可以近似观察外部碎片，这算是个不错的指标。这里展示的是 Backtrace 调试器处理 Firefox 时的碎片情况。",
+      "source_hold_ids": ["H09"],
+      "probe": "statistics-apis",
+      "reason": "Both models say how many of those pages aren't used. Restore the missing unused contrast across145–146 instead of retaining the old candidate's used wording. The new1985-second slide separately shows1.0 - (allocated / active); it is not evidence that the oral counter description is precise.",
+      "technical_finding_ids_still_open": ["F05"]
+    },
+    {
+      "source_unit": 174,
+      "zh_candidate": "只不过不一定经过操作系统，而是经由分配器内部加锁的数据结构。那该怎么办？首先，问题发生时，并不总是显而易见。我也没有什么特别好的……",
+      "source_hold_ids": ["H12"],
+      "probe": "bleed-not-obvious",
+      "reason": "Both independent no-hotword observations contain not always obvious when it happens. Restore the explicit negative from the actual probe, not from the later inability to pinpoint it. The original automatic caption and neutral draft remain unchanged.",
+      "text_progress": "negative_restored_in_candidate_only"
+    },
+    {
+      "source_unit": 175,
+      "zh_candidate": "办法来精确定位。不过，可以看看这些工作线程的线程缓存统计。如果某种大小的块在缓存里堆了很多，而工作线程其实根本不再分配这种大小，……",
+      "source_hold_ids": ["H12"],
+      "probe": "bleed-not-obvious",
+      "reason": "Continue the complete sentence carried over from174 without deleting the admission that the issue is difficult to pinpoint. Original display windows are retained only as reading references, never promoted to speaker-pure speech windows."
+    },
+    {
+      "source_unit": 212,
+      "zh_candidate": "如果操作系统启用了超额承诺，具体还要看策略有多严格，大多数分配请求都会得到满足，返回一个分配结果。至于……",
+      "source_hold_ids": ["H15"],
+      "probe": "overcommit-negation",
+      "reason": "Both models explicitly say If overcommit is enabled on your operating system and retain depending on how strict it is and most. Replace the former topic-only placeholder with this positive conditional; do not preserve the automatic caption's isn't enabled or turn most into always.",
+      "text_progress": "enabled_conditional_restored_in_candidate_only",
+      "technical_finding_ids_still_open": ["F07"],
+      "quoted_source_not_endorsed_advice": "F07 remains open: limits and allocators may still return NULL, and a successful allocation does not guarantee later physical backing. The historical cross-platform statements in adjacent units are not current configuration advice."
+    },
+    {
+      "source_unit": 263,
+      "zh_candidate": "我确实有个问题。你们讲了很多 malloc 和 free。可我们用的是 make_unique 和 vector.resize，这些结论该怎么理解？比如，不用 malloc、改用 calloc 这一类做法……",
+      "source_hold_ids": ["H20"],
+      "probe": "audience-question",
+      "reason": "Recover the question from its own signal rather than the answer. Medium says avoid malloc and use c-alloc; distil has avoid malloc and you see Alok. calloc is an explicitly normalized tentative identifier, not an assertion of identical model spelling or human hearing. Interjections, boundaries and ownership remain unresolved."
+    },
+    {
+      "source_unit": 264,
+      "zh_candidate": "C++ 库能不能看穿我的内存分配，发现构造函数基本上是在把内存清零，于是替我们作适当处理？你们观察到过这样的情况吗？",
+      "source_hold_ids": ["H20"],
+      "probe": "audience-question",
+      "reason": "Both question observations refer to the C++ library seeing through allocation and zeroing through a constructor. Replace the earlier compiler subject with library, preserving the question rather than asserting that an optimizer performs this transformation. The unclear opening aside262 is not filled from any answer."
+    }
+  ],
+  "probe_review": [
+    {
+      "probe": "paul-introduction",
+      "source_hold_ids": ["H01"],
+      "observed_progress": "Both contain hack on SteelBank Common Lisp, but the employer differs: at Nexus versus at Texas. The Lisp/concurrency joke is still garbled.",
+      "action": "No text override or biography/punchline invented; retain H01 and both raw observations."
+    },
+    {
+      "probe": "slab-example",
+      "source_hold_ids": ["H07"],
+      "observed_progress": "Both output DongoDB, sixteen million nodes, a34-byte key and64-byte value, then a separate32/64/32 allocation description. Neither makes the word-and-a-half preloading phrase reliable.",
+      "action": "Do not normalize34 to32, identify a real product or claim universal cache-line behavior. The1685-second diagram distinguishes n24B/word40B/description72B bump storage from32B/48B/80B slab storage; those storage labels do not resolve the key request size."
+    },
+    {
+      "probe": "researcher-locality",
+      "source_hold_ids": ["H08"],
+      "observed_progress": "Both output a Fedorova-like name and Fraser University alongside allocator relationships, PMCs and Mesh. First names differ and neither establishes the complete official name or a specific paper.",
+      "action": "Do not infer Alexandra Fedorova, gender, a current institution or paper identity from plausible subject knowledge. No new primary biography or slide was obtained in this checkpoint; retain H08."
+    },
+    {
+      "probe": "statistics-apis",
+      "source_hold_ids": ["H09"],
+      "observed_progress": "Explicit candidate corrections145–146 record API attribution and the unused contrast. Both also output average1.2 writes and1.41 reads, but the2015-second DHAT frame does not display these lines.",
+      "action": "Retain H09/F05; do not claim all counter semantics or those numbers visually verified. The historical glibc2.30 implementation and jemalloc5.2.1 manual are independent primary spelling/ownership references, not acoustic proof."
+    },
+    {
+      "probe": "bleed-not-obvious",
+      "source_hold_ids": ["H12"],
+      "observed_progress": "Both retain not always obvious, allowing explicit new174–175 reading candidates.",
+      "action": "Keep the original H12 record, mark text progress separately; no acoustic end, role or human decision is manufactured."
+    },
+    {
+      "probe": "overcommit-negation",
+      "source_hold_ids": ["H15"],
+      "observed_progress": "Both retain enabled, policy strictness and most; new212 recovers the conditional without making an always-success guarantee.",
+      "action": "H15 remains pending source/human approval. F07's production correction remains mandatory and open."
+    },
+    {
+      "probe": "gwp-as-an-aside",
+      "source_hold_ids": ["H18"],
+      "observed_progress": "Both output does not send for a Google wide profiling ASAN, not a verified expansion. Medium says runs pretty well in Prod; distil says runs pretty well in fraud.",
+      "action": "Do not assert complete agreement on production, make Google-wide profiling the real expansion, or replace ordinary ASan with GWP-ASan. No joke override; H18/F09 remain."
+    },
+    {
+      "probe": "audience-question",
+      "source_hold_ids": ["H20"],
+      "observed_progress": "The actual question supports a tentative calloc context and the C++ library subject in263–264. The nice-breaker/staff aside, small interjections and speaker handoffs remain unclear.",
+      "action": "Keep262 and H20; no question invented from the answer, speaker identification or full Q&A approval."
+    }
+  ],
+  "primary_evidence_reused": [
+    {
+      "id": "glibc-2.30",
+      "checkpoint_relative_path": "../checkpoint-full-text-draft-v1/primary-sources/glibc-2.30-malloc.c.txt",
+      "finding": "__malloc_info(int options, FILE *fp) exists in the historical glibc implementation; independent support for normalized API ownership, not proof of the exact spoken library name."
+    },
+    {
+      "id": "jemalloc-5.2.1",
+      "checkpoint_relative_path": "../checkpoint-full-text-draft-v1/primary-sources/jemalloc-5.2.1.xml",
+      "finding": "malloc_stats_print and the allocated/active/resident distinction remain the separate F05 reference."
+    }
+  ],
+  "image_observations": [
+    {
+      "seconds": 1685,
+      "path": "source-images/source-1685.jpg",
+      "opened_individually": true,
+      "observation": "Bump n24B/word40B/description72B and slab n32B/word48B/description80B are visible. Rounded storage is not automatically the key request length."
+    },
+    {
+      "seconds": 1985,
+      "path": "source-images/source-1985.jpg",
+      "opened_individually": true,
+      "observation": "The slide explicitly prints1.0 - (allocated / active) = .00035766564871693719. This is not the API-ownership slide and does not validate every oral page-count description."
+    },
+    {
+      "seconds": 2015,
+      "path": "source-images/source-2015.jpg",
+      "opened_individually": true,
+      "observation": "Valgrind/exp-dhat command and allocation statistics are visible; the1.2/1.41 access-count lines are not visible at this frame."
+    }
+  ],
+  "next_action": "Recover the remaining proper names/aside and actual speaker-pure complete utterances. Admit revised full translations through the normal compiler only after the source and role gates; then audition complete-sentence pronunciation and prosody at normal rate. No new TTS or Chinese film is authorized by this text override."
+}

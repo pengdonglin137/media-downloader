@@ -1,5 +1,11 @@
 # 本仓库的 AI 执行入口
 
+## 2026-11-14：内存分配来源诊断与七项阅读修订
+
+- 新共享`media_workflow.source_probes`复用本地medium/distil-large-v3，8段共660秒语境/16观察、10实际子进程及外层0，独立check0不重跑ASR。8有限测试方法含21配置拒绝通过；完整16kHz诊断参考58632801样本及精确切窗不冒充原生信号/声学/角色或人耳批准。
+- 另存145/146 API归属与未使用、174/175 not always obvious、212 enabled且大多数/策略严格程度、263/264真实问题及C++库修订；旧269稿/原英文/字幕窗不改，其余262中文保持。全部20hold、33旧部分标记、12技术发现保留；F05/F07/F09不自动关闭，雇主/姓名/玩笑/预加载/插话仍hold。
+- 三张新受限来源JPEG已逐张看，尺寸/身份另绑；1685存储布局不等于键请求大小，1985公式不证明口述页数，2015不显示1.2/1.41行。入口`request-gYfd25Bdmws-20261114/checkpoint-source-probes-v1/execution-progress.json`，说明`docs/memory-allocation-source-probes-2026-11-14.md`。98根Python及既有成功媒体保持；无新TTS/中文成片，正式awaiting_translation，发音/情感/全片人耳/视觉/播放器未批准，目标active，不改共享队列或并行总数，只提交自身文件/插入段。
+
 ## 2026-11-14：内存分配269块全文阅读候选，仍隔离
 
 - `gYfd25Bdmws`全部269旧字幕块/10350原token已通读并形成269中文阅读候选，其中33项仅部分恢复；20组来源hold、12技术发现含5 critical分开，角色unknown、声学边界null、TTS不准入。正式仍awaiting_translation，无新ASR/TTS/成片，不称全文已批准。

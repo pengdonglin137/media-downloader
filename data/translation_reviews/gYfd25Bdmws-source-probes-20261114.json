@@ -1,0 +1,30 @@
+{
+  "kind":"source-utterance-asr-probes-v1",
+  "work":"/home/pengdl/Videos/translated_backlog/.zh_work_yt_gYfd25Bdmws",
+  "source":{
+    "path":"/home/pengdl/Videos/translated_backlog/.zh_work_yt_gYfd25Bdmws/download/What Programmers Should Know About Memory Allocation - S. Al Bahra, H. Sowa, P. Khuong - CppCon 2019 [gYfd25Bdmws].mp4",
+    "sha256":"787ab8f036c5f7e9dc3e88153c11b7e2890d1e788fa1af23e45952d161c4fc00",
+    "audio_stream":0
+  },
+  "models":{
+    "medium":"/vol_1t/pyvideotrans/models/models--Systran--faster-whisper-medium/snapshots/08e178d48790749d25932bbc082711ddcfdfbc4f",
+    "distil-large-v3":"/vol_1t/pyvideotrans/models/models--Systran--faster-distil-whisper-large-v3/snapshots/c3058b475261292e64a0412df1d2681c06260fab"
+  },
+  "cpu_threads":4,
+  "language":"en",
+  "hotwords":"",
+  "reference_evidence":[
+    {"path":"/home/pengdl/media-downloader/data/translation_reviews/gYfd25Bdmws-quarantined-draft-20261114.json","bytes":47782,"mtime_ns":1794663852093183043,"sha256":"02840b1e1452a142f92b0e678c90493a9b934a6f0fe01ec75ee92a282630d384"},
+    {"path":"/home/pengdl/media-downloader/data/translation_reviews/gYfd25Bdmws-technical-review-20261114.json","bytes":23353,"mtime_ns":1794663852094183090,"sha256":"c20b641e5a936f9f393e738455c5165108fc75454304b8b8cf32aa7e0c649cb3"}
+  ],
+  "probes":[
+    {"key":"paul-introduction","start":"58","end":"102","source_units":[4,5,6,7],"purpose":"H01: recover Paul's employer, Lisp activity and actual joke; do not identify speakers from captions alone."},
+    {"key":"slab-example","start":"1600","end":"1718","source_units":[117,118,119,120,121,122,123,124,125],"purpose":"H07: independently transcribe the example name,34/32-byte values and the preloading sentence. Do not normalize one number to the other."},
+    {"key":"researcher-locality","start":"1738","end":"1810","source_units":[128,129,130,131,132],"purpose":"H08: recover the spoken researcher/institution and qualifier before consulting external biographies; no name hotwords."},
+    {"key":"statistics-apis","start":"1940","end":"2038","source_units":[143,144,145,146,147,148,149,150],"purpose":"H09/F05: distinguish allocator/API attribution and reported statistics in context; retain any source error separately from factual correction."},
+    {"key":"bleed-not-obvious","start":"2318","end":"2380","source_units":[172,173,174,175,176],"purpose":"H12: determine whether the spoken sentence contains not always obvious; do not derive negation from the later explanation."},
+    {"key":"overcommit-negation","start":"2850","end":"2922","source_units":[210,211,212,213,214,215],"purpose":"H15/F07: inspect the full overcommit conditional, especially enabled versus isn't enabled. Documentation is not acoustic proof."},
+    {"key":"gwp-as-an-aside","start":"3215","end":"3260","source_units":[237,238,239,240],"purpose":"H18/F09: retain the exact GWP-ASan aside and distinguish it from ordinary ASan, without guessing an expansion."},
+    {"key":"audience-question","start":"3558","end":"3607","source_units":[261,262,263,264,265],"purpose":"H20: recover the actual first aside and make_unique/vector.resize question from its own signal; the answer must not manufacture the question."}
+  ]
+}
