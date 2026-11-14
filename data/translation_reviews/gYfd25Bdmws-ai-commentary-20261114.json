@@ -1,0 +1,114 @@
+{
+  "kind": "ai-commentary-editorial-plan-v1",
+  "work": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_gYfd25Bdmws",
+  "technical_review_path": "gYfd25Bdmws-commentary-review-20261114.json",
+  "reference_evidence_paths": [
+    "gYfd25Bdmws-technical-review-20261114.json",
+    "gYfd25Bdmws-source-revision-20261114.json",
+    "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-gYfd25Bdmws-20261114/checkpoint-full-text-draft-v1/primary-sources/glibc-2.30-memory.texi.txt",
+    "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-gYfd25Bdmws-20261114/checkpoint-full-text-draft-v1/primary-sources/jemalloc-5.2.1.xml",
+    "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-gYfd25Bdmws-20261114/checkpoint-source-probes-v1/source-images/source-1985.jpg.json"
+  ],
+  "voice": "zh-CN-YunxiNeural",
+  "rate": "+0%",
+  "label": "AI补充说明（非讲者原话）",
+  "max_seconds": 40,
+  "cases": [
+    {
+      "key": "calloc-native",
+      "review_case": "F01",
+      "anchor_unit_id": 91,
+      "source_anchor": "1251.36",
+      "source_ids": [91,92,93,94,95,96,97,267,268],
+      "display": "AI补充说明（非讲者原话）：需要按字节清零时，可考虑calloc，而非malloc后再memset；成功结果仍须为零。零页优化可能省掉重复写零，不保证每次更快，也不等于C++对象构造。",
+      "spoken": "AI补充说明。需要把新申请的内存按字节清零时，可以考虑 calloc，而不是 malloc 后再 memset。calloc 成功返回的内存，仍保证按字节为零。零页优化可能省掉重复写零，不是允许返回未初始化内容；它不保证每次都更快，也不等于完成了 C++ 对象构造。",
+      "reason": "完整句直读calloc、malloc和memset，保留成功返回、按字节、性能非保证与构造区别；不是照读原讲的永远推荐。",
+      "prosody_intent": "平实说明，先讲适用需求，再强调仍保证为零；不喊重音或模仿讲者。",
+      "preserved_facts": ["成功结果按字节为零", "清零需求下可考虑calloc替代malloc加memset", "可能省重复写零而非暴露未初始化数据", "不保证每次更快", "不等于C++对象构造"]
+    },
+    {
+      "key": "calloc-explanatory",
+      "review_case": "F01",
+      "anchor_unit_id": 91,
+      "source_anchor": "1251.36",
+      "source_ids": [91,92,93,94,95,96,97,267,268],
+      "display": "AI补充说明（非讲者原话）：需要按字节清零时，可考虑calloc，而非malloc后再memset；成功结果仍须为零。零页优化可能省掉重复写零，不保证每次更快，也不等于C++对象构造。",
+      "spoken": "AI补充说明。少写一次零，就能把未初始化的内存交给程序吗？不能。C alloc 成功返回的内存，仍须按字节为零；省掉的可能只是重复写零。需要清零时，它可以替代先分配再清零的组合，但不保证总是更快，也不能替代 C++ 对象构造。",
+      "reason": "以完整反问纠正误解；C alloc仅为calloc的分组试读候选，显示保留精确拼写。先分配再清零对应malloc加memset，不将其作为正式缩写展开或已批准字音。",
+      "prosody_intent": "像耐心答疑：反问后明确回答不能，再放缓解释条件；实际停顿、可懂度和情感仍待试听。",
+      "preserved_facts": ["成功结果按字节为零", "清零需求下可考虑calloc替代malloc加memset", "可能省重复写零而非暴露未初始化数据", "不保证每次更快", "不等于C++对象构造"]
+    },
+    {
+      "key": "jemalloc-three-native",
+      "review_case": "F02",
+      "anchor_unit_id": 136,
+      "source_anchor": "1855.72",
+      "source_ids": [136,137,138],
+      "display": "AI补充说明（非讲者原话）：nallocx只计算尺寸，不分配内存；sallocx查询已有分配的实际大小；xallocx尝试原地调整。必须检查返回大小，不能把尝试当作扩容成功。",
+      "spoken": "AI补充说明。nallocx 只计算尺寸，并不分配内存；sallocx 查询已有分配的实际大小；xallocx 只是尝试原地调整。请检查它返回的大小，不能把一次尝试，当作已经扩容成功。",
+      "reason": "三个近似拼写逐项建立含义，不省掉已有分配、原地与返回大小检查。保留原词整句直读作为对照，未认定发音正确。",
+      "prosody_intent": "按三项对比清晰讲解，最后一句用提醒而非恐吓；不以提速塞字。",
+      "preserved_facts": ["nallocx只计算不分配", "sallocx查询已有分配实际大小", "xallocx只尝试原地调整", "检查返回大小而非假定成功"]
+    },
+    {
+      "key": "jemalloc-three-explanatory",
+      "review_case": "F02",
+      "anchor_unit_id": 136,
+      "source_anchor": "1855.72",
+      "source_ids": [136,137,138],
+      "display": "AI补充说明（非讲者原话）：nallocx只计算尺寸，不分配内存；sallocx查询已有分配的实际大小；xallocx尝试原地调整。必须检查返回大小，不能把尝试当作扩容成功。",
+      "spoken": "AI补充说明。这三个名字很像，做的事却不同：N alloc X，只算尺寸；S alloc X，查已有分配的实际大小；X alloc X，尝试原地调整。算尺寸并不分配内存，尝试调整也不保证成功，返回大小仍要检查。",
+      "reason": "用N alloc X、S alloc X、X alloc X完整句分组试读，不当官方读法或全局词典；先引导比较再重复限制，屏幕保留三个精确接口名。",
+      "prosody_intent": "亲切地提示容易混淆之处，三项保持平行节奏；尝试与保证形成自然对比，但不预先判定已合成正确重音。",
+      "preserved_facts": ["nallocx只计算不分配", "sallocx查询已有分配实际大小", "xallocx只尝试原地调整", "检查返回大小而非假定成功"]
+    },
+    {
+      "key": "sdallocx-native",
+      "review_case": "F02",
+      "anchor_unit_id": 140,
+      "source_anchor": "1912.659",
+      "source_ids": [139,140,141],
+      "display": "AI补充说明（非讲者原话）：jemalloc5.2.1的sdallocx返回void，不是图中的size_t。size下限为原始请求，上限为兼容参数下nallocx或sallocx确定的实际分配大小；仅知道sizeof(T)并不够。",
+      "spoken": "AI补充说明。按五点二点一版手册，sdallocx 返回 void，不是图上的 size_t。传入的大小，下限是原始请求，上限是兼容参数下的实际分配大小，可由 nallocx 或 sallocx 确定。只知道类型的 sizeof，还不够。",
+      "reason": "明确历史版本、void与size_t的图文差异，保留请求下限和兼容参数上限；不能把接口拼写表代替完整释放契约。",
+      "prosody_intent": "先平静指出图中错误，再分下限和上限解释，不用惊叹掩盖条件。",
+      "preserved_facts": ["版本为jemalloc5.2.1", "sdallocx返回void而非size_t", "下限原始请求大小", "上限兼容参数下nallocx或sallocx实际大小", "sizeof(T)单独不足"]
+    },
+    {
+      "key": "sdallocx-explanatory",
+      "review_case": "F02",
+      "anchor_unit_id": 140,
+      "source_anchor": "1912.659",
+      "source_ids": [139,140,141],
+      "display": "AI补充说明（非讲者原话）：jemalloc5.2.1的sdallocx返回void，不是图中的size_t。size下限为原始请求，上限为兼容参数下nallocx或sallocx确定的实际分配大小；仅知道sizeof(T)并不够。",
+      "spoken": "AI补充说明。S D alloc X 会返回一个尺寸吗？不会，五点二点一版手册规定它没有返回值。传入的大小，下限是原始请求，上限是兼容参数下算出或查到的实际分配大小。只知道类型的 sizeof，就随便填数，可不行。",
+      "reason": "S D alloc X为sdallocx试读映射；没有返回值对应void，算出或查到的实际大小对应nallocx/sallocx。完整显示保留名称、版本及size_t错误，不能把解释式口播误称逐字读出了全部标识符。",
+      "prosody_intent": "问答式澄清，提醒处坚定但不过度表演；不假称支持SSML情感或已完成听辨。",
+      "preserved_facts": ["版本为jemalloc5.2.1", "sdallocx返回void而非size_t", "下限原始请求大小", "上限兼容参数下nallocx或sallocx实际大小", "sizeof(T)单独不足"]
+    },
+    {
+      "key": "statistics-native",
+      "review_case": "F05",
+      "anchor_unit_id": 144,
+      "source_anchor": "1964.789",
+      "source_ids": [142,143,144,145,146],
+      "display": "AI补充说明（非讲者原话）：按jemalloc5.2.1文档，allocated和active分别为应用当前已分配字节与活跃页占用字节。active非零时，1-allocated/active仅作碎片近似指标。resident含元数据等，是驻留量上界估计，不是整个进程的精确RSS。",
+      "spoken": "AI补充说明。按五点二点一版文档，allocated 是应用当前已分配的字节，active 是活跃页占用的字节。活跃量不为零时，用一减去前者与后者的比值，只是碎片的近似指标。resident 是含元数据等的驻留量上界估计，不是整个进程的精确常驻内存。",
+      "reason": "不把应用字节与活跃页字节读成同一个页面计数；补回比值的非零前提，并据同版手册明确resident是maximum rather than precise，不冒充进程精确RSS。",
+      "prosody_intent": "像带读统计表，三个字段分开解释，近似和估计保持谨慎，不制造唯一诊断结论。",
+      "preserved_facts": ["版本为jemalloc5.2.1", "allocated与active均按字节", "active非零才定义比值", "一减两者之比只是碎片近似", "resident含元数据等且是上界估计", "不是整个进程精确RSS"]
+    },
+    {
+      "key": "statistics-explanatory",
+      "review_case": "F05",
+      "anchor_unit_id": 144,
+      "source_anchor": "1964.789",
+      "source_ids": [142,143,144,145,146],
+      "display": "AI补充说明（非讲者原话）：按jemalloc5.2.1文档，allocated和active分别为应用当前已分配字节与活跃页占用字节。active非零时，1-allocated/active仅作碎片近似指标。resident含元数据等，是驻留量上界估计，不是整个进程的精确RSS。",
+      "spoken": "AI补充说明。应用当前分配了多少、活跃页占了多少、驻留量估计是多少，能混成一个数吗？不能。按五点二点一版文档，前两者都按字节计；活跃量非零时，用一减去前者与后者的比值，只提供碎片线索。驻留估计还含元数据等，给的是上界，不是整个进程的精确常驻内存。",
+      "reason": "解释式口播按显示的allocated/active/resident顺序给中文含义，不声称已逐字读出英文；保留字节单位、非零分母、近似、上界及非全进程RSS限定。",
+      "prosody_intent": "用一个简短反问引导区分，再按读表顺序解释；自然亲和不等于激昂，未实际试听不得选胜。",
+      "preserved_facts": ["版本为jemalloc5.2.1", "allocated与active均按字节", "active非零才定义比值", "一减两者之比只是碎片近似", "resident含元数据等且是上界估计", "不是整个进程精确RSS"]
+    }
+  ]
+}

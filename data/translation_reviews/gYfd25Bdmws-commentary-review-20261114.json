@@ -1,0 +1,48 @@
+{
+  "kind": "ai-commentary-factual-review-v1",
+  "video_id": "gYfd25Bdmws",
+  "source_sha256": "1aaa70b0cf64b24f8dd1632b7c6ddba720337b64a270bec4d005adba795b6b3b",
+  "scope": "Three existing technical findings reviewed for explicitly attributed, isolated AI explanations only; this cases/source_units view is not a replacement source translation, role approval or closed production audit.",
+  "derived_from": {
+    "path": "gYfd25Bdmws-technical-review-20261114.json",
+    "sha256": "c20b641e5a936f9f393e738455c5165108fc75454304b8b8cf32aa7e0c649cb3"
+  },
+  "source_hold_records_retained": 20,
+  "historical_partial_text_markers_retained": 33,
+  "source_speaker_verified": false,
+  "production_timeline_verified": false,
+  "human_listened": false,
+  "pronunciation_or_emotion_approved": false,
+  "closed_technical_findings": [],
+  "cases": [
+    {
+      "id": "F01",
+      "source_units": [91,92,93,94,95,96,97,267,268],
+      "status": "authored_ai_explanation_only_production_open",
+      "finding": "Successful calloc returns byte-zeroed storage. Avoiding redundant physical writes is an implementation optimization, not permission to expose uninitialized storage. A zeroing requirement may motivate calloc instead of malloc followed by memset, but performance is not universally better and byte zeroing is not C++ object construction.",
+      "primary_snapshot": "glibc-2.30-memory.texi.txt",
+      "primary_url": "https://raw.githubusercontent.com/bminor/glibc/glibc-2.30/manual/memory.texi",
+      "preserved_constraints": ["successful result is byte-zeroed", "optimization is possible, not guaranteed", "no always-faster recommendation", "do not substitute for C++ construction"]
+    },
+    {
+      "id": "F02",
+      "source_units": [136,137,138,139,140,141],
+      "status": "authored_ai_explanation_only_production_open",
+      "finding": "jemalloc5.2.1 nallocx computes a size without allocating, sallocx queries a live allocation, and xallocx attempts an in-place resize whose returned size must be checked. sdallocx returns void, contrary to the source slide's size_t. Its supplied size ranges from the original request through a compatible nallocx/sallocx size; a type's sizeof alone is insufficient authority for that allocation.",
+      "primary_snapshot": "jemalloc-5.2.1.xml",
+      "primary_url": "https://raw.githubusercontent.com/jemalloc/jemalloc/5.2.1/doc/jemalloc.xml.in",
+      "preserved_constraints": ["nallocx does not allocate", "sallocx queries existing allocation", "xallocx attempts, does not guarantee", "check returned size", "sdallocx returns void", "original-request lower bound and compatible-size upper bound", "sizeof alone is insufficient"],
+      "reading_recipe_authority": "nallocx versus N alloc X, and sdallocx versus S D alloc X, are whole-sentence candidate readings, not official pronunciations or approved phoneme instructions. Exact identifiers remain in display."
+    },
+    {
+      "id": "F05",
+      "source_units": [142,143,144,145,146,147,148,149],
+      "status": "authored_ai_explanation_only_production_open",
+      "finding": "jemalloc5.2.1 allocated and active are current byte-valued application-allocation and active-page measures, not cumulative requests or interchangeable page counts. For active greater than zero,1 - allocated/active is an approximate indicator, not a complete diagnosis. resident includes metadata and other allocator pages and the manual explicitly calls it a maximum rather than precise measurement; it is not exact whole-process RSS. The DHAT average-access issue remains outside these two statistics candidates' claimed scope.",
+      "primary_snapshot": "jemalloc-5.2.1.xml",
+      "primary_url": "https://raw.githubusercontent.com/jemalloc/jemalloc/5.2.1/doc/jemalloc.xml.in",
+      "source_image": "checkpoint-source-probes-v1/source-images/source-1985.jpg",
+      "preserved_constraints": ["allocated and active are bytes", "active must be nonzero for ratio", "ratio is approximate", "resident includes metadata and is an upper-bound estimate", "not exact process RSS", "historical5.2.1 reference, not a guarantee for all installed versions"]
+    }
+  ]
+}

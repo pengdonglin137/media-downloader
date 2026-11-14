@@ -1,5 +1,11 @@
 # 本仓库的 AI 执行入口
 
+## 2026-11-14：内存分配八条完整句AI术语/表达试读，未选胜
+
+- gYfd25Bdmws复用共享commentary_preview/visual，为F01/F02/F05制作四组八条明确AI补充说明，云溪正常速率、实际16.752–26.136秒/共176.832秒；原词与分组/中文解释对照，措辞同时变化，不当情感单变量实验。nallocx/sallocx/xallocx、sdallocx/void/size_t及allocated/active/resident精确显示，读法不当官方发音或全局词典。
+- 八内部有声MKV全部4243968音频样本等于原WAV、4424实际RGB帧等于卡片；音频38405与视觉12130外层及各检查0。八实际MKV受限JPEG逐张已看，≤1280/32768字节；统计两卡“活跃｜页”仍跨行，不冒称全面词组保护。resident同版手册maximum/非精确的上界估计限定已补齐，F05并未关闭。
+- 原356身份含98根Python/既有ASR/模型/旧稿/媒体保持；新cases审校仅供AI说明，不替代原稿。全部20hold/33旧部分标记/12技术发现保留，正式awaiting_translation，无正文安装或中文全片，无人耳/字音/情感/角色/播放器批准，目标active。入口`request-gYfd25Bdmws-20261114/checkpoint-commentary-v1/execution-progress.json`，说明`docs/memory-allocation-commentary-2026-11-14.md`；只提交自身数据/插入段，不改共享队列或并行总数。
+
 ## 2026-11-14：内存分配来源诊断与七项阅读修订
 
 - 新共享`media_workflow.source_probes`复用本地medium/distil-large-v3，8段共660秒语境/16观察、10实际子进程及外层0，独立check0不重跑ASR。8有限测试方法含21配置拒绝通过；完整16kHz诊断参考58632801样本及精确切窗不冒充原生信号/声学/角色或人耳批准。

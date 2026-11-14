@@ -1,0 +1,19 @@
+{
+  "kind": "ai-commentary-visual-editorial-v1",
+  "bound_audio_plan": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-gYfd25Bdmws-20261114/checkpoint-commentary-v1/bound-plan.json",
+  "audio_previews": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-gYfd25Bdmws-20261114/commentary-previews-v1",
+  "font": {
+    "path": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+    "index": 2
+  },
+  "cards": [
+    {"key":"calloc-native","heading":"零初始化：接口原词","terms":["calloc","malloc","memset","C++"]},
+    {"key":"calloc-explanatory","heading":"零初始化：解释式问答","terms":["calloc","malloc","memset","C++"]},
+    {"key":"jemalloc-three-native","heading":"三个尺寸接口：原词直读","terms":["nallocx","sallocx","xallocx"]},
+    {"key":"jemalloc-three-explanatory","heading":"三个尺寸接口：分组解释","terms":["nallocx","sallocx","xallocx"]},
+    {"key":"sdallocx-native","heading":"带大小释放：接口原词","terms":["jemalloc5.2.1","sdallocx","void","size_t","sizeof(T)"]},
+    {"key":"sdallocx-explanatory","heading":"带大小释放：问答解释","terms":["jemalloc5.2.1","sdallocx","void","size_t","sizeof(T)"]},
+    {"key":"statistics-native","heading":"统计字段：原词与边界","terms":["allocated","active","resident","RSS"]},
+    {"key":"statistics-explanatory","heading":"统计字段：解释式读表","terms":["allocated","active","resident","RSS"]}
+  ]
+}

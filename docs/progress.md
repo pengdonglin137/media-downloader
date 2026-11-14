@@ -1,5 +1,9 @@
 # 工作流优化验证记录
 
+## 2026-11-14：内存分配四组完整句术语/表达对照
+
+gYfd25Bdmws复用共享适配器，F01/F02/F05四组八条完整AI试读实际0：云溪+0%，各16.752–26.136秒、4243968样本/176.832秒，词界文字覆盖完整且无越尾，未截尾/变速/选胜。八内部MKV实际0，全部音频等于原WAV、4424帧/176.96秒完整RGB等于卡片；八受限实际视频JPEG逐张看过，统计两卡“活跃｜页”跨行如实保留，不当全片视觉。原356身份/98根Python及旧源ASR/媒体保持，新的resident上界估计/非全进程精确RSS限定独立解释，不关闭F05。音频38405/视觉12130及bind/validate/check真实0；初次错误文档名读取的非生产2单列。正式awaiting_translation、20hold/33旧部分/12技术发现保持，无新中文全片/正文安装/发音情感人耳批准，目标active。入口`request-gYfd25Bdmws-20261114/checkpoint-commentary-v1/execution-progress.json`，说明`docs/memory-allocation-commentary-2026-11-14.md`。
+
 ## 2026-11-14：内存分配16份来源观察与七项阅读修订
 
 共享`media_workflow.source_probes`的8有限测试方法/21配置拒绝通过；gYfd25Bdmws medium/distil-large-v3各8段，共660秒不同语境，16观察、十实际子进程/外层0，独立check0。58632801样本16kHz单声道参考及八完整切窗核验，不作原生保持/声学/人耳结论。另存145/146、174/175、212、263/264七项阅读修订，旧269稿/原文/时间保持，其余262中文不变；全部20hold/33旧部分标记及12技术发现保持。新三张受限来源图已逐张查看，统计公式、DHAT与存储布局边界分别说明，不称全片视觉。正式awaiting_translation，无新TTS/中文成片，发音/情感/人耳/播放器仍未批准，目标active。真实证据/只读登记入口`request-gYfd25Bdmws-20261114/checkpoint-source-probes-v1/execution-progress.json`，操作见`docs/memory-allocation-source-probes-2026-11-14.md`。
