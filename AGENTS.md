@@ -1,5 +1,14 @@
 # 本仓库的 AI 执行入口
 
+## 2026-11-14：Science of Performance十三处字幕切词双版本修复
+
+- 仅`cjiUXZh0ZCo`：13对同一正式单元内的相邻显示条已显式合并，Architecture、David、CPU、Lake、Studio、Performance、VTune、Intel、Storage和LSTM不再被这些时间边界切开。321来源窗/角色、全部中文字空格标点、11导读条及声音保持；正文中文/双语1017→1004，含导读1028→1015，独立英文仍1028。明确移除了13个中间显示边界，不称所有旧显示时间不变。
+- 双版本已安装，旧两媒体精确硬链接归档。母版167187视频包、双音轨130618/240010包及英文1032包载荷/有理时戳保持；新上传版只重新烧字编码，中文AAC复制并逐包保持，167187个实际画面PTS/时长精确相同。平均帧率头`2507805/83594`与`30/1`不同，另记而非冒称元数据全等；85逻辑章节相同，不称章节辅助包位级保持。
+- 新上传版完整解码、两版有限VLC章节/音轨及母版字幕切换通过；母版完整A/V解码按精确编码包身份显式复用旧成功，不冒充重跑。23原声区通过旧回填实证及本次完整音轨身份继承，不冒称新做23区PCM试验。无新TTS/ASR/音频编辑或数据库决定，290缓存、189声音候选及98根Python保持。
+- 26张实际新上传版JPEG逐张已看，13张旧母版叠加预览另计，均长边≤1280/实际≤32768字节。292左帧仍为Mobile Energy Profiler、右帧已为Graphics Performance Analyzer，不按标签冒称同页或逐词声画通过；仅批准这些局部整词显示。
+- 当前原生包`version=2, kind=caption-word-merge-package-v1`，真实生产器与完整依赖独立绑定，不冒用冻结字幕生产器版本、不改编译显示文件。仅通过请求内`caption_package_runtime_v1.py`读取，见`CAPTION-RUNTIME-v1.md`；普通旧CLI不支持新实现。身份字段、AAC首包跨行、平均帧率头检查及未取得证明时的安装失败均保留；只读工具143与后续缓存全量复核0分开，不重做成功编码。
+- 新入口`/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/checkpoint-caption-word-merge-v1/execution-progress.json`；索引`data/translation_reviews/cjiUXZh0ZCo-caption-word-merge-20261114.json`。此前58条实际AAC诊断仍只覆盖26/282正文语言窗和3导读场景，不是本次新增或人耳批准；情感/专业发音、全片人耳/视觉、逐词声画、PotPlayer和最终批准仍待完成，目标active，不改并行队列或总数。
+
 ## 2026-11-14：Science of Performance双版本结构验证与实际AAC诊断
 
 - `cjiUXZh0ZCo`正式321项已生成中文母版和中文烧字上传版；实际40.2秒/1206帧三场景有声AI导读，总5572.982秒、85内嵌中文章。母版双音轨/三软字幕，上传版单中文主轨；每用途独立MP4，不新增交付外挂、不扩列表、不发布或改并行总数。

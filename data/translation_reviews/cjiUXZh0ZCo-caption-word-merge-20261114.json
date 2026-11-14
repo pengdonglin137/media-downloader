@@ -1,0 +1,123 @@
+{
+  "version": 1,
+  "id": "cjiUXZh0ZCo",
+  "reviewed_at": "2026-11-14T03:30:57+00:00",
+  "title": "Science of Performance 2019",
+  "scope": "13 same-formal-unit adjacent display-cue merges only",
+  "checkpoint": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/checkpoint-caption-word-merge-v1/execution-progress.json",
+  "native_manifest": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/caption-word-merge-v1/installed-native-v2/manifest.json",
+    "bytes": 23358,
+    "mtime_ns": 1794626917686418111,
+    "sha256": "db0dc0692cfecdac386f26cb4ed6cbac7e5f4d8ed912e20cb93579f4ada10a75"
+  },
+  "runtime": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/caption_package_runtime_v1.py",
+    "bytes": 5737,
+    "mtime_ns": 1794626319049426975,
+    "sha256": "b0ea41decd8a91ab411ae51ed6e70fe87a9799fcbf5bc9f23ae4b1755701c276"
+  },
+  "runtime_instructions": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/CAPTION-RUNTIME-v1.md",
+    "bytes": 3265,
+    "mtime_ns": 1794626867140941534,
+    "sha256": "303762ed3dcd1b010598237e0ac6164d37c8d640f0ff9e6266d2a0b2ba37cbb7"
+  },
+  "outputs": {
+    "master": {
+      "path": "/home/pengdl/Videos/translated_backlog/Science of Performance 2019_中文配音.mp4",
+      "bytes": 565847941,
+      "mtime_ns": 1794625752311273178,
+      "sha256": "3a838125e974a973892076b040742424a04ff926917d88514265d5ebeae453fb"
+    },
+    "upload": {
+      "path": "/home/pengdl/Videos/translated_backlog/Science of Performance 2019_中文上传版.mp4",
+      "bytes": 452049876,
+      "mtime_ns": 1794626418936500336,
+      "sha256": "c191c7b7aa7816e527c2a6352bbd01a89a04899245df0ee1d7039395e5969f56"
+    }
+  },
+  "source_units": 321,
+  "language_units": 282,
+  "source_audio_reservations": 39,
+  "source_audio_regions": 23,
+  "intro_seconds": 40.2,
+  "chapters": 85,
+  "body_zh_and_bilingual_cues": {
+    "before": 1017,
+    "after": 1004
+  },
+  "package_zh_and_bilingual_cues": {
+    "before": 1028,
+    "after": 1015
+  },
+  "english_cues_unchanged": 1028,
+  "repaired_units": [
+    23,
+    24,
+    89,
+    117,
+    129,
+    261,
+    262,
+    273,
+    277,
+    280,
+    284,
+    292,
+    309
+  ],
+  "source_windows_roles_and_full_chinese_text_preserved": true,
+  "all_old_intermediate_display_times_claimed_unchanged": false,
+  "work_compiled_display_files_modified": false,
+  "tts_asr_audio_or_database_edits": false,
+  "old_media_exact_archives": {
+    "master": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/caption-word-merge-v1/baseline/master.mp4",
+      "bytes": 565848444,
+      "sha256": "688d4de6c8d2f9b52959c91435cdac69e923f8e5a72e8adb9c1da4d8aff5c386"
+    },
+    "upload": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/caption-word-merge-v1/baseline/upload.mp4",
+      "bytes": 452566370,
+      "sha256": "38b8d807cef45019ee488b3fa6f1807a2d50cd46f894ae07376b4b1ee5350fe0"
+    }
+  },
+  "master_video_both_audio_and_english_packets_and_rational_timing_preserved": true,
+  "upload_chinese_aac_packets_and_rational_timing_preserved": true,
+  "video_avg_frame_rate_header": {
+    "master": "2507805/83594",
+    "upload": "30/1",
+    "claimed_equal": false,
+    "classification": "Header average metadata differs; all167187 actual packet presentation PTS/durations, time base, duration_ts and nominal r_frame_rate are exactly equal."
+  },
+  "new_upload_complete_decode": true,
+  "master_decode": "Explicit reuse via exact video/both-audio packet identity",
+  "caption_overlay_previews_opened": 13,
+  "actual_new_upload_jpegs_opened": 26,
+  "actual_frame_limits": {
+    "max_side": 1280,
+    "max_bytes": 32768
+  },
+  "finite_linux_vlc_checked": true,
+  "root_python_frozen_count": 98,
+  "speech_candidates_unchanged": 189,
+  "actual_aac_asr_reused_only": {
+    "observations": 58,
+    "complete_body_windows": 26,
+    "body_total": 282,
+    "intro_scenes": 3
+  },
+  "full_human_listening": false,
+  "pronunciation_or_emotion_approved": false,
+  "full_visual_review": false,
+  "word_level_audio_visual_approval": false,
+  "potplayer_tested": false,
+  "final_language_voice_approval": false,
+  "goal_status": "active",
+  "playlist_expanded": false,
+  "published": false,
+  "delivery_sidecars_added": false,
+  "parallel_queue_or_global_counts_modified": false,
+  "previous_checkpoint": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/checkpoint-final-production-v1/execution-progress.json"
+}
