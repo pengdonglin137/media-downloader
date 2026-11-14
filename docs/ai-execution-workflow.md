@@ -1,5 +1,11 @@
 # AI 执行工作流：自包含中文译配视频
 
+## 2026-11-14：先读完整句，再解决角色与原声窗口
+
+- `0sZlaQr3e2w`开场新稿位于`data/translation_reviews/0sZlaQr3e2w-opening-utterances-20261114.json`；只读对照及35项核验在`checkpoint-opening-utterances-v1`。原72块/1478token完整分配，14处跨块候选不是批准合组，不覆盖正式来源或旧稿。
+- 从`materialized-utterances-v2.json`读原文、旧稿和新候选；61个spoken仍未执行，六项hold不能静音删除或把备注送TTS。旧ASR和16条AI试读只复用；角色、两主轨原声窗口及明确AI插段边界未决前不生产。
+- `%CPU`纠正只有文字和固定版本上游依据，未新增TTS。其他原声/AAC取窗继续用共享audio-audit，不复制单片程序；完整约束见`docs/linux-performance-opening-utterances-2026-11-14.md`。
+
 ## 2026-11-14：AI纠正画面先隔离审片，不截原发言
 
 - `python -m media_workflow.commentary_visual prepare VISUAL.json --output NEW_OUT`绑定已完成的全量AI试读和全文卡片；再render／check。成功后只check，不重启成功／部分制作。当前16条都有明确AI归属及未选胜状态，无新TTS／ASR，不切原片。
