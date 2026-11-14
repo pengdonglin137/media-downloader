@@ -1,5 +1,7 @@
 # Media Downloader
 
+2026-11-15来源修订成片已正式采用：新增`media_workflow.source_corrected_media`及显式历史安装桥，九句/33中文短句、两处源文和完整英文565/566同步更新；74有限检查、完整解码及事务安装通过，旧版31文件精确归档，没有新TTS/ASR。36张实际烧字样图仅局部图审，186声音候选和全部人耳/发音/情感门禁仍待验；目标active。正式双版与只读续做入口见`docs/source-corrected-installation.md`，生产合同见`docs/source-corrected-media.md`。
+
 2026-11-15来源感知字幕：`media_workflow.source_caption_projection`将九条既有完整试读投影为33中文/双语短句，完整英文1028句仅两处显式修订；90有限检查和隔离当前音频质量通过，全部旧数据库历史保留、0人耳决定。正式成片未换，发音/情感仍待听辨；使用及真实夹具失败见`docs/source-aware-caption-projection.md`。
 
 2026-11-15源文暂存：新增通用`media_workflow.source_revision`，56有限检查及内存/存储两处英文修订暂存通过，九条既有完整试读不重做。源文/任务/双语编译已在隔离工程一致，正式双版未换；完整英文软字幕仍须来源感知投影，不能绕过旧英文保持合同。入口见`docs/source-revision-stage.md`。

@@ -1,5 +1,13 @@
 # AI 执行工作流：自包含中文译配视频
 
+## 2026-11-15：来源修订成片已安装，续做只核验成功事务
+
+- 当前入口`request-cjiUXZh0ZCo-20261114/checkpoint-memory-storage-installed-v1`；`memory-storage-media-v1/media-v2`真实生产外层/九操作0，`install-v1`prepare/apply/check0，九单元/33中文短句和172/173源修订已正式采用。不得重做成功试读、投影、编码、解码或安装apply。
+- 只用`python -m media_workflow.source_corrected_install check memory-storage-media-v1/source-corrected-install-config-v1.json --output memory-storage-media-v1/install-v1`，完整绝对路径见专属文档；裸旧媒体check仍拒绝新协议，不改旧验证器绕过。原生包由media_producer/upstream_package绑定候选，而非复制候选专属字段。
+- 已提交事务31目标/25替换，原31精确归档；3116不可变证据/98根Python/293生产MP3/13其他文件保持。101扫描/7133历史问题/12650出现、186当前未听辨候选/12非dismiss分类/0决定，数量下降不是人工选胜。
+- 36实际上传JPEG已逐张看，部分小字幕及覆盖原图字仍只算局部；候选VLC0有56诊断/14条no frame，不称无警告。三次真实非零准备/独立字段假设/帮助器导入保留；独立v2只改核验schema，不改媒体/包/绑定模块。正式VLC补验实际终态见断点，不以运行环境代替人耳。
+- 操作见`docs/source-corrected-installation.md`；40.2秒有声导读/85章/5572.982秒/321原窗/23原声区/39预留保持。总目标active，Linux27hold/23标记/F08、发音/情感/人耳/全片/逐词/PotPlayer待验，不扩队列/发布/全局总数，不声明后台自动续跑。
+
 ## 2026-11-15：只核验成功源文投影，继续前须显式运行时
 
 - 入口`request-cjiUXZh0ZCo-20261114/checkpoint-memory-storage-projection-v1`；新`source_caption_projection`的projection/quality prepare/check已成功，勿重做九条TTS、源暂存、成功投影或质量扫描。33短句/1028英文仅565/566显式修订，原窗/导读和未选字幕保持。

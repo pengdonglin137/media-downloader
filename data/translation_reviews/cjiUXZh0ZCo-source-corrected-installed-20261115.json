@@ -1,0 +1,274 @@
+{
+  "kind": "source-corrected-complete-utterance-formal-installation-evidence-v1",
+  "video_id": "cjiUXZh0ZCo",
+  "recorded_at": "2026-11-14T23:20:07+00:00",
+  "goal_turn_classification": "progress",
+  "goal_status": "active",
+  "formal_adoption": true,
+  "technical_verification_only": true,
+  "master": {
+    "path": "/home/pengdl/Videos/translated_backlog/Science of Performance 2019_中文配音.mp4",
+    "bytes": 566010599,
+    "mtime_ns": 1794696750377719608,
+    "sha256": "a0c99aa3da6af87f1c62e4746ad66903a66471348827cb79e1c4c13ddf1e8e74"
+  },
+  "upload": {
+    "path": "/home/pengdl/Videos/translated_backlog/Science of Performance 2019_中文上传版.mp4",
+    "bytes": 452319296,
+    "mtime_ns": 1794697401222694082,
+    "sha256": "72eab552af8d58f7d712afbe1dff3291c8c3e0032103dd3a502e0178df892312"
+  },
+  "actual_editorial_units": [
+    161,
+    163,
+    167,
+    172,
+    173,
+    176,
+    179,
+    180,
+    182
+  ],
+  "actual_changed_source_unit_ids": [
+    172,
+    173
+  ],
+  "actual_changed_full_English_cue_ids": [
+    565,
+    566
+  ],
+  "full_English_cue_count": 1028,
+  "body_English_cue_count": 1017,
+  "Chinese_bilingual_phrases": 33,
+  "source_windows": 321,
+  "unselected_Chinese_units_unchanged": 312,
+  "original_regions": 23,
+  "reserved_units": 39,
+  "intro_offset_seconds": 40.2,
+  "chapters": 85,
+  "duration_seconds": 5572.982,
+  "English_stream_copied": false,
+  "post_revision_word_conservation_claimed": false,
+  "installed_package_schema": "native PACKAGE_FIELDS plus media_producer and upstream_package; no candidate-only English_stream_copied field",
+  "formal_media_exact_candidate_bytes_and_mtime": true,
+  "transaction_targets": 31,
+  "actual_replace_intents": 25,
+  "old31_canonical_identities_exactly_archived": true,
+  "preserved": {
+    "records": 3116,
+    "frozen_root_python": 98,
+    "production_mp3": 293,
+    "unrelated_untracked": 13
+  },
+  "finite_checks": 74,
+  "finite_rejection_paths": 64,
+  "actual_operation_receipts": 9,
+  "complete_decoded_video_schedule": {
+    "frames": 167187,
+    "exact_rational_schedule_sha256": "47890483577967461d76130bd771a443dbbf340e0146ba10a2b139df535d2f19",
+    "first": [
+      "0",
+      "1/30"
+    ],
+    "last": [
+      "83593/15",
+      "1/30"
+    ],
+    "dimensions": [
+      1920,
+      1080
+    ]
+  },
+  "chinese_AAC_packets": {
+    "1": {
+      "packets": 130618,
+      "ordered_packet_signature": "f4952a1f902eee5fbb1a32fb37e2562213ffdd982967e660176f614e448d2d16"
+    }
+  },
+  "master_upload_chinese_PCM_equal": true,
+  "fixed_offset_audio_windows": 32,
+  "actual_opened_JPEGs": 36,
+  "maximum_actual_JPEG_bytes": 32691,
+  "candidate_VLC_diagnostic_lines": 56,
+  "formal_VLC_diagnostic_lines": 64,
+  "VLC_warnings_resolved": false,
+  "current_database_rows": {
+    "decisions": 0,
+    "issues": 7133,
+    "occurrences": 12650,
+    "projects": 60,
+    "repair_resolutions": 0,
+    "scans": 101,
+    "terms": 41
+  },
+  "all_old_review_rows_preserved": true,
+  "current_candidates": 186,
+  "source_only_non_dismiss_classifications": 12,
+  "new_decisions_or_resolutions": 0,
+  "failed_prepare_preserved": true,
+  "failed_independent_schema_assumption_preserved": true,
+  "failed_formal_VLC_helper_import_preserved": true,
+  "new_TTS_ASR": false,
+  "installation_reencoding_or_decode": false,
+  "human_listened": false,
+  "pronunciation_or_emotional_approval": false,
+  "full_film_visual_or_wordlevel_approval": false,
+  "PotPlayer_tested": false,
+  "Linux27holds23markersCriticalF08_unchanged": true,
+  "other_requests_queues_totals_unchanged": true,
+  "background_automatic_resume_claimed": false,
+  "other_processes_stopped_claimed": false,
+  "evidence": {
+    "baseline.json": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/memory-storage-media-v1/baseline.json",
+      "bytes": 1123287,
+      "mtime_ns": 1794696260704871722,
+      "sha256": "204de75f8c81e974b89af67cf6a995277c7cad63101d2db86e5c4fe67b081bd6"
+    },
+    "pre-install-independent-v1.json": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/memory-storage-media-v1/pre-install-independent-v1.json",
+      "bytes": 6773,
+      "mtime_ns": 1794697887444386104,
+      "sha256": "c3b19afa49a6d4f16d64bbf8404be94dfa1b3c847700606bfe68c2a3c811d3cf"
+    },
+    "post-install-independent-v2.json": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/memory-storage-media-v1/post-install-independent-v2.json",
+      "bytes": 11745,
+      "mtime_ns": 1794698198162043930,
+      "sha256": "15ff3ff2cc772930df225f36e1a6566012c5451ee2299d80793ebcbd0a9cd4ce"
+    },
+    "media-v2/verification.json": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/memory-storage-media-v1/media-v2/verification.json",
+      "bytes": 30414,
+      "mtime_ns": 1794697828621687490,
+      "sha256": "7359c07cb13b24d23ba6b48b659db88e2518ae244873f97341d18bbad39388f6"
+    },
+    "media-v2/source-corrected-media.json": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/memory-storage-media-v1/media-v2/source-corrected-media.json",
+      "bytes": 4727,
+      "mtime_ns": 1794696715857391333,
+      "sha256": "e8cafe2ea561aee994e913a7a1753895e269b0113a8bc1f2f6e5fabaab1247eb"
+    },
+    "media-v2/candidate-history.json": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/memory-storage-media-v1/media-v2/candidate-history.json",
+      "bytes": 185,
+      "mtime_ns": 1794696715584388762,
+      "sha256": "567773a46700583a22e1c7965b35eb4bbcafbed0e892ca9c9dc4789815db9244"
+    },
+    "install-v1/installation-verification.json": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/memory-storage-media-v1/install-v1/installation-verification.json",
+      "bytes": 11426,
+      "mtime_ns": 1794697998609711359,
+      "sha256": "66788b57f07ca3e2796f8df23d86ddc778b95d0aff240965271e955e2bcbf64e"
+    },
+    "install-v1/package.json": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/memory-storage-media-v1/install-v1/package.json",
+      "bytes": 20556,
+      "mtime_ns": 1794697982440518232,
+      "sha256": "18a84e399caf7826ca99f70e177c6a9a9908129ef642c36f9669869fe64c099c"
+    },
+    "install-v1/file-transaction/prepared.json": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/memory-storage-media-v1/install-v1/file-transaction/prepared.json",
+      "bytes": 40970,
+      "mtime_ns": 1794697959758247512,
+      "sha256": "b8962069448533419f79c2f71febf501ee8c187d3557441bc9ac8a06a2eeb797"
+    },
+    "install-v1/file-transaction/transaction.json": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/memory-storage-media-v1/install-v1/file-transaction/transaction.json",
+      "bytes": 39972,
+      "mtime_ns": 1794697998620711490,
+      "sha256": "7483a3050210e5411436df6aea0353d74c6a6b3dbaec27baf730396961782ac2"
+    },
+    "history-authority-v1.json": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/memory-storage-media-v1/history-authority-v1.json",
+      "bytes": 3126,
+      "mtime_ns": 1794696906820276955,
+      "sha256": "c478b99798606390bcab37b6380afd1e408dec905672ebae11d9a77ea5ab9e46"
+    },
+    "history-authority-validation-v1.json": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/memory-storage-media-v1/history-authority-validation-v1.json",
+      "bytes": 3058,
+      "mtime_ns": 1794696906844277201,
+      "sha256": "eb8e49be6705b004646add4db8051cfe05875e3bb26c26be8b365cbf3778c774"
+    },
+    "current-plan-exact-archive-v1/transaction.json": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/memory-storage-media-v1/current-plan-exact-archive-v1/transaction.json",
+      "bytes": 1875,
+      "mtime_ns": 1794696906812276873,
+      "sha256": "4813374e69dc9548018190b9227ef14c69e8fe202325be3685df091b52858492"
+    },
+    "term-schema-revision-v2.json": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/memory-storage-media-v1/term-schema-revision-v2.json",
+      "bytes": 1336,
+      "mtime_ns": 1794696702748268328,
+      "sha256": "d9532f1d37b1ed2649ef132c17e8cc7b6af154dca0dc53f1b4f18326be9ce2f1"
+    },
+    "source-corrected-config-v2.json": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/memory-storage-media-v1/source-corrected-config-v2.json",
+      "bytes": 1079,
+      "mtime_ns": 1794696702748268328,
+      "sha256": "1cd7357ba9bd8f25ad7f0fcf012def61ac7d8a421ea4e5b52d3eaecda1587ce8"
+    },
+    "source-corrected-install-config-v1.json": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/memory-storage-media-v1/source-corrected-install-config-v1.json",
+      "bytes": 3108,
+      "mtime_ns": 1794697938117989456,
+      "sha256": "c623c20ec7ff21c726a36d61af1cd19b8cabbd6fca14c53be97da8f04c18de7c"
+    },
+    "agent-observations-v1.json": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/memory-storage-media-v1/agent-observations-v1.json",
+      "bytes": 25613,
+      "mtime_ns": 1794697840530828767,
+      "sha256": "2429da4e8261292c7f79d237915d06abc2833c38d603632d13e0209613189ef7"
+    },
+    "vlc-candidate-v1/result.json": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/memory-storage-media-v1/vlc-candidate-v1/result.json",
+      "bytes": 28936,
+      "mtime_ns": 1794697469196475565,
+      "sha256": "cbb4c07ff5f114fb8375165de2ab70e4f267eeb84846af476354a8c1f0fd2b0c"
+    },
+    "vlc-candidate-diagnostics-v1.json": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/memory-storage-media-v1/vlc-candidate-diagnostics-v1.json",
+      "bytes": 4143,
+      "mtime_ns": 1794697840531828779,
+      "sha256": "4507ca4b691b589e2e3c5683294f8f51111ff985942cc56a577d3b43e0a103c0"
+    },
+    "vlc-formal-v2/result.json": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/memory-storage-media-v1/vlc-formal-v2/result.json",
+      "bytes": 29147,
+      "mtime_ns": 1794698295006812803,
+      "sha256": "b7efa6a5e9701fb624a8cdfaa646affbf39bd52841c1539381121060142847ed"
+    },
+    "vlc-formal-diagnostics-v1.json": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/memory-storage-media-v1/vlc-formal-diagnostics-v1.json",
+      "bytes": 4312,
+      "mtime_ns": 1794698407826781415,
+      "sha256": "4d12eedd89df6cfa2e6acd5cd6e737e286186c5d23d04fea31ba29b3e88b3a1e"
+    },
+    "finite-contract-checks-v1.json": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/memory-storage-media-v1/finite-contract-checks-v1.json",
+      "bytes": 7395,
+      "mtime_ns": 1794696593787285078,
+      "sha256": "0a69645422db1c56b079b9a265714c7438acd338792075770d8005f6d01d94b1"
+    },
+    "finite-installation-checks-v1.json": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/memory-storage-media-v1/finite-installation-checks-v1.json",
+      "bytes": 9560,
+      "mtime_ns": 1794696971316947152,
+      "sha256": "af1d6b5f1c74304b062700919f7630ac1ff6c8105efe904067df24ab9547a702"
+    },
+    "false-fixture-candidate-rejection-v1.json": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/memory-storage-media-v1/false-fixture-candidate-rejection-v1.json",
+      "bytes": 922,
+      "mtime_ns": 1794697150675877521,
+      "sha256": "48f6d5afb6fe43e01ed8ffc4dedf382712d720d7e982f57f16626103e1aa462f"
+    },
+    "actual-legacy-rejections-v1.json": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/memory-storage-media-v1/actual-legacy-rejections-v1.json",
+      "bytes": 750,
+      "mtime_ns": 1794697887443386092,
+      "sha256": "2fe9184e92b37d323723fdf561865f9e338f7bfa1db6e23f6a2da19ae7b00b88"
+    }
+  },
+  "checkpoint": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/checkpoint-memory-storage-installed-v1/execution-progress.json"
+}
