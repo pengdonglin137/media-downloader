@@ -1,0 +1,113 @@
+{
+  "version": 1,
+  "id": "cjiUXZh0ZCo",
+  "title": "Science of Performance 2019",
+  "checked_at": "2026-11-14T05:26:52+00:00",
+  "stage": "two_complete_source_fidelity_and_prosody_candidates_generated_not_installed",
+  "checkpoint": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/checkpoint-editorial-followup-v5/execution-progress.json",
+  "current_installed_master": {
+    "path": "/home/pengdl/Videos/translated_backlog/Science of Performance 2019_中文配音.mp4",
+    "bytes": 565880923,
+    "mtime_ns": 1794629292390800191,
+    "sha256": "6f7306b52889d11b4e4d83681f82c188b9ac10a96925b6083bf26f64e1b6736c"
+  },
+  "current_installed_upload": {
+    "path": "/home/pengdl/Videos/translated_backlog/Science of Performance 2019_中文上传版.mp4",
+    "bytes": 452096960,
+    "mtime_ns": 1794630019219268156,
+    "sha256": "874e09c5916bb1e86f3ac5b160dc85e36be11d5e2bb16cfe35a860c34830210b"
+  },
+  "current_installed_runtime": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/editorial_production_runtime_v4.py",
+    "bytes": 9273,
+    "mtime_ns": 1794632277080877207,
+    "sha256": "44225609463506df9e572a6a9a29d633f522e234e6100f3b74ac58820d85d40a"
+  },
+  "previous_installed_checkpoint": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/checkpoint-editorial-installed-v4/execution-progress.json",
+  "reviewed_source_units": [
+    142,
+    270
+  ],
+  "local_context_reviewed": [
+    141,
+    142,
+    143,
+    269,
+    270,
+    271
+  ],
+  "corrections": [
+    {
+      "unit_id": 142,
+      "restored_source_clauses": "Restore the final explicit memory/CPU relationship omitted in current142; use a question-and-answer cadence for the source why-clause, not an added technical explanation.",
+      "current_display": "我们在运行 SPEC 的同时观察功耗。横轴是时间。所以，硬件认证不只是跑基准测试，还包括功耗分析、内存配置，以及 BIOS 设置。",
+      "candidate_display": "我们在运行 SPEC 的同时观察功耗。横轴是时间。所以，硬件认证不只是跑基准测试，还包括功耗分析、内存配置，以及 BIOS 设置。为什么要关注内存？因为它和 CPU 紧密相连。",
+      "candidate_spoken": "我们在运行 SPEC 的同时观察功耗。横轴是时间。所以，硬件认证不只是跑基准测试，还包括功耗分析、内存配置，以及 B I O S 设置。为什么要关注内存？因为它和 C P U 紧密相连。",
+      "full_normal_rate_seconds": 18.456,
+      "original_window_seconds": 25.109,
+      "full_untrimmed_samples": 442944,
+      "remaining_samples": 159672
+    },
+    {
+      "unit_id": 270,
+      "restored_source_clauses": "Restore if-they-do-it and the source final usual programming/not-performance qualification, absent from current270; retain rhetorical questions and link to271 contrasting developers who do performance work. Do not endorse this generalization as a fact about all developers.",
+      "current_display": "一个很大的问题是：采集完，怎样与开发者共享报告？又怎样教会开发者使用 VTune？他们往往更熟悉开源的 perf，希望留在同一个操作系统里采集、分析。",
+      "candidate_display": "最大的问题是：数据采集完了，怎么把报告分享给开发者？又怎么教他们用 VTune？他们更熟悉开源的 perf，希望在同一个操作系统里完成采集和性能分析。当然，那也得他们愿意做分析才行。平时，他们往往只写程序，不太关心性能。",
+      "candidate_spoken": "最大的问题是：数据采集完了，怎么把报告分享给开发者？又怎么教他们用 V Tune？他们更熟悉开源的 perf，希望在同一个操作系统里完成采集和性能分析。当然，那也得他们愿意做分析才行。平时，他们往往只写程序，不太关心性能。",
+      "full_normal_rate_seconds": 21.36,
+      "original_window_seconds": 26.54,
+      "full_untrimmed_samples": 512640,
+      "remaining_samples": 124320
+    }
+  ],
+  "plan": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/editorial-followup-v5/reviewed-plan-v1.json",
+    "bytes": 9767,
+    "mtime_ns": 1794633457897958120,
+    "sha256": "cf54f760c1fb41402fe885536e61780e55dd1f65f1b0e67b115e4fadbf439007"
+  },
+  "preview_manifest": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/editorial-followup-v5/normal-rate-preview-v1/manifest.json",
+    "bytes": 5659,
+    "mtime_ns": 1794633476688177110,
+    "sha256": "24cf4149d0c9f7e6b8f33c99d7a390a610a09be3ecbd2310ca8c386591cc193c"
+  },
+  "new_shared_adapter": "media_workflow/speech_variants.py",
+  "new_shared_adapter_scope": "configuration-driven complete normal-rate preview and full untrimmed decode verification only",
+  "other_uncommitted_runner_modules_required": false,
+  "new_request_production_recovery_or_diagnostic_scripts_created": 0,
+  "finite_config_or_mock_contract_checks_passed": 35,
+  "negative_rejections": 33,
+  "actual_preview_syntheses": 2,
+  "new_normal_rate_complete_previews_fit": 2,
+  "new_word_boundary_metadata_observed": true,
+  "new_source_reference_clips": 2,
+  "existing_complete_source_PCM_reused": true,
+  "additional281_13hours_retained_from_existing_two_model_text": true,
+  "new_asr_or_full_source_decode_performed": false,
+  "current190_voice_candidates_and_private_database_unchanged": true,
+  "root_python_frozen": 98,
+  "production_mp3_cache_preserved": 290,
+  "registered_identities_checked": 435,
+  "internal_comparison": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/editorial-followup-v5/comparison.html",
+  "runtime_instructions": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/editorial-followup-v5/RUNTIME.md",
+  "candidate_loudness_matched_to_formal_AAC": false,
+  "strict_production_admission_proven": false,
+  "formal_translation_or_audio_imported": false,
+  "canonical_media_modified": false,
+  "human_listened": false,
+  "pronunciation_or_emotional_approval": false,
+  "full_visual_review": false,
+  "browser_page_render_actually_reviewed": false,
+  "word_level_audiovisual_approval": false,
+  "potplayer_tested": false,
+  "final_language_voice_approval": false,
+  "next_action": "Listen to the complete original/current/candidate utterances; then use a separately validated data-driven multi-unit editorial origin and current-path quality bridge before production installation. Do not route142/270 through155-only v4 or invent database decisions.",
+  "playlist_expanded": false,
+  "published": false,
+  "delivery_sidecars_added": false,
+  "parallel_queue_or_global_counts_modified": false,
+  "previous_goal_turn_classification": "progress: actual formal155 installation and commit/push",
+  "current_goal_turn_classification": "progress: restored two omitted source clauses and generated full measured candidates through a reusable adapter",
+  "goal_status": "active"
+}

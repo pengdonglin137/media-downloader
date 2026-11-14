@@ -1,5 +1,12 @@
 # AI 执行工作流：自包含中文译配视频
 
+## 2026-11-14：完整补句候选的配置式试读
+
+- 入口`checkpoint-editorial-followup-v5/execution-progress.json`，仅`cjiUXZh0ZCo`142／270及141–143／269–271语境：补回内存与CPU关联、if-they-do-it和后续限定，保留完整事实与讲者语气，不称全片重审。
+- 用`/vol_1t/pyvideotrans/.venv/bin/python -m media_workflow.speech_variants preview REVIEWED_PLAN.json --output NEW_DIRECTORY`，按`docs/speech-variants.md`绑定当前文件、原窗与证明；`check`核对完整解码。两个preview／check已成功，不重跑或覆盖旧输出；不新增单片生产／恢复／诊断脚本。
+- 两候选18.456／21.360秒适配25.109／26.540秒原窗，35有限配置／模拟检查含33拒绝，437身份复核通过；没有严格新生产准入、自动声音赢家、人耳决定或情感批准。原声参考复用既有PCM，不重复全片ASR／解码。
+- 内部`editorial-followup-v5/comparison.html`对照原声／当前AAC／候选，未做生产响度匹配或浏览器实审。正式v4两版、190候选／私库、98根Python及290生产MP3不变；后续须可配置多单元编辑来源及当前质量桥接，不能把142／270新WAV交给155专用v4。人耳、专业发音／情感、逐词声画、PotPlayer和最终批准仍待完成，目标active。
+
 ## 2026-11-14：SPEC修订正式安装与恢复入口
 
 - 读取`request-cjiUXZh0ZCo-20261114/checkpoint-editorial-installed-v4/execution-progress.json`与`EDITORIAL-INSTALLED-RUNTIME-v4.md`。当前正式v4位于历史命名`editorial-production-v2`目录；旧native-staging断点只代表当时状态，不覆盖新committed安装。仅155中文／spoken变更，其他320译文、所有321源窗及23实际原声区保持。

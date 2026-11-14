@@ -1,5 +1,12 @@
 # 本仓库的 AI 执行入口
 
+## 2026-11-14：两处源文补句与通用完整意群试读，尚未安装
+
+- `cjiUXZh0ZCo`142补回“关注内存，因为它与CPU紧密相连”；270补回if-they-do-it及平时不关注性能的限定，保留271随后对比。只完成两项及局部语境审校，不称全321项重审，也不把讲者对开发者的概括背书为普遍事实。
+- 新通用`media_workflow.speech_variants`从审校JSON绑定当前整单元、声音、旁白、正式母版和参考WAV，正常速率、原窗≤40秒、完整MP3解码及真实WordBoundary。两候选18.456／21.360秒适配25.109／26.540秒原窗，无截尾、atempo或借窗；35有限配置／模拟检查含33拒绝，不是35次制作或严格生产准入。其他事件仍需来源审校，不把占位文本检查当完整角色分类。
+- 正式两版仍是上轮155修订v4，本轮142／270未导入；190候选／私库、98根Python及290生产MP3保持。原声参考仅复用已有完整源PCM，未重复全片解码／ASR。内部三方页`editorial-followup-v5/comparison.html`未等响度匹配、未人耳／浏览器实审；437身份独立复核通过。
+- 入口`/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/checkpoint-editorial-followup-v5/execution-progress.json`，说明见同请求`editorial-followup-v5/RUNTIME.md`及`docs/speech-variants.md`。无新单片生产／恢复／诊断脚本；后续须可配置多单元编辑来源与当前质量桥接，不把新WAV塞给155专用v4。专业发音、情感及全片批准仍待完成，目标active。
+
 ## 2026-11-14：SPEC语境修订已正式安装，当前190声音候选待听辨
 
 - `cjiUXZh0ZCo`155的SPEC基准语境修订已从验证候选正式安装到中文母版／烧字上传版；只改该项中文与spoken，其余320译文、321来源窗保持。复用完整正常速率22.848秒／548352样本试读，适配27.47秒原窗，不新增TTS、ASR或媒体编码。23实际原声区、39原声／事件占位、40.2秒导读及85章保持。

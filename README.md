@@ -1,5 +1,11 @@
 # Media Downloader
 
+## 2026-11-14：两处完整补句试读与通用适配器
+
+- `cjiUXZh0ZCo`142补回内存与CPU关联，270补回性能分析前提及讲者后续限定；正常速率完整试读18.456／21.360秒适配原窗。候选尚未安装，正式双版仍保持上轮155的SPEC修订。
+- 新`media_workflow.speech_variants`以审校JSON生成／核对完整意群，不复制单片生产脚本；35有限约束检查和437身份核验通过，不截尾、atempo或借窗。说明见`docs/speech-variants.md`。
+- 内部三方页：`/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/editorial-followup-v5/comparison.html`，并列原声、当前正式中文及候选。未等响度匹配或实际听辨；190候选和正式媒体保持，专业发音／情感、全片验收仍待完成。
+
 ## 2026-11-14：SPEC语境修订正式双版已安装
 
 - `cjiUXZh0ZCo`155补回SPEC基准语境的完整朗读已正式进入中文母版和烧字上传版；原窗、其余320译文、23原声区、40.2秒导读及85章保持。旧两版和工程状态精确归档，没有新增TTS／ASR或媒体编码。
