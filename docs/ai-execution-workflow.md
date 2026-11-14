@@ -1,5 +1,11 @@
 # AI 执行工作流：自包含中文译配视频
 
+## 2026-11-15：续做显式源文暂存，只check成功输出
+
+`memory-storage-source-v1/parent-stage-v1`和`source-stage-v2`已分别成功；只用`python -m media_workflow.source_revision check source-stage-config.json --output source-stage-v2`复核，不重跑成功父音频/试读或prepare。172/173源文、任务及双语编译一致，实际原声/时窗保持；56有限检查、独立v2均0。三个真实1（编译派生记账拒绝、夹具ID、只读拒绝文案误猜）及旧开发实现归档保留，不修改已成功源文绑定。
+
+本模块只暂存，无旧字幕投影或quality/install桥。下一步根据`full-English-track-revision-inputs-v1.json`为实际1028英文句的565/566最小修订实现通用来源感知投影，保留其余英语和导读/时间，再做九组词界中文、质量及媒体验证；不能套旧英文不变合同或丢173。入口`checkpoint-memory-storage-source-stage-v1`，说明`docs/source-revision-stage.md`；正式双版/190声音候选/人耳门禁和目标active保持。
+
 ## 2026-11-15：源文修订试读不可直接走英文保持型stage
 
 `cjiUXZh0ZCo/memory-storage-v1`九条完整正常试读、check/内部页/独立v2均0；不重跑成功TTS。172的4条通道来自原图，173的2000有图与既有ASR支持；`source-amendment-proposal-v1.json`保存两处精确替换、321自身映射及原JSON3，仍未正式采用。附加标志不是适配器已实现门禁，须通用版本化来源修订合同和有限拒绝测试后才可进入stage，不直接改中文绕过英文、也不悄悄排除173。

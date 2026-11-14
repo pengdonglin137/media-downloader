@@ -1,0 +1,211 @@
+{
+  "kind": "source-revision-stage-result-v1",
+  "recorded_at": "2026-11-14T22:20:18+00:00",
+  "goal_turn_classification": "progress",
+  "goal_status": "active",
+  "video_id": "cjiUXZh0ZCo",
+  "adapter": {
+    "path": "/home/pengdl/media-downloader/media_workflow/source_revision.py",
+    "bytes": 19876,
+    "mtime_ns": 1794694302610432183,
+    "sha256": "5f97249c0219820da1bcb58110ebaf86424c594294e6e66bf2b1069bee110074"
+  },
+  "baseline": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/memory-storage-source-v1/baseline.json",
+    "bytes": 1049871,
+    "mtime_ns": 1794693964646861987,
+    "sha256": "fd8d29b17b9bf95d6ed2de7c7869f046cc023522a79b9861a1c7097a827ab84b"
+  },
+  "parent_config": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/memory-storage-source-v1/parent-stage-config.json",
+    "bytes": 9308,
+    "mtime_ns": 1794694174500391111,
+    "sha256": "b625cc3b2ff8ffe99780ce16ea808f7f98893f013797f677d30f6467e8569d8f"
+  },
+  "parent_manifest": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/memory-storage-source-v1/parent-stage-v1/manifest.json",
+    "bytes": 9038,
+    "mtime_ns": 1794694180238534801,
+    "sha256": "809a572b813d2445241adfc54e556f7c214fccaa8f7c08ac1aa1019d3dabe7ae"
+  },
+  "source_config": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/memory-storage-source-v1/source-stage-config.json",
+    "bytes": 1347,
+    "mtime_ns": 1794694222181562690,
+    "sha256": "03f51224c3e90ddabdadd1922c0e07dff2d7ddd9a16ba3d65adcc22554f43ca2"
+  },
+  "source_manifest": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/memory-storage-source-v1/source-stage-v2/manifest.json",
+    "bytes": 13155,
+    "mtime_ns": 1794694410952768626,
+    "sha256": "ff70560a7eb78dd61121fd5ae535913ef767e5f06842b9b5f4205e788c130cfb"
+  },
+  "source_check": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/memory-storage-source-v1/source-stage-check-v2.json",
+    "bytes": 815,
+    "mtime_ns": 1794694417289899605,
+    "sha256": "ffeb7b6a2e68eeafaead31a3b00579504b0eb23705b10f12a28d586c52f759e5"
+  },
+  "finite_tests": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/memory-storage-source-v1/contract-tests-v3.json",
+    "bytes": 10467,
+    "mtime_ns": 1794694453103629140,
+    "sha256": "a9ab01f61712560e8fa520a77d7ea2f708b3ccb5421cd288392e8b7a6d291ccd"
+  },
+  "independent_verification": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/memory-storage-source-v1/independent-verification-v2.json",
+    "bytes": 3594,
+    "mtime_ns": 1794694711710450372,
+    "sha256": "d3ae1dedca097047445dcadf48381d9d758bde90395e2a417009107c38fa6a14"
+  },
+  "English_projection_inputs": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/memory-storage-source-v1/full-English-track-revision-inputs-v1.json",
+    "bytes": 2842,
+    "mtime_ns": 1794694711709450355,
+    "sha256": "98f50400c02c41f12334c4e43fb4647a87a319359ffbf17148341e08c4ff3e71"
+  },
+  "failed_implementation_exact_archive": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/memory-storage-source-v1/first-failed-stage-implementation-archive.json",
+    "bytes": 1853,
+    "mtime_ns": 1794694302595431846,
+    "sha256": "41fa7a6cf68ae85fc44ee37215ae37d220d598d8f95b101ab1f68e2a76791b0c"
+  },
+  "current_tests": 56,
+  "current_rejection_tests": 48,
+  "source_revised_units": [
+    172,
+    173
+  ],
+  "complete_audio_units": [
+    161,
+    163,
+    167,
+    172,
+    173,
+    176,
+    179,
+    180,
+    182
+  ],
+  "preserved_source_units": 319,
+  "all_source_windows": 321,
+  "original_regions": 23,
+  "reserved_units": 39,
+  "complete_previous_preview_MP3s_reused": 9,
+  "parent_full_preview_decode_gain_and_owned_window_placement_performed": true,
+  "source_overlay_parent_PCM_exactly_reused": true,
+  "production_media_or_database_changed": false,
+  "formal_adoption": false,
+  "human_listened": false,
+  "pronunciation_or_emotion_approved": false,
+  "new_TTS_ASR_or_full_film_decode": false,
+  "new_final_video_or_AAC_encoding": false,
+  "preserved": {
+    "immutable_evidence": 2887,
+    "active_canonical_targets_separately_checked": 31,
+    "frozen_root_python": 98,
+    "production_mp3": 293,
+    "unrelated_untracked": 13
+  },
+  "current_library": "98scans/6575issues/11681occurrences/190unreviewed candidates/12classifications-not-dismissals/0decisions",
+  "full_English_track": {
+    "cues": 1028,
+    "proposed_changed_cues": [
+      565,
+      566
+    ],
+    "full_source_unit_envelopes": [
+      3,
+      4
+    ],
+    "intro_seconds": 40.2,
+    "actually_reprojected": false
+  },
+  "implemented_scope": "New explicit source-only staging contract; no caption/quality/install dispatcher",
+  "required_next": "Source-aware full English and reviewed nine-unit Chinese/bilingual word-boundary projection, then real quality/media/history adoption. Do not weaken the old English-preservation guard.",
+  "real_exit_receipts": [
+    {
+      "file": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/memory-storage-source-v1/contract-tests-v1.exit",
+        "bytes": 2,
+        "mtime_ns": 1794694151338803265,
+        "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+      },
+      "actual_exit": 0
+    },
+    {
+      "file": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/memory-storage-source-v1/contract-tests-v2.exit",
+        "bytes": 2,
+        "mtime_ns": 1794694367328850657,
+        "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865"
+      },
+      "actual_exit": 1
+    },
+    {
+      "file": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/memory-storage-source-v1/contract-tests-v3.exit",
+        "bytes": 2,
+        "mtime_ns": 1794694453123629542,
+        "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+      },
+      "actual_exit": 0
+    },
+    {
+      "file": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/memory-storage-source-v1/independent-verification-v1.exit",
+        "bytes": 2,
+        "mtime_ns": 1794694580222086957,
+        "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865"
+      },
+      "actual_exit": 1
+    },
+    {
+      "file": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/memory-storage-source-v1/independent-verification-v2.exit",
+        "bytes": 2,
+        "mtime_ns": 1794694711732450755,
+        "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+      },
+      "actual_exit": 0
+    },
+    {
+      "file": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/memory-storage-source-v1/parent-stage-v1.exit",
+        "bytes": 2,
+        "mtime_ns": 1794694182080580768,
+        "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+      },
+      "actual_exit": 0
+    },
+    {
+      "file": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/memory-storage-source-v1/source-stage-check-v2.exit",
+        "bytes": 2,
+        "mtime_ns": 1794694417309900018,
+        "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+      },
+      "actual_exit": 0
+    },
+    {
+      "file": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/memory-storage-source-v1/source-stage-prepare-v1.exit",
+        "bytes": 2,
+        "mtime_ns": 1794694228634717457,
+        "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865"
+      },
+      "actual_exit": 1
+    },
+    {
+      "file": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/memory-storage-source-v1/source-stage-prepare-v2.exit",
+        "bytes": 2,
+        "mtime_ns": 1794694413293817079,
+        "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+      },
+      "actual_exit": 0
+    }
+  ],
+  "other_requests_queues_totals_unchanged": true,
+  "Linux27holds23markersCriticalF08_unchanged": true
+}
