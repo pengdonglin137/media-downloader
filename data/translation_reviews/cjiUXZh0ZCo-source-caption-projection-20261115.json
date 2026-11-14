@@ -1,0 +1,189 @@
+{
+  "kind": "memory-storage-source-aware-subtitle-and-quality-checkpoint-v1",
+  "recorded_at": "2026-11-14T22:39:38+00:00",
+  "video_id": "cjiUXZh0ZCo",
+  "goal_status": "active",
+  "goal_turn_classification": "progress",
+  "implemented_scope": "Generic source-aware complete-English byte-local correction and observed Chinese/bilingual phrase projection,plus isolated current-composite quality. No media or formal adoption.",
+  "adapter": {
+    "path": "/home/pengdl/media-downloader/media_workflow/source_caption_projection.py",
+    "bytes": 15997,
+    "mtime_ns": 1794695200454228248,
+    "sha256": "cbe0d6ab87c5301980af5d301f6425d3d3a20ba42201833296f57c7dce21e604"
+  },
+  "documentation": {
+    "path": "/home/pengdl/media-downloader/docs/source-aware-caption-projection.md",
+    "bytes": 6257,
+    "mtime_ns": 1794695865321625328,
+    "sha256": "5aa89c258367b9cdd90384c43293157168560aab3efde6f4b100729319559c44"
+  },
+  "baseline": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/memory-storage-projection-v1/baseline.json",
+    "bytes": 1092828,
+    "mtime_ns": 1794695130906188462,
+    "sha256": "43b3362fd2c4f0d9d874e4eba06a6b8314e899722c4bd6621931b4ba06ff9619"
+  },
+  "author_review": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/memory-storage-projection-v1/reviewed-phrases-v1.json",
+    "bytes": 7126,
+    "mtime_ns": 1794695484738340466,
+    "sha256": "78e306f8015802be42b445dfc4f02d1e9846382f050f647459673e8ff3ed7b54"
+  },
+  "projection_config": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/memory-storage-projection-v1/projection-config-v1.json",
+    "bytes": 12833,
+    "mtime_ns": 1794695546515211702,
+    "sha256": "e65f271186f500f681a9410c51558788b95a2b00e1eb060a81479f1e23b506e0"
+  },
+  "projection_manifest": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/memory-storage-projection-v1/projection-v1/manifest.json",
+    "bytes": 14535,
+    "mtime_ns": 1794695580857693365,
+    "sha256": "fb6a5ef6d71bfd9a55d442549edd647d39d15abc9845165b7fc4d1fd1da7313b"
+  },
+  "quality_config": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/memory-storage-projection-v1/quality-config-v1.json",
+    "bytes": 2776,
+    "mtime_ns": 1794695665174868740,
+    "sha256": "90f75f358ad2b7bdb09354410f35336aeee18908f16430bf695588dbea0f4e4a"
+  },
+  "quality_manifest": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/memory-storage-projection-v1/quality-v1/manifest.json",
+    "bytes": 5295,
+    "mtime_ns": 1794695675646014051,
+    "sha256": "21abe1f1828477ac1ddc96694fa4ceb5cdb63d0cdeec01cf83083df9ad5fe1f7"
+  },
+  "independent_verification": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/memory-storage-projection-v1/independent-verification-v2.json",
+    "bytes": 3789,
+    "mtime_ns": 1794695913756286724,
+    "sha256": "b8dc93afdd1337f949461bdd4062bc33fb801d4ad836afb43bbb266c6f4e78b7"
+  },
+  "finite_checks": [
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/memory-storage-projection-v1/finite-contract-checks-v2.json",
+      "bytes": 13073,
+      "mtime_ns": 1794695562047429770,
+      "sha256": "dc34c49ff15df801011bfbf2fab2d41b92185ea68d69f79266eab2a146feec0c"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/memory-storage-projection-v1/finite-output-checks-v2.json",
+      "bytes": 8199,
+      "mtime_ns": 1794695771243334763,
+      "sha256": "5668c81454d25bbe478e789585ece48c335ee4afe83d4c9415c013efbdcefa67"
+    }
+  ],
+  "current_tests": 90,
+  "current_rejection_tests": 76,
+  "complete_audio_units": [
+    161,
+    163,
+    167,
+    172,
+    173,
+    176,
+    179,
+    180,
+    182
+  ],
+  "complete_previous_preview_MP3s_reused": 9,
+  "observed_word_boundary_records_reused": 283,
+  "Chinese_bilingual_phrases": 33,
+  "full_English_cues": 1028,
+  "English_changed_cue_ids": [
+    565,
+    566
+  ],
+  "source_revised_units": [
+    172,
+    173
+  ],
+  "English_complete_source_envelope_cues": [
+    3,
+    4
+  ],
+  "English_all_timestamps_and_other_bytes_preserved": true,
+  "intro_offset_seconds": "40.2",
+  "all_source_windows": 321,
+  "original_regions": 23,
+  "reserved_units": 39,
+  "formal_adoption": false,
+  "production_media_or_database_changed": false,
+  "new_TTS_ASR_or_full_film_decode": false,
+  "new_final_video_or_AAC_encoding": false,
+  "quality_state": "eligible_with_unreviewed_candidates",
+  "private_database_before": {
+    "decisions": 0,
+    "issues": 6575,
+    "occurrences": 11681,
+    "projects": 60,
+    "repair_resolutions": 0,
+    "scans": 98,
+    "terms": 41
+  },
+  "private_database_after": {
+    "decisions": 0,
+    "issues": 6761,
+    "occurrences": 12004,
+    "projects": 60,
+    "repair_resolutions": 0,
+    "scans": 99,
+    "terms": 41
+  },
+  "all_original_review_rows_preserved": true,
+  "candidate_history": {
+    "previous_current_candidates": 190,
+    "current_candidates": 186,
+    "unedited_current_candidates_preserved": 184,
+    "edited_previous_candidates_retained_in_old_database_scans": 6,
+    "classified_source_only_synthetic_tail_candidates": 12,
+    "new_review_decisions": 0
+  },
+  "current_library": {
+    "scans": 98,
+    "issues": 6575,
+    "occurrences": 11681,
+    "unreviewed_candidates": 190,
+    "source_only_non_dismiss_classifications": 12,
+    "decisions": 0
+  },
+  "preserved": {
+    "immutable_records": 3021,
+    "canonical_targets": 31,
+    "root_python": 98,
+    "production_mp3": 293,
+    "unrelated_untracked": 13
+  },
+  "failed_fixture_output_preservation": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/memory-storage-projection-v1/finite-output-failure-v1-preservation.json",
+    "bytes": 7783,
+    "mtime_ns": 1794695770892329932,
+    "sha256": "42ea6a2bb3e4e0cbaf499139c1c7b3e35f4e365979ee44199c5bcaf9df5f2ced"
+  },
+  "failed_fixture_parent_directory_metadata_not_claimed_unchanged": true,
+  "human_listened": false,
+  "pronunciation_or_emotion_approved": false,
+  "full_film_or_PotPlayer_approved": false,
+  "Linux27holds23markersCriticalF08_unchanged": true,
+  "other_requests_queues_totals_unchanged": true,
+  "active_production_session": null,
+  "background_automatic_resume_claimed": false,
+  "other_processes_stopped_claimed": false,
+  "checkpoint": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/checkpoint-memory-storage-projection-v1/execution-progress.json",
+  "real_exit_codes": {
+    "finite-contract-checks-v1": 1,
+    "finite-contract-checks-v2": 0,
+    "projection-prepare-v1": 0,
+    "projection-check-v1": 0,
+    "quality-prepare-v1": 0,
+    "quality-check-v1": 0,
+    "finite-output-checks-v1": 1,
+    "finite-output-checks-v2": 0,
+    "independent-verification-v1": 0,
+    "independent-verification-v2": 0
+  },
+  "failed_fixture_notes": [
+    "Initial finite helper omitted the frozen-route FileNotFoundError rejection category; original script/log/exit1 remain.",
+    "Initial output-fixture stub supplied the wrong trusted-stage path. Ten generated test-only files were preserved byte/mtime-exactly in the failure-evidence directory and original parent layout restored. Parent directory metadata is not claimed unchanged. Production module and successful outputs remain unchanged."
+  ]
+}

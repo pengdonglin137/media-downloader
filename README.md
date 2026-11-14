@@ -1,5 +1,7 @@
 # Media Downloader
 
+2026-11-15来源感知字幕：`media_workflow.source_caption_projection`将九条既有完整试读投影为33中文/双语短句，完整英文1028句仅两处显式修订；90有限检查和隔离当前音频质量通过，全部旧数据库历史保留、0人耳决定。正式成片未换，发音/情感仍待听辨；使用及真实夹具失败见`docs/source-aware-caption-projection.md`。
+
 2026-11-15源文暂存：新增通用`media_workflow.source_revision`，56有限检查及内存/存储两处英文修订暂存通过，九条既有完整试读不重做。源文/任务/双语编译已在隔离工程一致，正式双版未换；完整英文软字幕仍须来源感知投影，不能绕过旧英文保持合同。入口见`docs/source-revision-stage.md`。
 
 2026-11-15续审：Science of Performance内存与存储30项语境、九条完整正常试读及283真实词界检查完成，尚未安装。DDR1的2000年份与额外通道数字保存显式源文提案，旧英文保持型stage不能直接采用；当前双版、190未人工声音候选与Linux待核范围保持。说明见`docs/science-performance-memory-storage-2026-11-15.md`。

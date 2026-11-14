@@ -1,5 +1,11 @@
 # AI 执行工作流：自包含中文译配视频
 
+## 2026-11-15：只核验成功源文投影，继续前须显式运行时
+
+- 入口`request-cjiUXZh0ZCo-20261114/checkpoint-memory-storage-projection-v1`；新`source_caption_projection`的projection/quality prepare/check已成功，勿重做九条TTS、源暂存、成功投影或质量扫描。33短句/1028英文仅565/566显式修订，原窗/导读和未选字幕保持。
+- 使用`python -m media_workflow.source_caption_projection quality ... --operation check --projection-config ... --projection ...`核验隔离质量，不能裸用旧英文不变入口。正式双版与库未换；私库99扫描/186未人工候选/12非dismiss分类/0决定不是声音批准。后续media/history必须保持同一明确runtime及身份，不准旁路。
+- 90有限检查/76拒绝、3021不可变文件/31活动目标独立核验；两次夹具出口1及10个误生成测试文件精确保全留证，原布局已恢复。冻结98根Python/293生产MP3/13其他文件保持，Linux27hold/23标记/F08与全部人耳门禁不关闭；只提交本轮，其他并行改动不混入。
+
 ## 2026-11-15：续做显式源文暂存，只check成功输出
 
 `memory-storage-source-v1/parent-stage-v1`和`source-stage-v2`已分别成功；只用`python -m media_workflow.source_revision check source-stage-config.json --output source-stage-v2`复核，不重跑成功父音频/试读或prepare。172/173源文、任务及双语编译一致，实际原声/时窗保持；56有限检查、独立v2均0。三个真实1（编译派生记账拒绝、夹具ID、只读拒绝文案误猜）及旧开发实现归档保留，不修改已成功源文绑定。
