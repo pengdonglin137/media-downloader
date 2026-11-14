@@ -1,5 +1,11 @@
 # AI 执行工作流：自包含中文译配视频
 
+## 2026-11-15：源文修订试读不可直接走英文保持型stage
+
+`cjiUXZh0ZCo/memory-storage-v1`九条完整正常试读、check/内部页/独立v2均0；不重跑成功TTS。172的4条通道来自原图，173的2000有图与既有ASR支持；`source-amendment-proposal-v1.json`保存两处精确替换、321自身映射及原JSON3，仍未正式采用。附加标志不是适配器已实现门禁，须通用版本化来源修订合同和有限拒绝测试后才可进入stage，不直接改中文绕过英文、也不悄悄排除173。
+
+独立v1解析文档嵌套身份错误1保留，v2只修只读核验0；2786旧证据/31活动目标/98根Python/293生产MP3保持，无新ASR/全片解码/编码。入口`checkpoint-memory-storage-preview-v1`和`docs/science-performance-memory-storage-2026-11-15.md`，当前正式双版仍上一轮硬件安装版，190候选/12非dismiss分类/0决定、Linux全部待核及目标active保持。
+
 ## 2026-11-15：硬件三句已正式安装，续做只用当前历史权威
 
 `cjiUXZh0ZCo`原session21051媒体四操作/外层及七编码解码收据均0；13张实际上传版受限JPEG逐张打开，候选/正式有限VLC均0但各74诊断/16条no frame不关闭。旧计划真实零替换归档后，用新`hardware-configuration-v1/history-authority-v1.json`、`install-config-v1.json`与原stage执行安装三操作0；后续只check，不重跑成功prepare/apply、TTS或媒体。

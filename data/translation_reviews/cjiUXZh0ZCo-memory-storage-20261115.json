@@ -1,0 +1,491 @@
+{
+  "kind": "complete-memory-storage-source-and-reading-review-v1",
+  "review_date": "2026-11-15",
+  "video_id": "cjiUXZh0ZCo",
+  "work": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo",
+  "scope": "Read complete current source/display/spoken for30units156-185. Nine isolated complete normal-rate preview proposals only; no formal source or media adoption.",
+  "review_basis": [
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/memory-storage-v1/current-context-156-185.json",
+      "bytes": 24756,
+      "mtime_ns": 1794692750031017265,
+      "sha256": "99ea5968c521ecd4005c68f37b90fded8c2a699d7b17ff4f3e0c69246c99026d"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/source-images-v1/source-2700.jpg",
+      "bytes": 26432,
+      "mtime_ns": 1794613514331886189,
+      "sha256": "37d1aedd2415be398fe1baba8579209d7806e1954a9c11cc766935aeb95c7b04"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/source-images-v2/frame-2900.jpg",
+      "bytes": 29633,
+      "mtime_ns": 1794615626455340193,
+      "sha256": "c3b0d1678ef43925a945a54a3371f9bfdf5ca2d15cdf20be5a33f96a7136c6e8"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/memory-storage-v1/source-images-v1/ddr-2977.jpg",
+      "bytes": 28111,
+      "mtime_ns": 1794692577443089118,
+      "sha256": "bc0d1729bf13a615f7af7e7f7b04c60ac4c9d13d732efc36148606fac561470e"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/source-asr-recovery-v3/memory-topology-medium.json",
+      "bytes": 53104,
+      "mtime_ns": 1794617495765731324,
+      "sha256": "8cec953e840d0493d2ae6e4c9555f6ff0ec12c45e5ad0e05b4345c990ecb7831"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/source-asr-recovery-v3/memory-topology-distil-large-v3.json",
+      "bytes": 53630,
+      "mtime_ns": 1794616908953140131,
+      "sha256": "102954172504d825fa1b95c23b71b81033bcd13b46c023970a5ff63b2607b05c"
+    }
+  ],
+  "source_evidence_limits": {
+    "images": "Three existing limited JPEGs individually opened; not full-film visual review.",
+    "ASR": "Reused existing absolute-time memory-topology outputs, no new ASR and no human listening.",
+    "unit172": "Both ASRs support8DIMMs; four is resolved from slide text only. Forecast comes from is going to increase, not a new benchmark.",
+    "unit173": "Both ASRs and slide support2000. Mishearing and-to as2002 is an inference only. Historical slide dates are not independently certified release dates.",
+    "unit160": "Slide loaded-latency claim conflicts with vague current speech transcript; no acoustic approval or new synthesized correction."
+  },
+  "context_units_textually_read": [
+    {
+      "unit_id": 156,
+      "status": "retain-with-historical-source-limitation",
+      "reason": "SPEC2006 examples and AVX names retained; not independent confirmation that every build uses those instructions. Source pronunciation remains unapproved."
+    },
+    {
+      "unit_id": 157,
+      "status": "retain-with-historical-source-limitation",
+      "reason": "Keep the libquantum on/off comparison and external SmartHeap example as lecturer examples, not a universal optimization guarantee."
+    },
+    {
+      "unit_id": 158,
+      "status": "retain-pending-more-literal-score-review",
+      "reason": "The raw source says better score, while current Chinese says affects the final score. No new trial for this smaller discrepancy; not declared resolved."
+    },
+    {
+      "unit_id": 159,
+      "status": "retain",
+      "reason": "Finite resource, misuse and performance impact retained. CPU remains a complete spoken acronym span."
+    },
+    {
+      "unit_id": 160,
+      "status": "hold-source-claim-versus-slide",
+      "reason": "Actually viewed slide says about20% lower loaded latency for1600 versus1333MT/s, not20% universal application performance. No acoustic evidence for2705 available in the reused inventory; do not silently replace lecturer speech using the slide."
+    },
+    {
+      "unit_id": 161,
+      "status": "complete-utterance-preview",
+      "reason": "Restore attributed bad-programming criticism without endorsing legitimate object allocation as automatically bad; preserve both leak and legitimate demand."
+    },
+    {
+      "unit_id": 162,
+      "status": "retain",
+      "reason": "Parallelization tools/options and vectorization preserved; no new configuration commands."
+    },
+    {
+      "unit_id": 163,
+      "status": "complete-utterance-preview",
+      "reason": "Restore most rather than many and remove invented their encountered scope; attribute the broad Java claim to the lecturer. Retain garbage collection versus real execution."
+    },
+    {
+      "unit_id": 164,
+      "status": "retain",
+      "reason": "Already retains expressive nightmare contrast. No emotion selection or forced style change."
+    },
+    {
+      "unit_id": 165,
+      "status": "retain",
+      "reason": "Keep the sawtooth allocation/collection explanation; no assertion that collection eliminates every physical object or all leaks."
+    },
+    {
+      "unit_id": 166,
+      "status": "source-reservation-preserved",
+      "reason": "Actual original-audio region with spoken ellipsis. Do not synthesize a possibly mixed exchange or infer speaker from question punctuation."
+    },
+    {
+      "unit_id": 167,
+      "status": "complete-utterance-preview",
+      "reason": "Right population means appropriate DIMM population/configuration, not a universal requirement to fill all channels or slots."
+    },
+    {
+      "unit_id": 168,
+      "status": "retain-with-population-followup",
+      "reason": "DIMM slots and wrong placement/configuration retained. Current 通道填充 wording remains a followup, not approval of fill-all advice."
+    },
+    {
+      "unit_id": 169,
+      "status": "hold-topology-labels",
+      "reason": "Viewed slide has contradictory2memorychannels and6channels labels and QPI label. Do not turn the diagram into a current Skylake topology certification or reconstruct missing speech."
+    },
+    {
+      "unit_id": 170,
+      "status": "hold-core-versus-die-topology",
+      "reason": "Eight cores/cubical description is attributed to the lecturer; cores, dies, fabric and actual hardware remain unresolved, not silently corrected."
+    },
+    {
+      "unit_id": 171,
+      "status": "retain-with-topology-hold",
+      "reason": "Source four controllers/eight channels/sixteen DIMMs per side and32total are historical claims; do not certify the topology from this slide."
+    },
+    {
+      "unit_id": 172,
+      "status": "preview-requires-explicit-source-amendment",
+      "reason": "Retain correct population, forecast about33%, and diagram comparison8DIMMs/4channels. Both reused ASRs support8DIMMs but spell for, not four. Four is slide-supported clarification, not dual acoustic confirmation."
+    },
+    {
+      "unit_id": 173,
+      "status": "preview-requires-explicit-source-amendment",
+      "reason": "Source slide and both reused ASRs support2000, not current2002. Restore MT/s meaning and historical2020forecast, remove unverified2019report-date assertion. Source amendment must precede formal adoption."
+    },
+    {
+      "unit_id": 174,
+      "status": "source-reservation-preserved",
+      "reason": "Time-check exchange retains actual original audio and spoken ellipsis; no synthesized role merge."
+    },
+    {
+      "unit_id": 175,
+      "status": "retain",
+      "reason": "Reduce expensive disk reads/writes and memory-versus-disk comparison retained; do not interpret as removing semantically required I/O."
+    },
+    {
+      "unit_id": 176,
+      "status": "complete-utterance-preview",
+      "reason": "Preserve profiler read/write context and two source questions; HDD/SSD may be expanded to Chinese hardware names in speech, not treated as phonetic proof."
+    },
+    {
+      "unit_id": 177,
+      "status": "retain",
+      "reason": "Price/capacity/speed/durability/form factor/noise all retained. Data-centre noise view remains the lecturer view."
+    },
+    {
+      "unit_id": 178,
+      "status": "hold-interrupt-and-storage-phrase",
+      "reason": "NVMe rendering is inconsistent, but PCIExpress/enableinterrupts/rapidstorage source phrase is garbled; no technical correction or pronunciation winner invented."
+    },
+    {
+      "unit_id": 179,
+      "status": "complete-utterance-preview",
+      "reason": "Historical lecturer price/capacity trend, expense and desired operating-system speed retained; no2026market claim."
+    },
+    {
+      "unit_id": 180,
+      "status": "complete-utterance-preview",
+      "reason": "Restore explicit server context and capacity/speed complement. Mixing is an attributed example, not universal optimality or purchase advice."
+    },
+    {
+      "unit_id": 181,
+      "status": "hold-repeat-processing-clause",
+      "reason": "Latency/repeated-processing clause remains source-ambiguous; do not reframe as an established protocol rule."
+    },
+    {
+      "unit_id": 182,
+      "status": "complete-utterance-preview",
+      "reason": "Keep home desktop request, server processing and response; restore explicit delay-not-processing contrast without inventing transport-only latency."
+    },
+    {
+      "unit_id": 183,
+      "status": "source-reservation-preserved",
+      "reason": "Actual original audio remains for unclear rates. No guessed25/50/100G or production Chinese synthesis."
+    },
+    {
+      "unit_id": 184,
+      "status": "retain-historical-deictic-scope",
+      "reason": "Last-week Maryland/DC5G claim remains explicitly inside the historical report, not a current launch or verified date."
+    },
+    {
+      "unit_id": 185,
+      "status": "retain-with-entity-hold",
+      "reason": "Intel/entire automatic-source ambiguity remains, no new product/compatibility or live2026claim."
+    }
+  ],
+  "cases": [
+    {
+      "key": "body-161-attributed-programming-critique",
+      "unit_id": 161,
+      "display": "尤其是 Java 应用：内存越用越多，对象也越建越多。这也许是内存泄漏，也许只是确实需要这些对象。讲者最后把这些问题归因于开发者编程不当。",
+      "spoken": "尤其是 Java 应用：内存越用越多，对象也越建越多。这也许是内存泄漏，也许只是确实需要这些对象。讲者最后把这些问题归因于开发者编程不当。",
+      "reason": "Restore attributed bad-programming criticism without endorsing legitimate object allocation as automatically bad; preserve both leak and legitimate demand.",
+      "preserved_facts": [
+        "Memory use and object count increase.",
+        "Memory leak and genuinely needed objects remain alternatives.",
+        "Bad-programming criticism is restored as the lecturer view, not endorsed as universal fact."
+      ],
+      "speaker_review": {
+        "same_speaker": true,
+        "evidence": "Existing canonical lecturer language unit161, unchanged full source window and Yunxi voice; not reserved units166/174/183. No adjacent speech/role is merged and no new acoustic speaker approval is claimed."
+      },
+      "source": "when you allocate application especially when you are using Java application you are using application memory or you are using the memory and then you use more and more memory because you have either creating more objects maybe this this this will be a memory leak issue or some you are just creating objects because because you need them and this is all about this bad programming of developers",
+      "source_start": "2724.71",
+      "source_end": "2750.849",
+      "current_display": "尤其是 Java 应用，运行时会不断使用内存、创建更多对象。这可能是内存泄漏，也可能只是确实需要这些对象。代码怎样编写，会直接影响内存使用。",
+      "current_spoken": "尤其是 Java 应用，运行时会不断使用内存、创建更多对象。这可能是内存泄漏，也可能只是确实需要这些对象。代码怎样编写，会直接影响内存使用。",
+      "requires_explicit_source_amendment_before_adoption": false,
+      "before_waveform": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/memory-storage-v1/current-aac-before/unit-161-current-complete.wav",
+        "bytes": 1254716,
+        "mtime_ns": 1794692750642021063,
+        "sha256": "8019a20f008314f4dbcd5cd9f107ac1206af9049ed1c3dca8eb2a9b48db286b9"
+      }
+    },
+    {
+      "key": "body-163-most-memory-and-gc-contrast",
+      "unit_id": 163,
+      "display": "这些都会影响内存。讲者认为，Java 应用的大多数问题都和内存有关，垃圾回收就是一例：CPU 忙着回收垃圾，而不是真正执行业务。",
+      "spoken": "这些都会影响内存。讲者认为，Java 应用的大多数问题都和内存有关，垃圾回收就是一例：C P U 忙着回收垃圾，而不是真正执行业务。",
+      "reason": "Restore most rather than many and remove invented their encountered scope; attribute the broad Java claim to the lecturer. Retain garbage collection versus real execution.",
+      "preserved_facts": [
+        "Most Java issues is retained as attributed opinion.",
+        "Memory and garbage collection remain explicit.",
+        "CPU garbage collection is contrasted with executing the real application."
+      ],
+      "speaker_review": {
+        "same_speaker": true,
+        "evidence": "Existing canonical lecturer language unit163, unchanged full source window and Yunxi voice; not reserved units166/174/183. No adjacent speech/role is merged and no new acoustic speaker approval is claimed."
+      },
+      "source": "so this is this is really affecting the memory and most most of the Java application issues are about memory issues a garbage collection it's it's it's more it's all about the the memory issue where you spend in your CPU doing garbage collection instead of execution educating the the the real application",
+      "source_start": "2766.75",
+      "source_end": "2785.11",
+      "current_display": "这些都会影响内存。讲者说，他们遇到的 Java 应用问题，很多都与内存、垃圾回收有关：CPU 时间花在了垃圾回收上，而不是执行真正的应用工作。",
+      "current_spoken": "这些都会影响内存。讲者说，他们遇到的 Java 应用问题，很多都与内存、垃圾回收有关：C P U 时间花在了垃圾回收上，而不是执行真正的应用工作。",
+      "requires_explicit_source_amendment_before_adoption": false,
+      "before_waveform": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/memory-storage-v1/current-aac-before/unit-163-current-complete.wav",
+        "bytes": 881324,
+        "mtime_ns": 1794692750646021087,
+        "sha256": "a299dfb0a0bba06c5febd7ab111dbcf5de8e428948c9e4699ff0e544469ed8b6"
+      }
+    },
+    {
+      "key": "body-167-correct-population-not-full-slots",
+      "unit_id": 167,
+      "display": "再看内存配置。这就是开发者和性能工程师视角不同的地方：服务器内存如果没有装对，内存条的插配方案不合理，性能就会出大问题。",
+      "spoken": "再看内存配置。这就是开发者和性能工程师视角不同的地方：服务器内存如果没有装对，内存条的插配方案不合理，性能就会出大问题。",
+      "reason": "Right population means appropriate DIMM population/configuration, not a universal requirement to fill all channels or slots.",
+      "preserved_facts": [
+        "Developer versus performance-engineer perspective remains.",
+        "Correct server memory installation/population is required.",
+        "No invented fill-every-slot/channel policy."
+      ],
+      "speaker_review": {
+        "same_speaker": true,
+        "evidence": "Existing canonical lecturer language unit167, unchanged full source window and Yunxi voice; not reserved units166/174/183. No adjacent speech/role is merged and no new acoustic speaker approval is claimed."
+      },
+      "source": "the memory configuration so most of people they think this is why this developer perspective is going to be different than performance engineer perspective because if you don't install correctly the memory on your server if you don't do a write population it's going to be a big problem for performance",
+      "source_start": "2843.96",
+      "source_end": "2863.47",
+      "current_display": "再看内存配置。这也是开发者和性能工程师视角不同的地方：如果服务器内存没有正确安装、没有按要求插满相应通道，性能就可能出大问题。",
+      "current_spoken": "再看内存配置。这也是开发者和性能工程师视角不同的地方：如果服务器内存没有正确安装、没有按要求插满相应通道，性能就可能出大问题。",
+      "requires_explicit_source_amendment_before_adoption": false,
+      "before_waveform": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/memory-storage-v1/current-aac-before/unit-167-current-complete.wav",
+        "bytes": 936524,
+        "mtime_ns": 1794692750647021094,
+        "sha256": "1e1feab5a83c81f459a357a562b130c53d540c9031badd668adde8e34d829aee"
+      }
+    },
+    {
+      "key": "body-172-population-forecast-and-slide-counts",
+      "unit_id": 172,
+      "display": "通道更多、内存条插配正确，讲者预计性能约提升33%。图中 AMD 多出8条 DIMM、4条内存通道。",
+      "spoken": "通道更多、插配正确，讲者预计性能约提升百分之三十三。图中 A M D 多八条内存条、四条通道。",
+      "reason": "Retain correct population, forecast about33%, and diagram comparison8DIMMs/4channels. Both reused ASRs support8DIMMs but spell for, not four. Four is slide-supported clarification, not dual acoustic confirmation.",
+      "preserved_facts": [
+        "More channels and correct population remain conditions.",
+        "About33% is the lecturer forecast, not a measured universal gain.",
+        "8DIMMs and4channels are slide-supported; neither reused ASR spells out four."
+      ],
+      "speaker_review": {
+        "same_speaker": true,
+        "evidence": "Existing canonical lecturer language unit172, unchanged full source window and Yunxi voice; not reserved units166/174/183. No adjacent speech/role is merged and no new acoustic speaker approval is claimed."
+      },
+      "source": "when you have more memory channels with the right population is going to increase kind of 33% better performance in AMD with extra ATMs for memory channels",
+      "source_start": "2950.33",
+      "source_end": "2963.64",
+      "current_display": "更多内存通道，配上正确的内存插法，在讲者这个比较里，带来了约33%的性能提升；AMD 多出的8条 DIMM、额外的内存通道，是这里讨论的因素。",
+      "current_spoken": "更多内存通道，配上正确的内存插法，在讲者这个比较里，带来了约33%的性能提升；A M D 多出的8条 D I M M、额外的内存通道，是这里讨论的因素。",
+      "requires_explicit_source_amendment_before_adoption": true,
+      "before_waveform": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/memory-storage-v1/current-aac-before/unit-172-current-complete.wav",
+        "bytes": 638924,
+        "mtime_ns": 1794692750649021106,
+        "sha256": "6e94983a03d72a2d5c0645440e8014b80fc58301f39758c2c6191cef32c6a3ad"
+      }
+    },
+    {
+      "key": "body-173-ddr-slide-year-and-transfer-unit",
+      "unit_id": 173,
+      "display": "再看内存代际：图中从2000年的 DDR1，到讲者当时预计2020年推出的 DDR5。数据速率以每秒百万次传输计；速率提高，内存带宽更大，也就有机会提高吞吐量。",
+      "spoken": "再看内存代际：图中从2000年的 D D R 一，到讲者当时预计2020年推出的 D D R 五。数据速率以每秒百万次传输计；速率提高，内存带宽更大，也就有机会提高吞吐量。",
+      "reason": "Source slide and both reused ASRs support2000, not current2002. Restore MT/s meaning and historical2020forecast, remove unverified2019report-date assertion. Source amendment must precede formal adoption.",
+      "preserved_facts": [
+        "DDR1 2000 is an explicit proposed correction supported by source slide and two old ASRs.",
+        "DDR5 2020 is the historical forecast; no inferred2019event date.",
+        "MT/s means million transfers per second, not MHz.",
+        "Data rate/bandwidth/throughput relation remains qualified, not universal application gain."
+      ],
+      "speaker_review": {
+        "same_speaker": true,
+        "evidence": "Existing canonical lecturer language unit173, unchanged full source window and Yunxi voice; not reserved units166/174/183. No adjacent speech/role is merged and no new acoustic speaker approval is claimed."
+      },
+      "source": "this is the memory performance where we see the ddr's the dr1 in 2002 the dr5 is going is coming out in 2020 and of course the data rate in mega transfer per second is going to help a lot in performance because you have more memory bandwidth which means that you can't you're going to get a better throughput",
+      "source_start": "2963.64",
+      "source_end": "2986.68",
+      "current_display": "再看内存代际，从2002年的 DDR1，到讲者在2019年所说、预计2020年推出的 DDR5。传输速率提高，能增加内存带宽，也就有机会获得更高吞吐量。",
+      "current_spoken": "再看内存代际，从2002年的 D D R 一，到讲者在2019年所说、预计2020年推出的 D D R 五。传输速率提高，能增加内存带宽，也就有机会获得更高吞吐量。",
+      "requires_explicit_source_amendment_before_adoption": true,
+      "before_waveform": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/memory-storage-v1/current-aac-before/unit-173-current-complete.wav",
+        "bytes": 1105964,
+        "mtime_ns": 1794692750650021112,
+        "sha256": "5421633653ab1b08843508f90fb61b9c3ca9830ed1fd04eea8e8e3b829b4c83d"
+      }
+    },
+    {
+      "key": "body-176-profiler-and-disk-questions",
+      "unit_id": 176,
+      "display": "这是一种剖析工具，能查看某个应用的读写情况。谈读写，还得看磁盘类型：是 HDD？我们为什么要转向 SSD？",
+      "spoken": "这是一种剖析工具，能查看某个应用的读写情况。谈读写，还得看磁盘类型：是机械硬盘？我们为什么要转向固态硬盘？",
+      "reason": "Preserve profiler read/write context and two source questions; HDD/SSD may be expanded to Chinese hardware names in speech, not treated as phonetic proof.",
+      "preserved_facts": [
+        "Application read/write profiler remains.",
+        "Disk type and HDD question remain.",
+        "Why move to SSD remains a separate rhetorical question."
+      ],
+      "speaker_review": {
+        "same_speaker": true,
+        "evidence": "Existing canonical lecturer language unit176, unchanged full source window and Yunxi voice; not reserved units166/174/183. No adjacent speech/role is merged and no new acoustic speaker approval is claimed."
+      },
+      "source": "and this is one of the profilers where you see the return writes in a specific application and then when we talk about the return writes we talk also about the the type of the disk is it HDD why we move to sa SSD",
+      "source_start": "3024.7",
+      "source_end": "3039.37",
+      "current_display": "这是一种剖析工具，可以看某个应用的读写情况。谈读写，也要谈磁盘类型：是 HDD，还是 SSD？为什么从机械硬盘转向固态硬盘？",
+      "current_spoken": "这是一种剖析工具，可以看某个应用的读写情况。谈读写，也要谈磁盘类型：是 HDD，还是 SSD？为什么从机械硬盘转向固态硬盘？",
+      "requires_explicit_source_amendment_before_adoption": false,
+      "before_waveform": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/memory-storage-v1/current-aac-before/unit-176-current-complete.wav",
+        "bytes": 704204,
+        "mtime_ns": 1794692750652021125,
+        "sha256": "bcc3dedeec6f464a6409216f5e81a06888e5ed233cacf48752cd4b229ed6f178"
+      }
+    },
+    {
+      "key": "body-179-historical-ssd-cost-capacity",
+      "unit_id": 179,
+      "display": "那为什么用 SSD？比如，希望特定操作系统运行得更快。它虽然贵，但按讲者当时的说法，价格在下降，容量也在增加，这是好事。",
+      "spoken": "那为什么用固态硬盘？比如，希望特定操作系统运行得更快。它虽然贵，但按讲者当时的说法，价格在下降，容量也在增加，这是好事。",
+      "reason": "Historical lecturer price/capacity trend, expense and desired operating-system speed retained; no2026market claim.",
+      "preserved_facts": [
+        "Specific operating-system speed is an example/desire, not a new guarantee.",
+        "Expense remains explicit.",
+        "Price falling and capacity increasing are historical lecturer claims, not current advice."
+      ],
+      "speaker_review": {
+        "same_speaker": true,
+        "evidence": "Existing canonical lecturer language unit179, unchanged full source window and Yunxi voice; not reserved units166/174/183. No adjacent speech/role is merged and no new acoustic speaker approval is claimed."
+      },
+      "source": "now why we use SSD because if we'd like to use some specific operating system how it's going to be fast even though it's expensive and now actually the price is going down and the size of the SSD is going up too at the same time which is very good",
+      "source_start": "3068.53",
+      "source_end": "3084.88",
+      "current_display": "那为什么又用 SSD？比如，希望某些操作系统运行得更快。它虽然贵，但价格正在下降，容量也在增加，这是好事。",
+      "current_spoken": "那为什么又用 SSD？比如，希望某些操作系统运行得更快。它虽然贵，但价格正在下降，容量也在增加，这是好事。",
+      "requires_explicit_source_amendment_before_adoption": false,
+      "before_waveform": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/memory-storage-v1/current-aac-before/unit-179-current-complete.wav",
+        "bytes": 784844,
+        "mtime_ns": 1794692750653021131,
+        "sha256": "c07f98596733c58f81c35e68623250481ce4f11b1ac885486cacaed3b2f2472c"
+      }
+    },
+    {
+      "key": "body-180-server-capacity-speed-complement",
+      "unit_id": 180,
+      "display": "对服务器，我们既要机械硬盘的大容量，也要 SSD 的速度。把两者搭配起来，就能兼顾这两点。",
+      "spoken": "对服务器，我们既要机械硬盘的大容量，也要固态硬盘的速度。把两者搭配起来，就能兼顾这两点。",
+      "reason": "Restore explicit server context and capacity/speed complement. Mixing is an attributed example, not universal optimality or purchase advice.",
+      "preserved_facts": [
+        "Servers remain explicit.",
+        "HDD large capacity versus SSD rapid storage remains.",
+        "Combination expresses the source best-of-both intention, not universal optimum."
+      ],
+      "speaker_review": {
+        "same_speaker": true,
+        "evidence": "Existing canonical lecturer language unit180, unchanged full source window and Yunxi voice; not reserved units166/174/183. No adjacent speech/role is merged and no new acoustic speaker approval is claimed."
+      },
+      "source": "but we every server we care about hdt or hard disk because of the large capacity and the rapid storage in SSD the mixture is going to be the best word",
+      "source_start": "3084.88",
+      "source_end": "3097.17",
+      "current_display": "我们同时也看重机械硬盘的大容量，以及 SSD 的快速存储。因此，将两者结合起来，往往是更合适的选择。",
+      "current_spoken": "我们同时也看重机械硬盘的大容量，以及 SSD 的快速存储。因此，将两者结合起来，往往是更合适的选择。",
+      "requires_explicit_source_amendment_before_adoption": false,
+      "before_waveform": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/memory-storage-v1/current-aac-before/unit-180-current-complete.wav",
+        "bytes": 589964,
+        "mtime_ns": 1794692750654021137,
+        "sha256": "3524e2a88575a5af7142213f747151dd177e03ffc763bd93d6d82923e9190bff"
+      }
+    },
+    {
+      "key": "body-182-request-delay-not-processing",
+      "unit_id": 182,
+      "display": "比如，你在家用电脑向服务器发请求，服务器处理后，再把响应发回电脑。这里关注的是延迟，而不是处理本身。",
+      "spoken": "比如，你在家用电脑向服务器发请求，服务器处理后，再把响应发回电脑。这里关注的是延迟，而不是处理本身。",
+      "reason": "Keep home desktop request, server processing and response; restore explicit delay-not-processing contrast without inventing transport-only latency.",
+      "preserved_facts": [
+        "Home desktop sends a request to a server.",
+        "Server processing and response to the desktop remain.",
+        "Delay, not processing itself, is the explicit discussion focus; no transport-only restriction."
+      ],
+      "speaker_review": {
+        "same_speaker": true,
+        "evidence": "Existing canonical lecturer language unit182, unchanged full source window and Yunxi voice; not reserved units166/174/183. No adjacent speech/role is merged and no new acoustic speaker approval is claimed."
+      },
+      "source": "for example here you have a server doing a request you have your desktop you only request to our server let's say you are homemade during the processing and then response in or sending the response to the to the desktop this is all about the delay we don't care about really processing here",
+      "source_start": "3108.91",
+      "source_end": "3127.87",
+      "current_display": "比如，在家通过桌面电脑发起请求，服务器处理，再把响应发回电脑。这里关注的是传输中的延迟，不是专门讨论处理本身。",
+      "current_spoken": "比如，在家通过桌面电脑发起请求，服务器处理，再把响应发回电脑。这里关注的是传输中的延迟，不是专门讨论处理本身。",
+      "requires_explicit_source_amendment_before_adoption": false,
+      "before_waveform": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/memory-storage-v1/current-aac-before/unit-182-current-complete.wav",
+        "bytes": 910124,
+        "mtime_ns": 1794692750656021149,
+        "sha256": "adc94946d72294fbbfdc525cb4950ad5c3c49375509fcee9a2722b3a84d78669"
+      }
+    }
+  ],
+  "source_amendment_proposal_path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/memory-storage-v1/source-amendment-proposal-v1.json",
+  "adoption_contract": "The preview binds current raw English, not an amended source. Extra amendment flags are editorial disclosure, NOT recognized production gates. Existing English-preserving editorial_sample_grid cannot adopt172/173. A separately versioned source-aware contract with exact originals/mapping/tests is required before formal use.",
+  "reading_inputs_not_phoneme_or_acoustic_approval": {
+    "CPU": "C P U",
+    "AMD": "A M D",
+    "DDR1": "D D R 一",
+    "DDR5": "D D R 五",
+    "DIMM": "内存条",
+    "HDD": "机械硬盘",
+    "SSD": "固态硬盘"
+  },
+  "prosody_intentions_not_approved": {
+    "161": "Attributed criticism, not neutralized summary.",
+    "163": "Explicit most and GC-versus-work contrast.",
+    "167": "Conditional configuration warning, not fill-all advice.",
+    "172": "Conditional and approximate forecast.",
+    "173": "Historical sequence followed by transfer-rate explanation.",
+    "176": "Two rhetorical questions, not an invented alternative.",
+    "179": "Why-question and historically qualified contrast.",
+    "180": "Capacity versus speed parallelism.",
+    "182": "Request-response narrative and not-processing contrast."
+  },
+  "invariants": {
+    "human_listened": false,
+    "pronunciation_or_emotion_approved": false,
+    "automatic_winner": false,
+    "canonical_files_or_media_modified": false,
+    "source_amendment_formally_adopted": false,
+    "original_source_reservations_unchanged": true,
+    "windows_roles_and_voice_unchanged": true,
+    "database_decisions_written": false
+  }
+}

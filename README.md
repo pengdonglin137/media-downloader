@@ -1,5 +1,7 @@
 # Media Downloader
 
+2026-11-15续审：Science of Performance内存与存储30项语境、九条完整正常试读及283真实词界检查完成，尚未安装。DDR1的2000年份与额外通道数字保存显式源文提案，旧英文保持型stage不能直接采用；当前双版、190未人工声音候选与Linux待核范围保持。说明见`docs/science-performance-memory-storage-2026-11-15.md`。
+
 2026-11-15：性能报告BIOS实际观察、SPEC限定与PCIe扩展机会三句已进入正式母版/中文烧字上传版，旧版精确归档；13张成片图逐张检查，有限VLC通过但诊断未解决，发音/情感/全片批准仍待完成。当前历史权威、保护范围分账、真实失败与续做入口见`docs/science-performance-hardware-install-2026-11-15.md`。Linux直播待核项及其他未提交工作保持。
 
 2026-11-15：性能报告BIOS实际结果、SPEC限定与PCIe扩展机会三句完成来源修订、正常速率整句试读及候选暂存；新双版正在编码验证，未替换正式成片，也未批准发音/情感。内部试听入口、扫描历史与真实作业断点见`docs/science-performance-hardware-configuration-2026-11-15.md`。
