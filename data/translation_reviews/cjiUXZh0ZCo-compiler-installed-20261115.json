@@ -1,0 +1,136 @@
+{
+  "kind": "source-faithful-compiler-comparison-installed-record-v1",
+  "review_date": "2026-11-15",
+  "recorded_at": "2026-11-14T20:09:03+00:00",
+  "video_id": "cjiUXZh0ZCo",
+  "scope": "98-113-114-only-explicit-history-preserving-installation",
+  "source_selection_not_acoustic_winner": true,
+  "selected_units": [
+    98,
+    113,
+    114
+  ],
+  "retained_source_questions": [
+    95,
+    97,
+    111
+  ],
+  "author_review": {
+    "path": "/home/pengdl/media-downloader/data/translation_reviews/cjiUXZh0ZCo-compiler-explanation-20261115.json",
+    "bytes": 7413,
+    "mtime_ns": 1794684814868382479,
+    "sha256": "e5c47aa9b5f5b83f481a0be36ed5e199b0010aad49e70ac044bedaaefb546202"
+  },
+  "candidate_independent_verification": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/compiler-explanation-v1/candidate-independent-verification.json",
+    "bytes": 7657,
+    "mtime_ns": 1794686580083918275,
+    "sha256": "8ef51414b6db3680800b5e45d7253100b6a72cd5aa559f12f0c4809af6c61f1a"
+  },
+  "installation_independent_verification": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/compiler-explanation-v1/installation-independent-verification.json",
+    "bytes": 60002,
+    "mtime_ns": 1794686797024874450,
+    "sha256": "626d2a46e4e79f853914c253b5109cb60db24ed35fb2333fd62a0e55e23d746f"
+  },
+  "media": {
+    "master": {
+      "path": "/home/pengdl/Videos/translated_backlog/Science of Performance 2019_中文配音.mp4",
+      "bytes": 566100374,
+      "mtime_ns": 1794685440086054881,
+      "sha256": "910f4f29987fdd3bf09c0b2357fedab2bbd9fadf38c311d0c02f216e884b5bc1"
+    },
+    "upload": {
+      "path": "/home/pengdl/Videos/translated_backlog/Science of Performance 2019_中文上传版.mp4",
+      "bytes": 452343948,
+      "mtime_ns": 1794686104314934079,
+      "sha256": "f2a2685f0f73a8647686eddb9dc568f94279a36d21238c2afb9e1d964f8c21e4"
+    },
+    "duration_seconds": 5572.982,
+    "intro_seconds": 40.2,
+    "chapters": 85
+  },
+  "invariants": {
+    "strict_original_windows": 321,
+    "actual_original_audio_regions": 23,
+    "reserved_units": 39,
+    "frozen_root_python": 98,
+    "old_production_mp3": 293
+  },
+  "history": {
+    "protected": 1100,
+    "unchanged_in_place": 1077,
+    "exact_archive_replacements": 23,
+    "transaction_entries": 31,
+    "old_1037_coverage": "1014 unchanged plus23 exact archives",
+    "earlier_826_coverage": "803 unchanged plus23 exact archives",
+    "old_private_databases_preserved": true
+  },
+  "canonical_database_counts": {
+    "decisions": 0,
+    "issues": 6005,
+    "occurrences": 10712,
+    "projects": 60,
+    "repair_resolutions": 0,
+    "scans": 95,
+    "terms": 41
+  },
+  "current_unreviewed_sound_candidates": 191,
+  "actual_source_classifications_not_dismissals": 12,
+  "new_decisions_or_resolutions": 0,
+  "images": {
+    "actual_upload_images_individually_opened": 13,
+    "dimensions": [
+      960,
+      540
+    ],
+    "maximum_bytes": 31735,
+    "full_visual_or_wordlevel_approval": false
+  },
+  "finite_vlc": {
+    "candidate_actual_exit": 0,
+    "formal_actual_exit": 0,
+    "candidate_matching_diagnostic_lines": 70,
+    "formal_matching_diagnostic_lines": 72,
+    "candidate_no_frame_lines": 15,
+    "formal_no_frame_lines": 16,
+    "unresolved_diagnostics_retained": true,
+    "dummy_audio_not_human_hearing": true
+  },
+  "preserved_readonly_verification_failures": [
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/compiler-explanation-v1/candidate-inputs-independent-v1-failure.json",
+      "bytes": 498,
+      "mtime_ns": 1794686415702602776,
+      "sha256": "eba7389feac4e649cc0f056059b639e58123ae8fa23858ddf726f3f4f096cfb1"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/compiler-explanation-v1/candidate-inputs-independent-v2.log",
+      "bytes": 99,
+      "mtime_ns": 1794686423609716042,
+      "sha256": "c9213c65eb596dfb8096c6306d8b7e207d42b1c5ee3a14408b366ca33c77396c"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/compiler-explanation-v1/candidate-inputs-independent-v2.exit",
+      "bytes": 2,
+      "mtime_ns": 1794686423623716242,
+      "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865"
+    }
+  ],
+  "check_runtime": {
+    "module": "media_workflow.editorial_history",
+    "authority": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/compiler-explanation-v1/history-authority-v1.json",
+    "config": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/compiler-explanation-v1/install-config-v1.json",
+    "output": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/compiler-explanation-v1/install-v1",
+    "stage_config": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/compiler-explanation-v1/stage-config.json",
+    "stage": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/compiler-explanation-v1/stage-v1",
+    "operation": "check"
+  },
+  "checkpoint": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/checkpoint-compiler-installed-v1/execution-progress.json",
+  "documentation": "docs/science-performance-compiler-install-2026-11-15.md",
+  "new_installation_TTS_ASR_encoding_or_full_decode": false,
+  "human_hearing_pronunciation_emotion_approved": false,
+  "full_visual_wordlevel_av_or_potplayer_approved": false,
+  "shared_queue_global_counts_other_requests_or_publication_modified": false,
+  "goal_status": "active"
+}
