@@ -1,0 +1,162 @@
+{
+  "kind": "source-faithful-hardware-configuration-staged-result-v1",
+  "recorded_at": "2026-11-14T21:04:02+00:00",
+  "video_id": "cjiUXZh0ZCo",
+  "author_review": {
+    "path": "/home/pengdl/media-downloader/data/translation_reviews/cjiUXZh0ZCo-hardware-configuration-20261115.json",
+    "bytes": 8611,
+    "mtime_ns": 1794689368921688511,
+    "sha256": "ff8ad2f9a4ab307b19faac6bb3568b2968cad2af2647357ae139211b07429633"
+  },
+  "selected_units": [
+    143,
+    147,
+    152
+  ],
+  "complete_normal_rate_speech": [
+    {
+      "unit_id": 143,
+      "seconds": 12.552,
+      "samples": 301248,
+      "original_window_samples": 419760,
+      "remaining_exact_samples": 118512,
+      "word_boundary_records": 37,
+      "all_boundary_endpoints_inside_complete_waveform": true
+    },
+    {
+      "unit_id": 147,
+      "seconds": 9.408,
+      "samples": 225792,
+      "original_window_samples": 310824,
+      "remaining_exact_samples": 85032,
+      "word_boundary_records": 23,
+      "all_boundary_endpoints_inside_complete_waveform": true
+    },
+    {
+      "unit_id": 152,
+      "seconds": 12.864,
+      "samples": 308736,
+      "original_window_samples": 408000,
+      "remaining_exact_samples": 99264,
+      "word_boundary_records": 35,
+      "all_boundary_endpoints_inside_complete_waveform": true
+    }
+  ],
+  "total_complete_samples": 835776,
+  "total_complete_seconds_exact": "4353/125",
+  "real_WordBoundary_records": 95,
+  "stage_manifest": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/hardware-configuration-v1/stage-v1/manifest.json",
+    "bytes": 8924,
+    "mtime_ns": 1794689572408416875,
+    "sha256": "ef610a626407b4768fcf81b7855e1c6d056c85b25196cca2be459c56b90097a9"
+  },
+  "caption_manifest": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/hardware-configuration-v1/captions-v1/manifest.json",
+    "bytes": 7615,
+    "mtime_ns": 1794689674945785423,
+    "sha256": "710da2f8919886363b6f38fe2be06f9d3fa493af82f81399957736e1455ae00f"
+  },
+  "quality_manifest": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/hardware-configuration-v1/quality-v1/manifest.json",
+    "bytes": 5250,
+    "mtime_ns": 1794689749610779907,
+    "sha256": "f35fa4e135966d93318068551e080c5ef3cc3a2d2c02ca67a22012e71a102496"
+  },
+  "independent_verification": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/hardware-configuration-v1/stage-independent-verification.json",
+    "bytes": 10346,
+    "mtime_ns": 1794690106030260717,
+    "sha256": "5c0f619adb51b4ab0ad4b4815d21523b0a977f7ede65643f72986dfc968c44e3"
+  },
+  "caption_phrases": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/hardware-configuration-v1/caption-phrases-v1.json",
+    "bytes": 3875,
+    "mtime_ns": 1794689669071707115,
+    "sha256": "76f819e37b3fcf85552a56f0dd8fbce6e3567e1196d07290febb1c0fa0b43c0b"
+  },
+  "caption_only_terms": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/hardware-configuration-v1/caption-terms-v1.json",
+    "bytes": 4493,
+    "mtime_ns": 1794689669083707275,
+    "sha256": "1fd9af1de091a382f7e1acfda4a50fc78e4cec2fbdfe82386d539439929305d8"
+  },
+  "current_baseline_quality": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/hardware-configuration-v1/current-quality.json",
+    "bytes": 4132,
+    "mtime_ns": 1794689422779412531,
+    "sha256": "059b6b6759fddab5d3d370e4302e88e5b72bc3723f9f887104e938dda1e7f602"
+  },
+  "internal_comparison_page": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/hardware-configuration-v1/index.html",
+    "bytes": 4736,
+    "mtime_ns": 1794689923156086069,
+    "sha256": "c5e5ebb29bdf09872f1b0dfa772da628c3bc01b5e5cb4a196e2990c1b8c28b08"
+  },
+  "internal_page_static_check": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/hardware-configuration-v1/listening-page-verification.json",
+    "bytes": 1554,
+    "mtime_ns": 1794689923162086149,
+    "sha256": "304903159fafa73baee88c2ce584d84f3a1e78c2f1a28c6cf249f1bea569c89e"
+  },
+  "owned_candidate_media_observation": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/hardware-configuration-v1/media-live-observation-v1.json",
+    "bytes": 1946,
+    "mtime_ns": 1794690242150820546,
+    "sha256": "258eca271b82002584969be605abd2a3268e40ff879a00ce50ef6c2d6f817034"
+  },
+  "candidate_media_state_at_record": "encode-running; prepare actual0; encode/verify/check not yet terminal",
+  "future_media_completion_requires_separate_receipt": true,
+  "current_canonical_candidates": 191,
+  "isolated_current_candidates": 190,
+  "unedited_current_candidates_preserved": 187,
+  "old_edited_candidates_kept_in_history": 4,
+  "source_only_synthetic_tail_classifications_not_dismissals": 12,
+  "source_fidelity_selection_not_acoustic_winner": true,
+  "old_SQL_rows_exact_and_only_current_project_revision_pointer_updated": true,
+  "canonical_database_rows": {
+    "decisions": 0,
+    "issues": 6005,
+    "occurrences": 10712,
+    "projects": 60,
+    "repair_resolutions": 0,
+    "scans": 95,
+    "terms": 41
+  },
+  "isolated_database_rows": {
+    "decisions": 0,
+    "issues": 6195,
+    "occurrences": 11035,
+    "projects": 60,
+    "repair_resolutions": 0,
+    "scans": 96,
+    "terms": 41
+  },
+  "new_listening_decisions_or_resolutions": 0,
+  "preserved_current_file_identities": 2359,
+  "frozen_root_python_unchanged": 98,
+  "production_MP3_unchanged": 293,
+  "source_reservations": {
+    "strict_original_windows": 321,
+    "actual_source_regions": 23,
+    "reserved_units": 39,
+    "unchanged": true
+  },
+  "canonical_text_media_database_or_other_requests_modified": false,
+  "new_ASR_or_old_successful_synthesis_restarted": false,
+  "new_normal_rate_complete_TTS_cases": 3,
+  "human_listened_pronunciation_emotion_or_source_acoustic_identity_approved": false,
+  "full_visual_wordlevel_AV_or_PotPlayer_approved": false,
+  "goal_status": "active",
+  "goal_turn_classification": "progress",
+  "checkpoint": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/checkpoint-hardware-stage-v1/execution-progress.json",
+  "retained_open_questions": [
+    "95 instruction-count source explanation",
+    "97 clause crossing into98",
+    "111 power/cost oral relation",
+    "133 historical benchmark wording",
+    "148 source TDP/power equivalence is not adopted as a technical identity",
+    "150 garbled source channel details are not reconstructed here",
+    "155 fewer instructions is not a universal performance guarantee"
+  ]
+}

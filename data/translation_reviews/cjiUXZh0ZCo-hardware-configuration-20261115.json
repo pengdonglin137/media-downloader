@@ -1,0 +1,143 @@
+{
+  "kind": "source-faithful-hardware-configuration-review-v1",
+  "review_date": "2026-11-15",
+  "video_id": "cjiUXZh0ZCo",
+  "work": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo",
+  "scope": "complete source units143,147,152; source fidelity and normal-rate reading candidates, not acoustic winners",
+  "context_units_textually_read": [
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146,
+    147,
+    148,
+    149,
+    150,
+    151,
+    152,
+    153,
+    154,
+    155,
+    156,
+    157,
+    158
+  ],
+  "review_basis": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/hardware-configuration-v1/current-context-131-158.json",
+    "bytes": 23469,
+    "mtime_ns": 1794689368917688457,
+    "sha256": "87bd1500563fc08a4ca950faa297fd92be4b75650ba6b3d03ebd0697a3ed2f33"
+  },
+  "cases": [
+    {
+      "key": "body-143-bios-observed-impact",
+      "unit_id": 143,
+      "display": "BIOS 设置也和供应商有关。我们拿到 HP 的服务器后，只改了一些 BIOS 选项，性能就有了很大的变化。所以，这很重要。",
+      "spoken": "B I O S 设置也和供应商有关。我们拿到 H P 的服务器后，只改了一些 B I O S 选项，性能就有了很大的变化。所以，这很重要。",
+      "reason": "Restore the explicit we/got/changed/saw observed sequence. The old 就可能看到 makes the historical observation hypothetical. Use 只改了…就… to carry just and huge impact, without inventing an improvement direction or guaranteeing all BIOS changes help. Preserve BIOS and HP; spaced letters are a reading input, not a claimed pronunciation correction.",
+      "preserved_facts": [
+        "BIOS settings are connected to the vendor.",
+        "The subject is we; HP remains named.",
+        "The source reports an actual change followed by observed huge performance impact, not a hypothetical benefit.",
+        "Some settings changed; no exact option count or configuration is invented.",
+        "The performance direction is not asserted to improve; the source emphasizes importance."
+      ],
+      "speaker_review": {
+        "same_speaker": true,
+        "evidence": "Existing canonical language unit143 continues the lecturer hardware-certification explanation in142-145; current voices and source reservations do not mark143 as an original-audio handoff. No unit merge, speaker reassignment or new acoustic identity approval."
+      },
+      "source": "and the BIOS settings too it's also connected to the vendor so when we got when we got a server from HP we just you know changed some biases and then we we see a huge impact in performance so it's really important",
+      "source_start": "2416.119",
+      "source_end": "2433.609",
+      "current_display": "BIOS 设置也和供应商有关。比如，拿到 HP 的服务器，修改一些 BIOS 选项，就可能看到很明显的性能影响，因此非常重要。",
+      "current_spoken": "B I O S 设置也和供应商有关。比如，拿到 HP 的服务器，修改一些 B I O S 选项，就可能看到很明显的性能影响，因此非常重要。"
+    },
+    {
+      "key": "body-147-workload-only-contrast",
+      "unit_id": 147,
+      "display": "再看负载性能：只测 SPEC，还是真实应用？还有内存怎么插、怎么配，对服务器性能影响也很大。",
+      "spoken": "再看负载性能：只测 SPEC，还是真实应用？还有内存怎么插、怎么配，对服务器性能影响也很大。",
+      "reason": "Restore the source workload-performance object and SPEC only versus real application contrast. A question and parallel clauses preserve the source explanatory rhythm without adding an SSML emotion instruction. Keep physical memory population/configuration and strong server-performance impact; do not reduce the passage to benchmark choice alone.",
+      "preserved_facts": [
+        "Workload performance remains the topic.",
+        "SPEC only is contrasted with real applications; only is explicit.",
+        "Memory population and configuration remain, naturally expressed as 怎么插、怎么配.",
+        "The source large impact on server performance remains; no measured gain is invented."
+      ],
+      "speaker_review": {
+        "same_speaker": true,
+        "evidence": "Existing canonical language unit147 is the continuation of the workload/compiler explanation in146-148 and is not a source-reserved audience unit. The complete original unit is kept; this is not a new acoustic or voice-identity decision."
+      },
+      "source": "the performance of the workload - which application is it the SPEC only or real up the and also memory population so the configuration and memory in the server has a huge impact on your server -",
+      "source_start": "2483.079",
+      "source_end": "2496.03",
+      "current_display": "还要看负载：测的是 SPEC，还是真实应用？内存怎么插、怎么配，同样会对服务器性能产生很大影响。",
+      "current_spoken": "还要看负载：测的是 SPEC，还是真实应用？内存怎么插、怎么配，同样会对服务器性能产生很大影响。"
+    },
+    {
+      "key": "body-152-pcie-opportunity-not-count",
+      "unit_id": 152,
+      "display": "还有 PCIe 通道：总共多少条，每颗 CPU 多少条？这让我们有更多余地接入其他设备，比如 GPU 或 FPGA。",
+      "spoken": "还有 P C I E 通道：总共多少条，每颗 C P U 多少条？这让我们有更多余地接入其他设备，比如 G P U 或 F P G A。",
+      "reason": "Keep both total and per-CPU lane questions and the source more opportunity claim. The old 能插接多少 turns an opportunity statement into a supported-device-count relationship. Restore alternatives GPU or FPGA, not a required pair, and do not promise a linear mapping from lane count to device count. Retain complete acronym spans within one synthesis invocation.",
+      "preserved_facts": [
+        "PCIe lane count is discussed both overall and per CPU.",
+        "More opportunity to attach devices is not an exact or linear supported-device-count guarantee.",
+        "GPU and FPGA remain examples joined by the source or.",
+        "No source number, topology, device compatibility or speed is invented."
+      ],
+      "speaker_review": {
+        "same_speaker": true,
+        "evidence": "Existing canonical language unit152 continues the lecturer hardware-component discussion from151 to153, with unchanged Yunxi mapping and no source reservation for152. No adjacent source words or people are merged; acoustic identity remains unapproved."
+      },
+      "source": "and the PCIe lines how many lines we support how many per CPU which is going to give us more opportunity to install or plug other devices for instance the GPS or FPGAs",
+      "source_start": "2559.79",
+      "source_end": "2576.79",
+      "current_display": "还有 PCIe 通道数：总共支持多少，每颗 CPU 支持多少？这关系到能插接多少其他设备，例如 GPU 和 FPGA。",
+      "current_spoken": "还有 P C I E 通道数：总共支持多少，每颗 C P U 支持多少？这关系到能插接多少其他设备，例如 G P U 和 F P G A。"
+    }
+  ],
+  "prosody_intentions_not_approved": {
+    "143": "Actual observation with just/large-impact emphasis, not hypothetical benefit.",
+    "147": "A genuine only-versus-real-workload question followed by a parallel memory point.",
+    "152": "Two scope questions, then enabling opportunity and alternative examples; no guarantee."
+  },
+  "reading_inputs_not_phoneme_or_acoustic_approval": {
+    "BIOS": "B I O S",
+    "HP": "H P",
+    "PCIe": "P C I E",
+    "CPU": "C P U",
+    "GPU": "G P U",
+    "FPGA": "F P G A"
+  },
+  "retained_open_questions": [
+    "95 instruction-count source explanation",
+    "97 clause crossing into98",
+    "111 power/cost oral relation",
+    "133 historical benchmark wording",
+    "148 source TDP/power equivalence is not adopted as a technical identity",
+    "150 garbled source channel details are not reconstructed here",
+    "155 fewer instructions is not a universal performance guarantee"
+  ],
+  "invariants": {
+    "source_English_windows_roles_unchanged": true,
+    "original_source_reservations_unchanged": true,
+    "human_listened": false,
+    "pronunciation_or_emotion_approved": false,
+    "new_factual_claims_or_configuration_commands": false,
+    "automatic_winner": false,
+    "canonical_files_or_media_modified": false
+  }
+}

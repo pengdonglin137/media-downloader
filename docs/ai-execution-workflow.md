@@ -1,5 +1,9 @@
 # AI 执行工作流：自包含中文译配视频
 
+## 2026-11-15：硬件三句候选续做，不重启成功语音或活动编码
+
+`cjiUXZh0ZCo/hardware-configuration-v1`三条完整正常试读、stage、13字幕短句和隔离quality均0；正式工程未换。候选媒体session21051/PID2202400已实查同start ticks/存活/子命令，登记时prepare0、encode运行中；恢复先查同handle和真实终态，不因超时、锁或文件存在判停止/重启。待完整媒体验证、图审与播放器证据，再用既有历史计划合同安装；190候选不等于少1声音错误已解决。流程与所有待验收范围见`docs/science-performance-hardware-configuration-2026-11-15.md`。
+
 ## 2026-11-15：先用原生语境核对待定来源，不自动批准角色
 
 有有效原生观察时，可用`media_workflow.native_audition extract/check`准备完整帧语境，严格格式及限额见`docs/native-audition.md`。成功输出绑定代码/计划，不修改绑定、不重启成功解码；失败目录留档。Linux当前入口为请求内`native-hold-auditions-v1/review-page-v1/index.html`，不是无OOM纠错的原导出页。30窗是字幕包络加前后文，不是生产交接窗；静音时钟及图审不改unknown/声学尾界/TTS拒绝。下一步须真实核对语言与角色，不能据此清27hold/23标记、critical F08或宣称已产中文双版。
