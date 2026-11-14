@@ -1,5 +1,9 @@
 # 译配工作流契约
 
+## 2026-11-15：结尾采用转移完整媒体证明，不升级人工批准
+
+七窗/22短句通过既有媒体与历史安装合同正式采用；31项事务保存旧身份，正式双版与候选bytes/mtime/SHA精确相同才转移完整解码/帧/包/PCM证明，不冒称重新解码。旧库保留、各层扫描只增历史，当前191候选/12原声规则分类/0声音决定不作dismiss。局部22图与有限VLC断言不消除59/57条未决诊断或批准人耳/发音/情感；1037旧身份对账及显式后续check见`docs/science-performance-closing-install-2026-11-15.md`。不修改冻结根Python或已绑定适配器。
+
 ## 2026-11-15：先绑定真实当前质量，再零改写归档当前计划
 
 来源选择不能冒充听辨胜者，完整当前质量收据必须来自实际native检查及`delivery_quality.require`；七窗/22短句暂存通过不等于媒体安装。旧导读计划可用既有`FileTransaction`单文件源/目标同身份精确备份：真实prepare/install/commit/check、0规范写入与0意图，随后既有`editorial_history`绑定终态归档。它不是媒体安装或假造失败，不修改已绑定代码。实证与1037旧身份/98根Python/293MP3保持见`docs/science-performance-closing-stage-2026-11-15.md`。

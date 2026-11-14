@@ -1,5 +1,9 @@
 # AI 执行工作流：自包含中文译配视频
 
+## 2026-11-15：结尾正式安装后只读检查必须绑定本次历史权威
+
+七窗/22短句的原媒体作业实际成功后，复用已有精确计划归档，经`editorial_history install`的prepare/apply/check完成31项事务。后续只读check须使用`closing-adoption-v1/history-authority-v1.json`、`install-config-v1.json`和同轮stage，不套上次安装或裸旧runtime，不重启成功编码/完整解码。正式媒体精确身份转移候选证明，1014原位+23归档覆盖1037；当前92扫描/191候选/0决定。22局部实际样图及候选/正式有限VLC均另记，首次提图1/导入1和59/57未决诊断保留，不升级声音/全片批准。入口`checkpoint-closing-installed-v1`，细目`science-performance-closing-install-2026-11-15.md`，目标active。
+
 ## 2026-11-15：完整当前质量与精确归档先于正式安装
 
 复用现有runtime实际检查当前安装，再取`delivery_quality.require`完整质量对象，勿把缺quality字段的旧收据重命名。七窗/22句stage/project/quality已通过；未来安装前用既有单文件事务作源/目标同身份的精确计划备份，核对0规范写入/0意图、真实终态及历史权威validate，不伪称媒体安装。1037旧身份和既有声音/人工门禁保持，继续原媒体作业不因超时重启；入口`checkpoint-closing-stage-v1`与`science-performance-closing-stage-2026-11-15.md`。

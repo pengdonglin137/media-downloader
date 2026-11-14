@@ -1,0 +1,344 @@
+{
+  "kind": "source-faithful-closing-installed-result-v1",
+  "video_id": "cjiUXZh0ZCo",
+  "record_date": "2026-11-15",
+  "checked_at": "2026-11-14T19:24:38+00:00",
+  "goal_status": "active",
+  "status": "seven_source_fidelity_selections_installed_two_formal_mp4s_human_voice_gates_pending",
+  "scope": "explicit_single_video_no_playlist_publication_or_other_request_changes",
+  "request": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/closing-adoption-v1",
+  "checkpoint": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/checkpoint-closing-installed-v1/execution-progress.json",
+  "source_selection": {
+    "path": "/home/pengdl/media-downloader/data/translation_reviews/cjiUXZh0ZCo-closing-adoption-20261115.json",
+    "bytes": 11098,
+    "mtime_ns": 1794682075049487561,
+    "sha256": "9ad909ffc447061c4eb0e514948293a5f678dd1c021c17f6589cd77d92dd8a02"
+  },
+  "selection_basis": "Source lexical fidelity, not human-listened acoustic/emotional victory; 318 love explicit and 319/320 trade-offs paired.",
+  "selected_units": [
+    308,
+    315,
+    316,
+    317,
+    318,
+    319,
+    320
+  ],
+  "caption_phrases": 22,
+  "english_display_bytes_unchanged": true,
+  "strict_original_windows": 321,
+  "original_regions": 23,
+  "reserved_units": 39,
+  "minimum_legacy_owned_remaining_samples_24000hz": 10727,
+  "complete_normal_rate_previews_reused": true,
+  "new_tts_or_asr": false,
+  "media": {
+    "master": {
+      "path": "/home/pengdl/Videos/translated_backlog/Science of Performance 2019_中文配音.mp4",
+      "bytes": 566087086,
+      "mtime_ns": 1794682335728146601,
+      "sha256": "170d8fc38a62246890ef2517172f940843c306c831a75c51ccc6da0114513455"
+    },
+    "upload": {
+      "path": "/home/pengdl/Videos/translated_backlog/Science of Performance 2019_中文上传版.mp4",
+      "bytes": 452336780,
+      "mtime_ns": 1794683012225513161,
+      "sha256": "e8d88dac5237ccee55a6604d43948531f9473c89ded16aee487831dd10b334d9"
+    },
+    "duration_seconds": 5572.982,
+    "voiced_ai_intro_seconds": 40.2,
+    "chapters": 85,
+    "master_audio_tracks": 2,
+    "master_soft_subtitles": 3,
+    "upload_audio_tracks": 1,
+    "upload_burned_chinese": true
+  },
+  "candidate_full_media_verification": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/closing-adoption-v1/media-v1/verification.json",
+    "bytes": 21740,
+    "mtime_ns": 1794683453960736507,
+    "sha256": "70613c12e394fa3ea223e52c414669bc59b93fd798ebe1927e639ac8d9fc72a4"
+  },
+  "candidate_encode_decode_operations_terminal_exit0": 7,
+  "decoded_video_frames": 167187,
+  "master_upload_chinese_aac_and_pcm_equal": true,
+  "fixed_offset_diagnostic_regions": 30,
+  "installation_independent_verification": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/closing-adoption-v1/installation-independent-verification.json",
+    "bytes": 20402,
+    "mtime_ns": 1794684105340551284,
+    "sha256": "2d5c240582b834ea2329645b90f889c2ae1dc619d0e2a231161ece2f2292e9d8"
+  },
+  "formal_media_exact_candidate_bytes_mtime_sha256": true,
+  "new_installation_full_decode_encoding_tts_or_asr": false,
+  "history_authority": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/closing-adoption-v1/history-authority-v1.json",
+    "bytes": 3109,
+    "mtime_ns": 1794682419587473341,
+    "sha256": "5169f443b104ab7e6567c028cfc9affcd47431f2986d24eb87f1680df031ae42"
+  },
+  "install_config": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/closing-adoption-v1/install-config-v1.json",
+    "bytes": 815,
+    "mtime_ns": 1794683928833644961,
+    "sha256": "6117d66390bac0bdc78fae5535f8583a787627faac2548487d1e0172706a0281"
+  },
+  "history_application": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/closing-adoption-v1/install-v1/historical-application.json",
+    "bytes": 1662,
+    "mtime_ns": 1794684005133937146,
+    "sha256": "01472a8d92775ce7479dc48583023bafa76e20186d8643a615a1edaf82a59512"
+  },
+  "transaction_state": "committed",
+  "transaction_entries": 31,
+  "transaction_original_archives_checked": 31,
+  "old_1037_identity_reconciliation": {
+    "unchanged_in_place": 1014,
+    "exact_archived_replacements": 23
+  },
+  "previous_826_identity_reconciliation": {
+    "unchanged_in_place": 803,
+    "exact_archive_coverage": 23
+  },
+  "frozen_root_python_unchanged": 98,
+  "production_mp3_unchanged": 293,
+  "old_private_database_unchanged": true,
+  "all_old_database_rows_preserved": true,
+  "current_private_database_rows": {
+    "decisions": 0,
+    "issues": 5432,
+    "occurrences": 9743,
+    "projects": 60,
+    "repair_resolutions": 0,
+    "scans": 92,
+    "terms": 41
+  },
+  "current_unreviewed_sound_candidates": 191,
+  "source_rule_only_classifications_not_dismissals": 12,
+  "new_database_decisions_or_resolutions": 0,
+  "limited_visual": {
+    "actual_caption_images_opened": 22,
+    "long_side_max": 1280,
+    "max_actual_bytes": 32567,
+    "observations": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/closing-adoption-v1/caption-visual-observations-v1.json",
+      "bytes": 4720,
+      "mtime_ns": 1794683791185549820,
+      "sha256": "006e0f438681698eb81a028d3895e26c900ba3267b6b6b8a01f176b7587b6b32"
+    },
+    "extraction_manifest": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/closing-adoption-v1/caption-samples-v2/manifest.json",
+      "bytes": 30363,
+      "mtime_ns": 1794683267504574697,
+      "sha256": "1ae87b88bd4c533f51aedd4e8451deeaf1a01075d2a65684676de75ff7b8aa27"
+    },
+    "failed_first_extraction_exit": 1,
+    "recovery_exit": 0,
+    "successful_partial_jpegs_reused": 3,
+    "new_missing_images_extracted": 19
+  },
+  "finite_vlc": {
+    "candidate_result": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/closing-adoption-v1/vlc-candidate-v2/result.json",
+      "bytes": 29587,
+      "mtime_ns": 1794683743062011160,
+      "sha256": "021b40194dc8674c629a15ea849ab897f3bec5d3fec20867e94c29cb8a81f5d9"
+    },
+    "formal_result": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/closing-adoption-v1/vlc-installed-v1/result.json",
+      "bytes": 28878,
+      "mtime_ns": 1794684066815940890,
+      "sha256": "8b887808f0ed34c8a9dbb9eb98a5b8858e5dcbc3c6eea98af9db589290bebd78"
+    },
+    "candidate_exit": 0,
+    "formal_exit": 0,
+    "candidate_unresolved_matching_diagnostic_lines": 59,
+    "formal_unresolved_matching_diagnostic_lines": 57,
+    "formal_diagnostics": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/closing-adoption-v1/vlc-installed-v1/diagnostics.json",
+      "bytes": 6615,
+      "mtime_ns": 1794684278923169404,
+      "sha256": "550474d27a2b6ed0d9b19994b00a16ac507e10d58f9f7931c20b9fa82751ff8b"
+    },
+    "first_helper_import_exit1_preserved": true,
+    "dummy_audio_not_human_listening": true,
+    "old_55_56_68_not_closed": true
+  },
+  "actual_exit_receipts": {
+    "current-quality": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/closing-adoption-v1/current-quality.exit",
+      "bytes": 2,
+      "mtime_ns": 1794681991172761024,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    "staging-inputs": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/closing-adoption-v1/staging-inputs.exit",
+      "bytes": 2,
+      "mtime_ns": 1794682105527083333,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    "stage-prepare": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/closing-adoption-v1/stage-prepare.exit",
+      "bytes": 2,
+      "mtime_ns": 1794682113825242857,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    "stage-check": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/closing-adoption-v1/stage-check.exit",
+      "bytes": 2,
+      "mtime_ns": 1794682118216326818,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    "caption-config": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/closing-adoption-v1/caption-config.exit",
+      "bytes": 2,
+      "mtime_ns": 1794682196197768658,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    "caption-prepare": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/closing-adoption-v1/caption-prepare.exit",
+      "bytes": 2,
+      "mtime_ns": 1794682205279930873,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    "caption-check": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/closing-adoption-v1/caption-check.exit",
+      "bytes": 2,
+      "mtime_ns": 1794682211326038241,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    "quality-config": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/closing-adoption-v1/quality-config.exit",
+      "bytes": 2,
+      "mtime_ns": 1794682211520041677,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    "quality-prepare": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/closing-adoption-v1/quality-prepare.exit",
+      "bytes": 2,
+      "mtime_ns": 1794682224232265800,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    "quality-check": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/closing-adoption-v1/quality-check.exit",
+      "bytes": 2,
+      "mtime_ns": 1794682230776380350,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    "media-config": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/closing-adoption-v1/media-config.exit",
+      "bytes": 2,
+      "mtime_ns": 1794682288349365089,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    "media-prepare": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/closing-adoption-v1/media-prepare.exit",
+      "bytes": 2,
+      "mtime_ns": 1794682299705554678,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    "media-encode": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/closing-adoption-v1/media-encode.exit",
+      "bytes": 2,
+      "mtime_ns": 1794683015135548935,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    "media-verify": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/closing-adoption-v1/media-verify.exit",
+      "bytes": 2,
+      "mtime_ns": 1794683457604778295,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    "media-check": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/closing-adoption-v1/media-check.exit",
+      "bytes": 2,
+      "mtime_ns": 1794683466667882157,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    "plan-archive": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/closing-adoption-v1/plan-archive.exit",
+      "bytes": 2,
+      "mtime_ns": 1794682419636474096,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    "stage-independent": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/closing-adoption-v1/stage-independent.exit",
+      "bytes": 2,
+      "mtime_ns": 1794682477471351866,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    "caption-samples-v2": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/closing-adoption-v1/caption-samples-v2.exit",
+      "bytes": 2,
+      "mtime_ns": 1794683267547575202,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    "vlc-candidate-v2": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/closing-adoption-v1/vlc-candidate-v2.exit",
+      "bytes": 2,
+      "mtime_ns": 1794683743079011350,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    "candidate-independent-verification": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/closing-adoption-v1/candidate-independent-verification.exit",
+      "bytes": 2,
+      "mtime_ns": 1794683896737082734,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    "install-prepare": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/closing-adoption-v1/install-prepare.exit",
+      "bytes": 2,
+      "mtime_ns": 1794683942740885001,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    "install-apply": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/closing-adoption-v1/install-apply.exit",
+      "bytes": 2,
+      "mtime_ns": 1794684005166937692,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    "install-check": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/closing-adoption-v1/install-check.exit",
+      "bytes": 2,
+      "mtime_ns": 1794684020880196650,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    "vlc-installed-v1": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/closing-adoption-v1/vlc-installed-v1.exit",
+      "bytes": 2,
+      "mtime_ns": 1794684066830941130,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    "installation-independent-verification": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/closing-adoption-v1/installation-independent-verification.exit",
+      "bytes": 2,
+      "mtime_ns": 1794684105373551802,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    "caption-samples": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/closing-adoption-v1/caption-samples.exit",
+      "bytes": 2,
+      "mtime_ns": 1794683121063836131,
+      "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865"
+    },
+    "vlc-candidate-v1": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/closing-adoption-v1/vlc-candidate-v1.exit",
+      "bytes": 2,
+      "mtime_ns": 1794683696101484020,
+      "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865"
+    }
+  },
+  "pending": [
+    "Human listening, professional-name/term pronunciation and emotional naturalness",
+    "Full-film visual and word-level audiovisual approval",
+    "Cause and disposition of VLC H.264/timestamp diagnostics",
+    "PotPlayer and final language/voice approval",
+    "Other video requests remain outside this single-video installation"
+  ],
+  "human_listened": false,
+  "pronunciation_or_emotional_approval": false,
+  "full_visual_or_wordlevel_approval": false,
+  "potplayer_tested": false,
+  "shared_queue_or_parallel_totals_modified": false,
+  "media_or_caches_committed_to_git": false
+}
