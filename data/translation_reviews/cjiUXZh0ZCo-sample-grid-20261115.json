@@ -1,0 +1,116 @@
+{
+  "version": 1,
+  "id": "cjiUXZh0ZCo",
+  "kind": "exact-contained-legacy-owned-sample-grid-review-v1",
+  "checked_at": "2026-11-14T17:37:19+00:00",
+  "checkpoint": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/checkpoint-sample-grid-preflight-v1/execution-progress.json",
+  "stage_and_projection_and_current_audio_preflight_verified": true,
+  "adapter": {
+    "path": "/home/pengdl/media-downloader/media_workflow/editorial_sample_grid.py",
+    "bytes": 27552,
+    "mtime_ns": 1794677096694772931,
+    "sha256": "28b17e4dac5697f8aa6a862c93cf5cf91b34b8b71223f712ad347039bef251d2"
+  },
+  "legacy_adapter": {
+    "path": "/home/pengdl/media-downloader/media_workflow/editorial_stage.py",
+    "bytes": 27602,
+    "mtime_ns": 1794635197243052299,
+    "sha256": "3115ad694da7443040f93b95fc5953646fa4af0562049d2aa0710d0c5853f964"
+  },
+  "mapping_policy": "legacy-owned-span-exact-contained-synthesis-v1",
+  "source_units": [
+    257,
+    258
+  ],
+  "maps": [
+    {
+      "unit_id": 257,
+      "policy": "legacy-owned-span-exact-contained-synthesis-v1",
+      "source_start": "4425.769",
+      "source_end": "4441.659",
+      "legacy_start_sample": 106218456,
+      "legacy_end_sample": 106599815,
+      "exact_start_scaled": [
+        106218456,
+        1
+      ],
+      "exact_end_scaled": [
+        106599816,
+        1
+      ],
+      "exact_contained_start_sample": 106218456,
+      "exact_contained_end_sample": 106599816,
+      "start_sample": 106218456,
+      "end_sample": 106599815,
+      "complete_samples": 317376,
+      "preview_window_samples": 381360,
+      "remaining_contained_samples": 63983
+    },
+    {
+      "unit_id": 258,
+      "policy": "legacy-owned-span-exact-contained-synthesis-v1",
+      "source_start": "4441.659",
+      "source_end": "4477.899",
+      "legacy_start_sample": 106599815,
+      "legacy_end_sample": 107469576,
+      "exact_start_scaled": [
+        106599816,
+        1
+      ],
+      "exact_end_scaled": [
+        107469576,
+        1
+      ],
+      "exact_contained_start_sample": 106599816,
+      "exact_contained_end_sample": 107469576,
+      "start_sample": 106599816,
+      "end_sample": 107469576,
+      "complete_samples": 449856,
+      "preview_window_samples": 869760,
+      "remaining_contained_samples": 419904
+    }
+  ],
+  "complete_candidate_seconds": [
+    13.224,
+    18.744
+  ],
+  "complete_candidate_reused_without_new_tts": true,
+  "strict_original_windows": 321,
+  "actual_original_regions": 23,
+  "reserved_units": 39,
+  "display_phrases": 10,
+  "finite_checks": 42,
+  "expected_rejections": 26,
+  "protected_old_identities": 521,
+  "old_stage_failure1_preserved": true,
+  "current_unreviewed_sound_candidates": 191,
+  "all_old_private_database_rows_preserved": true,
+  "new_review_decisions": 0,
+  "formal_media_modified": false,
+  "media_encoding_pending_at_snapshot": true,
+  "encoder_tool_session": 82054,
+  "full_media_verified_or_installed": false,
+  "verification": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/checkpoint-sample-grid-preflight-v1/independent-verification.json",
+    "bytes": 3376,
+    "mtime_ns": 1794677838992645412,
+    "sha256": "a9333f4c75e187366a8a09e648fb061ba3826bad970b83ba1d3513c1183437ee"
+  },
+  "receipt": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/checkpoint-sample-grid-preflight-v1/final-run-receipt.json",
+    "bytes": 4863,
+    "mtime_ns": 1794677838998645595,
+    "sha256": "f7bae5ec13e95a5da7ba5b4aabde0f733a96abf12d3687da53dfa1892328f73d"
+  },
+  "stdout_quality_prepare_contains_scan_prefix_not_pure_json": true,
+  "authoritative_quality_manifest": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/vtune-sample-grid-v1/quality-v1/manifest.json",
+    "bytes": 5180,
+    "mtime_ns": 1794677391591354249,
+    "sha256": "ae1825c09862d94c7026c0a103d4db80c4039eaaeaf7b7ef3f5f2fbd909375ec"
+  },
+  "read_only_stdout_parse_failure_preserved_in_tool_history": true,
+  "human_listened": false,
+  "pronunciation_or_emotional_approval": false,
+  "goal_status": "active"
+}
