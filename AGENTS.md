@@ -1,5 +1,12 @@
 # 本仓库的 AI 执行入口
 
+## 2026-11-14：十二类AI纠正完整句试读，正文仍隔离
+
+- 新共享`media_workflow.commentary_preview`仅做明确标识“AI补充说明（非讲者原话）”的独立试读，不放宽要求正式稿／角色核验的旧`speech_variants`，也不改98冻结根Python。`bind／validate／preview／check`绑定原片、441来源、作者计划及事实审校；字幕起点只是拟暂停原片插入的锚点，非角色边界或已验证交付时间轴。
+- `0sZlaQr3e2w`F01–F12共12类纠正、四组全句措辞对照，16条云溪正常速率真实联网TTS及完整未裁WAV已生成，单条16.152–21.264秒，共295.368秒候选。每条口播及显示明确AI归属；字母／英文术语与中文释义候选未选胜，不能把16候选视为16个已安装插段。
+- bind／preview／check真实0；38输入合同检查含37拒绝、20输出检查含19拒绝及独立namespace CLI通过。单样本截尾即便伪造一致清单仍被完整MP3对照拒绝；实际16条完整PCM、真实WordBoundary元数据和规范化文本相符，均不证明音素／情感／人耳通过。
+- 独立入口`/home/pengdl/Videos/translated_backlog/.workflow_logs/request-0sZlaQr3e2w-20261114/checkpoint-commentary-v1/execution-progress.json`，说明`docs/ai-commentary-preview.md`。143原身份保持、旧成功成片／原文及正式待译状态未动，无正文TTS、ASR、视频编码或数据库决定；角色重建、纠正画面／时间计划及全部最终批准仍待做，目标active，不改并行队列／总数，不声称后台自动续跑。
+
 ## 2026-11-14：Linux性能访谈全文隔离草稿，尚不准入配音
 
 - 新链接`0sZlaQr3e2w`的441自动字幕块已全文读译，隔离稿`data/translation_reviews/0sZlaQr3e2w-quarantined-draft-20261114.json`逐项绑定原文／原时间；正式工程仍`awaiting_translation`，未安装`translation.tsv`。双主持混块不是441个已审定同人意群，不能直接编译／TTS。

@@ -1,5 +1,11 @@
 # AI 执行工作流：自包含中文译配视频
 
+## 2026-11-14：未有正式正文时的AI纠正试读
+
+- 仅当文本明确为AI补充而非讲者原话时，使用`python -m media_workflow.commentary_preview bind AUTHOR.json --output NEW_PLAN.json`绑定作者稿／来源／事实审校；再`validate`，在新目录`preview`，成功后只`check`。实际媒体Python与完整例子见`docs/ai-commentary-preview.md`；不用伪造正式译文或角色证据满足旧试读器。
+- `0sZlaQr3e2w`16条完整试读及实际词界已生成，正常速率、未裁尾、无全局词典更改。四组对照仍未选胜；元数据文本相符和完整PCM检查不替代音素／情感／人耳批准。输出不是交付附件，不合成原双主持正文。
+- 读取`checkpoint-commentary-v1/execution-progress.json`续做，不重复已成功16条TTS。字幕锚点须后续转成明确暂停原片插入计划并验证全部映射；原角色、未覆盖声音、局部AI画面及正式双版仍待制作，目标active。
+
 ## 2026-11-14：Linux性能访谈只读草稿阶段
 
 - `0sZlaQr3e2w`的441项全文中文稿在`data/translation_reviews/0sZlaQr3e2w-quarantined-draft-20261114.json`，14类事实／语境记录在同名前缀technical-review；先看`docs/linux-performance-source-review-2026-11-14.md`及独立`checkpoint-full-draft-v1/execution-progress.json`。正式`preparation.json`仍`awaiting_translation`，没有`translation.tsv`。
