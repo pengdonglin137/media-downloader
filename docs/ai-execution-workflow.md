@@ -1,5 +1,12 @@
 # AI 执行工作流：自包含中文译配视频
 
+## 2026-11-14：完整意群编辑的通用暂存入口
+
+- 成功试读之后用`python -m media_workflow.editorial_stage prepare CONFIG --output NEW_STAGE`；已有输出仅用`check`，不重跑或覆盖。配置绑定真实0基线收据、当前源译和媒体、成功整句试读与具体源译选择理由，不执行配置提供的任意脚本。
+- 通过冻结编译器生成新源绑定，完整MP3增益处理后写入基础TTS及复合WAV；逐样本检查替换和窗外、全部原窗、原声实际样本与显式EOF静音。额外新来源合同拒绝裸旧旁白准入，历史全片生产不追认；不复制旧render／quality／release成功或写听辨决定。
+- 本轮142／270真实prepare／check／独立复核均0，321原窗／23原声区／39占位通过；39有限检查含33拒绝，468身份核验，98根Python及293工程MP3保持。正式两版未替换，无新TTS／ASR／编码。入口`checkpoint-editorial-stage-v1/execution-progress.json`，完整契约见`docs/editorial-stage.md`。
+- 后续显示投影、当前质量、导读包与正式安装必须继续使用共享适配器，不能把暂存WAV塞给155专用v4或把长源句编译当显示完成。原候选与声音历史保留；专业发音／情感、全片人耳／视觉及PotPlayer未批准，目标active，不覆盖其他请求。
+
 ## 2026-11-14：完整补句候选的配置式试读
 
 - 入口`checkpoint-editorial-followup-v5/execution-progress.json`，仅`cjiUXZh0ZCo`142／270及141–143／269–271语境：补回内存与CPU关联、if-they-do-it和后续限定，保留完整事实与讲者语气，不称全片重审。

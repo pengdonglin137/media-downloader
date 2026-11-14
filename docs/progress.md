@@ -1,5 +1,13 @@
 # 工作流优化验证记录
 
+## 2026-11-14：通用编辑暂存实跑，142／270补句进入新复合WAV
+
+- 接续上轮未安装的整句试读：复核正式v4基线真实0，新增配置式`media_workflow.editorial_stage`，142补回内存与CPU关联；270补回if-they-do-it及讲者后续限定，不背书开发者概括。两项经冻结编译器写入隔离源译和基础／复合WAV，没有新TTS、ASR或视频编码。
+- 完整正常速率442944／512640样本（18.456／21.360秒），原窗25.109／26.540秒，余159672／124320样本；全长解码、冻结增益、不裁剪、不atempo、不借窗。321严格原窗、23实际原声区、39占位、源尾21显式容器静音及窗外PCM保持；不冒充角色／可懂度／情感验收。
+- 39有限配置／模拟检查真实0，含33拒绝；prepare／check和不导入新适配器的独立合成布局复核均真实0，468独立文件身份通过。98根Python、293工程MP3（290正文＋3导读）、旧正式两版和已有来源／预览保持。独立namespace CLI不依赖其他尚未提交编排模块。
+- 精确归档旧输入／媒体／波形；新增旁白合同使裸冻结准入拒绝，历史全片生成证明false，不拿旧生产者为新音频背书。隔离工程无旧render／quality／release成功，复核不依赖后来被有意替换的旧live文本仍旧。旧失败、候选和数据库决定未删改。
+- 索引`data/translation_reviews/cjiUXZh0ZCo-editorial-stage-20261114.json`，入口`/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/checkpoint-editorial-stage-v1/execution-progress.json`，说明`docs/editorial-stage.md`。正式双版仍为155的SPEC修订v4；显示投影／当前质量／包与安装桥接尚待做。完整人耳、专业发音／情感、全片视觉、逐词声画、PotPlayer及最终批准均未完成，目标active，不改并行请求或共享总数。
+
 ## 2026-11-14：142／270源文补句、完整试读与35有限约束检查
 
 - 上轮progress为155修订真实安装并提交；本轮progress为恢复两处遗漏语义并生成实际完整试读。142补回内存与CPU关系末句；270补回if-they-do-it及平时不关心性能的限定，对照271后续转折。未声称全321项重新源译逐项审读。

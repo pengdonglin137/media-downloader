@@ -1,0 +1,79 @@
+{
+  "video_id": "cjiUXZh0ZCo",
+  "date": "2026-11-14",
+  "status": "two-complete-source-fidelity-edits-staged-not-installed",
+  "goal_status": "active",
+  "reviewed_units": [
+    142,
+    270
+  ],
+  "scope": "Partial source-fidelity review and configuration-driven isolated text/base/composite staging; not full-film listening, final quality, packaging or installation.",
+  "new_shared_adapter": "media_workflow/editorial_stage.py",
+  "documentation": "docs/editorial-stage.md",
+  "configuration": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/editorial-stage-config.json",
+    "bytes": 6568,
+    "mtime_ns": 1794635168020819639,
+    "sha256": "651ed2de9cab37935aa03cec57e0ed04c5bb2193edbb8f7322d261f1851eca21"
+  },
+  "stage_manifest": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/editorial-stage-v1/manifest.json",
+    "bytes": 8118,
+    "mtime_ns": 1794635252730287611,
+    "sha256": "e02744f4fbf92508bd236494dc47e795a8dcac7acf52abe31436ae27dbec26a7"
+  },
+  "strict_original_windows": 321,
+  "original_source_regions": 23,
+  "reserved_source_event_units": 39,
+  "source_eof_silence_samples": 21,
+  "complete_previews": [
+    {
+      "unit_id": 142,
+      "samples": 442944,
+      "seconds": 18.456,
+      "source_window_seconds": "25.109",
+      "remaining_samples": 159672,
+      "full_gain_only": true
+    },
+    {
+      "unit_id": 270,
+      "samples": 512640,
+      "seconds": 21.36,
+      "source_window_seconds": "26.540",
+      "remaining_samples": 124320,
+      "full_gain_only": true
+    }
+  ],
+  "finite_contract_checks": 39,
+  "finite_rejections": 33,
+  "independent_unique_identities": 468,
+  "root_python_unchanged": 98,
+  "existing_mp3_unchanged": {
+    "body": 290,
+    "intro": 3,
+    "total": 293
+  },
+  "independent_verification": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/editorial-stage-audit/independent-verification.json",
+    "bytes": 138750,
+    "mtime_ns": 1794635420752340399,
+    "sha256": "ad9b9ad3d1635b91a5e1ba2c1efcf31626b5262226d906df2a34c895095df400"
+  },
+  "checkpoint": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/checkpoint-editorial-stage-v1/execution-progress.json",
+  "canonical_media_modified": false,
+  "rendered_or_installed": false,
+  "new_network_tts_or_asr": false,
+  "new_human_review_decisions": false,
+  "historical_full_tts_producer_claimed_for_edit": false,
+  "full_human_listening": false,
+  "pronunciation_or_emotional_approval": false,
+  "full_visual_wordlevel_av_or_potplayer_approved": false,
+  "remaining": [
+    "Complete-phrase display projection",
+    "Shared current-quality and packaged-media adapters",
+    "Preserving-history installation transaction",
+    "Human full-film listening and technical pronunciation/emotion approval",
+    "Full visual, word-level audiovisual and PotPlayer approval"
+  ],
+  "other_requests_or_global_totals_updated": false
+}
