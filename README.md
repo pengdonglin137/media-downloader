@@ -1,5 +1,11 @@
 # Media Downloader
 
+## 当前进度：共享双版生产运行中，旧正式媒体保留
+
+- `cjiUXZh0ZCo`142／270补句进入共享媒体生产，复用完整成功配音和导读；隔离正文／母版已生成，上传版正在编码，随后真实验证作业已启动。现在不声称双版最终通过或正式路径已更新。
+- 实际prepare及191候选扫描通过，私库保留所有84个旧扫描并追加第85个；0人耳决定／修复解决。32有限检查、namespace CLI与437初始身份独立检查通过，不代表专业发音、情感或全片批准。
+- 新共享入口`python -m media_workflow.editorial_media`，说明`docs/editorial-media.md`。新媒体位于请求日志的`editorial-media-v1`，旧正式两版、98根Python和293工程MP3保持；其他链接和原门禁不由此关闭。
+
 ## 当前进度：补句字幕与当前音频预检完成，正式视频未替换
 
 - `cjiUXZh0ZCo`142／270补句现有6／7个完整显示短句，并对新复合WAV完成真实整片声音扫描。新共享入口为`media_workflow.caption_projection`和`media_workflow.editorial_quality`，详见`docs/editorial-quality.md`。
