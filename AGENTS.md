@@ -1,5 +1,11 @@
 # 本仓库的 AI 执行入口
 
+## 2026-11-14：内存分配269块全文阅读候选，仍隔离
+
+- `gYfd25Bdmws`全部269旧字幕块/10350原token已通读并形成269中文阅读候选，其中33项仅部分恢复；20组来源hold、12技术发现含5 critical分开，角色unknown、声学边界null、TTS不准入。正式仍awaiting_translation，无新ASR/TTS/成片，不称全文已批准。
+- 新看9张来源图、重开3张：24B与另一块1MiB拆出32B已按图澄清；34/32键长、212否定词、姓名/玩笑及问答仍hold。calloc零初始化、四jemalloc接口及sdallocx图上返回类型、NUMA回退、超额承诺、对象寿命和历史结果分开纠正；12份主源快照留请求内，不改原片/JSON3/任务。
+- 134旧身份含98冻结根Python保持；另3共享文档的历史/并行变化单列。首轮旧文档身份断言真实1保留，新v2登记真实0；不重跑成功媒体，不改共享队列或全局计数。入口`request-gYfd25Bdmws-20261114/checkpoint-full-text-draft-v1/execution-progress.json`，说明`docs/memory-allocation-source-draft-2026-11-14.md`。0s既有27hold保持，专业读音/感情/人耳/全片视觉/播放器未批准，目标active。
+
 ## 2026-11-14：Linux性能完整原画原声文字审校版，仍非中文成片
 
 - `0sZlaQr3e2w`全长内部`review-v3/source-text-review.mp4`已生成；完整原声单主轨、中文候选/原始英文/AI审校三软字幕。441块、459记录/436中文、9456原token完整；23标记/27语言hold、角色unknown及TTS不准入均保持。

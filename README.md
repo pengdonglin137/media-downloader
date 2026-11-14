@@ -1,5 +1,9 @@
 # Media Downloader
 
+## 内存分配报告全文阅读进展（2026-11-14）
+
+`gYfd25Bdmws`全部269个自动字幕块已读并形成隔离中文候选，其中33项仍部分待辨，不是已完成中文配音。已核对12张来源图和12份主源文档，分开记录calloc、jemalloc尺寸接口、NUMA及超额承诺等限定；尚未TTS或生成双版本。当前状态及续做入口见`docs/memory-allocation-source-draft-2026-11-14.md`，Linux性能报告原27处hold保持。
+
 ## Linux性能全片文字审校进展（2026-11-14）
 
 已生成约60分41秒完整原画原声的内部审校MP4，内嵌中文候选、原始英文与AI审校三软字幕，供完整核对发言和事实。它不是中文配音成片；23标记/27语言hold及F08仍未放行。当前OOM完整纠正默认可见，长行溢出已修，仍有未保护普通词跨行。入口见`docs/linux-performance-source-text-review-2026-11-14.md`，通用命令见`docs/source-subtitle-review.md`。

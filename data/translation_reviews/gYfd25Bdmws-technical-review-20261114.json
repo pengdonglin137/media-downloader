@@ -1,0 +1,173 @@
+{
+  "kind": "quarantined-source-reading-review-v1",
+  "video_id": "gYfd25Bdmws",
+  "draft": "gYfd25Bdmws-quarantined-draft-20261114.json",
+  "stage": "full_source_reading_candidates_written_not_production_translation",
+  "source_caption_blocks_read": 269,
+  "source_read_batches": [[1,18],[19,42],[43,67],[68,92],[93,117],[118,143],[144,169],[170,195],[196,221],[222,246],[247,269]],
+  "source_words_are_not_acoustically_verified": true,
+  "source_editing_performed": false,
+  "all_speaker_roles": "unknown",
+  "speaker_pure_units_approved": 0,
+  "acoustic_word_ends": null,
+  "tts_admission": false,
+  "partial_text_units": [5,6,19,29,41,43,65,66,106,110,114,118,124,129,130,131,144,145,156,166,174,196,206,212,218,225,226,227,238,258,262,263,264],
+  "partial_text_policy": "Each listed Chinese candidate contains only the recoverable or tentative sense, not a complete approved translation. The immutable English and full automatic-caption source remain authoritative evidence of the omitted or uncertain words. No partial candidate, ellipsis, review note or empty speech field may become silence, deletion or TTS in a delivery.",
+  "source_text_holds": [
+    {"id":"H01","units":[5,6],"question":"Paul's former employer, Lisp activity and joke are garbled. The title card supports Paul Khuong, not the missing employer or punchline. Preserve the complete introduction for acoustic review."},
+    {"id":"H02","units":[19,29],"question":"The third-row aside and A/B/C string-to-presenter labels are unclear. The draft does not invent an aside or confidently assign all three strings."},
+    {"id":"H03","units":[41],"question":"The source's allocator names and association of older glibc, bounded caches and subheaps are unclear. The generic design distinction is readable but names remain untranslated."},
+    {"id":"H04","units":[43,44],"question":"The exact read-only-sharing/L3-validity claim is not established by a caption. Do not silently replace it with an invented coherence explanation."},
+    {"id":"H05","units":[65,66,67],"question":"The graph disclaimer and SlimGuard naming/assessment require their actual source context. The claimed security/footprint trend is not a universal performance law."},
+    {"id":"H06","units":[106,110,114],"question":"The distinction between segregation for cache lookup and storage placement needs a complete-utterance source review. Do not turn this into a general assertion that ptmalloc has no size classes. The tiny-allocation allocator name at114 is not recovered; do not infer macOS solely from 'the map'."},
+    {"id":"H07","units":[118,119,120,121,122,123,124],"question":"DongoDB is only a source-caption name, not a verified real product. The 1635-second slide says 34-byte keys; later speech says32. The preloading/word-and-a-half phrase is unclear. Do not normalize these to one number or infer a speedup for arbitrary keys."},
+    {"id":"H08","units":[129,130,131],"question":"The researcher's name and institution are not established by the 1765-second slide. Do not infer Alexandra Fedorova, gender/biography or an exact paper solely from subject knowledge."},
+    {"id":"H09","units":[144,145,146],"question":"The caption associates macOS with malloc_info. Do not silently approve that ownership. Exact allocator/API/field and numerator/denominator remain to be matched to the relevant source slide."},
+    {"id":"H10","units":[156],"question":"The source says256 J. The draft preserves only 'larger than L2'; the numeric value/unit remain untranslated, not approved as256 KiB."},
+    {"id":"H11","units":[166],"question":"allocator bleed is preserved as a source term; the group credited with the term is garbled. Do not guess HIV, HFT or another field from a plausible acronym."},
+    {"id":"H12","units":[174],"question":"The caption says 'always obvious', followed by inability to pinpoint it. The draft is deliberately neutral; whether a negative was lost remains an acoustic hold."},
+    {"id":"H13","units":[196,197],"question":"The exact mmap/default-policy phrasing and categorical no-remote-fallback claim need source listening; F08 independently identifies why that claim is unsafe as instruction."},
+    {"id":"H14","units":[206,207],"question":"The allocator name rendered so GFC is not recovered. The page-before-data diagram supports the described layout possibility, not that missing proper noun."},
+    {"id":"H15","units":[212],"question":"The source says 'if overcommit isn't enabled' before describing permissive allocation. The draft records the topic only; no positive/negative clause is approved. Neither a slide nor Linux documentation proves what was actually said."},
+    {"id":"H16","units":[218],"question":"A second release-to-OS function name may be missing from the automatic text. Do not fill malloc_trim from technical familiarity alone."},
+    {"id":"H17","units":[225,226,227],"question":"The second vendor/library warning, malloc-check identifier and transition are garbled. F09 provides separate AI guidance, not an invented attribution to Sony or an exact source quote."},
+    {"id":"H18","units":[238],"question":"The GWP-ASan joke is not reliably transcribed. Its partial Chinese description is not a recovered punchline; the acronym and production distinction are reviewed separately."},
+    {"id":"H19","units":[258],"question":"The database name behind the log-structured allocator is unrecovered. The3490-second image is still the region/bitmap slide, not evidence for a ScyllaDB or other database attribution."},
+    {"id":"H20","units":[262,263,264],"question":"The first Q&A aside is largely garbled. The following make_unique/vector.resize/zeroing question is a tentative reading, not an approved question or speaker boundary. Do not reconstruct the question from the answer."}
+  ],
+  "technical_findings": [
+    {
+      "id":"F01","severity":"critical","units":[91,92,93,94,95,96,97,267,268],
+      "status":"open_production_correction_and_source_admission",
+      "evidence":["glibc-2.30-malloc","source-image-1300"],
+      "finding":"The zero-page optimization does not weaken calloc's zero-initialization contract. The source's 'always use calloc' is too broad; the draft quotes that recommendation rather than silently endorsing it.",
+      "ai_correction_candidate":"AI补充，不是讲者原话：确实需要把新申请的内存按字节置零时，可以考虑 calloc，而不是先 malloc 再 memset。calloc 成功返回的这段内存仍然保证按字节为零；省掉的可能是对已经为零的物理内存再次写零，不是把未初始化内容交给程序。共享零页和按需分配是可能的实现优化，不保证每个系统、每次分配都有收益。C++ 对象的默认构造也不一定等于按字节清零。"
+    },
+    {
+      "id":"F02","severity":"critical","units":[136,137,138,139,140,141],
+      "status":"open_production_correction_and_source_admission",
+      "evidence":["jemalloc-5.2.1","source-image-1900","fbvector"],
+      "finding":"nallocx computes a size without allocating; sallocx queries an existing allocation; xallocx attempts in-place resize and its returned size must be checked. The slide declares sdallocx as size_t, but the5.2.1 manual declares void. Merely knowing sizeof(T) does not establish a valid sized-deallocation argument.",
+      "ai_correction_candidate":"AI纠正，不是讲者原话：nallocx 只计算尺寸，并不分配内存；sallocx 查询已有分配的实际大小；xallocx 只尝试原地调整，必须检查返回大小是否达到要求。按这里核对的 jemalloc 5.2.1 文档，sdallocx 返回 void，不是幻灯片写的 size_t。它的 size 参数，最小是原始请求大小，最大是相应 nallocx 或 sallocx 给出的实际大小；不能仅凭一个看起来合适的 sizeof 值就随意传入。"
+    },
+    {
+      "id":"F03","severity":"high","units":[107,108,109,110,111],
+      "status":"open_context_and_source_review",
+      "evidence":["glibc-2.30-malloc"],
+      "finding":"24 is a historical example, not a universal glibc minimum. Requested bytes, usable bytes and full chunks including metadata are different; ABI, pointer/size widths and alignment matter. Do not amend the source number into a universal24-byte rule."
+    },
+    {
+      "id":"F04","severity":"high","units":[82,83,84,85,119,121,122,123],
+      "status":"coalescing_diagram_text_resolved_slab_size_mismatch_still_open",
+      "evidence":["source-image-1155","source-image-1635"],
+      "finding":"The1155-second diagram has a24B free block and a separate1048576B free block. malloc(32) splits the latter into32B and1048544B; it does not allocate32B from24B. The candidate reflects that visible relation. Separately, the34-byte key and later32-byte example remain distinct and held; the diagram resolution does not settle that mismatch."
+    },
+    {
+      "id":"F05","severity":"high","units":[142,143,144,145,146,147,148,149],
+      "status":"open_production_context",
+      "evidence":["jemalloc-5.2.1","dhat","source-image-1960"],
+      "finding":"jemalloc's allocated/active/resident statistics are not interchangeable page counts. active covers active pages, allocated is application-allocated bytes, and resident includes allocator metadata and unused dirty pages. A ratio can be a useful approximation but not a complete fragmentation diagnosis. DHAT aggregate1.2 writes/1.41 reads alone does not prove what fraction of bytes are unused. RSS growth alone is not proof of a leak or of fragmentation."
+    },
+    {
+      "id":"F06","severity":"high","units":[32,33,34,35],
+      "status":"open_source_utterance_admission",
+      "evidence":["mesh-2019"],
+      "finding":"Mesh preserves program-visible virtual addresses while remapping backing physical memory. It is not permission to move C++ object addresses behind raw pointers. The source's earlier20% and subsequent16% use different baselines; do not add them into36% or imply a universal saving."
+    },
+    {
+      "id":"F07","severity":"critical","units":[208,209,210,211,212,213,214,215,216,217,218],
+      "status":"open_source_negation_and_production_correction",
+      "evidence":["overcommit","source-image-2895"],
+      "finding":"Linux supports distinct overcommit modes; successful virtual allocation is not assurance that future physical backing exists. Limits or the allocator can still reject a request. The212 negation is unresolved, and categorical platform claims are historical speaker statements rather than current configuration advice.",
+      "ai_correction_candidate":"AI补充，不是讲者原话：Linux 的超额承诺有不同策略，不能把“Linux 会超额承诺”理解为 malloc 永远成功，更不能因此省掉失败处理。分配器自身的限制也可能让请求返回空指针。反过来，拿到非空指针，也不保证以后访问每一页时都能获得所需的物理内存。这里的跨平台概括来自二〇一九年的报告，不能当成所有版本、所有配置的保证。"
+    },
+    {
+      "id":"F08","severity":"critical","units":[188,189,190,191,192,193,194,195,196,197,198,199,200],
+      "status":"open_source_review_and_production_correction",
+      "evidence":["numa-policy"],
+      "finding":"Default local NUMA policy can fall back to other allowed nodes when local allocation fails. Physical placement commonly depends on page faults/first touch, policy and allowed nodes, not merely calling malloc or touching allocator metadata. The draft preserves the source's categorical no-other-node claim for correction, not as advice.",
+      "ai_correction_candidate":"AI纠正，不是讲者原话：NUMA 上，调用 malloc 的位置并不单独决定每一页最后放在哪里；首次实际访问、内存策略和允许使用的节点等都会影响物理页放置。默认的本地策略在本地内存不足时，也可以回退到其他允许节点，并非绝不会访问其他节点。绑定线程、绑定内存或调整 arena，都需要结合真实访问模式核对，不能照着一个示意关系直接套用。"
+    },
+    {
+      "id":"F09","severity":"high","units":[223,224,225,226,227,228,229,238,239],
+      "status":"open_source_wording_and_production_context",
+      "evidence":["asan","gwp-asan","source-image-3220"],
+      "finding":"AddressSanitizer's runtime is not designed as production hardening; GWP-ASan is a distinct sampled guarded allocator designed for production use. Do not give them one blanket production policy or claim that the ordinary ASan check necessarily adds a global synchronization for every allocation. A garbled joke is not an acronym definition."
+    },
+    {
+      "id":"F10","severity":"critical","units":[246,247,248,249,250],
+      "status":"open_source_lifetime_and_production_correction",
+      "evidence":["cpp-lifetime","source-image-3335"],
+      "finding":"Type-stable storage or a pool alone does not establish object lifetime, safe reclamation, freedom from ABA or permission to access a destroyed C++ object. The visible libstdc++ ext/pool_allocator.h is an implementation extension, not a guarantee for every standard library.",
+      "ai_correction_candidate":"AI补充，不是讲者原话：对象池让存储保持同一类用途，并不自动解决无锁代码的对象寿命和内存回收问题。过期指针是否还能被读取，仍要满足语言规则和具体回收协议；不能因为内存仍在池中，就把已经销毁或重新使用的对象当作原对象访问。幻灯片中的 libstdc++ 池接口也是具体实现提供的扩展，不代表所有 C++ 标准库都有同一个接口。"
+    },
+    {
+      "id":"F11","severity":"high","units":[37,38,39,45,46,47,48,49,74,75,119,120,121,122,123,170,171,172,173,174,185,186,187,260],
+      "status":"historical_results_not_current_recommendations",
+      "evidence":["source-image-1635","source-image-2500"],
+      "finding":"50 to17ns,1.4us and3x are reported examples, not performance guarantees. rseq/Linux4.18+ and 'no known open implementation' describe the2019 talk, not2026 availability. The lock-free promotional claim is quoted, not endorsed as a theorem that all lock-free algorithms outperform locked or serial code."
+    },
+    {
+      "id":"F12","severity":"high","units":[240,241,242,250,251,252,253,254,255,256,257,258],
+      "status":"paper_scope_checked_production_admission_open",
+      "evidence":["custom-allocation-2002","source-image-3490"],
+      "finding":"The2002 study compares eight applications; six were matched or beaten by the general allocator, and the two region-based exceptions traded higher retention for speed. It is not a proof that custom allocation never helps. A region's individual free is a no-op only within its lifetime protocol; bulk release must wait for every remaining use, and C++ destruction/ownership still require care. The3490 image supports the thread-local flag/2MB bitmap design, not the next database name."
+    }
+  ],
+  "lexical_recovery_policy": {
+    "not_a_source_transcript_edit": true,
+    "no_word_stream_conservation_claim_for_chinese_recovery": true,
+    "examples": [
+      {"source":"factories / back trace","candidate":"Backtrace","basis":"visible Backtrace branding plus source title/initial source review; not confirmation of every spoken syllable"},
+      {"source":"Sammy al bara / Paul Kwang","candidate":"Samy Al Bahra / Paul Khuong","basis":"source title card names; actual utterance and role boundaries not inferred"},
+      {"source":"memory alligator / money alligator","candidate":"memory allocator / 内存分配器","basis":"report subject and repeated technical context"},
+      {"source":"my sequel / je malloc / TC mallet / glitzy","candidate":"MySQL / jemalloc / tcmalloc / glibc","basis":"technical context and allocator documentation; each ambiguous attribution remains held"},
+      {"source":"heap out / he free / he bag","candidate":"HeapAlloc / HeapFree","basis":"explicit Windows allocation/free interface contrast; no exact prototype inferred"},
+      {"source":"s break / MMF threshold Milaap","candidate":"sbrk / M_MMAP_THRESHOLD and mallopt","basis":"glibc2.30 source and the stated mmap-versus-heap threshold; no numeric setting invented"},
+      {"source":"now lock X / Excel X next","candidate":"nallocx / xallocx","basis":"jemalloc5.2.1 manual and resize context; source acoustic review remains separate"},
+      {"source":"segregated felis / slap / bottom pointer","candidate":"segregated free list / slab / bump pointer","basis":"complete design discussion, not isolated phonetic replacement"},
+      {"source":"dot from palaburn / PA hole / vagrant","candidate":"DHAT from Valgrind / pahole / Valgrind","basis":"tool function and primary DHAT documentation; exact values/context still subject to H09/F05"},
+      {"source":"POSIX normal I / sort of a light dialogue","candidate":"posix_memalign / std::aligned_alloc","basis":"source-image-2740, explicit visible identifiers"},
+      {"source":"types of levitation / CDC ocular adapter","candidate":"type stability / std::scoped_allocator_adaptor","basis":"source-image-3335 and source-image-3490; not an acoustic or lifetime-safety approval"}
+    ]
+  },
+  "image_observations": [
+    {"id":"source-image-1155","new":true,"requested_source_second":1155,"observed":"24B remains separate;32B comes out of1048576B, leaving1048544B. No24-to32 allocation contradiction."},
+    {"id":"source-image-1635","new":true,"requested_source_second":1635,"observed":"Linked-list example explicitly says16M nodes, key34 bytes and value64 bytes. This does not explain later32-byte speech."},
+    {"id":"source-image-1765","new":true,"requested_source_second":1765,"observed":"Access-pattern and allocator-relationship slide; researcher name/institution are absent."},
+    {"id":"source-image-1960","new":true,"requested_source_second":1960,"observed":"Detecting fragmentation/RSS chart; not the precise statistics-API slide. Do not use its filename to claim an API was visually verified."},
+    {"id":"source-image-2740","new":true,"requested_source_second":2740,"observed":"posix_memalign(std::aligned_alloc), page-alignment diagram and metadata before the page; useful distinction between payload and allocator overhead."},
+    {"id":"source-image-2895","new":true,"requested_source_second":2895,"observed":"Overcommit slide explicitly lists heuristic/always/no-overcommit policies. Its categorical Windows/Solaris and malloc-never-commits statements are not approved as current universal facts."},
+    {"id":"source-image-3220","new":true,"requested_source_second":3220,"observed":"Sanitizer/toolchain integration slide, not a GWP acronym-expansion slide."},
+    {"id":"source-image-3335","new":true,"requested_source_second":3335,"observed":"Object pools, libstdc++ ext/pool_allocator.h and boost::pool_allocator; type stability in lock-free code is explicitly visible."},
+    {"id":"source-image-3490","new":true,"requested_source_second":3490,"observed":"Region per thread, thread-local flag, metadata bitmap at2MB granularity. Not the log-structured database slide."},
+    {"id":"source-image-1300","new":false,"requested_source_second":1300,"observed":"Previously retained calloc zero-page picture reopened in this review; write obtains a distinct page. Not a guarantee of unchanged cost or permission to return nonzero calloc data."},
+    {"id":"source-image-1900","new":false,"requested_source_second":1900,"observed":"Previously retained sdallocx slide reopened; input bounds printed, but return type incorrectly appears as size_t, unlike the5.2.1 manual's void."},
+    {"id":"source-image-2500","new":false,"requested_source_second":2500,"observed":"Previously retained over-threading slide reopened; explicit thread-idle/background cleanup knobs and Linux restartable sequences4.18+ are historical slide text."}
+  ],
+  "primary_sources": [
+    {"id":"jemalloc-5.2.1","snapshot":"jemalloc-5.2.1.xml","url":"https://raw.githubusercontent.com/jemalloc/jemalloc/5.2.1/doc/jemalloc.xml.in","authority":"tagged historical allocator manual, not proof of installed runtime"},
+    {"id":"glibc-2.30-malloc","snapshot":"glibc-2.30-malloc.c.txt","url":"https://raw.githubusercontent.com/bminor/glibc/glibc-2.30/malloc/malloc.c","authority":"tagged historical allocator implementation/contract"},
+    {"id":"glibc-2.30-memory","snapshot":"glibc-2.30-memory.texi.txt","url":"https://raw.githubusercontent.com/bminor/glibc/glibc-2.30/manual/memory.texi","authority":"tagged historical library manual; retained for followup"},
+    {"id":"overcommit","snapshot":"overcommit.html","url":"https://docs.kernel.org/mm/overcommit-accounting.html","authority":"current primary kernel documentation; not a reconstruction of2019 speech"},
+    {"id":"numa-policy","snapshot":"numa-policy.html","url":"https://docs.kernel.org/admin-guide/mm/numa_memory_policy.html","authority":"current primary kernel documentation; no local system policy was modified"},
+    {"id":"asan","snapshot":"asan.html","url":"https://clang.llvm.org/docs/AddressSanitizer.html","authority":"primary tool documentation, separate from GWP-ASan"},
+    {"id":"gwp-asan","snapshot":"gwp-asan.html","url":"https://llvm.org/docs/GwpAsan.html","authority":"primary guarded sampling documentation, not ordinary ASan"},
+    {"id":"fbvector","snapshot":"fbvector.md","url":"https://raw.githubusercontent.com/facebook/folly/main/folly/docs/FBVector.md","authority":"current project explanation; historical talk revision not independently recovered"},
+    {"id":"custom-allocation-2002","snapshot":"custom-allocation-2002.pdf","url":"https://people.cs.umass.edu/~emery/pubs/berger-oopsla2002.pdf","authority":"original OOPSLA2002 study; finite workload findings"},
+    {"id":"mesh-2019","snapshot":"mesh-2019.pdf","url":"https://raw.githubusercontent.com/plasma-umass/Mesh/master/mesh-pldi19-powers.pdf","authority":"original PLDI2019 paper distributed by project"},
+    {"id":"dhat","snapshot":"dhat.html","url":"https://valgrind.org/docs/manual/dh-manual.html","authority":"primary tool manual; aggregate statistics not a byte coverage proof"},
+    {"id":"cpp-lifetime","snapshot":"cpp-basic.texi.txt","url":"https://raw.githubusercontent.com/cplusplus/draft/master/source/basic.tex","authority":"current C++ working-draft source; not a claim that the2019 talk used this revision"}
+  ],
+  "pronunciation_and_prosody_next_step": {
+    "status":"planned_not_synthesized_or_heard",
+    "preserve_display_identifiers":["malloc","calloc","memset","jemalloc","tcmalloc","glibc","nallocx","sallocx","xallocx","sdallocx","M_MMAP_THRESHOLD","NUMA","TLB","GWP-ASan"],
+    "recipe":"After complete speaker-pure source units are admitted, compare full-sentence neutral and conversational Mandarin readings at normal rate, using a short Chinese explanation alongside an exact identifier where needed. Contrast calloc versus malloc/memset and all four jemalloc APIs; do not choose letter or phoneme readings from ASR alone. Preserve question/answer ownership, cautious qualifiers and every condition. No rate, role or emotional winner has been selected."
+  },
+  "canonical_translation_tsv_created": false,
+  "new_asr_or_tts_performed": false,
+  "new_film_or_dub_generated": false,
+  "human_listened": false,
+  "pronunciation_or_emotional_delivery_approved": false,
+  "objective_status":"active"
+}

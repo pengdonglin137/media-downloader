@@ -1,5 +1,9 @@
 # 译配工作流契约
 
+## 2026-11-14：内存分配全文候选与技术限定隔离
+
+`gYfd25Bdmws`269原块/10350token的中文候选与独立技术审校成对绑定SRT/TSV/任务/JSON3，33部分文字项不计完整译文；原英文、字幕外包和unknown角色保留，spoken/声学边界为空、TTS禁入。原图错误、AI纠正、推测性恢复与当前主源知识分开，不能用知识反证原声或把2019结果变成现行建议。现有134身份含98根Python保持，3历史共享文档差异单列；首轮1/修订登记0分别保留。无新代码或媒体生产，操作与证据见`docs/memory-allocation-source-draft-2026-11-14.md`。
+
 ## 完整原片文字审校载体：2026-11-14
 
 新增`media_workflow.source_subtitle_review`与`review_text_layout`，仅将完整隔离阅读稿投影为旧字幕外包上的审校软字幕，并复制完整原H.264/AAC；不进入TTS或正式译配。保留所有候选/标记/hold；critical纠正同时显示于默认中文轨，显式标为非讲者原话。显式100单元换行保护已登记词/ASCII、标点和空白，逐字符及三轨实际回读必须保持。完整包/编码头和精确时间、子出口、输入/实物身份分别验证；不能用包相等声称人耳/逐帧或全片批准。Linux全片当前385/441/105字幕段、58夹具通过，旧失败与当前分数/判断跨行保留。详见`docs/source-subtitle-review.md`及`docs/linux-performance-source-text-review-2026-11-14.md`；98根Python和既有成功媒体保持，目标active。

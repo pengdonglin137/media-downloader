@@ -1,5 +1,9 @@
 # 工作流优化验证记录
 
+## 2026-11-14：内存分配报告269块隔离候选
+
+`gYfd25Bdmws`269源块/10350原token全部通读，269中文候选含33部分项，20来源hold与12技术发现/5 critical分开。九张新来源JPEG加三张旧图重开逐张看，均≤1280/32768字节；12主源实际快照绑定。24B/32B图意已澄清，34/32键长与212否定未擅改；sdallocx返回类型及calloc/NUMA/超额承诺/对象寿命有独立AI纠正。134旧身份含98根Python保持，3旧共享文档变化单列；首轮断言1、只读差异核对0、新v2登记0真实保留。正式仍awaiting_translation，无新ASR/TTS/双版本，声音/情感/人耳/全片视觉/播放器未批准，0s旧hold保持，目标active。入口`request-gYfd25Bdmws-20261114/checkpoint-full-text-draft-v1/execution-progress.json`，详见`docs/memory-allocation-source-draft-2026-11-14.md`。
+
 ## 2026-11-14：Linux性能全片原画原声文字审校版
 
 当前`review-v3/source-text-review.mp4`完整保留109240视频包/156822 AAC包及精确时间，441块/459记录/9456token以385中文、441英文、105 AI审校显示段回读通过；六媒体步骤和外层0。F08完整纠正默认可见但仍hold；58当前夹具、1305旧身份/98根Python保持。真实投影/标签核验/图片限额/可变夹具绑定/实片尾空格回读五项1及旧版实物保留。当前五张实际受限JPEG逐张看，旧八张另计；长行溢出修复，分数/判断仍跨行。无新TTS/ASR，正式awaiting_translation，完整中文双版本/角色/声学/发音情感/人耳/播放器未完成，目标active。入口`request-0sZlaQr3e2w-20261114/checkpoint-source-text-review-v1/execution-progress.json`；详见`docs/linux-performance-source-text-review-2026-11-14.md`。

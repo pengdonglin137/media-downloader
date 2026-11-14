@@ -1,5 +1,9 @@
 # AI 执行工作流：自包含中文译配视频
 
+## 2026-11-14：内存分配全文候选不直接准入
+
+`gYfd25Bdmws`先保留269块完整原英文/字幕外包，再绑定隔离中文和20组来源hold、12技术发现；33部分项不可当完整翻译，null朗读不可当静音。优先核对否定、姓名、真实换人与问答，再重建同人意群；主源文档只支撑独立AI纠正，不证明原声说法。新9/复看3张来源图、12主源快照及真实首轮登记1/新v2为0已留证。操作见`docs/memory-allocation-source-draft-2026-11-14.md`；未新做ASR/TTS/媒体，不改98根Python、成功项目、共享队列或旧门禁。
+
 ## 2026-11-14：完整原片文字审校载体
 
 已有全文候选而角色/声学待核时，可用`media_workflow.source_subtitle_review build/check`形成全片原画原声、三轨文字审校MP4，不把字幕块外包晋升为音频窗或TTS批准。完整原包/精确时戳、三轨实际回读、未知角色与hold均强制保持；critical纠错默认可见、非讲者原话。`review_text_layout`显式保护词/ASCII/标点/空白；发现尾空格被字幕编码删掉时修换行点，不改作者字符或容差。操作及当前真实失败见`docs/source-subtitle-review.md`与`docs/linux-performance-source-text-review-2026-11-14.md`，全片中文双版本与人耳/声学门禁仍未完成，目标active。
