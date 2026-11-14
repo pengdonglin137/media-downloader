@@ -1,0 +1,59 @@
+{
+  "kind": "complete-source-subtitle-review-v1",
+  "source": {
+    "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_0sZlaQr3e2w/download/Linux Performance： Is it CPU, Memory, or I⧸O？  ｜ Into the Terminal 166 [0sZlaQr3e2w].mp4",
+    "bytes": 712983775,
+    "mtime_ns": 1794614332226620674,
+    "sha256": "83eabc532ba972fcac71bebfd6f1bc14abcd574b5ba07c477eb5c42990da561d"
+  },
+  "reading": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-0sZlaQr3e2w-20261114/checkpoint-closing-utterances-v1/cumulative-1-441-reading.json",
+    "bytes": 545100,
+    "mtime_ns": 1794653312259158472,
+    "sha256": "ce4ae9d5c243b5516415f24f8b3e579d37b94502dee92940ecc55307bc9df1f4"
+  },
+  "english_subtitles": {
+    "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_0sZlaQr3e2w/en.srt",
+    "bytes": 65085,
+    "mtime_ns": 1794614343471177759,
+    "sha256": "291ac38e5a4d632ce4f9c3f8db31967219f0c532a501f1792926b2df02127a80"
+  },
+  "technical_review": {
+    "path": "/home/pengdl/media-downloader/data/translation_reviews/0sZlaQr3e2w-technical-review-20261114.json",
+    "bytes": 28514,
+    "mtime_ns": 1794642770090023204,
+    "sha256": "2c6d8a51b8c0aeac35da8b0f65b31d2c6984fbad3529be34f012999dd6571a9e"
+  },
+  "evidence": [
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-0sZlaQr3e2w-20261114/checkpoint-closing-utterances-v1/input-bindings.json",
+      "bytes": 5892,
+      "mtime_ns": 1794652911455021704,
+      "sha256": "04a828fe3b3a77175c703e1cd2cc226f9d055f758c85e3c54b4b4758d3c11a48"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-0sZlaQr3e2w-20261114/checkpoint-contextual-preview-v1/final-run-receipt.json",
+      "bytes": 13366,
+      "mtime_ns": 1794660107478567134,
+      "sha256": "9842f8f7ef303dd885a9f2a8c793466bf6004927cd053b9b8166a47f1b04425c"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-0sZlaQr3e2w-20261114/checkpoint-native-audio-v1/native-source/report.json",
+      "bytes": 5665,
+      "mtime_ns": 1794654386374976756,
+      "sha256": "585faf0ed9a13bb96d486a31a4449786920ab36296b79075ebf65d77f0f78577"
+    }
+  ],
+  "correction_overrides": {
+    "F08": {
+      "text": "AI补充说明（非讲者原话）：原讲OOM评分方向说反了。通常在可选进程中，分数越高越易被终止；正值调整不是保护SSH。旧oom_adj与新oom_score_adj刻度不同，不能照抄；评分调整也不能修复内存泄漏。",
+      "reason": "沿用两份完整OOM纠正已共同使用的作者显示文，保留可选/通常与新旧接口刻度限定。这里只作非讲者原话的文字审校说明，不选声音、不批准交接或正文。",
+      "evidence": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-0sZlaQr3e2w-20261114/checkpoint-contextual-preview-v1/card-layouts.json",
+        "bytes": 2522,
+        "mtime_ns": 1794657723036188480,
+        "sha256": "f80cadf1eb33ca214f6d7ef3622e137b2ee891bcd7bc477ebc87dfabd2b3fd5a"
+      }
+    }
+  }
+}

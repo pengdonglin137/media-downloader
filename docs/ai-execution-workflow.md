@@ -1,5 +1,10 @@
 # AI 执行工作流：自包含中文译配视频
 
+## 2026-11-14：完整原片文字审校载体
+
+已有全文候选而角色/声学待核时，可用`media_workflow.source_subtitle_review build/check`形成全片原画原声、三轨文字审校MP4，不把字幕块外包晋升为音频窗或TTS批准。完整原包/精确时戳、三轨实际回读、未知角色与hold均强制保持；critical纠错默认可见、非讲者原话。`review_text_layout`显式保护词/ASCII/标点/空白；发现尾空格被字幕编码删掉时修换行点，不改作者字符或容差。操作及当前真实失败见`docs/source-subtitle-review.md`与`docs/linux-performance-source-text-review-2026-11-14.md`，全片中文双版本与人耳/声学门禁仍未完成，目标active。
+
+
 ## 2026-11-14：先证明完整原画与原生原声，再批准交接
 
 - 对已有完整纠正使用`contextual_preview`，不要重做TTS／ASR或拿24kHz诊断钟冒充44.1kHz原生时钟。先实际核对源帧与共格样本，明确字幕参考不是交接点，保持unknown角色和原hold。
