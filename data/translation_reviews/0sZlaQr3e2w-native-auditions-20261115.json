@@ -1,0 +1,589 @@
+{
+  "kind": "native-source-audition-windows-v1",
+  "observation_plan": {
+    "path": "/home/pengdl/media-downloader/data/translation_reviews/0sZlaQr3e2w-native-audio-20261114.json",
+    "bytes": 326,
+    "mtime_ns": 1794654379789967606,
+    "sha256": "3745d6eb3e9fe72ba5227bc4a308f0d540f54d4578112cebf3f5157874644154"
+  },
+  "observation_report": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-0sZlaQr3e2w-20261114/checkpoint-native-audio-v1/native-source/report.json",
+    "bytes": 5665,
+    "mtime_ns": 1794654386374976756,
+    "sha256": "585faf0ed9a13bb96d486a31a4449786920ab36296b79075ebf65d77f0f78577"
+  },
+  "windows": [
+    {
+      "id": "context-01",
+      "start_sample": 0,
+      "end_sample": 1580544,
+      "label": "完整原声语境 01：uncaptioned-opening",
+      "entries": [
+        {
+          "id": "uncaptioned-opening",
+          "en": "[Source audio before the first caption; content not classified.]",
+          "zh": "［首字幕之前的完整原声，含后续六秒语境］",
+          "note": "不根据无字幕认定静音、角色或许可删除。"
+        }
+      ]
+    },
+    {
+      "id": "context-02",
+      "start_sample": 2882376,
+      "end_sample": 3937248,
+      "label": "完整原声语境 02：M001, O011, O012",
+      "entries": [
+        {
+          "id": "M001",
+          "en": ">>",
+          "zh": "［供应商标记：原声未分类］",
+          "note": "供应商标记，不证明音乐或换人。含字幕外包及两端各六秒参考语境；外包不是声学词尾。"
+        },
+        {
+          "id": "O011",
+          "en": "I I think it feels unimportant.",
+          "zh": "我觉得，是“感觉不重要”。",
+          "note": "语言hold；中文仅为待核阅读，不猜译或合成。含字幕外包及两端各六秒参考语境；外包不是声学词尾。"
+        },
+        {
+          "id": "O012",
+          "en": "It feels unimportant. There you go.",
+          "zh": "“感觉不重要”，这就对了。",
+          "note": "语言hold；中文仅为待核阅读，不猜译或合成。含字幕外包及两端各六秒参考语境；外包不是声学词尾。"
+        }
+      ]
+    },
+    {
+      "id": "context-03",
+      "start_sample": 6029352,
+      "end_sample": 6844320,
+      "label": "完整原声语境 03：M002, O020",
+      "entries": [
+        {
+          "id": "M002",
+          "en": ">>",
+          "zh": "［供应商标记：原声未分类］",
+          "note": "供应商标记，不证明音乐或换人。含字幕外包及两端各六秒参考语境；外包不是声学词尾。"
+        },
+        {
+          "id": "O020",
+          "en": "And uh man, this is usually very fast, but",
+          "zh": "这操作平时明明很快，可是——",
+          "note": "语言hold；中文仅为待核阅读，不猜译或合成。含字幕外包及两端各六秒参考语境；外包不是声学词尾。"
+        }
+      ]
+    },
+    {
+      "id": "context-04",
+      "start_sample": 11564784,
+      "end_sample": 12196296,
+      "label": "完整原声语境 04：O037",
+      "entries": [
+        {
+          "id": "O037",
+          "en": "Um",
+          "zh": "嗯……",
+          "note": "语言hold；中文仅为待核阅读，不猜译或合成。含字幕外包及两端各六秒参考语境；外包不是声学词尾。"
+        }
+      ]
+    },
+    {
+      "id": "context-05",
+      "start_sample": 19912032,
+      "end_sample": 20956320,
+      "label": "完整原声语境 05：M003, O054, O057",
+      "entries": [
+        {
+          "id": "M003",
+          "en": ">>",
+          "zh": "［供应商标记：原声未分类］",
+          "note": "供应商标记，不证明音乐或换人。含字幕外包及两端各六秒参考语境；外包不是声学词尾。"
+        },
+        {
+          "id": "O054",
+          "en": "And uh I'm just",
+          "zh": "而我只是——",
+          "note": "语言hold；中文仅为待核阅读，不猜译或合成。含字幕外包及两端各六秒参考语境；外包不是声学词尾。"
+        },
+        {
+          "id": "O057",
+          "en": "Maybe to demonstrate a disk down problem or something.",
+          "zh": "或许，是想演示某种磁盘问题吧。",
+          "note": "语言hold；中文仅为待核阅读，不猜译或合成。含字幕外包及两端各六秒参考语境；外包不是声学词尾。"
+        }
+      ]
+    },
+    {
+      "id": "context-06",
+      "start_sample": 36371916,
+      "end_sample": 37137492,
+      "label": "完整原声语境 06：M004",
+      "entries": [
+        {
+          "id": "M004",
+          "en": ">>",
+          "zh": "［供应商标记：原声未分类］",
+          "note": "供应商标记，不证明音乐或换人。含字幕外包及两端各六秒参考语境；外包不是声学词尾。"
+        }
+      ]
+    },
+    {
+      "id": "context-07",
+      "start_sample": 47723256,
+      "end_sample": 48495844,
+      "label": "完整原声语境 07：A021",
+      "entries": [
+        {
+          "id": "A021",
+          "en": "No, no, it's not silicon.",
+          "zh": "不，不，那不是硅。",
+          "note": "语言hold；中文仅为待核阅读，不猜译或合成。含字幕外包及两端各六秒参考语境；外包不是声学词尾。"
+        }
+      ]
+    },
+    {
+      "id": "context-08",
+      "start_sample": 48915720,
+      "end_sample": 50058792,
+      "label": "完整原声语境 08：A029",
+      "entries": [
+        {
+          "id": "A029",
+          "en": "Oh, it's I didn't say the name. I didn't make up a name. I mean, I they didn't",
+          "zh": "哦，我还没说名字。我可没现编名字。我是说，我……他们还没——",
+          "note": "语言hold；中文仅为待核阅读，不猜译或合成。含字幕外包及两端各六秒参考语境；外包不是声学词尾。"
+        }
+      ]
+    },
+    {
+      "id": "context-09",
+      "start_sample": 50616216,
+      "end_sample": 51524676,
+      "label": "完整原声语境 09：I008",
+      "entries": [
+        {
+          "id": "I008",
+          "en": "Whoop. Whoop. Whoop.",
+          "zh": "呜、呜、呜！",
+          "note": "语言hold；中文仅为待核阅读，不猜译或合成。含字幕外包及两端各六秒参考语境；外包不是声学词尾。"
+        }
+      ]
+    },
+    {
+      "id": "context-10",
+      "start_sample": 52445484,
+      "end_sample": 53179308,
+      "label": "完整原声语境 10：I013b",
+      "entries": [
+        {
+          "id": "I013b",
+          "en": "That",
+          "zh": "那……",
+          "note": "语言hold；中文仅为待核阅读，不猜译或合成。含字幕外包及两端各六秒参考语境；外包不是声学词尾。"
+        }
+      ]
+    },
+    {
+      "id": "context-11",
+      "start_sample": 57829212,
+      "end_sample": 58762368,
+      "label": "完整原声语境 11：V001",
+      "entries": [
+        {
+          "id": "V001",
+          "en": "But name right here and here in this section.",
+          "zh": "不过，［此处疑似称呼，待听辨］，你看这里，还有这一部分。",
+          "note": "语言hold；中文仅为待核阅读，不猜译或合成。含字幕外包及两端各六秒参考语境；外包不是声学词尾。"
+        }
+      ]
+    },
+    {
+      "id": "context-12",
+      "start_sample": 60081840,
+      "end_sample": 60773328,
+      "label": "完整原声语境 12：M005",
+      "entries": [
+        {
+          "id": "M005",
+          "en": ">>",
+          "zh": "［供应商标记：原声未分类］",
+          "note": "供应商标记，不证明音乐或换人。含字幕外包及两端各六秒参考语境；外包不是声学词尾。"
+        }
+      ]
+    },
+    {
+      "id": "context-13",
+      "start_sample": 61741764,
+      "end_sample": 62659044,
+      "label": "完整原声语境 13：M006, M007, M008, V018",
+      "entries": [
+        {
+          "id": "M006",
+          "en": ">>",
+          "zh": "［供应商标记：原声未分类］",
+          "note": "供应商标记，不证明音乐或换人。含字幕外包及两端各六秒参考语境；外包不是声学词尾。"
+        },
+        {
+          "id": "M007",
+          "en": ">>",
+          "zh": "［供应商标记：原声未分类］",
+          "note": "供应商标记，不证明音乐或换人。含字幕外包及两端各六秒参考语境；外包不是声学词尾。"
+        },
+        {
+          "id": "M008",
+          "en": ">>",
+          "zh": "［供应商标记：原声未分类］",
+          "note": "供应商标记，不证明音乐或换人。含字幕外包及两端各六秒参考语境；外包不是声学词尾。"
+        },
+        {
+          "id": "V018",
+          "en": "thing when you've caused the problem, right? You know",
+          "zh": "故障是你自己造成的嘛，你知道——",
+          "note": "语言hold；中文仅为待核阅读，不猜译或合成。含字幕外包及两端各六秒参考语境；外包不是声学词尾。"
+        }
+      ]
+    },
+    {
+      "id": "context-14",
+      "start_sample": 71272656,
+      "end_sample": 72232272,
+      "label": "完整原声语境 14：M009",
+      "entries": [
+        {
+          "id": "M009",
+          "en": ">>",
+          "zh": "［供应商标记：原声未分类］",
+          "note": "供应商标记，不证明音乐或换人。含字幕外包及两端各六秒参考语境；外包不是声学词尾。"
+        }
+      ]
+    },
+    {
+      "id": "context-15",
+      "start_sample": 84252168,
+      "end_sample": 85322916,
+      "label": "完整原声语境 15：R002",
+      "entries": [
+        {
+          "id": "R002",
+          "en": "Where it'll have like weird weird things are causing it, but how can you identify it, right? So one of the things you could do is you could take a look at LSIRR.",
+          "zh": "导致问题的原因，可能也很古怪。那怎么识别呢？有个办法，比如看看 lsint。",
+          "note": "语言hold；中文仅为待核阅读，不猜译或合成。含字幕外包及两端各六秒参考语境；外包不是声学词尾。"
+        }
+      ]
+    },
+    {
+      "id": "context-16",
+      "start_sample": 103876668,
+      "end_sample": 104979168,
+      "label": "完整原声语境 16：H020",
+      "entries": [
+        {
+          "id": "H020",
+          "en": "And the only way you can uh",
+          "zh": "而你唯一能做的，呃……",
+          "note": "语言hold；中文仅为待核阅读，不猜译或合成。含字幕外包及两端各六秒参考语境；外包不是声学词尾。"
+        }
+      ]
+    },
+    {
+      "id": "context-17",
+      "start_sample": 108334296,
+      "end_sample": 109089288,
+      "label": "完整原声语境 17：M010",
+      "entries": [
+        {
+          "id": "M010",
+          "en": ">>",
+          "zh": "［供应商标记：原声未分类］",
+          "note": "供应商标记，不证明音乐或换人。含字幕外包及两端各六秒参考语境；外包不是声学词尾。"
+        }
+      ]
+    },
+    {
+      "id": "context-18",
+      "start_sample": 110523420,
+      "end_sample": 111996360,
+      "label": "完整原声语境 18：M011, M012",
+      "entries": [
+        {
+          "id": "M011",
+          "en": ">>",
+          "zh": "［供应商标记：原声未分类］",
+          "note": "供应商标记，不证明音乐或换人。含字幕外包及两端各六秒参考语境；外包不是声学词尾。"
+        },
+        {
+          "id": "M012",
+          "en": ">>",
+          "zh": "［供应商标记：原声未分类］",
+          "note": "供应商标记，不证明音乐或换人。含字幕外包及两端各六秒参考语境；外包不是声学词尾。"
+        }
+      ]
+    },
+    {
+      "id": "context-19",
+      "start_sample": 114651180,
+      "end_sample": 115554348,
+      "label": "完整原声语境 19：B010",
+      "entries": [
+        {
+          "id": "B010",
+          "en": "The problem is the thing that needs",
+          "zh": "问题是，那个需要——",
+          "note": "语言hold；中文仅为待核阅读，不猜译或合成。含字幕外包及两端各六秒参考语境；外包不是声学词尾。"
+        }
+      ]
+    },
+    {
+      "id": "context-20",
+      "start_sample": 115570224,
+      "end_sample": 117808740,
+      "label": "完整原声语境 20：M013, M014, M015",
+      "entries": [
+        {
+          "id": "M013",
+          "en": ">>",
+          "zh": "［供应商标记：原声未分类］",
+          "note": "供应商标记，不证明音乐或换人。含字幕外包及两端各六秒参考语境；外包不是声学词尾。"
+        },
+        {
+          "id": "M014",
+          "en": ">>",
+          "zh": "［供应商标记：原声未分类］",
+          "note": "供应商标记，不证明音乐或换人。含字幕外包及两端各六秒参考语境；外包不是声学词尾。"
+        },
+        {
+          "id": "M015",
+          "en": ">>",
+          "zh": "［供应商标记：原声未分类］",
+          "note": "供应商标记，不证明音乐或换人。含字幕外包及两端各六秒参考语境；外包不是声学词尾。"
+        }
+      ]
+    },
+    {
+      "id": "context-21",
+      "start_sample": 120304800,
+      "end_sample": 121377312,
+      "label": "完整原声语境 21：B024",
+      "entries": [
+        {
+          "id": "B024",
+          "en": "So, you have like a",
+          "zh": "所以，你有一个……",
+          "note": "语言hold；中文仅为待核阅读，不猜译或合成。含字幕外包及两端各六秒参考语境；外包不是声学词尾。"
+        }
+      ]
+    },
+    {
+      "id": "context-22",
+      "start_sample": 121864131,
+      "end_sample": 122857308,
+      "label": "完整原声语境 22：B028, M016",
+      "entries": [
+        {
+          "id": "B028",
+          "en": "And that's a",
+          "zh": "而且，这还是个——",
+          "note": "语言hold；中文仅为待核阅读，不猜译或合成。含字幕外包及两端各六秒参考语境；外包不是声学词尾。"
+        },
+        {
+          "id": "M016",
+          "en": ">>",
+          "zh": "［供应商标记：原声未分类］",
+          "note": "供应商标记，不证明音乐或换人。含字幕外包及两端各六秒参考语境；外包不是声学词尾。"
+        }
+      ]
+    },
+    {
+      "id": "context-23",
+      "start_sample": 126499968,
+      "end_sample": 127140300,
+      "label": "完整原声语境 23：M017",
+      "entries": [
+        {
+          "id": "M017",
+          "en": ">>",
+          "zh": "［供应商标记：原声未分类］",
+          "note": "供应商标记，不证明音乐或换人。含字幕外包及两端各六秒参考语境；外包不是声学词尾。"
+        }
+      ]
+    },
+    {
+      "id": "context-24",
+      "start_sample": 135794484,
+      "end_sample": 136734696,
+      "label": "完整原声语境 24：B055, M018",
+      "entries": [
+        {
+          "id": "B055",
+          "en": "Right? It'll actually",
+          "zh": "对吧？它实际上会——",
+          "note": "语言hold；中文仅为待核阅读，不猜译或合成。含字幕外包及两端各六秒参考语境；外包不是声学词尾。"
+        },
+        {
+          "id": "M018",
+          "en": ">>",
+          "zh": "［供应商标记：原声未分类］",
+          "note": "供应商标记，不证明音乐或换人。含字幕外包及两端各六秒参考语境；外包不是声学词尾。"
+        }
+      ]
+    },
+    {
+      "id": "context-25",
+      "start_sample": 137632572,
+      "end_sample": 138798576,
+      "label": "完整原声语境 25：B062, M019",
+      "entries": [
+        {
+          "id": "B062",
+          "en": "But",
+          "zh": "不过——",
+          "note": "语言hold；中文仅为待核阅读，不猜译或合成。含字幕外包及两端各六秒参考语境；外包不是声学词尾。"
+        },
+        {
+          "id": "M019",
+          "en": ">>",
+          "zh": "［供应商标记：原声未分类］",
+          "note": "供应商标记，不证明音乐或换人。含字幕外包及两端各六秒参考语境；外包不是声学词尾。"
+        }
+      ]
+    },
+    {
+      "id": "context-26",
+      "start_sample": 140271516,
+      "end_sample": 142712892,
+      "label": "完整原声语境 26：W002, W006a, W006b",
+      "entries": [
+        {
+          "id": "W002",
+          "en": "The only thing I was going to show",
+          "zh": "我最后还想展示的——",
+          "note": "语言hold；中文仅为待核阅读，不猜译或合成。含字幕外包及两端各六秒参考语境；外包不是声学词尾。"
+        },
+        {
+          "id": "W006a",
+          "en": "on the overview page here, if you have performance co-pilot installed,",
+          "zh": "在概览页这里，如果你安装了 Performance Co-Pilot——",
+          "note": "语言hold；中文仅为待核阅读，不猜译或合成。含字幕外包及两端各六秒参考语境；外包不是声学词尾。"
+        },
+        {
+          "id": "W006b",
+          "en": "which if you just install the package PCP zero conf, PCP {dash} zero conf, and there's a plugin for cockpit, which is cockpit {dash} PCP.",
+          "zh": "具体就是安装 pcp-zeroconf 软件包，再加 Cockpit 的插件 cockpit-pcp。",
+          "note": "语言hold；中文仅为待核阅读，不猜译或合成。含字幕外包及两端各六秒参考语境；外包不是声学词尾。"
+        }
+      ]
+    },
+    {
+      "id": "context-27",
+      "start_sample": 151508196,
+      "end_sample": 152586000,
+      "label": "完整原声语境 27：M020, W023, W024",
+      "entries": [
+        {
+          "id": "M020",
+          "en": ">>",
+          "zh": "［供应商标记：原声未分类］",
+          "note": "供应商标记，不证明音乐或换人。含字幕外包及两端各六秒参考语境；外包不是声学词尾。"
+        },
+        {
+          "id": "W023",
+          "en": "So we're great at",
+          "zh": "所以，我们很擅长——",
+          "note": "语言hold；中文仅为待核阅读，不猜译或合成。含字幕外包及两端各六秒参考语境；外包不是声学词尾。"
+        },
+        {
+          "id": "W024",
+          "en": "all that data",
+          "zh": "所有这些数据……",
+          "note": "语言hold；中文仅为待核阅读，不猜译或合成。含字幕外包及两端各六秒参考语境；外包不是声学词尾。"
+        }
+      ]
+    },
+    {
+      "id": "context-28",
+      "start_sample": 156697884,
+      "end_sample": 158322528,
+      "label": "完整原声语境 28：M021, M022, W038",
+      "entries": [
+        {
+          "id": "M021",
+          "en": ">>",
+          "zh": "［供应商标记：原声未分类］",
+          "note": "供应商标记，不证明音乐或换人。含字幕外包及两端各六秒参考语境；外包不是声学词尾。"
+        },
+        {
+          "id": "M022",
+          "en": ">>",
+          "zh": "［供应商标记：原声未分类］",
+          "note": "供应商标记，不证明音乐或换人。含字幕外包及两端各六秒参考语境；外包不是声学词尾。"
+        },
+        {
+          "id": "W038",
+          "en": "They're doing a lot of stuff with",
+          "zh": "他们还在做很多关于——",
+          "note": "语言hold；中文仅为待核阅读，不猜译或合成。含字幕外包及两端各六秒参考语境；外包不是声学词尾。"
+        }
+      ]
+    },
+    {
+      "id": "context-29",
+      "start_sample": 158632992,
+      "end_sample": 159656112,
+      "label": "完整原声语境 29：W044, M023, W046",
+      "entries": [
+        {
+          "id": "W044",
+          "en": "Nate, we we need to get better about like",
+          "zh": "Nate，咱们真得把这事做好一点，比如——",
+          "note": "语言hold；中文仅为待核阅读，不猜译或合成。含字幕外包及两端各六秒参考语境；外包不是声学词尾。"
+        },
+        {
+          "id": "M023",
+          "en": ">>",
+          "zh": "［供应商标记：原声未分类］",
+          "note": "供应商标记，不证明音乐或换人。含字幕外包及两端各六秒参考语境；外包不是声学词尾。"
+        },
+        {
+          "id": "W046",
+          "en": "topic or something, so we can get a little bit more lead time every week every week.",
+          "zh": "选题之类的事，好让每周都能多留一点准备时间。每一周，每一周。",
+          "note": "语言hold；中文仅为待核阅读，不猜译或合成。含字幕外包及两端各六秒参考语境；外包不是声学词尾。"
+        }
+      ]
+    },
+    {
+      "id": "context-30",
+      "start_sample": 159848388,
+      "end_sample": 160585728,
+      "label": "完整原声语境 30：uncaptioned-tail",
+      "entries": [
+        {
+          "id": "uncaptioned-tail",
+          "en": "[Source audio after the last caption; audible content not classified.]",
+          "zh": "［末字幕之后的完整原声，含此前六秒语境］",
+          "note": "保留真实原生尾界，不按视频尾界截音或认定静音。"
+        }
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-0sZlaQr3e2w-20261114/checkpoint-closing-utterances-v1/cumulative-1-441-reading.json",
+      "bytes": 545100,
+      "mtime_ns": 1794653312259158472,
+      "sha256": "ce4ae9d5c243b5516415f24f8b3e579d37b94502dee92940ecc55307bc9df1f4"
+    },
+    {
+      "path": "/home/pengdl/media-downloader/data/translation_reviews/0sZlaQr3e2w-source-text-review-v2-20261114.json",
+      "bytes": 3509,
+      "mtime_ns": 1794661338550261974,
+      "sha256": "a3a7108862f38da01a160312b5ffd646b4f5e373226fd4adb37745c8e72d9702"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-0sZlaQr3e2w-20261114/native-hold-auditions-v1/fixture-verification-v1.json",
+      "bytes": 3544,
+      "mtime_ns": 1794687610854463896,
+      "sha256": "8391566383363db9b6515890db306ac0c76db0a961f4aeb1e05d7d7f20a389c4"
+    }
+  ]
+}

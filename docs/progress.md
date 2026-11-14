@@ -1,5 +1,11 @@
 # 工作流优化验证记录
 
+## 2026-11-15：Linux30语境原生载荷与纠错页有限验证
+
+- 16有限夹具/后续语法编译、真实extract/check/独立核验均0；30WAV含31484完整原生帧，32239616样本帧、精确8059904/11025秒。实际一次新顺序解码至EOF核对156822帧，不重跑native observe/TTS/ASR。1309当前身份/98根Python/13其他文件保持，50待核项各一次及片头尾义务覆盖，不声称完整发言听辨。
+- 纠错派生页保留52原项和30WAV，四处显示AI-F08；离线Chrome v4/v5各0，当前30元数据/3静音时钟和近尾seek/四纠错DOM通过，opening及AI-F08两受限JPEG逐张看。三个HTTP实际1、首次语法错误与缺独立出口保留，不将file成功称HTTP修复。
+- 末核验首次在1309/98/13身份通过后因文档插入索引2假设而1，实际等价差分索引1；未暂存或改产品代码，后续精确重建并接受1或2，旧1保留。细目`docs/linux-performance-native-auditions-2026-11-15.md`，入口`checkpoint-native-hold-auditions-v1`。正式awaiting_translation、27hold/23标记/critical F08及全部角色、发音情感、人耳与最终双版门禁保持，目标active；只提交本轮，不混交130行其他文档及13文件。
+
 ## 2026-11-15：编译器与上线对比三窗正式安装
 
 - 媒体prepare/encode/verify/check及七编码/解码操作0，显式历史安装prepare/apply/check0、31项事务committed/23意图；三完整试读和13短句已采用，无新增TTS/ASR或绑定代码变更。321原窗/23原声区/39占位、40.2秒导读/85章保持。

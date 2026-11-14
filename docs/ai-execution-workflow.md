@@ -1,5 +1,9 @@
 # AI 执行工作流：自包含中文译配视频
 
+## 2026-11-15：先用原生语境核对待定来源，不自动批准角色
+
+有有效原生观察时，可用`media_workflow.native_audition extract/check`准备完整帧语境，严格格式及限额见`docs/native-audition.md`。成功输出绑定代码/计划，不修改绑定、不重启成功解码；失败目录留档。Linux当前入口为请求内`native-hold-auditions-v1/review-page-v1/index.html`，不是无OOM纠错的原导出页。30窗是字幕包络加前后文，不是生产交接窗；静音时钟及图审不改unknown/声学尾界/TTS拒绝。下一步须真实核对语言与角色，不能据此清27hold/23标记、critical F08或宣称已产中文双版。
+
 ## 2026-11-15：三窗媒体采用后只读沿用新历史权威
 
 98/113/114的13短句已通过完整候选与31项历史事务进入正式双版；当前检查必须使用`compiler-explanation-v1`的history-authority/install-config/stage，不重跑成功prepare/apply或套旧CLI。独立核验1100身份1077+23，并复核旧1037/826范围；当前库95扫描/191未听辨候选/0决定。两次只读核验1分别保留，当前指针只可按实际revision推进，不借此放宽不可变历史。13实际字幕图与有限VLC70/72诊断只代表局部证据；人耳/发音/情感/全片门禁、其他请求和目标active保持。细目`science-performance-compiler-install-2026-11-15.md`。

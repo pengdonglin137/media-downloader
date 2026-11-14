@@ -1,0 +1,48 @@
+{
+  "kind": "native-audition-display-correction-projection-v1",
+  "source_plan": {
+    "path": "/home/pengdl/media-downloader/data/translation_reviews/0sZlaQr3e2w-native-auditions-20261115.json",
+    "bytes": 22537,
+    "mtime_ns": 1794687690437478943,
+    "sha256": "25f99a4def3593b7ed54289a47c078150f9aa18bef67a69a3f02e46271ef3a79"
+  },
+  "native_manifest": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-0sZlaQr3e2w-20261114/native-hold-auditions-v1/auditions-v1/manifest.json",
+    "bytes": 23928,
+    "mtime_ns": 1794687696504556249,
+    "sha256": "97d9596ded5761a7b0a28a8666e19663f7759b6dc39bd23a529268bf2a7542d9"
+  },
+  "adapter": {
+    "path": "/home/pengdl/media-downloader/media_workflow/native_audition.py",
+    "bytes": 16311,
+    "mtime_ns": 1794687536922519064,
+    "sha256": "4218356332ef09832d8ad4210f5807d16ce2d79453136fdab464cb89b56f6b16"
+  },
+  "correction_control": {
+    "path": "/home/pengdl/media-downloader/data/translation_reviews/0sZlaQr3e2w-source-text-review-v2-20261114.json",
+    "bytes": 3509,
+    "mtime_ns": 1794661338550261974,
+    "sha256": "a3a7108862f38da01a160312b5ffd646b4f5e373226fd4adb37745c8e72d9702"
+  },
+  "context_reference": {
+    "path": "/home/pengdl/media-downloader/data/translation_reviews/0sZlaQr3e2w-contextual-preview-20261114.json",
+    "bytes": 4508,
+    "mtime_ns": 1794657723057189369,
+    "sha256": "f8a0ea86d6309d0b9e0abc990052d4c4abde4b67f8ca433b3cb28567bf32298a"
+  },
+  "correction_key": "F08",
+  "correction_text": "AI补充说明（非讲者原话）：原讲OOM评分方向说反了。通常在可选进程中，分数越高越易被终止；正值调整不是保护SSH。旧oom_adj与新oom_score_adj刻度不同，不能照抄；评分调整也不能修复内存泄漏。",
+  "affected_context_ids": [
+    "context-19",
+    "context-20",
+    "context-21",
+    "context-22"
+  ],
+  "selection_policy": "All audition contexts intersecting the previously observed complete OOM reference context; not a new acoustic boundary.",
+  "source_context_samples": [
+    113528100,
+    123122790
+  ],
+  "scope": "display-only-no-source-audio-or-hold-promotion",
+  "human_or_pronunciation_approval": false
+}
