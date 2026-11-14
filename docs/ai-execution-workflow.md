@@ -1,5 +1,11 @@
 # AI 执行工作流：自包含中文译配视频
 
+## 2026-11-14：全441块隔离候选已覆盖，下一步转角色与声学
+
+- 作者`data/translation_reviews/0sZlaQr3e2w-closing-utterances-20261114.json`新增157块；`checkpoint-closing-utterances-v1`累计459记录、9456token，84有限核验0。所有角色unknown、词尾空、TTS不准入；23标记/27文字hold和未标记短回应都要真实核对，不重复已完成的阅读稿或两ending ASR。
+- 优先critical OOM的角色/声学与明确AI纠正交接，再核原生44.1k尾界和开头/片尾保留；空spoken不能作为静音导入，两版中文主轨都须有真实未辨识原声。nice/内存/PCP原错误按归属，七新参考与旧来源图仅支持局部边界，旧16条试读不重做或选胜。
+- 操作与证据详见`docs/linux-performance-closing-utterances-2026-11-14.md`；正式awaiting_translation、完整双版本与人耳/发音情感/视觉/播放器批准仍未完成。只暂存HEAD加本轮共享段落，保留并行工作，不修改全局队列或发布。
+
 ## 2026-11-14：I/O候选至284，下一步从285续审
 
 - 本轮作者`data/translation_reviews/0sZlaQr3e2w-io-utterances-20261114.json`、派生107记录及累计1–284稿在`checkpoint-io-utterances-v1`；61项只读核验0。170称呼、184残句、251失败命令三hold保留，不将空spoken作为静音导入；全部角色unknown，正式awaiting_translation。

@@ -1,5 +1,11 @@
 # Media Downloader
 
+## 2026-11-14：Linux性能全字幕候选已审，声音仍待准入
+
+- 最后157旧块完成阅读重建；累计441/441、459候选记录，正式仍`awaiting_translation`，不是完整配音或成片完成。
+- OOM错误方向、nice/内存字段、swap条件与PCP最终澄清分别审校；84有限检查0，23标记/27文字hold不自动放行，既有音频和98根Python保持。
+- 详情与下一步见`docs/linux-performance-closing-utterances-2026-11-14.md`；角色/声学、两主轨真实原声、双版本及声音/视觉批准仍待完成，本轮无新TTS/ASR/解码/编码。
+
 ## 2026-11-14：Linux性能正文续审至中断统计
 
 - 新审170–284共115旧块，102文字候选/5标记、99未执行朗读/3hold；累计284/441，正式仍`awaiting_translation`，本轮无新TTS、ASR或成片。
