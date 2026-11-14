@@ -1,5 +1,12 @@
 # 本仓库的 AI 执行入口
 
+## 2026-11-14：Science of Performance局部ASR48项终态通过，全文草稿v4显式修订11项
+
+- `cjiUXZh0ZCo`当前410行全文中文初稿v4已实际采用11项显式修订。新增237改为“广告点击预测”而非地震预测；402为历史“也许十二月公开”，不称已发布；408补回Java和Hadoop及不必专家的限定。三处均有实际双模型原声文字证据，8项旧修订不重复计；旧v3、45观察快照和准入断点不覆盖。
+- 恢复v3外层真实0、追加区间外层真实0；17原计划＋7补充区间共24片段、两本地模型48唯一完整观察＝7原medium复用＋27恢复新观察＋14补充观察。每模型片段时长和2522.782秒，去重来源覆盖2477.782秒，远非全5532.782秒人耳验收。原工具143／缺shell出口及v2定位失败1保留；不得把新0回填旧失败，不重算成功7项。
+- 原字幕漏掉的Apple Neural Engine观众问题与APS第二人说明已写成3条双语内部候选，来自实际问题文字而不是回答推造；两模型起点／交接不同，候选保留unknown角色及核对包络，不当作TTS生产原窗。原Music标签不再被当作已确认音乐／静音，但正式来源尚未增加这些项。
+- 当前入口：`/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/checkpoint-source-review-v1/execution-progress.json`；当前记录`data/translation_reviews/cjiUXZh0ZCo-source-review-20261114.json`，全文候选`draft-review-v1/translation-candidates-v4.json`。26试读文字／16术语候选、27已看受限来源图及98冻结根Python保持；还未正式完整意群／角色重建或译文采用，无新TTS／主轨原声回填／成片，人耳与情感发音批准均未完成。其余疑点不因11项修订关闭，目标active；只提交推送已核验索引，不改并行总量或共享队列。
+
 ## 2026-11-14：Science of Performance全410段初稿已写，源文与角色仍待正式重建
 
 - `cjiUXZh0ZCo`完整410初始自动块已逐段阅读并由Agent写出410行中文初稿，ID连续唯一；不是仅开头样片，也不是正式完整意群／角色计划。初稿SHA `030a20d225d7865d1077278ea030f7a4a7fd2e9f6f1d75fc258741e6e2ab6525`；原片、JSON3、SRT和任务不改，任务摘要实际绑定`en.srt`而非TSV，两者分别核验。旧初始准入记录保留，不冒充最新阶段。
