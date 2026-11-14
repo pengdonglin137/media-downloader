@@ -5,7 +5,8 @@
 - 用`python -m media_workflow.editorial_media prepare MEDIA.json --output NEW_MEDIA`派生工程；只绑定成功preflight配置／清单、术语、1至16线程及固定隔离作用域。预检工程保持不可变，私库从其最新扫描一致性备份。
 - `encode`只调用共享适配器，正文／母版复用成功视频和原声、上传版烧字并复制中文AAC；固定导读与章节，先核验裁除区域全零。每个实际命令有输入、日志、退出码及输出身份，成功明确复用、失败／中断不自动重启。
 - `verify`检查实际流、字幕、逐包身份、完整解码帧时间表、两版中文AAC／PCM、固定偏移声音诊断及新的render-bound质量／原生release；成功后用`check`，不要重复编码或ASR。隔离候选release不是正式安装。
-- 当前prepare终态0、191当前候选保持，编码和后续验证持久作业已启动但未终态核验；以真实日志／`.exit`为准，不先报最终0。说明`docs/editorial-media.md`；98根Python、不猜原问、无新增决定及所有人耳／发音／情感门禁保持。
+- 当前prepare／encode／verify／check／有限VLC五个真实外层0，七个媒体编码／解码命令0；当前191候选与完整历史保持。544身份独立核验、16张新上传受限JPEG逐张看过；321源窗固定偏移信号检查不是词音素批准。旧285AAC窗口128完整PCM相同／157不同，不批量沿用旧ASR。
+- 入口`request-cjiUXZh0ZCo-20261114/checkpoint-editorial-media-v1/execution-progress.json`，说明`docs/editorial-media.md`。正式保留历史安装另做；98根Python、不猜原问、无新增决定及所有人耳／发音／情感门禁保持，不能用隔离release冒充正式安装。
 
 ## 2026-11-14：共享字幕与预渲染声音质量入口实跑
 

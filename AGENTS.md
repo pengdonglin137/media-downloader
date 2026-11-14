@@ -1,11 +1,12 @@
 # 本仓库的 AI 执行入口
 
-## 2026-11-14：共享媒体生产已启动，正式双版仍保留
+## 2026-11-14：共享媒体双版候选通过，尚未正式安装
 
 - 新`media_workflow.editorial_media`从不可变当前音频预检派生隔离工程，复制19项当前来源／显示／审校输入，保留40.2秒导读与85章。真正生产者绑定共享模块，不冒称冻结包实现；正文／母版复用已成功视频和原声，上传版另烧字，未新增TTS、ASR或单片程序。
 - 实际prepare终态0；191当前候选逐项保持，私库84→85扫描、3904→4095问题、7163→7484词项，全部旧行／schema、41术语、60项目、0决定／解决保持。12原声短尾仅不适用合成尾句规则，不批准原声可懂度／角色／停顿。
-- 32有限检查含21拒绝及无未提交包模块依赖的namespace CLI检查通过；437初始身份、98根Python、293MP3、原工程／私库和正式双版独立核验保持。当前已产新正文／母版，上传版编码及其后验证实际持久作业已启动，尚无最终验证成功声明；先看真实`.exit`，不重复启动。
-- 配置`editorial-media-config.json`、输出`editorial-media-v1`与作业日志均位于`/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/`；说明`docs/editorial-media.md`。正式安装、全片人耳／视觉、专业发音／情感、逐词声画和PotPlayer仍待验，目标active；新链接0sZlaQr3e2w仍来源准备，不覆盖其他请求／总数。
+- prepare／encode／verify／check／有限VLC五个持久外层均真实0，七个媒体编码／解码命令终态0；新母版双音轨三软字幕、上传版单中文主轨烧字，均5572.982秒／85章。正文165981视频／238277原声包、母版167187视频／240010原声包及英文字幕逐包保持；两版中文130618 AAC包／完整PCM一致，167187解码帧精确有理呈现时间一致，完整解码与当前render-bound原生技术release通过。
+- 32有限检查含21拒绝、namespace CLI和544实物身份独立核验通过；98根Python、293MP3、原工程／私库及旧正式双版保持。321当前源窗固定偏移AAC诊断最低相似度0.998910348，非人耳。旧285 AAC窗口仅128完整PCM相同、157不同，不把旧ASR全量冒认为当前观测。16张实际新上传受限JPEG逐张已看，仅局部图审。
+- 入口`/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/checkpoint-editorial-media-v1/execution-progress.json`；实物`editorial-media-v1`，说明`docs/editorial-media.md`。共享代码已推送012236d，正式保留历史安装仍待做；专业发音／情感、全片人耳／视觉、逐词声画和PotPlayer未批准，目标active；新链接0sZlaQr3e2w仍来源准备，不覆盖其他请求／总数或声称后台自动续跑。
 
 ## 2026-11-14：补句显示投影与当前音频预检通过，尚未生成新视频
 
