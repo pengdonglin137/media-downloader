@@ -1,5 +1,10 @@
 # Media Downloader
 
+## 2026-11-14：原生音频尾界观察入口
+
+- `python3 -m media_workflow.native_audio observe PLAN --output NEW_DIR`完整观察明确音轨的原生采样率/声道/PTS与样本帧；`check`只读复核，不重复成功解码。严格输入、实际出口和使用边界见`docs/native-audio.md`。
+- Linux性能直播源已实测44.1kHz双声道160585728样本帧，35有限夹具检查通过；这不是语音尾界或听辨批准。开头29.840秒及字幕后约10.719728秒实际源音仍须保留，完整中文双版本与OOM交接尚未完成。
+
 ## 2026-11-14：Linux性能全字幕候选已审，声音仍待准入
 
 - 最后157旧块完成阅读重建；累计441/441、459候选记录，正式仍`awaiting_translation`，不是完整配音或成片完成。

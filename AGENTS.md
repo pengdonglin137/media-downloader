@@ -1,5 +1,13 @@
 # 本仓库的 AI 执行入口
 
+## 2026-11-14：Linux性能原生音频尾界实测，OOM仍硬阻
+
+- 新共享`media_workflow.native_audio`用独立JSON执行完整原生float32 framehash观察；`observe`成功重入及`check`只读复核，不再解码。35有限生成夹具/拒绝检查通过，含AAC差额、间隙/重叠与真实非零出口，不当生产或听辨批准；操作见`docs/native-audio.md`。
+- `0sZlaQr3e2w`的0:a:0实际容器index1，44.1kHz双声道，156822解码帧、每声道160585728样本帧；PTS0至160585728，无时间戳断裂，实测尾界13382144/3675秒与声明相等。这不是1.284GB落盘WAV或连续PCM哈希，也不是讲话/静音尾界。
+- 未字幕化开头[0,1315944)和片尾[160112988,160585728)原生样本保持两版中文主轨未来保留义务；片尾472740样本约10.719728秒，不凭缺字幕删掉。完整217.520秒OOM诊断语境另取，不将24kHz样本钟冒充原生尾界，不将ASR当角色/声学词尾批准。
+- 新OOM CPU双ASR各真实0、34/43条，支持原讲low/正10/lower1059及泄漏仍须修复的归属；B010/B024/B028仍hold，distil的great way不擅补。初次元数据windows KeyError与外层继续0分开，后置绑定不冒充前置，成功ASR未重跑；详见`docs/linux-performance-native-audio-2026-11-14.md`。
+- 新入口`request-0sZlaQr3e2w-20261114/checkpoint-native-audio-v1/execution-progress.json`。441字幕候选/23标记/27文字hold和critical F08均未放行，正式仍awaiting_translation；两中文主轨原声安装、AI现场交接、完整双版本及发音/情感/全片批准未完成，目标active。
+
 ## 2026-11-14：Linux性能441块文字候选覆盖，仍非正式配音完成
 
 - 新285–441共157旧块/4121token保持，162文字/14标记、148未执行朗读/14文字hold，49跨块候选、最长外包39.480秒。累计441/441仅字幕块覆盖，459记录/9456token，436文字/23标记、409未执行朗读/27文字hold；旧283记录精确复用，全部角色unknown、词尾/TTS仍不准入。

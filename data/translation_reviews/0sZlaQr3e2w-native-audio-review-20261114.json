@@ -1,0 +1,153 @@
+{
+  "kind": "native-audio-and-oom-context-review-v1",
+  "video_id": "0sZlaQr3e2w",
+  "review_date": "2026-11-14",
+  "authority": "local-complete-decode-and-diagnostic-context-not-human-hearing",
+  "native_plan": "data/translation_reviews/0sZlaQr3e2w-native-audio-20261114.json",
+  "native_report": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-0sZlaQr3e2w-20261114/checkpoint-native-audio-v1/native-source/report.json",
+    "sha256": "585faf0ed9a13bb96d486a31a4449786920ab36296b79075ebf65d77f0f78577"
+  },
+  "observation": {
+    "audio_selector": "0:a:0",
+    "container_stream_index": 1,
+    "codec": "aac",
+    "native_sample_rate": 44100,
+    "native_channels": 2,
+    "decoded_format": "pcm_f32le",
+    "decoded_frame_count": 156822,
+    "decoded_sample_frames_per_channel": 160585728,
+    "decoded_payload_bytes_not_a_saved_waveform": 1284685824,
+    "first_pts": 0,
+    "last_frame_end_pts": 160585728,
+    "time_base": [1, 44100],
+    "native_end_seconds": [13382144, 3675],
+    "discontinuities": 0,
+    "gap_samples": 0,
+    "overlap_samples": 0,
+    "decoded_minus_declared_end_seconds": [0, 1],
+    "probe_process_returncode": 0,
+    "decode_process_returncode": 0,
+    "native_observe_cli_returncode": 0,
+    "native_check_cli_returncode": 0,
+    "check_redecoded_source": false,
+    "speech_or_music_or_silence_end_classified": false
+  },
+  "captionless_original_audio_obligations_not_installed": [
+    {
+      "id": "uncaptioned-opening",
+      "native_half_open_samples": [0, 1315944],
+      "start_seconds": [0, 1],
+      "end_seconds": [746, 25],
+      "basis": "Source audio begins at zero; first automatic caption begins at 29.840 seconds.",
+      "required_future_tracks": ["master-chinese-main", "upload-chinese-main"],
+      "content_or_silence_classification": "unknown",
+      "installed": false
+    },
+    {
+      "id": "uncaptioned-tail",
+      "native_half_open_samples": [160112988, 160585728],
+      "sample_frames": 472740,
+      "start_seconds": [90767, 25],
+      "end_seconds": [13382144, 3675],
+      "basis": "Last automatic caption ends at 3630.680 seconds; actual native decoded audio ends at sample160585728.",
+      "required_future_tracks": ["master-chinese-main", "upload-chinese-main"],
+      "content_or_silence_classification": "unknown",
+      "installed": false
+    }
+  ],
+  "oom_context": {
+    "source_seconds": [2574.36, 2791.88],
+    "diagnostic_sample_rate": 24000,
+    "diagnostic_half_open_samples": [61784640, 67005120],
+    "diagnostic_sample_frames": 5220480,
+    "duration_seconds": [5438, 25],
+    "waveform_sha256": "821caf23264e3dc0a1e98a8c2e2cd5710fa4bdb0e82692736150b570598b4796",
+    "pcm_sha256": "cb059c76aed23f0b49a98892424a206df802f33a616de773e875b0d147a0f15e",
+    "audio_audit_and_readonly_check_actual_exits": [0, 0],
+    "models": [
+      {
+        "id": "medium",
+        "cpu": true,
+        "hotwords": "",
+        "actual_exit": 0,
+        "reported_words": 570,
+        "subtitle_cues": 34,
+        "srt_sha256": "7d01bd16e47aabc5b304b11fd92f9a6179c5bc1f8d9bae91a68e0a10c9d3933b"
+      },
+      {
+        "id": "distil-large-v3",
+        "cpu": true,
+        "hotwords": "",
+        "actual_exit": 0,
+        "reported_words": 585,
+        "subtitle_cues": 43,
+        "srt_sha256": "83df98bc30ce811ed2924be6efe11b8fd5d8dbeeba67429834dd5ec7319c0c8f"
+      }
+    ],
+    "interpretations": [
+      {
+        "id": "F08-LOW-SCORE",
+        "source_units": [344, 345],
+        "medium_cues": [19],
+        "distil_cues": [23, 24],
+        "finding": "Both new transcripts contain low OOM score and the claimed unimportance. This supports preserving the wrong claim as source attribution, not silently translating high instead; it does not validate the claim or human hearing."
+      },
+      {
+        "id": "F08-POSITIVE-TEN-AND-1059",
+        "source_units": [347, 348, 349],
+        "medium_cues": [21, 22, 23],
+        "distil_cues": [26, 27, 28, 29],
+        "finding": "Both contain ten, a raised score and lower-than1059-before-sshd reasoning. Existing2725-second image remains the evidence for legacy oom_adj spelling, PID2044 and displayed1059; ASR does not establish literal command characters or a safe protection policy."
+      },
+      {
+        "id": "F08-ROOT-CAUSE-RETAINED",
+        "source_units": [353],
+        "medium_cues": [31, 32],
+        "distil_cues": [38, 39],
+        "finding": "Both contain the still-present out-of-memory problem, a memory leak requiring repair, and the interim storage consequence. Do not shorten the candidate into an assertion that score adjustment fixed the leak."
+      },
+      {
+        "id": "B010-INCOMPLETE-NEEDS",
+        "source_units": [335],
+        "medium_cues": [5, 6],
+        "distil_cues": [4, 5],
+        "finding": "Both support an incomplete thing-that-needs lead-in, but do not supply its missing predicate or establish whether the nearby Rights belong to one person. Keep spoken null and the role unknown."
+      },
+      {
+        "id": "B024-INCOMPLETE-LEAD-IN",
+        "source_units": [350],
+        "medium_cues": [25, 26],
+        "distil_cues": [32, 33],
+        "finding": "Medium has That's a memory, Yeah; distil has So you may have like a, yeah before the startup-script sentence. This disagreement does not recover the fragment or license merging across an unknown handoff."
+      },
+      {
+        "id": "B028-INCOMPLETE-ASIDE",
+        "source_units": [353],
+        "medium_cues": [30, 31],
+        "distil_cues": [37, 38],
+        "finding": "Medium omits the And that's a aside; distil adds And that's a great way. No shared reliable completion exists. Do not insert great way into Chinese, declare the original fragment silent, or assign its speaker."
+      }
+    ],
+    "context_includes_partial_leading_and_trailing_adjacency": true,
+    "source_utterances_331_through_354_are_enclosed": true,
+    "context_is_not_an_approved_production_or_preservation_window": true,
+    "asr_boundaries_are_not_word_or_speaker_approvals": true,
+    "initial_registration_error": "A pre-ASR metadata command used nonexistent report.windows instead of report.exports and raised KeyError. No original standalone exit was captured; the enclosing shell continued and both ASRs actually exited0. New bindings are explicitly postrun-only; the successful ASRs were not rerun.",
+    "gpu_discovery_warnings_retained_with_requested_cpu": true,
+    "previous_successful_asr_or_ai_voices_repeated": false,
+    "all_words_agreed_between_models": false,
+    "canonical_entries_or_held_counts_changed": false,
+    "explicit_ai_correction_timeline_installed": false
+  },
+  "finite_fixture_checks": 35,
+  "canonical_preparation_stage": "awaiting_translation",
+  "canonical_source_or_translation_modified": false,
+  "body_tts_or_production_encoding_performed": false,
+  "speaker_assignments_approved": false,
+  "human_listened": false,
+  "pronunciation_or_emotional_delivery_approved": false,
+  "critical_F08_production_hold_retained": true,
+  "whole_film_complete": false,
+  "objective_status": "active"
+}

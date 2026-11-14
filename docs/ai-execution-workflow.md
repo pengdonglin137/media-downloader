@@ -1,5 +1,11 @@
 # AI 执行工作流：自包含中文译配视频
 
+## 2026-11-14：Linux性能原生音频止点已核，不重做文字候选
+
+- 用共享`media_workflow.native_audio`及`data/translation_reviews/0sZlaQr3e2w-native-audio-20261114.json`建立完整原生解码观察，真实probe/decode出口0，`check`只读不重解码；实测160585728个44.1kHz双声道样本帧、PTS连续。入口`checkpoint-native-audio-v1`，通用说明`docs/native-audio.md`。
+- 开头与字幕后尾音按精确原生样本登记为两版中文主轨未来保留义务，不把无字幕或ASR缺词当静音。完整217.520秒OOM上下文是新24kHz诊断材料，不是已批准的生产保留窗；旧ending/dd诊断、16条AI声音不重做。
+- 下一仍须核对23标记/27文字hold及未标记短回应、critical F08现场AI纠正与安全交接；不按脸/称呼/语义或ASR分句猜Nate/Scott。正式awaiting_translation，双版本、原声安装、人耳/情感/发音及PotPlayer未通过，目标active。
+
 ## 2026-11-14：全441块隔离候选已覆盖，下一步转角色与声学
 
 - 作者`data/translation_reviews/0sZlaQr3e2w-closing-utterances-20261114.json`新增157块；`checkpoint-closing-utterances-v1`累计459记录、9456token，84有限核验0。所有角色unknown、词尾空、TTS不准入；23标记/27文字hold和未标记短回应都要真实核对，不重复已完成的阅读稿或两ending ASR。
