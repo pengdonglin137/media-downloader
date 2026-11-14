@@ -1,5 +1,11 @@
 # 工作流优化验证记录
 
+## 2026-11-15：257/258正式采用，新历史计划合同与旧失败分开
+
+- 独立`editorial_history`绑定旧终态事务精确计划归档，原检查器代码/全部guard仍执行，全局state I/O与旧实现不改；41有限检查含22拒绝、真实权威/namespace与新prepare/apply/check均0。31项事务committed，正式双版精确等于已验证候选，无新TTS/ASR/编码/全解码。
+- 826旧身份803原位/23精确归档，98根Python/293生产MP3/旧私库保持；89实际扫描、191候选/12原声规则分类/0决定。首次独立探查不存在segments.json为1保留，v2查实际来源任务0；旧apply1和rolled_back不重写。
+- 正式路径有限VLC断言0，56新诊断行含error完整保留，旧55/68未关闭；10旧样图按实际上传同字节/mtime转移而非重抽重看。入口`checkpoint-historical-plan-installed-v1/execution-progress.json`，说明`science-performance-historical-plan-2026-11-15.md`；全部人耳/发音/情感/全片批准及目标active保持，不混入其他并行工作。
+
 ## 2026-11-15：257/258候选双版完整验证，安装拒绝与回滚
 
 - 新独立共享适配器以精确原窗/旧所有权交集放完整语音，保留旧stage真实1；42有限检查含26预期拒绝，namespace与暂存/投影/当前音频/媒体准备共9真实命令0。无新TTS/ASR，293旧MP3、321严格窗、23原声区、39占位保持。

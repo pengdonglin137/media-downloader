@@ -1,5 +1,12 @@
 # 本仓库的 AI 执行入口
 
+## 2026-11-15：性能报告257/258正式采用，历史计划归档合同通过
+
+- `cjiUXZh0ZCo`257恢复线程/核心限定、CPU/内存资源说明归回258，两句一起正式安装；不是全局漏译，不改there/red来源词面，259原声不动。复用13.224/18.744秒完整正常速率候选，无新TTS/ASR/编码/全解码；正式两MP4精确等于已验证候选，40.2秒有声导读/85章保持。
+- 新共享`editorial_history`只在选定派生工程的原检查器私有状态中把精确历史计划绑定旧事务归档，全局load/matches及旧绑定代码不变。41有限检查含22拒绝，真实新prepare/apply/check均0、31项committed；旧apply1/rolled_back保留，不能裸用旧安装runtime或重试旧事务。
+- 826旧身份=803原位+23精确归档，98根Python/293生产MP3/旧私库保持，新增正式扫描89、191未听辨候选/12原声规则分类/0决定。首次独立探查误查不存在segments.json而1，v2核对实际translation_task.json为0，不抹失败。
+- 正式路径有限VLC断言0但56诊断行含error保留，前55/68不关闭；10既有样图仅按上传同字节/mtime转移观察，无新抽图。入口`checkpoint-historical-plan-installed-v1/execution-progress.json`，说明`docs/science-performance-historical-plan-2026-11-15.md`；全部发音/情感/人耳/全片/播放器最终批准与目标active保持，不改其他请求/总量。
+
 ## 2026-11-15：性能报告采样候选双版通过，安装真实拒绝后回滚
 
 - `cjiUXZh0ZCo`257/258一起完成来源归位暂存；新共享`editorial_sample_grid`保留旧分配所有权，完整语音只放精确原窗交集，不修改旧绑定stage或追认其真实失败1。257交集余63983样本、258余419904；正常完整13.224/18.744秒复用，无新TTS/ASR。

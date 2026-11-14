@@ -1,0 +1,70 @@
+{
+  "kind": "immutable-history-installed-review-v1",
+  "version": 1,
+  "id": "cjiUXZh0ZCo",
+  "checked_at": "2026-11-14T18:18:55+00:00",
+  "goal_status": "active",
+  "checkpoint": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/checkpoint-historical-plan-installed-v1/execution-progress.json",
+  "adapter": {
+    "path": "/home/pengdl/media-downloader/media_workflow/editorial_history.py",
+    "bytes": 13399,
+    "mtime_ns": 1794679664066090818,
+    "sha256": "80babfce9d042db3e5924d529a0de00c0c2b0373fe61fe29a9a1ab7f07cbe2cb"
+  },
+  "source_units": [
+    257,
+    258
+  ],
+  "formal_installation_committed": true,
+  "transaction_entries": 31,
+  "finite_contract_checks": 41,
+  "expected_rejections": 22,
+  "global_state_io_unchanged": true,
+  "successful_commands": 8,
+  "failed_independent_probe_commands": 1,
+  "old_failed_installation1_and_rollback_preserved": true,
+  "formal_media_exact_verified_candidate": true,
+  "new_tts_asr_encoding_or_full_decode": false,
+  "source_windows": 321,
+  "actual_original_regions": 23,
+  "reserved_units": 39,
+  "protected_old_identities": 826,
+  "unchanged_in_place": 803,
+  "intentionally_replaced_exact_archived": 23,
+  "frozen_root_python_unchanged": 98,
+  "production_mp3_unchanged": 293,
+  "old_private_database_unchanged": true,
+  "current_unreviewed_sound_candidates": 191,
+  "source_only_rule_classifications": 12,
+  "new_decisions_or_resolutions": 0,
+  "private_database_rows": {
+    "decisions": 0,
+    "issues": 4859,
+    "occurrences": 8774,
+    "projects": 60,
+    "repair_resolutions": 0,
+    "scans": 89,
+    "terms": 41
+  },
+  "finite_vlc_installed_passed": true,
+  "new_vlc_diagnostic_lines_unresolved": 56,
+  "old55_and68_diagnostics_not_closed": true,
+  "old_actual_upload_image_observations_transferred": 10,
+  "new_images_extracted_or_opened": 0,
+  "human_listened": false,
+  "pronunciation_or_emotional_approval": false,
+  "full_visual_or_wordlevel_approval": false,
+  "potplayer_tested": false,
+  "verification": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/checkpoint-historical-plan-installed-v1/independent-verification.json",
+    "bytes": 3831,
+    "mtime_ns": 1794680335893709221,
+    "sha256": "739bb06a9b5cca3304afb84e72934ddbc0efa35d243f08cc4b7d25e70a3e98f5"
+  },
+  "receipt": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/checkpoint-historical-plan-installed-v1/final-run-receipt.json",
+    "bytes": 7543,
+    "mtime_ns": 1794680335899709192,
+    "sha256": "a971483cfcb6ad3703190c1067baaf102864ea22bc9eaf5d2c83b7784aaac131"
+  }
+}

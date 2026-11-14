@@ -1,5 +1,11 @@
 # AI 执行工作流：自包含中文译配视频
 
+## 2026-11-15：历史计划显式归档后正式安装，不改旧guard
+
+`cjiUXZh0ZCo`257/258两句正常完整候选已正式采用，31项新事务committed，prepare/apply/check0。`editorial_history`只为精确派生工程将原guard的历史身份/读取路由到终态旧事务精确归档，不改全局state I/O/绑定代码。41有限检查含22拒绝；旧失败1与回滚保留，新权威/运行时/安装证明分开绑定，后续用该显式入口check，不能裸套旧runtime或重试旧事务。
+
+803旧身份原位+23归档覆盖826，98根Python/293生产MP3/旧私库保持；191候选和0声音决定不变。正式路径有限VLC断言0但56诊断行含error保留，10既有样图仅精确身份转移；没有新TTS/ASR/编码/全解码或人耳/发音/情感批准。当前`checkpoint-historical-plan-installed-v1`，操作`editorial-history.md`，实跑`science-performance-historical-plan-2026-11-15.md`；其他请求/总量不动，目标active。
+
 ## 2026-11-15：采样候选双版通过，历史计划拒绝必须保留
 
 `cjiUXZh0ZCo`257/258通过独立`editorial_sample_grid`同时暂存，精确原窗与旧样本所有权取交集；旧浮点跨度拒绝1保留，不改已绑定stage/预览或扩大原窗。321严格窗、23原声区、39占位及窗外PCM保持，完整13.224/18.744秒复用，无新TTS/ASR。

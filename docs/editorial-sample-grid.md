@@ -53,4 +53,4 @@ with grid.runtime(config,stage): media.main()' STAGE.json EXISTING_STAGE prepare
 
 2026-11-15，42项有限合同检查含26项拒绝，使用合成PCM和模拟分派；覆盖整数/分数精确窗、已知浮点边界、完整语音超交集拒绝、窗外保持、旧输入不变、原声区/重复单元保护、未知配置/伪人耳批准拒绝、精确路由、其他工程回退、异常恢复和不兼容字幕锚点拒绝。隔离namespace CLI也不依赖尚未提交的通用编排入口。这些不是42次媒体制作或人耳测试。
 
-真实两项归位修订的生产与未决门禁另见`science-performance-sample-grid-2026-11-15.md`；候选双版已完整验证，正式安装因旧包仍将活动计划作为历史锚点而真实拒绝并回滚。需要另立不可变历史计划权威合同，不跳过原guard或重试失败事务；不修改本轮已绑定实现身份追认旧结果。
+真实两项归位修订的生产、旧失败与未决门禁另见`science-performance-sample-grid-2026-11-15.md`。后续独立`editorial_history`已用不可变精确旧计划归档完成新事务安装，操作见`editorial-history.md`，实跑见`science-performance-historical-plan-2026-11-15.md`；旧guard/失败/回滚保持，不修改已绑定实现追认旧结果。
