@@ -1,0 +1,91 @@
+{
+  "kind": "source-faithful-compiler-explanation-review-v1",
+  "video_id": "cjiUXZh0ZCo",
+  "review_date": "2026-11-15",
+  "work": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo",
+  "context_units_textually_read": [93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130],
+  "scope": "Read the complete English, current Chinese and spoken text for38units; propose three complete source-faithful monologue previews, not acoustic approval or a claim that all38facts/roles are verified.",
+  "review_basis": "Current installed English subtitle wordings and adjacent context; no new source-English ASR or human hearing. Preserve the raw English, including its hesitations, and distinguish lexical negation restoration from acoustic certainty.",
+  "cases": [
+    {
+      "key": "body-098-compiler-negation",
+      "unit_id": 98,
+      "display": "还有 LLVM、Clang。他们没有考虑怎样帮助开发者——可这很重要：写好代码，做好并行化、向量化。他们只是从相对固定的编译器入手，再加入一些库，让它优化得更好。",
+      "spoken": "还有 L L V M、Clang。他们没有考虑怎样帮助开发者——可这很重要：写好代码，做好并行化、向量化。他们只是从相对固定的编译器入手，再加入一些库，让它优化得更好。",
+      "reason": "The current translation states the importance of helping developers but drops the source's repaired we don't / they don't think negation. Restore the final they subject without inventing a company or all-compiler-vendor claim. Use a contrast and a colon for the speaker's emphasis, not an unsupported emotional tag.",
+      "preserved_facts": [
+        "LLVM and Clang remain named; LLVM spelling is a project reading convention, not phoneme control.",
+        "The final repaired source subject is they; the raw English false start remains unchanged.",
+        "Not considering how to help developers is distinct from saying helping them is unimportant.",
+        "Good code, parallelized code and vectorized code all remain.",
+        "The relatively static compiler and added libraries both remain, without promising a measured speedup."
+      ],
+      "speaker_review": {
+        "same_speaker": true,
+        "evidence": "Textual monologue continuity across97-99 and the current source-reservation map:98 is already a synthesis-language unit, unlike the preserved audience handoff96. No new person is inferred, and this is not acoustic speaker approval."
+      }
+    },
+    {
+      "key": "body-113-performance-contrast",
+      "unit_id": 113,
+      "display": "对，这是个很好的、深入性能分析的问题。对我这个性能工程师，很重要；对剖析系统的人，也很重要。但开发者并不关心这些，甚至不去查看服务器的 CPU 信息。",
+      "spoken": "对，这是个很好的、深入性能分析的问题。对我这个性能工程师，很重要；对剖析系统的人，也很重要。但开发者并不关心这些，甚至不去查看服务器的 C P U 信息。",
+      "reason": "Restore for me and the repeated very important contrast. The source says developers don't really care / even don't see CPU info; 往往未必关心 weakens that attributed negative assertion. Preserve the speaker's assertion rather than endorsing it as a contemporary fact about every developer.",
+      "preserved_facts": [
+        "The question is positively acknowledged and concerns deeper performance analysis.",
+        "Both the performance engineer speaking in the first person and the system profiler remain.",
+        "The two important statements remain as natural parallel emphasis.",
+        "The developer contrast and failure to inspect server CPU information remain negative.",
+        "CPU's display spelling stays unchanged; separate letter input is not verified pronunciation."
+      ],
+      "speaker_review": {
+        "same_speaker": true,
+        "evidence": "113 is the existing synthesis-language response after separately preserved source112;113-116 form the lecturer's explanation. The text's question acknowledgment does not assign an audience speaker to113 or approve actual voice identity."
+      }
+    },
+    {
+      "key": "body-114-before-after-production",
+      "unit_id": 114,
+      "display": "他们只关心程序的功能。至于性能和安全，上线之前，他们其实并不真正关心。我们把更新，或者从零开发的新应用，推到服务器上以后，他们才开始关心性能和安全。",
+      "spoken": "他们只关心程序的功能。至于性能和安全，上线之前，他们其实并不真正关心。我们把更新，或者从零开发的新应用，推到服务器上以后，他们才开始关心性能和安全。",
+      "reason": "Keep the developer subject from113 instead of expanding it to generic people and adding 常常. Restore the don't really care / then start caring before-after contrast and the explicit we action, retaining both updates and a new application from scratch. This is attributed source speech, not advice to postpone security or performance work.",
+      "preserved_facts": [
+        "Functionality remains the initial concern.",
+        "Both performance and security remain before and after the production boundary.",
+        "The negative is don't really care, not an invented claim that no work ever occurs.",
+        "We push either an update or an application built from scratch to the server.",
+        "The before/after framing is preserved without adding deployment guarantees or changing speakers."
+      ],
+      "speaker_review": {
+        "same_speaker": true,
+        "evidence": "Existing synthesis-language unit114 continues113 and115 with the same explanatory subject. No new audience identity or acoustic turn boundary is introduced; no human listening has been claimed."
+      }
+    }
+  ],
+  "retained_open_questions": [
+    {
+      "unit_id": 95,
+      "question": "The current explicit if-bad-code-then-more-instructions clause is an explanatory inference spanning the following preserved question96, not a literal complete source95clause. Keep it unchanged in this proposal; source/role-sensitive reconstruction remains separate."
+    },
+    {
+      "unit_id": 97,
+      "question": "The source's every-new-instruction-set clause runs into98's LLVM/Clang words. Do not invent a compiler-update promise, borrow time or merge across strict windows merely to complete its grammar."
+    },
+    {
+      "unit_id": 111,
+      "question": "The current power-is-reflected-in-cost explanation smooths an unclear because power / I don't know arm source passage. Do not claim the exact causal wording is acoustically verified or add a new synthesized repair without stronger source evidence."
+    }
+  ],
+  "invariants": {
+    "source_english_or_windows_modified": false,
+    "reserved_original_speech_units_synthesized": false,
+    "preview_voice": "zh-CN-YunxiNeural",
+    "preview_rate": "+0%",
+    "new_source_asr_requested": false,
+    "automatic_acoustic_winner": null,
+    "human_listened_or_pronunciation_emotion_approved": false,
+    "speaker_boundary_acoustically_approved": false,
+    "database_decisions_or_resolutions_requested": 0,
+    "goal_status": "active"
+  }
+}

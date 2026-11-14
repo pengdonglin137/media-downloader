@@ -1,5 +1,9 @@
 # AI 执行工作流：自包含中文译配视频
 
+## 2026-11-15：编译器否定修复先过完整来源/试读/暂存
+
+读取93–130完整上下文后，仅选择98/113/114的来源忠实度修订；95/97/111疑点不自动解决。复用共享`speech_variants`生成三完整正常速率候选，当前AAC取自已验证PCM，真实当前quality、sample-grid、13短句与隔离quality全部通过。1100旧身份/旧库保持，预检93扫描、191未人工复核候选；精确归档当前计划后再建本轮历史权威，不修改绑定代码。已有媒体作业只观察实际子终态，不因超时重启，也不把预检当安装。细目`science-performance-compiler-explanation-2026-11-15.md`；全部声音/全片门禁与目标active保持。
+
 ## 2026-11-15：结尾正式安装后只读检查必须绑定本次历史权威
 
 七窗/22短句的原媒体作业实际成功后，复用已有精确计划归档，经`editorial_history install`的prepare/apply/check完成31项事务。后续只读check须使用`closing-adoption-v1/history-authority-v1.json`、`install-config-v1.json`和同轮stage，不套上次安装或裸旧runtime，不重启成功编码/完整解码。正式媒体精确身份转移候选证明，1014原位+23归档覆盖1037；当前92扫描/191候选/0决定。22局部实际样图及候选/正式有限VLC均另记，首次提图1/导入1和59/57未决诊断保留，不升级声音/全片批准。入口`checkpoint-closing-installed-v1`，细目`science-performance-closing-install-2026-11-15.md`，目标active。
