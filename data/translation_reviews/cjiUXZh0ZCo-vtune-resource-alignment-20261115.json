@@ -1,0 +1,201 @@
+{
+  "version": 1,
+  "kind": "complete-source-resource-clause-alignment-review-v1",
+  "id": "cjiUXZh0ZCo",
+  "title": "Science of Performance 2019",
+  "checked_at": "2026-11-14T17:14:28+00:00",
+  "status": "two_complete_candidates_verified_legacy_staging_rejected_before_output",
+  "checkpoint": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/checkpoint-vtune-resource-alignment-v1/execution-progress.json",
+  "internal_listening_page": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/vtune-resource-alignment-v1/listening-v2.html",
+    "bytes": 5435,
+    "mtime_ns": 1794676276438678795,
+    "sha256": "b4945c2a8072a4e65ed20eabefe031584f6e975eec81a65576430e83b4007d4d"
+  },
+  "formal_media_or_translation_modified": false,
+  "new_staging_output_created": false,
+  "not_a_new_global_omission": true,
+  "source_context_reviewed": [
+    255,
+    256,
+    257,
+    258,
+    259
+  ],
+  "source_units": [
+    {
+      "unit_id": 257,
+      "source_start": "4425.769",
+      "source_end": "4441.659",
+      "source": "and this is how it works this is a very beautiful summary CPU usage how many cores you are using for the specific run and the green is it's better there it's like you're not taking advantage of different threads or cores and your CPU",
+      "before_display": "打开后，是一份很清楚的汇总：CPU 使用情况，这次运行用了多少核心。绿色表示较好的状态；红色则提示，没有充分利用 CPU、内存等资源。",
+      "candidate_display": "这就是汇总结果：CPU 使用情况，这次运行用了多少核心。绿色表示状态较好；这里则显示，CPU 的线程或核心还没有充分利用。",
+      "candidate_spoken": "这就是汇总结果：C P U 使用情况，这次运行用了多少核心。绿色表示状态较好；这里则显示，C P U 的线程或核心还没有充分利用。",
+      "reason": "Reassign an already-present CPU/memory explanation to its own explicit258 source clause; restore257 thread/core specificity. Use a complete natural explanation with unchanged source windows and production voice. Do not report global omission, infer red for ambiguous there in257, or declare pronunciation/emotional superiority.",
+      "preserved_facts": [
+        "CPU usage and the number of cores used in the specific run remain explicit.",
+        "Green is described as better, without adding a general diagnostic policy.",
+        "The negative underutilization statement retains both threads and cores of the CPU.",
+        "The CPU/memory red-resource clause already exists globally in the old257; it is reassigned to258, not claimed to be a newly discovered global omission.",
+        "Raw there/red wording remains unresolved: the candidate uses a neutral deictic here and does not silently amend the English source."
+      ],
+      "source_speaker_documentary_review": {
+        "same_speaker": true,
+        "evidence": "Existing formal-source-v1/revision.json maps257 and258 to presenter; current voice/source mapping and the complete255-258 source context were reviewed.259 is original-dialogue and excluded. This is a documentary/source-unit review, not a new human acoustic or speaker-boundary approval."
+      },
+      "complete_audio": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/vtune-resource-alignment-v1/preview/body-257-source-aligned.wav",
+        "bytes": 634830,
+        "mtime_ns": 1794675933736811041,
+        "sha256": "349d5cc9835f6ce5a204e1c66e008e5208ba7fa7886c8c733e75d78fd3a818f8"
+      },
+      "seconds": 13.224,
+      "samples": 317376,
+      "source_window_samples": 381360,
+      "remaining_samples": 63984,
+      "normal_rate_fits": true
+    },
+    {
+      "unit_id": 258,
+      "source_start": "4441.659",
+      "source_end": "4477.899",
+      "source": "here you have all the functions that are spending most of time in your CPU the hotspots are the top ones when it's red means that you are not really taking advantage of your resources in general CPUs and memory and then you see the details and every time you click on the function you have the details and you can get even the frequency all the hardware things and obviously the software thing ok",
+      "before_display": "这里列出了占用 CPU 时间的函数，最上面就是热点。点选函数，可以继续看细节，甚至能查看频率等硬件信息，也能查看软件信息。",
+      "candidate_display": "这里列出占用 CPU 时间最多的函数，排在最上面的就是热点。红色表示没有充分利用 CPU、内存等资源。点选函数，就能进一步查看细节，甚至能看到频率等硬件信息，当然也包括软件信息。",
+      "candidate_spoken": "这里列出占用 C P U 时间最多的函数，排在最上面的就是热点。红色表示没有充分利用 C P U、内存等资源。点选函数，就能进一步查看细节，甚至能看到频率等硬件信息，当然也包括软件信息。",
+      "reason": "Reassign an already-present CPU/memory explanation to its own explicit258 source clause; restore257 thread/core specificity. Use a complete natural explanation with unchanged source windows and production voice. Do not report global omission, infer red for ambiguous there in257, or declare pronunciation/emotional superiority.",
+      "preserved_facts": [
+        "CPU-time-consuming functions and hotspots at the top of the list remain explicit.",
+        "The red-resource explanation is placed inside the complete258 source window and names CPU and memory.",
+        "Clicking functions reveals details including frequency, other hardware information and software information.",
+        "The next original-dialogue reservation259 starts4477.899; no synthesis is placed inside it."
+      ],
+      "source_speaker_documentary_review": {
+        "same_speaker": true,
+        "evidence": "Existing formal-source-v1/revision.json maps257 and258 to presenter; current voice/source mapping and the complete255-258 source context were reviewed.259 is original-dialogue and excluded. This is a documentary/source-unit review, not a new human acoustic or speaker-boundary approval."
+      },
+      "complete_audio": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/vtune-resource-alignment-v1/preview/body-258-source-aligned.wav",
+        "bytes": 899790,
+        "mtime_ns": 1794675935451825119,
+        "sha256": "ba2bbbfb6b847cf70d73f93f0c5aeb0b6c7f1450857d69f8f09479265a46cf0f"
+      },
+      "seconds": 18.744,
+      "samples": 449856,
+      "source_window_samples": 869760,
+      "remaining_samples": 419904,
+      "normal_rate_fits": true
+    }
+  ],
+  "source_uncertainty": "Raw257 there versus red has no new acoustic adjudication; candidate uses neutral 这里, and formal English remains unchanged.",
+  "retained_original_speech_unit": {
+    "id": 259,
+    "source_start": "4477.899",
+    "modified": false
+  },
+  "actual_candidate_total_seconds": 31.968,
+  "actual_candidate_total_samples": 767232,
+  "word_boundary_records": 83,
+  "word_boundary_complete_text_coverage_not_phonetic_approval": true,
+  "current_aac_reference": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/vtune-resource-alignment-v1/audio-extraction-verification.json",
+    "bytes": 3417,
+    "mtime_ns": 1794675931242790575,
+    "sha256": "f4b7218ca64226f32a7eac482016a71f6a5eed202e07cd790d95e5a26e1a3976"
+  },
+  "saved_source_pcm_and_grid": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/vtune-resource-alignment-v1/source-windows-and-grid-diagnosis.json",
+    "bytes": 4953,
+    "mtime_ns": 1794676205651078895,
+    "sha256": "3dafc05675ba40f7504ab5657b2f48751b4beb2e96c7cc77e89c2eae84866356"
+  },
+  "stage_failure": {
+    "actual_exit": 1,
+    "output_created": false,
+    "stage_config": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/vtune-resource-alignment-v1/stage-config.json",
+      "bytes": 6787,
+      "mtime_ns": 1794676083590052775,
+      "sha256": "12005e907a74950ac75042ca6aceb702350f4e8172a16c4a166ac5d249da69a0"
+    },
+    "log": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/vtune-resource-alignment-v1/stage-prepare.log",
+      "bytes": 1083,
+      "mtime_ns": 1794676084793062831,
+      "sha256": "14beb2f7ce0d10c83aec371695d68078f5166554021f9e88b8d73f6105460dad"
+    },
+    "exit_file": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/vtune-resource-alignment-v1/stage-prepare.exit",
+      "bytes": 2,
+      "mtime_ns": 1794676084813062998,
+      "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865"
+    },
+    "boundary_seconds": "4441.659",
+    "decimal_sample": 106599816,
+    "legacy_float_sample": 106599815,
+    "unit257_legacy_vs_exact": [
+      381359,
+      381360
+    ],
+    "unit258_legacy_vs_exact": [
+      869761,
+      869760
+    ],
+    "rejected_allocation_unit_id": 258,
+    "candidate_waveforms_fit_exact_original_windows": true,
+    "time_window_tolerance_or_bound_implementation_changed": false
+  },
+  "v1_diagnostic_text_error": {
+    "wrongly_described_extra_sample_unit": 257,
+    "correct_extra_sample_unit": 258,
+    "old_page_preserved": true,
+    "machine_numeric_observations_were_already_correct": true,
+    "correction_receipt": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/vtune-resource-alignment-v1/grid-diagnostic-text-correction.json",
+      "bytes": 1623,
+      "mtime_ns": 1794676276445678855,
+      "sha256": "c1e740d905efd8466f115752ef4131545d111adffdf0e98c3983d2fbd8442cfc"
+    }
+  },
+  "preservation": {
+    "protected_identities": 468,
+    "root_python": 98,
+    "production_mp3": 293,
+    "installed_double_versions": true,
+    "entire_installed_database_schema_and_rows": true,
+    "current_unreviewed_sound_candidates": 191
+  },
+  "verification": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/checkpoint-vtune-resource-alignment-v1/independent-verification.json",
+    "bytes": 4377,
+    "mtime_ns": 1794676345062263198,
+    "sha256": "ec6d87d18f802effe2499e7505b53d25b468aa755a15bd5c9010834aab736e60"
+  },
+  "verification_checks": 15,
+  "registration": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/checkpoint-vtune-resource-alignment-v1/metadata-registration.json",
+    "bytes": 16324,
+    "mtime_ns": 1794676345056263147,
+    "sha256": "781c0103e5df81a57c8bf19f7e0c526388f263ac5d10fb328717e1c7457003c5"
+  },
+  "registered_new_artifacts": 47,
+  "final_run_receipt": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/checkpoint-vtune-resource-alignment-v1/final-run-receipt.json",
+    "bytes": 5360,
+    "mtime_ns": 1794676345069263258,
+    "sha256": "dd3f9e0cd8dc7af930a0230e4700ddc2d203dc9e379c6aa861589ae0f76531ff"
+  },
+  "successful_real_commands": 9,
+  "failed_real_commands": 1,
+  "new_asr_or_complete_aac_decode_or_video_encoding": false,
+  "current_quality_rescan_or_human_decisions": false,
+  "automatic_winner": null,
+  "human_listened": false,
+  "pronunciation_or_emotional_approval": false,
+  "full_visual_wordlevel_or_potplayer_approval": false,
+  "latest_user_video_0sZlaQr3e2w_modified": false,
+  "shared_queue_or_global_totals_modified": false,
+  "published_or_playlist_expanded": false,
+  "goal_status": "active",
+  "next_step": "Introduce an explicitly versioned reusable mapping contract preserving legacy sample ownership and strict candidate windows; only then stage257/258 together, project captions, rescan and consider production installation."
+}
