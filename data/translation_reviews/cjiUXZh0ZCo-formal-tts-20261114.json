@@ -1,0 +1,112 @@
+{
+  "video_id": "cjiUXZh0ZCo",
+  "title": "Science of Performance 2019",
+  "stage": "formal321_strict_tts_actual_source_composite_and_body_verified",
+  "actual_source_seconds": 5532.782,
+  "source_units": 321,
+  "previous_source_units": 410,
+  "role_counts": {
+    "presenter": 282,
+    "original-dialogue": 36,
+    "original-speech": 2,
+    "original-event": 1
+  },
+  "language_units": 282,
+  "actual_original_voice_units": 39,
+  "actual_original_voice_ranges": 23,
+  "original_voice_seconds": 764.692,
+  "spoken_overrides": 176,
+  "source_and_translation_formally_adopted": true,
+  "source_revision_records_mixed_kinds": 221,
+  "all_revision_records_are_english_factual_repairs_claimed": false,
+  "raw_json3_words_before_explicit_repairs": 13372,
+  "caption_word_stream_conserved_before_repairs_only": true,
+  "post_repair_or_supplementation_conservation_claimed": false,
+  "max_source_window_seconds": 36.81,
+  "source_asr_observations": 56,
+  "source_asr_clips": 28,
+  "unique_source_seconds_with_local_asr": 2693.782,
+  "summed_clip_seconds_per_model": {
+    "medium": 2740.782,
+    "distil-large-v3": 2740.782
+  },
+  "source_images_opened": 29,
+  "strict_tts_success": true,
+  "tts_success_real_child_exit": 0,
+  "first_tts_real_child_exit": 1,
+  "only_tts_overlong_unit_revised": 28,
+  "revised28_seconds_normal_rate": 9.0247,
+  "old_289_mp3_cache_identities_preserved": true,
+  "current_mp3_cache_files": 290,
+  "tts_statistics": {
+    "entries": 321,
+    "normal": 315,
+    "rate_up": 6,
+    "rate_ge_25": 0,
+    "atempo": 0,
+    "silent": 0,
+    "overlap": 0
+  },
+  "rate_up_units": [
+    {
+      "unit": 2,
+      "rate_percent": 5
+    },
+    {
+      "unit": 14,
+      "rate_percent": 5
+    },
+    {
+      "unit": 47,
+      "rate_percent": 5
+    },
+    {
+      "unit": 90,
+      "rate_percent": 5
+    },
+    {
+      "unit": 97,
+      "rate_percent": 15
+    },
+    {
+      "unit": 145,
+      "rate_percent": 5
+    }
+  ],
+  "actual_original_voice_backfilled_into_body_chinese_main_track": true,
+  "source_available_windows_pcm_exact": true,
+  "outside_reserved_windows_baseline_pcm_exact": true,
+  "actual_source_pcm_samples": 132786747,
+  "source_display_container_samples": 132786768,
+  "container_audio_eof_gap_samples_silent": 21,
+  "baseline_zero_tail_buffer_samples": 48000,
+  "source_pcm_gain_db": 0,
+  "source_audio_stream": "0:a:0",
+  "sample_rate": 24000,
+  "body_render_and_verify_passed": true,
+  "voice_candidates_unreviewed": 189,
+  "original_source_synthetic_tail_applicability_exclusions": 12,
+  "candidate_report_or_database_decisions_deleted_or_dismissed": false,
+  "source_pause_applicability_tests_passed": 4,
+  "package_plan_intro_scenes": 3,
+  "package_plan_body_chapters": 84,
+  "final_dual_version_generation_or_verification_claimed": false,
+  "production_observation": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/checkpoint-formal-tts-v1/production-observation.json",
+  "checkpoint": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/checkpoint-formal-tts-v1/execution-progress.json",
+  "runtime_instructions": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/RUNTIME.md",
+  "human_listened": false,
+  "pronunciation_or_emotional_delivery_approved": false,
+  "source_speaker_or_intelligibility_approved": false,
+  "full_visual_review_complete": false,
+  "word_level_audio_visual_alignment_verified": false,
+  "potplayer_tested": false,
+  "frozen_root_python_modified": false,
+  "frozen_root_python_files": 98,
+  "shared_queue_or_parallel_counts_modified": false,
+  "playlist_expanded_or_platform_published": false,
+  "final_new_delivery_attachments_authorized": false,
+  "finished_delivery": false,
+  "objective_status": "active",
+  "background_auto_resume_claimed": false,
+  "next_action": "Inspect the owned production-v3 job and exact PID/start ticks; reuse completed TTS/source decode/body and continue packaging/upload/fidelity/actual final-frame review. Do not restart completed stages or infer human approval."
+}
