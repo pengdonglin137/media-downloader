@@ -1,5 +1,12 @@
 # 本仓库的 AI 执行入口
 
+## 2026-11-14：Linux性能续审97块，新增完整疑词语境
+
+- `0sZlaQr3e2w`73–169共97旧块整理为105文字候选/1独立标记，1649原token完整，101未执行朗读/4hold，16跨块文本续接，最长外包29.080秒。累计169/441重建候选、176记录，旧开场精确复用；角色/词尾/TTS仍不准入，空spoken不表示静音或删原声。
+- 新149/152 dd及153 runnable问题只取148–156完整45.080秒语境：共享audio-audit原片0:a:0解码0、24kHz1081920样本，medium/distil各0、外层81465真实0，只读audio-check0不重解码。两者支持dd和runable，That/Is that仍hold；medium漏stupid/Yep不冒称逐词一致，GPU探查警告保留。旧六片段ASR及16条AI声音不重做。
+- 修复cgroup断句、88方向、94原断言归属和广告不确定/否定，137字面疑点、141未完句、145拟警报分别hold；15读法仅候选。固定systemd v257/内核v6.12五份上游依据绑定，cgtop尺度/父子不相加新增明确AI文字候选，未合成、不改旧12类/16音频计数。
+- 当前72项只读核验0，766旧身份含98根Python/共享音轨实现及另9模型保持。入口`request-0sZlaQr3e2w-20261114/checkpoint-middle-utterances-v1/execution-progress.json`，说明`docs/linux-performance-middle-utterances-2026-11-14.md`。只提交本轮数据/文档，正式awaiting_translation，无新TTS/正文编码/原声回填；后续272块、完整双版本及所有声音/视觉批准仍待完成，目标active。
+
 ## 2026-11-14：Linux性能开场72块文字重建，仍不准入声音
 
 - `0sZlaQr3e2w`前72旧块、29.840–590.800秒整理为67文字候选及3独立供应商标记；1478原token顺序/归属保持，14处跨块续接不冒充已审同人合并，最长旧块外窗29.160秒。61未执行朗读候选、6显式hold，所有角色unknown，声学词尾和TTS准入均未批准；空spoken不等于静音或许可删除原声。

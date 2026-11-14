@@ -1,5 +1,11 @@
 # AI 执行工作流：自包含中文译配视频
 
+## 2026-11-14：从169之后续读，不重复已有完整语境
+
+- `0sZlaQr3e2w`新增`data/translation_reviews/0sZlaQr3e2w-middle-utterances-20261114.json`；当前对照/累计1–169阅读稿及72项核验在`checkpoint-middle-utterances-v1`。4hold须保留原声上下文，不将空值送生产当静音；全部角色unknown，正式awaiting_translation。
+- 149/152/153的新问题已通过共享audio-audit完成45.080秒整窗/1081920样本及两ASR，均0；只读audio-check0，无重解码。成功窗与输出只复用，旧六语境不重做；从170开始的称呼和212–214复用旧证据。
+- 下一步续审vmstat/I/O/NFS，并解决角色、原生原声窗和明确AI纠正交接后再准入TTS；15类读法、cgtop新AI文字候选尚未试听/合成。完整边界见`docs/linux-performance-middle-utterances-2026-11-14.md`，不发布或改并行队列。
+
 ## 2026-11-14：先读完整句，再解决角色与原声窗口
 
 - `0sZlaQr3e2w`开场新稿位于`data/translation_reviews/0sZlaQr3e2w-opening-utterances-20261114.json`；只读对照及35项核验在`checkpoint-opening-utterances-v1`。原72块/1478token完整分配，14处跨块候选不是批准合组，不覆盖正式来源或旧稿。
