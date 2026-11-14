@@ -1,5 +1,9 @@
 # AI 执行工作流：自包含中文译配视频
 
+## 2026-11-15：原词覆盖之后做实际安全说明试读
+
+gYfd25Bdmws复用共享commentary_preview/visual，四组八条独立AI完整句真实合成、封装并检查，七步骤0，不重做旧ASR/声音/媒体。181.608秒新试读保留策略、空指针、寿命和区域释放条件；出处草案与2019原声分开。八实际卡片JPEG逐张已看，登记词表不跨行不等于全部中文分词批准；无听辨选胜、原声角色准入或正式插段安装。入口`checkpoint-safety-commentary-v1/execution-progress.json`，说明`memory-allocation-safety-commentary-2026-11-15.md`；旧20hold/33partial/12发现及正式awaiting_translation保持。
+
 ## 2026-11-15：全词覆盖后继续来源准入，不把占位送TTS
 
 gYfd25Bdmws的224项累计计划已覆盖269块/10350原词，下一null、未分区词余0；旧149项不改。12未辨识项含说明性占位，11交接仍候选，20hold/33partial/12发现保持，不能用英文词流守恒批准中文完整性或声音。下一须按既有观察落实角色/真实原声区间与独立AI纠正，再做完整句专业读音/情感对照。新入口`checkpoint-utterance-tail-v1/execution-progress.json`，说明`memory-allocation-tail-utterances-2026-11-15.md`；147文字提案与42超40秒字幕外包均未准入，勿重跑成功媒体或关闭其他请求。

@@ -1,0 +1,89 @@
+{
+  "kind": "ai-commentary-visual-editorial-v1",
+  "bound_audio_plan": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-gYfd25Bdmws-20261114/checkpoint-safety-commentary-v1/bound-plan.json",
+  "audio_previews": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-gYfd25Bdmws-20261114/safety-commentary-previews-v1",
+  "font": {
+    "path": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+    "index": 2
+  },
+  "cards": [
+    {
+      "key": "numa-identifiers",
+      "heading": "NUMA：原词完整句",
+      "terms": [
+        "NUMA",
+        "malloc",
+        "默认本地策略",
+        "可回退"
+      ]
+    },
+    {
+      "key": "numa-explanatory",
+      "heading": "NUMA：中文解释完整句",
+      "terms": [
+        "NUMA",
+        "非统一内存访问",
+        "允许节点"
+      ]
+    },
+    {
+      "key": "overcommit-identifiers",
+      "heading": "超额承诺：接口原词",
+      "terms": [
+        "Linux",
+        "malloc",
+        "空指针",
+        "非空"
+      ]
+    },
+    {
+      "key": "overcommit-explanatory",
+      "heading": "超额承诺：反问与解释",
+      "terms": [
+        "Linux",
+        "超额承诺",
+        "空指针",
+        "物理后备"
+      ]
+    },
+    {
+      "key": "lifetime-symbols",
+      "heading": "对象池：符号完整句",
+      "terms": [
+        "C++",
+        "寿命",
+        "用途有限",
+        "安全回收"
+      ]
+    },
+    {
+      "key": "lifetime-explanatory",
+      "heading": "对象池：存储不等于对象",
+      "terms": [
+        "C++",
+        "存储",
+        "寿命",
+        "新寿命规则"
+      ]
+    },
+    {
+      "key": "region-identifiers",
+      "heading": "区域释放：接口原词",
+      "terms": [
+        "std::pmr",
+        "monotonic_buffer",
+        "release"
+      ]
+    },
+    {
+      "key": "region-explanatory",
+      "heading": "区域释放：条件不能省",
+      "terms": [
+        "单调缓冲资源",
+        "上游内存",
+        "初始缓冲",
+        "析构"
+      ]
+    }
+  ]
+}

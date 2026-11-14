@@ -1,0 +1,63 @@
+{
+  "kind": "memory-allocation-safety-commentary-evidence-index-v1",
+  "video_id": "gYfd25Bdmws",
+  "objective_status": "active",
+  "registration": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-gYfd25Bdmws-20261114/checkpoint-safety-commentary-v1/metadata-registration.json",
+    "bytes": 47931,
+    "mtime_ns": 1794674808545573226,
+    "sha256": "af03db9b90df644da5dfdb2c95cef9ea8c58b780f3f4400aea5fa0d7dcf5545e"
+  },
+  "author_plan": {
+    "path": "/home/pengdl/media-downloader/data/translation_reviews/gYfd25Bdmws-safety-commentary-20261115.json",
+    "bytes": 12946,
+    "mtime_ns": 1794674361015992132,
+    "sha256": "4815934851e9ad11749124dda6dad5a08fa56a45570f61ec3e136e4a0b1c358a"
+  },
+  "factual_review": {
+    "path": "/home/pengdl/media-downloader/data/translation_reviews/gYfd25Bdmws-safety-commentary-review-20261115.json",
+    "bytes": 6875,
+    "mtime_ns": 1794674198222375750,
+    "sha256": "1996a1fc28e8668e8b847f9fa78a7218fd04e309057f8a3994cb9b142b8cf866"
+  },
+  "visual_plan": {
+    "path": "/home/pengdl/media-downloader/data/translation_reviews/gYfd25Bdmws-safety-commentary-visual-20261115.json",
+    "bytes": 2073,
+    "mtime_ns": 1794674361020992103,
+    "sha256": "815bfcd6dc472ea8c2b0357f57df9560b0b88a32512527485542422de24462c5"
+  },
+  "bound_plan": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-gYfd25Bdmws-20261114/checkpoint-safety-commentary-v1/bound-plan.json",
+    "bytes": 16354,
+    "mtime_ns": 1794674394703810360,
+    "sha256": "ec0970849f72d33dd34333dcbf199ab68be84e312fafb66670cc5c4c08144f0c"
+  },
+  "audio_manifest": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-gYfd25Bdmws-20261114/safety-commentary-previews-v1/manifest.json",
+    "bytes": 27491,
+    "mtime_ns": 1794674412846725333,
+    "sha256": "16f86c9634f4f3fb37c099b2caaa914f45ad399be90fe1c5a9586e66270a4346"
+  },
+  "visual_manifest": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-gYfd25Bdmws-20261114/safety-commentary-visual-v1/manifest.json",
+    "bytes": 68382,
+    "mtime_ns": 1794674464242530213,
+    "sha256": "bde17e0d277556adc850843db3cc87ac5369baae474c017b84ec2f3e1640eb10"
+  },
+  "image_review": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-gYfd25Bdmws-20261114/checkpoint-safety-commentary-v1/actual-preview-image-review-v1.json",
+    "bytes": 9070,
+    "mtime_ns": 1794674808509573127,
+    "sha256": "db70bee13766ab3c32c24c0b387bd74d19f8cc2ab2eefd2c85eae46eddf8f636"
+  },
+  "new_audio_candidates": 8,
+  "audio_samples": 4358592,
+  "audio_seconds": 181.608,
+  "actual_video_frames_matching_cards": 4544,
+  "human_listened": false,
+  "pronunciation_or_emotion_approved": false,
+  "automatic_winner": false,
+  "production_modified": false,
+  "full_talk_translation_complete": false,
+  "checkpoint": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-gYfd25Bdmws-20261114/checkpoint-safety-commentary-v1/execution-progress.json"
+}

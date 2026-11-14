@@ -1,5 +1,11 @@
 # 工作流优化验证记录
 
+## 2026-11-15：安全边界八条实际完整句试读，正式未改
+
+- F08/F07/F10/F12四对八条AI说明实际生成，云溪+0%，19.536–25.416秒，共181.608秒/4358592样本；448真实词界完整文字对照、0末点越界，不当音素/情感或声音胜者证据。
+- 八内部MKV的完整PCM等于对应WAV、4544实际RGB帧等于卡片，bind/validate/preview/check及视觉prepare/render/check七实际0。八实际受限JPEG逐张已看，最大32612字节；28登记词面未跨行，“不｜是”仍跨行，非全片或全词边界验收。
+- 原224意群/10350原词、旧八AI声音与98根Python不改；20hold/33partial/12发现保持。基线argv1、显示chip预检1与只读打印1保留，未降低适配器或把历史成功重跑。入口`checkpoint-safety-commentary-v1/execution-progress.json`，详见`docs/memory-allocation-safety-commentary-2026-11-15.md`；无正式插段/听辨决定，目标active，仅提交本轮。
+
 ## 2026-11-15：内存分配原词分区覆盖完成，语言声音仍待准入
 
 - 新75项=63语言/6未辨识/6交接，覆盖最后3429词；旧149逐字段保持。累计224项/10350原词/269块全部唯一连续覆盖，最后269/16，下一null。12未辨识项不冒充已恢复原话，full_talk_translation_complete仍false。

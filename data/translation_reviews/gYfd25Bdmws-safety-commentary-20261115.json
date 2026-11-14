@@ -1,0 +1,251 @@
+{
+  "kind": "ai-commentary-editorial-plan-v1",
+  "work": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_gYfd25Bdmws",
+  "technical_review_path": "gYfd25Bdmws-safety-commentary-review-20261115.json",
+  "reference_evidence_paths": [
+    "gYfd25Bdmws-technical-review-20261114.json",
+    "gYfd25Bdmws-tail-utterances-20261115.json",
+    "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-gYfd25Bdmws-20261114/checkpoint-utterance-tail-v1/draft-v1/reading.json",
+    "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-gYfd25Bdmws-20261114/checkpoint-full-text-draft-v1/primary-sources/numa-policy.html",
+    "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-gYfd25Bdmws-20261114/checkpoint-full-text-draft-v1/primary-sources/overcommit.html",
+    "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-gYfd25Bdmws-20261114/checkpoint-full-text-draft-v1/primary-sources/glibc-2.30-memory.texi.txt",
+    "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-gYfd25Bdmws-20261114/checkpoint-full-text-draft-v1/primary-sources/cpp-basic.texi.txt",
+    "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-gYfd25Bdmws-20261114/checkpoint-safety-commentary-v1/primary-sources/cpp-memory.tex"
+  ],
+  "voice": "zh-CN-YunxiNeural",
+  "rate": "+0%",
+  "label": "AI补充说明（非讲者原话）",
+  "max_seconds": 40,
+  "cases": [
+    {
+      "key": "numa-identifiers",
+      "review_case": "F08",
+      "anchor_unit_id": 188,
+      "source_anchor": "2557.12",
+      "source_ids": [
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200
+      ],
+      "display": "AI补充说明（非讲者原话）：NUMA：malloc调用点不是唯一因素。普通按需匿名页受首次访问、策略及允许节点影响；默认本地策略在本地不足时可回退。",
+      "spoken": "AI补充说明。在 NUMA 系统上，调用 malloc 的位置，并不能单独决定物理页放在哪里。普通按需分配的匿名页，还受首次实际访问、内存策略和允许节点等因素影响。默认本地策略在本地内存不足时，可以回退到其他允许节点；不是绝不会访问别的节点。",
+      "reason": "用完整句比较NUMA和malloc原词读法；明确普通匿名页、默认本地策略与可以回退，不偷换成所有策略必然回退。",
+      "prosody_intent": "先平稳说明影响因素，再温和强调可以回退与不是绝不；不用拟声或引擎不支持的style参数。",
+      "preserved_facts": [
+        "普通按需匿名页",
+        "调用位置不是唯一决定因素",
+        "首次访问及策略/允许节点影响放置",
+        "默认本地策略可以回退",
+        "不泛化到全部绑定策略"
+      ]
+    },
+    {
+      "key": "numa-explanatory",
+      "review_case": "F08",
+      "anchor_unit_id": 188,
+      "source_anchor": "2557.12",
+      "source_ids": [
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200
+      ],
+      "display": "AI补充说明（非讲者原话）：NUMA即非统一内存访问。普通按需匿名页受首次访问、策略及允许节点影响；默认本地策略本地不足时可回退，不是仅用当前节点。",
+      "spoken": "AI补充说明。非统一内存访问，不能理解成内存只会来自当前节点。以默认本地策略为例，本地不足时，还可以回退到其他允许节点。对普通按需分配的匿名页，首次访问、内存策略和允许节点等都会影响放置；不能只看调用分配函数的位置。",
+      "reason": "用限定在本句的中文术语解释代替缩写直读，改变表达顺序但保留同一组条件；不是只改情感的单变量实验。",
+      "prosody_intent": "先纠正常见误解，再给出条件；语气有对比但不责备观众，不把可以读成必然。",
+      "preserved_facts": [
+        "普通按需匿名页",
+        "调用位置不是唯一决定因素",
+        "首次访问及策略/允许节点影响放置",
+        "默认本地策略可以回退",
+        "不泛化到全部绑定策略"
+      ]
+    },
+    {
+      "key": "overcommit-identifiers",
+      "review_case": "F07",
+      "anchor_unit_id": 208,
+      "source_anchor": "2826.27",
+      "source_ids": [
+        208,
+        209,
+        210,
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217,
+        218
+      ],
+      "display": "AI补充说明（非讲者原话）：Linux超额承诺策略不同，malloc仍可能失败，须处理空指针。非空结果也不是未来每一页都有物理后备的一般保证。",
+      "spoken": "AI补充说明。Linux 有不同的超额承诺策略，不能由此断言 malloc 永远成功。请求仍可能返回空指针，失败路径不能省。反过来，拿到非空指针，也不等于在以后触碰每一页时，都能获得需要的物理内存。",
+      "reason": "完整保留可能失败与非空不等于未来保证两层限制；不把听辨不清的212否定词或历史平台概括当作本段声音来源。",
+      "prosody_intent": "平稳讲策略，失败路径不能省处清楚落句；反过来作为真正语义转折，不堆砌碎逗号。",
+      "preserved_facts": [
+        "存在不同策略",
+        "malloc仍可能失败",
+        "保留空指针/失败路径",
+        "非空不构成未来每页物理后备的一般保证",
+        "不恢复原声否定词或背书所有平台"
+      ]
+    },
+    {
+      "key": "overcommit-explanatory",
+      "review_case": "F07",
+      "anchor_unit_id": 208,
+      "source_anchor": "2826.27",
+      "source_ids": [
+        208,
+        209,
+        210,
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217,
+        218
+      ],
+      "display": "AI补充说明（非讲者原话）：Linux超额承诺策略不同，malloc仍可能失败，须处理空指针。非空结果也不是未来每一页都有物理后备的一般保证。",
+      "spoken": "AI补充说明。申请成功，就能放心用掉所有内存吗？未必。Linux 的超额承诺有不同策略，内存分配函数仍可能失败，所以空指针检查不能丢。即使返回非空指针，也不能把它当成后续每一页都能获得物理内存的保证。",
+      "reason": "用完整反问与中文接口描述对照原词直读版，两层失败风险不删；提问由AI自己提出，绝不当作现场观众原问。",
+      "prosody_intent": "反问后未必简洁回答，再认真说明两层限制；不是夸张惊叹或模仿讲者。",
+      "preserved_facts": [
+        "存在不同策略",
+        "malloc仍可能失败",
+        "保留空指针/失败路径",
+        "非空不构成未来每页物理后备的一般保证",
+        "不恢复原声否定词或背书所有平台"
+      ]
+    },
+    {
+      "key": "lifetime-symbols",
+      "review_case": "F10",
+      "anchor_unit_id": 246,
+      "source_anchor": "3337.46",
+      "source_ids": [
+        246,
+        247,
+        248,
+        249,
+        250
+      ],
+      "display": "AI补充说明（非讲者原话）：C++对象池留住存储，不延续已结束的寿命。旧指针用途有限，不可照常访问旧对象成员；复用仍须遵守新寿命规则，池也不是安全回收协议。",
+      "spoken": "AI补充说明。C++ 的对象池可以保留存储，但不会让已经结束的对象寿命自动延续。地址还在，就能继续照常读写原对象成员吗？不能。对象寿命结束以后，旧指针的用途受到限制；存储重新使用，还要遵守新对象的寿命规则。对象池本身，不是安全回收协议。",
+      "reason": "保留指针有限用途而非禁止一切用途，避免把所有对象池都描述成已经销毁对象；C++符号由引擎直读作为未批准候选。",
+      "prosody_intent": "先建立存储与对象寿命的对比，反问后不能清楚落句；警示但不夸大，完整专名不机械拆开。",
+      "preserved_facts": [
+        "保留存储不延续已结束寿命",
+        "旧指针只有有限合法用途",
+        "不能照常访问旧对象成员",
+        "复用仍须遵守新寿命规则",
+        "池不等于安全回收协议"
+      ]
+    },
+    {
+      "key": "lifetime-explanatory",
+      "review_case": "F10",
+      "anchor_unit_id": 246,
+      "source_anchor": "3337.46",
+      "source_ids": [
+        246,
+        247,
+        248,
+        249,
+        250
+      ],
+      "display": "AI补充说明（非讲者原话）：C++对象池留住存储，不延续已结束的寿命。旧指针用途有限，不可照常访问旧对象成员；复用仍须遵守新寿命规则，池也不是安全回收协议。",
+      "spoken": "AI补充说明。先分清两件事：内存还留在池里，和原来的对象还活着，不是一回事。在 C 加加里，对象寿命结束后，不能照常读写原对象成员；旧指针只能按语言规则有限使用。即使存储准备复用，也不能跳过新对象的寿命规则，更不能把对象池当成安全回收协议。",
+      "reason": "以本句内C加加和自然对比句尝试清楚解释，不改显示C++拼写、不全局替换加号；ABA与标准库扩展子问题仍开放。",
+      "prosody_intent": "先分清两件事作为温和引导，在不是一回事处形成自然对比；后半段认真说明限制，不连喊重音。",
+      "preserved_facts": [
+        "保留存储不延续已结束寿命",
+        "旧指针只有有限合法用途",
+        "不能照常访问旧对象成员",
+        "复用仍须遵守新寿命规则",
+        "池不等于安全回收协议"
+      ]
+    },
+    {
+      "key": "region-identifiers",
+      "review_case": "F12",
+      "anchor_unit_id": 253,
+      "source_anchor": "3433.96",
+      "source_ids": [
+        250,
+        251,
+        252,
+        253,
+        254,
+        255,
+        256,
+        257,
+        258
+      ],
+      "display": "AI补充说明（非讲者原话）：std::pmr::monotonic_buffer_resource单次deallocate无效果，release归还上游内存；外部初始缓冲仍由调用者管理。先结束相关使用，所需析构与资源清理不能省。",
+      "spoken": "AI补充说明。以 P M R 的 monotonic buffer resource 为例，单次 deallocate 没有效果，release 才统一归还从上游申请的内存。调用者提供的初始缓冲，仍由调用者管理。要等相关使用结束，再归还存储；需要的对象析构和资源清理，不能因为批量释放就省掉。",
+      "reason": "精确显示C++接口，完整句对照接口英文分词读法；不声称官方发音或所有区域API一致，明确外部初始缓冲不转交所有权。",
+      "prosody_intent": "单次与统一释放形成清楚对照，外部缓冲和生命周期条件独立成句；不追求快速念完缩写。",
+      "preserved_facts": [
+        "仅以C++单调缓冲资源举例",
+        "单次do_deallocate无效果",
+        "release归还上游分配",
+        "外部初始缓冲仍由调用者管理",
+        "先结束相关使用",
+        "需要的析构和资源清理不能省"
+      ]
+    },
+    {
+      "key": "region-explanatory",
+      "review_case": "F12",
+      "anchor_unit_id": 253,
+      "source_anchor": "3433.96",
+      "source_ids": [
+        250,
+        251,
+        252,
+        253,
+        254,
+        255,
+        256,
+        257,
+        258
+      ],
+      "display": "AI补充说明（非讲者原话）：C++单调缓冲资源：单次释放无效果，统一释放归还上游内存。外部初始缓冲仍由调用者管理；先结束相关使用，所需析构和资源清理不能省。",
+      "spoken": "AI补充说明。C 加加的单调缓冲资源，单次释放不回收存储；但这不等于可以随时清空整个区域。统一释放会归还上游内存，外部初始缓冲仍由调用者管理。先结束相关使用，再归还存储；需要的析构和资源清理，一样不能少。",
+      "reason": "将长接口名限定地解释为单调缓冲资源，保留单次无效果、上游/外部初始缓冲、使用结束及析构条件；不删除技术边界来换取时长。",
+      "prosody_intent": "先讲不回收，再用但这不等于纠正误解；最后两条条件郑重而非夸张，用完整语义句承载停顿。",
+      "preserved_facts": [
+        "仅以C++单调缓冲资源举例",
+        "单次do_deallocate无效果",
+        "release归还上游分配",
+        "外部初始缓冲仍由调用者管理",
+        "先结束相关使用",
+        "需要的析构和资源清理不能省"
+      ]
+    }
+  ]
+}

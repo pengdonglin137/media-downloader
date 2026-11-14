@@ -1,0 +1,61 @@
+{
+  "kind": "ai-commentary-factual-review-v1",
+  "video_id": "gYfd25Bdmws",
+  "source_sha256": "1aaa70b0cf64b24f8dd1632b7c6ddba720337b64a270bec4d005adba795b6b3b",
+  "scope": "Four safety/lifetime clarifications for isolated, explicitly attributed AI narration. Not a replacement translation, acoustic/source-role approval, installed insertion or closure of any original finding.",
+  "derived_from": {
+    "path": "gYfd25Bdmws-technical-review-20261114.json",
+    "sha256": "c20b641e5a936f9f393e738455c5165108fc75454304b8b8cf32aa7e0c649cb3"
+  },
+  "source_hold_records_retained": 20,
+  "historical_partial_text_markers_retained": 33,
+  "source_speaker_verified": false,
+  "production_timeline_verified": false,
+  "human_listened": false,
+  "pronunciation_or_emotion_approved": false,
+  "closed_technical_findings": [],
+  "comparison_authority": "Whole-sentence alternative readings with different wording and punctuation, not a controlled single-variable emotion experiment. Edge-TTS style controls or official phoneme pronunciations are not claimed. No automatic winner or global dictionary update.",
+  "primary_reference_authority": "Existing kernel documentation and C++ basic.life snapshots are reused unchanged. A newly retrieved C++ memory working-draft snapshot provides the monotonic resource contract. These are independent technical clarifications, not reconstructions of 2019 speech or proof of local policy/runtime.",
+  "cases": [
+    {
+      "id": "F08",
+      "source_units": [188,189,190,191,192,193,194,195,196,197,198,199,200],
+      "status": "authored_ai_explanation_only_production_open",
+      "finding": "Ordinary demand-backed anonymous-page placement depends on faulting access, applicable policy and allowed nodes, not solely on the location of malloc. Linux default local/preferred-local allocation can fall back to other allowed nodes. This does not imply the same fallback for explicit bind policies or guarantee locality.",
+      "primary_snapshot": "checkpoint-full-text-draft-v1/primary-sources/numa-policy.html",
+      "primary_url": "https://docs.kernel.org/admin-guide/mm/numa_memory_policy.html",
+      "preserved_constraints": ["ordinary demand-backed anonymous pages", "malloc call alone is insufficient", "first actual access and applicable policy/allowed nodes matter", "default local policy may fall back", "not a statement about all bind policies", "not a local configuration or locality guarantee"],
+      "reading_comparison": "NUMA/malloc in one full sentence versus their explanatory Chinese descriptions in another. Neither is an approved pronunciation or source-speaker performance."
+    },
+    {
+      "id": "F07",
+      "source_units": [208,209,210,211,212,213,214,215,216,217,218],
+      "status": "authored_ai_explanation_only_production_open",
+      "finding": "Linux documents distinct overcommit modes. The general possibility of overcommit does not guarantee malloc success or justify removing its failure handling. A nonnull virtual-allocation result is not a general guarantee of future backing for every touched page. The original negation in unit212 remains unresolved; neither candidate purports to recover it.",
+      "primary_snapshots": ["checkpoint-full-text-draft-v1/primary-sources/overcommit.html", "checkpoint-full-text-draft-v1/primary-sources/glibc-2.30-memory.texi.txt"],
+      "primary_urls": ["https://docs.kernel.org/mm/overcommit-accounting.html", "https://raw.githubusercontent.com/bminor/glibc/glibc-2.30/manual/memory.texi"],
+      "preserved_constraints": ["different policies", "no always-success claim", "retain malloc null/failure handling", "nonnull is not a general future-backing guarantee", "no reconstructed source negation or platform guarantee"],
+      "reading_comparison": "Direct malloc identifier versus explanatory Chinese allocation wording, with an additional rhetorical question. Multiple wording/prosody variables differ."
+    },
+    {
+      "id": "F10",
+      "source_units": [246,247,248,249,250],
+      "status": "authored_ai_explanation_only_production_open",
+      "finding": "Retaining pool storage does not extend an object lifetime that has ended. Before a valid new lifetime, old pointers have only limited allowed uses; ordinary access to the old object's nonstatic members is not justified by the address remaining allocated. The pool is not by itself a safe-reclamation protocol. These samples do not attempt to resolve every ABA case or the implementation-extension issue in the original finding.",
+      "primary_snapshot": "checkpoint-full-text-draft-v1/primary-sources/cpp-basic.texi.txt",
+      "primary_url": "https://raw.githubusercontent.com/cplusplus/draft/master/source/basic.tex",
+      "preserved_constraints": ["storage retention is not lifetime extension", "old pointer has limited permitted uses, not all uses forbidden", "ordinary old-member access is not justified", "new object lifetime rules still apply", "pool alone is not a safe-reclamation protocol", "ABA and extension subissues stay open"],
+      "reading_comparison": "C++ symbol read by the engine versus the scoped Chinese reading C加加. No global replacement of plus signs or asserted phoneme outcome."
+    },
+    {
+      "id": "F12",
+      "source_units": [240,241,242,250,251,252,253,254,255,256,257,258],
+      "status": "authored_ai_explanation_only_production_open",
+      "finding": "The specific std::pmr::monotonic_buffer_resource do_deallocate has no effects. release returns memory obtained from the upstream resource and resets buffer state; caller-supplied initial storage remains caller-managed. Releasing storage is distinct from invoking needed object destructors/resource cleanup, and outstanding uses must end first. This is a concrete illustration, not a claim that every region API is identical, and does not close the 2002 benchmark or database-name subissues.",
+      "primary_snapshots": ["checkpoint-safety-commentary-v1/primary-sources/cpp-memory.tex", "checkpoint-full-text-draft-v1/primary-sources/cpp-basic.texi.txt"],
+      "primary_urls": ["https://raw.githubusercontent.com/cplusplus/draft/master/source/memory.tex", "https://raw.githubusercontent.com/cplusplus/draft/master/source/basic.tex"],
+      "preserved_constraints": ["specific C++ monotonic resource, not every region API", "individual do_deallocate has no effects", "release returns upstream allocations", "external initial buffer remains caller-managed", "end outstanding uses before release", "needed destruction and cleanup are not supplied by returning raw storage", "2002 study and database-name subissues remain open"],
+      "reading_comparison": "P M R / monotonic buffer resource / deallocate / release whole-sentence identifier reading versus the scoped Chinese single/bulk-release explanation. Exact C++ spelling remains displayed; no official pronunciation is claimed."
+    }
+  ]
+}
