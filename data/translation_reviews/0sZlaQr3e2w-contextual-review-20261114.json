@@ -1,0 +1,173 @@
+{
+  "kind": "native-source-context-technical-preview-review-v1",
+  "video_id": "0sZlaQr3e2w",
+  "review_date": "2026-11-14",
+  "goal_status": "active",
+  "scope": "Two isolated original-picture/native-voice/complete-AI/original-picture contextual alternatives; not canonical translation or installed production",
+  "authoritative_current_manifest": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-0sZlaQr3e2w-20261114/checkpoint-contextual-preview-v1/previews-picture-v3/manifest.json",
+    "bytes": 88233,
+    "mtime_ns": 1794658995004934657,
+    "sha256": "c6f9155389c82c013d2d0f9b8a975de9be2474efeb469456bf5d8a739e7912e5"
+  },
+  "independent_verification": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-0sZlaQr3e2w-20261114/checkpoint-contextual-preview-v1/final-independent-verification-v1.json",
+    "bytes": 1512,
+    "mtime_ns": 1794659536339189835,
+    "sha256": "400d3275445f8eba96c9e2730105e7606910835d1cb1aa28644af1c804d4499a"
+  },
+  "plan": {
+    "path": "/home/pengdl/media-downloader/data/translation_reviews/0sZlaQr3e2w-contextual-preview-20261114.json",
+    "bytes": 4508,
+    "mtime_ns": 1794657723057189369,
+    "sha256": "f8a0ea86d6309d0b9e0abc990052d4c4abde4b67f8ca433b3cb28567bf32298a"
+  },
+  "source_anchor": {
+    "zero_based_source_frame": 82004,
+    "source_pts": 41986048,
+    "source_video_time_base": "1/15360",
+    "exact_seconds": "41002/15",
+    "native44100_sample": 120545880,
+    "old_audio_only_seconds": "2733.46",
+    "shift_seconds": "1/150",
+    "shift_native_samples": 294,
+    "distinct_caption_reference_seconds": "2678.8",
+    "timing_only_not_acoustic_approval": true
+  },
+  "source_context": {
+    "half_open_zero_based_frames": [
+      77230,
+      83757
+    ],
+    "exact_seconds": [
+      "7723/3",
+      "27919/10"
+    ],
+    "video_frames": 6527,
+    "native_sample_frames": 9594690,
+    "native_sample_rate": 44100,
+    "channels": 2,
+    "complete_native_reference_frames_checked": 9371
+  },
+  "alternatives": [
+    {
+      "key": "oom-legacy-guard-spelled",
+      "insert_frames": 687,
+      "insert_samples": 1009890,
+      "source_frames": 6527,
+      "source_samples": 9594690,
+      "at_frame": 4774,
+      "at_sample": 7017780,
+      "original_waveform_samples": 549504,
+      "original_waveform_rate": 24000,
+      "caption_reference_seconds": "2678.8",
+      "source_anchor_seconds": "41002/15",
+      "converted_commentary_samples": 1009714,
+      "explicit_tail_silence_samples": 176,
+      "native_source_frames_checked": 9371,
+      "original_video_frames_exact": 6527,
+      "all_original_context_PCM_exact": true,
+      "whole_commentary_conversion_retained": true,
+      "selected": false,
+      "video": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-0sZlaQr3e2w-20261114/checkpoint-contextual-preview-v1/previews-picture-v3/oom-legacy-guard-spelled.nut",
+        "bytes": 3573334152,
+        "mtime_ns": 1794658823797168240,
+        "sha256": "b9572aeb0abf4b7d191334ccb11b918c9fad8194fd04cb8b9396e583ead1cbbc"
+      }
+    },
+    {
+      "key": "oom-legacy-guard-meaning",
+      "insert_frames": 695,
+      "insert_samples": 1021650,
+      "source_frames": 6527,
+      "source_samples": 9594690,
+      "at_frame": 4774,
+      "at_sample": 7017780,
+      "original_waveform_samples": 555264,
+      "original_waveform_rate": 24000,
+      "caption_reference_seconds": "2678.8",
+      "source_anchor_seconds": "41002/15",
+      "converted_commentary_samples": 1020298,
+      "explicit_tail_silence_samples": 1352,
+      "native_source_frames_checked": 9371,
+      "original_video_frames_exact": 6527,
+      "all_original_context_PCM_exact": true,
+      "whole_commentary_conversion_retained": true,
+      "selected": false,
+      "video": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-0sZlaQr3e2w-20261114/checkpoint-contextual-preview-v1/previews-picture-v3/oom-legacy-guard-meaning.nut",
+        "bytes": 3574867207,
+        "mtime_ns": 1794658934899626707,
+        "sha256": "ab6a8c161349c5fc7b8773e4aa286306bb53171e71aff9848f43e302c5236147"
+      }
+    }
+  ],
+  "container_duration_declarations_do_not_equal_decoded_end": [
+    {
+      "key": "oom-legacy-guard-spelled",
+      "all_source_frames_exact": 6527,
+      "complete_output_frames": 7214,
+      "complete_output_samples": 10604580,
+      "exact_decoded_audio_and_video_end": "3607/15",
+      "seconds": 240.46666666666667,
+      "container_declared_duration": "240.465850",
+      "video_time_base": "1/61440",
+      "audio_time_base": "1/44100",
+      "old_packet_copy_equal_does_not_approve_old_picture": true
+    },
+    {
+      "key": "oom-legacy-guard-meaning",
+      "all_source_frames_exact": 6527,
+      "complete_output_frames": 7222,
+      "complete_output_samples": 10616340,
+      "exact_decoded_audio_and_video_end": "3611/15",
+      "seconds": 240.73333333333332,
+      "container_declared_duration": "240.721270",
+      "video_time_base": "1/61440",
+      "audio_time_base": "1/44100",
+      "old_packet_copy_equal_does_not_approve_old_picture": true
+    }
+  ],
+  "fixture_checks": {
+    "base": 38,
+    "supplemental": 8,
+    "native_repair": 15,
+    "picture_repair": 13,
+    "total_finite": 74
+  },
+  "protected_files_rehashed": 1128,
+  "frozen_root_python_exact": 98,
+  "retained_actual_exits": {
+    "base_fixture_v1": 1,
+    "first_actual_preview": 1,
+    "native_only_remux": 1,
+    "picture_fixture_v1": 1,
+    "current_picture_production_v3": 0,
+    "current_read_only_check": 0
+  },
+  "new_TTS_ASR_or_full_native_framehash_observation": false,
+  "new_source_PCM_extraction_policy": "First seek attempt rejected; correct reference sequentially decoded from source start only through required context end, compared with existing full native framehash. Successful extraction and previous voices reused.",
+  "actual_final_JPEGs_individually_viewed": 6,
+  "local_visual_issues": [
+    "进程 split over two body lines; complete text retained but final selected card needs refinement",
+    "card frame value is a zero-based index, not explicitly labelled as such on the card"
+  ],
+  "all_source_roles_unknown_or_unapproved_retained": true,
+  "human_listened": false,
+  "pronunciation_or_emotion_approved": false,
+  "source_handoff_approved": false,
+  "automatic_winner": false,
+  "production_installed": false,
+  "canonical_stage": "awaiting_translation",
+  "source_caption_blocks": 441,
+  "provider_markers": 23,
+  "textual_holds": 27,
+  "critical_F08_production_hold_retained": true,
+  "opening_tail_and_unclear_original_speech_installed_in_both_final_Chinese_main_tracks": false,
+  "complete_body_and_final_master_upload_pair": false,
+  "full_film_wordlevel_visual_or_PotPlayer_approval": false,
+  "shared_queue_global_counts_or_parallel_work_modified": false,
+  "playlist_expansion_platform_publication_or_delivery_sidecars": false,
+  "next_action": "Review both complete source/AI/source audiovisual contexts for pronunciation, emotion, loudness, roles and acoustic handoff; explicitly select only with evidence, refine the compound-word wrap and zero-based frame label, then author the actual complete-body timeline. Continue23markers/27holds and preserve original opening/tail/unclear speech in both final Chinese main tracks. Do not rerun old18 voices, ASRs, full native observation or successful current reference/media."
+}

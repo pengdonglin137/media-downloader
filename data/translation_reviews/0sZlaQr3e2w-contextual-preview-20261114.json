@@ -1,0 +1,103 @@
+{
+  "kind": "av-context-insertion-preview-v1",
+  "scope": "isolated-audition-no-production-installation",
+  "source": {
+    "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_0sZlaQr3e2w/download/Linux Performance： Is it CPU, Memory, or I⧸O？  ｜ Into the Terminal 166 [0sZlaQr3e2w].mp4",
+    "bytes": 712983775,
+    "mtime_ns": 1794614332226620674,
+    "sha256": "83eabc532ba972fcac71bebfd6f1bc14abcd574b5ba07c477eb5c42990da561d"
+  },
+  "profile": {
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "time_base": "1/15360",
+    "sample_rate": 44100,
+    "channels": 2,
+    "video_stream": 0,
+    "audio_stream": 1
+  },
+  "context_frames": [
+    77230,
+    83757
+  ],
+  "at_frame": 82004,
+  "cases": [
+    {
+      "key": "oom-legacy-guard-spelled",
+      "waveform": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-0sZlaQr3e2w-20261114/checkpoint-oom-correction-v2/previews-v1/oom-legacy-guard-spelled.wav",
+        "bytes": 1099086,
+        "mtime_ns": 1794655512777244287,
+        "sha256": "daa5e564505d299a9958d99d9df3adf2e601c76410d0e7588ec6ad83f9bdfcd9"
+      },
+      "card": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-0sZlaQr3e2w-20261114/checkpoint-contextual-preview-v1/cards-v1/oom-legacy-guard-spelled.png",
+        "bytes": 227101,
+        "mtime_ns": 1794657722976185937,
+        "sha256": "b4eda959e1f76f9cdf8d47c9ecd6339c64820dbaa6d1145376641e06aa3fa972"
+      },
+      "caption_reference_seconds": "2678.8"
+    },
+    {
+      "key": "oom-legacy-guard-meaning",
+      "waveform": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-0sZlaQr3e2w-20261114/checkpoint-oom-correction-v2/previews-v1/oom-legacy-guard-meaning.wav",
+        "bytes": 1110606,
+        "mtime_ns": 1794655515073288537,
+        "sha256": "fc00e14546020d1e85408703dfac0bbb9b4de146a224b13499d32ae05bddcd8a"
+      },
+      "card": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-0sZlaQr3e2w-20261114/checkpoint-contextual-preview-v1/cards-v1/oom-legacy-guard-meaning.png",
+        "bytes": 226457,
+        "mtime_ns": 1794657723035188437,
+        "sha256": "74844a1f38036158d943948269f3778a50077eccc0e0eab989eebbed0c4dd595"
+      },
+      "caption_reference_seconds": "2678.8"
+    }
+  ],
+  "native_ledger": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-0sZlaQr3e2w-20261114/checkpoint-native-audio-v1/native-source/decoded.framehash",
+    "bytes": 17564325,
+    "mtime_ns": 1794654385627975702,
+    "sha256": "a2f6dd5733d8ca4dbb7c0873c7b2a6d7cd7d89a965584d1a7c46743b7fee0957"
+  },
+  "evidence": [
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-0sZlaQr3e2w-20261114/checkpoint-contextual-preview-v1/frame-grid-candidate.json",
+      "bytes": 3615,
+      "mtime_ns": 1794657722811178940,
+      "sha256": "841c5a36f43f857173765983e4297a831ab7b346830d9cbe88387caa2d263523"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-0sZlaQr3e2w-20261114/checkpoint-contextual-preview-v1/card-layouts.json",
+      "bytes": 2522,
+      "mtime_ns": 1794657723036188480,
+      "sha256": "f80cadf1eb33ca214f6d7ef3622e137b2ee891bcd7bc477ebc87dfabd2b3fd5a"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-0sZlaQr3e2w-20261114/checkpoint-contextual-preview-v1/fixture-verification-v2.json",
+      "bytes": 3880,
+      "mtime_ns": 1794657569123085053,
+      "sha256": "66eb0a785109f9d3c4270efb8942009e53c4b3941bf63d60bbf52359a6df83f5"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-0sZlaQr3e2w-20261114/checkpoint-oom-correction-v2/pause-candidate.json",
+      "bytes": 5755,
+      "mtime_ns": 1794655819283301903,
+      "sha256": "8343791f418d0f4ad01f67795beb7cf09bdd5041fa83e79c6ffdbf9f22269464"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-0sZlaQr3e2w-20261114/checkpoint-oom-correction-v2/auditions-v1/manifest.json",
+      "bytes": 3215,
+      "mtime_ns": 1794656116164076330,
+      "sha256": "5f280b8b2e7695d6f378fabd5228cc072f735728f5ba4c3e0f05c3f92b1a38d7"
+    },
+    {
+      "path": "/home/pengdl/media-downloader/data/translation_reviews/0sZlaQr3e2w-oom-legacy-commentary-20261114.json",
+      "bytes": 5067,
+      "mtime_ns": 1794655494582889492,
+      "sha256": "3393b0c03d5f1ede86a69c3f0729a51d26be47096f1b7a36502fb04c35d25a2f"
+    }
+  ]
+}
