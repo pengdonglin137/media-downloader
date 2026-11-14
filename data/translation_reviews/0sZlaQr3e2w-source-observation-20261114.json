@@ -1,0 +1,120 @@
+{
+  "kind": "source-observation-and-quarantined-reading-amendments-v1",
+  "video_id": "0sZlaQr3e2w",
+  "source_caption_sha256": "291ac38e5a4d632ce4f9c3f8db31967219f0c532a501f1792926b2df02127a80",
+  "predecessor_draft": "0sZlaQr3e2w-quarantined-draft-20261114.json",
+  "predecessor_draft_sha256": "ba6e7b4577acf7fa9b173d17fac48f7486ab2961c15f0e03238fbf37df880ea9",
+  "probe_plan": "0sZlaQr3e2w-source-probes-20261114.json",
+  "evidence_directory": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-0sZlaQr3e2w-20261114/checkpoint-source-observation-v1",
+  "asr_scope": "Six complete-context diagnostic clips; two offline CPU int8 model selections through unchanged asr.py; no hotwords, automatic source rewrite, speaker diarization or human listening.",
+  "asr_outputs": 12,
+  "all_asr_commands_actual_exit": 0,
+  "findings": [
+    {
+      "id": "S01",
+      "probe": "opening",
+      "observed": "Both models begin their first reported English segment at29.870s. Medium correctly reports Into the Terminal; distil reports end of the terminal. The1s frame is a title card, and15s shows an actual00:02 countdown.",
+      "action": "Retain the official title. Reserve all original opening audio before29.840s; neither ASR absence nor still images establish silence, music or absence of speech.",
+      "human_or_speaker_approval": false
+    },
+    {
+      "id": "S02",
+      "probe": "feels-wordplay",
+      "source_units": [8, 9],
+      "observed": "Medium repeats feels unimportant twice; distil reports one instance and omits the second. Neither model supports unperformant.",
+      "action": "Do not replace unimportant with an imagined performance pun. Retain the existing reading and uncertainty; not double-model verification of every repetition or actual speaker boundary.",
+      "human_or_speaker_approval": false
+    },
+    {
+      "id": "S03",
+      "probe": "dd-demo-purpose",
+      "source_units": [58],
+      "observed": "Medium reports disk down problem; distil reports disk problem. Surrounding26 tasks and/dev/zero to/dev/null context is present in both. No agreement establishes disk-bound.",
+      "action": "Keep the conservative Chinese 磁盘问题 and the original uncertainty/joke. Do not rewrite the English to disk-bound from technical expectations or claim these commands were executed on this host.",
+      "human_or_speaker_approval": false
+    },
+    {
+      "id": "S04",
+      "probe": "vmstat-name",
+      "source_units": [170, 171, 172, 173, 174],
+      "observed": "The caption has But name; medium reports But Nate, while distil reports But may. Source metadata lists hosts Nate Lager and Scott McBrien, making Nate a plausible address but not acoustic proof. The1320s frame highlights bi/bo in the actual vmstat table; both models preserve the iostat/vmstat self-correction.",
+      "action": "Remove the unsupported 名字归名字 interpretation in a new reading-only revision. Keep a visible uncertainty marker for the possible address; do not formally adopt Nate, alter the original English, approve roles or silently correct the following statistics explanation.",
+      "human_or_speaker_approval": false
+    },
+    {
+      "id": "S05",
+      "probe": "discarded-credit",
+      "source_units": [212, 213, 214],
+      "observed": "Both models report DSCD means discarded and Thank you Rick. This matches existing captions, but does not identify a full person/handle or establish acronym semantics as a general technical fact.",
+      "action": "Retain as a chat attribution and preserve uncertainty about people and turns. No new spelling or name replacement is required.",
+      "human_or_speaker_approval": false
+    },
+    {
+      "id": "S06",
+      "probe": "ending",
+      "source_units": [436, 438, 439, 441],
+      "observed": "Distil reports It's almost like there's a lot to talk about; medium has So almost like. The topic-planning overlap differs: medium has work or something, distil picking a park or something, while the caption has topic or something. Both models misreport the programme title as end of the terminal. Last reported English segments end at3628.820s and3628.640s respectively.",
+      "action": "Improve436's light self-mocking Chinese without claiming an exact source lexical correction. Do not insert park, invent a next-week topic or treat agreement on the wrong title as proof. Reserve the complete original tail after3630.680s;3634s is a Red Hat end card and3640s another end icon, neither proves the audio is silent.",
+      "human_or_speaker_approval": false
+    }
+  ],
+  "reading_amendments": [
+    {
+      "unit": 170,
+      "before": "不过，名字归名字；你看这里，这一栏。",
+      "after": "不过，［此处疑似称呼，待听辨］，你看这里，还有这里这一部分，",
+      "reason": "Remove an unsupported semantic invention, while explicitly retaining the unresolved possible address instead of asserting Nate from one model. The inline uncertainty is reading-only and must never enter TTS.",
+      "source_english_changed": false,
+      "tts_admissible": false
+    },
+    {
+      "unit": 436,
+      "before": "谁能想到，性能排障，一聊就聊了一个小时？看来，还有不少内容可以讲。",
+      "after": "谁能想到，性能排障一聊就是一个小时？看来，还真有不少东西可聊啊。",
+      "reason": "Preserve the rhetorical question and light ironic almost-like response supported by context and both model variants; reduce mechanical commas. Actual emotional delivery remains untested.",
+      "source_english_changed": false,
+      "tts_admissible": false
+    }
+  ],
+  "caption_index": {
+    "source_units": 441,
+    "nonempty_raw_events": 1583,
+    "tokens_including_caption_markers": 9456,
+    "provider_marker_candidates": 23,
+    "units_with_provider_markers": 21,
+    "explicit_segment_offset_tokens": 7850,
+    "event_start_default_tokens": 1606,
+    "speaker_identities_assigned": 0,
+    "acoustic_word_ends_known": 0,
+    "word_conservation": "All original caption tokens in order, before any lexical source edits; not ASR equivalence, speaker purity or acoustic alignment.",
+    "limitation": "A marker can suggest a turn but does not verify it; absence is not same-speaker evidence. Segment offsets are provider metadata, and missing offsets remain explicit event-start defaults."
+  },
+  "source_images": {
+    "seconds": [1, 15, 1320, 3634, 3640],
+    "individually_opened": true,
+    "source_only_not_finished_film": true,
+    "max_side": 1280,
+    "max_bytes": 32768,
+    "full_visual_or_audio_approval": false
+  },
+  "preserve_uncaptioned_source_audio": {
+    "opening_seconds": ["0", "29.840"],
+    "tail_start_seconds": "3630.680",
+    "tail_end": "actual end of original0:a:0; native-rate production boundary still to be verified",
+    "declared_source_sample_rate": 44100,
+    "declared_source_duration_ts": 160585728,
+    "diagnostic_pcm_rate": 16000,
+    "diagnostic_reference_seconds": "3641.39975",
+    "both_chinese_main_tracks_required_when_produced": true,
+    "production_audio_already_filled": false,
+    "not_a_claim_of_silence_music_or_inaudible_speech": true
+  },
+  "canonical_source_or_translation_modified": false,
+  "older_bound_draft_review_or_commentary_plan_modified": false,
+  "new_tts_or_video_encoding": false,
+  "human_listened": false,
+  "speaker_or_overlap_boundaries_verified": false,
+  "pronunciation_or_emotional_delivery_approved": false,
+  "production_permitted": false,
+  "objective_status": "active"
+}

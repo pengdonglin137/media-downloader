@@ -1,5 +1,11 @@
 # 本仓库的 AI 执行入口
 
+## 2026-11-14：Linux性能访谈来源核对与阅读修订，仍隔离
+
+- `0sZlaQr3e2w`六个完整语境片段各用已有medium／distil离线ASR，一次解码／六次取段／十二ASR共19子步骤及原外层真实0。没有证据强改unperformant或disk-bound；170删除中文凭空增加的“名字归名字”，称呼仍显式待听辨，436仅改善文字自嘲语气。新隔离阅读稿只改这两项，其余439项保持，备注绝不送TTS，旧绑定稿／AI计划和正式`awaiting_translation`不动。
+- 原JSON3的1583非空事件／441块／9456含标记token建立完整来源映射；23供应商交接候选不是角色证明，1606事件起点默认token不是明确词时，声学词尾／批准同人单元均0。五张受限来源图逐张查看；开场0–29.840秒和3630.680秒后原声仅登记未来两版主轨保留，尚未回填，原生采样尾界待核。
+- 入口`/home/pengdl/Videos/translated_backlog/.workflow_logs/request-0sZlaQr3e2w-20261114/checkpoint-source-observation-v1/execution-progress.json`，说明`docs/linux-performance-source-observation-2026-11-14.md`。232原身份、另计源JSON3／9模型资产及98根Python保持，不重复成功ASR／16旧试读；无新TTS／编码／数据库决定。本轮只选择性提交自身审校与说明，保留并行改动；角色、发音／情感、完整视觉／人耳／PotPlayer等仍未批准，目标active。
+
 ## 2026-11-14：十二类AI纠正完整句试读，正文仍隔离
 
 - 新共享`media_workflow.commentary_preview`仅做明确标识“AI补充说明（非讲者原话）”的独立试读，不放宽要求正式稿／角色核验的旧`speech_variants`，也不改98冻结根Python。`bind／validate／preview／check`绑定原片、441来源、作者计划及事实审校；字幕起点只是拟暂停原片插入的锚点，非角色边界或已验证交付时间轴。

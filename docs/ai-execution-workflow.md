@@ -1,5 +1,11 @@
 # AI 执行工作流：自包含中文译配视频
 
+## 2026-11-14：先复用来源核对，再重建完整意群
+
+- `0sZlaQr3e2w`六段十二次离线ASR、19成功子步骤均已完成，只读既有收据，不重试成功ASR／16旧试读。新隔离阅读稿仅修170／436，疑似称呼明确待听辨，不将备注送TTS、不改旧绑定输入或正式`awaiting_translation`。
+- 读取本片`caption-token-provenance`／`source-event-map`／`caption-turn-candidates`重建来源；23标记是候选，1606事件默认起点不是明确词时，无标记不证明同人。不得从9456token守恒推导角色、词尾或声学对齐已批准。
+- 五张来源图只支持局部视觉观察；无字幕开场／片尾须保留实际原声到两版中文主轨，尚未回填、原生尾界待核。完整意群／交接、疑词与AI插入画面时间仍待做。入口`checkpoint-source-observation-v1/execution-progress.json`，详见`docs/linux-performance-source-observation-2026-11-14.md`；本轮只提交自身变更，不关闭人耳／情感／发音等门禁。
+
 ## 2026-11-14：未有正式正文时的AI纠正试读
 
 - 仅当文本明确为AI补充而非讲者原话时，使用`python -m media_workflow.commentary_preview bind AUTHOR.json --output NEW_PLAN.json`绑定作者稿／来源／事实审校；再`validate`，在新目录`preview`，成功后只`check`。实际媒体Python与完整例子见`docs/ai-commentary-preview.md`；不用伪造正式译文或角色证据满足旧试读器。

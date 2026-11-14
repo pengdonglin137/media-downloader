@@ -1,0 +1,72 @@
+{
+  "kind": "targeted-original-source-observation-plan-v1",
+  "video_id": "0sZlaQr3e2w",
+  "work": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_0sZlaQr3e2w",
+  "source_sha256": "83eabc532ba972fcac71bebfd6f1bc14abcd574b5ba07c477eb5c42990da561d",
+  "caption_sha256": "291ac38e5a4d632ce4f9c3f8db31967219f0c532a501f1792926b2df02127a80",
+  "implementation": "asr.py",
+  "language": "en",
+  "hotwords": "",
+  "execution_device": "cpu",
+  "offline_models_only": true,
+  "models": {
+    "medium": "/vol_1t/pyvideotrans/models/models--Systran--faster-whisper-medium/snapshots/08e178d48790749d25932bbc082711ddcfdfbc4f",
+    "distil-large-v3": "/vol_1t/pyvideotrans/models/models--Systran--faster-distil-whisper-large-v3/snapshots/c3058b475261292e64a0412df1d2681c06260fab"
+  },
+  "diagnostic_audio": {
+    "source_stream": "0:a:0",
+    "reference": "complete first-source-audio decode, mono PCM16 at16000Hz",
+    "windows": "absolute sample indices of that complete diagnostic reference",
+    "production_gain_or_channel_preservation_claimed": false,
+    "source_waveform_or_video_modified": false
+  },
+  "probes": [
+    {
+      "key": "opening",
+      "start": {"type": "seconds", "value": "0"},
+      "end": {"type": "unit_end", "unit": 2},
+      "source_units": [1, 2],
+      "purpose": "Observe the29.840-second uncaptained opening with complete first two automatic blocks as context. An empty ASR interval is not proof of silence or music."
+    },
+    {
+      "key": "feels-wordplay",
+      "start": {"type": "unit_start", "unit": 5},
+      "end": {"type": "unit_end", "unit": 10},
+      "source_units": [5, 6, 7, 8, 9, 10],
+      "purpose": "Check unimportant versus a performance-related pun in8–9 without guessing from the response or assigning speakers from punctuation."
+    },
+    {
+      "key": "dd-demo-purpose",
+      "start": {"type": "unit_start", "unit": 54},
+      "end": {"type": "unit_end", "unit": 61},
+      "source_units": [54, 55, 56, 57, 58, 59, 60, 61],
+      "purpose": "Check disk down versus disk-bound or another term in58, retaining the surrounding joke,26 tasks and/dev/zero to/dev/null explanation."
+    },
+    {
+      "key": "vmstat-name",
+      "start": {"type": "unit_start", "unit": 167},
+      "end": {"type": "unit_end", "unit": 174},
+      "source_units": [167, 168, 169, 170, 171, 172, 173, 174],
+      "purpose": "Recover the incomplete But name phrase in170 and preserve the actual iostat/vmstat typing self-correction, without silently fixing the later statistics error."
+    },
+    {
+      "key": "discarded-credit",
+      "start": {"type": "unit_start", "unit": 210},
+      "end": {"type": "unit_end", "unit": 215},
+      "source_units": [210, 211, 212, 213, 214, 215],
+      "purpose": "Check the interruption, discarded suggestion and credited name/handle. Do not invent a person from uncertain ASR or claim acronym etymology from chat."
+    },
+    {
+      "key": "ending",
+      "start": {"type": "unit_start", "unit": 435},
+      "end": {"type": "decoded_audio_end"},
+      "source_units": [435, 436, 437, 438, 439, 440, 441],
+      "purpose": "Observe the whole sign-off and uncaptained tail, including unfinished topic-planning overlap. Do not fabricate a next-week topic, speaker label or silent ending."
+    }
+  ],
+  "human_listened": false,
+  "speaker_or_overlap_boundaries_verified": false,
+  "automatic_source_rewrite_or_approval": false,
+  "new_source_tts_or_existing_trial_repetition_permitted": false,
+  "objective_status": "active"
+}

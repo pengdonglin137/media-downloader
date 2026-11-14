@@ -1,5 +1,11 @@
 # Media Downloader
 
+## 2026-11-14：Linux性能访谈来源观察
+
+- `0sZlaQr3e2w`六段双模型离线核对及441块全文来源索引完成；只在新隔离阅读稿修170疑似称呼与436自嘲表达，其余439项不变。19实际子步骤及原外层0，不代表人耳、角色、发音或情感批准。
+- 五张来源图已逐张看；开场／片尾原声保留仍是未来生产要求，没有新正文TTS、编码或正式安装。正式工程仍`awaiting_translation`，16条旧AI完整句试读不重复制作。
+- 说明：`docs/linux-performance-source-observation-2026-11-14.md`；独立断点：`/home/pengdl/Videos/translated_backlog/.workflow_logs/request-0sZlaQr3e2w-20261114/checkpoint-source-observation-v1/execution-progress.json`。本轮选择性提交自身审校与说明，保留并行工作区；目标active。
+
 ## 当前进度：明确AI归属的纠正试读
 
 - `0sZlaQr3e2w`已有12类技术纠正的16条完整句试读，含四组术语／措辞对照；云溪正常速率，每条16.152–21.264秒。没有替原主持说话，也没有安装进视频。
