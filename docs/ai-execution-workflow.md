@@ -1,5 +1,11 @@
 # AI 执行工作流：自包含中文译配视频
 
+## 2026-11-14：I/O候选至284，下一步从285续审
+
+- 本轮作者`data/translation_reviews/0sZlaQr3e2w-io-utterances-20261114.json`、派生107记录及累计1–284稿在`checkpoint-io-utterances-v1`；61项只读核验0。170称呼、184残句、251失败命令三hold保留，不将空spoken作为静音导入；全部角色unknown，正式awaiting_translation。
+- 已有四份ASR不重跑；1938秒旧图重新看过，lsint输入不当口述证明，2205图只复用旧观察。六份手册/源码依固定版本或内容快照绑定；错误原讲、AI补充和运行时实测分开，本轮无新ASR/TTS/解码/编码。
+- 下一步285–441继续nice/OOM/内存/swap/PCP/Cockpit及结尾，保持F07–F14与原声主轨义务，后续仍需角色/声学准入和完整双版本。操作细节见`docs/linux-performance-io-utterances-2026-11-14.md`；共享文档仅暂存HEAD加本轮段落，保留并行未提交工作。
+
 ## 2026-11-14：从169之后续读，不重复已有完整语境
 
 - `0sZlaQr3e2w`新增`data/translation_reviews/0sZlaQr3e2w-middle-utterances-20261114.json`；当前对照/累计1–169阅读稿及72项核验在`checkpoint-middle-utterances-v1`。4hold须保留原声上下文，不将空值送生产当静音；全部角色unknown，正式awaiting_translation。
