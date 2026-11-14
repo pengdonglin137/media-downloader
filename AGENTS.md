@@ -1,5 +1,14 @@
 # 本仓库的 AI 执行入口
 
+## 2026-11-14：SPEC语境修订已正式安装，当前190声音候选待听辨
+
+- `cjiUXZh0ZCo`155的SPEC基准语境修订已从验证候选正式安装到中文母版／烧字上传版；只改该项中文与spoken，其余320译文、321来源窗保持。复用完整正常速率22.848秒／548352样本试读，适配27.47秒原窗，不新增TTS、ASR或媒体编码。23实际原声区、39原声／事件占位、40.2秒导读及85章保持。
+- 正式运行时为请求内`editorial_production_runtime_v4.py`，根目录仍叫`editorial-production-v2`；`file-transaction-v4`的21项精确归档／替换已committed，真实正式路径质量与upload／release绑定已刷新。母版SHA`6f7306b52889d11b4e4d83681f82c188b9ac10a96925b6083bf26f64e1b6736c`，上传SHA`874e09c5916bb1e86f3ac5b160dc85e36be11d5e2bb16cfe35a860c34830210b`；旧两版及工程状态保留在事务归档，不再把旧live路径当当前依赖。
+- 暂存／正式实际复合WAV各有新扫描，候选均190：旧189项逐项保留，新增155的SPEC缩写候选未试听。12原声短尾只分类为“不适用合成尾句规则”，不删候选、不dismiss、不写人耳决定。共享库只读，一致性备份私库保留全部既有扫描／问题／决定历史；技术`eligible_with_unreviewed_candidates`不是声音批准。
+- 新15来源＋17事务＋5数据库＋15生产合同共52测试通过；前38暂存测试按精确身份复用。committed只读恢复与正式路径有限VLC真实0，16条`no frame!`警告保留，6张新VLC截图未图审。完整解码、167187视频PTS／时长、两版中文AAC／PCM及10张实际上传局部图审按精确媒体身份继承，不冒充重新执行或全片验收。
+- 事务v1／v2测试与prepare v2／v3的四个真实1保留；v4使用已测v3事务和v2数据库JSON行桥接，失败前未替换正式媒体。98冻结根Python和290旧生产MP3保持；不重跑已成功媒体，不改共享队列／总数，不发布或新增交付外挂。
+- 入口：`/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/checkpoint-editorial-installed-v4/execution-progress.json`；操作见同请求`EDITORIAL-INSTALLED-RUNTIME-v4.md`。裸旧CLI不认识新来源，不重跑已执行prepare／apply或覆盖已绑定恢复收据。发音／情感、全片人耳／视觉、逐词声画、PotPlayer及最终批准仍未完成；新链接`0sZlaQr3e2w`仍仅来源已准备，目标active。
+
 ## 2026-11-14：SPEC修订旁白与原生包暂存绑定，38项测试通过
 
 - 仅`cjiUXZh0ZCo`：新增请求内显式旁白来源`single-source155-editorial-original-voice-v1`，在独立`editorial-native-v1/.zh_work_yt_cjiUXZh0ZCo`绑定当前编译／统计／完整新PCM、155试读生产证据和23实际原声区；不是拿旧全片TTS生产器冒充新合成。`historical_generation_proven=false`，裸冻结旁白校验器因附加契约主动拒绝，旧来源仍走旧验证。

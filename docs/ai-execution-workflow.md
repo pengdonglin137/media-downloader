@@ -1,5 +1,14 @@
 # AI 执行工作流：自包含中文译配视频
 
+## 2026-11-14：SPEC修订正式安装与恢复入口
+
+- 读取`request-cjiUXZh0ZCo-20261114/checkpoint-editorial-installed-v4/execution-progress.json`与`EDITORIAL-INSTALLED-RUNTIME-v4.md`。当前正式v4位于历史命名`editorial-production-v2`目录；旧native-staging断点只代表当时状态，不覆盖新committed安装。仅155中文／spoken变更，其他320译文、所有321源窗及23实际原声区保持。
+- 正式只读检查：`/vol_1t/pyvideotrans/.venv/bin/python /home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/editorial_production_runtime_v4.py check`。裸旧CLI不认识新旁白／包协议，不用它render或release现有新成片；prepare／apply已成功，禁止重复；recover也已执行且有绑定收据，不重复覆盖。
+- 暂存与正式实际音频各扫描一次，正式speech_review／delivery_quality／upload_export／release绑定当前源文、WAV和精确媒体。190候选中旧189逐项保留，仅新增SPEC；12原声短尾由源PCM实证分类“不适用合成尾句”，不是试听dismiss或角色／可懂度批准。私库保留完整共享历史，原共享库只读，不能换库丢弃历史或伪造决定。
+- 21项文件先归档、逐项观察和原子替换，事务真实committed；只读恢复verified且files_replaced=false。52新测试通过，前38暂存测试仅身份继承；事务v1／v2和prepare v2／v3的四个失败出口1保留，不覆盖旧实现或补写0。v3未运行生产测试不计入通过总数。
+- 有限Linux libVLC／Xvfb／dummy音频正式两路径检查0；章节／切轨／截图通过，但16条`no frame!`保留，6新截图未Agent图审。完整解码、167187实际视频PTS／时长、两版中文AAC／PCM及10张局部上传图审通过精确成片字节继承，不重复编码／TTS／ASR，也不称连续全片、人耳或PotPlayer通过。
+- 后续优先完整意群试听与原声交接核对，SPEC等190候选保持待验，不能自动选ASR“赢家”。98冻结根Python、290旧生产MP3保持，不改并行队列／全局数；`0sZlaQr3e2w`仍只来源准备，需全文源文／真实双人边界审校和中文译配，目标active。
+
 ## 2026-11-14：编辑旁白与原生包暂存的续做入口
 
 - `cjiUXZh0ZCo`先读`checkpoint-editorial-native-staging-v1/execution-progress.json`及请求内`EDITORIAL-NATIVE-STAGING-v1.md`。旁白绑定、21测试、包绑定、17测试及登记均已有真实0，不重跑成功媒体、TTS、ASR或覆盖证明。暂存入口为请求内`editorial-native-v1/.zh_work_yt_cjiUXZh0ZCo`，非正式工程。

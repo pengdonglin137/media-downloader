@@ -1,5 +1,12 @@
 # Media Downloader
 
+## 2026-11-14：SPEC语境修订正式双版已安装
+
+- `cjiUXZh0ZCo`155补回SPEC基准语境的完整朗读已正式进入中文母版和烧字上传版；原窗、其余320译文、23原声区、40.2秒导读及85章保持。旧两版和工程状态精确归档，没有新增TTS／ASR或媒体编码。
+- 新52项回归测试、21文件事务安装、只读恢复和正式路径有限VLC通过；新质量扫描保留旧189声音候选，新增SPEC候选，共190项未试听。12原声短尾仅不适用合成尾句规则，技术通过不代表发音、情感或全片人耳通过；VLC16条解码警告保留。
+- 正式成片仍在`/home/pengdl/Videos/translated_backlog/Science of Performance 2019_中文配音.mp4`和`/home/pengdl/Videos/translated_backlog/Science of Performance 2019_中文上传版.mp4`。续做先读请求内`EDITORIAL-INSTALLED-RUNTIME-v4.md`，入口`checkpoint-editorial-installed-v4/execution-progress.json`；使用显式v4只读check，不重跑已成功安装或旧CLI渲染。
+- 最新链接`0sZlaQr3e2w`仍为来源已准备／未全文译配，本片优化不代表其他任务完成。全片听辨、视觉、逐词声画、PotPlayer与最终语言声音批准仍待完成。
+
 ## 2026-11-14：SPEC修订原生依赖暂存验证
 
 - `cjiUXZh0ZCo`修订候选已有显式旁白／原生包暂存运行时；当前编译、统计、新音频、三字幕及实际双版媒体依赖绑定，21＋17共38项回归测试通过，487身份核验通过。未重做TTS或媒体，正式两版不变。
