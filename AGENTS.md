@@ -1,5 +1,12 @@
 # 本仓库的 AI 执行入口
 
+## 2026-11-14：内存分配新增十三段来源核对与十项阅读修订
+
+- 共享`source_probe_extension`只读复核原参考与旧十子进程，新增13段729秒/26模型观察、十新子进程/本次外层/独立check均0；没有重复完整解码、旧ASR或八条试读，不改已绑定`source_probes.py`。10合成有限夹具通过，不冒充真实ASR/人耳。
+- 新看379/397/1559/2134/3508秒五张受限来源图，≤1280/32768字节；a/b/c姓名与真正Scylla DB页已补证。28/29/41/65/110/114/156/196/206/258另存中文候选，其余259中文、269原文/原窗/10350token保持。256K不擅改KiB，HFTP/HFD、19插话与厂商不补造，第二释放API不猜malloc_trim；NUMA断言仍与F08纠正分开。
+- 旧476项内容按471未改身份/5共享文档扣除本轮插入分账保持；三字段旧身份误用完整mtime比较的工具1及登记v1对自有新增文档仍要求旧整文件身份的1均保留，重核不补旧0。98根Python未改，20hold/33旧partial/12技术发现均保留，正式awaiting_translation，无新TTS/中文全片/角色/发音/情感/人耳/播放器批准，目标active。
+- 入口`request-gYfd25Bdmws-20261114/checkpoint-source-extension-v1/execution-progress.json`，说明`docs/memory-allocation-source-extension-2026-11-14.md`。只提交自身文件/插入段，保留并行修改；不改共享队列/总数、不发布、不声称后台续跑。
+
 ## 2026-11-14：内存分配八条完整句AI术语/表达试读，未选胜
 
 - gYfd25Bdmws复用共享commentary_preview/visual，为F01/F02/F05制作四组八条明确AI补充说明，云溪正常速率、实际16.752–26.136秒/共176.832秒；原词与分组/中文解释对照，措辞同时变化，不当情感单变量实验。nallocx/sallocx/xallocx、sdallocx/void/size_t及allocated/active/resident精确显示，读法不当官方发音或全局词典。

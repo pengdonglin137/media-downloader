@@ -1,5 +1,7 @@
 # 原声疑句离线探查
 
+已有成功完整参考而仅需增加新疑句时，使用 `media_workflow.source_probe_extension`；见 `source-probe-extension.md`。它只读验证旧证明并切取新窗，不重复完整解码或旧ASR；原工具及既有绑定不改。
+
 `media_workflow.source_probes` 是配置驱动的只读来源观察适配器。每个视频只提供JSON计划和收据，不复制单片Python运行器；不会导入译文、选角色、合成声音或关闭任何人耳门禁。
 
 ```bash

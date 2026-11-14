@@ -1,5 +1,9 @@
 # Media Downloader
 
+## 内存分配十三段新增来源核对（2026-11-14）
+
+新增共享`media_workflow.source_probe_extension`复用既有完整参考，只做13段729秒的新疑句观察：26原始模型结果、十新子进程及独立检查通过，不重解码整片/重跑旧ASR。五张实际来源图补证a/b/c姓名、ScyllaDB等，十项中文阅读候选另存，其余259项不变。仍非正式中文成片，角色/声音/人耳/播放器未批准。见`docs/memory-allocation-source-extension-2026-11-14.md`及`docs/source-probe-extension.md`；只提交自身变更，保留并行工作。
+
 ## 内存分配术语与自然表达试读（2026-11-14）
 
 已生成四组八条完整句AI试读及有声审片，比较calloc、jemalloc尺寸接口与统计字段的原词/分组/解释式表达，均正常速率、未截尾变速。它们明确不是讲者原话或已安装正文，发音/情感尚未试听选胜；播放目录、实际时长和仍待完成的全片范围见`docs/memory-allocation-commentary-2026-11-14.md`。

@@ -1,0 +1,63 @@
+{
+  "kind": "source-extension-evidence-index-v1",
+  "video_id": "gYfd25Bdmws",
+  "objective_status": "active",
+  "registration": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-gYfd25Bdmws-20261114/checkpoint-source-extension-v1/metadata-registration-v2.json",
+    "bytes": 46372,
+    "mtime_ns": 1794668913653838917,
+    "sha256": "a36ad945e514540d2ba4f37e9e07159b4f978ee18d940dd32f1ccc0d2c96a54b"
+  },
+  "results": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-gYfd25Bdmws-20261114/checkpoint-source-extension-v1/probes-v1/observations.json",
+    "bytes": 9531,
+    "mtime_ns": 1794668446864768332,
+    "sha256": "6f46184952008025ddaa2a3eacffbad5c64524ff85cf937af34577e9000ea09d"
+  },
+  "reference_proof": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-gYfd25Bdmws-20261114/checkpoint-source-extension-v1/probes-v1/extension.json",
+    "bytes": 23157,
+    "mtime_ns": 1794668086774582886,
+    "sha256": "d1fd6e0f8398e9ef5309acb700ea7d441589ea1cf99760cec6387f00250a2ef1"
+  },
+  "verification": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-gYfd25Bdmws-20261114/checkpoint-source-extension-v1/probes-v1/verification.json",
+    "bytes": 745,
+    "mtime_ns": 1794668446911768858,
+    "sha256": "e9273e67782bb7f2cc4f07c43cb014167debcecd2177fec123e84e0fedae2ae9"
+  },
+  "standalone_check": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-gYfd25Bdmws-20261114/checkpoint-source-extension-v1/check-v1.stdout.log",
+    "bytes": 745,
+    "mtime_ns": 1794668483812180591,
+    "sha256": "e9273e67782bb7f2cc4f07c43cb014167debcecd2177fec123e84e0fedae2ae9"
+  },
+  "reading": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-gYfd25Bdmws-20261114/checkpoint-source-extension-v1/reading-candidates-v3.json",
+    "bytes": 237947,
+    "mtime_ns": 1794668717429738627,
+    "sha256": "99e976b01596365951ebe855a3ef82e7f3b3506b03af612ac9d8105611b3e6c0"
+  },
+  "plan": {
+    "path": "/home/pengdl/media-downloader/data/translation_reviews/gYfd25Bdmws-source-extension-20261114.json",
+    "bytes": 4367,
+    "mtime_ns": 1794667992885422662,
+    "sha256": "38061579b7f9ae2cfefa87e79bb44a0837b20a11bc1ea01bae7ce8ae23c96287"
+  },
+  "review": {
+    "path": "/home/pengdl/media-downloader/data/translation_reviews/gYfd25Bdmws-source-extension-review-20261114.json",
+    "bytes": 16062,
+    "mtime_ns": 1794668671430240678,
+    "sha256": "42881e42d838b82fc6ea5411c489336a1248b433f156b74ecf62223f68bdfb06"
+  },
+  "new_contexts": 13,
+  "new_context_seconds": 729,
+  "new_observations": 26,
+  "new_processes": 10,
+  "old_processes_rerun": 0,
+  "full_reference_decodes": 0,
+  "all_source_holds_retained": true,
+  "human_or_source_speaker_approved": false,
+  "canonical_stage": "awaiting_translation",
+  "source_review_checkpoint": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-gYfd25Bdmws-20261114/checkpoint-source-extension-v1/execution-progress.json"
+}

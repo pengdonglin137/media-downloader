@@ -1,0 +1,205 @@
+{
+  "kind":"quarantined-source-reading-extension-v1",
+  "video_id":"gYfd25Bdmws",
+  "objective_status":"active",
+  "baseline_reading":{
+    "path":"/home/pengdl/Videos/translated_backlog/.workflow_logs/request-gYfd25Bdmws-20261114/checkpoint-source-probes-v1/reading-candidates-v2.json",
+    "bytes":236964,
+    "mtime_ns":1794665879873475598,
+    "sha256":"9615e51f42cf14a683c405836d611e869f51834d34ff7b02ab0a1109adac4fe8"
+  },
+  "source_tsv_sha256":"cadf132644a60b9a2ddfe553498eb4de6c180043eab3c44f2e9a93c5b54b6f60",
+  "probe_plan":"data/translation_reviews/gYfd25Bdmws-source-extension-20261114.json",
+  "probe_results_directory":"/home/pengdl/Videos/translated_backlog/.workflow_logs/request-gYfd25Bdmws-20261114/checkpoint-source-extension-v1/probes-v1",
+  "checkpoint":"/home/pengdl/Videos/translated_backlog/.workflow_logs/request-gYfd25Bdmws-20261114/checkpoint-source-extension-v1/execution-progress.json",
+  "observed_scope":{
+    "new_contexts":13,
+    "new_context_seconds":729,
+    "new_raw_model_observations":26,
+    "new_actual_worker_processes":10,
+    "parent_processes_verified_not_rerun":10,
+    "full_reference_samples":58632801,
+    "full_reference_decoded_again":false,
+    "new_tts_or_full_chinese_film":false
+  },
+  "probe_review":[
+    {
+      "probe":"fragmentation-aside",
+      "source_hold_ids":["H02"],
+      "observed_progress":"Medium omits the short aside; distil gives an incoherent downside/looks fragment. Both preserve the surrounding three-contiguous-block explanation.",
+      "action":"Do not invent or discard the source aside. No override to19, no new speaker identity, no repeat ASR. The unclear source interval still needs acoustic review or explicitly bounded original-voice preservation."
+    },
+    {
+      "probe":"string-presenter-labels",
+      "source_hold_ids":["H02"],
+      "observed_progress":"Both give A/Paul, B/Hana-or-Hannah, C/me. The actual379-second code frame independently spells Paul Khuong, Hannes Frederic Sowa and Samy Hadi Mohamed Al Bahra in a/b/c order.",
+      "action":"Normalize the written names using the actual source code, not an inferred face or voice identity. Revise28/29 together for readable continuity; speaker_id remains unknown."
+    },
+    {
+      "probe":"allocator-history-sharing",
+      "source_hold_ids":["H03","H04"],
+      "observed_progress":"Both contain PT-Malloc/older Lipsy-or-Lipsi-Malloc, a small bounded-cache-like phrase in front of a global heap, then fixed subheaps. Both also retain read-only data and checking L3 cache validity.",
+      "action":"Explicitly normalize41 to ptmalloc/older glibc malloc using context and the source's397-second glibc(ptmalloc) spelling. Do not claim exact acoustic spelling.43/44 already preserve the source's odd L3 statement; leave them unchanged and do not invent a coherence mechanism or endorse a universal hardware rule."
+    },
+    {
+      "probe":"security-graph-disclaimer",
+      "source_hold_ids":["H05"],
+      "observed_progress":"Both preserve the diagram-does-not-really-illustrate-my-point disclaimer, canaries/guard pages, uncertain SlimGuard use and the speaker's self-correction to high performance.",
+      "action":"Strengthen65's natural Chinese disclaimer.66/67 already preserve uncertainty and the corrected high-performance meaning; no invented product success or universal security/overhead law."
+    },
+    {
+      "probe":"size-class-selection",
+      "source_hold_ids":["H06"],
+      "observed_progress":"Both distinguish segregated free-list use from jemalloc/tcmalloc allocation/storage selection, including a ptmalloc case and jemalloc internal fragmentation.",
+      "action":"Revise110 without adding an unsupported maybe.106/109 remain unchanged. F03 remains open:24 bytes is the historical example, not a universal glibc rule; this observation does not establish that ptmalloc lacks size classes."
+    },
+    {
+      "probe":"tiny-slab-allocator",
+      "source_hold_ids":["H06"],
+      "observed_progress":"Both independently spell macOS allocator in the complete tiny-size/slab-like sentence, unlike the old caption's the map. The1559-second slide supports the16-byte/4KB/256-block example but does not name macOS.",
+      "action":"Restore macOS in114 from the two raw speech observations, not from the slide. Preserve the gross-simplification qualifier and do not turn the statement into all macOS allocation sizes or a current implementation guarantee."
+    },
+    {
+      "probe":"tlb-cache-unit",
+      "source_hold_ids":["H10"],
+      "observed_progress":"Both give256K in the L1-TLB/L2 comparison. Medium says read and distil says write in the following lookup sentence. The2134-second slide shows4K DTLB~L2 D$ and4KB/2MB page diagrams, not an explicit256 value.",
+      "action":"Restore the literal256K in156, without silently changing it to256KiB or claiming a universal L2 size. The original English says read and the next phrase is find your data; retain a lookup reading while documenting the model disagreement."
+    },
+    {
+      "probe":"allocator-bleed-attribution",
+      "source_hold_ids":["H11"],
+      "observed_progress":"The models give HFTP versus HFD for the credited community; both preserve allocator bleed and producer/consumer context.",
+      "action":"No guessed HFT/HPC/HIV expansion or attribution.166 stays unchanged and the acoustic hold remains."
+    },
+    {
+      "probe":"numa-default-policy",
+      "source_hold_ids":["H13"],
+      "observed_progress":"Both contain mmap used by malloc, default/local-node allocation and the explicit does-not-reach-other-nodes assertion.",
+      "action":"Restore mmap/malloc and the speaker's bind-or-try-to-allocate self-correction in196. Keep197's source assertion as a quotation candidate, not correct Linux advice. F08's separate default-policy/fallback correction must remain available and must accompany future technical presentation."
+    },
+    {
+      "probe":"page-metadata-allocator",
+      "source_hold_ids":["H14"],
+      "observed_progress":"Both give glibc-like names, malloc/ptmalloc and metadata-before-page language. Medium writes glibc and distil GLIPC; neither supports a separate allocator called so GFC.",
+      "action":"Normalize206 to glibc using observed context and the source's explicit397-second allocator spelling. This is a named candidate, not proof that every glibc allocation consumes one additional page.207's conditional example remains unchanged."
+    },
+    {
+      "probe":"purge-return-memory",
+      "source_hold_ids":["H16"],
+      "observed_progress":"Both preserve jemalloc purging particular arenas followed by generic other ways for certain allocators to return free memory; neither names a second release API.",
+      "action":"Keep217/218 unchanged. Do not insert malloc_trim from library familiarity or declare a missing spoken API recovered; the complete diagnostic context is now available for listening."
+    },
+    {
+      "probe":"malloc-check-warning",
+      "source_hold_ids":["H17"],
+      "observed_progress":"Neither model gives a stable second vendor name; medium inserts excuse me and distil has a repetition. Both contain malloc-check, the production/security warning and a debugging trade-off.",
+      "action":"Keep225/226/227's non-invented generic attribution and meaning. Do not restore Sony, invent a glibc source quotation, or infer exact identifier punctuation from ASR. The historical glibc manual is independent technical guidance, not proof of this speech. F09 stays open."
+    },
+    {
+      "probe":"log-structured-database",
+      "source_hold_ids":["H19"],
+      "observed_progress":"Both give Silla DB/SillaDB. The actual3508-second source frame explicitly says Scylla DB's log-structured allocator and treat long-lived and short-lived allocations differently.",
+      "action":"Restore ScyllaDB in258 using this actual source slide, not a guessed product or web result. Keep the tentative recommendation and speaker-attributed historical benefit rather than promising speedup or fragmentation improvement for every application."
+    }
+  ],
+  "overrides":[
+    {
+      "source_unit":28,
+      "zh_candidate":"先给三个字符串分配空间，再用 printf 打印。即便是当时常见的几种分配器，分配位置也相差不小。这里的 A、B、C……",
+      "source_hold_ids":["H02"],
+      "probe":"string-presenter-labels",
+      "reason":"Prepare a natural cross-row introduction for the now-evidenced a/b/c identities, preserving the three strings and historical allocator comparison."
+    },
+    {
+      "source_unit":29,
+      "zh_candidate":"A 是 Paul，B 是 Hannes，C 是我自己。不同分配器会把这些字符串放在不同的缓存行、不同的页上，等等。后面会看到，这对真实工作负载……",
+      "source_hold_ids":["H02"],
+      "probe":"string-presenter-labels",
+      "reason":"Both speech observations establish the order; source379 explicitly spells the names in the matching a/b/c code. This does not establish speaker-pure production boundaries."
+    },
+    {
+      "source_unit":41,
+      "zh_candidate":"比如 ptmalloc 或较早的 glibc malloc，是在全局堆前加一层容量固定的小缓存。较新的分配器则常常维护固定数量的子堆，再让多个线程……",
+      "source_hold_ids":["H03"],
+      "probe":"allocator-history-sharing",
+      "reason":"Recover the allocator names as an explicit contextual normalization from PT-Malloc/Lipsy-or-Lipsi and the source's glibc(ptmalloc) spelling. Preserve older and the contrast of caches versus fixed subheaps; no current architecture guarantee."
+    },
+    {
+      "source_unit":65,
+      "zh_candidate":"缓存表现。这里这张图其实不太能说明我想表达的意思。安全保证越多，在这个例子里需要付出的内存占用就越大，……",
+      "source_hold_ids":["H05"],
+      "probe":"security-graph-disclaimer",
+      "reason":"Both complete contexts explicitly disclaim the graph. Preserve in-this-case rather than making the diagram or overhead trend a general law."
+    },
+    {
+      "source_unit":110,
+      "zh_candidate":"尺寸类别就更重要了。对 ptmalloc 来说，这意味着没法充分利用按尺寸分类的空闲链表；对 jemalloc，则会表现为……",
+      "source_hold_ids":["H06"],
+      "probe":"size-class-selection",
+      "reason":"Both retain the free-list/internal-fragmentation contrast; remove the earlier unsupported maybe while keeping the example's context. This is not a claim that ptmalloc has no size classes.",
+      "technical_finding_ids_still_open":["F03"]
+    },
+    {
+      "source_unit":114,
+      "zh_candidate":"可以粗略分成两类方案，这里是大幅简化。第一类类似 slab，tcmalloc 和 jemalloc 都这么做。macOS 分配器也有针对很小尺寸分配的……",
+      "source_hold_ids":["H06"],
+      "probe":"tiny-slab-allocator",
+      "reason":"Both new speech observations explicitly recover macOS allocator. The slide supports the example, not this product name; keep the small-size and gross-simplification qualifiers."
+    },
+    {
+      "source_unit":156,
+      "zh_candidate":"比如超过“256K”、远大于二级缓存容量的哈希表，查找数据时，当然会遇到二级缓存未命中，甚至需要访问内存。……",
+      "source_hold_ids":["H10"],
+      "probe":"tlb-cache-unit",
+      "reason":"Both models recover256K; retain K literally rather than inventing the binary unit KiB. Medium/original read versus distil write remains documented; the adjacent find-data context supports lookup, not a universal cache-capacity rule."
+    },
+    {
+      "source_unit":196,
+      "zh_candidate":"再把内存分配的工作分散到其他核心。Linux 默认情况下，如果用 mmap 分配内存——malloc 也会用到 mmap——就会将内存绑定，或者说，尝试从本地节点分配，……",
+      "source_hold_ids":["H13"],
+      "probe":"numa-default-policy",
+      "reason":"Both recover mmap/malloc and the speaker's bind-or-try self-correction. The following categorical no-remote-fallback source assertion is not endorsed; the separate F08 correction remains mandatory.",
+      "technical_finding_ids_still_open":["F08"]
+    },
+    {
+      "source_unit":206,
+      "zh_candidate":"所以仍推荐这种做法。不过，有些分配器，比如这里提到的 glibc，元数据需要放在该页之前。……",
+      "source_hold_ids":["H14"],
+      "probe":"page-metadata-allocator",
+      "reason":"Explicit contextual normalization of medium glibc/distil GLIPC, not an independently invented so GFC allocator. Keep the following page-alignment example conditional, not a universal extra-page rule."
+    },
+    {
+      "source_unit":258,
+      "zh_candidate":"下面这个建议还比较初步：短寿命和长寿命的分配混在一起时，可以尝试分开处理。ScyllaDB 的日志结构式分配器就这么做；他们发现，这对性能和减少碎片很有效。……",
+      "source_hold_ids":["H19"],
+      "probe":"log-structured-database",
+      "reason":"The actual3508-second source slide explicitly spells Scylla DB, agreeing with both approximate speech observations. Preserve tentative advice and the historical report, not a general performance promise."
+    }
+  ],
+  "image_observations":[
+    {"seconds":379,"file":"source-images-v1/source-379.jpg","agent_viewed":true,"finding":"Code explicitly assigns a/b/c to Paul Khuong, Hannes Frederic Sowa and Samy Hadi Mohamed Al Bahra. Names are code literals, not face-based speaker identification."},
+    {"seconds":397,"file":"source-images-v1/source-397.jpg","agent_viewed":true,"finding":"Memory-layout table spells glibc(ptmalloc), jemalloc, tcmalloc and macos. It supports allocator spelling and historical example values, not the later exact spoken cache architecture."},
+    {"seconds":1559,"file":"source-images-v1/source-1559.jpg","agent_viewed":true,"finding":"Slide says16-byte allocation, new4KB page and25616-byte blocks; macOS is not written here. No primary-product attribution inferred from this frame."},
+    {"seconds":2134,"file":"source-images-v1/source-2134.jpg","agent_viewed":true,"finding":"Locality and Huge Pages diagram says4K DTLB~L2 D$, with4KB pages and a2MB page. It does not display256K, so the recovered number rests on the speech observations."},
+    {"seconds":3508,"file":"source-images-v1/source-3508.jpg","agent_viewed":true,"finding":"Custom Memory Allocation explicitly names Scylla DB's log-structured allocator and separating long/short-lived allocations; also shows jemalloc custom arenas. This is the required actual source naming evidence missing from the earlier3490 frame."}
+  ],
+  "evidence_policy":{
+    "diagnostic_reference":"Borrowed unchanged16kHz mono PCM16; all new windows exactly equal its declared complete slices. Not native-signal preservation.",
+    "old_draft_review_revision_and_reading_immutable":true,
+    "source_english_or_times_modified":false,
+    "speaker_roles":"unknown",
+    "spoken":null,
+    "tts_admitted":false,
+    "word_times_are_acoustic_boundaries":false,
+    "human_listened":false,
+    "pronunciation_or_emotional_delivery_approved":false,
+    "canonical_stage":"awaiting_translation",
+    "canonical_translation_created":false,
+    "all_twenty_source_hold_records_retained":true,
+    "all_thirty_three_historical_partial_markers_retained":true,
+    "technical_findings_closed":[],
+    "new_primary_web_content_obtained":false,
+    "web_retrieval_note":"The current YouTube open and primary-domain searches returned no usable page content. No successful new primary retrieval is claimed; observed source frames and the existing bound snapshots are separate evidence."
+  },
+  "next_action":"Review the remaining literal disagreements, complete source-speaker/utterance admission and explicitly bounded original-voice policy before canonical translation import. Preserve all successful probes and auditions; do not repeat them or claim a pronunciation/emotion winner."
+}

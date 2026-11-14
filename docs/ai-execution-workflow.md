@@ -1,5 +1,11 @@
 # AI 执行工作流：自包含中文译配视频
 
+## 2026-11-14：新增疑句复用完整参考，不重复成功来源步骤
+
+已有成功`source_probes`作业时，用`python -m media_workflow.source_probe_extension validate/run/check NEW_PLAN.json --reference PARENT_DIR`，run/check另附`--output`。先只读验证旧真实证明与完整依赖，再按样本切**新**目标，只执行原worker的ASR命令。父步骤不当作新步骤，不伪造本次解码收据；父/生产/输出隔离、拒绝覆盖、失败保留，详见`source-probe-extension.md`。
+
+本轮gYfd25Bdmws新增13语境/26观察与五来源图，当前十项阅读修订仅覆盖zh，全部原文/时间和未知角色/声学/旧hold保持。256K不补KiB；HFTP/HFD、插话与未说出的API不猜译。后续从`checkpoint-source-extension-v1/execution-progress.json`续做来源准入，不重跑旧ASR/八条试读，不把ASR一致或正确产品拼写当作发音/情感/人耳批准。
+
 ## 2026-11-14：用完整AI说明比较术语和自然表达，不偷渡源角色
 
 来源角色/声学尚未核准时，完整原稿不得直接送TTS。可把已核对的独立技术纠正明确标为AI补充，复用共享commentary_preview/visual形成完整正常语速候选；精确显示和事实条件不变，原词/分组/中文解释以及平述/问答分别留理由。无需新增单片程序或放宽正式试读器，不能将词界、解码或静态图审当人耳选胜。gYfd25Bdmws当前八声音/八MKV及保留门禁见`docs/memory-allocation-commentary-2026-11-14.md`，仅新AI声音实际制作，不重跑旧ASR/TTS/媒体，不安装正文、改词典或关闭原hold。

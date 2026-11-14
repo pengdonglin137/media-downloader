@@ -1,0 +1,35 @@
+{
+  "kind":"source-utterance-asr-probes-v1",
+  "work":"/home/pengdl/Videos/translated_backlog/.zh_work_yt_gYfd25Bdmws",
+  "source":{
+    "path":"/home/pengdl/Videos/translated_backlog/.zh_work_yt_gYfd25Bdmws/download/What Programmers Should Know About Memory Allocation - S. Al Bahra, H. Sowa, P. Khuong - CppCon 2019 [gYfd25Bdmws].mp4",
+    "sha256":"787ab8f036c5f7e9dc3e88153c11b7e2890d1e788fa1af23e45952d161c4fc00",
+    "audio_stream":0
+  },
+  "models":{
+    "medium":"/vol_1t/pyvideotrans/models/models--Systran--faster-whisper-medium/snapshots/08e178d48790749d25932bbc082711ddcfdfbc4f",
+    "distil-large-v3":"/vol_1t/pyvideotrans/models/models--Systran--faster-distil-whisper-large-v3/snapshots/c3058b475261292e64a0412df1d2681c06260fab"
+  },
+  "cpu_threads":4,
+  "language":"en",
+  "hotwords":"",
+  "reference_evidence":[
+    {"path":"/home/pengdl/media-downloader/data/translation_reviews/gYfd25Bdmws-quarantined-draft-20261114.json","bytes":47782,"mtime_ns":1794663852093183043,"sha256":"02840b1e1452a142f92b0e678c90493a9b934a6f0fe01ec75ee92a282630d384"},
+    {"path":"/home/pengdl/media-downloader/data/translation_reviews/gYfd25Bdmws-technical-review-20261114.json","bytes":23353,"mtime_ns":1794663852094183090,"sha256":"c20b641e5a936f9f393e738455c5165108fc75454304b8b8cf32aa7e0c649cb3"}
+  ],
+  "probes":[
+    {"key":"fragmentation-aside","start":"239","end":"280","source_units":[18,19,20],"purpose":"H02: recover the brief third-row aside without inventing its content or speaker."},
+    {"key":"string-presenter-labels","start":"374","end":"418","source_units":[28,29,30],"purpose":"H02: recover A/B/C string and presenter associations from their full spoken example; no name hotwords."},
+    {"key":"allocator-history-sharing","start":"544","end":"628","source_units":[40,41,42,43,44,45],"purpose":"H03/H04: distinguish allocator names, bounded caches and fixed subheaps; retain the exact read-only/cache-sharing qualifier without inferring a hardware mechanism."},
+    {"key":"security-graph-disclaimer","start":"882","end":"953","source_units":[64,65,66,67,68],"purpose":"H05: preserve the speaker's diagram disclaimer, canary/guard-page discussion and uncertain SlimGuard assessment."},
+    {"key":"size-class-selection","start":"1442","end":"1531","source_units":[105,106,107,108,109,110,111],"purpose":"H06: distinguish segregated free lists versus allocation/storage selection, including glibc, ptmalloc, jemalloc and tcmalloc attribution."},
+    {"key":"tiny-slab-allocator","start":"1531","end":"1583","source_units":[112,113,114,115],"purpose":"H06: independently recover the allocator named for the tiny-size slab-like optimization; do not guess from technical familiarity."},
+    {"key":"tlb-cache-unit","start":"2110","end":"2156","source_units":[155,156,157],"purpose":"H10: recover the unit after256 and retain the L1 TLB/L2 cache comparison as the speaker's contextual claim."},
+    {"key":"allocator-bleed-attribution","start":"2250","end":"2292","source_units":[165,166,167],"purpose":"H11: recover the community term miscaptioned HIV and the allocator-bleed phrase without inventing an attribution."},
+    {"key":"numa-default-policy","start":"2645","end":"2705","source_units":[195,196,197,198],"purpose":"H13/F08: recover mmap/malloc, default local policy and the actual no-other-nodes assertion; keep any source error separate from AI factual correction."},
+    {"key":"page-metadata-allocator","start":"2784","end":"2826","source_units":[205,206,207],"purpose":"H14: recover the allocator name captioned so GFC and the page-before-allocation metadata qualifier without guessing a normalized name."},
+    {"key":"purge-return-memory","start":"2944","end":"2988","source_units":[217,218,219],"purpose":"H16: recover the complete purge/return-memory sentence; only name a second API if it is actually spoken."},
+    {"key":"malloc-check-warning","start":"3040","end":"3108","source_units":[224,225,226,227,228],"purpose":"H17: distinguish vendor/library attribution, malloc-check warning and the debugging trade-off; preserve security cautions as historical source claims."},
+    {"key":"log-structured-database","start":"3485","end":"3531","source_units":[257,258,259],"purpose":"H19: recover the database name and tentative short/long-lived allocation advice, without importing the later answer or an external product name."}
+  ]
+}
