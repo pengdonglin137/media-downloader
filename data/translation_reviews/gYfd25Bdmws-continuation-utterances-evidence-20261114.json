@@ -1,0 +1,49 @@
+{
+  "kind": "source-utterance-continuation-evidence-index-v1",
+  "video_id": "gYfd25Bdmws",
+  "objective_status": "active",
+  "registration": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-gYfd25Bdmws-20261114/checkpoint-utterance-continuation-v1/metadata-registration.json",
+    "bytes": 14443,
+    "mtime_ns": 1794671850358474517,
+    "sha256": "aad673e0d2e9c3596e0e236e166c8a6a1bcb31fc9dd95581918118b9e36379d8"
+  },
+  "draft": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-gYfd25Bdmws-20261114/checkpoint-utterance-continuation-v1/draft-v1/reading.json",
+    "bytes": 252913,
+    "mtime_ns": 1794671671047989199,
+    "sha256": "1f79b5b52463af0d501c10b9e7c565042a8b5d328ea747dfe0936ebb6f5edd9e"
+  },
+  "bindings": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-gYfd25Bdmws-20261114/checkpoint-utterance-continuation-v1/draft-v1/bindings.json",
+    "bytes": 7621,
+    "mtime_ns": 1794671671044989062,
+    "sha256": "7a88c18dbecfac1fe123850fd92d4ddbd3d6b7c77a0157b44a69e8fa542d4e36"
+  },
+  "verification": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-gYfd25Bdmws-20261114/checkpoint-utterance-continuation-v1/draft-v1/verification.json",
+    "bytes": 1006,
+    "mtime_ns": 1794671671047989199,
+    "sha256": "b2c6cac89b6f29feef37eabc210a83777aa5205832f1fef4c6cb191f44760108"
+  },
+  "author_plan": {
+    "path": "/home/pengdl/media-downloader/data/translation_reviews/gYfd25Bdmws-continuation-utterances-20261114.json",
+    "bytes": 72033,
+    "mtime_ns": 1794671670639970595,
+    "sha256": "a4bbab986f0321d4d529ab7b06be375d194fc4562f1cee91a3133c6c7a936ae7"
+  },
+  "new_entries": 86,
+  "old_entries_unchanged": 63,
+  "cumulative_entries": 149,
+  "new_source_tokens": 4204,
+  "source_tokens_covered": 6921,
+  "remaining_source_tokens": 3429,
+  "next_source_coordinate": [
+    179,
+    30
+  ],
+  "actual_spoken_is_null": true,
+  "production_admitted": false,
+  "new_asr_or_tts": false,
+  "checkpoint": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-gYfd25Bdmws-20261114/checkpoint-utterance-continuation-v1/execution-progress.json"
+}

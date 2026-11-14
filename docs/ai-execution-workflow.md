@@ -1,5 +1,9 @@
 # AI 执行工作流：自包含中文译配视频
 
+## 2026-11-14：从精确词坐标续写，不覆盖已绑定意群
+
+gYfd25Bdmws用新的累计作者计划续写，前63作者项及输出完全不变；在build前追加旧前缀/三输出和八张既有来源图绑定，原共享编译器不改。当前149项/6921词，179只覆盖前30词，下一`[179,30]`接回arena议题，余3429词/91块。新计划/验证和范围见`memory-allocation-continuation-utterances-2026-11-14.md`及独立`checkpoint-utterance-continuation-v1`，不重跑旧ASR/TTS，不从字幕外包推算讲话窗或关闭角色/发音/情感门禁。
+
 ## 2026-11-14：先按原词重建连贯意群，不把字幕半句直接朗读
 
 用`python -m media_workflow.source_utterance_draft validate/build/check PLAN.json`编译作者JSON，build/check附`--output`。每项唯一原词末尾锚点确定连续词面归属；交接、未辨识项和供应商标记分开，所有真实声学/角色/TTS仍禁入，超40秒字幕外包仅作待核提示。gYfd25Bdmws开场63提案覆盖2717词，70只到第28词，下一`[70,28]`；续做累计新JSON，不能重跑旧媒体或把剩余200块说成199块。操作/边界见`source-utterance-draft.md`，来源入口为`checkpoint-utterance-opening-v1/execution-progress.json`。
