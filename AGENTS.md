@@ -1,5 +1,12 @@
 # 本仓库的 AI 执行入口
 
+## 2026-11-14：Linux性能访谈全文隔离草稿，尚不准入配音
+
+- 新链接`0sZlaQr3e2w`的441自动字幕块已全文读译，隔离稿`data/translation_reviews/0sZlaQr3e2w-quarantined-draft-20261114.json`逐项绑定原文／原时间；正式工程仍`awaiting_translation`，未安装`translation.tsv`。双主持混块不是441个已审定同人意群，不能直接编译／TTS。
+- 同名technical-review登记14类事实／语境审校、10项显式词面修订、26本片发音候选与12组语气意图；保留原讲错误以供对应，不作为操作建议。尤其OOM评分方向说反，2725秒实图为旧`oom_adj`正调整后评分0→1059，须先做明确AI局部纠正和角色／原窗重建；不执行原片的`/proc`写入、kill或SSH／NFS设置。
+- 另9张实际来源受限JPEG已逐张查看，图像／日志／来源身份和尺寸／字节另核；不是成片或全片视觉／听辨批准。有限验证真实0：441原文／时窗绑定、140保护身份含98根Python及31既有cji安装文件、10精确原始备份保持。39数字词面差异只作候选，不自动判错或批准。
+- 独立入口`/home/pengdl/Videos/translated_backlog/.workflow_logs/request-0sZlaQr3e2w-20261114/checkpoint-full-draft-v1/execution-progress.json`，说明`docs/linux-performance-source-review-2026-11-14.md`。本轮无新TTS／ASR／生产编码，不改旧成功媒体、共享队列／并行总数；发音／情感、人耳／完整视觉、逐词及PotPlayer仍未批准，目标active，及时提交已验证草稿，不声称后台自动续跑。
+
 ## 2026-11-14：补句双版正式安装，历史与当前质量重新绑定
 
 - `cjiUXZh0ZCo`142／270补句已通过共享`media_workflow.editorial_install`正式安装，不再只是隔离候选。两版精确复制候选字节和mtime，均5572.982秒／40.2秒有声导读／85章；母版双音轨三软字幕，上传版单中文主轨烧字。本轮无新编码、TTS、ASR或完整解码，不全量继承旧285窗ASR。

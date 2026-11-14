@@ -1,5 +1,11 @@
 # AI 执行工作流：自包含中文译配视频
 
+## 2026-11-14：Linux性能访谈只读草稿阶段
+
+- `0sZlaQr3e2w`的441项全文中文稿在`data/translation_reviews/0sZlaQr3e2w-quarantined-draft-20261114.json`，14类事实／语境记录在同名前缀technical-review；先看`docs/linux-performance-source-review-2026-11-14.md`及独立`checkpoint-full-draft-v1/execution-progress.json`。正式`preparation.json`仍`awaiting_translation`，没有`translation.tsv`。
+- 不把441混合自动字幕直接送TTS。先核实角色与未听清词，保留完整映射，形成≤40秒同人完整意群；高风险原讲错误须明确局部AI纠正，而非无标识替换讲者观点。无法可靠翻译处按既有规则保留真实原声于两版中文主轨。
+- 26发音候选和12语气组尚无试读／赢家，不改全局词典；最多+15%、无额外atempo／借窗／截尾。9新增来源图与441逐项绑定、140身份检查通过，不等于音素、情感、人耳或全片视觉批准；本轮无新TTS／ASR／编码，不执行视频里的kill、`/proc`或服务设置命令。
+
 ## 2026-11-14：保留历史的正式安装入口
 
 - 候选完整验证后用`python -m media_workflow.editorial_install prepare INSTALL.json --output NEW_INSTALL`；配置只绑定原工程、候选配置／验证身份及固定作用域。旧源译／审校／私库／正式媒体须匹配基线，先归档31项原状态和候选，不改正式文件。
