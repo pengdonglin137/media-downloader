@@ -1,0 +1,45 @@
+{
+  "kind": "source-utterance-draft-evidence-index-v1",
+  "video_id": "gYfd25Bdmws",
+  "objective_status": "active",
+  "registration": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-gYfd25Bdmws-20261114/checkpoint-utterance-opening-v1/metadata-registration.json",
+    "bytes": 11584,
+    "mtime_ns": 1794670396880069656,
+    "sha256": "f357816dda1231ffb478a08a8770b6269b7110f37af934b3cb69fcca61f15e8c"
+  },
+  "draft": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-gYfd25Bdmws-20261114/checkpoint-utterance-opening-v1/draft-v1/reading.json",
+    "bytes": 114097,
+    "mtime_ns": 1794670147541779119,
+    "sha256": "4676565e4c7ce057e0966bea814588eb6a80baff2eb35312d1425fae37e8edc8"
+  },
+  "bindings": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-gYfd25Bdmws-20261114/checkpoint-utterance-opening-v1/draft-v1/bindings.json",
+    "bytes": 3927,
+    "mtime_ns": 1794670147540779092,
+    "sha256": "645a246d9a36e7f480cb9a511e82aaf49c2656a19d6ebe3cfa68af6800b44b9c"
+  },
+  "verification": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-gYfd25Bdmws-20261114/checkpoint-utterance-opening-v1/draft-v1/verification.json",
+    "bytes": 994,
+    "mtime_ns": 1794670147541779119,
+    "sha256": "8138731c6cf4e6b1326a96457b1f072def70d68fa5f0022f62eb57dfe8ade90f"
+  },
+  "author_plan": {
+    "path": "/home/pengdl/media-downloader/data/translation_reviews/gYfd25Bdmws-opening-utterances-20261114.json",
+    "bytes": 29075,
+    "mtime_ns": 1794670101854507667,
+    "sha256": "8d598754304c04a22ab11d55d36809753d41602684c41f4cf8dd294108b02819"
+  },
+  "source_tokens_covered": 2717,
+  "remaining_source_tokens": 7633,
+  "next_source_coordinate": [
+    70,
+    28
+  ],
+  "actual_spoken_is_null": true,
+  "production_admitted": false,
+  "new_asr_or_tts": false,
+  "checkpoint": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-gYfd25Bdmws-20261114/checkpoint-utterance-opening-v1/execution-progress.json"
+}

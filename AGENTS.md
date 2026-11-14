@@ -1,5 +1,11 @@
 # 本仓库的 AI 执行入口
 
+## 2026-11-14：内存分配开场63条词面意群提案，尚未准入声音
+
+- 共性`source_utterance_draft`绑定原TSV/SRT/269块阅读稿，以唯一原词锚点编译作者中文，不改英文/时间、不均分词时。前2717词已整理为57语言/3交接候选/2未辨识/1供应商标记共63项；69旧块完整、70前28词部分覆盖，下一`[70,28]`，余7633词/200未完全覆盖块，不称全片完成。
+- 42未合成朗读文字提案，13字幕外包>40秒/最大54.030秒单列，不冒充实际原窗。actual spoken全null、角色unknown、声学null、TTS禁入；20旧hold/33partial/12技术发现保持。M053主从句合并，Paul介绍/第三行插话/Music/交接不吞并，专业读音/情感/人耳未批准。
+- 467/520秒两张实际受限图已看；50/17 ns/alloc与口述一对malloc/free不同标签保留，图无20/16百分比不伪称图证。11有限测试及文字build/check0，无新ASR/TTS/全片解码或生产编码；98根Python、旧42模型结果/八试读保持。入口`request-gYfd25Bdmws-20261114/checkpoint-utterance-opening-v1/execution-progress.json`，说明`docs/memory-allocation-opening-utterances-2026-11-14.md`；目标active，正式awaiting_translation，只提交本轮，不动并行队列/总数。
+
 ## 2026-11-14：内存分配新增十三段来源核对与十项阅读修订
 
 - 共享`source_probe_extension`只读复核原参考与旧十子进程，新增13段729秒/26模型观察、十新子进程/本次外层/独立check均0；没有重复完整解码、旧ASR或八条试读，不改已绑定`source_probes.py`。10合成有限夹具通过，不冒充真实ASR/人耳。

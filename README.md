@@ -1,5 +1,9 @@
 # Media Downloader
 
+## 内存分配开场连贯意群稿（2026-11-14）
+
+前2717原词整理为63条作者文字提案，补完整主从句、设问/转折与自然中文节奏；57语言/3交接候选/2未辨识/1供应商标记分别留证。新共享`media_workflow.source_utterance_draft`按精确原词锚点保留来源，不跑ASR/TTS、不批准声学角色。余7633词仍待重建，42朗读文字提案未合成、13超40秒字幕外包不是实际讲话窗。见`docs/memory-allocation-opening-utterances-2026-11-14.md`；正式仍awaiting_translation，声音/情感/人耳未批准。
+
 ## 内存分配十三段新增来源核对（2026-11-14）
 
 新增共享`media_workflow.source_probe_extension`复用既有完整参考，只做13段729秒的新疑句观察：26原始模型结果、十新子进程及独立检查通过，不重解码整片/重跑旧ASR。五张实际来源图补证a/b/c姓名、ScyllaDB等，十项中文阅读候选另存，其余259项不变。仍非正式中文成片，角色/声音/人耳/播放器未批准。见`docs/memory-allocation-source-extension-2026-11-14.md`及`docs/source-probe-extension.md`；只提交自身变更，保留并行工作。

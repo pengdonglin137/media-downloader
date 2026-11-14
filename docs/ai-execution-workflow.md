@@ -1,5 +1,9 @@
 # AI 执行工作流：自包含中文译配视频
 
+## 2026-11-14：先按原词重建连贯意群，不把字幕半句直接朗读
+
+用`python -m media_workflow.source_utterance_draft validate/build/check PLAN.json`编译作者JSON，build/check附`--output`。每项唯一原词末尾锚点确定连续词面归属；交接、未辨识项和供应商标记分开，所有真实声学/角色/TTS仍禁入，超40秒字幕外包仅作待核提示。gYfd25Bdmws开场63提案覆盖2717词，70只到第28词，下一`[70,28]`；续做累计新JSON，不能重跑旧媒体或把剩余200块说成199块。操作/边界见`source-utterance-draft.md`，来源入口为`checkpoint-utterance-opening-v1/execution-progress.json`。
+
 ## 2026-11-14：新增疑句复用完整参考，不重复成功来源步骤
 
 已有成功`source_probes`作业时，用`python -m media_workflow.source_probe_extension validate/run/check NEW_PLAN.json --reference PARENT_DIR`，run/check另附`--output`。先只读验证旧真实证明与完整依赖，再按样本切**新**目标，只执行原worker的ASR命令。父步骤不当作新步骤，不伪造本次解码收据；父/生产/输出隔离、拒绝覆盖、失败保留，详见`source-probe-extension.md`。

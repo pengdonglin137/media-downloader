@@ -1,5 +1,11 @@
 # 工作流优化验证记录
 
+## 2026-11-14：内存分配开场63词面意群，仍非声音准入
+
+- 作者重写前2717原词的中文连贯段落，57语言/3交接候选/2未辨识/1标记共63；69旧块完整加70前28词，余7633词/200未完全覆盖块，从`[70,28]`续做。M053合并主从句；3交接、Paul玩笑、短插话和Music均不吞并。
+- 42未合成朗读文字提案，actual spoken全null/角色unknown/声学null/TTS禁入；13外包>40秒、最大54.030秒不当作已拟合原窗。11有限夹具及真实文字build/check0，无新ASR/TTS或生产编码；20旧hold/33partial/12技术发现、98根Python与旧42模型结果/八试读保持。
+- 新467/520受限图逐张已看，ns/alloc与口述一对malloc/free标签差异保留，467不显示20/16百分比。操作见`docs/memory-allocation-opening-utterances-2026-11-14.md`，独立入口`checkpoint-utterance-opening-v1/execution-progress.json`；正式awaiting_translation，发音/情感/人耳/播放器未批准，目标active，仅提交本轮并保留并行修改。
+
 ## 2026-11-14：内存分配新十三段诊断、十项阅读修订
 
 - 新适配器`source_probe_extension`借用旧58632801样本完整诊断参考，13新窗729秒/26观察、十实际新子进程及外层/独立check0；旧十进程只读验证，不重解码整片或改已绑定适配器。10有限合成夹具通过，不冒充真实ASR或声音批准。
