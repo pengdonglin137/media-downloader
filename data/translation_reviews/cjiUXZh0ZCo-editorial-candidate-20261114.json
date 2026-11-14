@@ -1,0 +1,98 @@
+{
+  "version": 1,
+  "id": "cjiUXZh0ZCo",
+  "title": "Science of Performance 2019",
+  "checked_at": "2026-11-14T04:25:20.405894+00:00",
+  "stage": "single_sense_corrected_dual_media_candidate_verified_not_installed",
+  "checkpoint": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/checkpoint-editorial-candidate-v1/execution-progress.json",
+  "candidate_kind": "editorial-source155-package-candidate-v1",
+  "candidate_outputs": {
+    "master": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/editorial-candidate-v1/media/master.mp4",
+      "bytes": 565880923,
+      "mtime_ns": 1794629292390800191,
+      "sha256": "6f7306b52889d11b4e4d83681f82c188b9ac10a96925b6083bf26f64e1b6736c"
+    },
+    "upload": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/editorial-candidate-v1/media/upload.mp4",
+      "bytes": 452096960,
+      "mtime_ns": 1794630019219268156,
+      "sha256": "874e09c5916bb1e86f3ac5b160dc85e36be11d5e2bb16cfe35a860c34830210b"
+    }
+  },
+  "canonical_delivery_outputs_unchanged": {
+    "master": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/editorial-candidate-v1/before/master.mp4",
+      "bytes": 565847941,
+      "mtime_ns": 1794625752311273178,
+      "sha256": "3a838125e974a973892076b040742424a04ff926917d88514265d5ebeae453fb"
+    },
+    "upload": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/editorial-candidate-v1/before/upload.mp4",
+      "bytes": 452049876,
+      "mtime_ns": 1794626418936500336,
+      "sha256": "c191c7b7aa7816e527c2a6352bbd01a89a04899245df0ee1d7039395e5969f56"
+    }
+  },
+  "changed_formal_unit_ids_in_shadow_project": [
+    155
+  ],
+  "source_units_and_absolute_windows_preserved": 321,
+  "source155_start": "2610.430",
+  "source155_end": "2637.900",
+  "new_complete_spoken_seconds": 22.848,
+  "normal_rate_source_window_seconds": 27.47,
+  "source155_unused_samples": 110928,
+  "strict_base_tts_windows_verified": 321,
+  "original_source_regions_unencoded_pcm_exact": 23,
+  "actual_final_source_regions_signal_checked": 23,
+  "gain_only_existing_preview_reused": true,
+  "new_network_production_tts": false,
+  "outside_source155window_base_and_composite_pcm_exact": true,
+  "master_video_original_english_audio_and_english_subtitle_packets_exact": true,
+  "body_video_original_english_audio_and_english_subtitle_packets_exact": true,
+  "actual_video_presentation_frames_exact_between_purposes": 167187,
+  "chinese_aac_packets_and_decoded_pcm_equal_between_purposes": true,
+  "chapters": 85,
+  "intro_seconds": 40.2,
+  "duration_seconds": 5572.982,
+  "master_and_upload_complete_av_decodes": true,
+  "new_actual_aac_decode_performed": true,
+  "fresh_changed_aac_windows": 144,
+  "fresh_model_observations": 288,
+  "inherited_exact_pcm_windows": 141,
+  "inherited_model_observations": 282,
+  "total_model_observations": 570,
+  "full_actual_aac_language_windows": 282,
+  "intro_asr_scenes": 3,
+  "zero_duration_model_words": 79,
+  "new_agent_source_fidelity_and_model_text_review_units": [
+    155
+  ],
+  "all570_transcripts_semantically_reviewed_this_turn": false,
+  "actual_candidate_upload_jpegs_opened": 10,
+  "max_image_bytes": 32768,
+  "max_image_side": 1280,
+  "spec_spelling_prefix_trial_seconds": 24.528,
+  "spec_spelling_prefix_trial_adopted": false,
+  "internal_source155_abc_page": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/editorial-candidate-v1/spec-spelling-preview-v1/comparison.html",
+  "internal_candidate_aac_page": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/editorial-candidate-v1/actual-aac-v2/comparison.html",
+  "root_python_frozen": 98,
+  "production_mp3_cache_preserved": 290,
+  "canonical_project_inputs_or_delivery_media_modified": false,
+  "native_package_or_narration_runtime_installed": false,
+  "old189_voice_candidates_dismissed_or_listening_decisions_added": false,
+  "human_listened": false,
+  "pronunciation_or_emotional_approval": false,
+  "full_visual_review": false,
+  "word_level_audiovisual_approval": false,
+  "potplayer_tested": false,
+  "final_language_voice_approval": false,
+  "runtime_instructions": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/EDITORIAL-RUNTIME-v1.md",
+  "next_action": "Implement an explicit editorial narration/native package runtime, rebind quality and original-audio classification without inventing listening approvals, archive and transactionally install only after complete proof. Do not pass inherited stale shadow metadata to bare legacy CLI.",
+  "playlist_expanded": false,
+  "published": false,
+  "delivery_sidecars_added": false,
+  "parallel_queue_or_global_counts_modified": false,
+  "goal_status": "active"
+}

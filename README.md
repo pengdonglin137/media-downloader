@@ -1,5 +1,11 @@
 # Media Downloader
 
+## 2026-11-14：Science of Performance单意群修订候选
+
+- `cjiUXZh0ZCo`155补回源文的SPEC基准语境；完整中文母版和烧字上传候选均已生成并验证，但尚未安装，当前正式成片不变。正常速率完整22.848秒朗读适配27.47秒原窗，其余320译文／来源窗不变。
+- 候选两用途中文AAC／PCM、167187画面PTS／时长及完整解码通过；85章节、40.2秒导读、23原声区保持。新AAC的144变化诊断窗完成288新观察，141精确窗复用282，共570；ASR及10张实际上传样图的局部审查均不代表发音、情感或全片人耳批准。
+- 独立候选入口：`/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/checkpoint-editorial-candidate-v1/execution-progress.json`；内部SPEC前缀三方试读页见同请求`editorial-candidate-v1/spec-spelling-preview-v1/comparison.html`，逐字母试读未采纳。续做遵循`EDITORIAL-RUNTIME-v1.md`，先实现新的旁白／原生包与质量绑定，再归档和事务式安装，不用旧影子状态冒充通过。
+
 ## 2026-11-14：Science of Performance实际中文AAC诊断补齐
 
 - `cjiUXZh0ZCo`现有两版成片未改。中文实际AAC的282正文语言窗＋3导读场景已有570条双模型观察，其中512条新增、58条精确复用；285完整WAV和992身份独立核验通过，不等于全片人耳或专业发音通过。

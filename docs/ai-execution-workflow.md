@@ -1,5 +1,13 @@
 # AI 执行工作流：自包含中文译配视频
 
+## 2026-11-14：SPEC语境修订候选的恢复边界
+
+- `cjiUXZh0ZCo`先读`checkpoint-editorial-candidate-v1/execution-progress.json`和请求内`EDITORIAL-RUNTIME-v1.md`。候选准备、实际v2媒体、独立准备／母版／双版验证、新AAC双模型诊断、前缀试读及10张实际样图观察均有真实成功出口；不要重复成功TTS、ASR、解码或编码，也不要运行历史准备器未采用的media模式。
+- 155经影子翻译任务导入补回SPEC基准语境，复用完整22.848秒正常试读，27.47秒原窗及321来源窗／角色不动；其他320译文／spoken和英语不变。155四显示区间使用真实合成WordBoundary短语起点，原有13处整词合并及其余字幕保留，不称原片逐词声画通过。
+- 完整候选已通过321严格基础原窗、窗外PCM、23原声区、两用途中文AAC／PCM与167187展示PTS／时长、双版完整解码，以及视频／英语原声／独立英文字幕载荷与有理时戳检查。正式双版本仍不变，候选manifest及影子旧narration／render／quality不具有新原生安装权威。
+- 新AAC实际解码后逐一比较285完整窗，仅141精确复用旧282观察，144变化窗重做288观察；不得凭单单元修改推断所有AAC窗没变。本轮实际源文／模型文本审读仅155，small／medium分歧仅标听辨线索。24.528秒SPEC逐字母前缀试读未采纳，不自动换成更迎合ASR的读法。
+- 10张实际候选上传JPEG逐张打开后记录在`image-agent-observations-v1.json`，保留导出器opened=false原始事实；局部图审和信号验证不关闭人耳、情感／字音、全片视觉、逐词对齐、PotPlayer或最终批准。下一步实现显式编辑旁白／原生字幕包运行时和质量绑定，精确归档旧状态后事务式安装并做有限VLC／恢复核验；目标仍active，不改队列／并行总量或声明后台自动续跑。
+
 ## 2026-11-14：完整实际AAC诊断与六组试读恢复
 
 - `cjiUXZh0ZCo`先读请求内`checkpoint-actual-aac-coverage-v2/execution-progress.json`、独立收据及`AAC-COVERAGE-RUNTIME-v2.md`。prepare／small／medium和外层已真实0；256新窗／512观察与26旧正文窗＋3导读／58观察均成功，不再重复ASR、下载、TTS或编码已有成片。
