@@ -1,5 +1,12 @@
 # Media Downloader
 
+## 2026-11-14：Science of Performance实际中文AAC诊断补齐
+
+- `cjiUXZh0ZCo`现有两版成片未改。中文实际AAC的282正文语言窗＋3导读场景已有570条双模型观察，其中512条新增、58条精确复用；285完整WAV和992身份独立核验通过，不等于全片人耳或专业发音通过。
+- 新增六组完整意群试读，分别比较问句、引语、公式强调、AVX／SPEC语境、存储缩写与VTune；均未采纳。存储缩写候选完整解码恰好用满15.12秒原窗，零余量仍须严格预检；不会直接覆盖现有音轨或迎合ASR错字改术语。
+- 内部入口：`/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/actual-aac-coverage-v2/comparison.html`；六组A/B见同请求`quality-candidates-v3/comparison.html`，恢复说明`AAC-COVERAGE-RUNTIME-v2.md`。本轮Agent只逐项文本核对21正文窗，不称570结果全部语义审读。
+- 登记见`data/translation_reviews/cjiUXZh0ZCo-actual-aac-coverage-20261114.json`。全片听辨、情感／专业字音、视觉、逐词声画和PotPlayer仍待验；不新增交付外挂、不改队列／并行总数或重做成功成片。
+
 ## 2026-11-14：分区报告局部译文与专业读法优化
 
 - `qYPCL1KGdQA`三处正式修订：两次80386显式读“八零三八六”、PDF按三个字母朗读，以及将“是自由女神”恢复为原文“像是”的比较限定；不压缩本来能正常装入原窗的完整句子。

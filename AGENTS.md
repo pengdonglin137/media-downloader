@@ -1,5 +1,15 @@
 # 本仓库的 AI 执行入口
 
+## 2026-11-14：Science of Performance完整语言窗AAC诊断与六组未采纳试读
+
+- 仅`cjiUXZh0ZCo`：剩余256个正文完整语言窗已完成small／medium共512条实际中文AAC诊断，精确复用旧26正文窗／3导读场景的58条观察，合计282正文语言窗＋3导读、570观察。39原声／事件单元排除，不把诊断覆盖称作全文语言或人耳批准。
+- 独立核验285个WAV与实际AAC解码PCM的完整样本切片、来源／显示／spoken、模型资产及真实终态，992身份通过；新窗使用十进制SRT×24000＋964800，旧窗保留原采样边界。PCM经旧母版归档和当前中文AAC包／有理时戳相等继承，不冒称新解码当前母版。prepare／small／medium与外层均真实0，不重复旧58观察。
+- 本轮Agent逐项文本比对21个正文窗，其中6个另外对照源文；不是570结果逐条语义审校。邮箱／油箱、AVXR／AVX2、MVME／NVMe及mpstat／vmstat等只作核听线索，不改规范拼写迎合识别。两模型共83个零时长词涉及30窗，未发现越过片长的词坐标；这既不证明加字，也不能作逐词声画对齐证据。
+- 新增39／67／91问句、引语／对比试读，155补本单元SPEC基准语境兼试AVX字母边界，178试存储缩写，278试VTune词内停顿；六组均完整原窗、云溪正常速率、未裁剪解码，无atempo。178恰好15.12秒、余量0，不当严格生产准入。155相邻156已有SPEC，不能夸大为全段缺失。
+- 六候选独立核验通过但均未试听选择，155显示／spoken修订未正式导入；现两版成片、正式译文、字幕与生产音频未改，不做新编码、生产TTS或英文ASR，不新增数据库听辨决定，也不dismiss旧189候选。首次独立验证器因旧Python缺`hashlib.file_digest`真实1，原实现／错误保留，分块SHA版本通过，不重跑成功制作。
+- 当前入口`/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/checkpoint-actual-aac-coverage-v2/execution-progress.json`；内部完整AAC对照`actual-aac-coverage-v2/comparison.html`及六组试读`quality-candidates-v3/comparison.html`。恢复先读`AAC-COVERAGE-RUNTIME-v2.md`，原生字幕仍走`caption_package_runtime_v1.py`，不冒用裸旧CLI。
+- 98根Python保持；全片人耳、专业发音／情感、视觉、逐词声画、PotPlayer及最终批准仍未完成，目标active。不扩列表、不发布、不改共享队列／并行总数或新增交付外挂；只提交本请求新增登记和文档段，保留其他八项未提交变更，不承诺后台自动续做。
+
 ## 2026-11-14：Science of Performance十三处字幕切词双版本修复
 
 - 仅`cjiUXZh0ZCo`：13对同一正式单元内的相邻显示条已显式合并，Architecture、David、CPU、Lake、Studio、Performance、VTune、Intel、Storage和LSTM不再被这些时间边界切开。321来源窗/角色、全部中文字空格标点、11导读条及声音保持；正文中文/双语1017→1004，含导读1028→1015，独立英文仍1028。明确移除了13个中间显示边界，不称所有旧显示时间不变。

@@ -1,5 +1,12 @@
 # AI 执行工作流：自包含中文译配视频
 
+## 2026-11-14：完整实际AAC诊断与六组试读恢复
+
+- `cjiUXZh0ZCo`先读请求内`checkpoint-actual-aac-coverage-v2/execution-progress.json`、独立收据及`AAC-COVERAGE-RUNTIME-v2.md`。prepare／small／medium和外层已真实0；256新窗／512观察与26旧正文窗＋3导读／58观察均成功，不再重复ASR、下载、TTS或编码已有成片。
+- 当前285完整WAV／570观察覆盖282语言窗和3导读，39原声／事件另计。新采样按十进制SRT×24000＋964800，旧边界不重写；实际AAC的旧解码通过精确归档／编码包及有理时戳桥接复用，不冒称新解码当前母版。992身份验证与83零时长词限制分别登记。
+- 先在`actual-aac-coverage-v2/comparison.html`看完整窗口，在`quality-candidates-v3/comparison.html`真正试听六组未采纳A/B。21窗Agent文本核对不是全片听辨；不按ASR错拼自动修改术语或增加数据库决定。178试读余量0，155的SPEC语境显示／spoken仍未正式导入。
+- 正式采纳须绑定当前输入、显式导入、严格原窗与术语边界检查，并使用`caption_package_runtime_v1.py`恢复当前原生字幕契约；先保留旧媒体，不直接改编译字幕或冒用旧生产器。失败验证器1和修订成功0保留，98根Python、旧189候选／全部人工门禁、并行队列与总数不变。
+
 ## 2026-11-14：Advisor候选已落地为正式来源和真实双版本
 
 - 最新续做入口改为本片`checkpoint-final-20261114-v1/execution-progress.json`，不再把旧66句／80项草稿阶段当现状。正式84单元含82语言、2原声预留；37旧词面匹配、17恢复词、3额外修订与primary索引守恒分开登记。
