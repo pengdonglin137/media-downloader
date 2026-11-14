@@ -1,5 +1,12 @@
 # AI 执行工作流：自包含中文译配视频
 
+## 2026-11-14：先实审OOM完整交接，不按低幅度自动切片
+
+- `checkpoint-oom-correction-v2`新增两条补足新旧接口刻度差的完整AI声音及两有声卡片；22.896/23.136秒，全部词界/全音频与1152视频帧核对。旧16条不重合成，未批准的409正文候选不送TTS；两实际受限JPEG仅局部查看，初次限额1保留。
+- 既有217.520秒语境与双ASR只复用；原片2733.46秒/原生第120545586样本是低幅度支持的交接候选，仍未核视频格点/角色/人耳。卡片2678.8字幕参考没有升级为该点；严禁把低幅度当无讲话或自动安全交接。
+- 共享`insertion_audition`已把完整原声前后文和新AI生成两条独立240.416/240.656秒试听，源5220480样本和插段逐样本保持；无增益/交叉淡化/重叠/删尾，32有限检查通过。先实审完整语境和读法，再明确选择、核实际画面/交接并安装；不把试听当最终中文主轨。
+- 断点与说明见`docs/linux-performance-oom-correction-2026-11-14.md`，命令见`docs/insertion-audition.md`。正式仍awaiting_translation，23标记/27hold和critical F08不放行；全片中文译配、两版主轨原声、最终双版及各听辨/声画/PotPlayer批准未完成，目标active。
+
 ## 2026-11-14：Linux性能原生音频止点已核，不重做文字候选
 
 - 用共享`media_workflow.native_audio`及`data/translation_reviews/0sZlaQr3e2w-native-audio-20261114.json`建立完整原生解码观察，真实probe/decode出口0，`check`只读不重解码；实测160585728个44.1kHz双声道样本帧、PTS连续。入口`checkpoint-native-audio-v1`，通用说明`docs/native-audio.md`。

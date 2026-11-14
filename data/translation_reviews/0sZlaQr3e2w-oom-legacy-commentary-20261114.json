@@ -1,0 +1,63 @@
+{
+  "kind": "ai-commentary-editorial-plan-v1",
+  "work": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_0sZlaQr3e2w",
+  "technical_review_path": "0sZlaQr3e2w-technical-review-20261114.json",
+  "reference_evidence_paths": [
+    "0sZlaQr3e2w-closing-utterances-20261114.json",
+    "0sZlaQr3e2w-native-audio-review-20261114.json",
+    "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-0sZlaQr3e2w-20261114/checkpoint-closing-utterances-v1/oom-kill-v6.12.c",
+    "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-0sZlaQr3e2w-20261114/checkpoint-closing-utterances-v1/proc-base-v6.12.c",
+    "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-0sZlaQr3e2w-20261114/checkpoint-full-draft-v1/agent-source-image-observations.json",
+    "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-0sZlaQr3e2w-20261114/checkpoint-native-audio-v1/native-source/report.json",
+    "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-0sZlaQr3e2w-20261114/checkpoint-native-audio-v1/oom-context.medium.srt",
+    "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-0sZlaQr3e2w-20261114/checkpoint-native-audio-v1/oom-context.distil-large-v3.srt"
+  ],
+  "voice": "zh-CN-YunxiNeural",
+  "rate": "+0%",
+  "label": "AI补充说明（非讲者原话）",
+  "max_seconds": 40,
+  "cases": [
+    {
+      "key": "oom-legacy-guard-spelled",
+      "review_case": "F08",
+      "anchor_unit_id": 344,
+      "source_anchor": "2678.8",
+      "source_ids": [344, 345, 347, 348, 349, 353],
+      "display": "AI补充说明（非讲者原话）：原讲OOM评分方向说反了。通常在可选进程中，分数越高越易被终止；正值调整不是保护SSH。旧oom_adj与新oom_score_adj刻度不同，不能照抄；评分调整也不能修复内存泄漏。",
+      "spoken": "AI补充说明。这里把 O O M 评分方向，说反了。通常，在可选进程里，分数越高，被终止的风险越大。正值调整，不是在保护 S S H 服务。画面中的旧接口，和新接口，刻度也不同，不能照抄。调整评分，也不能修复内存泄漏。",
+      "reason": "两条旧F08声音都没有新旧接口刻度差这一已审限定。本条只新增包含该限定的完整纠正，不重做旧声音；显示保留实际旧oom_adj和新oom_score_adj标识，朗读用完整中文指代以免强行挤读符号。OOM与SSH字母展开仅是候选，不称读音已批准。",
+      "prosody_intent": "坚定但克制地纠偏；说反了之后自然停顿，用越高与风险越大呈现对比。刻度也不同和不能照抄是明确提醒，不用提高音量、惊吓或嘲笑讲者模拟情感；只靠实有文字与标点，不声称引擎支持额外style或SSML。",
+      "preserved_facts": [
+        "明确AI而非原讲者发言",
+        "通常且限可选进程，评分高增加被选中终止风险",
+        "原讲评分方向说反",
+        "画面正值调整不是保护SSH服务",
+        "旧oom_adj与新oom_score_adj刻度不同",
+        "不能照抄演示或将两个接口同刻度迁移",
+        "评分调整不能修复内存泄漏",
+        "没有改写原画0、10、1059或推定源主机内核版本"
+      ]
+    },
+    {
+      "key": "oom-legacy-guard-meaning",
+      "review_case": "F08",
+      "anchor_unit_id": 344,
+      "source_anchor": "2678.8",
+      "source_ids": [344, 345, 347, 348, 349, 353],
+      "display": "AI补充说明（非讲者原话）：原讲OOM评分方向说反了。通常在可选进程中，分数越高越易被终止；正值调整不是保护SSH。旧oom_adj与新oom_score_adj刻度不同，不能照抄；评分调整也不能修复内存泄漏。",
+      "spoken": "AI补充说明。这里的内存不足评分，方向说反了。通常，在可选进程里，分数越高，越容易被终止。正值调整，不是在保护远程登录服务。画面里的旧接口，和新接口，刻度并不相同，不能照抄。调整评分，也解决不了内存泄漏。",
+      "reason": "保留同一显示和全部纠偏事实，用中文释义对照字母展开，不以自动时长、ASR或较少术语候选判定发音赢家。是新增完整AI旁白，不是未批准的原讲者译配，也不把独立40秒上限当原片借窗。",
+      "prosody_intent": "像认真提醒同事而不是朗读告警；方向说反了稍作停顿，越高与越容易形成对照，不能照抄清楚落句，最后平实指出仍须修复泄漏。正常速率、无额外atempo、无截尾；实际情感仍待听辨。",
+      "preserved_facts": [
+        "明确AI而非原讲者发言",
+        "OOM在此用内存不足评分释义，SSH在此用远程登录服务释义",
+        "通常且限可选进程，评分高增加被选中终止风险",
+        "原讲评分方向说反",
+        "正值调整不是保护远程登录服务",
+        "旧oom_adj与新oom_score_adj刻度不同",
+        "不能照抄演示或将两个接口同刻度迁移",
+        "评分调整不能修复内存泄漏"
+      ]
+    }
+  ]
+}

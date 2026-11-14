@@ -1,0 +1,21 @@
+{
+  "kind": "ai-commentary-visual-editorial-v1",
+  "bound_audio_plan": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-0sZlaQr3e2w-20261114/checkpoint-oom-correction-v2/preview-plan.json",
+  "audio_previews": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-0sZlaQr3e2w-20261114/checkpoint-oom-correction-v2/previews-v1",
+  "font": {
+    "path": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+    "index": 2
+  },
+  "cards": [
+    {
+      "key": "oom-legacy-guard-spelled",
+      "heading": "OOM评分方向与接口刻度",
+      "terms": ["OOM", "SSH", "oom_adj", "oom_score_adj"]
+    },
+    {
+      "key": "oom-legacy-guard-meaning",
+      "heading": "OOM评分方向与接口刻度",
+      "terms": ["OOM", "SSH", "oom_adj", "oom_score_adj"]
+    }
+  ]
+}

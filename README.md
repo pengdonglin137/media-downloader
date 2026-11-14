@@ -1,5 +1,11 @@
 # Media Downloader
 
+## 2026-11-14：OOM纠正补齐接口差异，完整交接试听已生成
+
+- 新增两条正常速率完整AI纠正22.896/23.136秒，补回`oom_adj`与`oom_score_adj`刻度差，并保留方向纠偏、禁止照抄和泄漏根因；非原讲者发言，未选声音赢家。
+- `python3 -m media_workflow.insertion_audition render PLAN --output NEW_DIR`生成两条独立完整原声前后文试听，当前240.416/240.656秒；32有限检查通过，不删原声或借窗，不等于安全交接/情感/发音批准。说明见`docs/insertion-audition.md`与`docs/linux-performance-oom-correction-2026-11-14.md`。
+- 直播正式正文和最终双版本仍未完成；既有成功音频/ASR不重做，不自动绕过角色与critical OOM门禁。
+
 ## 2026-11-14：原生音频尾界观察入口
 
 - `python3 -m media_workflow.native_audio observe PLAN --output NEW_DIR`完整观察明确音轨的原生采样率/声道/PTS与样本帧；`check`只读复核，不重复成功解码。严格输入、实际出口和使用边界见`docs/native-audio.md`。
