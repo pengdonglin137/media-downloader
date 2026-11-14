@@ -1,5 +1,13 @@
 # 本仓库的 AI 执行入口
 
+## 2026-11-14：补句显示投影与当前音频预检通过，尚未生成新视频
+
+- `cjiUXZh0ZCo`142／270补句通过共享`media_workflow.caption_projection`投影为6／7个完整短句；按实际WordBoundary和40.2秒导读偏移定位，中文／spoken／来源英文词流保持，其余字幕文本／时间及整条英文字幕字节保持。不称英文强制对齐、术语全原子或全片逐词声画批准。
+- 新`media_workflow.editorial_quality`派生工程有显式新旁白依赖，裸冻结准入拒绝；只重绑导读计划来源哈希，85章／历史导读内容不改。对完整当前复合WAV实际扫描为191候选：189个未编辑单元候选逐项保持，原142候选留历史；当前142的CPU术语和SPEC缩写两项未听辨，不判为已确诊错误或发音赢家。
+- 原私库只读一致性备份，83扫描／3713问题／6842词项增加至私库84／3904／7163；41术语、60项目、0决定和0解决保持，全旧行与无关指针保持。12原声短尾逐项以实际PCM证明仅不适用合成尾句门禁，不删候选、不dismiss、不冒充角色／停顿质量批准。
+- 实际字幕prepare、质量prepare／check与独立复核0；45有限配置／词界／源PCM／数据库／作用域检查含36拒绝，500文件身份独立核验，98根Python／293工程MP3／正式工程私库与两版媒体保持。新质量绑定render为null，仅预渲染准入，不能抄成正式release；无新TTS、ASR或视频编码。
+- 入口`/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/checkpoint-editorial-preflight-v1/execution-progress.json`，说明`docs/editorial-quality.md`。下一步共享媒体生产、渲染后质量绑定与保留历史安装；专业发音／情感、完整人耳／视觉／逐词声画／PotPlayer未批准，目标active。其他请求／全局总数不改，不新增单片程序或声称后台自动续跑。
+
 ## 2026-11-14：142／270补句已进入通用编辑暂存，尚未安装
 
 - 新`media_workflow.editorial_stage`用配置选择成功完整试读，通过冻结编译器生成隔离译文与新基础／复合WAV；142补回内存与CPU关联，270补回分析前提和后续限定。无新TTS、ASR或视频编码，正式两版仍是155的SPEC修订v4，不把暂存冒充正式采用。

@@ -1,5 +1,11 @@
 # Media Downloader
 
+## 当前进度：补句字幕与当前音频预检完成，正式视频未替换
+
+- `cjiUXZh0ZCo`142／270补句现有6／7个完整显示短句，并对新复合WAV完成真实整片声音扫描。新共享入口为`media_workflow.caption_projection`和`media_workflow.editorial_quality`，详见`docs/editorial-quality.md`。
+- 当前191候选仍待听辨；189个未编辑单元候选逐项保持，12原声短尾仅分类为不适用合成尾句门禁。原数据库只读、私库历史完整，无新决定／修复；45有限检查及500身份独立核验通过。
+- 98根Python、293工程MP3、正式工程和两版媒体保持，无新TTS／ASR／视频编码。质量render绑定为null，仅预渲染预检；新视频生成／正式质量重绑／安装及专业发音、情感和完整听辨仍待完成。断点`checkpoint-editorial-preflight-v1`，目标active。
+
 ## 当前进度：两处补句已暂存，正式视频未替换
 
 - `cjiUXZh0ZCo`142／270的源文补句已通过通用`media_workflow.editorial_stage`编译并写入隔离基础／复合WAV，复用完整正常速率试读，无新联网合成、ASR或视频编码；正式两版仍保持上一轮155的SPEC语境修订。

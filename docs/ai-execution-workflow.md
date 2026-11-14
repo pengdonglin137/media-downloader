@@ -1,5 +1,12 @@
 # AI 执行工作流：自包含中文译配视频
 
+## 2026-11-14：共享字幕与预渲染声音质量入口实跑
+
+- 用`python -m media_workflow.caption_projection prepare CAPTIONS --output NEW_CAPTIONS`投影每个真实编辑；中／朗读逐字、英文完整词流守恒，分界必须是实际WordBoundary。仅替换选定显示窗，其他中文／双语时间和内容及英文轨字节保持，输出正文显示字幕。
+- 用`python -m media_workflow.editorial_quality prepare QUALITY --output NEW_QUALITY`派生已验源译／声音／字幕并真实扫描完整当前WAV；既有结果只`check`不覆盖。原数据库只读一致性备份、全部旧行保留，新决定／解决0；不得省略历史审校文件或换路径躲needs_fix。显式来源上下文只作用于目标工程且异常恢复，不用155专用旧运行时。
+- 本轮142／270显示6／7项，当前191声音候选；189未编辑候选保持，12原声短尾逐项固定样本对照后仅分类为不适用合成尾句规则，不删候选／dismiss或冒充听辨。45有限检查含36拒绝、500身份独立核验及真实prepare／check通过，98根Python和293工程MP3保持。
+- `quality-evaluation`的render绑定仍null，不能当新成片release；共享媒体生成后须重评当前render／包／字幕和媒体证据，再保留历史安装。正式两版仍155的SPEC修订v4，无新TTS／ASR／编码；人耳、发音／情感、全片视觉／逐词声画／PotPlayer未完成。入口`checkpoint-editorial-preflight-v1/execution-progress.json`，契约`docs/editorial-quality.md`，目标active。
+
 ## 2026-11-14：完整意群编辑的通用暂存入口
 
 - 成功试读之后用`python -m media_workflow.editorial_stage prepare CONFIG --output NEW_STAGE`；已有输出仅用`check`，不重跑或覆盖。配置绑定真实0基线收据、当前源译和媒体、成功整句试读与具体源译选择理由，不执行配置提供的任意脚本。

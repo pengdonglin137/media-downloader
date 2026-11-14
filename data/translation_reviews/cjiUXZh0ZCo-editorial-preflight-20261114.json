@@ -1,0 +1,132 @@
+{
+  "video_id": "cjiUXZh0ZCo",
+  "date": "2026-11-14",
+  "goal_status": "active",
+  "stage": "caption projection and pre-render current-audio quality verified; no new media yet",
+  "reviewed_units": [
+    142,
+    270
+  ],
+  "shared_adapters": [
+    "media_workflow/caption_projection.py",
+    "media_workflow/editorial_quality.py"
+  ],
+  "documentation": "docs/editorial-quality.md",
+  "caption_config": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/editorial-caption-config.json",
+    "bytes": 5527,
+    "mtime_ns": 1794636155745592315,
+    "sha256": "c057f0faa02e8539972bdc91e3afc5ad7533be7ebcf9d82b90449dab0edebf22"
+  },
+  "caption_manifest": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/editorial-captions-v1/manifest.json",
+    "bytes": 6667,
+    "mtime_ns": 1794636174554000854,
+    "sha256": "86db79fad9c1d1d52a0301a30c593f4c16807ef0141a933c47177413c685d94e"
+  },
+  "quality_config": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/editorial-quality-config.json",
+    "bytes": 2594,
+    "mtime_ns": 1794636419582133871,
+    "sha256": "dfb72fb4a0a8e6230588a76b8bbc89535d468323e5410b5b279890028038a1b8"
+  },
+  "quality_manifest": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/editorial-delivery-v1/manifest.json",
+    "bytes": 5039,
+    "mtime_ns": 1794636514210041472,
+    "sha256": "0070fb4a7782a22cf6cdc93e1a55829b1d4691607e8728cf761bc82bc4de258e"
+  },
+  "derived_work": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/editorial-delivery-v1/.zh_work_yt_cjiUXZh0ZCo",
+  "phrase_projections": [
+    {
+      "unit_id": 142,
+      "phrases": 6,
+      "body_edges": [
+        "2391.01",
+        "2394.285",
+        "2396.023",
+        "2399.335",
+        "2404.185",
+        "2406.148",
+        "2416.119"
+      ]
+    },
+    {
+      "unit_id": 270,
+      "phrases": 7,
+      "body_edges": [
+        "4693.39",
+        "4694.815",
+        "4698.715",
+        "4701.103",
+        "4702.978",
+        "4706.953",
+        "4710.203",
+        "4719.93"
+      ]
+    }
+  ],
+  "current_candidates": 191,
+  "unedited_current_candidates_exact": 189,
+  "edited_previous_candidates_preserved_in_database_history": 1,
+  "edited_current_candidates": [
+    {
+      "unit_id": 142,
+      "kind": "pronunciation-term",
+      "term": "CPU",
+      "human_listened": false
+    },
+    {
+      "unit_id": 142,
+      "kind": "unknown-abbreviation",
+      "token": "SPEC",
+      "human_listened": false
+    }
+  ],
+  "source_only_synthetic_tail_rule_classifications": 12,
+  "database_before_rows": {
+    "terms": 41,
+    "scans": 83,
+    "projects": 60,
+    "occurrences": 6842,
+    "issues": 3713,
+    "decisions": 0,
+    "repair_resolutions": 0
+  },
+  "database_after_rows": {
+    "terms": 41,
+    "scans": 84,
+    "projects": 60,
+    "occurrences": 7163,
+    "issues": 3904,
+    "decisions": 0,
+    "repair_resolutions": 0
+  },
+  "all_old_database_rows_preserved": true,
+  "new_decisions_or_resolutions": 0,
+  "finite_contract_checks": 45,
+  "finite_rejections": 36,
+  "independent_unique_file_identities": 500,
+  "independent_verification": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/editorial-delivery-audit/independent-verification.json",
+    "bytes": 147619,
+    "mtime_ns": 1794636724971402045,
+    "sha256": "5d17cc268c6dca492f9021813ade45f3ef90670d42f6e83842250b24d2b1053e"
+  },
+  "canonical_files_database_and_media_unchanged": true,
+  "root_python_unchanged": 98,
+  "existing_mp3_unchanged": 293,
+  "new_network_tts_asr_or_video_encoding": false,
+  "quality_scope": "pre-render-current-audio-only; render_state binding is null",
+  "full_human_listening": false,
+  "pronunciation_or_emotional_approval": false,
+  "full_visual_wordlevel_av_or_potplayer_approved": false,
+  "checkpoint": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/checkpoint-editorial-preflight-v1/execution-progress.json",
+  "remaining": [
+    "Shared two-purpose media producer that reuses verified intro/video/source audio and the edited composite",
+    "Fresh render-bound quality and package/upload evidence",
+    "Preserving-history installation transaction",
+    "Human pronunciation/emotion/full-film listening and final visual/word-level audiovisual/PotPlayer approval"
+  ],
+  "other_requests_or_global_totals_updated": false
+}

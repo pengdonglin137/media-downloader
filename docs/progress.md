@@ -1,5 +1,14 @@
 # 工作流优化验证记录
 
+## 2026-11-14：补句13个显示短句与当前191声音候选预检
+
+- 上轮为两个补句实际WAV暂存并推送；本轮完成下一关键路径：共享`caption_projection`和`editorial_quality`，142／270显示分别6／7项，保留完整中文／spoken及来源英文词流，分界在真实WordBoundary，40.2秒导读偏移和85章计划保持。未编辑字幕内容／时间、英文轨字节保持，不称英文声学对齐或全部术语原子性。
+- 派生源绑定工程和新旁白合同已实际生成，裸冻结验证拒绝；只重绑旧导读计划来源哈希，不重做已成功导读。原私库只读一致性备份，新完整复合WAV实际扫描为191候选；189未编辑当前候选逐项保持，编辑单元原1项留历史，当前142两项为CPU术语和SPEC缩写，未听辨、不自动选发音赢家。
+- 全部旧数据库行／schema保持：扫描83→84、问题3713→3904、词项6842→7163，术语41／项目60／决定0／修复0保持。12实际原声短尾按0dB、原绝对窗、源PCM和基础TTS零逐项核验，仅在门禁副本判为不适用合成尾句规则，实际候选和数据库无删除／dismiss／人耳决定。
+- 45有限配置／词界／源PCM／数据库历史／作用域检查真实0，含36拒绝；实际字幕prepare、质量prepare／check和独立复核均0。500独立文件身份及新显示、12原声分类与实际SQLite行核验通过；两项namespace CLI独立启动不依赖其他未提交编排模块。
+- 98根Python、293工程MP3（290正文＋3导读）、正式工程／数据库与两版媒体保持，无新TTS／ASR或视频编码。新质量state虽为eligible_with_unreviewed_candidates，render绑定明确null，只完成预渲染声音预检；正式两版仍155的SPEC修订v4。
+- 索引`data/translation_reviews/cjiUXZh0ZCo-editorial-preflight-20261114.json`，入口`/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/checkpoint-editorial-preflight-v1/execution-progress.json`；契约`docs/editorial-quality.md`，工程内`speech_review.html`未实际试听。共享媒体生产、成片质量重绑与历史保留安装仍待做；专业发音／情感、完整人耳／视觉、逐词声画、PotPlayer和最终批准未完成，目标active，不改其他请求／共享总数或声称后台自动续跑。
+
 ## 2026-11-14：通用编辑暂存实跑，142／270补句进入新复合WAV
 
 - 接续上轮未安装的整句试读：复核正式v4基线真实0，新增配置式`media_workflow.editorial_stage`，142补回内存与CPU关联；270补回if-they-do-it及讲者后续限定，不背书开发者概括。两项经冻结编译器写入隔离源译和基础／复合WAV，没有新TTS、ASR或视频编码。
