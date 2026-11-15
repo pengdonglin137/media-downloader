@@ -1,0 +1,125 @@
+{
+  "kind": "kernel-tool-complete-candidate-independent-record-v1",
+  "video_id": "cjiUXZh0ZCo",
+  "verification": {
+    "kind": "kernel-tool-source-and-complete-candidate-independent-verification-v1",
+    "passed": true,
+    "checked_at": "2026-11-15T05:12:02+00:00",
+    "verifier": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/kernel-tool-names-v1/verify-candidates-v1.py",
+      "bytes": 12181,
+      "mtime_ns": 1794719436760776289,
+      "sha256": "752c3a70ee82377dbb6c412f5f6e836373845824ded86d5f81969bd8893d11b4"
+    },
+    "source_proposal": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/kernel-tool-names-v1/source-amendment-proposal-v1.json",
+      "bytes": 15551,
+      "mtime_ns": 1794719350378229184,
+      "sha256": "310e07e7d719c81becd317e44cca0a1e432c57cd8ac6f976d5a9c3967261c9ed"
+    },
+    "proposed_isolated_SRT": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/kernel-tool-names-v1/proposed-en.srt",
+      "bytes": 83433,
+      "mtime_ns": 1794719460859479312,
+      "sha256": "766e269f8ef754bfbd9b80f3c268eba3a42bea2b05199e752649b3c12bef0bd4"
+    },
+    "finite_guards": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/kernel-tool-names-v1/finite-source-proposal-guards-v1.json",
+      "bytes": 2805,
+      "mtime_ns": 1794719460871479662,
+      "sha256": "4609e7f806f1f622d1666fa2b8425c7f90d0a2eda8d5a2e3c174258e82078aef"
+    },
+    "native_preview_check": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/kernel-tool-names-v1/preview-check-v1.log",
+      "bytes": 890,
+      "mtime_ns": 1794719355416378986,
+      "sha256": "dab15cbed5ff84c2c8cd9d7ba4693db56a402d34e4513f540b810d1efd008663"
+    },
+    "pairings": [
+      {
+        "key": "body-227-kernel-tools-literal-names",
+        "unit_id": 227,
+        "seconds": 16.944,
+        "source_window_seconds": "23.79",
+        "remaining_samples": 164304,
+        "word_boundaries": 38,
+        "word_boundary_text_coverage_complete": true,
+        "word_timing_phoneme_or_emotion_human_approved": false,
+        "diagnostic_texts": {
+          "small": "在往下,有系统调用接口,网络与 TCP、调度器、虚拟内存可以使用 VINSTAT、STAT、ISSTAT等工具。 还有设备驱动,以及内核模式下的服务器各个部件都能用这组工具抛息系统。",
+          "medium": "在网下,有系统、调用接口、网络与TCP、调度器、虚拟内存 可以使用WinSTAT、STAT、ISSTAT等工具 还有设备驱动,以及内核模式下的服务器各个部件 都能用这组工具剖析系统"
+        }
+      },
+      {
+        "key": "body-227-kernel-tools-explicit-initials",
+        "unit_id": 227,
+        "seconds": 17.76,
+        "source_window_seconds": "23.79",
+        "remaining_samples": 144720,
+        "word_boundaries": 45,
+        "word_boundary_text_coverage_complete": true,
+        "word_timing_phoneme_or_emotion_human_approved": false,
+        "diagnostic_texts": {
+          "small": "在往下,有系统调用接口、网络与 TCP 调度器、虚拟内存可以使用 VMstat、Dstat、IOSstat等工具。 还有设备驱动以及内核模式下的服务器各个部件都能用这组工具抛息系统。",
+          "medium": "在网下,有系统调用接口、网络与TCP调度器、 虚拟内存,可以使用VMSTAT、DSTAT、IOSTAT等工具。 还有设备驱动,以及内核模式下的服务器各个部件 都能用这组工具剖析系统。"
+        }
+      }
+    ],
+    "normal_rate_fits": 2,
+    "real_word_boundaries": 83,
+    "new_original_ASR_observations": 2,
+    "new_Chinese_diagnostic_observations": 4,
+    "new_unique_source_seconds": "23.79",
+    "new_source_images_individually_viewed": 1,
+    "current_before_precise_PCM_equal": true,
+    "current_before_provenance": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/kernel-tool-names-v1/current-before-provenance-v1.json",
+      "bytes": 1925,
+      "mtime_ns": 1794719210894010709,
+      "sha256": "ec8ec66f476130d42dd48143727946678f15fdbd71e6c805ee7654e2807e0ec4"
+    },
+    "preserved_counts": {
+      "records": 7288,
+      "canonical_targets": 31,
+      "frozen_root_python": 98,
+      "production_mp3": 293,
+      "unrelated_untracked": 13
+    },
+    "source_units": 321,
+    "proposed_changed_source_units": [
+      227
+    ],
+    "unchanged_source_windows": 321,
+    "all_other320_source_texts_unchanged": true,
+    "formal_text_audio_media_and_database_unchanged": true,
+    "source_stage_projection_quality_scan_video_encoding_or_installation_performed": false,
+    "source_holds216217248310317_unchanged": true,
+    "unit227_source_supported_proposal_not_formal_gate_closure": true,
+    "internal_comparison_page_not_delivery": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/kernel-tool-names-v1/review-page-v1/index.html",
+      "bytes": 2867,
+      "mtime_ns": 1794719522202255546,
+      "sha256": "8319e8e4e7568219f6cdca642134df9ebe0839e0d77849d075f6e6cefd5191b4"
+    },
+    "comparison_audio_elements": 4,
+    "human_listened": false,
+    "automatic_winner": null,
+    "pronunciation_emotion_or_final_approval": false,
+    "goal_status": "active"
+  },
+  "registration": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/checkpoint-kernel-tools-preview-v1/metadata-registration.json",
+    "bytes": 10737,
+    "mtime_ns": 1794719654879040519,
+    "sha256": "798971eaeb63e57aee9184a02e009bc84a7ff2bb23ab1dcc94f90c2f228c01a1"
+  },
+  "checkpoint_verification": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/checkpoint-kernel-tools-preview-v1/verification.json",
+    "bytes": 830,
+    "mtime_ns": 1794719654881040575,
+    "sha256": "082df3ded43da4e3860ecfcd051160c7a38b557f37024ef552a52ec33c1f2fb4"
+  },
+  "formal_adoption": false,
+  "human_listened": false,
+  "goal_status": "active"
+}

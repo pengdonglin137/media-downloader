@@ -1,0 +1,188 @@
+{
+  "kind": "kernel-tool-source-and-complete-speech-review-record-v1",
+  "video_id": "cjiUXZh0ZCo",
+  "recorded_at": "2026-11-15T05:14:14+00:00",
+  "review": {
+    "kind": "complete-kernel-tool-list-source-and-translation-review-v1",
+    "recorded_at": "2026-11-15T05:09:10+00:00",
+    "video_id": "cjiUXZh0ZCo",
+    "current_context": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/kernel-tool-names-v1/current-context-223-229.json",
+      "bytes": 6382,
+      "mtime_ns": 1794719210892010648,
+      "sha256": "8b8483ad5c7751e935e7a29d647e585ced1948c2de77fd76c2fc3e4b7fb84c04"
+    },
+    "reviewed_complete_current_units": [
+      223,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229
+    ],
+    "source_unit": 227,
+    "new_source_window_seconds": [
+      "3897.68",
+      "3921.47"
+    ],
+    "new_unique_source_seconds": "23.79",
+    "coverage_gap": {
+      "previous_component_tool_names": [
+        "3825",
+        "3844"
+      ],
+      "previous_java_tool_history": [
+        "3921.47",
+        "3970"
+      ],
+      "neither_includes_227": true,
+      "repeat_weak_source_ASR": false
+    },
+    "machine_observations": {
+      "distil-large-v3": "system call interface for the TCP scheduler, the virtual memory, you can use VMStat, DSTAT, IOSAT. You have device drivers and then different components of your server in the kernel mode where you can use all this set of tools to profile your system.",
+      "medium": "system, system call interface for the TCP scheduler, the virtual memory. You can use VM stat, the stat, IOS stat. You have device drivers and then different component of your server in the kernel mode where you can use all this set of tools to profile your system."
+    },
+    "machine_limits": [
+      "distil correctly spells DSTAT but gives IOSAT for iostat",
+      "medium gives the stat and IOS stat; these are not exact tool-name agreement",
+      "VMStat/VM stat agree after case and spacing normalization only",
+      "Neither ASR output is human listening, a phoneme assessment or speaker identity approval"
+    ],
+    "actual_images_individually_opened": [
+      {
+        "image": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/source-images-v1/source-3868.jpg",
+          "bytes": 30952,
+          "mtime_ns": 1794703172956834573,
+          "sha256": "0e7c70ecbd5086a19281a43fe63d9b026dd8ab7e96da0bba20a4e0eed850f4aa"
+        },
+        "reused": true,
+        "observed": "Kernel Architecture lists vmstat,perf,free,dstat,iostat at kernel-space margin; lower list partly covered by speaker inset."
+      },
+      {
+        "image": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/kernel-tool-names-v1/source-3906.jpg",
+          "bytes": 31622,
+          "mtime_ns": 1794719212747067739,
+          "sha256": "f9acbb92d69ed5e468e48d8f9a65b21fc8be7ffe1adc7a1a3d016138863fce1c"
+        },
+        "reused": false,
+        "metadata": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/kernel-tool-names-v1/source-3906.jpg.json",
+          "bytes": 1245,
+          "mtime_ns": 1794719213074077800,
+          "sha256": "e099424714557eb015404484d7389cb5b92f2a3fdfe99f7f69e65038819f1be4"
+        },
+        "observed": "The actual227 window shows the Tools/System slide. TCP/Scheduler,Virtual Memory,Ethernet/Block Device Interface have vmstat,perf,free,dstat,iostat,dtrace,stap,netstat,blktrace,iotop alongside; device-driver and lower component labels are also visible."
+      }
+    ],
+    "editorial_decision": "The missing dstat/iostat translation proposal is supported by the exact-window spoken-name sequence plus independently inspected original slide spelling. Do not add all other slide-only names or assign a tool exclusively to one subsystem.",
+    "existing_translation_problem": "Current Chinese227 reduces the spoken list to vmstat等, omitting dstat and iostat.",
+    "speaker_review": "This is one existing lecturer unit with unchanged canonical voice and no source-audio reservation; no cross-speaker joining or new acoustic speaker approval.",
+    "facts_to_keep": [
+      "system-call interface,network/TCP,scheduler,virtual memory",
+      "vmstat,dstat,iostat as examples,not the full slide list",
+      "device drivers and server components in kernel mode",
+      "tools used to profile the system"
+    ],
+    "performance_or_subsystem_guarantees_added": false,
+    "other_source_holds_not_resolved": [
+      216,
+      217,
+      248,
+      310,
+      317
+    ],
+    "unit227_formal_source_adoption_or_acoustic_approval": false,
+    "Linux27holds23markersCriticalF08_unchanged": true,
+    "human_listened": false,
+    "pronunciation_emotion_naturalness_or_final_approval": false
+  },
+  "source_amendments": [
+    {
+      "unit_id": 227,
+      "source_start": "3897.68",
+      "source_end": "3921.47",
+      "before": "system call interface for the net the TCP scheduler the vitriol a virtual memory you can Li use vmstat the start I or start you have the you have device drivers and then different component of your server in the kernel mode where you can use all this set of tools to profile your system",
+      "after": "system call interface for the net the TCP scheduler the virtual memory you can use vmstat dstat iostat you have the you have device drivers and then different component of your server in the kernel mode where you can use all this set of tools to profile your system",
+      "replacement": {
+        "from": "the vitriol a virtual memory you can Li use vmstat the start I or start",
+        "to": "the virtual memory you can use vmstat dstat iostat",
+        "occurrences": 1
+      },
+      "basis": "Both complete original-window ASR outputs recover virtual memory and a three-name list;3906 actual source slide supplies exact dstat/iostat spellings. Distil DSTAT/IOSAT and medium the stat/IOS stat are explicitly not exact consensus. Preserve all exterior original words,including existing net and repeated you have.",
+      "word_conserving": false,
+      "same_unit_identity_and_window": true,
+      "human_listened": false
+    }
+  ],
+  "complete_cases": [
+    {
+      "key": "body-227-kernel-tools-literal-names",
+      "unit_id": 227,
+      "source": "system call interface for the net the TCP scheduler the vitriol a virtual memory you can Li use vmstat the start I or start you have the you have device drivers and then different component of your server in the kernel mode where you can use all this set of tools to profile your system",
+      "source_start": "3897.68",
+      "source_end": "3921.47",
+      "current_display": "再往下，有系统调用接口、网络与 TCP、调度器、虚拟内存，可以使用 vmstat 等工具。还有设备驱动，以及内核模式下的服务器各个部件，都有相应工具可用。",
+      "current_spoken": "再往下，有系统调用接口、网络与 TCP、调度器、虚拟内存，可以使用 vmstat 等工具。还有设备驱动，以及内核模式下的服务器各个部件，都有相应工具可用。",
+      "display": "再往下，有系统调用接口、网络与 TCP、调度器、虚拟内存，可以使用 vmstat、dstat、iostat 等工具。还有设备驱动，以及内核模式下的服务器各个部件，都能用这组工具剖析系统。",
+      "spoken": "再往下，有系统调用接口、网络与 TCP、调度器、虚拟内存，可以使用 vmstat、dstat、iostat 等工具。还有设备驱动，以及内核模式下的服务器各个部件，都能用这组工具剖析系统。",
+      "reason": "补回原话所列dstat/iostat，不把幻灯全部工具搬入口播；用完整解释语气保留原系统层次和设备驱动。规范工具名作为原样朗读对照。",
+      "speaker_review": {
+        "same_speaker": true,
+        "evidence": "This is one existing lecturer unit with unchanged canonical voice and no source-audio reservation; no cross-speaker joining or new acoustic speaker approval."
+      },
+      "before_waveform": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/kernel-tool-names-v1/current-unit-227.wav",
+        "bytes": 1141964,
+        "mtime_ns": 1794719210892010648,
+        "sha256": "ef21e1fe2596b2972e855b6f5e7ee49c1c849a6c3790a2792b124a66a1838d93"
+      },
+      "preserved_facts": [
+        "system-call interface,network/TCP,scheduler,virtual memory",
+        "vmstat,dstat,iostat as examples,not the full slide list",
+        "device drivers and server components in kernel mode",
+        "tools used to profile the system"
+      ],
+      "requires_explicit_source_amendment_before_adoption": true
+    },
+    {
+      "key": "body-227-kernel-tools-explicit-initials",
+      "unit_id": 227,
+      "source": "system call interface for the net the TCP scheduler the vitriol a virtual memory you can Li use vmstat the start I or start you have the you have device drivers and then different component of your server in the kernel mode where you can use all this set of tools to profile your system",
+      "source_start": "3897.68",
+      "source_end": "3921.47",
+      "current_display": "再往下，有系统调用接口、网络与 TCP、调度器、虚拟内存，可以使用 vmstat 等工具。还有设备驱动，以及内核模式下的服务器各个部件，都有相应工具可用。",
+      "current_spoken": "再往下，有系统调用接口、网络与 TCP、调度器、虚拟内存，可以使用 vmstat 等工具。还有设备驱动，以及内核模式下的服务器各个部件，都有相应工具可用。",
+      "display": "再往下，有系统调用接口、网络与 TCP、调度器、虚拟内存，可以使用 vmstat、dstat、iostat 等工具。还有设备驱动，以及内核模式下的服务器各个部件，都能用这组工具剖析系统。",
+      "spoken": "再往下，有系统调用接口、网络与 T C P、调度器、虚拟内存，可以使用 V M stat、D stat、I O stat 等工具。还有设备驱动，以及内核模式下的服务器各个部件，都能用这组工具剖析系统。",
+      "reason": "相同完整译文，仅将TCP、VM、D、IO在朗读输入显式分词，对照缩写清晰度；字幕仍为规范命令拼写，不用中文错字迁就ASR。",
+      "speaker_review": {
+        "same_speaker": true,
+        "evidence": "This is one existing lecturer unit with unchanged canonical voice and no source-audio reservation; no cross-speaker joining or new acoustic speaker approval."
+      },
+      "before_waveform": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/kernel-tool-names-v1/current-unit-227.wav",
+        "bytes": 1141964,
+        "mtime_ns": 1794719210892010648,
+        "sha256": "ef21e1fe2596b2972e855b6f5e7ee49c1c849a6c3790a2792b124a66a1838d93"
+      },
+      "preserved_facts": [
+        "system-call interface,network/TCP,scheduler,virtual memory",
+        "vmstat,dstat,iostat as examples,not the full slide list",
+        "device drivers and server components in kernel mode",
+        "tools used to profile the system"
+      ],
+      "requires_explicit_source_amendment_before_adoption": true
+    }
+  ],
+  "registration": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/checkpoint-kernel-tools-preview-v1/metadata-registration.json",
+    "bytes": 10737,
+    "mtime_ns": 1794719654879040519,
+    "sha256": "798971eaeb63e57aee9184a02e009bc84a7ff2bb23ab1dcc94f90c2f228c01a1"
+  },
+  "formal_adoption": false,
+  "goal_status": "active"
+}
