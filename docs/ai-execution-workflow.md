@@ -1,5 +1,13 @@
 # AI 执行工作流：自包含中文译配视频
 
+## 2026-11-15：216/217实际原声暂存的成功续接入口
+
+当前成功候选为`request-cjiUXZh0ZCo-20261114/source-reservation-v1/stage-v2`。仅只读检查：`PYTHONPATH=/home/pengdl/media-downloader /vol_1t/pyvideotrans/.venv/bin/python /home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/source-reservation-v1/check-stage-v1.py`。它验证38.4秒原声、旧库存与正式目标不变，不给生产、人耳或定义批准。
+
+`source_reservation_stage`首轮prepare已在生成两PCM和来源契约后因漏download链接真实1；不要重跑。`source_reservation_resume`只在新目录补准确来源链接、复制已编译输入并生成旁白身份，原契约/PCM不改、旧失败及normalization诊断保留。恢复0与旧1分开。首次独立核验在成功源解码后误断言321全normal而1；v2复用实际子进程0的源证据，按真实316 normal/5 rate_up只读核验，不补造原父0。
+
+本轮无TTS/ASR、生产扫描、字幕投影、编码或安装。候选24区/41项不覆盖正式23区/39项。下一先做实际原声字幕投影，明确未核定指代及可靠中文；再建立实际原声selection质量路由，不能填虚假TTS cases或词界来满足旧`editorial_quality.prepare`。之后才做独立媒体、40.2秒真实导读偏移、两版中文音频和安装验证。正式质量继续使用`profiling-adoption-v1/check-installed-v1.py`，所有旧门禁及并行队列不变。
+
 ## 2026-11-15：217否定试读续做，禁止把检查通过外推为安装
 
 本次仅在`request-cjiUXZh0ZCo-20261114/negation-repair-v1`新增一条217完整试读。既有双ASR提供否定词面、原片图提供不同定义，但不能自动校正216或为217的“这”补指代；保持来源复核门禁。15.24秒正常速率试读适配21.18秒原窗，34词界及MP3完整解码核对；没有新ASR、生产扫描、编码或安装。

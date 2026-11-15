@@ -1,0 +1,351 @@
+{
+  "kind": "actual-source-reservation-staged-independent-record-v1",
+  "video_id": "cjiUXZh0ZCo",
+  "verification": {
+    "kind": "complete-source-reservation-stage-independent-verification-v2",
+    "passed": true,
+    "checked_at": "2026-11-15T09:00:59+00:00",
+    "verifier": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/source-reservation-v1/independent-stage-v2.py",
+      "bytes": 8790,
+      "mtime_ns": 1794733160922306814,
+      "sha256": "367fb19e4d84374bea01a31e7a5260af343eb66f7ab0c93ed8f112f3a9f8193d"
+    },
+    "stage_adapter": {
+      "path": "/home/pengdl/media-downloader/media_workflow/source_reservation_stage.py",
+      "bytes": 22291,
+      "mtime_ns": 1794732610672289822,
+      "sha256": "1f6373508c9b942b5e839cbf4c2e2da4a3509fef13c31c1291660020ba4c8f54"
+    },
+    "recovery_adapter": {
+      "path": "/home/pengdl/media-downloader/media_workflow/source_reservation_resume.py",
+      "bytes": 8307,
+      "mtime_ns": 1794732788690767211,
+      "sha256": "f956539e79f1c4218297373eb5d841da881f7060da30df5db522fd0120624ccf"
+    },
+    "stage": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/source-reservation-v1/stage-v2/manifest.json",
+      "bytes": 23004,
+      "mtime_ns": 1794732791180764364,
+      "sha256": "7ea8f9cc37a34072450f2d7d7dbf15e0ceea71a7593cf3ae046cdb6274ce764f"
+    },
+    "native_verification": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/source-reservation-v1/stage-v2/recovery-verification.json",
+      "bytes": 17377,
+      "mtime_ns": 1794732793801761485,
+      "sha256": "d3020422be9dd5eefa43c2ad94692968203a4da76dc0cd95b0aa7f374ed8d666"
+    },
+    "config": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/source-reservation-v1/stage-config-v1.json",
+      "bytes": 8390,
+      "mtime_ns": 1794732566349533348,
+      "sha256": "24d58d5f2618d305b339a7e088f08d8d39968d2e2fc2133622141241428ad36f"
+    },
+    "direct_source_decode": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/source-reservation-v1/direct-source-decode-v1.json",
+      "bytes": 1058,
+      "mtime_ns": 1794733018195902346,
+      "sha256": "e8985d1c48370bd35bdbcb18be482b86bceca05bee7769e94fbd67eec503a357"
+    },
+    "direct_decode_actual_subprocess0_reused_from_outer_verifier1": true,
+    "old_verifier1_failure": {
+      "script": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/source-reservation-v1/independent-stage-v1.py",
+        "bytes": 8469,
+        "mtime_ns": 1794733009361884242,
+        "sha256": "f2094967a4907af6c5b80a215ea5e8f3e16b26a791060518ec6f268859e08c02"
+      },
+      "log": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/source-reservation-v1/independent-stage-v1.log",
+        "bytes": 330,
+        "mtime_ns": 1794733018630903260,
+        "sha256": "ddb2d1152a68dc142bf69a7fd5217c4900e9201d1c27c80cc3609a19f9a297c7"
+      },
+      "exit": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/source-reservation-v1/independent-stage-v1.exit",
+        "bytes": 2,
+        "mtime_ns": 1794733018658903319,
+        "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865"
+      }
+    },
+    "added_source_units": [
+      216,
+      217
+    ],
+    "added_source_regions": [
+      {
+        "unit_ids": [
+          216,
+          217
+        ],
+        "source_start": 3707.01,
+        "source_end": 3745.41,
+        "start_sample": 88968240,
+        "end_sample": 89889840,
+        "gain_db": 0.0
+      }
+    ],
+    "added_actual_source_samples": 921600,
+    "added_actual_source_seconds": "38.4",
+    "total_source_regions": 24,
+    "total_source_reserved_units": 41,
+    "source_windows": 321,
+    "all_old23_source_regions_39_units_and21_EOF_samples_preserved": true,
+    "new_source_window_base_TTS_zero_and_composite_equals_direct_source": true,
+    "both_PCM_exteriors_equal_baseline": true,
+    "only_two_display_spoken_and_stats_units_changed": true,
+    "normal_including_source_placeholders": 316,
+    "existing_rate_up_unchanged": 5,
+    "preserved_counts": {
+      "records": 9444,
+      "canonical_targets": 31,
+      "frozen_root_python": 98,
+      "production_mp3": 293,
+      "unrelated_untracked": 13
+    },
+    "canonical_targets": [
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/zh.srt",
+        "bytes": 61554,
+        "mtime_ns": 1794728397344032038,
+        "sha256": "c7c530bbe0c3cff0d31608f9385367eaa05695f31935e1cde2bcf6c45080b041"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/en.srt",
+        "bytes": 83407,
+        "mtime_ns": 1794728397320031727,
+        "sha256": "b3606062f2a65b5710e7637c097d4f9ff450fbec38c1608c535c58929056d074"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/timing_review.json",
+        "bytes": 3,
+        "mtime_ns": 1794621436423917798,
+        "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/voices.json",
+        "bytes": 7386,
+        "mtime_ns": 1794620970384512188,
+        "sha256": "8a2e76078e643df374006311148f9ce441a0042d6ada7fab92ee6e08254d7b00"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/compilation.json",
+        "bytes": 1010,
+        "mtime_ns": 1794728397365032309,
+        "sha256": "42d639d5c847ca0c3b5f0d7399a272d3a17d01b4e090d2055448b5bcee30270f"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/spoken.srt",
+        "bytes": 57038,
+        "mtime_ns": 1794728397344032038,
+        "sha256": "661a4ad9f5f4c4d5cf4388d6c02197cf376ce0ea446aafea791c43f17c1466f7"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/translation.tsv",
+        "bytes": 51603,
+        "mtime_ns": 1794728386788894821,
+        "sha256": "36f629dd93631b5b938790eb2bf82f19d9ac7aaa097cbccb2a94a158b15beadb"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/bilingual_display.srt",
+        "bytes": 159090,
+        "mtime_ns": 1794728452871735158,
+        "sha256": "00b1ddf1a2f39ecca8eaeb370cc8eaafbbb8e8af0ebbbd2c2d9621dce728cf00"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/spoken_overrides.json",
+        "bytes": 32195,
+        "mtime_ns": 1794728386788894821,
+        "sha256": "5c87eddba3a4a84e7f5bb355c89dbe31b470f61fa7b72ea46e257fb4526b6a52"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/package-plan.json",
+        "bytes": 27311,
+        "mtime_ns": 1794728465898895782,
+        "sha256": "b796350544ac8c124a458829ec1331370077d429283e1e0af640a3ff062349ea"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/translation_task.json",
+        "bytes": 3962,
+        "mtime_ns": 1794728397323031766,
+        "sha256": "4c189180a3dd28c4b94e090fc835ee0f1e8f2af9a3159db26990206332846515"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/tts_voice.txt",
+        "bytes": 18,
+        "mtime_ns": 1794621043528585578,
+        "sha256": "278ec7126151de367498ddc4ed86aaa29a610506a7559b9831fa2fdfce5977de"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/meta.json",
+        "bytes": 146,
+        "mtime_ns": 1794613332409392106,
+        "sha256": "f8a1c184a547b229dee7b091ce9ed8b47fde48011a6c26796b688bbe48a60335"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/zh_display.srt",
+        "bytes": 86810,
+        "mtime_ns": 1794728452863735059,
+        "sha256": "0ea19a4f96e820b013fbd71579a5c3b4e2d6d14917de52584a6f8b02eeed5fb0"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/tts_stats.json",
+        "bytes": 23520,
+        "mtime_ns": 1794728387460903592,
+        "sha256": "0c0e1d9d64f5ccc450df1965c629ef692926fcbfce61ff683bd8c991327df150"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/bilingual.srt",
+        "bytes": 133834,
+        "mtime_ns": 1794728397345032051,
+        "sha256": "294435c5779ef1c7ef9ee2f7c2bae2bcc5ec8dfa383ac8660fe25548275e4439"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/en_display.srt",
+        "bytes": 107461,
+        "mtime_ns": 1794728452867735108,
+        "sha256": "202eaffa3c1fb1efe6d4b612abba2f7355fbd10b3e055220c3218cc03e5afffc"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/translation_audit.md",
+        "bytes": 4066,
+        "mtime_ns": 1794621566492573287,
+        "sha256": "8ccf1fd0a56d92fa6c502281201c849d9cbaf1042959f8fd67ab537d900cb58e"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/speech_policy.json",
+        "bytes": 54,
+        "mtime_ns": 1794620970275510563,
+        "sha256": "82f52a8889d1044e2e37de0fd32dc0cc682b4c2bfaf41b35bee6a8f26cb29fcb"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/Science of Performance 2019_中文配音.mp4",
+        "bytes": 566160533,
+        "mtime_ns": 1794728774391319404,
+        "sha256": "18d0c823a19a200e02010c4f774cd0ad61b336827e77fab0dcd6ede2d4c2cd94"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/Science of Performance 2019_中文上传版.mp4",
+        "bytes": 452750775,
+        "mtime_ns": 1794729400379984625,
+        "sha256": "0088d7bd29ed73deeaac837e634e24847304eb9c09c0aa486d048f26ac63c02f"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/editorial_install.json",
+        "bytes": 688,
+        "mtime_ns": 1794730255874555297,
+        "sha256": "fe112cdccc1703ca5cee3e2246190122acf86a7b6ae2fff6849ec4270678a370"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/narration.json",
+        "bytes": 10243,
+        "mtime_ns": 1794730255917557542,
+        "sha256": "4a04c767e3bd681ee1dd8fee3855836475d720fd80567f355dc866910f431df5"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/render_state.json",
+        "bytes": 1881,
+        "mtime_ns": 1794730255959559734,
+        "sha256": "d15b8b1ce58d6b73ad718171f8ec01938cfcb45eacebbd30e9a750190b8a6390"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/upload_export.json",
+        "bytes": 2182,
+        "mtime_ns": 1794730255993561508,
+        "sha256": "9d7aa76fff4942ba37de034188c0348d53320f3d2fed059c297e1789674c2a4f"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/speech_review.json",
+        "bytes": 307819,
+        "mtime_ns": 1794730269279248269,
+        "sha256": "a1a76a205010a48e74f19c848fff3ac3807e4dddeec70014f8012f2126ce3ef2"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/speech_review.html",
+        "bytes": 125255,
+        "mtime_ns": 1794730269314250062,
+        "sha256": "c97fbcdf4128cb6f042ce5dc5bada6251f981f46999ac87375d5e49d41a67e0d"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/speech_database.json",
+        "bytes": 154,
+        "mtime_ns": 1794730269345251650,
+        "sha256": "35db87e80663bcb7b350bc41dadfe07a8ce8fea9841090289aac8a2d644004d7"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/delivery_quality.json",
+        "bytes": 1858,
+        "mtime_ns": 1794730269636266554,
+        "sha256": "43885804c748c7d191b9807a6369c1a7015e9dd86d25c547be2f93fe507e3dbb"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/delivery_check.json",
+        "bytes": 9206,
+        "mtime_ns": 1794730272611418597,
+        "sha256": "f5c5c7b5f4c2a60ae5f984eaefa11bf977bc4c1beb401e5f0c3449370a3989ae"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/release.json",
+        "bytes": 2348,
+        "mtime_ns": 1794730273060441498,
+        "sha256": "79b4078d66027192e20c655d876d6717bb262f47c61b0cac11c83a7f049236a9"
+      }
+    ],
+    "database": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/profiling-adoption-v1/install-v1/speech-review.sqlite3",
+      "bytes": 34721792,
+      "mtime_ns": 1794730269266247603,
+      "sha256": "813b4c151393b7be13490e11a649dd499a2e6869f415d1f4dea2d74c3c7775c2"
+    },
+    "database_counts": {
+      "decisions": 0,
+      "issues": 11600,
+      "occurrences": 20396,
+      "projects": 60,
+      "repair_resolutions": 0,
+      "scans": 125,
+      "terms": 41
+    },
+    "current_unreviewed_candidates": 186,
+    "finite_fixtures": [
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/source-reservation-v1/finite-fixtures-v1.json",
+        "bytes": 2853,
+        "mtime_ns": 1794732610842288984,
+        "sha256": "da19e58dd3637209ced5f76acecfff598efbeeb33e3d27b42b305d9b111b680f"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/source-reservation-v1/finite-recovery-v1.json",
+        "bytes": 1206,
+        "mtime_ns": 1794733066779017232,
+        "sha256": "154ca491bc0855e0dfdff3c924336f531dcd8836fd4fc9f8c06d9d0f89f301e6"
+      }
+    ],
+    "finite_fixture_cases": 20,
+    "old_stage_exit": 1,
+    "recovery_exit": 0,
+    "old_verifier_exit": 1,
+    "old_failure_manifest": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/source-reservation-v1/stage-v1/manifest.json",
+      "bytes": 1611,
+      "mtime_ns": 1794732639478158166,
+      "sha256": "18c1866a7e5bf8680f394b30c63c4a442b94f4f0ceeaf249177058f984acf3af"
+    },
+    "failed_files_preserved": 42,
+    "new_TTS_ASR_scan_production_encode_or_install": 0,
+    "legacy_quality_route_not_yet_supported": "Requires an explicit actual-source selection adapter, not invented TTS cases.",
+    "subtitle_projection_preflight_media_installation_completed": false,
+    "formal_adoption": false,
+    "source216217_definition_hold_resolved": false,
+    "human_listened_phoneme_emotion_wholevisual_wordlevel_PotPlayer_final_approval": false,
+    "goal_status": "active"
+  },
+  "verification_identity": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/source-reservation-v1/independent-stage-v2.json",
+    "bytes": 14142,
+    "mtime_ns": 1794733259294690158,
+    "sha256": "23452c988ce454dbde94ae4f832a04909b46b1db11af81eeb78defca49867312"
+  },
+  "formal_adoption": false,
+  "production_admission_proven": false
+}

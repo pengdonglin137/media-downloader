@@ -1,0 +1,80 @@
+{
+  "kind": "actual-source-reservation-staged-review-v1",
+  "video_id": "cjiUXZh0ZCo",
+  "recorded_at": "2026-11-15T09:04:38+00:00",
+  "scope": [
+    216,
+    217
+  ],
+  "author_review": {
+    "kind": "uncertain-negation-complete-original-source-retention-review-v1",
+    "recorded_at": "2026-11-15T08:49:26+00:00",
+    "units": [
+      216,
+      217
+    ],
+    "reason": "216 affirmative oral/source/ASR and slide negation conflict;217 literal negation does not establish its antecedent. Preserve the complete contiguous38.4second original passage rather than publishing a confident interpretation. Keep the supported literal217 Chinese as subtitles, but synthesize neither reservations nor review notes.",
+    "policy": "Existing user policy retains unreliable original speech in the Chinese primary track, not only the alternate master track. This is an interpretation/definition issue, not a fabricated claim of inaudibility.",
+    "source_absolute_window": [
+      "3707.01",
+      "3745.41"
+    ],
+    "complete_source_samples": [
+      88968240,
+      89889840
+    ],
+    "body_offset_seconds": "0",
+    "final_intro_offset_seconds": "40.2",
+    "source_audio_stream": "0:a:0",
+    "gain_db": 0,
+    "candidate217_preview_not_used": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/negation-repair-v1/preview-v1/manifest.json",
+      "bytes": 3411,
+      "mtime_ns": 1794731281325981059,
+      "sha256": "ec9c88df75fda6007f47a8c51241606965107278f7a6d7217893d7bff11eb900"
+    },
+    "source216_text_not_negated_or_amended": true,
+    "source217_literal_negation_preserved_in_display": true,
+    "source_roles_or_definition_or_phoneme_emotion_approved": false,
+    "human_listened": false,
+    "source_issue_resolved": false,
+    "formal_media_installed": false
+  },
+  "author_review_identity": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/source-reservation-v1/authored-review-v1.json",
+    "bytes": 1570,
+    "mtime_ns": 1794732566094534898,
+    "sha256": "2b7e9744e6664fd76f847e4a98a5191b17bee7cbba260d9fbe5adb6465099a1a"
+  },
+  "stage_config": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/source-reservation-v1/stage-config-v1.json",
+    "bytes": 8390,
+    "mtime_ns": 1794732566349533348,
+    "sha256": "24d58d5f2618d305b339a7e088f08d8d39968d2e2fc2133622141241428ad36f"
+  },
+  "stage_manifest": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/source-reservation-v1/stage-v2/manifest.json",
+    "bytes": 23004,
+    "mtime_ns": 1794732791180764364,
+    "sha256": "7ea8f9cc37a34072450f2d7d7dbf15e0ceea71a7593cf3ae046cdb6274ce764f"
+  },
+  "read_only_runtime": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/source-reservation-v1/check-stage-v1.py",
+    "bytes": 1384,
+    "mtime_ns": 1794733203838464791,
+    "sha256": "933d3b5847701a81e29f727ff6adebaf426ebc478d890ca60c3f96c11cc5ad8b"
+  },
+  "added_actual_source_seconds": "38.4",
+  "added_source_samples": 921600,
+  "candidate_original_regions": 24,
+  "candidate_reserved_units": 41,
+  "formal_original_regions_unchanged": 23,
+  "formal_reserved_units_unchanged": 39,
+  "normal_including_nonsynthetic_source_placeholders": 316,
+  "existing_rate_up_unchanged": 5,
+  "new_TTS_ASR_scans_production_encodes_installs": 0,
+  "canonical_translation_or_media_installed": false,
+  "subtitle_projection_or_production_admission_completed": false,
+  "human_listened_or_definition_pronunciation_emotion_approved": false,
+  "goal_status": "active"
+}
