@@ -1,5 +1,11 @@
 # 译配工作流契约
 
+## 2026-11-16：隔离字幕安全带与完整意群发音对照的分离契约
+
+- iJ_eIsA5E1U复用冻结`upload_export_v3`的geometry/subtitles/verify_script/raster_check及`caption_layout`；只有上传版视频为144像素安全带重编码，原画在(0,0)不缩放、不裁剪，母版实物不重制。77屏逐项栅格检查和7有限契约不等于全片视觉批准；重编码画面不称像素或编码包无损。
+- 新上传候选复制父代9856中文AAC包的载荷与精确PTS/DTS/时长，解码PCM一致；10510帧时间及11章保持。SSIM只作上部原画区域的有限失真度量。新三组文字/字母拼读试听是独立分支，源文、角色、原窗绑定，完整MP3仅等长增益、不裁切变速，尚未投影或安装到该上传版。
+- 两模型无提示中文回录保留原始WinSTAT/WindStat、ISDAT、IOST-AT与同音错字，不将ASR一致或去标点后的命令匹配转成自动选优、人耳/音素/情绪批准。正常+0%/+0Hz是合成参数而非声情并茂证据；正式状态、门禁和既有媒体保持。详见`docs/linux-performance-safe-band-and-command-speech-2026-11-16.md`。
+
 ## 2026-11-15：Linux Performance Tools完整意群朗读候选
 
 - 新增可选`media_workflow.grouped_phrase_refinement`，绑定实际语义组、源文、角色、输入身份与完整原窗；仅允许删除指定旧切分逗号和I/O朗读展开。正常语速/默认零音高，完整MP3解码后只做等长增益；不走会裁头尾的样片解码器。

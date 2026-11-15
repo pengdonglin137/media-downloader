@@ -1,5 +1,11 @@
 # AI 执行工作流：自包含中文译配视频
 
+## 2026-11-16：复用语音修字幕挡图，试听对照不冒充已安装
+
+- iJ_eIsA5E1U以外部`safe-band-v1/pipeline-v1.py`执行create_plan、prepare、encode，复用已有冻结布局函数，完整母版和中文语音不重做；验证77屏实际字形、精确AAC/PCM、帧时戳与章节，并逐张登记17张实际上传版受限图。实际1920×1224、字体35不外推手机或任意播放器可读性。
+- `clarity-terms-v1.py`的create_plan/synthesize只产生三组完整原窗试听；`chinese-recapture-v1.py`及`clarity-recapture-v1.py`使用已有medium/small各回录一次，无提示词/热词。原vmstat/iostat转写差异只触发候选研究，不据此反向改规范汉字、选优或改正式音轨。
+- 安全带上传版仍是上轮12组音频，新三组未装入。首次medium因baseline出口尚未产生而真实1，失败发生在推理前；确认baseline0后实际推理各一次成功。保留原出口，不为漂亮收据重做成功步骤；续接仅登记、独立保护核验和选择性提交/推送，入口见`docs/linux-performance-safe-band-and-command-speech-2026-11-16.md`。
+
 ## 2026-11-15：Linux Performance Tools完整意群朗读候选
 
 - 使用`python -m media_workflow.grouped_phrase_refinement synthesize|assemble|package --plan PLAN --output EXTERNAL`；实际环境为既有pyvideotrans虚拟环境、仓库PYTHONPATH。`--resume`只可用于有身份收据的未完成合成，不重跑成功TTS。

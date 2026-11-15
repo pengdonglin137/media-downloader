@@ -1,5 +1,11 @@
 # Media Downloader
 
+## 2026-11-16：Linux Performance Tools安全字幕带候选
+
+- iJ_eIsA5E1U的完整上传候选已将中文字幕移到新增底带，原画不缩放、不裁剪；四处已发现的采样挡图得到修订，完整中文音频直接复用，不重做配音。
+- 三组中文措辞/命令逐字母拼读试听另存，尚未装入成片或批准自然度；30份双模型回录仅为诊断。旧跨屏显示、人耳、情感、专业发音、PotPlayer和最终选用仍待验。
+- 产物、命令和限定见`docs/linux-performance-safe-band-and-command-speech-2026-11-16.md`；新断点`/home/pengdl/Videos/translated_backlog/.workflow_logs/request-iJ_eIsA5E1U-20261115/checkpoint-safe-band-v1/execution-progress.json`。本轮只提交所属审校控制与文档，媒体/缓存留在外部，不自动覆盖正式工程。
+
 ## 2026-11-15：Linux Performance Tools完整意群朗读候选
 
 - iJ_eIsA5E1U的新隔离双版本候选已生成，修顺12处句中切分逗号，5处I/O朗读改为输入输出；未自动替换正式成片或批准自然度。

@@ -1,0 +1,127 @@
+{
+  "kind": "isolated-existing-speech-safe-band-v1",
+  "video_id": "iJ_eIsA5E1U",
+  "date": "2026-11-15",
+  "work": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_iJ_eIsA5E1U",
+  "inputs": {
+    "parent_master": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-iJ_eIsA5E1U-20261115/group-phrasing-v1/candidate/master.mp4",
+      "bytes": 50425570,
+      "mtime_ns": 1794755876443003334,
+      "sha256": "38e1b8ed227e0fb863bb3e57433f24160b960a57747808ae0d85a0f9fa91fc37"
+    },
+    "captions": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-iJ_eIsA5E1U-20261115/group-phrasing-v1/candidate/zh.srt",
+      "bytes": 7536,
+      "mtime_ns": 1794755861657817734,
+      "sha256": "0d5bd206035abaedb9e4678bc0608dd219db1a474f79f5635bee5fcd952969e5"
+    },
+    "audio_verification": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-iJ_eIsA5E1U-20261115/group-phrasing-v1/independent-audio-v1.json",
+      "bytes": 5362,
+      "mtime_ns": 1794755937777772099,
+      "sha256": "441adc92484afd84769309e2f5845acf8d849971b428ccbc808cf6d2c3cd5c86"
+    },
+    "media_verification": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-iJ_eIsA5E1U-20261115/group-phrasing-v1/independent-media-v2.json",
+      "bytes": 3211,
+      "mtime_ns": 1794756281717055861,
+      "sha256": "687db9cfd1b50996e0bf8e59ee38b81098fb58c83c6402e2fba783a94af46e59"
+    },
+    "previous_frame_findings": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-iJ_eIsA5E1U-20261115/group-phrasing-v1/image-observations-v1.json",
+      "bytes": 21440,
+      "mtime_ns": 1794756563458542643,
+      "sha256": "f7edeb23805236265d96d25772136df341f65ca20f5cb663e1ce9316314756a1"
+    },
+    "implementation/upload_export_v3.py": {
+      "path": "/home/pengdl/media-downloader/upload_export_v3.py",
+      "bytes": 17019,
+      "mtime_ns": 1794219215000400156,
+      "sha256": "1163fb62fe6f3654ad180bbb1ddfb28c3fd483eed5ee2abf9e673e02f95e5cd2"
+    },
+    "implementation/upload_export.py": {
+      "path": "/home/pengdl/media-downloader/upload_export.py",
+      "bytes": 10315,
+      "mtime_ns": 1794099970293571273,
+      "sha256": "ba2934c5b35ab4dc02ca8314ddd590f148cb82e8e3132ee16dfb24a2c8641f17"
+    },
+    "implementation/caption_layout.py": {
+      "path": "/home/pengdl/media-downloader/caption_layout.py",
+      "bytes": 10465,
+      "mtime_ns": 1794202850671316161,
+      "sha256": "96805a17a8361bda96931bc498fde6d0bdc7c557be02ba167094e82c7376cc89"
+    },
+    "implementation/dubbing_state.py": {
+      "path": "/home/pengdl/media-downloader/dubbing_state.py",
+      "bytes": 14397,
+      "mtime_ns": 1794035196974571922,
+      "sha256": "b0967769ee32a9f0bb17ffcd9018e1a585723b1c9d16248672aa637d3e080b5c"
+    }
+  },
+  "parent_master": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-iJ_eIsA5E1U-20261115/group-phrasing-v1/candidate/master.mp4",
+    "bytes": 50425570,
+    "mtime_ns": 1794755876443003334,
+    "sha256": "38e1b8ed227e0fb863bb3e57433f24160b960a57747808ae0d85a0f9fa91fc37"
+  },
+  "captions": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-iJ_eIsA5E1U-20261115/group-phrasing-v1/candidate/zh.srt",
+    "bytes": 7536,
+    "mtime_ns": 1794755861657817734,
+    "sha256": "0d5bd206035abaedb9e4678bc0608dd219db1a474f79f5635bee5fcd952969e5"
+  },
+  "geometry": {
+    "source_width": 1920,
+    "source_height": 1080,
+    "output_width": 1920,
+    "output_height": 1224,
+    "band_height": 144,
+    "font_size": 35,
+    "margin_vertical": 20,
+    "outline": 2,
+    "source_scaled": false,
+    "source_cropped": false,
+    "source_origin": [
+      0,
+      0
+    ]
+  },
+  "duration_seconds": "420.452",
+  "video_timescale": "12800",
+  "crf": "18",
+  "target_overlap_cues": [
+    3,
+    36,
+    47,
+    71
+  ],
+  "protected_terms": [
+    "I/O",
+    "iostat",
+    "vmstat",
+    "uptime",
+    "top",
+    "netstat",
+    "sar",
+    "Linux",
+    "平均负载",
+    "处理器",
+    "运行队列",
+    "关键指标",
+    "文件系统",
+    "网络栈",
+    "输入输出",
+    "不能",
+    "不是",
+    "没有"
+  ],
+  "master_policy": "Reuse unchanged complete parent master. Only the upload picture is re-encoded with an added band.",
+  "speech_policy": "Reuse the successful complete Chinese track, with no new TTS/ASR-derived respelling or timing edit.",
+  "verification_limits": "Raster and local picture review do not approve emotion, phonemes, source roles, whole-film visual quality or PotPlayer.",
+  "canonical_adoption": false,
+  "human_listened": false,
+  "pronunciation_approved": false,
+  "emotion_approved": false,
+  "final_delivery_approved": false
+}

@@ -1,0 +1,202 @@
+{
+  "kind": "source-bound-complete-group-clarity-and-literal-spelling-audition-v1",
+  "video_id": "iJ_eIsA5E1U",
+  "date": "2026-11-15",
+  "rate": "+0%",
+  "pitch": "+0Hz",
+  "parent_plan": {
+    "path": "/home/pengdl/media-downloader/data/translation_reviews/iJ_eIsA5E1U-group-phrasing-20261115.json",
+    "bytes": 38808,
+    "mtime_ns": 1794755612416668306,
+    "sha256": "89a4a2a6612c37a00c40e138c67d85e726d6e1513f9e5994743937437d63182e"
+  },
+  "parent_manifest": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-iJ_eIsA5E1U-20261115/group-phrasing-v1/candidate/manifest.json",
+    "bytes": 26677,
+    "mtime_ns": 1794755815248234372,
+    "sha256": "b1de323536e27282a6c70cb802414f8cfab33f220f3040eeac3dfc127fc3b477"
+  },
+  "cases": [
+    {
+      "unit_ids": [
+        6,
+        7
+      ],
+      "source": "Cannon approach blindly replacing ports hoping to fix an issue this highlights why is critical to confirm there's a genuine performance problem before diving into analysis it saves time and keeps us focused on solving actual issues not Chasing Ghosts once we confirm a genuine performance issue we need to Define it precisely this means moving beyond vague terms like slow to specific metrics are web pages taking 10 seconds to low are database queries",
+      "source_start": "71.56",
+      "source_end": "99.119",
+      "voice": "zh-CN-YunxiNeural",
+      "speaker_id": "video_narrator",
+      "source_review_note": "全部29单元是连续教程旁白，反问为排查清单，无实际问答或换人标记；没有以自动播放代替人耳听辨。汽修类比与确认真实问题、量化十秒加载和超时完整连读。",
+      "before_spoken": "叫零件大炮：盲目更换零件，指望碰巧解决故障。因此，分析前确认确有性能问题至关重要，既节省时间，也让我们专注真正的问题，而不是捕风捉影。确认问题后，还要精确定义：不要只说慢，而要使用具体指标。比如网页要十秒加载，或者数据库查询超时。",
+      "display": "叫零件大炮：盲目更换零件，指望碰巧解决故障。因此，分析前务必确认性能问题确实存在。这样既节省时间，也让我们专注真正的问题，而不是捕风捉影。确认问题后，还要精确定义：不要只说慢，而要使用具体指标。比如网页要十秒加载，或者数据库查询超时。",
+      "spoken": "叫零件大炮：盲目更换零件，指望碰巧解决故障。因此，分析前务必确认性能问题确实存在。这样既节省时间，也让我们专注真正的问题，而不是捕风捉影。确认问题后，还要精确定义：不要只说慢，而要使用具体指标。比如网页要十秒加载，或者数据库查询超时。",
+      "reason": "规范确认保留，不按ASR错字改缺认；拆开确认/确有的拗口邻接，以务必保留critical的强度，省时和聚焦实际问题均保留。",
+      "baseline_waveform": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-iJ_eIsA5E1U-20261115/group-phrasing-v1/candidate/group-6-7.wav",
+        "bytes": 1199276,
+        "mtime_ns": 1794755782087816784,
+        "sha256": "7a84f9934a6a29cbb3fda0002ff8a121d7a68d155c08b025bdb4bd603d88198f"
+      },
+      "baseline_proof": {
+        "contract": {
+          "text": "叫零件大炮：盲目更换零件，指望碰巧解决故障。因此，分析前确认确有性能问题至关重要，既节省时间，也让我们专注真正的问题，而不是捕风捉影。确认问题后，还要精确定义：不要只说慢，而要使用具体指标。比如网页要十秒加载，或者数据库查询超时。",
+          "voice": "zh-CN-YunxiNeural",
+          "rate": 0,
+          "engine": "7.3.1",
+          "boundary": "WordBoundary",
+          "implementation_sha256": "8fb0d141d33d909d71e5bfc5985de2adabb57a886a0525cb0deadf40c46c3924"
+        },
+        "audio": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-iJ_eIsA5E1U-20261115/group-phrasing-v1/candidate/speech-cache/afadec647917e826a4329bf74a4d183de6ab61b6bdfe3d68f20554e2af01fb30.mp3",
+          "bytes": 149904,
+          "mtime_ns": 1794755782008815788,
+          "sha256": "c48e1a5a2da23d71a25fd46ca2dc9368ddff52e6a76ae4c370f5729337b2ac89"
+        },
+        "metadata": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-iJ_eIsA5E1U-20261115/group-phrasing-v1/candidate/speech-cache/afadec647917e826a4329bf74a4d183de6ab61b6bdfe3d68f20554e2af01fb30.jsonl",
+          "bytes": 4926,
+          "mtime_ns": 1794755782008815788,
+          "sha256": "887a93f315265f5bc0d4cb1da6baddaf9a6fa8bd9b0dcbad4b83b2639044a6c5"
+        }
+      },
+      "baseline_asr": {
+        "medium": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-iJ_eIsA5E1U-20261115/safe-band-v1/chinese-recapture-medium-v1/group-6-7.json",
+          "bytes": 15291,
+          "mtime_ns": 1794757667446126460,
+          "sha256": "ff2bc963823e39171018fdfb1d53ea068aa683a89bde822f23111e2a12cef839"
+        },
+        "small": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-iJ_eIsA5E1U-20261115/safe-band-v1/chinese-recapture-small-v1/group-6-7.json",
+          "bytes": 15315,
+          "mtime_ns": 1794757711187370342,
+          "sha256": "d8cc517ed773a91dbf4c96a8acf60b055a9a11c2c0f742f8ddd27dcacf378447"
+        }
+      }
+    },
+    {
+      "unit_ids": [
+        16,
+        17
+      ],
+      "source": "processes consuming an unusually high percentage of CPU or memory this could be the culprit behind performance issues remember top give us a snapshot of the current moment for a fuller picture we might need to watch it over time or use other tools to complement your analysis next up is VM stat VM stat shows multiple system components at once updating in real time key areas to watch includes the CPU Q ioe swap activity and",
+      "source_start": "212.0",
+      "source_end": "241.319",
+      "voice": "zh-CN-YunxiNeural",
+      "speaker_id": "video_narrator",
+      "source_review_note": "全部29单元是连续教程旁白，反问为排查清单，无实际问答或换人标记；没有以自动播放代替人耳听辨。当前快照局限与vmstat运行队列、交换、I/O等待共同构成下一分析步骤。",
+      "before_spoken": "处理器或内存占用异常高的进程，它们可能是性能问题的来源。注意，top 展示的是当前情况。为了看得更完整，可能需要持续观察，或者配合其他工具。下一个是 vmstat，会实时更新多个系统组件的数据。重点关注处理器运行队列、交换活动，以及处理器统计中的 输入输出 等待时间。",
+      "display": "处理器或内存占用异常高的进程，它们可能是性能问题的来源。注意，top 展示的是当前情况。为了看得更完整，可能需要持续观察，或者配合其他工具。下一个是 vmstat，会实时更新多个系统组件的数据。重点关注处理器运行队列、交换活动，以及处理器统计中的 I/O 等待时间。",
+      "spoken": "处理器或内存占用异常高的进程，它们可能是性能问题的来源。注意，top 展示的是当前情况。为了看得更完整，可能需要持续观察，或者配合其他工具。下一个是 V M S T A T，会实时更新多个系统组件的数据。重点关注处理器运行队列、交换活动，以及处理器统计中的 输入输出 等待时间。",
+      "reason": "仅把原命令六个ASCII字母逐字拼读，不改显示、不猜汉字谐音或声称英语读音已批准；运行队列、交换和输入输出等待完整保留。",
+      "baseline_waveform": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-iJ_eIsA5E1U-20261115/group-phrasing-v1/candidate/group-16-17.wav",
+        "bytes": 1267244,
+        "mtime_ns": 1794755794727976040,
+        "sha256": "49c9e492a234dbeb47941a0ac56952d36bbeddfdee0ab18d2d838035bedb3ad9"
+      },
+      "baseline_proof": {
+        "contract": {
+          "text": "处理器或内存占用异常高的进程，它们可能是性能问题的来源。注意，top 展示的是当前情况。为了看得更完整，可能需要持续观察，或者配合其他工具。下一个是 vmstat，会实时更新多个系统组件的数据。重点关注处理器运行队列、交换活动，以及处理器统计中的 输入输出 等待时间。",
+          "voice": "zh-CN-YunxiNeural",
+          "rate": 0,
+          "engine": "7.3.1",
+          "boundary": "WordBoundary",
+          "implementation_sha256": "8fb0d141d33d909d71e5bfc5985de2adabb57a886a0525cb0deadf40c46c3924"
+        },
+        "audio": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-iJ_eIsA5E1U-20261115/group-phrasing-v1/candidate/speech-cache/54168f2e9968753b75324a619dafe5740d1a2a10195ae982c322e05542aad603.mp3",
+          "bytes": 158400,
+          "mtime_ns": 1794755794654975120,
+          "sha256": "1ab3d9b31d336532f5dc757b10ac3a0d796c54e486022e30eb1acf6e87194aad"
+        },
+        "metadata": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-iJ_eIsA5E1U-20261115/group-phrasing-v1/candidate/speech-cache/54168f2e9968753b75324a619dafe5740d1a2a10195ae982c322e05542aad603.jsonl",
+          "bytes": 5607,
+          "mtime_ns": 1794755794654975120,
+          "sha256": "e12d6fb9893724f3286041ab2476aa8dd341c1cea998ffdb794db726bb7fec82"
+        }
+      },
+      "baseline_asr": {
+        "medium": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-iJ_eIsA5E1U-20261115/safe-band-v1/chinese-recapture-medium-v1/group-16-17.json",
+          "bytes": 18489,
+          "mtime_ns": 1794757683107574480,
+          "sha256": "cfda78b15ab369e90a7b7941358966522be77eec5c7dc8db7473f4e96ab8f51c"
+        },
+        "small": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-iJ_eIsA5E1U-20261115/safe-band-v1/chinese-recapture-small-v1/group-16-17.json",
+          "bytes": 17267,
+          "mtime_ns": 1794757717980561500,
+          "sha256": "24cbddd5d3fb74fdacfeefd883179b6954964c90beaea903c4d7f7697b30c1aa"
+        }
+      }
+    },
+    {
+      "unit_ids": [
+        18,
+        19
+      ],
+      "source": "IO wait time in the CPU section for a deeper di into this iio return to iio stat it give us a continuous view of this activity key metrics to watch are transactions per second for this activity and the percentage of time spend waiting for Io operations in the CPU section iio step breaks down IO operations by device this is useful when we need to identify which specific disc is causing performance issues now let's",
+      "source_start": "241.319",
+      "source_end": "268.919",
+      "voice": "zh-CN-YunxiNeural",
+      "speaker_id": "video_narrator",
+      "source_review_note": "全部29单元是连续教程旁白，反问为排查清单，无实际问答或换人标记；没有以自动播放代替人耳听辨。iostat每秒传输数、CPU等待与按设备定位磁盘完整连读。",
+      "before_spoken": "想进一步了解磁盘 输入输出，就用 iostat 持续观察磁盘活动。关注每秒传输次数，以及处理器时间中等待 输入输出 操作的比例。iostat 还按设备分别列出 输入输出，帮助确定究竟是哪块磁盘造成性能问题。",
+      "display": "想进一步了解磁盘 I/O，就用 iostat 持续观察磁盘活动。关注每秒传输次数，以及处理器时间中等待 I/O 操作的比例。iostat 还按设备分别列出 I/O，帮助确定究竟是哪块磁盘造成性能问题。",
+      "spoken": "想进一步了解磁盘 输入输出，就用 I O S T A T 持续观察磁盘活动。关注每秒传输次数，以及处理器时间中等待 输入输出 操作的比例。I O S T A T 还按设备分别列出 输入输出，帮助确定究竟是哪块磁盘造成性能问题。",
+      "reason": "两次iostat逐原字母拼读，规范显示不改；磁盘、每秒传输、处理器输入输出等待比例、逐设备定位的事实不删。",
+      "baseline_waveform": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-iJ_eIsA5E1U-20261115/group-phrasing-v1/candidate/group-18-19.wav",
+        "bytes": 988460,
+        "mtime_ns": 1794755798787027160,
+        "sha256": "7a1c9e1f7ab6246908a0a4ad71a7fd372ecbdbdc4a6a57fdf405381865510de8"
+      },
+      "baseline_proof": {
+        "contract": {
+          "text": "想进一步了解磁盘 输入输出，就用 iostat 持续观察磁盘活动。关注每秒传输次数，以及处理器时间中等待 输入输出 操作的比例。iostat 还按设备分别列出 输入输出，帮助确定究竟是哪块磁盘造成性能问题。",
+          "voice": "zh-CN-YunxiNeural",
+          "rate": 0,
+          "engine": "7.3.1",
+          "boundary": "WordBoundary",
+          "implementation_sha256": "8fb0d141d33d909d71e5bfc5985de2adabb57a886a0525cb0deadf40c46c3924"
+        },
+        "audio": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-iJ_eIsA5E1U-20261115/group-phrasing-v1/candidate/speech-cache/614dd561a8f22571610009543cf9d0bfc9ae8559f89429d9ecb20865a7d25d5b.mp3",
+          "bytes": 123552,
+          "mtime_ns": 1794755798725026379,
+          "sha256": "2879c80075fb1d9960d07b89caacac6e95a11c6df34932fda6289a032c3ab86f"
+        },
+        "metadata": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-iJ_eIsA5E1U-20261115/group-phrasing-v1/candidate/speech-cache/614dd561a8f22571610009543cf9d0bfc9ae8559f89429d9ecb20865a7d25d5b.jsonl",
+          "bytes": 4087,
+          "mtime_ns": 1794755798725026379,
+          "sha256": "326f73d01662f1586fbec2f37664ba9cabfdba55cc30788c43236ff918a41da2"
+        }
+      },
+      "baseline_asr": {
+        "medium": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-iJ_eIsA5E1U-20261115/safe-band-v1/chinese-recapture-medium-v1/group-18-19.json",
+          "bytes": 12919,
+          "mtime_ns": 1794757686745678123,
+          "sha256": "201b51736a96cc932a7df5befc530b584902c4be690a6a96d65d1e2588de9049"
+        },
+        "small": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-iJ_eIsA5E1U-20261115/safe-band-v1/chinese-recapture-small-v1/group-18-19.json",
+          "bytes": 12784,
+          "mtime_ns": 1794757719500604200,
+          "sha256": "11f6ad8735aa0ac01532de1640f4251a6b5a49d9a36b4d31b79f986b7249f923"
+        }
+      }
+    }
+  ],
+  "scope": "Whole-group audition alternatives only, not the safe-band upload sound and not formal installation.",
+  "evidence_limits": "ASR spellings are diagnostics, not ground truth or human pronunciation/emotion approval.",
+  "human_listened": false,
+  "automatic_winner": false,
+  "canonical_adoption": false,
+  "pronunciation_approved": false,
+  "emotion_approved": false
+}
