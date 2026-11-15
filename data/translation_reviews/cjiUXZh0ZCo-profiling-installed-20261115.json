@@ -1,0 +1,1620 @@
+{
+  "kind": "complete-profiling-source-media-installed-review-v1",
+  "video_id": "cjiUXZh0ZCo",
+  "selection": {
+    "kind": "source-supported-complete-profiling-selection-v1",
+    "selected": [
+      {
+        "key": "body-219-simple-first-command-names",
+        "source_fidelity_selected": true,
+        "reason": "用先观察再深入的教学递进替代机械停顿；保留复杂应用/工具及top、uptime，不把入门命令当完整瓶颈诊断。up time只是朗读分词，不是重命名命令。",
+        "human_listened": false,
+        "pronunciation_or_emotion_approved": false
+      },
+      {
+        "key": "body-220-intermediate-subsystem-transition",
+        "source_fidelity_selected": true,
+        "reason": "把原if条件改成自然承接问句；这仍是讲者的教学反问，不新建观众角色或合并邻句。保留sar和子系统定位，不许诺自动找到根因。",
+        "human_listened": false,
+        "pronunciation_or_emotion_approved": false
+      },
+      {
+        "key": "body-221-advanced-tool-name-repair",
+        "source_fidelity_selected": true,
+        "reason": "原图写selecting the solution而非保证已经解决；保留gprof/perf/VTune和讲者个人习惯，用选择再调优的顺序及末尾强调保持教学语气。源错词须显式修订。",
+        "human_listened": false,
+        "pronunciation_or_emotion_approved": false
+      },
+      {
+        "key": "body-222-production-caution-not-universal-ban",
+        "source_fidelity_selected": true,
+        "reason": "保留more details/more impact和尤其生产环境的警示，把not recommended归属这场报告，不改成永远不能生产剖析。旧双ASR明确production，不是introduction。",
+        "human_listened": false,
+        "pronunciation_or_emotion_approved": false
+      },
+      {
+        "key": "body-223-tools-b-explicit-initials",
+        "source_fidelity_selected": true,
+        "reason": "B显式分开MP/VM/IO和stat，D与trace、net与stat仅作配音输入；显示仍用规范工具拼写，语义与A相同。是否改善专业词可懂度仍需整句听辨，不按时长选胜者。",
+        "human_listened": false,
+        "pronunciation_or_emotion_approved": false
+      },
+      {
+        "key": "body-228-verizon-local-historical47percent",
+        "source_fidelity_selected": true,
+        "reason": "以实际标题和双ASR恢复at Verizon，47限定历史内部图；不改成全球市占或推算样本量。用主题切换和最后数字落点作韵律意图，不增加推广评价。",
+        "human_listened": false,
+        "pronunciation_or_emotion_approved": false
+      },
+      {
+        "key": "body-230-java-jvm-memory-management",
+        "source_fidelity_selected": true,
+        "reason": "修正现朗读JV M不均匀缩写输入，保留maybe的可能性、英特尔合作和历史判断；不改成Java不分配内存或JVM无内存成本，也不承诺专业音素通过。",
+        "human_listened": false,
+        "pronunciation_or_emotion_approved": false
+      },
+      {
+        "key": "body-235-collect-analyze-then-tune",
+        "source_fidelity_selected": true,
+        "reason": "保留工具帮助与分析者作用，把采集、分析、定位调优区域分成完整递进，不把工具拟人化成自动删除瓶颈，也不删if good in analytics条件。",
+        "human_listened": false,
+        "pronunciation_or_emotion_approved": false
+      },
+      {
+        "key": "body-236-authentic-source-enthusiasm",
+        "source_fidelity_selected": true,
+        "reason": "用破折号和原amazing/honestly支持的赞叹恢复真实积极语气，非凭空加广告式兴奋；保留三种语言和个人见闻的历史范围，不声称市场唯一或免源码符号配置。",
+        "human_listened": false,
+        "pronunciation_or_emotion_approved": false
+      },
+      {
+        "key": "body-241-second-type-first-step-contrast",
+        "source_fidelity_selected": true,
+        "reason": "保留列举第二类但推荐第一步做的关键对比，用不过自然转折；General Exploration是历史界面标签，不偷偷替换为现代产品分析名称或讲成普适最佳实践。",
+        "human_listened": false,
+        "pronunciation_or_emotion_approved": false
+      },
+      {
+        "key": "body-243-stw-application-thread-scope",
+        "source_fidelity_selected": true,
+        "reason": "保留when/频率/收集器类型及讲者评价，限定STW作用对象为Java应用线程，不说整个操作系统全停。新ASR均把术语误作stop word，不能称双模型准确恢复STW。",
+        "human_listened": false,
+        "pronunciation_or_emotion_approved": false
+      }
+    ],
+    "preview_plan": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/profiling-adoption-v1/preview-plan-v1.json",
+      "bytes": 40447,
+      "mtime_ns": 1794728292162608187,
+      "sha256": "93c573f31a8064bdc92238347f32c7b2e94d75a4efeefb032f6778a6d526033f"
+    },
+    "preview_manifest": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/profiling-adoption-v1/preview-v1/manifest.json",
+      "bytes": 67134,
+      "mtime_ns": 1794728292625614747,
+      "sha256": "b2dd8c4d8ab5cbdd9751ae64938e42bedd7fcd6facdd836a184f9b8a588fea7d"
+    },
+    "per_case_sample_grid_proof": [
+      {
+        "unit_id": 219,
+        "key": "body-219-simple-first-command-names",
+        "legacy": {
+          "policy": "legacy-owned-span-exact-contained-synthesis-v1",
+          "source_start": "3757.46",
+          "source_end": "3780.9",
+          "legacy_start_sample": 90179040,
+          "legacy_end_sample": 90741600,
+          "exact_start_scaled": [
+            90179040,
+            1
+          ],
+          "exact_end_scaled": [
+            90741600,
+            1
+          ],
+          "exact_contained_start_sample": 90179040,
+          "exact_contained_end_sample": 90741600,
+          "start_sample": 90179040,
+          "end_sample": 90741600,
+          "complete_samples": 313920,
+          "preview_window_samples": 562560,
+          "remaining_contained_samples": 248640
+        },
+        "exact": {
+          "policy": "preserve-exact-source-exterior-within-legacy-ownership-v1",
+          "source_start": "3757.46",
+          "source_end": "3780.9",
+          "legacy_start_sample": 90179040,
+          "legacy_end_sample": 90741600,
+          "exact_start_scaled": [
+            90179040,
+            1
+          ],
+          "exact_end_scaled": [
+            90741600,
+            1
+          ],
+          "exact_contained_start_sample": 90179040,
+          "exact_contained_end_sample": 90741600,
+          "start_sample": 90179040,
+          "end_sample": 90741600,
+          "complete_samples": 313920,
+          "preview_window_samples": 562560,
+          "remaining_contained_samples": 248640
+        },
+        "real_word_boundaries": 34,
+        "unchanged_synthesis_proof": {
+          "contract": {
+            "text": "做剖析，先从简单的开始，再逐步深入到更复杂的应用和工具。比如在 Linux 上，先用 top、up time 做基础分析：观察系统，再找瓶颈。",
+            "voice": "zh-CN-YunxiNeural",
+            "rate": 0,
+            "engine": "7.3.1",
+            "boundary": "WordBoundary",
+            "implementation_sha256": "8fb0d141d33d909d71e5bfc5985de2adabb57a886a0525cb0deadf40c46c3924"
+          },
+          "audio": {
+            "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/preview-v2/cache/a6f24c05d75923ca6ff2da762d34971154cbc0ae7e314bf7651793491400c01d.mp3",
+            "bytes": 78480,
+            "mtime_ns": 1794703707975142158,
+            "sha256": "d5be02be835315f61f5541b00586e2d460ea06c3a5dff9a03f00084a753be53c"
+          },
+          "metadata": {
+            "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/preview-v2/cache/a6f24c05d75923ca6ff2da762d34971154cbc0ae7e314bf7651793491400c01d.jsonl",
+            "bytes": 2932,
+            "mtime_ns": 1794703707975142158,
+            "sha256": "aae901c7a5cec53e43d53bae6a363cb1a961d85f49385941d1cad41ad2c74a47"
+          }
+        },
+        "source_manifest": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/preview-v2/manifest.json",
+          "bytes": 26457,
+          "mtime_ns": 1794703728162286300,
+          "sha256": "550715bd1ffb33e5c7e5681164bb2faf21e84844d27074d971726c65e19bb716"
+        },
+        "selected": true,
+        "new_TTS": false
+      },
+      {
+        "unit_id": 220,
+        "key": "body-220-intermediate-subsystem-transition",
+        "legacy": {
+          "policy": "legacy-owned-span-exact-contained-synthesis-v1",
+          "source_start": "3780.9",
+          "source_end": "3793.56",
+          "legacy_start_sample": 90741600,
+          "legacy_end_sample": 91045440,
+          "exact_start_scaled": [
+            90741600,
+            1
+          ],
+          "exact_end_scaled": [
+            91045440,
+            1
+          ],
+          "exact_contained_start_sample": 90741600,
+          "exact_contained_end_sample": 91045440,
+          "start_sample": 90741600,
+          "end_sample": 91045440,
+          "complete_samples": 265536,
+          "preview_window_samples": 303840,
+          "remaining_contained_samples": 38304
+        },
+        "exact": {
+          "policy": "preserve-exact-source-exterior-within-legacy-ownership-v1",
+          "source_start": "3780.9",
+          "source_end": "3793.56",
+          "legacy_start_sample": 90741600,
+          "legacy_end_sample": 91045440,
+          "exact_start_scaled": [
+            90741600,
+            1
+          ],
+          "exact_end_scaled": [
+            91045440,
+            1
+          ],
+          "exact_contained_start_sample": 90741600,
+          "exact_contained_end_sample": 91045440,
+          "start_sample": 90741600,
+          "end_sample": 91045440,
+          "complete_samples": 265536,
+          "preview_window_samples": 303840,
+          "remaining_contained_samples": 38304
+        },
+        "real_word_boundaries": 28,
+        "unchanged_synthesis_proof": {
+          "contract": {
+            "text": "基础分析还没找到问题？那就再深入一层，做中级分析。可以用 sar，把范围缩小到具体子系统，再继续定位问题。",
+            "voice": "zh-CN-YunxiNeural",
+            "rate": 0,
+            "engine": "7.3.1",
+            "boundary": "WordBoundary",
+            "implementation_sha256": "8fb0d141d33d909d71e5bfc5985de2adabb57a886a0525cb0deadf40c46c3924"
+          },
+          "audio": {
+            "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/preview-v2/cache/82695f61a3362bbc8ebc951ff2c4c037297ae5d986870f404bd22927fd129716.mp3",
+            "bytes": 66384,
+            "mtime_ns": 1794703709595153690,
+            "sha256": "baabccd11f0065752f3a501bfcf2a08eb9cc116568dc4efa7355bafe818625e1"
+          },
+          "metadata": {
+            "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/preview-v2/cache/82695f61a3362bbc8ebc951ff2c4c037297ae5d986870f404bd22927fd129716.jsonl",
+            "bytes": 2441,
+            "mtime_ns": 1794703709595153690,
+            "sha256": "7c395c63ffd9eb828101724254daa59c9586ac77af4fac3571402cf801cb649c"
+          }
+        },
+        "source_manifest": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/preview-v2/manifest.json",
+          "bytes": 26457,
+          "mtime_ns": 1794703728162286300,
+          "sha256": "550715bd1ffb33e5c7e5681164bb2faf21e84844d27074d971726c65e19bb716"
+        },
+        "selected": true,
+        "new_TTS": false
+      },
+      {
+        "unit_id": 221,
+        "key": "body-221-advanced-tool-name-repair",
+        "legacy": {
+          "policy": "legacy-owned-span-exact-contained-synthesis-v1",
+          "source_start": "3793.56",
+          "source_end": "3811.91",
+          "legacy_start_sample": 91045440,
+          "legacy_end_sample": 91485840,
+          "exact_start_scaled": [
+            91045440,
+            1
+          ],
+          "exact_end_scaled": [
+            91485840,
+            1
+          ],
+          "exact_contained_start_sample": 91045440,
+          "exact_contained_end_sample": 91485840,
+          "start_sample": 91045440,
+          "end_sample": 91485840,
+          "complete_samples": 299520,
+          "preview_window_samples": 440400,
+          "remaining_contained_samples": 140880
+        },
+        "exact": {
+          "policy": "preserve-exact-source-exterior-within-legacy-ownership-v1",
+          "source_start": "3793.56",
+          "source_end": "3811.91",
+          "legacy_start_sample": 91045440,
+          "legacy_end_sample": 91485840,
+          "exact_start_scaled": [
+            91045440,
+            1
+          ],
+          "exact_end_scaled": [
+            91485840,
+            1
+          ],
+          "exact_contained_start_sample": 91045440,
+          "exact_contained_end_sample": 91485840,
+          "start_sample": 91045440,
+          "end_sample": 91485840,
+          "complete_samples": 299520,
+          "preview_window_samples": 440400,
+          "remaining_contained_samples": 140880
+        },
+        "real_word_boundaries": 31,
+        "unchanged_synthesis_proof": {
+          "contract": {
+            "text": "到了高级阶段，就要选择解决方案，再调优应用。可以用 G prof、perf，还有英特尔 V Tune；我在这一步，经常用的就是 V Tune。",
+            "voice": "zh-CN-YunxiNeural",
+            "rate": 0,
+            "engine": "7.3.1",
+            "boundary": "WordBoundary",
+            "implementation_sha256": "8fb0d141d33d909d71e5bfc5985de2adabb57a886a0525cb0deadf40c46c3924"
+          },
+          "audio": {
+            "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/preview-v2/cache/70349635f70b442806dcda8af92ca511c80bff6edaad080e4d92e1991c91a61d.mp3",
+            "bytes": 74880,
+            "mtime_ns": 1794703711242165421,
+            "sha256": "88e61c55d112891248a22e214ef3b5c6021162a1e90e9e436ff974dc5dc76d99"
+          },
+          "metadata": {
+            "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/preview-v2/cache/70349635f70b442806dcda8af92ca511c80bff6edaad080e4d92e1991c91a61d.jsonl",
+            "bytes": 2666,
+            "mtime_ns": 1794703711242165421,
+            "sha256": "febe76ab56b20bf65739a66b16aa4c5f4cfdaaa3d58f3775cc2e7924f0b1acff"
+          }
+        },
+        "source_manifest": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/preview-v2/manifest.json",
+          "bytes": 26457,
+          "mtime_ns": 1794703728162286300,
+          "sha256": "550715bd1ffb33e5c7e5681164bb2faf21e84844d27074d971726c65e19bb716"
+        },
+        "selected": true,
+        "new_TTS": false
+      },
+      {
+        "unit_id": 222,
+        "key": "body-222-production-caution-not-universal-ban",
+        "legacy": {
+          "policy": "legacy-owned-span-exact-contained-synthesis-v1",
+          "source_start": "3811.91",
+          "source_end": "3824.37",
+          "legacy_start_sample": 91485840,
+          "legacy_end_sample": 91784880,
+          "exact_start_scaled": [
+            91485840,
+            1
+          ],
+          "exact_end_scaled": [
+            91784880,
+            1
+          ],
+          "exact_contained_start_sample": 91485840,
+          "exact_contained_end_sample": 91784880,
+          "start_sample": 91485840,
+          "end_sample": 91784880,
+          "complete_samples": 261504,
+          "preview_window_samples": 299040,
+          "remaining_contained_samples": 37536
+        },
+        "exact": {
+          "policy": "preserve-exact-source-exterior-within-legacy-ownership-v1",
+          "source_start": "3811.91",
+          "source_end": "3824.37",
+          "legacy_start_sample": 91485840,
+          "legacy_end_sample": 91784880,
+          "exact_start_scaled": [
+            91485840,
+            1
+          ],
+          "exact_end_scaled": [
+            91784880,
+            1
+          ],
+          "exact_contained_start_sample": 91485840,
+          "exact_contained_end_sample": 91784880,
+          "start_sample": 91485840,
+          "end_sample": 91784880,
+          "complete_samples": 261504,
+          "preview_window_samples": 299040,
+          "remaining_contained_samples": 37536
+        },
+        "real_word_boundaries": 28,
+        "unchanged_synthesis_proof": {
+          "contract": {
+            "text": "不过，细节越多，对系统的影响也越大。高级分析会干扰系统；尤其是在生产环境中做剖析，讲者这里并不推荐。",
+            "voice": "zh-CN-YunxiNeural",
+            "rate": 0,
+            "engine": "7.3.1",
+            "boundary": "WordBoundary",
+            "implementation_sha256": "8fb0d141d33d909d71e5bfc5985de2adabb57a886a0525cb0deadf40c46c3924"
+          },
+          "audio": {
+            "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/preview-v2/cache/8929a8ca412b65a730b1d0f21887de573a1932cd1e075add4d74cc8d6677385e.mp3",
+            "bytes": 65376,
+            "mtime_ns": 1794703713248179717,
+            "sha256": "0e8044e9011d107e7b23f519dd508793961ad83cd9f3d7ce1879a9bb0879fb73"
+          },
+          "metadata": {
+            "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/preview-v2/cache/8929a8ca412b65a730b1d0f21887de573a1932cd1e075add4d74cc8d6677385e.jsonl",
+            "bytes": 2445,
+            "mtime_ns": 1794703713248179717,
+            "sha256": "9b7d0747c47a03efd03afc70578385c7b1cada2daebedc89d8dd561c64a07b1f"
+          }
+        },
+        "source_manifest": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/preview-v2/manifest.json",
+          "bytes": 26457,
+          "mtime_ns": 1794703728162286300,
+          "sha256": "550715bd1ffb33e5c7e5681164bb2faf21e84844d27074d971726c65e19bb716"
+        },
+        "selected": true,
+        "new_TTS": false
+      },
+      {
+        "unit_id": 223,
+        "key": "body-223-tools-a-canonical-names",
+        "legacy": {
+          "policy": "legacy-owned-span-exact-contained-synthesis-v1",
+          "source_start": "3824.37",
+          "source_end": "3843.18",
+          "legacy_start_sample": 91784880,
+          "legacy_end_sample": 92236320,
+          "exact_start_scaled": [
+            91784880,
+            1
+          ],
+          "exact_end_scaled": [
+            92236320,
+            1
+          ],
+          "exact_contained_start_sample": 91784880,
+          "exact_contained_end_sample": 92236320,
+          "start_sample": 91784880,
+          "end_sample": 92236320,
+          "complete_samples": 313920,
+          "preview_window_samples": 451440,
+          "remaining_contained_samples": 137520
+        },
+        "exact": {
+          "policy": "preserve-exact-source-exterior-within-legacy-ownership-v1",
+          "source_start": "3824.37",
+          "source_end": "3843.18",
+          "legacy_start_sample": 91784880,
+          "legacy_end_sample": 92236320,
+          "exact_start_scaled": [
+            91784880,
+            1
+          ],
+          "exact_end_scaled": [
+            92236320,
+            1
+          ],
+          "exact_contained_start_sample": 91784880,
+          "exact_contained_end_sample": 92236320,
+          "start_sample": 91784880,
+          "end_sample": 92236320,
+          "complete_samples": 313920,
+          "preview_window_samples": 451440,
+          "remaining_contained_samples": 137520
+        },
+        "real_word_boundaries": 31,
+        "unchanged_synthesis_proof": {
+          "contract": {
+            "text": "入门性能工程和剖析，可以按这张图看：mpstat 看 C P U，vmstat 看内存，DTrace 看文件系统，iostat 看磁盘输入输出，netstat 看网络。",
+            "voice": "zh-CN-YunxiNeural",
+            "rate": 0,
+            "engine": "7.3.1",
+            "boundary": "WordBoundary",
+            "implementation_sha256": "8fb0d141d33d909d71e5bfc5985de2adabb57a886a0525cb0deadf40c46c3924"
+          },
+          "audio": {
+            "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/preview-v2/cache/7e870287b73c4324e054976668240a4b1c78218d823fd3cf2749858868f82056.mp3",
+            "bytes": 78480,
+            "mtime_ns": 1794703715089192845,
+            "sha256": "99a5683c15851fcd4a45a7fb8da2f2b347660eb5c3ab09219b9715e08147aea7"
+          },
+          "metadata": {
+            "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/preview-v2/cache/7e870287b73c4324e054976668240a4b1c78218d823fd3cf2749858868f82056.jsonl",
+            "bytes": 2662,
+            "mtime_ns": 1794703715089192845,
+            "sha256": "798bd52455f71543e428eb424089cd2184ddbbf80f7a8bfe1a4806ff3da57719"
+          }
+        },
+        "source_manifest": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/preview-v2/manifest.json",
+          "bytes": 26457,
+          "mtime_ns": 1794703728162286300,
+          "sha256": "550715bd1ffb33e5c7e5681164bb2faf21e84844d27074d971726c65e19bb716"
+        },
+        "selected": false,
+        "new_TTS": false
+      },
+      {
+        "unit_id": 223,
+        "key": "body-223-tools-b-explicit-initials",
+        "legacy": {
+          "policy": "legacy-owned-span-exact-contained-synthesis-v1",
+          "source_start": "3824.37",
+          "source_end": "3843.18",
+          "legacy_start_sample": 91784880,
+          "legacy_end_sample": 92236320,
+          "exact_start_scaled": [
+            91784880,
+            1
+          ],
+          "exact_end_scaled": [
+            92236320,
+            1
+          ],
+          "exact_contained_start_sample": 91784880,
+          "exact_contained_end_sample": 92236320,
+          "start_sample": 91784880,
+          "end_sample": 92236320,
+          "complete_samples": 346176,
+          "preview_window_samples": 451440,
+          "remaining_contained_samples": 105264
+        },
+        "exact": {
+          "policy": "preserve-exact-source-exterior-within-legacy-ownership-v1",
+          "source_start": "3824.37",
+          "source_end": "3843.18",
+          "legacy_start_sample": 91784880,
+          "legacy_end_sample": 92236320,
+          "exact_start_scaled": [
+            91784880,
+            1
+          ],
+          "exact_end_scaled": [
+            92236320,
+            1
+          ],
+          "exact_contained_start_sample": 91784880,
+          "exact_contained_end_sample": 92236320,
+          "start_sample": 91784880,
+          "end_sample": 92236320,
+          "complete_samples": 346176,
+          "preview_window_samples": 451440,
+          "remaining_contained_samples": 105264
+        },
+        "real_word_boundaries": 39,
+        "unchanged_synthesis_proof": {
+          "contract": {
+            "text": "入门性能工程和剖析，可以按这张图看：M P stat 看 C P U，V M stat 看内存，D trace 看文件系统，I O stat 看磁盘输入输出，net stat 看网络。",
+            "voice": "zh-CN-YunxiNeural",
+            "rate": 0,
+            "engine": "7.3.1",
+            "boundary": "WordBoundary",
+            "implementation_sha256": "8fb0d141d33d909d71e5bfc5985de2adabb57a886a0525cb0deadf40c46c3924"
+          },
+          "audio": {
+            "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/preview-v2/cache/7c32a971667ba81d7a3708de3b291160ea8dc2fb8ad68c243600a6f4b5a03739.mp3",
+            "bytes": 86544,
+            "mtime_ns": 1794703716976206310,
+            "sha256": "327267d510cb02f998be30361b9417e0d82b63174e9d04f20ca91f847e58a795"
+          },
+          "metadata": {
+            "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/preview-v2/cache/7c32a971667ba81d7a3708de3b291160ea8dc2fb8ad68c243600a6f4b5a03739.jsonl",
+            "bytes": 3290,
+            "mtime_ns": 1794703716976206310,
+            "sha256": "6ef98381f4ca0e663b0bb03abc586c5eef5bbbad692ffa96507bd862460677c4"
+          }
+        },
+        "source_manifest": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/preview-v2/manifest.json",
+          "bytes": 26457,
+          "mtime_ns": 1794703728162286300,
+          "sha256": "550715bd1ffb33e5c7e5681164bb2faf21e84844d27074d971726c65e19bb716"
+        },
+        "selected": true,
+        "new_TTS": false
+      },
+      {
+        "unit_id": 228,
+        "key": "body-228-verizon-local-historical47percent",
+        "legacy": {
+          "policy": "legacy-owned-span-exact-contained-synthesis-v1",
+          "source_start": "3921.47",
+          "source_end": "3939.47",
+          "legacy_start_sample": 94115280,
+          "legacy_end_sample": 94547280,
+          "exact_start_scaled": [
+            94115280,
+            1
+          ],
+          "exact_end_scaled": [
+            94547280,
+            1
+          ],
+          "exact_contained_start_sample": 94115280,
+          "exact_contained_end_sample": 94547280,
+          "start_sample": 94115280,
+          "end_sample": 94547280,
+          "complete_samples": 378432,
+          "preview_window_samples": 432000,
+          "remaining_contained_samples": 53568
+        },
+        "exact": {
+          "policy": "preserve-exact-source-exterior-within-legacy-ownership-v1",
+          "source_start": "3921.47",
+          "source_end": "3939.47",
+          "legacy_start_sample": 94115280,
+          "legacy_end_sample": 94547280,
+          "exact_start_scaled": [
+            94115280,
+            1
+          ],
+          "exact_end_scaled": [
+            94547280,
+            1
+          ],
+          "exact_contained_start_sample": 94115280,
+          "exact_contained_end_sample": 94547280,
+          "start_sample": 94115280,
+          "end_sample": 94547280,
+          "complete_samples": 378432,
+          "preview_window_samples": 432000,
+          "remaining_contained_samples": 53568
+        },
+        "real_word_boundaries": 37,
+        "unchanged_synthesis_proof": {
+          "contract": {
+            "text": "回到 Java 和垃圾回收。这张图展示的是讲者当时在 Verizon 使用的剖析工具：分析 Java 应用，也分析垃圾收集器和回收过程。其中，V Tune 用得最多，占百分之四十七。",
+            "voice": "zh-CN-YunxiNeural",
+            "rate": 0,
+            "engine": "7.3.1",
+            "boundary": "WordBoundary",
+            "implementation_sha256": "8fb0d141d33d909d71e5bfc5985de2adabb57a886a0525cb0deadf40c46c3924"
+          },
+          "audio": {
+            "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/preview-v2/cache/feba0a822243b3bc4c2e3d2d026646a4bb47b4cd54f353d5f9bd1ebbbba8e147.mp3",
+            "bytes": 94608,
+            "mtime_ns": 1794703718609217970,
+            "sha256": "d5ac7b23de49a7aacfe88cba527844a96b0e0dc3d2dcec24691239600d4f54f4"
+          },
+          "metadata": {
+            "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/preview-v2/cache/feba0a822243b3bc4c2e3d2d026646a4bb47b4cd54f353d5f9bd1ebbbba8e147.jsonl",
+            "bytes": 3247,
+            "mtime_ns": 1794703718609217970,
+            "sha256": "d63512c642c522d5ee98bc1b54add606cd8b5c1149d4b15d153c0510fb50405b"
+          }
+        },
+        "source_manifest": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/preview-v2/manifest.json",
+          "bytes": 26457,
+          "mtime_ns": 1794703728162286300,
+          "sha256": "550715bd1ffb33e5c7e5681164bb2faf21e84844d27074d971726c65e19bb716"
+        },
+        "selected": true,
+        "new_TTS": false
+      },
+      {
+        "unit_id": 230,
+        "key": "body-230-java-jvm-memory-management",
+        "legacy": {
+          "policy": "legacy-owned-span-exact-contained-synthesis-v1",
+          "source_start": "3960.21",
+          "source_end": "3988.989",
+          "legacy_start_sample": 95045040,
+          "legacy_end_sample": 95735736,
+          "exact_start_scaled": [
+            95045040,
+            1
+          ],
+          "exact_end_scaled": [
+            95735736,
+            1
+          ],
+          "exact_contained_start_sample": 95045040,
+          "exact_contained_end_sample": 95735736,
+          "start_sample": 95045040,
+          "end_sample": 95735736,
+          "complete_samples": 350784,
+          "preview_window_samples": 690696,
+          "remaining_contained_samples": 339912
+        },
+        "exact": {
+          "policy": "preserve-exact-source-exterior-within-legacy-ownership-v1",
+          "source_start": "3960.21",
+          "source_end": "3988.989",
+          "legacy_start_sample": 95045040,
+          "legacy_end_sample": 95735736,
+          "exact_start_scaled": [
+            95045040,
+            1
+          ],
+          "exact_end_scaled": [
+            95735736,
+            1
+          ],
+          "exact_contained_start_sample": 95045040,
+          "exact_contained_end_sample": 95735736,
+          "start_sample": 95045040,
+          "end_sample": 95735736,
+          "complete_samples": 350784,
+          "preview_window_samples": 690696,
+          "remaining_contained_samples": 339912
+        },
+        "real_word_boundaries": 40,
+        "unchanged_synthesis_proof": {
+          "contract": {
+            "text": "我们和英特尔合作，推动了 Java 支持。当时就预见 Java 应用会增长；很多刚毕业的开发者擅长 Java，也可能是想避开手动内存分配，把这件事交给 Java 或 J V M。",
+            "voice": "zh-CN-YunxiNeural",
+            "rate": 0,
+            "engine": "7.3.1",
+            "boundary": "WordBoundary",
+            "implementation_sha256": "8fb0d141d33d909d71e5bfc5985de2adabb57a886a0525cb0deadf40c46c3924"
+          },
+          "audio": {
+            "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/preview-v2/cache/aad1f4187cd3993c53aa0b9367c6dc048e08a25159a93da8b2431c13dc7e6b6a.mp3",
+            "bytes": 87696,
+            "mtime_ns": 1794703721268236967,
+            "sha256": "58c73390ee2b4f3eaca6160a1b401069f628cf9fb22965f770f2bc48968bcb41"
+          },
+          "metadata": {
+            "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/preview-v2/cache/aad1f4187cd3993c53aa0b9367c6dc048e08a25159a93da8b2431c13dc7e6b6a.jsonl",
+            "bytes": 3470,
+            "mtime_ns": 1794703721268236967,
+            "sha256": "5411e6a623442f1f665b03c1644828c219d45f8d019bb4b6f3b3b9f86f432812"
+          }
+        },
+        "source_manifest": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/preview-v2/manifest.json",
+          "bytes": 26457,
+          "mtime_ns": 1794703728162286300,
+          "sha256": "550715bd1ffb33e5c7e5681164bb2faf21e84844d27074d971726c65e19bb716"
+        },
+        "selected": true,
+        "new_TTS": false
+      },
+      {
+        "unit_id": 235,
+        "key": "body-235-collect-analyze-then-tune",
+        "legacy": {
+          "policy": "legacy-owned-span-exact-contained-synthesis-v1",
+          "source_start": "4049.739",
+          "source_end": "4067.029",
+          "legacy_start_sample": 97193736,
+          "legacy_end_sample": 97608696,
+          "exact_start_scaled": [
+            97193736,
+            1
+          ],
+          "exact_end_scaled": [
+            97608696,
+            1
+          ],
+          "exact_contained_start_sample": 97193736,
+          "exact_contained_end_sample": 97608696,
+          "start_sample": 97193736,
+          "end_sample": 97608696,
+          "complete_samples": 319680,
+          "preview_window_samples": 414960,
+          "remaining_contained_samples": 95280
+        },
+        "exact": {
+          "policy": "preserve-exact-source-exterior-within-legacy-ownership-v1",
+          "source_start": "4049.739",
+          "source_end": "4067.029",
+          "legacy_start_sample": 97193736,
+          "legacy_end_sample": 97608696,
+          "exact_start_scaled": [
+            97193736,
+            1
+          ],
+          "exact_end_scaled": [
+            97608696,
+            1
+          ],
+          "exact_contained_start_sample": 97193736,
+          "exact_contained_end_sample": 97608696,
+          "start_sample": 97193736,
+          "end_sample": 97608696,
+          "complete_samples": 319680,
+          "preview_window_samples": 414960,
+          "remaining_contained_samples": 95280
+        },
+        "real_word_boundaries": 31,
+        "unchanged_synthesis_proof": {
+          "contract": {
+            "text": "V Tune 能帮助定位、消除软件性能瓶颈。方法是先采集数据，再分析数据；分析得当，才能找出应用、代码和函数中需要调优的地方。",
+            "voice": "zh-CN-YunxiNeural",
+            "rate": 0,
+            "engine": "7.3.1",
+            "boundary": "WordBoundary",
+            "implementation_sha256": "8fb0d141d33d909d71e5bfc5985de2adabb57a886a0525cb0deadf40c46c3924"
+          },
+          "audio": {
+            "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/preview-v2/cache/e45feb3ecb58fa7848cbda716e98e7436ac1e850c5aa4b7923e019e4a8790ef0.mp3",
+            "bytes": 79920,
+            "mtime_ns": 1794703722950248993,
+            "sha256": "7da45c436323e27baca92ca384ae866ca06aa1dd8c25506feb9ceb1629f85be4"
+          },
+          "metadata": {
+            "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/preview-v2/cache/e45feb3ecb58fa7848cbda716e98e7436ac1e850c5aa4b7923e019e4a8790ef0.jsonl",
+            "bytes": 2721,
+            "mtime_ns": 1794703722950248993,
+            "sha256": "67f743d09d7f65bd927d23311c0b1d6cfd316396802e95803ff03a0ffe6ab35d"
+          }
+        },
+        "source_manifest": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/preview-v2/manifest.json",
+          "bytes": 26457,
+          "mtime_ns": 1794703728162286300,
+          "sha256": "550715bd1ffb33e5c7e5681164bb2faf21e84844d27074d971726c65e19bb716"
+        },
+        "selected": true,
+        "new_TTS": false
+      },
+      {
+        "unit_id": 236,
+        "key": "body-236-authentic-source-enthusiasm",
+        "legacy": {
+          "policy": "legacy-owned-span-exact-contained-synthesis-v1",
+          "source_start": "4067.029",
+          "source_end": "4081.869",
+          "legacy_start_sample": 97608696,
+          "legacy_end_sample": 97964856,
+          "exact_start_scaled": [
+            97608696,
+            1
+          ],
+          "exact_end_scaled": [
+            97964856,
+            1
+          ],
+          "exact_contained_start_sample": 97608696,
+          "exact_contained_end_sample": 97964856,
+          "start_sample": 97608696,
+          "end_sample": 97964856,
+          "complete_samples": 263232,
+          "preview_window_samples": 356160,
+          "remaining_contained_samples": 92928
+        },
+        "exact": {
+          "policy": "preserve-exact-source-exterior-within-legacy-ownership-v1",
+          "source_start": "4067.029",
+          "source_end": "4081.869",
+          "legacy_start_sample": 97608696,
+          "legacy_end_sample": 97964856,
+          "exact_start_scaled": [
+            97608696,
+            1
+          ],
+          "exact_end_scaled": [
+            97964856,
+            1
+          ],
+          "exact_contained_start_sample": 97608696,
+          "exact_contained_end_sample": 97964856,
+          "start_sample": 97608696,
+          "end_sample": 97964856,
+          "complete_samples": 263232,
+          "preview_window_samples": 356160,
+          "remaining_contained_samples": 92928
+        },
+        "real_word_boundaries": 32,
+        "unchanged_synthesis_proof": {
+          "contract": {
+            "text": "它还能直接关联 C、C 加加或 Java 源代码——这一点，真的很棒。讲者说，当时能这样查看源码的工具，他见到的并不多。",
+            "voice": "zh-CN-YunxiNeural",
+            "rate": 0,
+            "engine": "7.3.1",
+            "boundary": "WordBoundary",
+            "implementation_sha256": "8fb0d141d33d909d71e5bfc5985de2adabb57a886a0525cb0deadf40c46c3924"
+          },
+          "audio": {
+            "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/preview-v2/cache/1bceec84b71f875da35a05d876aa9ea9808ace3f319c93a99f45e03c066d64fa.mp3",
+            "bytes": 65808,
+            "mtime_ns": 1794703724547260418,
+            "sha256": "be39244285ea3279a72bd624c32ca71c9a387b3679d397bafd8617e61f572be2"
+          },
+          "metadata": {
+            "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/preview-v2/cache/1bceec84b71f875da35a05d876aa9ea9808ace3f319c93a99f45e03c066d64fa.jsonl",
+            "bytes": 2745,
+            "mtime_ns": 1794703724547260418,
+            "sha256": "d9c7735c7793a3d8a4b5b196a5d2f7b0e2f47c8f7176110166d168be3efd32ef"
+          }
+        },
+        "source_manifest": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/preview-v2/manifest.json",
+          "bytes": 26457,
+          "mtime_ns": 1794703728162286300,
+          "sha256": "550715bd1ffb33e5c7e5681164bb2faf21e84844d27074d971726c65e19bb716"
+        },
+        "selected": true,
+        "new_TTS": false
+      },
+      {
+        "unit_id": 241,
+        "key": "body-241-second-type-first-step-contrast",
+        "legacy": {
+          "policy": "legacy-owned-span-exact-contained-synthesis-v1",
+          "source_start": "4147.43",
+          "source_end": "4165.4",
+          "legacy_start_sample": 99538320,
+          "legacy_end_sample": 99969599,
+          "exact_start_scaled": [
+            99538320,
+            1
+          ],
+          "exact_end_scaled": [
+            99969600,
+            1
+          ],
+          "exact_contained_start_sample": 99538320,
+          "exact_contained_end_sample": 99969600,
+          "start_sample": 99538320,
+          "end_sample": 99969599,
+          "complete_samples": 257472,
+          "preview_window_samples": 431280,
+          "remaining_contained_samples": 173807
+        },
+        "exact": {
+          "policy": "preserve-exact-source-exterior-within-legacy-ownership-v1",
+          "source_start": "4147.43",
+          "source_end": "4165.4",
+          "legacy_start_sample": 99538320,
+          "legacy_end_sample": 99969599,
+          "exact_start_scaled": [
+            99538320,
+            1
+          ],
+          "exact_end_scaled": [
+            99969600,
+            1
+          ],
+          "exact_contained_start_sample": 99538320,
+          "exact_contained_end_sample": 99969600,
+          "start_sample": 99538320,
+          "end_sample": 99969599,
+          "complete_samples": 257472,
+          "preview_window_samples": 431280,
+          "remaining_contained_samples": 173807
+        },
+        "real_word_boundaries": 30,
+        "unchanged_synthesis_proof": {
+          "contract": {
+            "text": "第二类叫整体探索分析。不过，我建议先做这一项：它能先给你系统的整体概览，看看运行了什么、有哪些函数。",
+            "voice": "zh-CN-YunxiNeural",
+            "rate": 0,
+            "engine": "7.3.1",
+            "boundary": "WordBoundary",
+            "implementation_sha256": "8fb0d141d33d909d71e5bfc5985de2adabb57a886a0525cb0deadf40c46c3924"
+          },
+          "audio": {
+            "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/preview-v2/cache/4ae9208fc8639c537cd0a1e2d3549d03ba45a392774c6d5a7d2038b101460991.mp3",
+            "bytes": 64368,
+            "mtime_ns": 1794703726113271626,
+            "sha256": "7937e2d627ceb06d4c9dcdda4e31c4fd85dfa0d8840349bc7436c1308ee36d64"
+          },
+          "metadata": {
+            "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/preview-v2/cache/4ae9208fc8639c537cd0a1e2d3549d03ba45a392774c6d5a7d2038b101460991.jsonl",
+            "bytes": 2598,
+            "mtime_ns": 1794703726199272242,
+            "sha256": "a77dfc76e2da08937a13c177191eed5692a5993885b6f2a0f653493d59215e91"
+          }
+        },
+        "source_manifest": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/preview-v2/manifest.json",
+          "bytes": 26457,
+          "mtime_ns": 1794703728162286300,
+          "sha256": "550715bd1ffb33e5c7e5681164bb2faf21e84844d27074d971726c65e19bb716"
+        },
+        "selected": true,
+        "new_TTS": false
+      },
+      {
+        "unit_id": 243,
+        "key": "body-243-stw-application-thread-scope",
+        "legacy": {
+          "policy": "legacy-owned-span-exact-contained-synthesis-v1",
+          "source_start": "4179.89",
+          "source_end": "4196.42",
+          "legacy_start_sample": 100317360,
+          "legacy_end_sample": 100714080,
+          "exact_start_scaled": [
+            100317360,
+            1
+          ],
+          "exact_end_scaled": [
+            100714080,
+            1
+          ],
+          "exact_contained_start_sample": 100317360,
+          "exact_contained_end_sample": 100714080,
+          "start_sample": 100317360,
+          "end_sample": 100714080,
+          "complete_samples": 306432,
+          "preview_window_samples": 396720,
+          "remaining_contained_samples": 90288
+        },
+        "exact": {
+          "policy": "preserve-exact-source-exterior-within-legacy-ownership-v1",
+          "source_start": "4179.89",
+          "source_end": "4196.42",
+          "legacy_start_sample": 100317360,
+          "legacy_end_sample": 100714080,
+          "exact_start_scaled": [
+            100317360,
+            1
+          ],
+          "exact_end_scaled": [
+            100714080,
+            1
+          ],
+          "exact_contained_start_sample": 100317360,
+          "exact_contained_end_sample": 100714080,
+          "start_sample": 100317360,
+          "end_sample": 100714080,
+          "complete_samples": 306432,
+          "preview_window_samples": 396720,
+          "remaining_contained_samples": 90288
+        },
+        "real_word_boundaries": 35,
+        "unchanged_synthesis_proof": {
+          "contract": {
+            "text": "它能帮你看清全局停顿何时发生、垃圾回收有多频繁、用的是哪种收集器。这里的停顿指 Java 应用线程；V Tune 在这方面很有帮助。",
+            "voice": "zh-CN-YunxiNeural",
+            "rate": 0,
+            "engine": "7.3.1",
+            "boundary": "WordBoundary",
+            "implementation_sha256": "8fb0d141d33d909d71e5bfc5985de2adabb57a886a0525cb0deadf40c46c3924"
+          },
+          "audio": {
+            "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/preview-v2/cache/e65c43c5c4588131a3c4f5fe359991db5f27f4545887124b8719d94def97369d.mp3",
+            "bytes": 76608,
+            "mtime_ns": 1794703728084285741,
+            "sha256": "7bd19f8ea3d8ea8f2c7cf52f6852664cc0896a493117f19f5fc639278c9a0432"
+          },
+          "metadata": {
+            "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/preview-v2/cache/e65c43c5c4588131a3c4f5fe359991db5f27f4545887124b8719d94def97369d.jsonl",
+            "bytes": 3026,
+            "mtime_ns": 1794703728084285741,
+            "sha256": "bd7aeb623039892f8326ce34629411d577203d06ced9837d32c649bf907bb625"
+          }
+        },
+        "source_manifest": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/preview-v2/manifest.json",
+          "bytes": 26457,
+          "mtime_ns": 1794703728162286300,
+          "sha256": "550715bd1ffb33e5c7e5681164bb2faf21e84844d27074d971726c65e19bb716"
+        },
+        "selected": true,
+        "new_TTS": false
+      }
+    ],
+    "equality_is_not_generalized_to_other_units": true,
+    "new_TTS_ASR": false,
+    "formal_adoption": false
+  },
+  "source_amendments": [
+    {
+      "unit_id": 221,
+      "source_start": "3793.56",
+      "source_end": "3811.91",
+      "before": "now for advanced its selection you already have the solution you just need to tune the application using some advanced tools like G froth curve and also v2 and Intel VTune is the one that actually I use a lot in this step",
+      "after": "now for advanced its selection you already have the solution you just need to tune the application using some advanced tools like gprof perf and also VTune and Intel VTune is the one that actually I use a lot in this step",
+      "replacement": {
+        "from": "G froth curve and also v2",
+        "to": "gprof perf and also VTune",
+        "occurrences": 1
+      },
+      "basis": "3798实际原图列gprof/perf；既有medium给G-Prov/Perf/VTune，distil给GFROF/VTune且漏perf。拼写基于原图，非所有名字双模型一致或人耳批准。",
+      "word_conserving": false,
+      "same_unit_identity_and_window": true,
+      "human_listened": false
+    },
+    {
+      "unit_id": 222,
+      "source_start": "3811.91",
+      "source_end": "3824.37",
+      "before": "so of course more details more impact when you use advanced analysis then you are going to bother the system especially if you are doing profile on the introduction which is not recommended",
+      "after": "so of course more details more impact when you use advanced analysis then you are going to bother the system especially if you are doing profiling in production which is not recommended",
+      "replacement": {
+        "from": "profile on the introduction",
+        "to": "profiling in production",
+        "occurrences": 1
+      },
+      "basis": "既有3740-3825两模型均给profiling in production；上下文为干扰系统的警示，不能保持introduction误词。",
+      "word_conserving": false,
+      "same_unit_identity_and_window": true,
+      "human_listened": false
+    },
+    {
+      "unit_id": 223,
+      "source_start": "3824.37",
+      "source_end": "3843.18",
+      "before": "this is a beautiful performance script that you can start if you would like to start with the performance engineering and profiling especially you can hit the CPU by MP stat and then memory with VM start the trays with the for the file system and the disk i/o with i/o start and the nuts with the network",
+      "after": "this is a beautiful performance script that you can start if you would like to start with the performance engineering and profiling especially you can hit the CPU by mpstat and then memory with vmstat DTrace for the file system and the disk I/O with iostat and netstat for the network",
+      "replacement": {
+        "from": "CPU by MP stat and then memory with VM start the trays with the for the file system and the disk i/o with i/o start and the nuts with the network",
+        "to": "CPU by mpstat and then memory with vmstat DTrace for the file system and the disk I/O with iostat and netstat for the network",
+        "occurrences": 1
+      },
+      "basis": "3832实际图列五个规范工具名；新两ASR支持MP/VM stat、trace、IO stat、net stat不同程度拼写。不采用medium片尾Thank you，也不把图当五词人耳定音。",
+      "word_conserving": false,
+      "same_unit_identity_and_window": true,
+      "human_listened": false
+    },
+    {
+      "unit_id": 228,
+      "source_start": "3921.47",
+      "source_end": "3939.47",
+      "before": "let's get back to the Java and the garbage collection a profiler our advertising we as bench of tools to profile or to profile the Java application and also to profile the garbage collector or garbage collection in general and the VTune is the more popular with with the 47%",
+      "after": "let's get back to the Java and the garbage collection a profiler at Verizon we use a bunch of tools to profile or to profile the Java application and also to profile the garbage collector or garbage collection in general and the VTune is the more popular with with the 47%",
+      "replacement": {
+        "from": "our advertising we as bench of tools",
+        "to": "at Verizon we use a bunch of tools",
+        "occurrences": 1
+      },
+      "basis": "3929实际原图标题Java and GC Profilers @ Verizon，两个新无提示ASR均给At Verizon we use a bunch of tools；47%仅该历史图。",
+      "word_conserving": false,
+      "same_unit_identity_and_window": true,
+      "human_listened": false
+    }
+  ],
+  "candidates": [
+    {
+      "unit_id": 219,
+      "key": "body-219-simple-first-command-names",
+      "source": "if you want to do profiling you need to start with something simple and then go to the advanced or the more complicated application or tool or anything if you are working in Linux you have a lot of packages that you can use like top up time for basic analysis where you do observation and find in the bottleneck",
+      "display": "做剖析，先从简单的开始，再逐步深入到更复杂的应用和工具。比如在 Linux 上，先用 top、uptime 做基础分析：观察系统，再找瓶颈。",
+      "spoken": "做剖析，先从简单的开始，再逐步深入到更复杂的应用和工具。比如在 Linux 上，先用 top、up time 做基础分析：观察系统，再找瓶颈。"
+    },
+    {
+      "unit_id": 220,
+      "key": "body-220-intermediate-subsystem-transition",
+      "source": "and then you jump to something which is intermediate analysis you can use SAR to specify the subsystem and also find in the issue if you didn't find it on the first step on the basic analysis",
+      "display": "基础分析还没找到问题？那就再深入一层，做中级分析。可以用 sar，把范围缩小到具体子系统，再继续定位问题。",
+      "spoken": "基础分析还没找到问题？那就再深入一层，做中级分析。可以用 sar，把范围缩小到具体子系统，再继续定位问题。"
+    },
+    {
+      "unit_id": 221,
+      "key": "body-221-advanced-tool-name-repair",
+      "source": "now for advanced its selection you already have the solution you just need to tune the application using some advanced tools like gprof perf and also VTune and Intel VTune is the one that actually I use a lot in this step",
+      "display": "到了高级阶段，就要选择解决方案，再调优应用。可以用 gprof、perf，还有英特尔 VTune；我在这一步，经常用的就是 VTune。",
+      "spoken": "到了高级阶段，就要选择解决方案，再调优应用。可以用 G prof、perf，还有英特尔 V Tune；我在这一步，经常用的就是 V Tune。"
+    },
+    {
+      "unit_id": 222,
+      "key": "body-222-production-caution-not-universal-ban",
+      "source": "so of course more details more impact when you use advanced analysis then you are going to bother the system especially if you are doing profiling in production which is not recommended",
+      "display": "不过，细节越多，对系统的影响也越大。高级分析会干扰系统；尤其是在生产环境中做剖析，讲者这里并不推荐。",
+      "spoken": "不过，细节越多，对系统的影响也越大。高级分析会干扰系统；尤其是在生产环境中做剖析，讲者这里并不推荐。"
+    },
+    {
+      "unit_id": 223,
+      "key": "body-223-tools-b-explicit-initials",
+      "source": "this is a beautiful performance script that you can start if you would like to start with the performance engineering and profiling especially you can hit the CPU by mpstat and then memory with vmstat DTrace for the file system and the disk I/O with iostat and netstat for the network",
+      "display": "入门性能工程和剖析，可以按这张图看：mpstat 看 CPU，vmstat 看内存，DTrace 看文件系统，iostat 看磁盘 I/O，netstat 看网络。",
+      "spoken": "入门性能工程和剖析，可以按这张图看：M P stat 看 C P U，V M stat 看内存，D trace 看文件系统，I O stat 看磁盘输入输出，net stat 看网络。"
+    },
+    {
+      "unit_id": 228,
+      "key": "body-228-verizon-local-historical47percent",
+      "source": "let's get back to the Java and the garbage collection a profiler at Verizon we use a bunch of tools to profile or to profile the Java application and also to profile the garbage collector or garbage collection in general and the VTune is the more popular with with the 47%",
+      "display": "回到 Java 和垃圾回收。这张图展示的是讲者当时在 Verizon 使用的剖析工具：分析 Java 应用，也分析垃圾收集器和回收过程。其中，VTune 用得最多，占47%。",
+      "spoken": "回到 Java 和垃圾回收。这张图展示的是讲者当时在 Verizon 使用的剖析工具：分析 Java 应用，也分析垃圾收集器和回收过程。其中，V Tune 用得最多，占百分之四十七。"
+    },
+    {
+      "unit_id": 230,
+      "key": "body-230-java-jvm-memory-management",
+      "source": "and we start the project with Intel to create this actually to create this feature supporting Java because actually we had a vision that Java application is going to increase and a lot of developers coming out from school there they're good in Java development and also maybe because they trying to avoid allocating memory and Java or JVM and doing it instead",
+      "display": "我们和英特尔合作，推动了 Java 支持。当时就预见 Java 应用会增长；很多刚毕业的开发者擅长 Java，也可能是想避开手动内存分配，把这件事交给 Java 或 JVM。",
+      "spoken": "我们和英特尔合作，推动了 Java 支持。当时就预见 Java 应用会增长；很多刚毕业的开发者擅长 Java，也可能是想避开手动内存分配，把这件事交给 Java 或 J V M。"
+    },
+    {
+      "unit_id": 235,
+      "key": "body-235-collect-analyze-then-tune",
+      "source": "so VTune is a tool that can locate and remove and remove the software performance bottlenecks by the collection so you collect your data you analyze your data and then if you are good in analytics then you can find the area where you can tune the application to your code function",
+      "display": "VTune 能帮助定位、消除软件性能瓶颈。方法是先采集数据，再分析数据；分析得当，才能找出应用、代码和函数中需要调优的地方。",
+      "spoken": "V Tune 能帮助定位、消除软件性能瓶颈。方法是先采集数据，再分析数据；分析得当，才能找出应用、代码和函数中需要调优的地方。"
+    },
+    {
+      "unit_id": 236,
+      "key": "body-236-authentic-source-enthusiasm",
+      "source": "and you have also access to the source code which is amazing honestly I don't see a lot of tools that can give you access to the source code C C++ or Java in in the market",
+      "display": "它还能直接关联 C、C++ 或 Java 源代码——这一点，真的很棒。讲者说，当时能这样查看源码的工具，他见到的并不多。",
+      "spoken": "它还能直接关联 C、C 加加或 Java 源代码——这一点，真的很棒。讲者说，当时能这样查看源码的工具，他见到的并不多。"
+    },
+    {
+      "unit_id": 241,
+      "key": "body-241-second-type-first-step-contrast",
+      "source": "the second thing you can do General Exploration which is very good me and I recommend doing the general exploration as the first step because it's going to give you a very good overview a big beautiful summary of your system what's running your system different functions are you running all these things",
+      "display": "第二类叫 General Exploration，也就是整体探索分析。不过，我建议先做这一项：它能先给你系统的整体概览，看看运行了什么、有哪些函数。",
+      "spoken": "第二类叫整体探索分析。不过，我建议先做这一项：它能先给你系统的整体概览，看看运行了什么、有哪些函数。"
+    },
+    {
+      "unit_id": 243,
+      "key": "body-243-stw-application-thread-scope",
+      "source": "which is very good is very helpful and standing when what's the Stop-the-World and what's the frequency of your garbage collector which kind of garbage collector and can give you also the frequency a lot of things like VTune is very very helpful in this",
+      "display": "它能帮你看清 Stop-the-World 全局停顿何时发生、垃圾回收有多频繁、用的是哪种收集器。这里的停顿指 Java 应用线程；VTune 在这方面很有帮助。",
+      "spoken": "它能帮你看清全局停顿何时发生、垃圾回收有多频繁、用的是哪种收集器。这里的停顿指 Java 应用线程；V Tune 在这方面很有帮助。"
+    }
+  ],
+  "authored_review": {
+    "kind": "complete-profiling-source-and-expressive-input-adoption-review-v1",
+    "work": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo",
+    "recorded_at": "2026-11-15T07:38:12+00:00",
+    "selected_units": [
+      219,
+      220,
+      221,
+      222,
+      223,
+      228,
+      230,
+      235,
+      236,
+      241,
+      243
+    ],
+    "historical_review": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/authored-review-v2.json",
+      "bytes": 1931,
+      "mtime_ns": 1794703705824126856,
+      "sha256": "e15e671f3596b4d1eca52883a9163b5ba2ee7b71fbb20796e853f04b0f3d1f8e"
+    },
+    "historical_agent_source_observations": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/agent-source-observations-v1.json",
+      "bytes": 7008,
+      "mtime_ns": 1794703676401918682,
+      "sha256": "caf5ad8d0dd1f19f138b656399a0eabe2a17adeeacebae8eebd230ee6394c971"
+    },
+    "current_context": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/profiling-adoption-v1/current-context-v1.json",
+      "bytes": 22396,
+      "mtime_ns": 1794727792585920470,
+      "sha256": "9ee94c751785dba615ec3cbb0dec9a3e467cf620b36e725fa0cb0b276720fb89"
+    },
+    "actual_source_images_reopened": [
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/source-images-v1/source-3798.jpg",
+        "bytes": 31746,
+        "mtime_ns": 1794703170180821103,
+        "sha256": "418ff4b98027c42cab5290091c78a7c1e3b35962cdac8204f23c61a66745e6bc"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/source-images-v1/source-3832.jpg",
+        "bytes": 30844,
+        "mtime_ns": 1794703171602827997,
+        "sha256": "5858fbf1c16e7bb4d7b48ef1bcdc55c9f00fe6e520244b799da976526d280996"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/source-images-v1/source-3929.jpg",
+        "bytes": 27540,
+        "mtime_ns": 1794703174379841499,
+        "sha256": "257c288fc8cf73f8a9afa6ff132665d79dba2a0a80cc55faee44cd00c84ae638"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/source-images-v1/source-3728.jpg",
+        "bytes": 31681,
+        "mtime_ns": 1794703168820814523,
+        "sha256": "eeafbd1e14ede1cd2ec2dbd5c812038922c4c0acf3a21c69a54c8524a7fefee4"
+      }
+    ],
+    "decisions": [
+      "219/220 preserve basic-to-intermediate progression and conditional failure; top/uptime/sar are historical examples, not a full diagnostic guarantee.",
+      "221 retain selection before tuning, restore gprof/perf/VTune from the actual slide and existing acoustic evidence; do not claim both ASRs spelled all tools correctly.",
+      "222 restore profiling in production; this is the speaker historical caution about intrusive advanced analysis, not a universal production-profiling prohibition.",
+      "223 choose B explicit initials for model-input consistency with already adopted227. Preserve A as an unselected complete alternative; neither ASR nor the Agent establishes a phoneme or emotion winner. Slide is an illustrative historical pseudo-script, not a currently runnable Linux recipe.",
+      "228 restore at Verizon;47percent is local historical chart use, not worldwide market share.",
+      "230 explicitly separate J V M, preserve maybe, the historical Java prediction and manual-memory-management qualification.",
+      "235 keep collect then analyze then tune and the competent-analysis condition; the tool does not automatically remove bottlenecks.",
+      "236 preserve source-supported amazing/honestly enthusiasm, C/C++/Java and the speaker historical personal observation; no invented stronger emotion or market exclusivity.",
+      "241 distinguish second listed analysis type from recommended first action, preserving historical General Exploration display.",
+      "243 retain timing, frequency and collector type, application-thread scope and the speaker helpfulness judgement; no human phonetic approval."
+    ],
+    "explicit_source_amendments_required": [
+      221,
+      222,
+      223,
+      228
+    ],
+    "holds_not_changed": [
+      26,
+      95,
+      97,
+      111,
+      216,
+      217,
+      248,
+      310,
+      317
+    ],
+    "critical216_217": "3728 slide says profiling does not compare versions; speech/ASR negation conflict remains excluded and unresolved.",
+    "other_holds": "227phonemes;229emotion/Gary surname;242contention;Linux27language holds/23vendor markers/criticalAI-F08;all human/full-film/word-level/PotPlayer/final approvals remain open.",
+    "source_and_caption_word_stream_reviewed_by_agent": true,
+    "new_TTS": 0,
+    "new_ASR": 0,
+    "human_listened": false,
+    "professional_phoneme_or_emotion_approval": false,
+    "formal_adoption": false,
+    "candidates": [
+      {
+        "key": "body-219-simple-first-command-names",
+        "unit_id": 219,
+        "display": "做剖析，先从简单的开始，再逐步深入到更复杂的应用和工具。比如在 Linux 上，先用 top、uptime 做基础分析：观察系统，再找瓶颈。",
+        "spoken": "做剖析，先从简单的开始，再逐步深入到更复杂的应用和工具。比如在 Linux 上，先用 top、up time 做基础分析：观察系统，再找瓶颈。",
+        "reason": "用先观察再深入的教学递进替代机械停顿；保留复杂应用/工具及top、uptime，不把入门命令当完整瓶颈诊断。up time只是朗读分词，不是重命名命令。",
+        "preserved_facts": [
+          "先简单、后高级复杂应用和工具",
+          "Linux基础分析示例top及uptime",
+          "观察并寻找瓶颈，不增加诊断保证"
+        ],
+        "source": "if you want to do profiling you need to start with something simple and then go to the advanced or the more complicated application or tool or anything if you are working in Linux you have a lot of packages that you can use like top up time for basic analysis where you do observation and find in the bottleneck",
+        "source_start": "3757.46",
+        "source_end": "3780.9",
+        "current_display": "做剖析，要从简单的开始，再进入更高级、更复杂的工具。Linux 上有很多工具包，比如 top、uptime，可用于基础分析：先观察，再寻找瓶颈。",
+        "current_spoken": "做剖析，要从简单的开始，再进入更高级、更复杂的工具。Linux 上有很多工具包，比如 top、uptime，可用于基础分析：先观察，再寻找瓶颈。",
+        "before_waveform": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/current-aac-before/unit-219-current-complete.wav",
+          "bytes": 1125164,
+          "mtime_ns": 1794703676413918767,
+          "sha256": "098d84aa04c3ee0bcb9bf9a1a11f8ee34370232d43562dc458cc99443b1b58a5"
+        },
+        "speaker_review": {
+          "same_speaker": true,
+          "evidence": "Current complete lecturer source unit, canonical voice map and unchanged321-unit windows; exclude216/217/227 unresolved sources and actual239 source-audio reservation. No cross-speaker joining or new acoustic speaker approval."
+        },
+        "requires_explicit_source_amendment_before_adoption": false
+      },
+      {
+        "key": "body-220-intermediate-subsystem-transition",
+        "unit_id": 220,
+        "display": "基础分析还没找到问题？那就再深入一层，做中级分析。可以用 sar，把范围缩小到具体子系统，再继续定位问题。",
+        "spoken": "基础分析还没找到问题？那就再深入一层，做中级分析。可以用 sar，把范围缩小到具体子系统，再继续定位问题。",
+        "reason": "把原if条件改成自然承接问句；这仍是讲者的教学反问，不新建观众角色或合并邻句。保留sar和子系统定位，不许诺自动找到根因。",
+        "preserved_facts": [
+          "基础步骤未找到问题的条件",
+          "中级分析",
+          "sar及子系统/问题定位"
+        ],
+        "source": "and then you jump to something which is intermediate analysis you can use SAR to specify the subsystem and also find in the issue if you didn't find it on the first step on the basic analysis",
+        "source_start": "3780.9",
+        "source_end": "3793.56",
+        "current_display": "接着进入中级分析。可以用 sar，确定问题在哪个子系统。如果基础分析还没找到问题，就在这一步继续定位。",
+        "current_spoken": "接着进入中级分析。可以用 sar，确定问题在哪个子系统。如果基础分析还没找到问题，就在这一步继续定位。",
+        "before_waveform": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/current-aac-before/unit-220-current-complete.wav",
+          "bytes": 607724,
+          "mtime_ns": 1794703676415918781,
+          "sha256": "322c2e6c7a5cb62e6b85ec5c7d996a1c35579b8d55b390560086776f0d3102a0"
+        },
+        "speaker_review": {
+          "same_speaker": true,
+          "evidence": "Current complete lecturer source unit, canonical voice map and unchanged321-unit windows; exclude216/217/227 unresolved sources and actual239 source-audio reservation. No cross-speaker joining or new acoustic speaker approval."
+        },
+        "requires_explicit_source_amendment_before_adoption": false
+      },
+      {
+        "key": "body-221-advanced-tool-name-repair",
+        "unit_id": 221,
+        "display": "到了高级阶段，就要选择解决方案，再调优应用。可以用 gprof、perf，还有英特尔 VTune；我在这一步，经常用的就是 VTune。",
+        "spoken": "到了高级阶段，就要选择解决方案，再调优应用。可以用 G prof、perf，还有英特尔 V Tune；我在这一步，经常用的就是 V Tune。",
+        "reason": "原图写selecting the solution而非保证已经解决；保留gprof/perf/VTune和讲者个人习惯，用选择再调优的顺序及末尾强调保持教学语气。源错词须显式修订。",
+        "preserved_facts": [
+          "高级阶段选择方案并调优",
+          "gprof、perf、Intel VTune三工具",
+          "经常使用VTune是讲者个人陈述"
+        ],
+        "source": "now for advanced its selection you already have the solution you just need to tune the application using some advanced tools like G froth curve and also v2 and Intel VTune is the one that actually I use a lot in this step",
+        "source_start": "3793.56",
+        "source_end": "3811.91",
+        "current_display": "高级阶段，通常已经有了方向，需要用更深入的工具调优应用。例如 gprof、perf，还有 VTune。我在这一步，经常使用 Intel VTune。",
+        "current_spoken": "高级阶段，通常已经有了方向，需要用更深入的工具调优应用。例如 gprof、perf，还有 V Tune。我在这一步，经常使用 英特尔 V Tune。",
+        "before_waveform": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/current-aac-before/unit-221-current-complete.wav",
+          "bytes": 880844,
+          "mtime_ns": 1794703676415918781,
+          "sha256": "85208ec8c454b4c51cf48b7c74b573370cbc06fc1b0a525f488c1a2b931fc8f6"
+        },
+        "speaker_review": {
+          "same_speaker": true,
+          "evidence": "Current complete lecturer source unit, canonical voice map and unchanged321-unit windows; exclude216/217/227 unresolved sources and actual239 source-audio reservation. No cross-speaker joining or new acoustic speaker approval."
+        },
+        "requires_explicit_source_amendment_before_adoption": true
+      },
+      {
+        "key": "body-222-production-caution-not-universal-ban",
+        "unit_id": 222,
+        "display": "不过，细节越多，对系统的影响也越大。高级分析会干扰系统；尤其是在生产环境中做剖析，讲者这里并不推荐。",
+        "spoken": "不过，细节越多，对系统的影响也越大。高级分析会干扰系统；尤其是在生产环境中做剖析，讲者这里并不推荐。",
+        "reason": "保留more details/more impact和尤其生产环境的警示，把not recommended归属这场报告，不改成永远不能生产剖析。旧双ASR明确production，不是introduction。",
+        "preserved_facts": [
+          "更多细节与系统影响的权衡",
+          "高级分析干扰系统",
+          "讲者不推荐在生产环境中这样做"
+        ],
+        "source": "so of course more details more impact when you use advanced analysis then you are going to bother the system especially if you are doing profile on the introduction which is not recommended",
+        "source_start": "3811.91",
+        "source_end": "3824.37",
+        "current_display": "当然，细节越多，对系统的影响也越大。高级分析会干扰系统，尤其是在生产环境里做剖析，所以这里并不推荐直接在生产中这样做。",
+        "current_spoken": "当然，细节越多，对系统的影响也越大。高级分析会干扰系统，尤其是在生产环境里做剖析，所以这里并不推荐直接在生产中这样做。",
+        "before_waveform": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/current-aac-before/unit-222-current-complete.wav",
+          "bytes": 598124,
+          "mtime_ns": 1794703676417918795,
+          "sha256": "8463002101d033f44f4bcdfd6769c70c526c06dfe814bb86f1899d2148a27f39"
+        },
+        "speaker_review": {
+          "same_speaker": true,
+          "evidence": "Current complete lecturer source unit, canonical voice map and unchanged321-unit windows; exclude216/217/227 unresolved sources and actual239 source-audio reservation. No cross-speaker joining or new acoustic speaker approval."
+        },
+        "requires_explicit_source_amendment_before_adoption": true
+      },
+      {
+        "key": "body-223-tools-b-explicit-initials",
+        "unit_id": 223,
+        "display": "入门性能工程和剖析，可以按这张图看：mpstat 看 CPU，vmstat 看内存，DTrace 看文件系统，iostat 看磁盘 I/O，netstat 看网络。",
+        "spoken": "入门性能工程和剖析，可以按这张图看：M P stat 看 C P U，V M stat 看内存，D trace 看文件系统，I O stat 看磁盘输入输出，net stat 看网络。",
+        "reason": "B显式分开MP/VM/IO和stat，D与trace、net与stat仅作配音输入；显示仍用规范工具拼写，语义与A相同。是否改善专业词可懂度仍需整句听辨，不按时长选胜者。",
+        "preserved_facts": [
+          "与A相同五工具及五对象",
+          "未加入命令参数或执行动作",
+          "显示规范拼写不变，非SSML/音素覆盖"
+        ],
+        "source": "this is a beautiful performance script that you can start if you would like to start with the performance engineering and profiling especially you can hit the CPU by MP stat and then memory with VM start the trays with the for the file system and the disk i/o with i/o start and the nuts with the network",
+        "source_start": "3824.37",
+        "source_end": "3843.18",
+        "current_display": "这里是一张很好的性能工具示意。刚开始做性能工程和剖析，可以按部件入手：用 mpstat 看 CPU，用 vmstat 看内存，再结合文件系统、磁盘 I/O 和网络的工具。",
+        "current_spoken": "这里是一张很好的性能工具示意。刚开始做性能工程和剖析，可以按部件入手：用 mpstat 看 C P U，用 vmstat 看内存，再结合文件系统、磁盘 输入输出 和网络的工具。",
+        "before_waveform": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/current-aac-before/unit-223-current-complete.wav",
+          "bytes": 902924,
+          "mtime_ns": 1794703676418918802,
+          "sha256": "b333cde57abb84f56dc1f9de91df4c3fbeacf1070394ab4bcf714da6d6a528a4"
+        },
+        "speaker_review": {
+          "same_speaker": true,
+          "evidence": "Current complete lecturer source unit, canonical voice map and unchanged321-unit windows; exclude216/217/227 unresolved sources and actual239 source-audio reservation. No cross-speaker joining or new acoustic speaker approval."
+        },
+        "requires_explicit_source_amendment_before_adoption": true
+      },
+      {
+        "key": "body-228-verizon-local-historical47percent",
+        "unit_id": 228,
+        "display": "回到 Java 和垃圾回收。这张图展示的是讲者当时在 Verizon 使用的剖析工具：分析 Java 应用，也分析垃圾收集器和回收过程。其中，VTune 用得最多，占47%。",
+        "spoken": "回到 Java 和垃圾回收。这张图展示的是讲者当时在 Verizon 使用的剖析工具：分析 Java 应用，也分析垃圾收集器和回收过程。其中，V Tune 用得最多，占百分之四十七。",
+        "reason": "以实际标题和双ASR恢复at Verizon，47限定历史内部图；不改成全球市占或推算样本量。用主题切换和最后数字落点作韵律意图，不增加推广评价。",
+        "preserved_facts": [
+          "Java应用及垃圾收集器/回收过程",
+          "Verizon历史使用图",
+          "VTune47%，不外推全球份额"
+        ],
+        "source": "let's get back to the Java and the garbage collection a profiler our advertising we as bench of tools to profile or to profile the Java application and also to profile the garbage collector or garbage collection in general and the VTune is the more popular with with the 47%",
+        "source_start": "3921.47",
+        "source_end": "3939.47",
+        "current_display": "回到 Java 和垃圾回收。Verizon 使用多种工具，剖析 Java 应用，以及垃圾收集器、垃圾回收过程。图中，VTune 是使用较多的工具，占47%。",
+        "current_spoken": "回到 Java 和垃圾回收。Verizon 使用多种工具，剖析 Java 应用，以及垃圾收集器、垃圾回收过程。图中，V Tune 是使用较多的工具，占47%。",
+        "before_waveform": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/current-aac-before/unit-228-current-complete.wav",
+          "bytes": 864044,
+          "mtime_ns": 1794703676419918809,
+          "sha256": "79ba12e5b3f3fc46cfe6a789fbe54a752f390f1f13c9d7054766daa882c1cf3b"
+        },
+        "speaker_review": {
+          "same_speaker": true,
+          "evidence": "Current complete lecturer source unit, canonical voice map and unchanged321-unit windows; exclude216/217/227 unresolved sources and actual239 source-audio reservation. No cross-speaker joining or new acoustic speaker approval."
+        },
+        "requires_explicit_source_amendment_before_adoption": true
+      },
+      {
+        "key": "body-230-java-jvm-memory-management",
+        "unit_id": 230,
+        "display": "我们和英特尔合作，推动了 Java 支持。当时就预见 Java 应用会增长；很多刚毕业的开发者擅长 Java，也可能是想避开手动内存分配，把这件事交给 Java 或 JVM。",
+        "spoken": "我们和英特尔合作，推动了 Java 支持。当时就预见 Java 应用会增长；很多刚毕业的开发者擅长 Java，也可能是想避开手动内存分配，把这件事交给 Java 或 J V M。",
+        "reason": "修正现朗读JV M不均匀缩写输入，保留maybe的可能性、英特尔合作和历史判断；不改成Java不分配内存或JVM无内存成本，也不承诺专业音素通过。",
+        "preserved_facts": [
+          "英特尔合作支持Java",
+          "预见应用增长及毕业生熟悉Java",
+          "可能希望避免手动分配，交给Java/JVM"
+        ],
+        "source": "and we start the project with Intel to create this actually to create this feature supporting Java because actually we had a vision that Java application is going to increase and a lot of developers coming out from school there they're good in Java development and also maybe because they trying to avoid allocating memory and Java or JVM and doing it instead",
+        "source_start": "3960.21",
+        "source_end": "3988.989",
+        "current_display": "我们和 Intel 合作，推动了对 Java 的支持。当时就预见 Java 应用会增长，新毕业的开发者也更熟悉 Java，可能也希望避免手动分配内存，把这件事交给 Java 或 JVM。",
+        "current_spoken": "我们和 英特尔 合作，推动了对 Java 的支持。当时就预见 Java 应用会增长，新毕业的开发者也更熟悉 Java，可能也希望避免手动分配内存，把这件事交给 Java 或 JV M。",
+        "before_waveform": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/current-aac-before/unit-230-current-complete.wav",
+          "bytes": 1381436,
+          "mtime_ns": 1794703676420918816,
+          "sha256": "1da395ec7ccd40b490c38fed841bae44bf3b63e7924dada948ef5344e5014fea"
+        },
+        "speaker_review": {
+          "same_speaker": true,
+          "evidence": "Current complete lecturer source unit, canonical voice map and unchanged321-unit windows; exclude216/217/227 unresolved sources and actual239 source-audio reservation. No cross-speaker joining or new acoustic speaker approval."
+        },
+        "requires_explicit_source_amendment_before_adoption": false
+      },
+      {
+        "key": "body-235-collect-analyze-then-tune",
+        "unit_id": 235,
+        "display": "VTune 能帮助定位、消除软件性能瓶颈。方法是先采集数据，再分析数据；分析得当，才能找出应用、代码和函数中需要调优的地方。",
+        "spoken": "V Tune 能帮助定位、消除软件性能瓶颈。方法是先采集数据，再分析数据；分析得当，才能找出应用、代码和函数中需要调优的地方。",
+        "reason": "保留工具帮助与分析者作用，把采集、分析、定位调优区域分成完整递进，不把工具拟人化成自动删除瓶颈，也不删if good in analytics条件。",
+        "preserved_facts": [
+          "定位及消除瓶颈的目的",
+          "采集后分析",
+          "分析得当才定位应用/代码/函数调优区域"
+        ],
+        "source": "so VTune is a tool that can locate and remove and remove the software performance bottlenecks by the collection so you collect your data you analyze your data and then if you are good in analytics then you can find the area where you can tune the application to your code function",
+        "source_start": "4049.739",
+        "source_end": "4067.029",
+        "current_display": "VTune 能帮助定位和消除软件性能瓶颈：先采集数据，再分析数据。如果善于分析，就能找到需要调优的应用区域、代码和函数。",
+        "current_spoken": "V Tune 能帮助定位和消除软件性能瓶颈：先采集数据，再分析数据。如果善于分析，就能找到需要调优的应用区域、代码和函数。",
+        "before_waveform": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/current-aac-before/unit-235-current-complete.wav",
+          "bytes": 829964,
+          "mtime_ns": 1794703676421918823,
+          "sha256": "2ddd9deac04fde83c1a08046722f3bffeef29ae64469d2768d502ac6a488bc5a"
+        },
+        "speaker_review": {
+          "same_speaker": true,
+          "evidence": "Current complete lecturer source unit, canonical voice map and unchanged321-unit windows; exclude216/217/227 unresolved sources and actual239 source-audio reservation. No cross-speaker joining or new acoustic speaker approval."
+        },
+        "requires_explicit_source_amendment_before_adoption": false
+      },
+      {
+        "key": "body-236-authentic-source-enthusiasm",
+        "unit_id": 236,
+        "display": "它还能直接关联 C、C++ 或 Java 源代码——这一点，真的很棒。讲者说，当时能这样查看源码的工具，他见到的并不多。",
+        "spoken": "它还能直接关联 C、C 加加或 Java 源代码——这一点，真的很棒。讲者说，当时能这样查看源码的工具，他见到的并不多。",
+        "reason": "用破折号和原amazing/honestly支持的赞叹恢复真实积极语气，非凭空加广告式兴奋；保留三种语言和个人见闻的历史范围，不声称市场唯一或免源码符号配置。",
+        "preserved_facts": [
+          "C、C++、Java源码关联",
+          "原amazing赞叹",
+          "工具不多是讲者历史个人观察"
+        ],
+        "source": "and you have also access to the source code which is amazing honestly I don't see a lot of tools that can give you access to the source code C C++ or Java in in the market",
+        "source_start": "4067.029",
+        "source_end": "4081.869",
+        "current_display": "它还可以直接关联源代码。这一点非常好。坦率说，我在市场上见到的、能这样查看 C、C++ 或 Java 源代码的工具并不多。",
+        "current_spoken": "它还可以直接关联源代码。这一点非常好。坦率说，我在市场上见到的、能这样查看 C、C 加加 或 Java 源代码的工具并不多。",
+        "before_waveform": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/current-aac-before/unit-236-current-complete.wav",
+          "bytes": 712364,
+          "mtime_ns": 1794703676422918830,
+          "sha256": "47e8c9f735ecfd296d7093bb093b03cfd71d1ce278ed3d8d1d465b7a74296793"
+        },
+        "speaker_review": {
+          "same_speaker": true,
+          "evidence": "Current complete lecturer source unit, canonical voice map and unchanged321-unit windows; exclude216/217/227 unresolved sources and actual239 source-audio reservation. No cross-speaker joining or new acoustic speaker approval."
+        },
+        "requires_explicit_source_amendment_before_adoption": false
+      },
+      {
+        "key": "body-241-second-type-first-step-contrast",
+        "unit_id": 241,
+        "display": "第二类叫 General Exploration，也就是整体探索分析。不过，我建议先做这一项：它能先给你系统的整体概览，看看运行了什么、有哪些函数。",
+        "spoken": "第二类叫整体探索分析。不过，我建议先做这一项：它能先给你系统的整体概览，看看运行了什么、有哪些函数。",
+        "reason": "保留列举第二类但推荐第一步做的关键对比，用不过自然转折；General Exploration是历史界面标签，不偷偷替换为现代产品分析名称或讲成普适最佳实践。",
+        "preserved_facts": [
+          "General Exploration历史标签",
+          "讲者建议首先进行",
+          "系统整体汇总及运行函数"
+        ],
+        "source": "the second thing you can do General Exploration which is very good me and I recommend doing the general exploration as the first step because it's going to give you a very good overview a big beautiful summary of your system what's running your system different functions are you running all these things",
+        "source_start": "4147.43",
+        "source_end": "4165.4",
+        "current_display": "第二类是 General Exploration，整体探索分析。我推荐先做这个，因为它能给出系统的整体概览和汇总：在运行什么、有哪些函数，等等。",
+        "current_spoken": "第二类，是整体探索分析。我推荐先做这个，因为它能给出系统的整体概览和汇总：在运行什么、有哪些函数，等等。",
+        "before_waveform": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/current-aac-before/unit-241-current-complete.wav",
+          "bytes": 862604,
+          "mtime_ns": 1794703676423918837,
+          "sha256": "cc751a8ded112f1b3510c13eb661be0186566498f36dfaec665b208061ba52e8"
+        },
+        "speaker_review": {
+          "same_speaker": true,
+          "evidence": "Current complete lecturer source unit, canonical voice map and unchanged321-unit windows; exclude216/217/227 unresolved sources and actual239 source-audio reservation. No cross-speaker joining or new acoustic speaker approval."
+        },
+        "requires_explicit_source_amendment_before_adoption": false
+      },
+      {
+        "key": "body-243-stw-application-thread-scope",
+        "unit_id": 243,
+        "display": "它能帮你看清 Stop-the-World 全局停顿何时发生、垃圾回收有多频繁、用的是哪种收集器。这里的停顿指 Java 应用线程；VTune 在这方面很有帮助。",
+        "spoken": "它能帮你看清全局停顿何时发生、垃圾回收有多频繁、用的是哪种收集器。这里的停顿指 Java 应用线程；V Tune 在这方面很有帮助。",
+        "reason": "保留when/频率/收集器类型及讲者评价，限定STW作用对象为Java应用线程，不说整个操作系统全停。新ASR均把术语误作stop word，不能称双模型准确恢复STW。",
+        "preserved_facts": [
+          "Stop-the-World时刻",
+          "GC频率与收集器类型",
+          "Java应用线程停顿而非操作系统全停",
+          "讲者认为VTune有帮助"
+        ],
+        "source": "which is very good is very helpful and standing when what's the Stop-the-World and what's the frequency of your garbage collector which kind of garbage collector and can give you also the frequency a lot of things like VTune is very very helpful in this",
+        "source_start": "4179.89",
+        "source_end": "4196.42",
+        "current_display": "这很有帮助：可以看 Stop-the-World，也就是整个应用暂停的情况；看垃圾回收的频率、收集器类型，还能看其他频率等多项信息。",
+        "current_spoken": "这很有帮助：可以看全局停顿，也就是整个应用暂停的情况；看垃圾回收的频率、收集器类型，还能看其他频率等多项信息。",
+        "before_waveform": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/current-aac-before/unit-243-current-complete.wav",
+          "bytes": 793484,
+          "mtime_ns": 1794703676424918844,
+          "sha256": "2da8c38360d6e899d9b0365ff8a3aa2f99ce2b26f638cdd53d3aa49092d77c24"
+        },
+        "speaker_review": {
+          "same_speaker": true,
+          "evidence": "Current complete lecturer source unit, canonical voice map and unchanged321-unit windows; exclude216/217/227 unresolved sources and actual239 source-audio reservation. No cross-speaker joining or new acoustic speaker approval."
+        },
+        "requires_explicit_source_amendment_before_adoption": false
+      }
+    ]
+  },
+  "registration": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/checkpoint-profiling-installed-v1/metadata-registration.json",
+    "bytes": 36831,
+    "mtime_ns": 1794730495876324213,
+    "sha256": "696393ed2e97f760e834a1c4b4fb138416b577d63fe8dbc790304a78db4cc70b"
+  },
+  "formal_adoption": true,
+  "human_listened": false,
+  "remaining": [
+    "26time reference;95/97/111old source holds;216/217negation conflict;248download object/negation;310learning type;317surname",
+    "227tool phonemes;229emotion/Gary surname;242contention;318emotion;professional pronunciation and all human/full-film/word-level/PotPlayer/final approvals",
+    "Linux0sZlaQr3e2w27language holds/23unclassified vendor markers/criticalAI-F08 unchanged"
+  ],
+  "goal_status": "active"
+}

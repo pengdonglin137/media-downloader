@@ -1,0 +1,357 @@
+{
+  "kind": "complete-profiling-installed-independent-review-v1",
+  "video_id": "cjiUXZh0ZCo",
+  "verification": {
+    "kind": "complete-profiling-adoption-independent-verification-v1",
+    "passed": true,
+    "checked_at": "2026-11-15T08:13:42+00:00",
+    "verifier": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/profiling-adoption-v1/post-install-independent-v1.py",
+      "bytes": 8459,
+      "mtime_ns": 1794728805376631202,
+      "sha256": "25b76d1c3ed2ace92611630455eee3cf06747ade4546a0b15531c19556e6a43a"
+    },
+    "candidate_verification": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/profiling-adoption-v1/media-v1/verification.json",
+      "bytes": 31250,
+      "mtime_ns": 1794729792671159902,
+      "sha256": "f645978ecd7fafea6493519d5cc8a0bb6f7707d0e8839e48503a661c04142346"
+    },
+    "installation_verification": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/profiling-adoption-v1/install-v1/installation-verification.json",
+      "bytes": 11412,
+      "mtime_ns": 1794730273993489029,
+      "sha256": "ba9ffc9f7b0099005bcd9dcd38ada02fa266c65508e54af88a244b5689c62618"
+    },
+    "transaction": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/profiling-adoption-v1/install-v1/file-transaction/transaction.json",
+      "bytes": 39907,
+      "mtime_ns": 1794730274004489589,
+      "sha256": "51a210e1c8a57e30796dd99bbf2ed63bbb334b4d7a7171880e06e7e84c8cc0f7"
+    },
+    "transaction_state": "committed",
+    "transaction_targets": 31,
+    "actual_replace_intents": 25,
+    "all31_old_files_exactly_archived": true,
+    "canonical_files_after": [
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/zh.srt",
+        "bytes": 61554,
+        "mtime_ns": 1794728397344032038,
+        "sha256": "c7c530bbe0c3cff0d31608f9385367eaa05695f31935e1cde2bcf6c45080b041"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/en.srt",
+        "bytes": 83407,
+        "mtime_ns": 1794728397320031727,
+        "sha256": "b3606062f2a65b5710e7637c097d4f9ff450fbec38c1608c535c58929056d074"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/timing_review.json",
+        "bytes": 3,
+        "mtime_ns": 1794621436423917798,
+        "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/voices.json",
+        "bytes": 7386,
+        "mtime_ns": 1794620970384512188,
+        "sha256": "8a2e76078e643df374006311148f9ce441a0042d6ada7fab92ee6e08254d7b00"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/compilation.json",
+        "bytes": 1010,
+        "mtime_ns": 1794728397365032309,
+        "sha256": "42d639d5c847ca0c3b5f0d7399a272d3a17d01b4e090d2055448b5bcee30270f"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/spoken.srt",
+        "bytes": 57038,
+        "mtime_ns": 1794728397344032038,
+        "sha256": "661a4ad9f5f4c4d5cf4388d6c02197cf376ce0ea446aafea791c43f17c1466f7"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/translation.tsv",
+        "bytes": 51603,
+        "mtime_ns": 1794728386788894821,
+        "sha256": "36f629dd93631b5b938790eb2bf82f19d9ac7aaa097cbccb2a94a158b15beadb"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/bilingual_display.srt",
+        "bytes": 159090,
+        "mtime_ns": 1794728452871735158,
+        "sha256": "00b1ddf1a2f39ecca8eaeb370cc8eaafbbb8e8af0ebbbd2c2d9621dce728cf00"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/spoken_overrides.json",
+        "bytes": 32195,
+        "mtime_ns": 1794728386788894821,
+        "sha256": "5c87eddba3a4a84e7f5bb355c89dbe31b470f61fa7b72ea46e257fb4526b6a52"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/package-plan.json",
+        "bytes": 27311,
+        "mtime_ns": 1794728465898895782,
+        "sha256": "b796350544ac8c124a458829ec1331370077d429283e1e0af640a3ff062349ea"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/translation_task.json",
+        "bytes": 3962,
+        "mtime_ns": 1794728397323031766,
+        "sha256": "4c189180a3dd28c4b94e090fc835ee0f1e8f2af9a3159db26990206332846515"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/tts_voice.txt",
+        "bytes": 18,
+        "mtime_ns": 1794621043528585578,
+        "sha256": "278ec7126151de367498ddc4ed86aaa29a610506a7559b9831fa2fdfce5977de"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/meta.json",
+        "bytes": 146,
+        "mtime_ns": 1794613332409392106,
+        "sha256": "f8a1c184a547b229dee7b091ce9ed8b47fde48011a6c26796b688bbe48a60335"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/zh_display.srt",
+        "bytes": 86810,
+        "mtime_ns": 1794728452863735059,
+        "sha256": "0ea19a4f96e820b013fbd71579a5c3b4e2d6d14917de52584a6f8b02eeed5fb0"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/tts_stats.json",
+        "bytes": 23520,
+        "mtime_ns": 1794728387460903592,
+        "sha256": "0c0e1d9d64f5ccc450df1965c629ef692926fcbfce61ff683bd8c991327df150"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/bilingual.srt",
+        "bytes": 133834,
+        "mtime_ns": 1794728397345032051,
+        "sha256": "294435c5779ef1c7ef9ee2f7c2bae2bcc5ec8dfa383ac8660fe25548275e4439"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/en_display.srt",
+        "bytes": 107461,
+        "mtime_ns": 1794728452867735108,
+        "sha256": "202eaffa3c1fb1efe6d4b612abba2f7355fbd10b3e055220c3218cc03e5afffc"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/translation_audit.md",
+        "bytes": 4066,
+        "mtime_ns": 1794621566492573287,
+        "sha256": "8ccf1fd0a56d92fa6c502281201c849d9cbaf1042959f8fd67ab537d900cb58e"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/speech_policy.json",
+        "bytes": 54,
+        "mtime_ns": 1794620970275510563,
+        "sha256": "82f52a8889d1044e2e37de0fd32dc0cc682b4c2bfaf41b35bee6a8f26cb29fcb"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/Science of Performance 2019_中文配音.mp4",
+        "bytes": 566160533,
+        "mtime_ns": 1794728774391319404,
+        "sha256": "18d0c823a19a200e02010c4f774cd0ad61b336827e77fab0dcd6ede2d4c2cd94"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/Science of Performance 2019_中文上传版.mp4",
+        "bytes": 452750775,
+        "mtime_ns": 1794729400379984625,
+        "sha256": "0088d7bd29ed73deeaac837e634e24847304eb9c09c0aa486d048f26ac63c02f"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/editorial_install.json",
+        "bytes": 688,
+        "mtime_ns": 1794730255874555297,
+        "sha256": "fe112cdccc1703ca5cee3e2246190122acf86a7b6ae2fff6849ec4270678a370"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/narration.json",
+        "bytes": 10243,
+        "mtime_ns": 1794730255917557542,
+        "sha256": "4a04c767e3bd681ee1dd8fee3855836475d720fd80567f355dc866910f431df5"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/render_state.json",
+        "bytes": 1881,
+        "mtime_ns": 1794730255959559734,
+        "sha256": "d15b8b1ce58d6b73ad718171f8ec01938cfcb45eacebbd30e9a750190b8a6390"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/upload_export.json",
+        "bytes": 2182,
+        "mtime_ns": 1794730255993561508,
+        "sha256": "9d7aa76fff4942ba37de034188c0348d53320f3d2fed059c297e1789674c2a4f"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/speech_review.json",
+        "bytes": 307819,
+        "mtime_ns": 1794730269279248269,
+        "sha256": "a1a76a205010a48e74f19c848fff3ac3807e4dddeec70014f8012f2126ce3ef2"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/speech_review.html",
+        "bytes": 125255,
+        "mtime_ns": 1794730269314250062,
+        "sha256": "c97fbcdf4128cb6f042ce5dc5bada6251f981f46999ac87375d5e49d41a67e0d"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/speech_database.json",
+        "bytes": 154,
+        "mtime_ns": 1794730269345251650,
+        "sha256": "35db87e80663bcb7b350bc41dadfe07a8ce8fea9841090289aac8a2d644004d7"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/delivery_quality.json",
+        "bytes": 1858,
+        "mtime_ns": 1794730269636266554,
+        "sha256": "43885804c748c7d191b9807a6369c1a7015e9dd86d25c547be2f93fe507e3dbb"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/delivery_check.json",
+        "bytes": 9206,
+        "mtime_ns": 1794730272611418597,
+        "sha256": "f5c5c7b5f4c2a60ae5f984eaefa11bf977bc4c1beb401e5f0c3449370a3989ae"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/release.json",
+        "bytes": 2348,
+        "mtime_ns": 1794730273060441498,
+        "sha256": "79b4078d66027192e20c655d876d6717bb262f47c61b0cac11c83a7f049236a9"
+      }
+    ],
+    "preserved_counts": {
+      "records": 8813,
+      "frozen_root_python": 98,
+      "production_mp3": 293,
+      "unrelated_untracked": 13
+    },
+    "master": {
+      "path": "/home/pengdl/Videos/translated_backlog/Science of Performance 2019_中文配音.mp4",
+      "bytes": 566160533,
+      "mtime_ns": 1794728774391319404,
+      "sha256": "18d0c823a19a200e02010c4f774cd0ad61b336827e77fab0dcd6ede2d4c2cd94"
+    },
+    "upload": {
+      "path": "/home/pengdl/Videos/translated_backlog/Science of Performance 2019_中文上传版.mp4",
+      "bytes": 452750775,
+      "mtime_ns": 1794729400379984625,
+      "sha256": "0088d7bd29ed73deeaac837e634e24847304eb9c09c0aa486d048f26ac63c02f"
+    },
+    "formal_media_exact_candidate_bytes_and_mtime": true,
+    "source_changed_units": [
+      221,
+      222,
+      223,
+      228
+    ],
+    "selected_units": [
+      219,
+      220,
+      221,
+      222,
+      223,
+      228,
+      230,
+      235,
+      236,
+      241,
+      243
+    ],
+    "all_other310_display_and_spoken_units_unchanged": true,
+    "Chinese_bilingual_phrases": 34,
+    "English_before_cues": 1022,
+    "English_cues": 1019,
+    "complete_video_schedule_frames": 167187,
+    "fixed_offset_audio_regions": 34,
+    "minimum_fixed_offset_cosine": 0.9989228995757993,
+    "source_windows": 321,
+    "original_regions": 23,
+    "reserved_units": 39,
+    "intro_offset_seconds": 40.2,
+    "chapters": 85,
+    "duration_seconds": 5572.982,
+    "before_database_rows": {
+      "decisions": 0,
+      "issues": 11042,
+      "occurrences": 19421,
+      "projects": 60,
+      "repair_resolutions": 0,
+      "scans": 122,
+      "terms": 41
+    },
+    "stage_database_rows": {
+      "decisions": 0,
+      "issues": 11228,
+      "occurrences": 19746,
+      "projects": 60,
+      "repair_resolutions": 0,
+      "scans": 123,
+      "terms": 41
+    },
+    "candidate_database_rows": {
+      "decisions": 0,
+      "issues": 11414,
+      "occurrences": 20071,
+      "projects": 60,
+      "repair_resolutions": 0,
+      "scans": 124,
+      "terms": 41
+    },
+    "installed_database_rows": {
+      "decisions": 0,
+      "issues": 11600,
+      "occurrences": 20396,
+      "projects": 60,
+      "repair_resolutions": 0,
+      "scans": 125,
+      "terms": 41
+    },
+    "project_current_revision_updates": [
+      {
+        "changed_project_revision_indexes": [
+          "cjiUXZh0ZCo"
+        ]
+      },
+      {
+        "changed_project_revision_indexes": [
+          "cjiUXZh0ZCo"
+        ]
+      },
+      {
+        "changed_project_revision_indexes": [
+          "cjiUXZh0ZCo"
+        ]
+      }
+    ],
+    "all_historical_rows_preserved_except_current_project_revision_index": true,
+    "current_candidates": 186,
+    "source_classifications_not_dismissed": 12,
+    "new_decisions_or_resolutions": 0,
+    "human_listened_or_pronunciation_emotion_approved": false,
+    "full_visual_wordlevel_PotPlayer_or_final_approval": false,
+    "goal_status": "active"
+  },
+  "registration": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/checkpoint-profiling-installed-v1/metadata-registration.json",
+    "bytes": 36831,
+    "mtime_ns": 1794730495876324213,
+    "sha256": "696393ed2e97f760e834a1c4b4fb138416b577d63fe8dbc790304a78db4cc70b"
+  },
+  "checkpoint_verification": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/checkpoint-profiling-installed-v1/verification.json",
+    "bytes": 8774,
+    "mtime_ns": 1794730495876324213,
+    "sha256": "2f3cd4741a2dcb3a2d400c82ce9b782976174daf1ac46dbee346d48ad9affd77"
+  },
+  "current_quality": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/profiling-adoption-v1/current-quality-after-install-v1.json",
+    "bytes": 4141,
+    "mtime_ns": 1794730442981216905,
+    "sha256": "3686166cc23a642a798ead992201731dcee4f316eb198071227ea5af4aed971d"
+  },
+  "formal_adoption": true,
+  "human_listened": false,
+  "goal_status": "active"
+}
