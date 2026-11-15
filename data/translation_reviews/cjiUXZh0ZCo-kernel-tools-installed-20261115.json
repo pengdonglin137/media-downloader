@@ -1,0 +1,111 @@
+{
+  "kind": "kernel-tool-source-media-installed-review-v1",
+  "video_id": "cjiUXZh0ZCo",
+  "selection": {
+    "kind": "source-supported-complete-kernel-tool-speech-selection-v1",
+    "selected": [
+      {
+        "key": "body-227-kernel-tools-explicit-initials",
+        "source_fidelity_selected": true,
+        "reason": "Keep the complete source-supported tool list and original system/driver context. Use canonical initial-letter speech input VM,D,IO while subtitles retain vmstat,dstat,iostat. This is an explicit editorial/input choice,not an ASR-selected phonetic/emotional winner.",
+        "human_listened": false,
+        "pronunciation_or_emotion_approved": false
+      }
+    ],
+    "preview_plan": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/kernel-tool-names-v1/preview-plan-v1.json",
+      "bytes": 10333,
+      "mtime_ns": 1794719350380229243,
+      "sha256": "7c947fe6753621b570b730fd77380ef89bace2e6cc4a7fd252af872c9ea4f471"
+    },
+    "preview_manifest": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/kernel-tool-names-v1/preview-v1/manifest.json",
+      "bytes": 5624,
+      "mtime_ns": 1794719354880363057,
+      "sha256": "c2003ca85f0374fb2badcd927ef3c885e8e10b7f3dc3613303dc63744dfdc9bc"
+    },
+    "legacy_mapping": {
+      "policy": "legacy-owned-span-exact-contained-synthesis-v1",
+      "source_start": "3897.68",
+      "source_end": "3921.47",
+      "legacy_start_sample": 93544320,
+      "legacy_end_sample": 94115280,
+      "exact_start_scaled": [
+        93544320,
+        1
+      ],
+      "exact_end_scaled": [
+        94115280,
+        1
+      ],
+      "exact_contained_start_sample": 93544320,
+      "exact_contained_end_sample": 94115280,
+      "start_sample": 93544320,
+      "end_sample": 94115280,
+      "complete_samples": 426240,
+      "preview_window_samples": 570960,
+      "remaining_contained_samples": 144720
+    },
+    "exact_mapping": {
+      "policy": "preserve-exact-source-exterior-within-legacy-ownership-v1",
+      "source_start": "3897.68",
+      "source_end": "3921.47",
+      "legacy_start_sample": 93544320,
+      "legacy_end_sample": 94115280,
+      "exact_start_scaled": [
+        93544320,
+        1
+      ],
+      "exact_end_scaled": [
+        94115280,
+        1
+      ],
+      "exact_contained_start_sample": 93544320,
+      "exact_contained_end_sample": 94115280,
+      "start_sample": 93544320,
+      "end_sample": 94115280,
+      "complete_samples": 426240,
+      "preview_window_samples": 570960,
+      "remaining_contained_samples": 144720
+    },
+    "legacy_exact_owned_window_equal_for_this227_only": true,
+    "whole_synthesis_seconds": 17.76,
+    "new_TTS_ASR": false,
+    "unselected_literal_candidate_preserved": true,
+    "formal_adoption": false
+  },
+  "source_amendments": [
+    {
+      "unit_id": 227,
+      "source_start": "3897.68",
+      "source_end": "3921.47",
+      "before": "system call interface for the net the TCP scheduler the vitriol a virtual memory you can Li use vmstat the start I or start you have the you have device drivers and then different component of your server in the kernel mode where you can use all this set of tools to profile your system",
+      "after": "system call interface for the net the TCP scheduler the virtual memory you can use vmstat dstat iostat you have the you have device drivers and then different component of your server in the kernel mode where you can use all this set of tools to profile your system",
+      "replacement": {
+        "from": "the vitriol a virtual memory you can Li use vmstat the start I or start",
+        "to": "the virtual memory you can use vmstat dstat iostat",
+        "occurrences": 1
+      },
+      "basis": "Both complete original-window ASR outputs recover virtual memory and a three-name list;3906 actual source slide supplies exact dstat/iostat spellings. Distil DSTAT/IOSAT and medium the stat/IOS stat are explicitly not exact consensus. Preserve all exterior original words,including existing net and repeated you have.",
+      "word_conserving": false,
+      "same_unit_identity_and_window": true,
+      "human_listened": false
+    }
+  ],
+  "display": "再往下，有系统调用接口、网络与 TCP、调度器、虚拟内存，可以使用 vmstat、dstat、iostat 等工具。还有设备驱动，以及内核模式下的服务器各个部件，都能用这组工具剖析系统。",
+  "spoken": "再往下，有系统调用接口、网络与 T C P、调度器、虚拟内存，可以使用 V M stat、D stat、I O stat 等工具。还有设备驱动，以及内核模式下的服务器各个部件，都能用这组工具剖析系统。",
+  "registration": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/checkpoint-kernel-tools-installed-v1/metadata-registration.json",
+    "bytes": 32512,
+    "mtime_ns": 1794722021189140551,
+    "sha256": "5df272fb33f1661e9d967d9482347024d866eba2d76a05d9b4b003da5d8a11fd"
+  },
+  "formal_adoption": true,
+  "human_listened": false,
+  "remaining": [
+    "216/217 negation and self-correction;248 download object and negation;310 learning type;317 surname",
+    "227 tool phonemes and other professional-name pronunciation,318 emotion,whole human listening/visual/word-level alignment/PotPlayer/final approval",
+    "Linux0sZlaQr3e2w27holds/23markers/criticalF08 unchanged"
+  ],
+  "goal_status": "active"
+}

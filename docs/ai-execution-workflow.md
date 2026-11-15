@@ -1,5 +1,13 @@
 # AI 执行工作流：自包含中文译配视频
 
+## 2026-11-15：227工具句当前已采用，不重复成功操作
+
+最新入口为`checkpoint-kernel-tools-installed-v1`，当前工作目录的双版、正式文本与库均由31目标事务采用；`media-v1`九操作和安装prepare/apply/check已真实0。不得重跑成功TTS、编码、全解码或install apply；17.760秒完整语音来自上轮，83WordBoundary/14有限来源用例只是复用证据。
+
+本请求`kernel-tools-adoption-v1/RUNTIME.md`记录显式组件投影与来源安装合同。续验当前质量需按source_component_projection.runtime→source_corrected_install.runtime→editorial_history.runtime→editorial_install.runtime进入；一次性成功脚本/收据不可覆写，必要只读复核另存新收据。上轮helpfulness入口仍描述旧版，不代表当前版本。
+
+只修227源文与六中文/双语短句，英文仅732/733文案修改；原始JSON3/321窗/其余320单元保持。六实际上传图只是局部，有限VLC有原诊断；185候选/12来源非dismiss分类/0决定不是听辨批准。其他来源与Linux全部保留门禁，目标active。
+
 ## 2026-11-15：227的ASR缺口与完整句命令读法对照
 
 - 先以真实时间确认旧component-tool-names仅3825–3844、Java片从3921.47起，均未覆盖227。只补3897.68–3921.47两原声观察；3906秒实际图支持vmstat/dstat/iostat拼写，机器IOSAT/the stat不包装成规范名一致。
