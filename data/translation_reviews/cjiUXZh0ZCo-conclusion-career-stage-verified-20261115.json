@@ -1,0 +1,212 @@
+{
+  "kind": "conclusion-career-candidate-stage-verified-index-v1",
+  "passed": true,
+  "verifier": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/conclusion-career-adoption-v1/independent-candidate-verification-v1.py",
+    "bytes": 10463,
+    "mtime_ns": 1794711775295414538,
+    "sha256": "0c7d5ebec007ac6c6bd9e4d07b889526346f529bb71e1ca8817daed3e4570470"
+  },
+  "checked_at": "2026-11-15T03:04:39+00:00",
+  "preview": {
+    "passed": true,
+    "cases": 12,
+    "normal_rate_fits": 12,
+    "plan": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/conclusion-career-adoption-v1/complete-previews-v2/plan.json",
+      "bytes": 41446,
+      "mtime_ns": 1794711585184601008,
+      "sha256": "586873bf2eec96cc13d6bcd1ea06aa7030a386e96a41191e991d409ea9b248aa"
+    },
+    "manifest": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/conclusion-career-adoption-v1/complete-previews-v2/manifest.json",
+      "bytes": 48840,
+      "mtime_ns": 1794711585194602213,
+      "sha256": "94b08b5eba0062400cdce0eb453ac86cb364e120ac6780efff557c68e5d98d2e"
+    },
+    "adapter": {
+      "path": "/home/pengdl/media-downloader/media_workflow/speech_variants.py",
+      "bytes": 11841,
+      "mtime_ns": 1794633410547401140,
+      "sha256": "a0c6caa1efe005b30c40ba5cb80d71c68b92a951ee144bdbb0b7b1144d90d388"
+    },
+    "human_listened": false,
+    "strict_production_admission_proven": false
+  },
+  "stage": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/conclusion-career-adoption-v1/source-stage-v2/manifest.json",
+    "bytes": 13302,
+    "mtime_ns": 1794711601174504394,
+    "sha256": "1ded5ad5b1ac8868c8e6bccd9286139e7d5422bf181be6fe01116097a6ebdbda"
+  },
+  "projection": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/conclusion-career-adoption-v1/projection-v3/manifest.json",
+    "bytes": 133035,
+    "mtime_ns": 1794711719850223794,
+    "sha256": "34ea13ce85ad48917557ddf17fc3b01c92b0580baa0b52fa955769d124279ef5"
+  },
+  "projection_check": {
+    "passed": true,
+    "kind": "explicit-component-source-caption-projection-v1",
+    "policy": "minimal-adjacent-English-cue-merges-within-unchanged-source-windows-v1",
+    "manifest": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/conclusion-career-adoption-v1/projection-v3/manifest.json",
+      "bytes": 133035,
+      "mtime_ns": 1794711719850223794,
+      "sha256": "34ea13ce85ad48917557ddf17fc3b01c92b0580baa0b52fa955769d124279ef5"
+    },
+    "complete_audio_cases": 12,
+    "Chinese_phrases": 33,
+    "English_cues": 1022,
+    "English_changed_groups": 6,
+    "English_component_replacements": 7,
+    "English_original_cue_coverage_complete": true,
+    "unselected_English_text_and_times_preserved": true,
+    "English_raw_bytes_or_exact_wordlevel_timing_claimed_preserved": false,
+    "new_audio_or_media": false,
+    "canonical_project_modified": false,
+    "human_wordlevel_audiovisual_alignment_proven": false
+  },
+  "quality": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/conclusion-career-adoption-v1/quality-v3/manifest.json",
+    "bytes": 5309,
+    "mtime_ns": 1794711734674654528,
+    "sha256": "227b22b5414519e1d7d9349de3145b2627d1667409f6c7572e3cd11cb66cba0e"
+  },
+  "quality_history": {
+    "before_rows": {
+      "decisions": 0,
+      "issues": 8249,
+      "occurrences": 14582,
+      "projects": 60,
+      "repair_resolutions": 0,
+      "scans": 107,
+      "terms": 41
+    },
+    "after_rows": {
+      "decisions": 0,
+      "issues": 8435,
+      "occurrences": 14903,
+      "projects": 60,
+      "repair_resolutions": 0,
+      "scans": 108,
+      "terms": 41
+    },
+    "all_old_rows_preserved": true,
+    "new_decisions_or_resolutions": 0
+  },
+  "candidate_history": {
+    "previous_current_candidates": 186,
+    "current_candidates": 186,
+    "unedited_current_candidates_preserved": 182,
+    "edited_previous_candidates_retained_in_old_database_scans": 4,
+    "classified_source_only_synthetic_tail_candidates": 12,
+    "new_review_decisions": 0
+  },
+  "selected_complete_units": [
+    290,
+    291,
+    296,
+    301,
+    302,
+    306,
+    308,
+    309,
+    315,
+    318,
+    319,
+    320
+  ],
+  "source_units_changed": [
+    290,
+    291,
+    296,
+    301,
+    306,
+    309
+  ],
+  "source_windows": 321,
+  "original_regions": 23,
+  "original_reserved_units": 39,
+  "complete_gain_processed_PCM_inside_owned_spans_exact_and_outside_unchanged": true,
+  "all23_source_regions_equal_original_PCM_at_absolute_samples": true,
+  "preserved_counts": {
+    "records": 5575,
+    "canonical_targets_before_separately_bound": 31,
+    "frozen_root_python": 98,
+    "production_mp3": 293,
+    "unrelated_untracked": 13
+  },
+  "formal_database_counts_unchanged": {
+    "scans": 107,
+    "issues": 8249,
+    "occurrences": 14582,
+    "decisions": 0,
+    "repair_resolutions": 0
+  },
+  "new_TTS": 1,
+  "new_ASR": 0,
+  "preserved_complete_syntheses": 11,
+  "semantic_revision": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/conclusion-career-adoption-v1/publication-order-editorial-hold-v2.json",
+    "bytes": 5984,
+    "mtime_ns": 1794711580351015936,
+    "sha256": "8bdfb724af8dec3417877be1f7e82ad0e3aa154d596b16cef562cf78256ec576"
+  },
+  "preserved_projection_rejection": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/conclusion-career-adoption-v1/projection-prepare-v2.exit",
+    "bytes": 2,
+    "mtime_ns": 1794711658582952395,
+    "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865"
+  },
+  "formal_adoption": false,
+  "new_final_media": false,
+  "human_approval": false,
+  "goal_status": "active",
+  "registration": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/checkpoint-conclusion-career-stage-v1/metadata-registration.json",
+    "bytes": 41271,
+    "mtime_ns": 1794711946315012457,
+    "sha256": "88a87137a62945713738689c6f545bef6a0dc4c9697b4937dc7b012fb355a2ad"
+  },
+  "registration_verification": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/checkpoint-conclusion-career-stage-v1/verification.json",
+    "bytes": 1631,
+    "mtime_ns": 1794711946325013160,
+    "sha256": "8830b341f3eb34ab8875235a21c37b71018f32f282e34623a4eeb953ee2a3b2b"
+  },
+  "checkpoint": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/checkpoint-conclusion-career-stage-v1/execution-progress.json",
+    "bytes": 1869,
+    "mtime_ns": 1794711946325013160,
+    "sha256": "5ec698f1160c3e39d4da286dda347234353a7d8ab688ad641ffd784554a2ce1a"
+  },
+  "independent_verification": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/conclusion-career-adoption-v1/independent-candidate-verification-v1.json",
+    "bytes": 9481,
+    "mtime_ns": 1794711879554094228,
+    "sha256": "cb2bc46da92a91caf51c6f598b12a0a032a8872270102150dfefa39f5415051c"
+  },
+  "rebinding_fixtures": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/conclusion-career-adoption-v1/rebinding-fixtures-v1.json",
+    "bytes": 6454,
+    "mtime_ns": 1794710909334146746,
+    "sha256": "c53f78057e14dfc5a9ac8dde829418944905d651c33310cdaed097844772a028"
+  },
+  "new_TTS_seconds": 12.744,
+  "normal_rate_fits": 12,
+  "document_publisher_failures": [
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/conclusion-career-adoption-v1/publish-stage-docs-v1.exit",
+      "bytes": 2,
+      "mtime_ns": 1794712040480235431,
+      "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/conclusion-career-adoption-v1/publish-stage-docs-v2.exit",
+      "bytes": 2,
+      "mtime_ns": 1794712066819843818,
+      "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865"
+    }
+  ]
+}

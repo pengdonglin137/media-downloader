@@ -1,0 +1,509 @@
+{
+  "kind": "conclusion-career-complete-candidate-stage-review-v1",
+  "video_id": "cjiUXZh0ZCo",
+  "recorded_at": "2026-11-15T03:08:09+00:00",
+  "goal_status": "active",
+  "baseline_head": "be7a659b27cfce939f1224457076e9ef41efe730",
+  "formal_adoption": false,
+  "canonical_written": false,
+  "cases": [
+    {
+      "key": "body-290-historical-mobile-requirements",
+      "unit_id": 290,
+      "source": "Flickr which was one of the Yahoo application tumbler - you just run tumblr or debuggable actually debuggable application here in your tablet or phone it should be enjoyed phone with Intel CPU then you plug it on your computer",
+      "source_start": "5031.21",
+      "source_end": "5048.55",
+      "current_display": "例如 Yahoo 的 Flickr、Tumblr。启动 Tumblr，或者一个可调试的应用；这里演示的是带 Intel CPU 的 Android 手机或平板，再连接到电脑上。",
+      "current_spoken": "例如 Yahoo 的 Flickr、Tumblr。启动 Tumblr，或者一个可调试的应用；这里演示的是带 英特尔 C P U 的 Android 手机或平板，再连接到电脑上。",
+      "display": "以雅虎的 Flickr、Tumblr 为例。先在手机或平板上启动 Tumblr，或其他可调试的应用；这里要求是带英特尔 CPU 的安卓设备，再把它接到电脑上。",
+      "spoken": "以雅虎的 Flickr、Tumblr 为例。先在手机或平板上启动 Tumblr，或其他可调试的应用；这里要求是带英特尔 C P U 的安卓设备，再把它接到电脑上。",
+      "reason": "双新ASR恢复Android而非enjoyed，保留可调试、设备/Intel CPU条件和连接；品牌照原文，历史归属不背书当前。",
+      "preserved_facts": [
+        "Flickr/Tumblr例子",
+        "可调试应用",
+        "手机或平板",
+        "Android及Intel CPU条件",
+        "接到电脑"
+      ],
+      "before_waveform": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/conclusion-career-adoption-v1/rebound-previews-v1/before/body-290-historical-mobile-requirements.wav",
+        "bytes": 832364,
+        "mtime_ns": 1794710948117992521,
+        "sha256": "b86c47636a3a9bb9b351e8235990d77064aee2b2623c6410ed4331d5f3b1f835"
+      },
+      "speaker_review": {
+        "same_speaker": true,
+        "evidence": "Current complete lecturer-owned canonical source unit/voice map and contextual reading, excluding294 question/handoff,321 applause,310 training-method ambiguity and317 surname; no joining/new acoustic or human identity approval."
+      },
+      "requires_explicit_source_amendment_before_adoption": true,
+      "amended_candidate_source": "Flickr which was one of the Yahoo application tumbler - you just run tumblr or debuggable actually debuggable application here in your tablet or phone it should be Android phone with Intel CPU then you plug it on your computer",
+      "human_listened": false,
+      "pronunciation_or_emotion_approved": false
+    },
+    {
+      "key": "body-291-energy-and-c-state",
+      "unit_id": 291,
+      "source": "you just open the energy profiler and or power analysis and then you see a very good graph like this and different wake up the reason of the wakeup and different power sea state and then the the wake up objects",
+      "source_start": "5048.55",
+      "source_end": "5069.34",
+      "current_display": "打开 Energy Profiler 或功耗分析，就能看到这样的图：不同唤醒事件、唤醒原因、电源 C 状态，以及唤醒相关对象。",
+      "current_spoken": "打开 Energy Profiler 或功耗分析，就能看到这样的图：不同唤醒事件、唤醒原因、电源 C 状态，以及唤醒相关对象。",
+      "display": "打开 Energy Profiler，或功耗分析，就能看到这样的图：不同的唤醒事件、唤醒原因、电源 C 状态，还有相关的唤醒对象。",
+      "spoken": "打开能耗剖析器，或功耗分析，就能看到这样的图：不同的唤醒事件、唤醒原因、电源 C 状态，还有相关的唤醒对象。",
+      "reason": "C-state来自双ASR及5062，不读sea或替成P-state；Energy Profiler只作本句中文功能别名。",
+      "preserved_facts": [
+        "Energy Profiler或power analysis",
+        "唤醒/原因/对象",
+        "电源C状态"
+      ],
+      "before_waveform": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/conclusion-career-adoption-v1/rebound-previews-v1/before/body-291-energy-and-c-state.wav",
+        "bytes": 997964,
+        "mtime_ns": 1794710948118992517,
+        "sha256": "60fc9df567b44c956ea16258e019b9d7dd0115f8782db1d44be8bf5afda63b2c"
+      },
+      "speaker_review": {
+        "same_speaker": true,
+        "evidence": "Current complete lecturer-owned canonical source unit/voice map and contextual reading, excluding294 question/handoff,321 applause,310 training-method ambiguity and317 surname; no joining/new acoustic or human identity approval."
+      },
+      "requires_explicit_source_amendment_before_adoption": true,
+      "amended_candidate_source": "you just open the energy profiler and or power analysis and then you see a very good graph like this and different wake up the reason of the wakeup and different power C-state and then the the wake up objects",
+      "human_listened": false,
+      "pronunciation_or_emotion_approved": false
+    },
+    {
+      "key": "body-296-horizontal-versus-vertical",
+      "unit_id": 296,
+      "source": "so when we talk about the scale of performance we are talking about how we can scale or isn't Li or vertically which means that are we able to increase the throughput vertically with more CPUs and cores and memories and memory within the server",
+      "source_start": "5128.389",
+      "source_end": "5148.92",
+      "current_display": "谈性能扩展，就是考虑横向或纵向扩展。能不能增加吞吐量？在一台服务器里增加 CPU、核心和内存，是这里先讨论的纵向扩展。",
+      "current_spoken": "谈性能扩展，就是考虑横向或纵向扩展。能不能增加吞吐量？在一台服务器里增加 C P U、核心和内存，是这里先讨论的纵向扩展。",
+      "display": "谈性能扩展，先问：横向，还是纵向？要提高吞吐量，能不能在一台服务器里增加 CPU、核心和内存？这就是这里说的纵向扩展。",
+      "spoken": "谈性能扩展，先问：横向，还是纵向？要提高吞吐量，能不能在一台服务器里增加 C P U、核心和内存？这就是这里说的纵向扩展。",
+      "reason": "双旧ASR和5158支持horizontally，不保留or isn’t Li错串；问句是讲者引导，单机CPU/核心/内存及吞吐量俱在。",
+      "preserved_facts": [
+        "横向或纵向",
+        "增加吞吐量",
+        "单台服务器CPU/核心/内存",
+        "该例纵向"
+      ],
+      "before_waveform": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/conclusion-career-adoption-v1/rebound-previews-v1/before/body-296-horizontal-versus-vertical.wav",
+        "bytes": 985532,
+        "mtime_ns": 1794710948118992517,
+        "sha256": "e8be67738bae6633c31d01085cd37607efc67c8bd46657d98a710d4ac3cef722"
+      },
+      "speaker_review": {
+        "same_speaker": true,
+        "evidence": "Current complete lecturer-owned canonical source unit/voice map and contextual reading, excluding294 question/handoff,321 applause,310 training-method ambiguity and317 surname; no joining/new acoustic or human identity approval."
+      },
+      "requires_explicit_source_amendment_before_adoption": true,
+      "amended_candidate_source": "so when we talk about the scale of performance we are talking about how we can scale horizontally or vertically which means that are we able to increase the throughput vertically with more CPUs and cores and memories and memory within the server",
+      "human_listened": false,
+      "pronunciation_or_emotion_approved": false
+    },
+    {
+      "key": "body-301-seasonal-hybrid-cloud",
+      "unit_id": 301,
+      "source": "between private public and hybrid here is also it's going to be a trade-off why we did we do hybrid for example for a seasonal capacity chance or a seasonal application like Yahoo fantasy sports",
+      "source_start": "5206.059",
+      "source_end": "5220.82",
+      "current_display": "私有云、公有云、混合云之间，也要权衡。为什么用混合云？例如季节性的容量变化，或 Yahoo Fantasy Sports 这种季节性应用。",
+      "current_spoken": "私有云、公有云、混合云之间，也要权衡。为什么用混合云？例如季节性的容量变化，或 Yahoo Fantasy Sports 这种季节性应用。",
+      "display": "私有云、公有云，还是混合云？这里同样要权衡。为什么选混合云？比如，雅虎 Fantasy Sports 这样的应用，就有随赛季变化的容量需求。",
+      "spoken": "私有云、公有云，还是混合云？这里同样要权衡。为什么选混合云？比如，雅虎 Fantasy Sports 这样的应用，就有随赛季变化的容量需求。",
+      "reason": "按5230 seasonal capacity changes修chance词面；保留混合云选择的季节性例子，不将云类型设成无条件最优。",
+      "preserved_facts": [
+        "私有/公有/混合云权衡",
+        "混合云季节容量",
+        "Yahoo Fantasy Sports例子"
+      ],
+      "before_waveform": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/conclusion-career-adoption-v1/rebound-previews-v1/before/body-301-seasonal-hybrid-cloud.wav",
+        "bytes": 708572,
+        "mtime_ns": 1794710948119992513,
+        "sha256": "0e6fefafeaf7e97688fd8b6c2caebbef96881ccea299435727c74cccd431976c"
+      },
+      "speaker_review": {
+        "same_speaker": true,
+        "evidence": "Current complete lecturer-owned canonical source unit/voice map and contextual reading, excluding294 question/handoff,321 applause,310 training-method ambiguity and317 surname; no joining/new acoustic or human identity approval."
+      },
+      "requires_explicit_source_amendment_before_adoption": true,
+      "amended_candidate_source": "between private public and hybrid here is also it's going to be a trade-off why we did we do hybrid for example for a seasonal capacity changes or a seasonal application like Yahoo fantasy sports",
+      "human_listened": false,
+      "pronunciation_or_emotion_approved": false
+    },
+    {
+      "key": "body-302-season-and-service-constraints",
+      "unit_id": 302,
+      "source": "it doesn't make any sense if you you have a data center just for this application that you're in it only for a season of football season for example this is one of the examples so it's going to be about SLA and the elasticity and security as well too",
+      "source_start": "5220.82",
+      "source_end": "5238.32",
+      "current_display": "如果一个应用，只在橄榄球赛季这样的时间段运行，却专门为它保留一座数据中心，就不太合理。所以，还要考虑 SLA、弹性和安全。",
+      "current_spoken": "如果一个应用，只在橄榄球赛季这样的时间段运行，却专门为它保留一座数据中心，就不太合理。所以，还要考虑 服务等级协议、弹性和安全。",
+      "display": "比如，一个应用只在橄榄球赛季运行，却专门为它留一座数据中心，就不合理了。选择时，还得看 SLA、弹性，以及安全。",
+      "spoken": "比如，一个应用只在橄榄球赛季运行，却专门为它留一座数据中心，就不合理了。选择时，还得看服务等级协议、弹性，以及安全。",
+      "reason": "美式football按此雅虎赛季例子保留橄榄球，SLA完整展开；保留弹性和安全，不只保留成本理由。",
+      "preserved_facts": [
+        "仅赛季运行的例子",
+        "专建数据中心不合理",
+        "SLA/弹性/安全"
+      ],
+      "before_waveform": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/conclusion-career-adoption-v1/rebound-previews-v1/before/body-302-season-and-service-constraints.wav",
+        "bytes": 840044,
+        "mtime_ns": 1794710948119992513,
+        "sha256": "5228ed4a701f30ee8cfadd3922c8a6cc8e6f82bddce7ade400b6f7753cc39efc"
+      },
+      "speaker_review": {
+        "same_speaker": true,
+        "evidence": "Current complete lecturer-owned canonical source unit/voice map and contextual reading, excluding294 question/handoff,321 applause,310 training-method ambiguity and317 surname; no joining/new acoustic or human identity approval."
+      },
+      "requires_explicit_source_amendment_before_adoption": false,
+      "amended_candidate_source": "it doesn't make any sense if you you have a data center just for this application that you're in it only for a season of football season for example this is one of the examples so it's going to be about SLA and the elasticity and security as well too",
+      "human_listened": false,
+      "pronunciation_or_emotion_approved": false
+    },
+    {
+      "key": "body-306-vtune-two-container-deployments",
+      "unit_id": 306,
+      "source": "and then performance actually that is vital for containers where you either take Vito as a container itself or install a V tone in one of the containers to provide your application or container",
+      "source_start": "5284.76",
+      "source_end": "5297.35",
+      "current_display": "对于容器，可以把 VTune 本身作为一个容器运行，也可以把它装进容器里，剖析应用或容器本身。",
+      "current_spoken": "对于容器，可以把 V Tune 本身作为一个容器运行，也可以把它装进容器里，剖析应用或容器本身。",
+      "display": "容器里做性能分析，VTune 就能用：可以把 VTune 本身作为容器运行，也可以把它安装到容器内部，剖析你的应用或容器。",
+      "spoken": "容器里做性能分析，V Tune 就能用：可以把 V Tune 本身作为容器运行，也可以把它安装到容器内部，剖析你的应用或容器。",
+      "reason": "双新ASR支持VTune两次产品名和两种部署方式；不改成容器内必需嵌套容器或当前任何权限配置都可采集。",
+      "preserved_facts": [
+        "VTune作为容器",
+        "或安装在容器内部",
+        "剖析应用或容器"
+      ],
+      "before_waveform": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/conclusion-career-adoption-v1/rebound-previews-v1/before/body-306-vtune-two-container-deployments.wav",
+        "bytes": 604364,
+        "mtime_ns": 1794710948119992513,
+        "sha256": "ef846ce1a3a045303485393e78314e31d6bf3b66d11162f6959b7a46ea613a67"
+      },
+      "speaker_review": {
+        "same_speaker": true,
+        "evidence": "Current complete lecturer-owned canonical source unit/voice map and contextual reading, excluding294 question/handoff,321 applause,310 training-method ambiguity and317 surname; no joining/new acoustic or human identity approval."
+      },
+      "requires_explicit_source_amendment_before_adoption": true,
+      "amended_candidate_source": "and then performance actually that is vital for containers where you either take VTune as a container itself or install a VTune in one of the containers to provide your application or container",
+      "human_listened": false,
+      "pronunciation_or_emotion_approved": false
+    },
+    {
+      "key": "body-308-authentic-research-enthusiasm",
+      "unit_id": 308,
+      "source": "I think this is one of the very exciting for me because I think it's one of the few new articles about how we can use artificial intelligence with with with with performance or performance engineering or science of performance",
+      "source_start": "5313.25",
+      "source_end": "5330.44",
+      "current_display": "这个方向让我特别兴奋。因为在我看来，把人工智能用于性能、性能工程，也就是性能科学的这类新文章，还不多。",
+      "current_spoken": "这个方向让我特别兴奋。因为在我看来，把人工智能用于性能、性能工程，也就是性能科学的这类新文章，还不多。",
+      "display": "这个方向，真让我兴奋！把人工智能用于性能、性能工程，也就是性能科学——在我看来，当时这样的新文章还不多。",
+      "spoken": "这个方向，真让我兴奋！把人工智能用于性能、性能工程，也就是性能科学——在我看来，当时这样的新文章还不多。",
+      "reason": "恢复原very exciting第一人称热情；few articles限定讲者看法及历史语境，不暗示2026此领域仍罕见。",
+      "preserved_facts": [
+        "讲者兴奋",
+        "AI用于性能/性能工程/性能科学",
+        "他认为当时相关文章不多"
+      ],
+      "before_waveform": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/conclusion-career-adoption-v1/rebound-previews-v1/before/body-308-authentic-research-enthusiasm.wav",
+        "bytes": 825164,
+        "mtime_ns": 1794710948120992509,
+        "sha256": "dc19ca311f467b13911d45fc0bc2abfc07f07fccf60c4d3a87fa8d53e19d4497"
+      },
+      "speaker_review": {
+        "same_speaker": true,
+        "evidence": "Current complete lecturer-owned canonical source unit/voice map and contextual reading, excluding294 question/handoff,321 applause,310 training-method ambiguity and317 surname; no joining/new acoustic or human identity approval."
+      },
+      "requires_explicit_source_amendment_before_adoption": false,
+      "amended_candidate_source": "I think this is one of the very exciting for me because I think it's one of the few new articles about how we can use artificial intelligence with with with with performance or performance engineering or science of performance",
+      "human_listened": false,
+      "pronunciation_or_emotion_approved": false
+    },
+    {
+      "key": "body-309-tensorflow-lstm-publication-plan",
+      "unit_id": 309,
+      "source": "where we can use one of the deep learning tensorflow model which is LS TM for smart anomaly detection this is one of the paper are we are going to publish internally for one of the conference at Verizon and externally for artificial intelligence conference with performance",
+      "source_start": "5330.44",
+      "source_end": "5352.17",
+      "current_display": "我们用 TensorFlow 里的 LSTM 深度学习模型，做智能异常检测。相关论文，计划先在 Verizon 内部会议发表，再投向外部的人工智能与性能会议。",
+      "current_spoken": "我们用 TensorFlow 里的 L S T M 深度学习模型，做智能异常检测。相关论文，计划先在 Verizon 内部会议发表，再投向外部的人工智能与性能会议。",
+      "display": "我们用 TensorFlow 的 LSTM 深度学习模型，做智能异常检测。相关论文，计划在 Verizon 的内部会议，以及外部的人工智能与性能会议发表。",
+      "spoken": "我们用 TensorFlow 的 L S T M 深度学习模型，做智能异常检测。相关论文，计划在 Verizon 的内部会议，以及外部的人工智能与性能会议发表。",
+      "reason": "原文只并列internally和externally，不规定先后，也没有把外部发表改成投稿。移除旧中文及旧候选增加的先/再顺序，保留两处发表均为当时计划，不声称实际已发表；TensorFlow/LSTM及智能异常检测不变。",
+      "preserved_facts": [
+        "TensorFlow/LSTM深度学习",
+        "智能异常检测",
+        "Verizon内部及外部会议计划"
+      ],
+      "before_waveform": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/conclusion-career-adoption-v1/rebound-previews-v1/before/body-309-tensorflow-lstm-publication-plan.wav",
+        "bytes": 1043084,
+        "mtime_ns": 1794710948120992509,
+        "sha256": "00995f2c2a7aefd96c7cdb21f72b6e60b358f692396df974a9db72ef71337b88"
+      },
+      "speaker_review": {
+        "same_speaker": true,
+        "evidence": "Current complete lecturer-owned canonical source unit/voice map and contextual reading, excluding294 question/handoff,321 applause,310 training-method ambiguity and317 surname; no joining/new acoustic or human identity approval."
+      },
+      "requires_explicit_source_amendment_before_adoption": true,
+      "amended_candidate_source": "where we can use one of the deep learning tensorflow model which is LSTM for smart anomaly detection this is one of the paper are we are going to publish internally for one of the conference at Verizon and externally for artificial intelligence conference with performance",
+      "human_listened": false,
+      "pronunciation_or_emotion_approved": false
+    },
+    {
+      "key": "body-315-inviting-performance-careers",
+      "unit_id": 315,
+      "source": "are you looking for a performance engineering job yes this is all about this talk or are you interested in performance is also to this talk I",
+      "source_start": "5439.01",
+      "source_end": "5453.2",
+      "current_display": "你在找性能工程方面的工作吗？那这场报告正好围绕这个话题。或者，你只是对性能感兴趣？这场报告也同样适合你。",
+      "current_spoken": "你在找性能工程方面的工作吗？那这场报告正好围绕这个话题。或者，你只是对性能感兴趣？这场报告也同样适合你。",
+      "display": "你在找性能工程方面的工作吗？那，这场报告就是讲给你的！或者，你只是对性能感兴趣？这场报告，同样适合你。",
+      "spoken": "你在找性能工程方面的工作吗？那，这场报告就是讲给你的！或者，你只是对性能感兴趣？这场报告，同样适合你。",
+      "reason": "用原两次面向听众的反问恢复邀请感，不编造真实观众回答/新角色或招聘承诺。",
+      "preserved_facts": [
+        "求职性能工程",
+        "报告面向求职者",
+        "也面向对性能感兴趣者"
+      ],
+      "before_waveform": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/conclusion-career-adoption-v1/rebound-previews-v1/before/body-315-inviting-performance-careers.wav",
+        "bytes": 681164,
+        "mtime_ns": 1794710948120992509,
+        "sha256": "8aeb55ce7928e69820e84d0d818a9630812055ac0087850d0ec3f7e9eea7b3f2"
+      },
+      "speaker_review": {
+        "same_speaker": true,
+        "evidence": "Current complete lecturer-owned canonical source unit/voice map and contextual reading, excluding294 question/handoff,321 applause,310 training-method ambiguity and317 surname; no joining/new acoustic or human identity approval."
+      },
+      "requires_explicit_source_amendment_before_adoption": false,
+      "amended_candidate_source": "are you looking for a performance engineering job yes this is all about this talk or are you interested in performance is also to this talk I",
+      "human_listened": false,
+      "pronunciation_or_emotion_approved": false
+    },
+    {
+      "key": "body-318-research-and-teaching-affection",
+      "unit_id": 318,
+      "source": "this is going to be similar thing as my career you don't need to do the research I did research because I loved research and they still love research I love also teaching",
+      "source_start": "5493.28",
+      "source_end": "5504.95",
+      "current_display": "这和我的职业经历有些相似，但你不必做研究。我做研究，是因为热爱；现在依然热爱研究，也热爱教学。",
+      "current_spoken": "这和我的职业经历有些相似，但你不必做研究。我做研究，是因为热爱；现在依然热爱研究，也热爱教学。",
+      "display": "这和我的职业经历相似。但你不必做研究。我做研究，是因为热爱——现在依然热爱研究，也热爱教学。",
+      "spoken": "这和我的职业经历相似。但你不必做研究。我做研究，是因为热爱——现在依然热爱研究，也热爱教学。",
+      "reason": "保留无需科研、过去/现在两次热爱与教学；破折号仅表达语气意图，不冒称TTS已情感自然或实际人耳胜者。",
+      "preserved_facts": [
+        "类似讲者职业",
+        "不必做研究",
+        "因热爱研究且现在仍热爱",
+        "也爱教学"
+      ],
+      "before_waveform": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/conclusion-career-adoption-v1/rebound-previews-v1/before/body-318-research-and-teaching-affection.wav",
+        "bytes": 560204,
+        "mtime_ns": 1794710948121992505,
+        "sha256": "4c0c18fae52e9f98720207fa50c94efceaf78f65084fa30fa47b07abed367dbe"
+      },
+      "speaker_review": {
+        "same_speaker": true,
+        "evidence": "Current complete lecturer-owned canonical source unit/voice map and contextual reading, excluding294 question/handoff,321 applause,310 training-method ambiguity and317 surname; no joining/new acoustic or human identity approval."
+      },
+      "requires_explicit_source_amendment_before_adoption": false,
+      "amended_candidate_source": "this is going to be similar thing as my career you don't need to do the research I did research because I loved research and they still love research I love also teaching",
+      "human_listened": false,
+      "pronunciation_or_emotion_approved": false
+    },
+    {
+      "key": "body-319-java-hadoop-and-total-cost",
+      "unit_id": 319,
+      "source": "you need to know how to develop application and Java and Hadoop - not an expert but the general understanding of software you need to be good in cost and TCO",
+      "source_start": "5504.95",
+      "source_end": "5517.989",
+      "current_display": "你得会开发应用，对 Java 和 Hadoop 有基本了解；不要求成为专家，但要有软件基础，也要懂成本和总拥有成本。",
+      "current_spoken": "你得会开发应用，对 Java 和 Hadoop 有基本了解；不要求成为专家，但要有软件基础，也要懂成本和总拥有成本。",
+      "display": "要会开发应用，基本了解 Java、Hadoop；不必是专家，但得懂软件，也得懂成本和总拥有成本。",
+      "spoken": "要会开发应用，基本了解 Java、Hadoop；不必是专家，但得懂软件，也得懂成本和总拥有成本。",
+      "reason": "保留会开发而非只听过、Java/Hadoop基本了解而非必须专家，以及成本和TCO；不为ASR错字改品牌。",
+      "preserved_facts": [
+        "会开发应用",
+        "Java/Hadoop基本了解",
+        "不必专家但需软件基础",
+        "成本及TCO"
+      ],
+      "before_waveform": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/conclusion-career-adoption-v1/rebound-previews-v1/before/body-319-java-hadoop-and-total-cost.wav",
+        "bytes": 625916,
+        "mtime_ns": 1794710948121992505,
+        "sha256": "097e7612d6ac61c1d35953340bc0958b17a9a0f31c83744ea1d633f630df8d67"
+      },
+      "speaker_review": {
+        "same_speaker": true,
+        "evidence": "Current complete lecturer-owned canonical source unit/voice map and contextual reading, excluding294 question/handoff,321 applause,310 training-method ambiguity and317 surname; no joining/new acoustic or human identity approval."
+      },
+      "requires_explicit_source_amendment_before_adoption": false,
+      "amended_candidate_source": "you need to know how to develop application and Java and Hadoop - not an expert but the general understanding of software you need to be good in cost and TCO",
+      "human_listened": false,
+      "pronunciation_or_emotion_approved": false
+    },
+    {
+      "key": "body-320-qualified-closing-thanks",
+      "unit_id": 320,
+      "source": "or trade of things that you don't need and optimisation good in analytics but perfection is bad you don't need to be perfect thank you",
+      "source_start": "5517.989",
+      "source_end": "5529.98",
+      "current_display": "还要懂取舍，知道什么不需要、怎样优化，也要善于分析。但追求完美反而不好；你不需要事事完美。谢谢大家！",
+      "current_spoken": "还要懂取舍，知道什么不需要、怎样优化，也要善于分析。但追求完美反而不好；你不需要事事完美。谢谢大家！",
+      "display": "还要懂取舍，知道哪些不需要；会优化，善分析。但追求完美反而不好——不必事事完美。谢谢大家！",
+      "spoken": "还要懂取舍，知道哪些不需要；会优化，善分析。但追求完美反而不好——不必事事完美。谢谢大家！",
+      "reason": "保留取舍/不需要的项/优化/分析/反完美主义及完整感谢；不补原声没念的脚本技能，不覆盖321真实掌声。",
+      "preserved_facts": [
+        "取舍不需要的东西",
+        "优化",
+        "分析能力",
+        "讲者反完美主义",
+        "谢谢"
+      ],
+      "before_waveform": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/conclusion-career-adoption-v1/rebound-previews-v1/before/body-320-qualified-closing-thanks.wav",
+        "bytes": 575612,
+        "mtime_ns": 1794710948121992505,
+        "sha256": "340cce92906741f3bc554f47c7981a3ea596679c60daaf9b56f5fb66eb0c079b"
+      },
+      "speaker_review": {
+        "same_speaker": true,
+        "evidence": "Current complete lecturer-owned canonical source unit/voice map and contextual reading, excluding294 question/handoff,321 applause,310 training-method ambiguity and317 surname; no joining/new acoustic or human identity approval."
+      },
+      "requires_explicit_source_amendment_before_adoption": false,
+      "amended_candidate_source": "or trade of things that you don't need and optimisation good in analytics but perfection is bad you don't need to be perfect thank you",
+      "human_listened": false,
+      "pronunciation_or_emotion_approved": false
+    }
+  ],
+  "source_amendments": [
+    {
+      "unit_id": 290,
+      "source_start": "5031.21",
+      "source_end": "5048.55",
+      "before": "Flickr which was one of the Yahoo application tumbler - you just run tumblr or debuggable actually debuggable application here in your tablet or phone it should be enjoyed phone with Intel CPU then you plug it on your computer",
+      "after": "Flickr which was one of the Yahoo application tumbler - you just run tumblr or debuggable actually debuggable application here in your tablet or phone it should be Android phone with Intel CPU then you plug it on your computer",
+      "basis": "Explicit spelling/term correction from the unit source context and bound original slides/ASR; not human phonetic approval.317 only hardware, never the unresolved author surname.",
+      "word_conserving": false,
+      "same_unit_identity_and_window": true,
+      "human_listened": false,
+      "replacement": {
+        "from": "enjoyed phone",
+        "to": "Android phone",
+        "occurrences": 1
+      }
+    },
+    {
+      "unit_id": 291,
+      "source_start": "5048.55",
+      "source_end": "5069.34",
+      "before": "you just open the energy profiler and or power analysis and then you see a very good graph like this and different wake up the reason of the wakeup and different power sea state and then the the wake up objects",
+      "after": "you just open the energy profiler and or power analysis and then you see a very good graph like this and different wake up the reason of the wakeup and different power C-state and then the the wake up objects",
+      "basis": "Explicit spelling/term correction from the unit source context and bound original slides/ASR; not human phonetic approval.317 only hardware, never the unresolved author surname.",
+      "word_conserving": false,
+      "same_unit_identity_and_window": true,
+      "human_listened": false,
+      "replacement": {
+        "from": "power sea state",
+        "to": "power C-state",
+        "occurrences": 1
+      }
+    },
+    {
+      "unit_id": 296,
+      "source_start": "5128.389",
+      "source_end": "5148.92",
+      "before": "so when we talk about the scale of performance we are talking about how we can scale or isn't Li or vertically which means that are we able to increase the throughput vertically with more CPUs and cores and memories and memory within the server",
+      "after": "so when we talk about the scale of performance we are talking about how we can scale horizontally or vertically which means that are we able to increase the throughput vertically with more CPUs and cores and memories and memory within the server",
+      "basis": "Explicit spelling/term correction from the unit source context and bound original slides/ASR; not human phonetic approval.317 only hardware, never the unresolved author surname.",
+      "word_conserving": false,
+      "same_unit_identity_and_window": true,
+      "human_listened": false,
+      "replacement": {
+        "from": "or isn't Li",
+        "to": "horizontally",
+        "occurrences": 1
+      }
+    },
+    {
+      "unit_id": 301,
+      "source_start": "5206.059",
+      "source_end": "5220.82",
+      "before": "between private public and hybrid here is also it's going to be a trade-off why we did we do hybrid for example for a seasonal capacity chance or a seasonal application like Yahoo fantasy sports",
+      "after": "between private public and hybrid here is also it's going to be a trade-off why we did we do hybrid for example for a seasonal capacity changes or a seasonal application like Yahoo fantasy sports",
+      "basis": "Explicit spelling/term correction from the unit source context and bound original slides/ASR; not human phonetic approval.317 only hardware, never the unresolved author surname.",
+      "word_conserving": false,
+      "same_unit_identity_and_window": true,
+      "human_listened": false,
+      "replacement": {
+        "from": "capacity chance",
+        "to": "capacity changes",
+        "occurrences": 1
+      }
+    },
+    {
+      "unit_id": 306,
+      "source_start": "5284.76",
+      "source_end": "5297.35",
+      "before": "and then performance actually that is vital for containers where you either take Vito as a container itself or install a V tone in one of the containers to provide your application or container",
+      "after": "and then performance actually that is vital for containers where you either take VTune as a container itself or install a VTune in one of the containers to provide your application or container",
+      "basis": "Explicit spelling/term correction from the unit source context and bound original slides/ASR; not human phonetic approval.317 only hardware, never the unresolved author surname.",
+      "word_conserving": false,
+      "same_unit_identity_and_window": true,
+      "human_listened": false,
+      "replacement": {
+        "from": "Vito as a container itself or install a V tone",
+        "to": "VTune as a container itself or install a VTune",
+        "occurrences": 1
+      }
+    },
+    {
+      "unit_id": 309,
+      "source_start": "5330.44",
+      "source_end": "5352.17",
+      "before": "where we can use one of the deep learning tensorflow model which is LS TM for smart anomaly detection this is one of the paper are we are going to publish internally for one of the conference at Verizon and externally for artificial intelligence conference with performance",
+      "after": "where we can use one of the deep learning tensorflow model which is LSTM for smart anomaly detection this is one of the paper are we are going to publish internally for one of the conference at Verizon and externally for artificial intelligence conference with performance",
+      "basis": "Explicit spelling/term correction from the unit source context and bound original slides/ASR; not human phonetic approval.317 only hardware, never the unresolved author surname.",
+      "word_conserving": false,
+      "same_unit_identity_and_window": true,
+      "human_listened": false,
+      "replacement": {
+        "from": "LS TM",
+        "to": "LSTM",
+        "occurrences": 1
+      }
+    }
+  ],
+  "semantic_revision": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/conclusion-career-adoption-v1/publication-order-editorial-hold-v2.json",
+    "bytes": 5984,
+    "mtime_ns": 1794711580351015936,
+    "sha256": "8bdfb724af8dec3417877be1f7e82ad0e3aa154d596b16cef562cf78256ec576"
+  },
+  "new_TTS": 1,
+  "preserved_syntheses": 11,
+  "new_ASR": 0,
+  "registration": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/checkpoint-conclusion-career-stage-v1/metadata-registration.json",
+    "bytes": 41271,
+    "mtime_ns": 1794711946315012457,
+    "sha256": "88a87137a62945713738689c6f545bef6a0dc4c9697b4937dc7b012fb355a2ad"
+  },
+  "runtime_document": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/conclusion-career-adoption-v1/RUNTIME.md",
+    "bytes": 3018,
+    "mtime_ns": 1794711882709337138,
+    "sha256": "b072e997e18d7a4d00b44e41b9158b9d82744d497c139ca868d8d5d03604367c"
+  }
+}

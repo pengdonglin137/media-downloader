@@ -1,5 +1,13 @@
 # AI 执行工作流：自包含中文译配视频
 
+## 2026-11-15：第二批结尾/职业候选的续作入口
+
+- 先核对现有会话终态；原12试读因上一批不相交采用而失去当前绑定，用preview_rebinding检查精确事务归档及当前媒体，再刷新完整before窗，不重做12项合成。原始六个旧身份守卫均实际执行，无全局state钩子。
+- 当前Agent另发现309的先/再顺序无来源，明确存旧稿与语义更正，只合成309一次；组合时其余11项MP3/词界/WAV字节mtime保持，原生完整检查仍通过。不把历史重绑定冒充新稿生成。
+- 正式候选链complete-previews-v2→parent-stage-v2→source-stage-v2→projection-v3→quality-v3；六来源单元七组件，33段字幕。projection-v2归档路径拒绝1保留，新v3绑定本次源暂存归档；不重复成功媒体/语音。
+- 质量检查外层source_component_projection.runtime，内层source_caption_projection.runtime，再调用原生editorial_quality；详见请求conclusion-career-adoption-v1/RUNTIME.md。已成功一次性收据不为刷0重跑，裸旧CLI不支持新kind。
+- checkpoint-conclusion-career-stage-v1登记37实物绑定/33实际持久步骤（其中1真实非零）及独立验证；正式31目标/107扫描不动。下一步另做候选编码/完整解码/实际上传图审/有限VLC与事务安装，所有人工门禁保持。
+
 ## 2026-11-15：组件投影后的完整候选正式采用入口
 
 - 来源校正先保留原始复数组件，再显式规范单一跨度供旧source_revision暂存；缺evidence/JSON3的真实失败和跨英文块原生拒绝都保留，不删难项或放宽旧检查。
