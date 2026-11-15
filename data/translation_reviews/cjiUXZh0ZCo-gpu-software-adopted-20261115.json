@@ -1,0 +1,825 @@
+{
+  "kind": "GPU-software-complete-utterance-formally-adopted-v1",
+  "video_id": "cjiUXZh0ZCo",
+  "recorded_at": "2026-11-15T00:32:31+00:00",
+  "scope": "one-request-no-playlist-publication-or-extra-delivery-attachments",
+  "source_reviewed_range": [
+    186,
+    215
+  ],
+  "source_reviewed_units": 30,
+  "actual_complete_selected_units": [
+    188,
+    190,
+    191,
+    197,
+    201,
+    202,
+    203,
+    204,
+    206,
+    208,
+    209
+  ],
+  "reused_previews": 11,
+  "successful_upstream_previews_preserved": 12,
+  "selected209": "B-conversational-editorial-not-human-heard-winner",
+  "source_changed_units": [
+    188,
+    204
+  ],
+  "full_English_changed_cues": [
+    611,
+    657
+  ],
+  "full_English_cues": 1028,
+  "Chinese_bilingual_phrases": 43,
+  "selected_WordBoundary_observations": 348,
+  "source_windows": 321,
+  "other310_display_and_spoken_units_unchanged": true,
+  "source_regions_unchanged": 23,
+  "reserved_units_unchanged": 39,
+  "unit203_metadata_erratum": "15号/十五号 is the actual historical wording; 第十五场 was incorrect review prose",
+  "unit205_recursive_recurrence_ambiguity_resolved": false,
+  "source_provenance_supplement": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-adoption-v1/source-amendment-proposal-v2.json",
+    "bytes": 18100,
+    "mtime_ns": 1794700393514211350,
+    "sha256": "b57d04b292365345923fb0216fe949d3ff209d96e406d32e37232fc4c7721090"
+  },
+  "preview_import": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-adoption-v1/preview-import-v1/manifest.json",
+    "bytes": 28803,
+    "mtime_ns": 1794700479863194550,
+    "sha256": "5b910c3b09156cd8fbad479b10fe2424da36d6dea99239dc54e7160869bbf153"
+  },
+  "finite_import_positive": 2,
+  "finite_import_negative": 22,
+  "production_gain_only_levels": [
+    {
+      "unit_id": 188,
+      "complete_samples": 254016,
+      "declared_TARGET_DB": -20.0,
+      "gain": 1.1962625305622763,
+      "gain_db": 1.556529998779296,
+      "PCM_sha256": "d61490fe144477bbb23699991161c883ab576fd0b63d099928d5d84f3e3736ed",
+      "gain_only_without_trimming_or_atempo": true,
+      "raw_preview_PCM_equality_claimed": false
+    },
+    {
+      "unit_id": 190,
+      "complete_samples": 297216,
+      "declared_TARGET_DB": -20.0,
+      "gain": 1.188720300523313,
+      "gain_db": 1.501593589782715,
+      "PCM_sha256": "c82ac2873f03f9ee92e767511b6e7f9b27a6dfb493e0dddd0939f485a268e264",
+      "gain_only_without_trimming_or_atempo": true,
+      "raw_preview_PCM_equality_claimed": false
+    },
+    {
+      "unit_id": 191,
+      "complete_samples": 148032,
+      "declared_TARGET_DB": -20.0,
+      "gain": 1.2459653154873014,
+      "gain_db": 1.91011905670166,
+      "PCM_sha256": "f0be2f45f70cac82680eb9feff47f2202ed9ce3bb188d88dc4c25de108b29f5e",
+      "gain_only_without_trimming_or_atempo": true,
+      "raw_preview_PCM_equality_claimed": false
+    },
+    {
+      "unit_id": 197,
+      "complete_samples": 300672,
+      "declared_TARGET_DB": -20.0,
+      "gain": 1.1568340036983238,
+      "gain_db": 1.2654209136962886,
+      "PCM_sha256": "fe68144b62d992f465f8909f3183b9a335ee20bd8423bb1b0ca1b1122342b873",
+      "gain_only_without_trimming_or_atempo": true,
+      "raw_preview_PCM_equality_claimed": false
+    },
+    {
+      "unit_id": 201,
+      "complete_samples": 338688,
+      "declared_TARGET_DB": -20.0,
+      "gain": 1.2753546571724488,
+      "gain_db": 2.1126194481030747,
+      "PCM_sha256": "6778fe6b5972829623e6940e23b8be70eda1979ded228a5189e40f82c4d49bd9",
+      "gain_only_without_trimming_or_atempo": true,
+      "raw_preview_PCM_equality_claimed": false
+    },
+    {
+      "unit_id": 202,
+      "complete_samples": 274752,
+      "declared_TARGET_DB": -20.0,
+      "gain": 1.1264855521042578,
+      "gain_db": 1.0345125198364262,
+      "PCM_sha256": "322b946a0366cf12103380beeda9758bc956dcd906468638550daa02e0fbabc1",
+      "gain_only_without_trimming_or_atempo": true,
+      "raw_preview_PCM_equality_claimed": false
+    },
+    {
+      "unit_id": 203,
+      "complete_samples": 383616,
+      "declared_TARGET_DB": -20.0,
+      "gain": 1.3178056061881864,
+      "gain_db": 2.3970270156860356,
+      "PCM_sha256": "edcfe4a750be46296e7abab6840c3b402da717d7fbacc535b490fa70b4903874",
+      "gain_only_without_trimming_or_atempo": true,
+      "raw_preview_PCM_equality_claimed": false
+    },
+    {
+      "unit_id": 204,
+      "complete_samples": 311616,
+      "declared_TARGET_DB": -20.0,
+      "gain": 1.2098601738171628,
+      "gain_db": 1.6547036170959473,
+      "PCM_sha256": "a9cf2db0acfd860885e3bb801cace9909ccd266eab7b059e0629f0a342fda63e",
+      "gain_only_without_trimming_or_atempo": true,
+      "raw_preview_PCM_equality_claimed": false
+    },
+    {
+      "unit_id": 206,
+      "complete_samples": 338112,
+      "declared_TARGET_DB": -20.0,
+      "gain": 1.1769224639688083,
+      "gain_db": 1.4149570465087882,
+      "PCM_sha256": "ce65c7839e634b791cbe9380e0da1c9c5d0ea6b4b883cd43632d354dce9fc3b2",
+      "gain_only_without_trimming_or_atempo": true,
+      "raw_preview_PCM_equality_claimed": false
+    },
+    {
+      "unit_id": 208,
+      "complete_samples": 380736,
+      "declared_TARGET_DB": -20.0,
+      "gain": 1.3085463264014359,
+      "gain_db": 2.3357820510864253,
+      "PCM_sha256": "a73730888bdeb92f5ae7d212fb1c7fdef49c6e9122afcff2fe8af1fe40c4e067",
+      "gain_only_without_trimming_or_atempo": true,
+      "raw_preview_PCM_equality_claimed": false
+    },
+    {
+      "unit_id": 209,
+      "complete_samples": 294912,
+      "declared_TARGET_DB": -20.0,
+      "gain": 1.2624790616679291,
+      "gain_db": 2.0244836807250977,
+      "PCM_sha256": "a9b3c5a9f3eedc9d70d3a22cd5e253850a4aad7cfca312b9d4176a7ca4d5cc4d",
+      "gain_only_without_trimming_or_atempo": true,
+      "raw_preview_PCM_equality_claimed": false
+    }
+  ],
+  "raw_preview_PCM_equality_claimed": false,
+  "no_trim_atempo_or_borrowed_window": true,
+  "pre_install_PCM_inside_gain_processed_and_outside_old_proof": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-adoption-v1/independent-preinstall-v3.json",
+    "bytes": 8133,
+    "mtime_ns": 1794701172615099101,
+    "sha256": "2690b7d977ccdbdf538dc2c6c99ab7de6450c704bd2a0b719943ee3c8ffe4769"
+  },
+  "media_verification": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-adoption-v1/media-v1/verification.json",
+    "bytes": 31351,
+    "mtime_ns": 1794702084651523045,
+    "sha256": "630f2dfef2d198e95f23b09d2bef8930fa5bab25826aa5d39a696d5f5321c651"
+  },
+  "post_install_verification": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-adoption-v1/post-install-independent-v1.json",
+    "bytes": 11498,
+    "mtime_ns": 1794702663115623031,
+    "sha256": "251e77986e688797f7da3f65f8532ee261aafc52c2e3caef235abbcec2116a75"
+  },
+  "formal_adoption": true,
+  "technical_verification_only": true,
+  "master": {
+    "path": "/home/pengdl/Videos/translated_backlog/Science of Performance 2019_中文配音.mp4",
+    "bytes": 566062749,
+    "mtime_ns": 1794701034289519215,
+    "sha256": "112a1daad7e84a4fac71779bca823bcdca344e7c6776735ea6f07336635c7b06"
+  },
+  "upload": {
+    "path": "/home/pengdl/Videos/translated_backlog/Science of Performance 2019_中文上传版.mp4",
+    "bytes": 452371594,
+    "mtime_ns": 1794701681663916205,
+    "sha256": "55d1eba0c849e032b10101c3d1090da3ed06b60f4f1583da1c7fa7b0b5e0fa43"
+  },
+  "intro_offset_seconds": 40.2,
+  "chapters": 85,
+  "duration_seconds": 5572.982,
+  "master_audio_tracks": 2,
+  "master_subtitle_tracks": 3,
+  "upload_Chinese_audio_tracks": 1,
+  "video_schedule": {
+    "frames": 167187,
+    "exact_rational_schedule_sha256": "47890483577967461d76130bd771a443dbbf340e0146ba10a2b139df535d2f19",
+    "first": [
+      "0",
+      "1/30"
+    ],
+    "last": [
+      "83593/15",
+      "1/30"
+    ],
+    "dimensions": [
+      1920,
+      1080
+    ]
+  },
+  "Chinese_AAC": {
+    "1": {
+      "packets": 130618,
+      "ordered_packet_signature": "2cc7f459dbdef9c6bd0114d5bc7a465eb24180cbb19db0fb934d23d3f9197430"
+    }
+  },
+  "master_upload_chinese_PCM_equal": true,
+  "fixed_offset_audio_regions": 34,
+  "actual_media_operations": 9,
+  "transaction_targets": 31,
+  "actual_replace_intents": 25,
+  "old31_targets_exactly_archived": true,
+  "formal_media_exact_candidate_bytes_and_mtime": true,
+  "preserved_counts": {
+    "records": 3638,
+    "frozen_root_python": 98,
+    "production_mp3": 293,
+    "unrelated_untracked": 13
+  },
+  "database_before": {
+    "decisions": 0,
+    "issues": 7505,
+    "occurrences": 13296,
+    "projects": 60,
+    "repair_resolutions": 0,
+    "scans": 103,
+    "terms": 41
+  },
+  "database_after": {
+    "decisions": 0,
+    "issues": 7691,
+    "occurrences": 13619,
+    "projects": 60,
+    "repair_resolutions": 0,
+    "scans": 104,
+    "terms": 41
+  },
+  "all_old_database_rows_preserved": true,
+  "current_unreviewed_candidates": 186,
+  "source_only_non_dismiss_classifications": 12,
+  "new_decisions_or_resolutions": 0,
+  "new_TTS_or_ASR": false,
+  "new_candidate_encoding_and_full_AV_decode": true,
+  "install_reencoding": false,
+  "actual_upload_images_opened": 23,
+  "actual_upload_image_max_bytes": 30478,
+  "actual_image_observations": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-adoption-v1/actual-image-observations-v1.json",
+    "bytes": 14727,
+    "mtime_ns": 1794702429002467222,
+    "sha256": "36b32dbf24b019514d8ec0553d82ed814ea989faf1e885b91a13eb9d2a3b73e4"
+  },
+  "caption_overlay_risk_not_resolved": [
+    "unit-204-phrase-3",
+    "unit-206-phrase-1"
+  ],
+  "finite_candidate_VLC_passed": true,
+  "candidate_VLC_diagnostic_lines": 72,
+  "candidate_VLC_no_frame_lines": 16,
+  "VLC_diagnostics_resolved": false,
+  "formal_VLC_rerun_claimed": false,
+  "actual_successful_steps": {
+    "complete-authority-v1": {
+      "exit_code": 0,
+      "exit": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-adoption-v1/complete-authority-v1.exit",
+        "bytes": 2,
+        "mtime_ns": 1794700626079860848,
+        "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+      },
+      "log": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-adoption-v1/complete-authority-v1.log",
+        "bytes": 175,
+        "mtime_ns": 1794700626075860803,
+        "sha256": "8fc3159d32b6cb05717e15695c8ae657cf6bd14aed3bf3d63ae7e15f1e6c2475"
+      }
+    },
+    "current-quality-v2": {
+      "exit_code": 0,
+      "exit": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-adoption-v1/current-quality-v2.exit",
+        "bytes": 2,
+        "mtime_ns": 1794700481856217251,
+        "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+      },
+      "log": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-adoption-v1/current-quality-v2.log",
+        "bytes": 297,
+        "mtime_ns": 1794700481831216967,
+        "sha256": "6f83483b39b85bb0f2b523e1ccfb46cbdf6e3b1832c76805a887726b51323578"
+      }
+    },
+    "finite-import-checks-v1": {
+      "exit_code": 0,
+      "exit": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-adoption-v1/finite-import-checks-v1.exit",
+        "bytes": 2,
+        "mtime_ns": 1794700711233831941,
+        "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+      },
+      "log": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-adoption-v1/finite-import-checks-v1.log",
+        "bytes": 62,
+        "mtime_ns": 1794700711224831839,
+        "sha256": "50074e440d45721ce1c3dbfb8c0a146465909c9c8bc9680639744451b90e1add"
+      }
+    },
+    "independent-preinstall-v3": {
+      "exit_code": 0,
+      "exit": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-adoption-v1/independent-preinstall-v3.exit",
+        "bytes": 2,
+        "mtime_ns": 1794701172662099638,
+        "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+      },
+      "log": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-adoption-v1/independent-preinstall-v3.log",
+        "bytes": 7045,
+        "mtime_ns": 1794701172615099101,
+        "sha256": "e8ea77c53391bdfb409b41a975350680c5f7b14eb2b72f0aaf550a5bc843a8b0"
+      }
+    },
+    "install-apply-v1": {
+      "exit_code": 0,
+      "exit": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-adoption-v1/install-apply-v1.exit",
+        "bytes": 2,
+        "mtime_ns": 1794702596501737685,
+        "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+      },
+      "log": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-adoption-v1/install-apply-v1.log",
+        "bytes": 4501,
+        "mtime_ns": 1794702596475737748,
+        "sha256": "9dbc0d3b4a1da38e3a68cec848980a8da2ed8fda126ff13170f3ffb67ae6787a"
+      }
+    },
+    "install-check-v1": {
+      "exit_code": 0,
+      "exit": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-adoption-v1/install-check-v1.exit",
+        "bytes": 2,
+        "mtime_ns": 1794702633061663981,
+        "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+      },
+      "log": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-adoption-v1/install-check-v1.log",
+        "bytes": 4211,
+        "mtime_ns": 1794702633037664020,
+        "sha256": "20a7f21da6361cfbe7052e2a3cd626ca8b60766cda2fee8f16408538fef12e4e"
+      }
+    },
+    "install-prepare-v1": {
+      "exit_code": 0,
+      "exit": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-adoption-v1/install-prepare-v1.exit",
+        "bytes": 2,
+        "mtime_ns": 1794702528923949293,
+        "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+      },
+      "log": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-adoption-v1/install-prepare-v1.log",
+        "bytes": 3035,
+        "mtime_ns": 1794702528894949406,
+        "sha256": "91d3837589e9686093691e1df64cb35dedad642c9bf94334f613cc80eebfe418"
+      }
+    },
+    "media-production-v1": {
+      "exit_code": 0,
+      "exit": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-adoption-v1/media-production-v1.exit",
+        "bytes": 2,
+        "mtime_ns": 1794702096967663852,
+        "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+      },
+      "log": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-adoption-v1/media-production-v1.log",
+        "bytes": 1527,
+        "mtime_ns": 1794702096942663566,
+        "sha256": "fe353107682b67500c789aed3239446bed76136bc47dbfa3a53bbdf6fc093f09"
+      }
+    },
+    "parent-stage-check-v2": {
+      "exit_code": 0,
+      "exit": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-adoption-v1/parent-stage-check-v2.exit",
+        "bytes": 2,
+        "mtime_ns": 1794700662164272300,
+        "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+      },
+      "log": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-adoption-v1/parent-stage-check-v2.log",
+        "bytes": 1151,
+        "mtime_ns": 1794700662143272061,
+        "sha256": "7a38ccc0ad07d8dab3a31d07ea060751108c13788df8e8e7e64217fb987ad332"
+      }
+    },
+    "parent-stage-prepare-v2": {
+      "exit_code": 0,
+      "exit": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-adoption-v1/parent-stage-prepare-v2.exit",
+        "bytes": 2,
+        "mtime_ns": 1794700658363228955,
+        "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+      },
+      "log": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-adoption-v1/parent-stage-prepare-v2.log",
+        "bytes": 1151,
+        "mtime_ns": 1794700658343228727,
+        "sha256": "7a38ccc0ad07d8dab3a31d07ea060751108c13788df8e8e7e64217fb987ad332"
+      }
+    },
+    "post-install-independent-v1": {
+      "exit_code": 0,
+      "exit": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-adoption-v1/post-install-independent-v1.exit",
+        "bytes": 2,
+        "mtime_ns": 1794702663130623015,
+        "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+      },
+      "log": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-adoption-v1/post-install-independent-v1.log",
+        "bytes": 3246,
+        "mtime_ns": 1794702663116623030,
+        "sha256": "63c36830394d86e402cba2e37dc800187ccbf45cb07ee4bb4718be2539ac7633"
+      }
+    },
+    "pre-install-candidate-v1": {
+      "exit_code": 0,
+      "exit": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-adoption-v1/pre-install-candidate-v1.exit",
+        "bytes": 2,
+        "mtime_ns": 1794702470235221357,
+        "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+      },
+      "log": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-adoption-v1/pre-install-candidate-v1.log",
+        "bytes": 94,
+        "mtime_ns": 1794702470231221379,
+        "sha256": "63448338d0150c99652b6472f982619291df4b6ed2c2c6c7d5cb5e5567ad50cc"
+      }
+    },
+    "prepare-actual-images-v1": {
+      "exit_code": 0,
+      "exit": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-adoption-v1/prepare-actual-images-v1.exit",
+        "bytes": 2,
+        "mtime_ns": 1794702151716289785,
+        "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+      },
+      "log": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-adoption-v1/prepare-actual-images-v1.log",
+        "bytes": 65,
+        "mtime_ns": 1794702151694289534,
+        "sha256": "678dc86e805e4046dbe223eb64f7bf6d631587d162780be7ad1dc8a23dddcb40"
+      }
+    },
+    "prepare-history-authority-v1": {
+      "exit_code": 0,
+      "exit": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-adoption-v1/prepare-history-authority-v1.exit",
+        "bytes": 2,
+        "mtime_ns": 1794701484069657805,
+        "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+      },
+      "log": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-adoption-v1/prepare-history-authority-v1.log",
+        "bytes": 196,
+        "mtime_ns": 1794701484030657359,
+        "sha256": "46cab17c5ab0c250b25f132a089bb43d4ba30bbabda59c337c33b41fab6a6e15"
+      }
+    },
+    "prepare-inputs-v1": {
+      "exit_code": 0,
+      "exit": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-adoption-v1/prepare-inputs-v1.exit",
+        "bytes": 2,
+        "mtime_ns": 1794700393523211452,
+        "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+      },
+      "log": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-adoption-v1/prepare-inputs-v1.log",
+        "bytes": 140,
+        "mtime_ns": 1794700393515211361,
+        "sha256": "a5d9b3bc0dc1b6ea523036b164d6d10ac30446998a3a99858cdb2f41e8f9c1ad"
+      }
+    },
+    "prepare-install-config-v1": {
+      "exit_code": 0,
+      "exit": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-adoption-v1/prepare-install-config-v1.exit",
+        "bytes": 2,
+        "mtime_ns": 1794702470423220345,
+        "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+      },
+      "log": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-adoption-v1/prepare-install-config-v1.log",
+        "bytes": 577,
+        "mtime_ns": 1794702470398220479,
+        "sha256": "eb85eaa6184b838f226be70f81b7d402b0a1b60e01640e2a0b4d3b9a7444d2d9"
+      }
+    },
+    "prepare-media-config-v1": {
+      "exit_code": 0,
+      "exit": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-adoption-v1/prepare-media-config-v1.exit",
+        "bytes": 2,
+        "mtime_ns": 1794700987964990237,
+        "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+      },
+      "log": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-adoption-v1/prepare-media-config-v1.log",
+        "bytes": 217,
+        "mtime_ns": 1794700987945990020,
+        "sha256": "52a5ed367c2f1ae6a65ac788057f141354f38076f3f44092eb5e25278ccdf636"
+      }
+    },
+    "prepare-projection-v1": {
+      "exit_code": 0,
+      "exit": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-adoption-v1/prepare-projection-v1.exit",
+        "bytes": 2,
+        "mtime_ns": 1794700823255110028,
+        "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+      },
+      "log": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-adoption-v1/prepare-projection-v1.log",
+        "bytes": 99,
+        "mtime_ns": 1794700823236109811,
+        "sha256": "8a7b14d0baacec83fff7996b2f6fe08b8d27b5ece7de25af96158c436b49e6b3"
+      }
+    },
+    "prepare-quality-config-v1": {
+      "exit_code": 0,
+      "exit": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-adoption-v1/prepare-quality-config-v1.exit",
+        "bytes": 2,
+        "mtime_ns": 1794700882876790506,
+        "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+      },
+      "log": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-adoption-v1/prepare-quality-config-v1.log",
+        "bytes": 221,
+        "mtime_ns": 1794700882857790289,
+        "sha256": "ca770f3eaafca7b905218ad784e5b6c5833dbaf2af6c5638576396eb195329a5"
+      }
+    },
+    "preview-import-check-v1": {
+      "exit_code": 0,
+      "exit": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-adoption-v1/preview-import-check-v1.exit",
+        "bytes": 2,
+        "mtime_ns": 1794700483396234793,
+        "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+      },
+      "log": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-adoption-v1/preview-import-check-v1.log",
+        "bytes": 1394,
+        "mtime_ns": 1794700483388234702,
+        "sha256": "e31297a80ec46da10839377cc6fb3a9815c9147ca2cc7702ee566d04f26c92ae"
+      }
+    },
+    "preview-import-v1": {
+      "exit_code": 0,
+      "exit": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-adoption-v1/preview-import-v1.exit",
+        "bytes": 2,
+        "mtime_ns": 1794700481377211795,
+        "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+      },
+      "log": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-adoption-v1/preview-import-v1.log",
+        "bytes": 1394,
+        "mtime_ns": 1794700481368211693,
+        "sha256": "e31297a80ec46da10839377cc6fb3a9815c9147ca2cc7702ee566d04f26c92ae"
+      }
+    },
+    "projection-check-v1": {
+      "exit_code": 0,
+      "exit": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-adoption-v1/projection-check-v1.exit",
+        "bytes": 2,
+        "mtime_ns": 1794700833152222976,
+        "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+      },
+      "log": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-adoption-v1/projection-check-v1.log",
+        "bytes": 795,
+        "mtime_ns": 1794700833132222748,
+        "sha256": "7c89bd2a70711610a55f55dbb29830eea53d80306ce2c2d80ca85fc77de35810"
+      }
+    },
+    "projection-prepare-v1": {
+      "exit_code": 0,
+      "exit": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-adoption-v1/projection-prepare-v1.exit",
+        "bytes": 2,
+        "mtime_ns": 1794700829278178764,
+        "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+      },
+      "log": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-adoption-v1/projection-prepare-v1.log",
+        "bytes": 795,
+        "mtime_ns": 1794700829258178536,
+        "sha256": "7c89bd2a70711610a55f55dbb29830eea53d80306ce2c2d80ca85fc77de35810"
+      }
+    },
+    "quality-check-v1": {
+      "exit_code": 0,
+      "exit": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-adoption-v1/quality-check-v1.exit",
+        "bytes": 2,
+        "mtime_ns": 1794700901429002277,
+        "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+      },
+      "log": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-adoption-v1/quality-check-v1.log",
+        "bytes": 1412,
+        "mtime_ns": 1794700901408002037,
+        "sha256": "0bf541816d583d89f1a5ffb3d13b915fc450ba10a0b2ae14895049e767e7132f"
+      }
+    },
+    "quality-prepare-v1": {
+      "exit_code": 0,
+      "exit": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-adoption-v1/quality-prepare-v1.exit",
+        "bytes": 2,
+        "mtime_ns": 1794700895061929596,
+        "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+      },
+      "log": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-adoption-v1/quality-prepare-v1.log",
+        "bytes": 1702,
+        "mtime_ns": 1794700895033929276,
+        "sha256": "b63cf7f8cdb2e54eb6650f4ee883136db75dcb57d47a7dc0a0f2bea8941480b9"
+      }
+    },
+    "record-actual-observations-v1": {
+      "exit_code": 0,
+      "exit": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-adoption-v1/record-actual-observations-v1.exit",
+        "bytes": 2,
+        "mtime_ns": 1794702429009467176,
+        "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+      },
+      "log": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-adoption-v1/record-actual-observations-v1.log",
+        "bytes": 100,
+        "mtime_ns": 1794702429003467215,
+        "sha256": "ef4809e59aeeb768b9ba62638728c177897da8fb94c74a4080b76e176b01bff3"
+      }
+    },
+    "run-stages-v2": {
+      "exit_code": 0,
+      "exit": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-adoption-v1/run-stages-v2.exit",
+        "bytes": 2,
+        "mtime_ns": 1794700672672392134,
+        "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+      },
+      "log": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-adoption-v1/run-stages-v2.log",
+        "bytes": 357,
+        "mtime_ns": 1794700672649391872,
+        "sha256": "c7ffff7be8ae7d21cb37331fe446123e7c44ac83f0d7cc3edfee322c443123ca"
+      }
+    },
+    "source-stage-check-v1": {
+      "exit_code": 0,
+      "exit": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-adoption-v1/source-stage-check-v1.exit",
+        "bytes": 2,
+        "mtime_ns": 1794700672649391872,
+        "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+      },
+      "log": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-adoption-v1/source-stage-check-v1.log",
+        "bytes": 833,
+        "mtime_ns": 1794700672626391610,
+        "sha256": "7834fa0f0057c899f9e0904d0034d1f75ea56540146fe765327315c561d21ff2"
+      }
+    },
+    "source-stage-prepare-v1": {
+      "exit_code": 0,
+      "exit": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-adoption-v1/source-stage-prepare-v1.exit",
+        "bytes": 2,
+        "mtime_ns": 1794700668762347543,
+        "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+      },
+      "log": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-adoption-v1/source-stage-prepare-v1.log",
+        "bytes": 833,
+        "mtime_ns": 1794700668742347315,
+        "sha256": "7834fa0f0057c899f9e0904d0034d1f75ea56540146fe765327315c561d21ff2"
+      }
+    },
+    "vlc-candidate-v1": {
+      "exit_code": 0,
+      "exit": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-adoption-v1/vlc-candidate-v1.exit",
+        "bytes": 2,
+        "mtime_ns": 1794702127861017050,
+        "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+      },
+      "log": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-adoption-v1/vlc-candidate-v1.log",
+        "bytes": 3765,
+        "mtime_ns": 1794702127840016810,
+        "sha256": "0b27ab5974aabcd0843e58d42ad7c2ad4b4e4f57052e621449212647544fea6d"
+      }
+    }
+  },
+  "real_failures_preserved": {
+    "current-quality-v1": {
+      "exit_code": 1,
+      "exit": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-adoption-v1/current-quality-v1.exit",
+        "bytes": 2,
+        "mtime_ns": 1794700422835545133,
+        "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865"
+      },
+      "log": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-adoption-v1/current-quality-v1.log",
+        "bytes": 797,
+        "mtime_ns": 1794700422809544837,
+        "sha256": "a6ead3008bd6feed924340d482fb9b5812b4e5e3d26d7eaf57c3700a761dbf11"
+      }
+    },
+    "independent-preinstall-v1": {
+      "exit_code": 1,
+      "exit": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-adoption-v1/independent-preinstall-v1.exit",
+        "bytes": 2,
+        "mtime_ns": 1794701044520636052,
+        "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865"
+      },
+      "log": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-adoption-v1/independent-preinstall-v1.log",
+        "bytes": 314,
+        "mtime_ns": 1794701044510635938,
+        "sha256": "811de23f4860e250e97e2d632d196da3b949ec6f46c04372ac7deb3419e1649b"
+      }
+    },
+    "independent-preinstall-v2": {
+      "exit_code": 1,
+      "exit": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-adoption-v1/independent-preinstall-v2.exit",
+        "bytes": 2,
+        "mtime_ns": 1794701077430011890,
+        "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865"
+      },
+      "log": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-adoption-v1/independent-preinstall-v2.log",
+        "bytes": 282,
+        "mtime_ns": 1794701077420011776,
+        "sha256": "36770ea0a38a131186bc0b5931134661448425350cc323619e1aa6f12641df8a"
+      }
+    },
+    "parent-stage-prepare-v1": {
+      "exit_code": 1,
+      "exit": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-adoption-v1/parent-stage-prepare-v1.exit",
+        "bytes": 2,
+        "mtime_ns": 1794700559909106562,
+        "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865"
+      },
+      "log": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-adoption-v1/parent-stage-prepare-v1.log",
+        "bytes": 864,
+        "mtime_ns": 1794700559890106346,
+        "sha256": "2c9076136d22c9905344c43e450b659d28f5b3e7ef8a423ada911f9446544601"
+      }
+    },
+    "run-stages-v1": {
+      "exit_code": 1,
+      "exit": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-adoption-v1/run-stages-v1.exit",
+        "bytes": 2,
+        "mtime_ns": 1794700559930106802,
+        "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865"
+      },
+      "log": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-adoption-v1/run-stages-v1.log",
+        "bytes": 718,
+        "mtime_ns": 1794700559909106562,
+        "sha256": "df1208170f440c9849e1abd1220fb5a466ab1181002d3ca819e8aee0509de489"
+      }
+    }
+  },
+  "human_listened": false,
+  "pronunciation_or_emotion_approved": false,
+  "full_film_visual_wordlevel_or_PotPlayer_approved": false,
+  "Linux27holds23markersCriticalF08_unchanged": true,
+  "other_queues_or_global_counts_modified": false,
+  "automatic_background_continuation_claimed": false,
+  "goal_turn_classification": "progress",
+  "goal_status": "active",
+  "checkpoint": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/checkpoint-gpu-software-installed-v1/execution-progress.json"
+}

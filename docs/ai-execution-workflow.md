@@ -1,5 +1,13 @@
 # AI 执行工作流：自包含中文译配视频
 
+## 2026-11-15：GPU/软件11句已安装，按历史合同续做
+
+- `preview_evidence_import import/check`仅用于成功完整试读缺少后续显式证据引用：派生计划只追加引用、WAV精确复制、原adapter与实际导入器分开；不改旧提案/音频/实现，不重做TTS。普通speech_variants检查不替代新增来源检查；正式输入改变后旧live检查应拒绝，使用历史暂存与事务归档回溯。
+- 本批先复用12候选中的11条，源188/204真实暂存、43短句和完整英文611/657投影、隔离质量、媒体生产、23实际图审与有限VLC、精确旧计划归档，再走`source_corrected_install prepare/apply/check`。三安装操作及安装后独立核验真实0，成功后仅check，不再次prepare/apply或编码。
+- 断点`request-cjiUXZh0ZCo-20261114/checkpoint-gpu-software-installed-v1/execution-progress.json`绑定独立登记/核验/收据；运行根`gpu-software-adoption-v1`保留9媒体操作、31旧档/25替换及真实非零出口。正式104扫描/7691问题/13619出现，186候选/12非dismiss分类/0决定，不为变绿清旧行。
+- 暂存PCM经过既有增益和量化，不等于原试读；独立重放完整样本与窗外旧PCM通过，不外推AAC窗外逐样本相同。209B不是听辨胜者，203为历史15号不是第十五场，205仍不猜递推/递归。23实图仅局部，204/206横轴遮叠、小字及VLC72诊断/16条no frame未解决。
+- 下一从216起续审，复用成功媒体/TTS/ASR；321窗/23原声区/39预留及导读/章节保持。人耳、专业词、情感、全片视觉/逐词/PotPlayer和Linux27hold/23标记/F08继续独立处理，目标active；不改共享队列/总数，不声称后台自动续做。
+
 ## 2026-11-15：GPU/软件试读断点，禁止全12条直接暂存
 
 - 当前入口`request-cjiUXZh0ZCo-20261114/checkpoint-gpu-software-preview-v1`；运行根`gpu-software-v1`。12试读/11原窗已成功，先check及核对独立收据，不能重复合成；正式双版仍前轮172/173来源修订安装版本。

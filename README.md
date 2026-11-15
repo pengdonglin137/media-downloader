@@ -1,5 +1,7 @@
 # Media Downloader
 
+2026-11-15，Science of Performance 2019的GPU/软件段11完整语句与43短句已正式采用：源188/204和英文611/657同步修订，209B仅文本编辑选择，203历史“15号”勘误，不称人耳情感胜者。双版完整解码、34固定偏移及事务归档核验通过；无新TTS/ASR，23实际烧字样图逐张查看。发音/情感、186声音候选、原图横轴遮叠/小字、VLC诊断及全片视觉/PotPlayer仍待验；详见`docs/science-performance-gpu-software-adoption-2026-11-15.md`。新增完整试读证据复用入口见`docs/preview-evidence-import.md`，不改旧成功音频或假装重合成。
+
 2026-11-15续审GPU/软件性能：30来源单元、11原窗/12条正常语速完整试读已核验，209两种警示语气尚未试听选胜者，205递推/递归仍待核。188/204源文仅显式提案，正式双版未换，186声音候选及发音/情感/人耳门禁保持。内部对照与续做边界见`docs/science-performance-gpu-software-2026-11-15.md`；仅工作日志试听页，不增交付附件。
 
 2026-11-15来源修订成片已正式采用：新增`media_workflow.source_corrected_media`及显式历史安装桥，九句/33中文短句、两处源文和完整英文565/566同步更新；74有限检查、完整解码及事务安装通过，旧版31文件精确归档，没有新TTS/ASR。36张实际烧字样图仅局部图审，186声音候选和全部人耳/发音/情感门禁仍待验；目标active。正式双版与只读续做入口见`docs/source-corrected-installation.md`，生产合同见`docs/source-corrected-media.md`。
