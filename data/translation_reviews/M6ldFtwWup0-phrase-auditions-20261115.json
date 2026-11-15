@@ -1,0 +1,184 @@
+{
+  "kind": "perf-complete-phrase-auditions-progress-v1",
+  "video_id": "M6ldFtwWup0",
+  "status": "verified-progress",
+  "goal_status": "active",
+  "external_root": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/review-phrasing-pronunciation-v1",
+  "independent_verification": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/review-phrasing-pronunciation-v1/independent-v1.json",
+    "bytes": 10881,
+    "mtime_ns": 1794745762289731995,
+    "sha256": "12f54f4c2246f75a8b06dfc0d45f6d1dcd3890075b93363a92116966feadde42"
+  },
+  "runtime_instructions": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/review-phrasing-pronunciation-v1/RUNTIME.md",
+    "bytes": 4471,
+    "mtime_ns": 1794745733707270040,
+    "sha256": "839bf8860549ba9728451bdcdadd9316e5b13e491c113571d2669cc90a17bf42"
+  },
+  "plan": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/review-phrasing-pronunciation-v1/plan.json",
+    "bytes": 44866,
+    "mtime_ns": 1794745304278808531,
+    "sha256": "1bb4ab49ba9da69d23a07d4e77c5465d8a3df7fa136ba91deba6793c658031ed"
+  },
+  "manifest": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/review-phrasing-pronunciation-v1/auditions/manifest.json",
+    "bytes": 16376,
+    "mtime_ns": 1794745320803119660,
+    "sha256": "7912e35d546c94c7664f4f1d079cd188e2c7cd9ff9c7f0810b7f30bdc9e30ae7"
+  },
+  "new_complete_TTS_items": 5,
+  "new_TTS_unit_ids": [
+    3,
+    37,
+    46,
+    52
+  ],
+  "reuse_only_units": [
+    14,
+    41
+  ],
+  "voice": "zh-CN-YunxiNeural",
+  "rate": "+0%",
+  "volume": "+0%",
+  "pitch_controls": [
+    "+0Hz",
+    "+5Hz"
+  ],
+  "actual_seconds": [
+    14.256,
+    8.568,
+    14.496,
+    14.376,
+    14.376
+  ],
+  "actual_samples": [
+    342144,
+    205632,
+    347904,
+    345024,
+    345024
+  ],
+  "original_window_remaining_samples": [
+    330816,
+    234528,
+    50016,
+    271296,
+    271296
+  ],
+  "returned_word_boundary_counts": [
+    31,
+    19,
+    36,
+    34,
+    34
+  ],
+  "all_normal_rate_candidates_fit": true,
+  "audio_trimmed_or_time_stretched": false,
+  "pitch_pair_same_text_different_PCM": true,
+  "actual_f0_or_emotion_improvement_measured": false,
+  "superlative_translation_proposed_not_installed": true,
+  "new_pause_candidate_counts": [
+    0,
+    0,
+    0,
+    1,
+    1
+  ],
+  "baseline_and_candidates_loudness_matched": false,
+  "existing_six_speech_issues_unchanged": true,
+  "speech_database_counts_unchanged": {
+    "scans": 1,
+    "issues": 6,
+    "decisions": 0,
+    "repair_resolutions": 0
+  },
+  "canonical_or_existing_candidate_media_modified": false,
+  "canonical_adoption": false,
+  "new_ASR": 0,
+  "old_successful_TTS_or_full_media_decode_repeated": false,
+  "human_listened_phoneme_emotion_speaker_PotPlayer_final_approved": false,
+  "automatic_winner": null,
+  "Linux27holds23markers_criticalAI_F08_unchanged": true,
+  "source_review": [
+    {
+      "key": "unit003-cpu-expansion",
+      "unit_id": 3,
+      "source_start": "49.28",
+      "source_end": "77.32",
+      "display": "这个维基页面介绍 Linux 的 perf 命令，也叫 perf_events。它能利用 CPU 性能计数器、追踪点，以及 kprobes 和 uprobes，进行轻量级性能剖析。",
+      "spoken": "这个维基页面介绍 Linux 的 perf 命令，也叫 perf events。它能利用 中央处理器的性能计数器、追踪点，以及 k 探针和 u 探针，进行轻量级性能剖析。",
+      "pitch": "+0Hz",
+      "reason": "CPU在显示稿保留缩写，朗读等义展开为中央处理器，不造谐音字；未证明现有字母读法错误。",
+      "preserved_facts": [
+        "Linux与perf及perf events名称保持",
+        "CPU性能计数器、追踪点、k探针、u探针及轻量级剖析全部保留"
+      ]
+    },
+    {
+      "key": "unit037-superlative-flow",
+      "unit_id": 37,
+      "source_start": "762.48",
+      "source_end": "780.82",
+      "display": "这样就能看出，哪些系统调用耗时最多。比如，再用 trace 分析一下 dd，你看这里。",
+      "spoken": "这样就能看出，哪些系统调用耗时最多。比如，再用 trace 分析一下 dd，你看这里。",
+      "pitch": "+0Hz",
+      "reason": "源文most of the time明确为耗时最多；旧比较多弱化比较级。保留完整系统调用与trace/dd示例，将你看这里接在演示句中，不据静音位置猜测实际尾词。",
+      "preserved_facts": [
+        "系统调用耗时最多，不改成调用次数最多或最高频",
+        "trace与dd、例举和指向当前演示保持",
+        "不删除原窗、不跨人合成"
+      ]
+    },
+    {
+      "key": "unit046-centos-spelling",
+      "unit_id": 46,
+      "source_start": "934.9",
+      "source_end": "951.48",
+      "display": "再说一下，在 CentOS 或 Fedora 上，演示里的安装命令是 yum install perf，或者 dnf install perf。好，回到终端，用 Ctrl+C 结束这次采集。",
+      "spoken": "再说一下，在 C e n t O S 或 Fedora 上，演示里的安装命令是 yum install perf，或者 dnf install perf。好，回到终端，按 Control 加 C，结束这次采集。",
+      "pitch": "+0Hz",
+      "reason": "只新增逐字母C e n t O S拼字候选，不猜品牌音译或唯一标准读法，也不把词面更改当字音已解决。历史安装叙述不变。",
+      "preserved_facts": [
+        "CentOS、Fedora两系统身份保持",
+        "yum install perf与dnf install perf二选叙述保持",
+        "返回终端、Control加C与结束采集全部保持"
+      ]
+    },
+    {
+      "key": "unit052-warm-normal",
+      "unit_id": 52,
+      "source_start": "1065.44",
+      "source_end": "1091.12",
+      "display": "希望这段介绍能帮到你！如果有问题，欢迎在评论区告诉我。不管是纠错、指出遗漏、补充内容，还是建议删减，或者有其他意见，都欢迎留言。谢谢观看！",
+      "spoken": "希望这段介绍能帮到你！如果有问题，欢迎在评论区告诉我；不管是纠错、指出遗漏、补充内容，还是建议删减，或者有其他意见，都欢迎留言。谢谢观看！",
+      "pitch": "+0Hz",
+      "reason": "用帮到你、欢迎留言的完整邀请增强自然亲近感，明确指出遗漏；问题、纠错、遗漏、补充、删减、其他意见和致谢全保留。标点安排是待听读导演意图，不是情感批准。",
+      "preserved_facts": [
+        "希望介绍有益",
+        "问题与评论区邀请",
+        "correction/omission/addition/subtraction/comments五类全部保持",
+        "感谢观看未删除"
+      ]
+    },
+    {
+      "key": "unit052-warm-pitch5",
+      "unit_id": 52,
+      "source_start": "1065.44",
+      "source_end": "1091.12",
+      "display": "希望这段介绍能帮到你！如果有问题，欢迎在评论区告诉我。不管是纠错、指出遗漏、补充内容，还是建议删减，或者有其他意见，都欢迎留言。谢谢观看！",
+      "spoken": "希望这段介绍能帮到你！如果有问题，欢迎在评论区告诉我；不管是纠错、指出遗漏、补充内容，还是建议删减，或者有其他意见，都欢迎留言。谢谢观看！",
+      "pitch": "+5Hz",
+      "reason": "与新正常速率片尾逐字同文同标点，仅请求+5Hz小幅音高作表达对照；不称实际基频恰增5Hz、情感更好或自动胜者。",
+      "preserved_facts": [
+        "与unit052-warm-normal同文同标点",
+        "音色/速率/音量不变",
+        "所有结束语事实不变"
+      ]
+    }
+  ],
+  "source_speaker_approval_added": false,
+  "generic_native_speaker_review_true_not_fabricated": true,
+  "native_CPU_to_C_P_U_projection_explicitly_bound": true
+}

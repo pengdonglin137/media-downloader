@@ -1,0 +1,164 @@
+{
+  "kind": "perf-complete-phrase-auditions-verified-v1",
+  "video_id": "M6ldFtwWup0",
+  "status": "verified-progress",
+  "goal_status": "active",
+  "external_root": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/review-phrasing-pronunciation-v1",
+  "independent_verification": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/review-phrasing-pronunciation-v1/independent-v1.json",
+    "bytes": 10881,
+    "mtime_ns": 1794745762289731995,
+    "sha256": "12f54f4c2246f75a8b06dfc0d45f6d1dcd3890075b93363a92116966feadde42"
+  },
+  "runtime_instructions": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/review-phrasing-pronunciation-v1/RUNTIME.md",
+    "bytes": 4471,
+    "mtime_ns": 1794745733707270040,
+    "sha256": "839bf8860549ba9728451bdcdadd9316e5b13e491c113571d2669cc90a17bf42"
+  },
+  "plan": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/review-phrasing-pronunciation-v1/plan.json",
+    "bytes": 44866,
+    "mtime_ns": 1794745304278808531,
+    "sha256": "1bb4ab49ba9da69d23a07d4e77c5465d8a3df7fa136ba91deba6793c658031ed"
+  },
+  "manifest": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/review-phrasing-pronunciation-v1/auditions/manifest.json",
+    "bytes": 16376,
+    "mtime_ns": 1794745320803119660,
+    "sha256": "7912e35d546c94c7664f4f1d079cd188e2c7cd9ff9c7f0810b7f30bdc9e30ae7"
+  },
+  "new_complete_TTS_items": 5,
+  "new_TTS_unit_ids": [
+    3,
+    37,
+    46,
+    52
+  ],
+  "reuse_only_units": [
+    14,
+    41
+  ],
+  "voice": "zh-CN-YunxiNeural",
+  "rate": "+0%",
+  "volume": "+0%",
+  "pitch_controls": [
+    "+0Hz",
+    "+5Hz"
+  ],
+  "actual_seconds": [
+    14.256,
+    8.568,
+    14.496,
+    14.376,
+    14.376
+  ],
+  "actual_samples": [
+    342144,
+    205632,
+    347904,
+    345024,
+    345024
+  ],
+  "original_window_remaining_samples": [
+    330816,
+    234528,
+    50016,
+    271296,
+    271296
+  ],
+  "returned_word_boundary_counts": [
+    31,
+    19,
+    36,
+    34,
+    34
+  ],
+  "all_normal_rate_candidates_fit": true,
+  "audio_trimmed_or_time_stretched": false,
+  "pitch_pair_same_text_different_PCM": true,
+  "actual_f0_or_emotion_improvement_measured": false,
+  "superlative_translation_proposed_not_installed": true,
+  "new_pause_candidate_counts": [
+    0,
+    0,
+    0,
+    1,
+    1
+  ],
+  "baseline_and_candidates_loudness_matched": false,
+  "existing_six_speech_issues_unchanged": true,
+  "speech_database_counts_unchanged": {
+    "scans": 1,
+    "issues": 6,
+    "decisions": 0,
+    "repair_resolutions": 0
+  },
+  "canonical_or_existing_candidate_media_modified": false,
+  "canonical_adoption": false,
+  "new_ASR": 0,
+  "old_successful_TTS_or_full_media_decode_repeated": false,
+  "human_listened_phoneme_emotion_speaker_PotPlayer_final_approved": false,
+  "automatic_winner": null,
+  "Linux27holds23markers_criticalAI_F08_unchanged": true,
+  "preserved_counts": {
+    "records": 10811,
+    "canonical_targets": 31,
+    "frozen_root_python": 98,
+    "production_mp3": 293,
+    "unrelated_untracked": 13
+  },
+  "finite_fixture_count": 27,
+  "internal_complete_context_cards": 6,
+  "context_PCM_windows_reused": 18,
+  "current_final_context_offset_samples": 1000800,
+  "old_complete_MP3_links_reused": 6,
+  "browser_metadata_controls": 29,
+  "browser_muted_play_seek_controls": 7,
+  "browser_human_listening_or_cross_platform_claimed": false,
+  "reports": {
+    "fixtures": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/review-phrasing-pronunciation-v1/finite-fixtures-v1.json",
+      "bytes": 3875,
+      "mtime_ns": 1794745363326909273,
+      "sha256": "e33d440cf82faab13bd442d7d9d5f0fa01a4fc0ba77af40dc0efe01ce06048fb"
+    },
+    "comparison": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/review-phrasing-pronunciation-v1/comparison.json",
+      "bytes": 1484,
+      "mtime_ns": 1794745408120724946,
+      "sha256": "5f1c8259a043f07f9998c4c0b42c033adf93169a94d40cf3a5310e58dc2453ed"
+    },
+    "browser": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/review-phrasing-pronunciation-v1/browser-check-v1/result.json",
+      "bytes": 8663,
+      "mtime_ns": 1794745571909587740,
+      "sha256": "a5d9bee417bd87daca6584b5c5094c74bf38568a97e4c61e44c3398035fa1749"
+    },
+    "candidate_pauses": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/review-phrasing-pronunciation-v1/candidate-pauses-v1.json",
+      "bytes": 7451,
+      "mtime_ns": 1794745567926520072,
+      "sha256": "87bc29152b8493e9e979dffedfe41a8d55dec84675bf2fa216f06fc48e753943"
+    }
+  },
+  "retained_nonzero_steps": [
+    {
+      "step": "author-phrases-v1",
+      "exit_code": 1,
+      "exit_file": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/review-phrasing-pronunciation-v1/author-phrases-v1.exit",
+        "bytes": 2,
+        "mtime_ns": 1794745253443835189,
+        "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865"
+      },
+      "log": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/review-phrasing-pronunciation-v1/author-phrases-v1.log",
+        "bytes": 320,
+        "mtime_ns": 1794745253435835034,
+        "sha256": "eef1edee2cf45e09685a676318f36e0a43d79605c564d22e4e8a3c5f887e46be"
+      }
+    }
+  ],
+  "network_request_count_not_inferred_from_artifact_count": true
+}

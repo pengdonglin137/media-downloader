@@ -1,5 +1,11 @@
 # Media Downloader
 
+## 2026-11-15：Perf五份完整句表达／发音对照
+
+- 为CPU等义展开、系统调用耗时最多、CentOS拼字与亲近片尾新增5份正常速率完整试读，均放得进原窗；默认／+5Hz片尾同文，未选情感胜者。14／41执行仅复用当前完整句。
+- 内部6语境／29控件，实际Chrome metadata及7项静音播放seek通过；新片尾仍有停顿提示，旧六声音问题／0决定保持。原正式工程、隔离双版MP4与旧成功音频未改，不新增交付附件或称听审通过。
+- [完整记录](docs/perf-intro-phrase-auditions-2026-11-15.md)；外部request-M6ldFtwWup0-20261114/review-phrasing-pronunciation-v1/comparison.html供真实听读，续做读同目录RUNTIME.md与checkpoint-phrasing-pronunciation-v1收据。目标active，不发布或声称后台自动续跑。
+
 ## 2026-11-15：Perf入门隔离双版本候选已验证
 
 - M6ldFtwWup0两用途候选1140.538秒：41.7秒有声AI导读、21内嵌章；母版双音轨三软字幕，上传版单中文主轨烧字。19.44秒未听清处实录已核验进入两版中文主轨，原85项正式工程未采用。

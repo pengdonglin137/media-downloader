@@ -1,5 +1,13 @@
 # AI 执行工作流：自包含中文译配视频
 
+## 2026-11-15：Perf完整句表达／读法候选，不自动安装
+
+- 先读request-M6ldFtwWup0-20261114/review-phrasing-pronunciation-v1/RUNTIME.md及checkpoint-phrasing-pronunciation-v1收据；5项新合成已成功，仅check，不重跑render。实际没有失败合成／resume，不拿配置夹具冒充断网恢复。
+- 37最多语义、CPU中央处理器展开、CentOS逐字母候选、52完整亲近邀请均为显示／朗读提案；片尾默认／+5Hz同文同标点，正常速率，不能按波形不同或停顿数自动选胜者。14／41只复用旧完整句。
+- 新语境18窗只取已有成功PCM，母版固定加1000800样本偏移，6旧MP3不重合成。原角色未人耳分离，不伪填speaker_review=true；请求CLI只委托既有合成／解码函数，不写生产／数据库或新增交付附件。
+- 当前27有限夹具、29浏览器metadata、7静音播放seek通过，新原始停顿提示0／0／0／1／1；非等响度／人耳／音素／情感或全套测试。旧六候选、64条VLC诊断及全片／逐词／PotPlayer／正式采用／最终门禁保持。
+- 初次author父CPU与原生C P U比等真实1、两项只读结构探查错误分别保留；v2只修当前文字绑定后另存切窗。10811旧身份、98根Python及其他130行／13文件保全并排除提交，Linux27holds／23markers／criticalAI-F08不变，目标active、不声明后台自动续跑。
+
 ## 2026-11-15：Perf新来源隔离双版与实际偏移核验
 
 - 当前request-M6ldFtwWup0-20261114/review-media-admission-v1已有母版／烧字候选及独立验证，正式85项工程不变。先读本轮RUNTIME-current-v1.md和checkpoint-media-pair-v1收据，不能用上轮“尚未双版”代替本轮状态，也不能把候选当正式采用。
