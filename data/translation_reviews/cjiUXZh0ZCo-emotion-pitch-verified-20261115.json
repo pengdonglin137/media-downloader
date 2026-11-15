@@ -1,0 +1,22 @@
+{
+  "kind": "unchanged-affection-utterance-pitch-verification-index-v1",
+  "video_id": "cjiUXZh0ZCo",
+  "formal_adoption": false,
+  "human_listened_or_emotion_approved": false,
+  "independent_verification_path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/emotion-prosody-pitch-v1/independent-v1.json",
+  "checkpoint_directory": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/checkpoint-emotion-prosody-pitch-v1",
+  "exact_identity_bindings_in_checkpoint_registration": true,
+  "complete_untrimmed_samples": [225792, 226368],
+  "remaining_original_window_samples": [54288, 53712],
+  "returned_word_metadata_counts": [25, 25],
+  "word_metadata_not_human_phonemes": true,
+  "finite_fixture_cases_passed": 24,
+  "synthesis_mocked_in_fixtures_not_in_actual_two_trials": true,
+  "five_browser_controls_muted_checks_passed": true,
+  "one_internal_page_image_opened": true,
+  "formal31_targets_unchanged": true,
+  "old_identities_preserved": 10000,
+  "current_unreviewed_candidates": 186,
+  "actual_physical_pitch_Hz_or_emotion_winner_measured": false,
+  "goal_status": "active"
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "unchanged-affection-utterance-pitch-authored-record-v1",
+  "video_id": "cjiUXZh0ZCo",
+  "unit_id": 318,
+  "recorded_date": "2026-11-15",
+  "formal_adoption": false,
+  "human_listened_or_emotion_approved": false,
+  "words_punctuation_voice_rate_volume_unchanged": true,
+  "requested_pitch_Hz_not_measured": [-5, 5],
+  "new_network_TTS": 2,
+  "existing_default_reference_reused": true,
+  "new_ASR_scan_full_decode_encode_or_install": false,
+  "source_window_seconds": ["5493.28", "5504.95"],
+  "source_window_samples": 280080,
+  "intro_seconds": "40.2",
+  "source_pronoun_they_not_resolved_by_pitch": true,
+  "no_automatic_winner_or_database_decision": true,
+  "current_unreviewed_candidates": 186,
+  "evidence_directory": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/emotion-prosody-pitch-v1",
+  "documentation": "docs/science-performance-emotion-pitch-2026-11-15.md",
+  "all_source_voice_and_Linux27holds23markersCriticalF08_unchanged": true,
+  "goal_status": "active"
+}

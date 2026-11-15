@@ -1,5 +1,11 @@
 # AI 执行工作流：自包含中文译配视频
 
+## 2026-11-15：318音高对照只续听审，不重合成或自动采用
+
+emotion-prosody-pitch-v1/check-preview-v1.py只读检查完整句profile、两新MP3／词界／未裁切PCM、五音频对照和31正式绑定。内部入口为同目录review-page-v1/index.html；所有页和WAV仅作内部证据，不增交付外挂。默认试读、源PCM和当前AAC解码均复用，实际新TTS仅两次，无新ASR／扫描／全片解码／编码／安装。
+
+speech_prosody的preview只接受新输出；失败才显式resume，成功只能check。绑定计划后不得改适配器或源码刷新成功，不把pitch请求值、WordBoundary、时长或浏览器静音时钟当情感／音素批准。源文they不由此裁决，318及其他声音门禁保持；24有限夹具不是全套测试，旧tests入口真实1不重跑。下一步需真实听审后决定风格或具体反馈，详见science-performance-emotion-pitch-2026-11-15.md。
+
 ## 2026-11-15：216/217双版本安装后的精确只读入口
 
 本请求source-reservation-media-v1/check-installed-v1.py绑定实际原声profile、历史授权、31文件已提交事务和安装后独立核验；只读复核现正式24区／41项及质量绑定，不重新prepare／扫描／TTS／ASR／编码。裸旧CLI不认识新增actual-source选择，必须使用显式source_reservation_media／source_reservation_install运行时，不填假MP3或词界绕过。
