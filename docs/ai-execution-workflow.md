@@ -1,5 +1,12 @@
 # AI 执行工作流：自包含中文译配视频
 
+## 2026-11-15：Perf37来源忠实修订的隔离续做入口
+
+- 先读request-M6ldFtwWup0-20261114/source-fidelity-37-v1/RUNTIME.md与checkpoint-source37-v1收据；prepare／scan／render／显示投影／双版／核验已成功，不重合成8.568秒整句或导读，不重跑媒体。抽图v1真实1及v2补正保留。
+- 副本包含speech_policy.json，经原生compile和未改质量门禁；新来源仅由精确工程runtime验证，不替换全局load。37恢复耗时最多，源窗／其他52项保持；旧6和新5分库均0决定0解决，不按扫描缺提示dismiss旧问题。
+- 复用原干净视频和41.694秒导读声，只重绑当前源哈希、重封装及烧字；双用途各1140.538秒／21章。37窗外预AAC及30原声保持，新两版最终中文AAC／PCM相同；不称旧窗外AAC或最终备用原声同源字节。
+- 四整帧加两局部图审仅局部，三张密集整帧640宽不逐字验源码。37比例显示第二条晚于完整TTS结束0.389秒，逐词对齐待验。新74／旧64条VLC诊断及所有人耳／音素／情感／角色／全片／PotPlayer／正式采用／最终门禁保持，不覆盖并行请求或全局总数；详见perf-intro-source37-2026-11-15.md。
+
 ## 2026-11-15：Perf完整句表达／读法候选，不自动安装
 
 - 先读request-M6ldFtwWup0-20261114/review-phrasing-pronunciation-v1/RUNTIME.md及checkpoint-phrasing-pronunciation-v1收据；5项新合成已成功，仅check，不重跑render。实际没有失败合成／resume，不拿配置夹具冒充断网恢复。
