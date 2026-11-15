@@ -1,5 +1,10 @@
 # Media Downloader
 
+## 2026-11-15：Linux Performance Tools完整意群朗读候选
+
+- iJ_eIsA5E1U的新隔离双版本候选已生成，修顺12处句中切分逗号，5处I/O朗读改为输入输出；未自动替换正式成片或批准自然度。
+- 产物和复现见`docs/linux-performance-group-phrasing-2026-11-15.md`；断点`/home/pengdl/Videos/translated_backlog/.workflow_logs/request-iJ_eIsA5E1U-20261115/checkpoint-group-phrasing-v1/execution-progress.json`。完整原窗、窗外PCM、原母版画面/备用原声和双候选中文音频技术核验通过，人耳及最终批准仍待完成。
+
 ## 2026-11-15：Linux审校字幕五词组断行与否定词保护
 
 Linux性能访谈的完整原画原声内部审校MP4已修复五词组31次旧断行，并在实际图审后追加不能的否定词保护；全部译文字符与时窗不变，未重新合成声音。当前入口与限定见`docs/linux-performance-source-text-layout-2026-11-15.md`。

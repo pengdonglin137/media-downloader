@@ -1,0 +1,463 @@
+{
+  "kind": "isolated-whole-group-phrase-refinement-v1",
+  "video_id": "iJ_eIsA5E1U",
+  "date": "2026-11-15",
+  "rate": "+0%",
+  "pitch": "+0Hz",
+  "work": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_iJ_eIsA5E1U",
+  "source": {
+    "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_iJ_eIsA5E1U/download/Linux Performance Tools! [iJ_eIsA5E1U].mp4",
+    "bytes": 41869604,
+    "mtime_ns": 1794326187372452974,
+    "sha256": "266653efa986d093616955114122ed67429247b80e878b9ba33fa501be149c4c"
+  },
+  "waveform": {
+    "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_iJ_eIsA5E1U/speech_group_runs/2012a7b3505355cff573/narration.wav",
+    "bytes": 19307598,
+    "mtime_ns": 1794327912503424714,
+    "sha256": "51d789d6723c083ca8d9632c31555ca2c5a483f8960d934fc3c9516f2f119bf7"
+  },
+  "inputs": {
+    "translation_input.tsv": {
+      "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_iJ_eIsA5E1U/translation_input.tsv",
+      "bytes": 7328,
+      "mtime_ns": 1794326191526353994,
+      "sha256": "dbf519aac9f4eeae874bc7f51ff3af968c985b74f53793de86d1e7ee2bf12f56"
+    },
+    "translation.tsv": {
+      "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_iJ_eIsA5E1U/translation.tsv",
+      "bytes": 4732,
+      "mtime_ns": 1794327891573297871,
+      "sha256": "0489445ea8f44090964b82fd5378d0cbbee49ae81f7e686578a772911bf0ff2b"
+    },
+    "translation_task.json": {
+      "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_iJ_eIsA5E1U/translation_task.json",
+      "bytes": 304,
+      "mtime_ns": 1794326191527353971,
+      "sha256": "46f79eb6825fbc6e1ce054df3ea0f8dffbe281748a491dca4f90a6b8cd8c4961"
+    },
+    "speech_groups.json": {
+      "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_iJ_eIsA5E1U/speech_groups.json",
+      "bytes": 30608,
+      "mtime_ns": 1794327891813299320,
+      "sha256": "3087f4f3aad6285a6af403435ecb976943ccd6d7ae4e42db822b6737710afd5f"
+    },
+    "narration.json": {
+      "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_iJ_eIsA5E1U/narration.json",
+      "bytes": 35569,
+      "mtime_ns": 1794327912632425499,
+      "sha256": "94dd2fa9d9d1e693396b14290a6dbe973478e6bb3433e4dacfd079010a32e557"
+    },
+    "en.srt": {
+      "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_iJ_eIsA5E1U/en.srt",
+      "bytes": 7356,
+      "mtime_ns": 1794326191527353971,
+      "sha256": "9aeacb252d1fccd17f9eda68a522b492f803f6655eb0e4feded08a84b3b2f278"
+    },
+    "zh.srt": {
+      "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_iJ_eIsA5E1U/zh.srt",
+      "bytes": 5631,
+      "mtime_ns": 1794327891605298064,
+      "sha256": "f0bce2a16048d21baca1c723f826be1f4f91d0b66879c37888fc961d9d7e0f49"
+    },
+    "spoken.srt": {
+      "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_iJ_eIsA5E1U/spoken.srt",
+      "bytes": 5631,
+      "mtime_ns": 1794327891605298064,
+      "sha256": "f0bce2a16048d21baca1c723f826be1f4f91d0b66879c37888fc961d9d7e0f49"
+    },
+    "bilingual.srt": {
+      "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_iJ_eIsA5E1U/bilingual.srt",
+      "bytes": 12011,
+      "mtime_ns": 1794327891605298064,
+      "sha256": "5e450923e04478c4261a86f4bfe8ce101cb295b8e53f7565b841ff94eeb542f2"
+    },
+    "voices.json": {
+      "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_iJ_eIsA5E1U/voices.json",
+      "bytes": 670,
+      "mtime_ns": 1794327891654298360,
+      "sha256": "9258a9569daa96b3271f99ca58c513a00241c82a749a777efa03dd6dc570ce00"
+    },
+    "compilation.json": {
+      "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_iJ_eIsA5E1U/compilation.json",
+      "bytes": 948,
+      "mtime_ns": 1794327891608298082,
+      "sha256": "37e1be442e3be2fa62bd8188dc0fae73d8cf98052c19478c0d5780a0ab31d3eb"
+    },
+    "render_state.json": {
+      "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_iJ_eIsA5E1U/render_state.json",
+      "bytes": 1895,
+      "mtime_ns": 1794327941266600512,
+      "sha256": "8c4a98fafa653382e28085f5fa5fa8be4ceae2cf1524d576933e6b38ad2f9255"
+    },
+    "tts_stats.json": {
+      "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_iJ_eIsA5E1U/tts_stats.json",
+      "bytes": 1298,
+      "mtime_ns": 1794327912614425390,
+      "sha256": "4efa93d03c683f4453869d11b953b6b95c244296ed7bbd2fab2dc80eebae6493"
+    },
+    "timing_review.json": {
+      "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_iJ_eIsA5E1U/timing_review.json",
+      "bytes": 3,
+      "mtime_ns": 1794327912614425390,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    "package/manifest.json": {
+      "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_iJ_eIsA5E1U/self_contained/605db2831c2bbbb9288f/manifest.json",
+      "bytes": 8608,
+      "mtime_ns": 1794327941254600438,
+      "sha256": "3824390fd6258db90258e0535ae3a3a9487ac4ca97ab863f2da7b6580c4f4522"
+    },
+    "package/intro.wav": {
+      "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_iJ_eIsA5E1U/self_contained/605db2831c2bbbb9288f/intro.wav",
+      "bytes": 958710,
+      "mtime_ns": 1794327927127513886,
+      "sha256": "73762c9b973ac9d6153c70e50bcb8dedad2a45ec37d39a0e23cb38f40b236aa7"
+    },
+    "package/zh.srt": {
+      "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_iJ_eIsA5E1U/self_contained/605db2831c2bbbb9288f/zh.srt",
+      "bytes": 7572,
+      "mtime_ns": 1794327928531522470,
+      "sha256": "a7d600247742392cbd3f4ce1657513848065e2d0795e5195723f8d7c516d13b1"
+    },
+    "package/en.srt": {
+      "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_iJ_eIsA5E1U/self_contained/605db2831c2bbbb9288f/en.srt",
+      "bytes": 9772,
+      "mtime_ns": 1794327928531522470,
+      "sha256": "a319beab851f7bf41c42333a366afc356c5196ad280672cb33b04626eb60f107"
+    },
+    "package/bilingual.srt": {
+      "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_iJ_eIsA5E1U/self_contained/605db2831c2bbbb9288f/bilingual.srt",
+      "bytes": 14259,
+      "mtime_ns": 1794327928532522476,
+      "sha256": "944e9e01e0464ce35fd2f76a1705d87e5420664564d2fc85c7dbca7c048f6df8"
+    },
+    "package/chapters.ffmeta": {
+      "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_iJ_eIsA5E1U/self_contained/605db2831c2bbbb9288f/chapters.ffmeta",
+      "bytes": 1060,
+      "mtime_ns": 1794327928532522476,
+      "sha256": "45ff746ff6ee2dfba5b86f5a41932c99f7a4b279d02fd0dcd9d0bf30224b955e"
+    },
+    "source": {
+      "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_iJ_eIsA5E1U/download/Linux Performance Tools! [iJ_eIsA5E1U].mp4",
+      "bytes": 41869604,
+      "mtime_ns": 1794326187372452974,
+      "sha256": "266653efa986d093616955114122ed67429247b80e878b9ba33fa501be149c4c"
+    },
+    "master": {
+      "path": "/home/pengdl/Videos/translated_backlog/Linux Performance Tools_中文配音.mp4",
+      "bytes": 50399674,
+      "mtime_ns": 1794327938255582031,
+      "sha256": "2df6d2de541c3c5175c924ded5e2bb2d05ad407ff1b07d5bd5333db28dc4b032"
+    },
+    "upload": {
+      "path": "/home/pengdl/Videos/translated_backlog/Linux Performance Tools_中文上传版.mp4",
+      "bytes": 63658462,
+      "mtime_ns": 1794327971145784856,
+      "sha256": "6dcbb720810d71e759408efb57a0f70523b0d74a5beed574cdfa79bd676d6274"
+    },
+    "waveform": {
+      "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_iJ_eIsA5E1U/speech_group_runs/2012a7b3505355cff573/narration.wav",
+      "bytes": 19307598,
+      "mtime_ns": 1794327912503424714,
+      "sha256": "51d789d6723c083ca8d9632c31555ca2c5a483f8960d934fc3c9516f2f119bf7"
+    },
+    "implementation/dub.py": {
+      "path": "/home/pengdl/media-downloader/dub.py",
+      "bytes": 9304,
+      "mtime_ns": 1794017543324564755,
+      "sha256": "8890b4e0f3669987a5e44e3d072225797285d5c0221917597373510ed54bbb0a"
+    },
+    "implementation/dubbing_state.py": {
+      "path": "/home/pengdl/media-downloader/dubbing_state.py",
+      "bytes": 14397,
+      "mtime_ns": 1794035196974571922,
+      "sha256": "b0967769ee32a9f0bb17ffcd9018e1a585723b1c9d16248672aa637d3e080b5c"
+    },
+    "implementation/speech_groups.py": {
+      "path": "/home/pengdl/media-downloader/speech_groups.py",
+      "bytes": 26647,
+      "mtime_ns": 1794036161580945444,
+      "sha256": "e55cd5f7bb1e90488e28338b3fdb44896ee3a6cb59c640bf6a2ad23f7439f8dc"
+    },
+    "implementation/speech_polish.py": {
+      "path": "/home/pengdl/media-downloader/speech_polish.py",
+      "bytes": 15268,
+      "mtime_ns": 1794036465757816854,
+      "sha256": "1160cba2bee0260f1af830ee02dc75e92a4eaafb92c947cdd2c8c08488d41743"
+    },
+    "implementation/prepare_videos.py": {
+      "path": "/home/pengdl/media-downloader/prepare_videos.py",
+      "bytes": 11584,
+      "mtime_ns": 1794011217932037419,
+      "sha256": "6751e416a50c28cc186a990b8683a8f60eafd94b7a85aa3dd6ce870fd85a000e"
+    },
+    "implementation/media_workflow/caption_projection.py": {
+      "path": "/home/pengdl/media-downloader/media_workflow/caption_projection.py",
+      "bytes": 13943,
+      "mtime_ns": 1794636134072118471,
+      "sha256": "260a674424c3feddaf3ccb7abd79c2bd8afdff8a8aa1d1a0644158d2da0a3865"
+    },
+    "implementation/media_workflow/editorial_stage.py": {
+      "path": "/home/pengdl/media-downloader/media_workflow/editorial_stage.py",
+      "bytes": 27602,
+      "mtime_ns": 1794635197243052299,
+      "sha256": "3115ad694da7443040f93b95fc5953646fa4af0562049d2aa0710d0c5853f964"
+    },
+    "implementation/media_workflow/speech_variants.py": {
+      "path": "/home/pengdl/media-downloader/media_workflow/speech_variants.py",
+      "bytes": 11841,
+      "mtime_ns": 1794633410547401140,
+      "sha256": "a0c6caa1efe005b30c40ba5cb80d71c68b92a951ee144bdbb0b7b1144d90d388"
+    }
+  },
+  "master": {
+    "path": "/home/pengdl/Videos/translated_backlog/Linux Performance Tools_中文配音.mp4",
+    "bytes": 50399674,
+    "mtime_ns": 1794327938255582031,
+    "sha256": "2df6d2de541c3c5175c924ded5e2bb2d05ad407ff1b07d5bd5333db28dc4b032"
+  },
+  "package": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_iJ_eIsA5E1U/self_contained/605db2831c2bbbb9288f",
+  "intro_seconds": "20",
+  "master_chinese_duration_samples": 10090848,
+  "video_timescale": "12800",
+  "edits": [
+    {
+      "unit_ids": [
+        2,
+        3
+      ],
+      "source": "that there's actually a real performance problem when someone reports a performance issue we need to ask probing questions what make us think there's a problem has the system ever performed better what recent changes might have affected performance can we quantify what slow means in this context is the issue affecting multiple users or just one these questions aren't just formalities they help clarify the issue establish a baseline for comparison and sometimes even resolve the problem",
+      "before": "有人报告性能异常时，要追问：为什么认为有问题？系统以前更快吗？最近哪些变化可能影响性能？所谓慢，能不能，用具体数字描述？受影响的是多人，还是一个人？这些问题不是走过场，而是帮助明确问题、建立比较基线，有时甚至不必进一步调查就能解决。",
+      "source_start": "14.96",
+      "source_end": "43.76",
+      "remove_comma_after_unit": 2,
+      "display": "有人报告性能异常时，要追问：为什么认为有问题？系统以前更快吗？最近哪些变化可能影响性能？所谓慢，能不能用具体数字描述？受影响的是多人，还是一个人？这些问题不是走过场，而是帮助明确问题、建立比较基线，有时甚至不必进一步调查就能解决。",
+      "spoken": "有人报告性能异常时，要追问：为什么认为有问题？系统以前更快吗？最近哪些变化可能影响性能？所谓慢，能不能用具体数字描述？受影响的是多人，还是一个人？这些问题不是走过场，而是帮助明确问题、建立比较基线，有时甚至不必进一步调查就能解决。",
+      "voice": "zh-CN-YunxiNeural",
+      "speaker_id": "video_narrator",
+      "source_review_note": "全部29单元是连续教程旁白，反问为排查清单，无实际问答或换人标记；没有以自动播放代替人耳听辨。问题确认清单与建立基线的目的完整连读。",
+      "preserved_facts": "追问性能问题、既有表现与变化；要求具体数字、影响人数及比较基线；有时不必进一步调查。",
+      "intended_delivery": "编辑意图：移除旧字幕切分造成的句中逗号，完整意群清楚连贯；疑问保留询问语气。未试听，不声称实际情感或发音改善。"
+    },
+    {
+      "unit_ids": [
+        4,
+        5
+      ],
+      "source": "without further investigation let me share a quick real world example a developer once complained about a slow database query taking 5 seconds after investigating we found this query had always taken 5 Seconds the issue wasn't performance but mismatch EXP expectations imagine if I jump right into troubleshooting without asking questions I would have wasted time and resources chasing a non-existent problem in other repair they call this the ports",
+      "before": "举个实际例子：一位开发者抱怨数据库查询太慢，需要五秒。调查后发现，这条查询一直都需要五秒。问题不在，性能，而是预期不一致。如果不先问清楚就开始排查，就会浪费资源，追查根本不存在的问题。汽车维修中也有这种做法。",
+      "source_start": "43.76",
+      "source_end": "71.56",
+      "remove_comma_after_unit": 4,
+      "display": "举个实际例子：一位开发者抱怨数据库查询太慢，需要五秒。调查后发现，这条查询一直都需要五秒。问题不在性能，而是预期不一致。如果不先问清楚就开始排查，就会浪费资源，追查根本不存在的问题。汽车维修中也有这种做法。",
+      "spoken": "举个实际例子：一位开发者抱怨数据库查询太慢，需要五秒。调查后发现，这条查询一直都需要五秒。问题不在性能，而是预期不一致。如果不先问清楚就开始排查，就会浪费资源，追查根本不存在的问题。汽车维修中也有这种做法。",
+      "voice": "zh-CN-YunxiNeural",
+      "speaker_id": "video_narrator",
+      "source_review_note": "全部29单元是连续教程旁白，反问为排查清单，无实际问答或换人标记；没有以自动播放代替人耳听辨。五秒数据库查询例子和预期不一致的结论构成完整案例。",
+      "preserved_facts": "查询耗时五秒且一向如此；问题是预期不一致，先追问以免追查不存在的问题。",
+      "intended_delivery": "编辑意图：移除旧字幕切分造成的句中逗号，完整意群清楚连贯；疑问保留询问语气。未试听，不声称实际情感或发音改善。"
+    },
+    {
+      "unit_ids": [
+        6,
+        7
+      ],
+      "source": "Cannon approach blindly replacing ports hoping to fix an issue this highlights why is critical to confirm there's a genuine performance problem before diving into analysis it saves time and keeps us focused on solving actual issues not Chasing Ghosts once we confirm a genuine performance issue we need to Define it precisely this means moving beyond vague terms like slow to specific metrics are web pages taking 10 seconds to low are database queries",
+      "before": "叫零件大炮：盲目更换零件，指望碰巧解决故障。因此，分析前确认确有性能问题至关重要，既节省时间，也让我们专注真正的，问题，而不是捕风捉影。确认问题后，还要精确定义：不要只说慢，而要使用具体指标。比如网页要十秒加载，或者数据库查询超时。",
+      "source_start": "71.56",
+      "source_end": "99.119",
+      "remove_comma_after_unit": 6,
+      "display": "叫零件大炮：盲目更换零件，指望碰巧解决故障。因此，分析前确认确有性能问题至关重要，既节省时间，也让我们专注真正的问题，而不是捕风捉影。确认问题后，还要精确定义：不要只说慢，而要使用具体指标。比如网页要十秒加载，或者数据库查询超时。",
+      "spoken": "叫零件大炮：盲目更换零件，指望碰巧解决故障。因此，分析前确认确有性能问题至关重要，既节省时间，也让我们专注真正的问题，而不是捕风捉影。确认问题后，还要精确定义：不要只说慢，而要使用具体指标。比如网页要十秒加载，或者数据库查询超时。",
+      "voice": "zh-CN-YunxiNeural",
+      "speaker_id": "video_narrator",
+      "source_review_note": "全部29单元是连续教程旁白，反问为排查清单，无实际问答或换人标记；没有以自动播放代替人耳听辨。汽修类比与确认真实问题、量化十秒加载和超时完整连读。",
+      "preserved_facts": "零件大炮是盲目更换；先确认真实问题、再用具体指标定义；十秒网页与查询超时示例保留。",
+      "intended_delivery": "编辑意图：移除旧字幕切分造成的句中逗号，完整意群清楚连贯；疑问保留询问语气。未试听，不声称实际情感或发音改善。"
+    },
+    {
+      "unit_ids": [
+        10,
+        11
+      ],
+      "source": "time this focused approach creates a clear road map for our investigation ensuring we don't waste time on unrelated areas now let's look at some basic tools that can help us gather this information and pinpoint the root cause of our performance issues we'll start with uptime the key metric here is the low average which shows the average number of processes that are either running or waiting for resources over the last one five and 15 minutes is a",
+      "before": "这种聚焦的方法能为调查提供清晰路线，避免把时间浪费在无关方向。下面看看一些基础工具，帮助收集信息，定位性能问题的，根因。先看 uptime，重点是平均负载：过去一、五、十五分钟，处于运行状态或等待资源的进程平均有多少。",
+      "source_start": "128.319",
+      "source_end": "156.16",
+      "remove_comma_after_unit": 10,
+      "display": "这种聚焦的方法能为调查提供清晰路线，避免把时间浪费在无关方向。下面看看一些基础工具，帮助收集信息，定位性能问题的根因。先看 uptime，重点是平均负载：过去一、五、十五分钟，处于运行状态或等待资源的进程平均有多少。",
+      "spoken": "这种聚焦的方法能为调查提供清晰路线，避免把时间浪费在无关方向。下面看看一些基础工具，帮助收集信息，定位性能问题的根因。先看 uptime，重点是平均负载：过去一、五、十五分钟，处于运行状态或等待资源的进程平均有多少。",
+      "voice": "zh-CN-YunxiNeural",
+      "speaker_id": "video_narrator",
+      "source_review_note": "全部29单元是连续教程旁白，反问为排查清单，无实际问答或换人标记；没有以自动播放代替人耳听辨。调查路线转入uptime，完整保留一五十五分钟与平均负载定义。",
+      "preserved_facts": "先聚焦根因；uptime 的一、五、十五分钟平均负载及其进程口径保持，不改成处理器利用率。",
+      "intended_delivery": "编辑意图：移除旧字幕切分造成的句中逗号，完整意群清楚连贯；疑问保留询问语气。未试听，不声称实际情感或发音改善。"
+    },
+    {
+      "unit_ids": [
+        12,
+        13
+      ],
+      "source": "complex metric that can be influenced by various factors if these numbers are consistently higher than the number of CPU cores it might indicate that processes are competing for resources but it's not always straightforward high low averages can be caused by CPU intensive tasks IO bottlenecks or even short livv process that quickly come and go remember that the low average alone doesn't tell tell the whole story it's more a starting point that tells us we",
+      "before": "这项指标比较复杂，会受多种因素影响。如果持续高于处理器核心数，可能意味着进程在争抢资源，但不能简单下结论。较高的，平均负载可能来自计算密集任务、I/O 瓶颈，甚至快速出现又结束的短命进程。单看平均负载并不能了解全貌，它只是进一步调查的起点。",
+      "source_start": "156.16",
+      "source_end": "183.159",
+      "remove_comma_after_unit": 12,
+      "display": "这项指标比较复杂，会受多种因素影响。如果持续高于处理器核心数，可能意味着进程在争抢资源，但不能简单下结论。较高的平均负载可能来自计算密集任务、I/O 瓶颈，甚至快速出现又结束的短命进程。单看平均负载并不能了解全貌，它只是进一步调查的起点。",
+      "spoken": "这项指标比较复杂，会受多种因素影响。如果持续高于处理器核心数，可能意味着进程在争抢资源，但不能简单下结论。较高的平均负载可能来自计算密集任务、输入输出 瓶颈，甚至快速出现又结束的短命进程。单看平均负载并不能了解全貌，它只是进一步调查的起点。",
+      "voice": "zh-CN-YunxiNeural",
+      "speaker_id": "video_narrator",
+      "source_review_note": "全部29单元是连续教程旁白，反问为排查清单，无实际问答或换人标记；没有以自动播放代替人耳听辨。超过核心数不必然等于CPU瓶颈，CPU/I/O/短命进程与进一步调查限定一并保留。",
+      "preserved_facts": "高于核心数只可能表明竞争，不能简单下结论；计算、输入输出、短命进程与进一步调查的限定保留。",
+      "intended_delivery": "编辑意图：移除旧字幕切分造成的句中逗号，完整意群清楚连贯；疑问保留询问语气。未试听，不声称实际情感或发音改善。"
+    },
+    {
+      "unit_ids": [
+        14,
+        15
+      ],
+      "source": "might need to investigate further when we see elevated low averages this are C to dig deeper with other tools this brings us to the next Tool top top provides a dynamic continuously updated view of the systems processes and key metrics it's like a dashboard for A System's performance some key indicators to watch are the percentage of CPU usage by user processes and system processes top also shows a list of running processes pay close attention to any",
+      "before": "看到负载升高，就该用其他工具深入分析。接下来是 top，它动态、持续地展示系统进程和关键，指标，就像性能仪表盘。重点看用户进程和系统进程分别占用多少处理器时间。top 还列出运行进程，特别要关注资源占用异常的进程。",
+      "source_start": "183.159",
+      "source_end": "212.0",
+      "remove_comma_after_unit": 14,
+      "display": "看到负载升高，就该用其他工具深入分析。接下来是 top，它动态、持续地展示系统进程和关键指标，就像性能仪表盘。重点看用户进程和系统进程分别占用多少处理器时间。top 还列出运行进程，特别要关注资源占用异常的进程。",
+      "spoken": "看到负载升高，就该用其他工具深入分析。接下来是 top，它动态、持续地展示系统进程和关键指标，就像性能仪表盘。重点看用户进程和系统进程分别占用多少处理器时间。top 还列出运行进程，特别要关注资源占用异常的进程。",
+      "voice": "zh-CN-YunxiNeural",
+      "speaker_id": "video_narrator",
+      "source_review_note": "全部29单元是连续教程旁白，反问为排查清单，无实际问答或换人标记；没有以自动播放代替人耳听辨。top动态视图及用户/系统CPU占比、异常进程完整连读。",
+      "preserved_facts": "top 动态持续展示进程与关键指标；用户及系统处理器时间、异常资源占用保持。",
+      "intended_delivery": "编辑意图：移除旧字幕切分造成的句中逗号，完整意群清楚连贯；疑问保留询问语气。未试听，不声称实际情感或发音改善。"
+    },
+    {
+      "unit_ids": [
+        16,
+        17
+      ],
+      "source": "processes consuming an unusually high percentage of CPU or memory this could be the culprit behind performance issues remember top give us a snapshot of the current moment for a fuller picture we might need to watch it over time or use other tools to complement your analysis next up is VM stat VM stat shows multiple system components at once updating in real time key areas to watch includes the CPU Q ioe swap activity and",
+      "before": "处理器或内存占用异常高的进程，它们可能是性能问题的来源。注意，top 展示的是当前情况。为了看得更完整，可能需要持续观察，或者，配合其他工具。下一个是 vmstat，会实时更新多个系统组件的数据。重点关注处理器运行队列、交换活动，以及处理器统计中的 I/O 等待时间。",
+      "source_start": "212.0",
+      "source_end": "241.319",
+      "remove_comma_after_unit": 16,
+      "display": "处理器或内存占用异常高的进程，它们可能是性能问题的来源。注意，top 展示的是当前情况。为了看得更完整，可能需要持续观察，或者配合其他工具。下一个是 vmstat，会实时更新多个系统组件的数据。重点关注处理器运行队列、交换活动，以及处理器统计中的 I/O 等待时间。",
+      "spoken": "处理器或内存占用异常高的进程，它们可能是性能问题的来源。注意，top 展示的是当前情况。为了看得更完整，可能需要持续观察，或者配合其他工具。下一个是 vmstat，会实时更新多个系统组件的数据。重点关注处理器运行队列、交换活动，以及处理器统计中的 输入输出 等待时间。",
+      "voice": "zh-CN-YunxiNeural",
+      "speaker_id": "video_narrator",
+      "source_review_note": "全部29单元是连续教程旁白，反问为排查清单，无实际问答或换人标记；没有以自动播放代替人耳听辨。当前快照局限与vmstat运行队列、交换、I/O等待共同构成下一分析步骤。",
+      "preserved_facts": "top 是当前观察，需持续或配合工具；vmstat 的运行队列、交换和输入输出等待时间保持。",
+      "intended_delivery": "编辑意图：移除旧字幕切分造成的句中逗号，完整意群清楚连贯；疑问保留询问语气。未试听，不声称实际情感或发音改善。"
+    },
+    {
+      "unit_ids": [
+        18,
+        19
+      ],
+      "source": "IO wait time in the CPU section for a deeper di into this iio return to iio stat it give us a continuous view of this activity key metrics to watch are transactions per second for this activity and the percentage of time spend waiting for Io operations in the CPU section iio step breaks down IO operations by device this is useful when we need to identify which specific disc is causing performance issues now let's",
+      "before": "想进一步了解磁盘 I/O，就用 iostat 持续观察磁盘活动。关注每秒传输次数，以及处理器时间中，等待 I/O 操作的比例。iostat 还按设备分别列出 I/O，帮助确定究竟是哪块磁盘造成性能问题。",
+      "source_start": "241.319",
+      "source_end": "268.919",
+      "remove_comma_after_unit": 18,
+      "display": "想进一步了解磁盘 I/O，就用 iostat 持续观察磁盘活动。关注每秒传输次数，以及处理器时间中等待 I/O 操作的比例。iostat 还按设备分别列出 I/O，帮助确定究竟是哪块磁盘造成性能问题。",
+      "spoken": "想进一步了解磁盘 输入输出，就用 iostat 持续观察磁盘活动。关注每秒传输次数，以及处理器时间中等待 输入输出 操作的比例。iostat 还按设备分别列出 输入输出，帮助确定究竟是哪块磁盘造成性能问题。",
+      "voice": "zh-CN-YunxiNeural",
+      "speaker_id": "video_narrator",
+      "source_review_note": "全部29单元是连续教程旁白，反问为排查清单，无实际问答或换人标记；没有以自动播放代替人耳听辨。iostat每秒传输数、CPU等待与按设备定位磁盘完整连读。",
+      "preserved_facts": "iostat 持续观察磁盘；每秒传输、处理器等待比例及按设备区分输入输出保持。",
+      "intended_delivery": "编辑意图：移除旧字幕切分造成的句中逗号，完整意群清楚连贯；疑问保留询问语气。未试听，不声称实际情感或发音改善。"
+    },
+    {
+      "unit_ids": [
+        20,
+        21
+      ],
+      "source": "Explore Net a useful tool for monitoring network connections net stat has many options we'll focus on a few useful ones for performance analysis first let's list all active connections this command displays all active connections both incoming and outgoing it's helpful for identifying open ports and active services on our system we can display only listening ports we can also count connections for a specific Port here",
+      "before": "下面看看监控网络连接的实用工具 netstat。它有很多选项，这里只介绍几种性能分析用法。先列出所有活动连接，这条命令，会显示传入和传出的连接，帮助识别系统开放的端口与活动服务。也可以只显示监听端口，还可以统计特定端口的连接数。",
+      "source_start": "268.919",
+      "source_end": "296.8",
+      "remove_comma_after_unit": 20,
+      "display": "下面看看监控网络连接的实用工具 netstat。它有很多选项，这里只介绍几种性能分析用法。先列出所有活动连接，这条命令会显示传入和传出的连接，帮助识别系统开放的端口与活动服务。也可以只显示监听端口，还可以统计特定端口的连接数。",
+      "spoken": "下面看看监控网络连接的实用工具 netstat。它有很多选项，这里只介绍几种性能分析用法。先列出所有活动连接，这条命令会显示传入和传出的连接，帮助识别系统开放的端口与活动服务。也可以只显示监听端口，还可以统计特定端口的连接数。",
+      "voice": "zh-CN-YunxiNeural",
+      "speaker_id": "video_narrator",
+      "source_review_note": "全部29单元是连续教程旁白，反问为排查清单，无实际问答或换人标记；没有以自动播放代替人耳听辨。netstat连接、监听端口与按端口计数的三种用法完整连读。",
+      "preserved_facts": "netstat 活动连接包括传入传出；开放端口、活动服务、监听端口及特定端口连接计数保持。",
+      "intended_delivery": "编辑意图：移除旧字幕切分造成的句中逗号，完整意群清楚连贯；疑问保留询问语气。未试听，不声称实际情感或发音改善。"
+    },
+    {
+      "unit_ids": [
+        22,
+        23
+      ],
+      "source": "we're counting connections on Port 80 this quick can can help us gauge the low on a particular service it we see a unusually high number of connections it might indicate a potential performance issue a traffic Spike that needs investigation last but not least let's look at SAR which stands for system activity reporter it's a versatile tool that's great for historical data here's an example of how it reports CPU usage while s provides similar information to",
+      "before": "这里统计的是八十端口。简单计数就能估计某个服务的负载。如果连接数异常高，可能提示潜在性能问题，或者需要调查的，流量突增。最后是 sar，全称是系统活动报告工具。它用途广泛，尤其适合历史数据。这里演示了处理器利用率报告。",
+      "source_start": "296.8",
+      "source_end": "324.88",
+      "remove_comma_after_unit": 22,
+      "display": "这里统计的是八十端口。简单计数就能估计某个服务的负载。如果连接数异常高，可能提示潜在性能问题，或者需要调查的流量突增。最后是 sar，全称是系统活动报告工具。它用途广泛，尤其适合历史数据。这里演示了处理器利用率报告。",
+      "spoken": "这里统计的是八十端口。简单计数就能估计某个服务的负载。如果连接数异常高，可能提示潜在性能问题，或者需要调查的流量突增。最后是 sar，全称是系统活动报告工具。它用途广泛，尤其适合历史数据。这里演示了处理器利用率报告。",
+      "voice": "zh-CN-YunxiNeural",
+      "speaker_id": "video_narrator",
+      "source_review_note": "全部29单元是连续教程旁白，反问为排查清单，无实际问答或换人标记；没有以自动播放代替人耳听辨。八十端口负载解释和转入sar保留完整，避免把流量突增短尾单独合成。",
+      "preserved_facts": "八十端口与简单计数；高连接数只提示可能问题或流量突增；sar 历史数据及利用率例子保持。",
+      "intended_delivery": "编辑意图：移除旧字幕切分造成的句中逗号，完整意群清楚连贯；疑问保留询问语气。未试听，不声称实际情感或发音改善。"
+    },
+    {
+      "unit_ids": [
+        24,
+        25
+      ],
+      "source": "other tools we've discussed what sets it apart is his ability to save historical d data many Linux distributions configure s to collect data periodically this automated data collection can be invaluable if users report intermittent slowdowns we can use S to look back at previous dayses and spot performance Trends it's particularly useful for correlating system performance with specific times or events it might identify patterns not obvious in",
+      "before": "虽然它提供的信息与前面一些工具相似，但突出之处是可以保存历史数据。许多 Linux 发行版会配置 sar 定期采集。如果用户反映间歇性，变慢，这些自动收集的数据就很有价值：可以回看前几天，查找趋势，把性能与特定时间或事件关联，发现实时监控不易察觉的规律。",
+      "source_start": "324.88",
+      "source_end": "352.84",
+      "remove_comma_after_unit": 24,
+      "display": "虽然它提供的信息与前面一些工具相似，但突出之处是可以保存历史数据。许多 Linux 发行版会配置 sar 定期采集。如果用户反映间歇性变慢，这些自动收集的数据就很有价值：可以回看前几天，查找趋势，把性能与特定时间或事件关联，发现实时监控不易察觉的规律。",
+      "spoken": "虽然它提供的信息与前面一些工具相似，但突出之处是可以保存历史数据。许多 Linux 发行版会配置 sar 定期采集。如果用户反映间歇性变慢，这些自动收集的数据就很有价值：可以回看前几天，查找趋势，把性能与特定时间或事件关联，发现实时监控不易察觉的规律。",
+      "voice": "zh-CN-YunxiNeural",
+      "speaker_id": "video_narrator",
+      "source_review_note": "全部29单元是连续教程旁白，反问为排查清单，无实际问答或换人标记；没有以自动播放代替人耳听辨。sar定期采集、历史回看和事件相关性是完整方法。",
+      "preserved_facts": "sar 可保存历史数据及定期采集；间歇变慢可回看前几天并关联时间事件，不作当前系统配置保证。",
+      "intended_delivery": "编辑意图：移除旧字幕切分造成的句中逗号，完整意群清楚连贯；疑问保留询问语气。未试听，不声称实际情感或发音改善。"
+    },
+    {
+      "unit_ids": [
+        26,
+        27
+      ],
+      "source": "real-time monitoring it's important to stress that we are just scratching the service here the Linux performance landscape is is vast there are tools for every level of the system from Hardware all the way up to applications and for every subsystem from file systems to network Stacks remember this process is iterative we might need to use multiple tools and dig deeper depending on what we find the key is to start broad with tools like up time and top then narrow",
+      "before": "必须强调，这里只是入门。Linux 性能分析的范围非常广，从硬件到应用，每一层都有工具，也覆盖，文件系统、网络栈等各个子系统。这是个迭代过程，要根据发现配合多种工具，逐步深入。先用 uptime、top 等工具纵览，再根据线索缩小范围。",
+      "source_start": "352.84",
+      "source_end": "380.72",
+      "remove_comma_after_unit": 26,
+      "display": "必须强调，这里只是入门。Linux 性能分析的范围非常广，从硬件到应用，每一层都有工具，也覆盖文件系统、网络栈等各个子系统。这是个迭代过程，要根据发现配合多种工具，逐步深入。先用 uptime、top 等工具纵览，再根据线索缩小范围。",
+      "spoken": "必须强调，这里只是入门。Linux 性能分析的范围非常广，从硬件到应用，每一层都有工具，也覆盖文件系统、网络栈等各个子系统。这是个迭代过程，要根据发现配合多种工具，逐步深入。先用 uptime、top 等工具纵览，再根据线索缩小范围。",
+      "voice": "zh-CN-YunxiNeural",
+      "speaker_id": "video_narrator",
+      "source_review_note": "全部29单元是连续教程旁白，反问为排查清单，无实际问答或换人标记；没有以自动播放代替人耳听辨。多层性能工具与由广到窄的迭代总结完整保留。",
+      "preserved_facts": "仅为入门；硬件到应用及文件系统网络栈覆盖；迭代、多工具、先宽后窄的调查方法保持。",
+      "intended_delivery": "编辑意图：移除旧字幕切分造成的句中逗号，完整意群清楚连贯；疑问保留询问语气。未试听，不声称实际情感或发音改善。"
+    }
+  ],
+  "preserved_unchanged_groups": [
+    [
+      1
+    ],
+    [
+      8,
+      9
+    ],
+    [
+      28,
+      29
+    ]
+  ],
+  "unchanged_scope": "不修订原英文、来源角色、单位窗口、导读、原声备用轨或正式媒体；不改变未选组。",
+  "review_boundary": "仅原文和文字审校，来源自动字幕错误仍按旧来源记录；引擎词边界不是声学或人耳证据。",
+  "canonical_adoption": false,
+  "human_selected": false,
+  "human_listened": false,
+  "pronunciation_or_emotion_approved": false,
+  "new_source_role_approval": false,
+  "final_delivery_approved": false
+}

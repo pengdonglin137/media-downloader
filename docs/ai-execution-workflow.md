@@ -1,5 +1,11 @@
 # AI 执行工作流：自包含中文译配视频
 
+## 2026-11-15：Linux Performance Tools完整意群朗读候选
+
+- 使用`python -m media_workflow.grouped_phrase_refinement synthesize|assemble|package --plan PLAN --output EXTERNAL`；实际环境为既有pyvideotrans虚拟环境、仓库PYTHONPATH。`--resume`只可用于有身份收据的未完成合成，不重跑成功TTS。
+- 必须保留完整返回MP3、字边界与等长增益PCM，先证原窗容纳及完整内容再组装；不可用裁剪、后移/借窗、隐藏加速或审批覆盖。包装沿用导读/原画/原声备用轨，逐项核对实际包与时间。
+- 旧FFprobe4.4使用`pkt_pts`非`pts`；只修核验并复用成功探测/解码，不重做媒体。受限JPEG压缩失败保留，8张成功图复用，剩图逐级缩放至实际≤32768字节；不将图审或词元数据升级为人耳批准。
+
 ## 2026-11-15：Linux审校字幕五词组断行与否定词保护
 
 先读request-0sZlaQr3e2w-20261114/checkpoint-text-layout-v2/execution-progress.json；最新完整审校载体为同请求text-layout-v2/review-v2/source-text-review.mp4。新控制先追加五词组，再根据中间图审补不能保护；两控制／媒体和旧冻结实现均保留，两次正常source_subtitle_review各实际执行六子步骤。
