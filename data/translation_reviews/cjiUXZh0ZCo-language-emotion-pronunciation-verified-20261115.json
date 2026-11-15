@@ -1,0 +1,161 @@
+{
+  "kind": "language-emotion-pronunciation-independent-candidate-verification-v1",
+  "passed": true,
+  "verified_at": "2026-11-15T03:59:10+00:00",
+  "verifier": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/language-emotion-pronunciation-v1/verify-candidates-v1.py",
+    "bytes": 9188,
+    "mtime_ns": 1794715073555903647,
+    "sha256": "b903bdf9f08eafb33faf7a343f6ee97198eb3411254f901eb211f187f13b3007"
+  },
+  "baseline": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/language-emotion-pronunciation-v1/baseline.json",
+    "bytes": 2174713,
+    "mtime_ns": 1794714911783708204,
+    "sha256": "3bc98767b5a82914243e171de284efb48f5d113c9ec056d3c813a56eca30ba53"
+  },
+  "plan": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/language-emotion-pronunciation-v1/preview-plan-v1.json",
+    "bytes": 15918,
+    "mtime_ns": 1794714983494753597,
+    "sha256": "b03125673b7e53685d42728226ea2e5726a576cf69a7f0642fc759920201325b"
+  },
+  "manifest": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/language-emotion-pronunciation-v1/preview-v1/manifest.json",
+    "bytes": 13876,
+    "mtime_ns": 1794714994354766492,
+    "sha256": "c1ed7adf8f291f677897e69cbabfa9a785567058c10f3e8fa5228f84210ce84a"
+  },
+  "native_check": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/language-emotion-pronunciation-v1/preview-check-v1.log",
+    "bytes": 917,
+    "mtime_ns": 1794714995044767361,
+    "sha256": "0b93069b903d48ce77cc226ee1fe16674678eacfde9aa774717a3bb4345dc537"
+  },
+  "diagnostics": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/language-emotion-pronunciation-v1/diagnostics-v1/complete.json",
+    "bytes": 4641,
+    "mtime_ns": 1794715049999855269,
+    "sha256": "4061963fb77da4533032ae85a6bb6a49f4ee44ff668af1a4a50a2639d69c2785"
+  },
+  "current_before_provenance": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/language-emotion-pronunciation-v1/current-before-provenance-v1.json",
+    "bytes": 3281,
+    "mtime_ns": 1794714983493753596,
+    "sha256": "d1800fe94c840d63e50b447d26c1e7928dc81b08a8cf5ca1dc85ca31c22ada2c"
+  },
+  "internal_comparison_page_not_delivery": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/language-emotion-pronunciation-v1/internal-comparison-v1.html",
+    "bytes": 7982,
+    "mtime_ns": 1794715150143101038,
+    "sha256": "21155fb9c79bba45f2d4c941ebb0c2aabb76a77276d4033f65d8959b697ba83c"
+  },
+  "pairings": [
+    {
+      "key": "unit-311-helpful-clear",
+      "unit_id": 311,
+      "seconds": 12.912,
+      "source_window_seconds": 17.87,
+      "remaining_samples": 118992,
+      "word_boundaries": 34,
+      "word_boundary_text_coverage_complete": true,
+      "word_boundary_spoken_times_or_emotion_human_verified": false,
+      "diagnostic_texts": {
+        "small": "这对我们的数据中心非常有帮助 那里数据量大,服务器也多 我们希望建立一套系统,预防未来的异常 这就是创建这个异常检测模型的原因",
+        "medium": "这对我们的数据中心非常有帮助 那里数据量大,服务器也多 我们希望建立一套系统 预防未来的异常 这就是创建这个异常检测模型的原因"
+      }
+    },
+    {
+      "key": "unit-311-helpful-emphasis",
+      "unit_id": 311,
+      "seconds": 12.912,
+      "source_window_seconds": 17.87,
+      "remaining_samples": 118992,
+      "word_boundaries": 32,
+      "word_boundary_text_coverage_complete": true,
+      "word_boundary_spoken_times_or_emotion_human_verified": false,
+      "diagnostic_texts": {
+        "small": "这对我们的数据中心 真的很有帮助 数据量大 服务器也多 我们希望建立一套系统 预防未来的异常 所以 才创建了这个异常检测模型",
+        "medium": "這對我們的數據中心,真的很有幫助,數據量大,服務器也多,我們希望建立一套系統預防未來的異常,所以才創建了這個異常檢測模型。"
+      }
+    },
+    {
+      "key": "unit-318-affection-explicit",
+      "unit_id": 318,
+      "seconds": 10.416,
+      "source_window_seconds": 11.67,
+      "remaining_samples": 30096,
+      "word_boundaries": 26,
+      "word_boundary_text_coverage_complete": true,
+      "word_boundary_spoken_times_or_emotion_human_verified": false,
+      "diagnostic_texts": {
+        "small": "这和我的职业经历相似 但你不必做研究 我做研究因为我热爱研究 直到现在 依然热爱也热爱教学",
+        "medium": "这和我的职业经历相似 但你不必做研究 我做研究 因为我热爱研究 直到现在 依然热爱 也热爱教学"
+      }
+    },
+    {
+      "key": "unit-318-affection-continuity",
+      "unit_id": 318,
+      "seconds": 9.432,
+      "source_window_seconds": 11.67,
+      "remaining_samples": 53712,
+      "word_boundaries": 25,
+      "word_boundary_text_coverage_complete": true,
+      "word_boundary_spoken_times_or_emotion_human_verified": false,
+      "diagnostic_texts": {
+        "small": "这和我的职业经历相似 但你不必做研究 我做研究是因为热爱 现在依然热爱研究 也热爱教学",
+        "medium": "這和我的職業經歷相似 但你不必做研究 我做研究是因為熱愛 現在依然熱愛研究 也熱愛教學"
+      }
+    },
+    {
+      "key": "unit-319-hadoop-latin",
+      "unit_id": 319,
+      "seconds": 10.536,
+      "source_window_seconds": 13.039,
+      "remaining_samples": 60072,
+      "word_boundaries": 27,
+      "word_boundary_text_coverage_complete": true,
+      "word_boundary_spoken_times_or_emotion_human_verified": false,
+      "diagnostic_texts": {
+        "small": "你要會開發應用對Java和Hadoop有基本瞭解 不必是專家,但要懂軟件,也要熟悉成本和總擁有成本",
+        "medium": "你要会开发应用,对Java和Hadoop有基本了解 不必是专家,但要懂软件,也要熟悉成本和总拥有成本"
+      }
+    },
+    {
+      "key": "unit-319-hadoop-project-alias",
+      "unit_id": 319,
+      "seconds": 10.008,
+      "source_window_seconds": 13.039,
+      "remaining_samples": 72744,
+      "word_boundaries": 27,
+      "word_boundary_text_coverage_complete": true,
+      "word_boundary_spoken_times_or_emotion_human_verified": false,
+      "diagnostic_texts": {
+        "small": "你要会开发应用对胶网和哈度浦有基本了解 不必是专家,但要懂软件,也要熟悉成本和总拥有成本",
+        "medium": "你要会开发应用,对Java和Hadoop有基本了解。 不必是专家,但要懂软件,也要熟悉成本和总拥有成本。"
+      }
+    }
+  ],
+  "preserved_counts": {
+    "records": 6351,
+    "canonical_targets": 31,
+    "frozen_root_python": 98,
+    "production_mp3": 293,
+    "unrelated_untracked": 13
+  },
+  "new_TTS": 6,
+  "new_source_ASR": 0,
+  "new_Chinese_diagnostic_observations": 12,
+  "complete_cases": 6,
+  "normal_rate_fits": 6,
+  "professional_phonemes_emotion_or_human_approval": false,
+  "formal_adoption": false,
+  "source_311_missing_evaluation_restored_in_candidates": true,
+  "source_holds_216_217_227_248_310_317_unchanged": true,
+  "Linux_27holds_23markers_F08_unchanged": true,
+  "goal_status": "active",
+  "actual_nonzero_steps_preserved": [
+    "prepare-v1: float plus Decimal,failed before any TTS or canonical writes"
+  ],
+  "current_source_windows_original_audio_database_and_media_unchanged": true
+}

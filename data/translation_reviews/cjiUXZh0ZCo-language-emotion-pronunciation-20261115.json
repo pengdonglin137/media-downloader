@@ -1,0 +1,197 @@
+{
+  "kind": "helpfulness-affection-pronunciation-complete-candidate-review-v1",
+  "video_id": "cjiUXZh0ZCo",
+  "goal_status": "active",
+  "formal_adoption": false,
+  "review": {
+    "kind": "complete-context-language-emotion-review-v1",
+    "context_read_units": [
+      307,
+      308,
+      309,
+      310,
+      311,
+      312,
+      313,
+      314,
+      315,
+      316,
+      317,
+      318,
+      319,
+      320,
+      321
+    ],
+    "selected_units": [
+      311,
+      318,
+      319
+    ],
+    "missing_phrase_found": {
+      "unit_id": 311,
+      "source": "which is very very helpful in our data centers",
+      "current_Chinese_missing_this_clause": true,
+      "new_candidates_restore_evaluation_not_guaranteed_anomaly_prevention": true
+    },
+    "Hadoop_alias": {
+      "kind": "project-style-experimental-not-dictionary-reference",
+      "display": "Hadoop",
+      "spoken_candidate": "哈杜普",
+      "authoritative_phoneme_source_found": false,
+      "phoneme_approval": false,
+      "automatic_adoption": false
+    },
+    "source_310": {
+      "kept_open": true,
+      "reason": "Caption unsupervised versus both existing local ASR and supervise;do not resolve by guessing the algorithm."
+    },
+    "source_317_surname": {
+      "kept_open": true,
+      "reason": "Do not infer the spoken surname merely from a familiar architecture textbook."
+    },
+    "preserved_source_holds": [
+      216,
+      217,
+      227,
+      248,
+      310,
+      317
+    ],
+    "emotion_intention_not_heard_winner": {
+      "311": "helpfulness/emphasis",
+      "318": "love of research and teaching"
+    },
+    "current_media_text_and_database_modified": false,
+    "professional_phoneme_or_emotion_approved": false
+  },
+  "diagnostic_interpretation": {
+    "kind": "agent-reviewed-lexical-diagnostics-not-phoneme-listening-v1",
+    "reviewed_at": "2026-11-15T04:00:50+00:00",
+    "diagnostic_observations": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/language-emotion-pronunciation-v1/diagnostics-v1/complete.json",
+      "bytes": 4641,
+      "mtime_ns": 1794715049999855269,
+      "sha256": "4061963fb77da4533032ae85a6bb6a49f4ee44ff668af1a4a50a2639d69c2785"
+    },
+    "311": "Both models recover restored helpfulness and the wish to prevent future anomalies in both complete variants; this restores omitted source meaning,not evidence the model guarantees prevention.",
+    "318": "Both models recover that research is not required and the lecturer loved/still loves research and teaching; no emotion/naturalness winner chosen.",
+    "319_latin": "Both models recover Java and Hadoop and the not-expert/basic-understanding and cost/TCO-meaning clauses in the new complete Latin-name version. The previous old small output had要毁/黑Dope; this is a changed lexical diagnostic,not proof the new phonemes are correct.",
+    "319_project_alias": "small outputs胶网/哈度浦 while medium writesJava/Hadoop for the same Chinese alias input; preserve this disagreement,do not rewrite text to ASR mistakes or automatically adopt the alias.",
+    "source_fidelity_next_candidate": {
+      "key": "unit-311-helpful-clear",
+      "reason": "Restores the omitted very very helpful clause while retaining tentative prevention and every remaining source fact; preference is textual fidelity,not human/acoustic selection."
+    },
+    "professional_phoneme_or_emotion_approval": false,
+    "human_listened": false,
+    "automatic_winner_or_database_decision": null,
+    "formal_adoption": false
+  },
+  "complete_cases": [
+    {
+      "key": "unit-311-helpful-clear",
+      "unit_id": 311,
+      "source": "which is very very helpful in our data centers we have a large amount of data and servers would like to to to create some system to prevent any anomaly in the future this is why we created this model of anomaly detection",
+      "current_display": "数据中心里，数据量大，服务器也多。我们希望建立一套系统，预防未来的异常，这就是创建异常检测模型的原因。",
+      "current_spoken": "数据中心里，数据量大，服务器也多。我们希望建立一套系统，预防未来的异常，这就是创建异常检测模型的原因。",
+      "display": "这对我们的数据中心，非常有帮助。那里数据量大，服务器也多。我们希望建立一套系统，预防未来的异常；这就是创建这个异常检测模型的原因。",
+      "spoken": "这对我们的数据中心，非常有帮助。那里数据量大，服务器也多。我们希望建立一套系统，预防未来的异常；这就是创建这个异常检测模型的原因。",
+      "reason": "恢复当前中文遗漏的very very helpful；保持预防异常为希望与建模动机，不宣称模型已保证阻止异常。",
+      "preserved_facts": [
+        "数据中心非常有帮助",
+        "大量数据与服务器",
+        "希望建立系统预防未来异常",
+        "因此创建异常检测模型"
+      ]
+    },
+    {
+      "key": "unit-311-helpful-emphasis",
+      "unit_id": 311,
+      "source": "which is very very helpful in our data centers we have a large amount of data and servers would like to to to create some system to prevent any anomaly in the future this is why we created this model of anomaly detection",
+      "current_display": "数据中心里，数据量大，服务器也多。我们希望建立一套系统，预防未来的异常，这就是创建异常检测模型的原因。",
+      "current_spoken": "数据中心里，数据量大，服务器也多。我们希望建立一套系统，预防未来的异常，这就是创建异常检测模型的原因。",
+      "display": "这对我们的数据中心，真的很有帮助！数据量大，服务器也多；我们希望建立一套系统，预防未来的异常。所以，才创建了这个异常检测模型。",
+      "spoken": "这对我们的数据中心，真的很有帮助！数据量大，服务器也多；我们希望建立一套系统，预防未来的异常。所以，才创建了这个异常检测模型。",
+      "reason": "同样补回very very helpful，用讲者强调和因果停顿表达积极态度；不是已听辨的情感胜者。",
+      "preserved_facts": [
+        "数据中心非常有帮助",
+        "大量数据与服务器",
+        "希望建立系统预防未来异常",
+        "因此创建异常检测模型"
+      ]
+    },
+    {
+      "key": "unit-318-affection-explicit",
+      "unit_id": 318,
+      "source": "this is going to be similar thing as my career you don't need to do the research I did research because I loved research and they still love research I love also teaching",
+      "current_display": "这和我的职业经历相似。但你不必做研究。我做研究，是因为热爱——现在依然热爱研究，也热爱教学。",
+      "current_spoken": "这和我的职业经历相似。但你不必做研究。我做研究，是因为热爱——现在依然热爱研究，也热爱教学。",
+      "display": "这和我的职业经历相似。但你不必做研究。我做研究，因为我热爱研究；直到现在，依然热爱，也热爱教学。",
+      "spoken": "这和我的职业经历相似。但你不必做研究。我做研究，因为我热爱研究；直到现在，依然热爱，也热爱教学。",
+      "reason": "完整保留不要求听众研究、过去与现在对研究的热爱及教学；用明确对象而非悬空破折号表达，不增人生建议。",
+      "preserved_facts": [
+        "类似本人职业经历",
+        "不必做研究",
+        "当时热爱研究",
+        "现在仍然热爱研究",
+        "也热爱教学"
+      ]
+    },
+    {
+      "key": "unit-318-affection-continuity",
+      "unit_id": 318,
+      "source": "this is going to be similar thing as my career you don't need to do the research I did research because I loved research and they still love research I love also teaching",
+      "current_display": "这和我的职业经历相似。但你不必做研究。我做研究，是因为热爱——现在依然热爱研究，也热爱教学。",
+      "current_spoken": "这和我的职业经历相似。但你不必做研究。我做研究，是因为热爱——现在依然热爱研究，也热爱教学。",
+      "display": "这和我的职业经历相似。但你不必做研究。我做研究，是因为热爱；现在依然热爱研究，也热爱教学。",
+      "spoken": "这和我的职业经历相似。但你不必做研究。我做研究，是因为热爱；现在依然热爱研究，也热爱教学。",
+      "reason": "只把已采用完整稿中的破折号换为分号；真实合成比较停顿，不把标点等同情感批准。",
+      "preserved_facts": [
+        "类似本人职业经历",
+        "不必做研究",
+        "当时热爱研究",
+        "现在仍然热爱研究",
+        "也热爱教学"
+      ]
+    },
+    {
+      "key": "unit-319-hadoop-latin",
+      "unit_id": 319,
+      "source": "you need to know how to develop application and Java and Hadoop - not an expert but the general understanding of software you need to be good in cost and TCO",
+      "current_display": "要会开发应用，基本了解 Java、Hadoop；不必是专家，但得懂软件，也得懂成本和总拥有成本。",
+      "current_spoken": "要会开发应用，基本了解 Java、Hadoop；不必是专家，但得懂软件，也得懂成本和总拥有成本。",
+      "display": "你要会开发应用，对 Java 和 Hadoop 有基本了解。不必是专家，但要懂软件，也要熟悉成本和总拥有成本。",
+      "spoken": "你要会开发应用，对 Java 和 Hadoop 有基本了解。不必是专家，但要懂软件，也要熟悉成本和总拥有成本。",
+      "reason": "完整重述基本了解而非专家的限定，以和隔开两个名字；保留开发能力、软件与成本/TCO，不跟随旧ASR黑Dope或要毁误字改译。",
+      "preserved_facts": [
+        "会开发应用",
+        "Java与Hadoop基本了解",
+        "不要求专家",
+        "懂软件",
+        "熟悉成本和总拥有成本"
+      ]
+    },
+    {
+      "key": "unit-319-hadoop-project-alias",
+      "unit_id": 319,
+      "source": "you need to know how to develop application and Java and Hadoop - not an expert but the general understanding of software you need to be good in cost and TCO",
+      "current_display": "要会开发应用，基本了解 Java、Hadoop；不必是专家，但得懂软件，也得懂成本和总拥有成本。",
+      "current_spoken": "要会开发应用，基本了解 Java、Hadoop；不必是专家，但得懂软件，也得懂成本和总拥有成本。",
+      "display": "你要会开发应用，对 Java 和 Hadoop 有基本了解。不必是专家，但要懂软件，也要熟悉成本和总拥有成本。",
+      "spoken": "你要会开发应用，对 Java 和哈杜普有基本了解。不必是专家，但要懂软件，也要熟悉成本和总拥有成本。",
+      "reason": "仅配音输入试验哈杜普这一项目风格候选；字幕保留Hadoop。未找到权威音素来源，不称字典结论或正确读音，不自动采用。",
+      "preserved_facts": [
+        "会开发应用",
+        "Java与Hadoop基本了解",
+        "不要求专家",
+        "懂软件",
+        "熟悉成本和总拥有成本"
+      ]
+    }
+  ],
+  "registration": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/checkpoint-language-emotion-pronunciation-v1/metadata-registration.json",
+    "bytes": 17025,
+    "mtime_ns": 1794715250638441833,
+    "sha256": "d7d4c115f79b868a83e5c66f04235c01983e4c08520d7dbb7ab580d4285e203e"
+  }
+}
