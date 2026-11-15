@@ -1,0 +1,72 @@
+{
+  "kind": "perf-isolated-audio-verification-v2",
+  "video_id": "M6ldFtwWup0",
+  "status": "verified-progress",
+  "goal_status": "active",
+  "external_root": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/production-admission-v1",
+  "independent_verification": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/production-admission-v1/independent-v2.json",
+    "bytes": 17618,
+    "mtime_ns": 1794741861553844709,
+    "sha256": "3ae12b181306cbde1c3e10f2ba933452e607d9a6c5ba6705df43077baca07b6a"
+  },
+  "source_units": 53,
+  "language_TTS_caches": 52,
+  "non_TTS_reservations": 1,
+  "statistics_normal53_includes_placeholder": true,
+  "v1_strict_start_claim_superseded": true,
+  "v1_early_start_units": [
+    4,
+    14,
+    16,
+    24,
+    28,
+    51,
+    53
+  ],
+  "correction_samples_each": 1,
+  "complete_chunks_no_trim_resynthesis": true,
+  "actual_composite": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/production-admission-v1/sample-grid-v2/candidate-with-actual-source.wav",
+    "bytes": 52840268,
+    "mtime_ns": 1794741860844839014,
+    "sha256": "9fe988040dcf09d5b931cd9f3184cf23278872e5b65c8489fb6b5335b60bc581"
+  },
+  "source_retained_samples": 466560,
+  "source_retained_seconds": 19.44,
+  "sample_rate": 24000,
+  "source_stream": "0:a:0",
+  "gain_db": 0,
+  "body_offset_samples": 0,
+  "guide_audio": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/production-admission-v1/ai-guide-v1/intro.wav",
+    "bytes": 2550750,
+    "mtime_ns": 1794741540419161919,
+    "sha256": "370af15478b19851da88db427e1c791d3ae242fd3a1d15f130e22b110943e722"
+  },
+  "guide_samples": 1275353,
+  "guide_seconds": 53.13970833333333,
+  "planned_body_chapters_not_embedded": 20,
+  "unreviewed_native_base_scan_candidates": 6,
+  "speech_decisions_and_resolutions": 0,
+  "new_ASR": 0,
+  "new_final_media": 0,
+  "canonical_adoption": false,
+  "formal_native_narration_modified": false,
+  "human_listened": false,
+  "phoneme_emotion_role_or_final_approved": false,
+  "Linux27holds23markers_criticalAI_F08_unchanged": true,
+  "successfully_synthesized_audio_must_not_be_rerun": true,
+  "preserved_counts": {
+    "records": 10304,
+    "canonical_targets": 31,
+    "frozen_root_python": 98,
+    "production_mp3": 293,
+    "unrelated_untracked": 13
+  },
+  "strict_exact_grid_start_and_end_windows": true,
+  "inside_source_and_outside_exact_base_PCM_equal": true,
+  "guide_complete_PCM_reconstruction": true,
+  "first_v1_strict_start_claim_retracted_without_rewriting_old_receipts": true,
+  "full_human_listening_visual_word_alignment_PotPlayer": false
+}

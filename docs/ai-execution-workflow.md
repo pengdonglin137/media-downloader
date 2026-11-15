@@ -1,5 +1,12 @@
 # AI 执行工作流：自包含中文译配视频
 
+## 2026-11-15：Perf隔离候选只续未完成项，不重跑成功合成
+
+- 先读request-M6ldFtwWup0-20261114/checkpoint-isolated-audio-v1及production-admission-v1/RUNTIME-continuation-v1.md。已有compile、52语言TTS／1占位、一次扫描、19.44秒实录复合及三场景有声导读均有成功实物；不得因续做再合成、ASR或扫描。
+- 来源53项完整绑定2235选词、43显式修订、7边界修订；四处旧疑点中三项保留原讲、由独立AI说明纠正，文件系统未清处实际保留源音。文字审校、PCM转换一致性均非人耳或角色批准。
+- 原生narration仍指未改基础TTS；v1验证漏查七个早1采样起点，严格声明失效。仅sample-grid-v2移动完整句块、再回填实录的新WAV通过精确原窗，旧实物保留。后续先明确绑定v2复合来源，再核对双版主轨／实际导读偏移／质量与成片，不得裸render／package／release／upload或伪造词界。
+- 六候选不自动dismiss，20正文锚点不冒充已内嵌章节；不重算队列、不扩播放列表、不发布。所有旧门禁与目标active保持。
+
 ## 2026-11-15：Perf首稿先解四处疑点，再正式来源重建
 
 继续request-M6ldFtwWup0-20261114/checkpoint-full-source-translation-v1：先读53意群首稿、22组词面说明和独立身份核验。85原单元和任务未改，不把新候选窗当正式编号，不覆盖旧JSON3或把1100.429→1098.838写成已执行尾修。

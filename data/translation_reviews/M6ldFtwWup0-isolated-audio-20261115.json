@@ -1,0 +1,87 @@
+{
+  "kind": "perf-isolated-audio-progress-v1",
+  "video_id": "M6ldFtwWup0",
+  "status": "verified-progress",
+  "goal_status": "active",
+  "external_root": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/production-admission-v1",
+  "independent_verification": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/production-admission-v1/independent-v2.json",
+    "bytes": 17618,
+    "mtime_ns": 1794741861553844709,
+    "sha256": "3ae12b181306cbde1c3e10f2ba933452e607d9a6c5ba6705df43077baca07b6a"
+  },
+  "source_units": 53,
+  "language_TTS_caches": 52,
+  "non_TTS_reservations": 1,
+  "statistics_normal53_includes_placeholder": true,
+  "v1_strict_start_claim_superseded": true,
+  "v1_early_start_units": [
+    4,
+    14,
+    16,
+    24,
+    28,
+    51,
+    53
+  ],
+  "correction_samples_each": 1,
+  "complete_chunks_no_trim_resynthesis": true,
+  "actual_composite": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/production-admission-v1/sample-grid-v2/candidate-with-actual-source.wav",
+    "bytes": 52840268,
+    "mtime_ns": 1794741860844839014,
+    "sha256": "9fe988040dcf09d5b931cd9f3184cf23278872e5b65c8489fb6b5335b60bc581"
+  },
+  "source_retained_samples": 466560,
+  "source_retained_seconds": 19.44,
+  "sample_rate": 24000,
+  "source_stream": "0:a:0",
+  "gain_db": 0,
+  "body_offset_samples": 0,
+  "guide_audio": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/production-admission-v1/ai-guide-v1/intro.wav",
+    "bytes": 2550750,
+    "mtime_ns": 1794741540419161919,
+    "sha256": "370af15478b19851da88db427e1c791d3ae242fd3a1d15f130e22b110943e722"
+  },
+  "guide_samples": 1275353,
+  "guide_seconds": 53.13970833333333,
+  "planned_body_chapters_not_embedded": 20,
+  "unreviewed_native_base_scan_candidates": 6,
+  "speech_decisions_and_resolutions": 0,
+  "new_ASR": 0,
+  "new_final_media": 0,
+  "canonical_adoption": false,
+  "formal_native_narration_modified": false,
+  "human_listened": false,
+  "phoneme_emotion_role_or_final_approved": false,
+  "Linux27holds23markers_criticalAI_F08_unchanged": true,
+  "successfully_synthesized_audio_must_not_be_rerun": true,
+  "source_revisions": 43,
+  "semantic_boundary_revisions": 7,
+  "selected_observation_words": 2235,
+  "parent_plan": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/production-admission-v1/admission-plan-v1.json",
+    "bytes": 860518,
+    "mtime_ns": 1794740936335027097,
+    "sha256": "75e23d74b923c426131f50060244bb6447e328d3f4e6d4a20110b863a7aa167f"
+  },
+  "guide_plan": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/production-admission-v1/ai-guide-v1/plan.json",
+    "bytes": 9043,
+    "mtime_ns": 1794741530959079002,
+    "sha256": "5fd3ef4423caafd0b565ae029234b237c6df89b6d12a561ec8fe897c2c5082ec"
+  },
+  "source_composite_alignment": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/production-admission-v1/sample-grid-v2/alignment-and-composition.json",
+    "bytes": 20881,
+    "mtime_ns": 1794741861090840990,
+    "sha256": "7571aff85dfc3a0df3f77ba0d6f967953ee0d4f4a75e415b3e28d4e28e2407df"
+  },
+  "runtime": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/production-admission-v1/RUNTIME-continuation-v1.md",
+    "bytes": 2287,
+    "mtime_ns": 1794741921547323803,
+    "sha256": "0d9b7270875955d3f63f44757a566a13c20070bc2042aae2b0e1cf66b960a98d"
+  }
+}
