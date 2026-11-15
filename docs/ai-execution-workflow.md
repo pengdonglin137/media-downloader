@@ -1,5 +1,13 @@
 # AI 执行工作流：自包含中文译配视频
 
+## 2026-11-15：216/217双版本安装后的精确只读入口
+
+本请求source-reservation-media-v1/check-installed-v1.py绑定实际原声profile、历史授权、31文件已提交事务和安装后独立核验；只读复核现正式24区／41项及质量绑定，不重新prepare／扫描／TTS／ASR／编码。裸旧CLI不认识新增actual-source选择，必须使用显式source_reservation_media／source_reservation_install运行时，不填假MP3或词界绕过。
+
+成功候选已完整解码并核验两版中文AAC／PCM、167187全片帧表、26诊断及14张逐张受限图；旧31目标与历史计划分别精确归档。正式库128扫描、186候选、12非dismiss分类、0决定解决，新扫描仅对应候选媒体及安装后当前路径，不重扫成功预检。全库tests不可导入真实1保留，27有限夹具不是全套测试。
+
+VLC含真实decoder／timestamp警告、原因未知，不是人耳或全片播放批准。216/217定义指代、application／memory交接、understand／extend及其他声音门禁保持；下一续未决语言声音审校，不重制成功媒体。Linux27holds／23markers／criticalAI-F08未变，详情见science-performance-source-media-2026-11-15.md。
+
 ## 2026-11-15：216/217实际原声预检的精确续做入口
 
 使用request-cjiUXZh0ZCo-20261114/source-reservation-captions-v1/check-preflight-v1.py，只读校验typed selection、ASR投影及独立quality-v1；不能裸用旧caption_projection把原声省略号当TTS。先验证不变的source-reservation-v1/stage-v2，再用source_reservation_projection.runtime的精确配置／输出作用域调用editorial_quality.check，运行时退出即恢复旧检查器。

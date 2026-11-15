@@ -1,0 +1,22 @@
+{
+  "kind": "actual-source-media-adoption-verification-index-v1",
+  "video_id": "cjiUXZh0ZCo",
+  "formal_adoption": true,
+  "independent_verification_path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/source-reservation-media-v1/post-install-independent-v1.json",
+  "checkpoint_directory": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/checkpoint-source-reservation-media-v1",
+  "exact_identity_bindings_in_checkpoint_registration": true,
+  "formal_targets_archived": 31,
+  "database_counts": {"scans": 128, "issues": 12158, "occurrences": 21371, "decisions": 0, "repair_resolutions": 0},
+  "full_video_frames": 167187,
+  "intro_frames": 1206,
+  "body_video_packets": 165981,
+  "fixed_offset_diagnostics": 26,
+  "finite_fixture_cases_passed": 27,
+  "repository_unittest_discovery_actual_exit": 1,
+  "repository_test_suite_passed": false,
+  "individual_actual_upload_images_opened": 14,
+  "finite_VLC_API_passed": true,
+  "VLC_warning_free_or_cause_verified": false,
+  "human_listened_or_final_approved": false,
+  "goal_status": "active"
+}

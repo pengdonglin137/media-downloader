@@ -1,5 +1,13 @@
 # 本仓库的 AI 执行入口
 
+## 2026-11-15：216/217实际原声已安装到双版本，品质门禁仍保留
+
+- 只续cjiUXZh0ZCo成功预检，复用38.4秒实际原声PCM及4／6句ASR字幕，无新TTS／ASR／PCM改写。两版真实编码、完整解码、26固定偏移音频对照及全片帧表通过；40.2秒有声导读／85章／5572.982秒保持。全片167187帧含1206导读帧、正文165981视频包，纠正旧文将167187称正文帧，不改绑定旧证据。
+- 新source_reservation_media只给原生媒体验证器精确来源样本视图，不改物理契约、不伪造TTS词界或全局替换state I/O。source_reservation_install绑定真实候选验证、图审和独立历史授权，继续原生31文件事务；旧31目标精确归档，正式现24原声区／41预留项。不裸用旧CLI、不重跑成功扫描／编码。
+- 正式库128扫描／12158 issues／21371 occurrences、旧行全留；186候选、12非dismiss分类、0决定解决保持。321原窗、316 normal含非TTS占位／5既有rate_up、21EOF零样本保持。27有限夹具通过；全库unittest发现因tests不可导入真实1保留，不称全套通过。
+- 14张实际上传版JPEG逐张打开，长边≤1280／实际≤32768字节，只是局部图审。有限VLC API通过但decoder／timestamp警告完整保留、原因未核定。216不补not、217不猜指代；application／memory边界及understand／extend分歧未裁决。
+- 入口source-reservation-media-v1/check-installed-v1.py，断点checkpoint-source-reservation-media-v1；9687旧身份／98冻结根Python／293生产MP3及其他130行／13文件保持并排除本轮提交。所有语义、人耳、专业发音、情感、全片／逐词／PotPlayer／最终批准未完成；Linux0sZlaQr3e2w仍awaiting_translation／27holds／23markers／criticalAI-F08，目标active，无自动后台续跑或其他会话停机声明。
+
 ## 2026-11-15：216/217实际原声字幕与独立质量预检通过，正式版仍未替换
 
 - 在独立派生工程新增显式actual-source-retention选择，不给原声伪造MP3试读或TTS词界，不改原暂存契约／两次历史真实1。两单元依既有本地ASR投影为4／6短句；216重复诚实冲突提示，217保留否定及不明指代，审校标记不口播。完整英文轨1019字幕原字节保持，双语选段英文词流及全部窗外字幕文字／时刻保持；ASR锚点不冒称人耳逐词对齐，application／memory跨既有单元边界与understand／extend差异仍公开。

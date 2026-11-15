@@ -1,5 +1,13 @@
 # 译配工作流契约
 
+## 2026-11-15：实际原声样本视图与历史保留安装
+
+新增source_reservation_media，仅从typed actual-source-retention完整来源窗派生精确有理样本坐标，拒绝已有合成字段、外源归属、非整数采样点及越界。只为媒体模块的精确物理契约路径提供深拷贝视图，物理契约及全局state.load／matches不变。原生prepare／encode不变，verify独立绑定视图、真实读取及两完整单元加24来源区共26项诊断；check复用成功证据而非重新解码。
+
+新增source_reservation_install，分别绑定原生候选配置／验证、实际原声profile／验证、安装前审查及独立历史授权。仅分发精确媒体和typed stage路径，异常后恢复旧函数；继续不可变editorial_history及31文件事务，历史计划另行绑定精确归档，不伪造旧生产者或TTS试读。有限路由夹具不代替实际安装，自动来源分类不冒充dismiss。
+
+实际安装事务已提交：正式24区／41项、128扫描且旧行全留，186待听辨／12非dismiss分类／0决定解决。完整解码、167187全片帧表及26音频诊断通过；正文165981视频包加1206导读帧。原声和英文包保持证明针对前版donor，不称最终原声与原始源AAC位级相同。27有限夹具通过，全库tests发现不可导入真实1另存；人工语言声音门禁不关闭，详见docs/science-performance-source-media-2026-11-15.md。
+
 ## 2026-11-15：实际原声选择与ASR字幕投影不冒用合成来源
 
 新增source_reservation_selection派生契约：先校验不变的恢复暂存，精确复制编译输入、复用PCM，cases仅暴露带原窗／源流／来源身份的actual-source-retention项，TTS_preview_or_word_boundaries为null、spoken为…，显式登记新派生写入者。它不修改旧契约或历史失败，不称原适配器生产了新增选择。
