@@ -1,5 +1,13 @@
 # AI 执行工作流：自包含中文译配视频
 
+## 2026-11-15：开场六句完整预览、原窗与安装续做
+
+1. 续做入口为`/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/checkpoint-opening-precision-installed-v1/execution-progress.json`。六个单位16/34/36/60/79/318只改明确源文支持的显示/朗读，不新增或迁移英文来源，不扩播放列表或发布平台。
+2. 34首次14.880秒超14.070秒原窗；保存原预览和composition1，仅等义精简该完整朗读再合成12.840秒。首次四条成功和旧318完整9.432秒复用，不能重跑整个首次五条或称七条全部被采用。
+3. 原生exact-stage、26短句投影与独立检查通过后制成候选；保持23实际原声区、39预留项、21容器静音样本和精确窗外PCM。独立初稿只遍历旧override键遗漏新增键，真实1和源码保留，恢复比较键并集，不改媒体或门禁。
+4. 七媒体操作、完整解码、167187帧日程、29音频诊断、26张受限JPEG逐张打开与有限VLC完成；真实VLC告警保留。31旧目标及原intro计划精确归档，再prepare/apply/check，不重复已成功TTS/编码/解码。
+5. 当前质量入口`/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/opening-precision-emotion-v1/install-six-v1.py postcheck`，显式精确stage→历史→安装；旧来源安装只用于历史基线，不是当前authority。候选未试听、WordBoundary不是音素批准，26日期指代和全部旧门禁保持。
+
 ## 2026-11-15：227工具句当前已采用，不重复成功操作
 
 最新入口为`checkpoint-kernel-tools-installed-v1`，当前工作目录的双版、正式文本与库均由31目标事务采用；`media-v1`九操作和安装prepare/apply/check已真实0。不得重跑成功TTS、编码、全解码或install apply；17.760秒完整语音来自上轮，83WordBoundary/14有限来源用例只是复用证据。

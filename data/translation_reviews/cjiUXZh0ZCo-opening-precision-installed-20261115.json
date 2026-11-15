@@ -1,0 +1,642 @@
+{
+  "kind": "opening-precision-complete-speech-installed-review-v1",
+  "video_id": "cjiUXZh0ZCo",
+  "recorded_at": "2026-11-15T06:40:13+00:00",
+  "review": {
+    "kind": "opening-precision-and-affection-context-review-v1",
+    "recorded_at": "2026-11-15T06:15:45+00:00",
+    "context_read_units": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      308,
+      309,
+      310,
+      311,
+      312,
+      313,
+      314,
+      315,
+      316,
+      317,
+      318,
+      319,
+      320,
+      321
+    ],
+    "edited_units": [
+      16,
+      34,
+      36,
+      60,
+      79,
+      318
+    ],
+    "cases": [
+      {
+        "key": "body-016-france-context",
+        "unit_id": 16,
+        "source": "and then so 80% of software and a little bit of hardware I think that the only explanation is that we didn't have access to the hardware labs and universities in France they don't have this ability to touch things to touch the hardware because they don't have enough money to buy all these supercomputers HPC devices",
+        "source_start": "185.52",
+        "source_end": "208.34",
+        "current_display": "当时大约80%的工作是软件，硬件只占一小部分。我想，原因是我们接触不到足够的硬件。实验室和大学没有足够经费，购买这些超级计算机、HPC 设备。",
+        "current_spoken": "当时大约80%的工作是软件，硬件只占一小部分。我想，原因是我们接触不到足够的硬件。实验室和大学没有足够经费，购买这些超级计算机、H P C 设备。",
+        "display": "当时大约80%的工作是软件，硬件只占一小部分。我想，原因是我们接触不到足够的硬件。法国的实验室和大学没有足够经费，购买这些超级计算机、HPC 设备。",
+        "spoken": "当时大约80%的工作是软件，硬件只占一小部分。我想，原因是我们接触不到足够的硬件。法国的实验室和大学没有足够经费，购买这些超级计算机、H P C 设备。",
+        "reason": "Restore the explicit France scope from the complete current source rather than generalizing the laboratory/university funding observation. Retain the 80 percent software balance,limited hardware access and historical first-person framing.",
+        "preserved_facts": [
+          "80% software and a little hardware",
+          "speaker explanation about access",
+          "labs and universities in France",
+          "insufficient funds for supercomputers/HPC,not a2026 national claim"
+        ],
+        "before_waveform": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/opening-precision-emotion-v1/current-unit-16.wav",
+          "bytes": 1095404,
+          "mtime_ns": 1794722884848693879,
+          "sha256": "f235c5b9119ce24dfff445fa7d25d0f18ecb715f783b1238d2e0d095b515515f"
+        },
+        "speaker_review": {
+          "same_speaker": true,
+          "evidence": "Full current source/context review:presenter autobiography16,agenda34/36,hardware explanation60,continuous aircraft analogy78-80,and autobiographical reflection317-320.Current canonical role/voice mapping and declared original-source reservations retained;not inferred from rhetorical punctuation and not new human acoustic identity approval."
+        }
+      },
+      {
+        "key": "body-034-qualified-exponential-growth",
+        "unit_id": 34,
+        "source": "and we see a huge like exponential increase of using the this intensive compute devices or accelerators software performance essentially Java application why Java application you see why",
+        "source_start": "451.5",
+        "source_end": "465.57",
+        "current_display": "计算密集型设备、这些加速器的使用，增长非常快。软件部分则主要讨论 Java 应用。为什么是 Java？待会儿你们就知道了。",
+        "current_spoken": "计算密集型设备、这些加速器的使用，增长非常快。软件部分则主要讨论 Java 应用。为什么是 Java？待会儿你们就知道了。",
+        "display": "我们看到，这类计算密集型设备、加速器的使用，几乎呈指数级增长。软件部分则主要讨论 Java 应用。为什么是 Java？待会儿你们就知道了。",
+        "spoken": "我们看到，计算密集型设备和加速器的使用，增长近乎指数级。软件主要讲 Java 应用。为什么是 Java？待会儿就知道了。",
+        "reason": "Restore the technical exponential-growth description,qualified by nearly and speaker observation. Preserve the Java agenda and inviting why question;do not present the2019 remark as a measured2026 growth law.",
+        "preserved_facts": [
+          "speaker sees huge like exponential usage increase",
+          "compute-intensive devices/accelerators",
+          "software focus on Java",
+          "why Java remains an invitation,not a changed role"
+        ],
+        "before_waveform": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/opening-precision-emotion-v1/current-unit-34.wav",
+          "bytes": 675404,
+          "mtime_ns": 1794722884850693935,
+          "sha256": "0f424f7392e2d9dbda273ded0a0900068464bda1bd035fc483a354ec90cc883c"
+        },
+        "speaker_review": {
+          "same_speaker": true,
+          "evidence": "Full current source/context review:presenter autobiography16,agenda34/36,hardware explanation60,continuous aircraft analogy78-80,and autobiographical reflection317-320.Current canonical role/voice mapping and declared original-source reservations retained;not inferred from rhetorical punctuation and not new human acoustic identity approval."
+        }
+      },
+      {
+        "key": "body-036-scale-out-and-ai-invitation",
+        "unit_id": 36,
+        "source": "cloud performance this scale out the performance and how we can use artificial intelligence that performs engineering at the same time because it's very poor I mean it's very possible and actually I wrote a paper for a conference and it's going to be a kind of unique how we can mix between two words of artificial intelligence that performance engineering",
+        "source_start": "492.3",
+        "source_end": "515.13",
+        "current_display": "还会讨论云端性能、怎样扩展性能，以及怎样把人工智能和性能工程结合起来。这完全可行；我也为相关会议写过论文，探索这两个领域的结合。",
+        "current_spoken": "还会讨论云端性能、怎样扩展性能，以及怎样把人工智能和性能工程结合起来。这完全可行；我也为相关会议写过论文，探索这两个领域的结合。",
+        "display": "还会讨论云端性能，以及系统怎样做水平扩展。人工智能和性能工程，能不能结合起来？当然可以！我也为会议写过一篇论文，探讨怎样结合这两个领域。在我看来，这种尝试很新颖。",
+        "spoken": "还会讨论云端性能，以及系统怎样做水平扩展。人工智能和性能工程，能不能结合起来？当然可以！我也为会议写过一篇论文，探讨怎样结合这两个领域。在我看来，这种尝试很新颖。",
+        "reason": "Translate scale out explicitly as horizontal expansion,corroborated by the actual Agenda slide. Retain the possible AI/performance combination,the conference-paper writing claim without publication,and the tentative subjective novelty. Invite the listener without inventing an audience response.",
+        "preserved_facts": [
+          "cloud performance and scale out",
+          "AI and performance engineering combination is possible",
+          "speaker wrote a paper for a conference,not established publication",
+          "kind-of-unique is a speaker evaluation,not a global novelty guarantee"
+        ],
+        "before_waveform": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/opening-precision-emotion-v1/current-unit-36.wav",
+          "bytes": 1095884,
+          "mtime_ns": 1794722884851693963,
+          "sha256": "4c9b0cfc57283ab90afdb1032973cda639066de98beb66337366563690bf720d"
+        },
+        "speaker_review": {
+          "same_speaker": true,
+          "evidence": "Full current source/context review:presenter autobiography16,agenda34/36,hardware explanation60,continuous aircraft analogy78-80,and autobiographical reflection317-320.Current canonical role/voice mapping and declared original-source reservations retained;not inferred from rhetorical punctuation and not new human acoustic identity approval."
+        }
+      },
+      {
+        "key": "body-060-cpu-context-and-performance-question",
+        "unit_id": 60,
+        "source": "why is some hardware better than others for different programs so here we are going to talk about the hardware special specifically the the CPU why you have to for example computers at home one is more is faster than other if we talk about the CPU why some application is running or executing faster than than other application in different machine this is this is this is this is performance",
+        "source_start": "826.47",
+        "source_end": "855.75",
+        "current_display": "对同一个程序，为什么某种硬件会比另一种更好？比如家里有两台电脑，为什么一台更快？同一个应用，又为什么在不同机器上执行，速度不同？",
+        "current_spoken": "对同一个程序，为什么某种硬件会比另一种更好？比如家里有两台电脑，为什么一台更快？同一个应用，又为什么在不同机器上执行，速度不同？",
+        "display": "对于不同程序，为什么有些硬件会表现得更好？这里主要谈 CPU。比如，你家里有两台电脑，为什么一台更快？说到 CPU，有的应用在不同机器上执行，为什么有快有慢？这，就是性能问题。",
+        "spoken": "对于不同程序，为什么有些硬件会表现得更好？这里主要谈 C P U。比如，你家里有两台电脑，为什么一台更快？说到 C P U，有的应用在不同机器上执行，为什么有快有慢？这，就是性能问题。",
+        "reason": "Restore the explicit CPU focus and concluding performance definition. The slide says different programs;remove the unsupported fixed-same-program restriction while retaining the two-home-computer analogy and reflective questions.",
+        "preserved_facts": [
+          "different programs,not a fixed identical-program premise",
+          "hardware,especially CPU",
+          "two computers at home,one faster",
+          "applications on different machines may run faster",
+          "this is performance conclusion"
+        ],
+        "before_waveform": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/opening-precision-emotion-v1/current-unit-60.wav",
+          "bytes": 1405484,
+          "mtime_ns": 1794722884853694020,
+          "sha256": "87475cdbe33aeee3c7b90cf4b2c82223e4ab50b8389866e75e0a5d72a5f20328"
+        },
+        "speaker_review": {
+          "same_speaker": true,
+          "evidence": "Full current source/context review:presenter autobiography16,agenda34/36,hardware explanation60,continuous aircraft analogy78-80,and autobiographical reflection317-320.Current canonical role/voice mapping and declared original-source reservations retained;not inferred from rhetorical punctuation and not new human acoustic identity approval."
+        }
+      },
+      {
+        "key": "body-079-explicit-747-model-reading",
+        "unit_id": 79,
+        "source": "so if you go with Boeing 777 or 747 why if you go with Concorde which doesn't it's actually it's not it's not working right now or you go with the DC 85 so",
+        "source_start": "1160.08",
+        "source_end": "1173.7",
+        "current_display": "选波音777，还是747？为什么？还是选协和客机？当然，协和客机现在已经不再运营了。或者，选 DC-8-50？",
+        "current_spoken": "选波音七七七，还是747？为什么？还是选协和客机？当然，协和客机现在已经不再运营了。或者，选 D C 八，五零？",
+        "display": "选波音777，还是747？为什么？还是选协和客机？当然，协和客机现在已经不再运营了。或者，选 DC-8-50？",
+        "spoken": "选波音七七七，还是七四七？为什么？还是选协和客机？当然，协和客机现在已经不再运营了。或者，选 D C 八，五零？",
+        "reason": "Make the existing747 model designation explicit as七四七,consistent with the existing七七七 reading. Actual slide shows Boeing747 and777. This fixes speech input notation,not a claim that the old waveform demonstrably pronounced a cardinal or that new phonemes are human-approved. Leave the DC wording and all display text unchanged.",
+        "preserved_facts": [
+          "Boeing777/747 model choice and why",
+          "Concorde no longer operating in the historical talk",
+          "existing DC-8-50 display and spoken treatment unchanged",
+          "do not claim both source ASR spell DC-8-50 correctly"
+        ],
+        "before_waveform": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/opening-precision-emotion-v1/current-unit-79.wav",
+          "bytes": 653804,
+          "mtime_ns": 1794722884854694048,
+          "sha256": "4673c120733d97d60bfd0fc294a3619d9c3f9d23abc4fc0b57bca5b68ff25c2a"
+        },
+        "speaker_review": {
+          "same_speaker": true,
+          "evidence": "Full current source/context review:presenter autobiography16,agenda34/36,hardware explanation60,continuous aircraft analogy78-80,and autobiographical reflection317-320.Current canonical role/voice mapping and declared original-source reservations retained;not inferred from rhetorical punctuation and not new human acoustic identity approval."
+        }
+      },
+      {
+        "key": "unit-318-affection-continuity",
+        "unit_id": 318,
+        "source": "this is going to be similar thing as my career you don't need to do the research I did research because I loved research and they still love research I love also teaching",
+        "source_start": "5493.28",
+        "source_end": "5504.95",
+        "current_display": "这和我的职业经历相似。但你不必做研究。我做研究，是因为热爱——现在依然热爱研究，也热爱教学。",
+        "current_spoken": "这和我的职业经历相似。但你不必做研究。我做研究，是因为热爱——现在依然热爱研究，也热爱教学。",
+        "display": "这和我的职业经历相似。但你不必做研究。我做研究，是因为热爱；现在依然热爱研究，也热爱教学。",
+        "spoken": "这和我的职业经历相似。但你不必做研究。我做研究，是因为热爱；现在依然热爱研究，也热爱教学。",
+        "reason": "Reuse the already complete normal-rate candidate. A semicolon connects the source love-of-research past and present,without the current dash suggesting a new dramatic break;retain optional research and love of teaching. This is an editorial continuity choice,not an emotion/listening winner.",
+        "preserved_facts": [
+          "similar to the speaker career",
+          "you do not need to do research",
+          "speaker did research because of love",
+          "still loves research",
+          "also loves teaching"
+        ],
+        "before_waveform": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/opening-precision-emotion-v1/current-unit-318.wav",
+          "bytes": 560204,
+          "mtime_ns": 1794722884855694076,
+          "sha256": "ff5c1964106403dcbaa074353bc17a46453968f5ab054950cd82396480c3e076"
+        },
+        "speaker_review": {
+          "same_speaker": true,
+          "evidence": "Full current source/context review:presenter autobiography16,agenda34/36,hardware explanation60,continuous aircraft analogy78-80,and autobiographical reflection317-320.Current canonical role/voice mapping and declared original-source reservations retained;not inferred from rhetorical punctuation and not new human acoustic identity approval."
+        }
+      }
+    ],
+    "projection_edits": [
+      {
+        "unit_id": 16,
+        "key": "body-016-france-context",
+        "review_note": "Restore the explicit France scope from the complete current source rather than generalizing the laboratory/university funding observation. Retain the 80 percent software balance,limited hardware access and historical first-person framing.",
+        "chunks": [
+          {
+            "zh": "当时大约80%的工作是软件，硬件只占一小部分。",
+            "spoken": "当时大约80%的工作是软件，硬件只占一小部分。",
+            "en": "and then so 80% of software and a little bit of hardware"
+          },
+          {
+            "zh": "我想，原因是我们接触不到足够的硬件。",
+            "spoken": "我想，原因是我们接触不到足够的硬件。",
+            "en": "I think that the only explanation is that we didn't have access to the hardware"
+          },
+          {
+            "zh": "法国的实验室和大学没有足够经费，",
+            "spoken": "法国的实验室和大学没有足够经费，",
+            "en": "labs and universities in France they don't have this ability to touch things to touch the hardware"
+          },
+          {
+            "zh": "购买这些超级计算机、HPC 设备。",
+            "spoken": "购买这些超级计算机、H P C 设备。",
+            "en": "because they don't have enough money to buy all these supercomputers HPC devices"
+          }
+        ]
+      },
+      {
+        "unit_id": 34,
+        "key": "body-034-qualified-exponential-growth",
+        "review_note": "Restore the technical exponential-growth description,qualified by nearly and speaker observation. Preserve the Java agenda and inviting why question;do not present the2019 remark as a measured2026 growth law.",
+        "chunks": [
+          {
+            "zh": "我们看到，这类计算密集型设备、加速器的使用，几乎呈指数级增长。",
+            "spoken": "我们看到，计算密集型设备和加速器的使用，增长近乎指数级。",
+            "en": "and we see a huge like exponential increase of using the this intensive compute devices or accelerators"
+          },
+          {
+            "zh": "软件部分则主要讨论 Java 应用。",
+            "spoken": "软件主要讲 Java 应用。",
+            "en": "software performance essentially Java application"
+          },
+          {
+            "zh": "为什么是 Java？待会儿你们就知道了。",
+            "spoken": "为什么是 Java？待会儿就知道了。",
+            "en": "why Java application you see why"
+          }
+        ]
+      },
+      {
+        "unit_id": 36,
+        "key": "body-036-scale-out-and-ai-invitation",
+        "review_note": "Translate scale out explicitly as horizontal expansion,corroborated by the actual Agenda slide. Retain the possible AI/performance combination,the conference-paper writing claim without publication,and the tentative subjective novelty. Invite the listener without inventing an audience response.",
+        "chunks": [
+          {
+            "zh": "还会讨论云端性能，以及系统怎样做水平扩展。",
+            "spoken": "还会讨论云端性能，以及系统怎样做水平扩展。",
+            "en": "cloud performance this scale out the performance"
+          },
+          {
+            "zh": "人工智能和性能工程，能不能结合起来？",
+            "spoken": "人工智能和性能工程，能不能结合起来？",
+            "en": "and how we can use artificial intelligence that performs engineering at the same time"
+          },
+          {
+            "zh": "当然可以！",
+            "spoken": "当然可以！",
+            "en": "because it's very poor I mean it's very possible"
+          },
+          {
+            "zh": "我也为会议写过一篇论文，",
+            "spoken": "我也为会议写过一篇论文，",
+            "en": "and actually I wrote a paper for a conference"
+          },
+          {
+            "zh": "探讨怎样结合这两个领域。在我看来，这种尝试很新颖。",
+            "spoken": "探讨怎样结合这两个领域。在我看来，这种尝试很新颖。",
+            "en": "and it's going to be a kind of unique how we can mix between two words of artificial intelligence that performance engineering"
+          }
+        ]
+      },
+      {
+        "unit_id": 60,
+        "key": "body-060-cpu-context-and-performance-question",
+        "review_note": "Restore the explicit CPU focus and concluding performance definition. The slide says different programs;remove the unsupported fixed-same-program restriction while retaining the two-home-computer analogy and reflective questions.",
+        "chunks": [
+          {
+            "zh": "对于不同程序，为什么有些硬件会表现得更好？",
+            "spoken": "对于不同程序，为什么有些硬件会表现得更好？",
+            "en": "why is some hardware better than others for different programs"
+          },
+          {
+            "zh": "这里主要谈 CPU。",
+            "spoken": "这里主要谈 C P U。",
+            "en": "so here we are going to talk about the hardware special specifically the the CPU"
+          },
+          {
+            "zh": "比如，你家里有两台电脑，为什么一台更快？",
+            "spoken": "比如，你家里有两台电脑，为什么一台更快？",
+            "en": "why you have to for example computers at home one is more is faster than other"
+          },
+          {
+            "zh": "说到 CPU，有的应用在不同机器上执行，为什么有快有慢？",
+            "spoken": "说到 C P U，有的应用在不同机器上执行，为什么有快有慢？",
+            "en": "if we talk about the CPU why some application is running or executing faster than than other application in different machine"
+          },
+          {
+            "zh": "这，就是性能问题。",
+            "spoken": "这，就是性能问题。",
+            "en": "this is this is this is this is performance"
+          }
+        ]
+      },
+      {
+        "unit_id": 79,
+        "key": "body-079-explicit-747-model-reading",
+        "review_note": "Make the existing747 model designation explicit as七四七,consistent with the existing七七七 reading. Actual slide shows Boeing747 and777. This fixes speech input notation,not a claim that the old waveform demonstrably pronounced a cardinal or that new phonemes are human-approved. Leave the DC wording and all display text unchanged.",
+        "chunks": [
+          {
+            "zh": "选波音777，还是747？为什么？",
+            "spoken": "选波音七七七，还是七四七？为什么？",
+            "en": "so if you go with Boeing 777 or 747 why"
+          },
+          {
+            "zh": "还是选协和客机？",
+            "spoken": "还是选协和客机？",
+            "en": "if you go with Concorde"
+          },
+          {
+            "zh": "当然，协和客机现在已经不再运营了。",
+            "spoken": "当然，协和客机现在已经不再运营了。",
+            "en": "which doesn't it's actually it's not it's not working right now"
+          },
+          {
+            "zh": "或者，选 DC-8-50？",
+            "spoken": "或者，选 D C 八，五零？",
+            "en": "or you go with the DC 85 so"
+          }
+        ]
+      },
+      {
+        "unit_id": 318,
+        "key": "unit-318-affection-continuity",
+        "review_note": "Reuse the already complete normal-rate candidate. A semicolon connects the source love-of-research past and present,without the current dash suggesting a new dramatic break;retain optional research and love of teaching. This is an editorial continuity choice,not an emotion/listening winner.",
+        "chunks": [
+          {
+            "zh": "这和我的职业经历相似。",
+            "spoken": "这和我的职业经历相似。",
+            "en": "this is going to be similar thing as my career"
+          },
+          {
+            "zh": "但你不必做研究。",
+            "spoken": "但你不必做研究。",
+            "en": "you don't need to do the research"
+          },
+          {
+            "zh": "我做研究，是因为热爱；",
+            "spoken": "我做研究，是因为热爱；",
+            "en": "I did research because I loved research"
+          },
+          {
+            "zh": "现在依然热爱研究，",
+            "spoken": "现在依然热爱研究，",
+            "en": "and they still love research"
+          },
+          {
+            "zh": "也热爱教学。",
+            "spoken": "也热爱教学。",
+            "en": "I love also teaching"
+          }
+        ]
+      }
+    ],
+    "editorial_selections": [
+      {
+        "key": "body-016-france-context",
+        "source_fidelity_selected": true,
+        "reason": "Restore the explicit France scope from the complete current source rather than generalizing the laboratory/university funding observation. Retain the 80 percent software balance,limited hardware access and historical first-person framing.",
+        "human_listened": false,
+        "pronunciation_or_emotion_approved": false
+      },
+      {
+        "key": "body-034-qualified-exponential-growth",
+        "source_fidelity_selected": true,
+        "reason": "Restore the technical exponential-growth description,qualified by nearly and speaker observation. Preserve the Java agenda and inviting why question;do not present the2019 remark as a measured2026 growth law.",
+        "human_listened": false,
+        "pronunciation_or_emotion_approved": false
+      },
+      {
+        "key": "body-036-scale-out-and-ai-invitation",
+        "source_fidelity_selected": true,
+        "reason": "Translate scale out explicitly as horizontal expansion,corroborated by the actual Agenda slide. Retain the possible AI/performance combination,the conference-paper writing claim without publication,and the tentative subjective novelty. Invite the listener without inventing an audience response.",
+        "human_listened": false,
+        "pronunciation_or_emotion_approved": false
+      },
+      {
+        "key": "body-060-cpu-context-and-performance-question",
+        "source_fidelity_selected": true,
+        "reason": "Restore the explicit CPU focus and concluding performance definition. The slide says different programs;remove the unsupported fixed-same-program restriction while retaining the two-home-computer analogy and reflective questions.",
+        "human_listened": false,
+        "pronunciation_or_emotion_approved": false
+      },
+      {
+        "key": "body-079-explicit-747-model-reading",
+        "source_fidelity_selected": true,
+        "reason": "Make the existing747 model designation explicit as七四七,consistent with the existing七七七 reading. Actual slide shows Boeing747 and777. This fixes speech input notation,not a claim that the old waveform demonstrably pronounced a cardinal or that new phonemes are human-approved. Leave the DC wording and all display text unchanged.",
+        "human_listened": false,
+        "pronunciation_or_emotion_approved": false
+      },
+      {
+        "key": "unit-318-affection-continuity",
+        "source_fidelity_selected": true,
+        "reason": "Reuse the already complete normal-rate candidate. A semicolon connects the source love-of-research past and present,without the current dash suggesting a new dramatic break;retain optional research and love of teaching. This is an editorial continuity choice,not an emotion/listening winner.",
+        "human_listened": false,
+        "pronunciation_or_emotion_approved": false
+      }
+    ],
+    "source_changed": false,
+    "source_26_temporal_ambiguity": {
+      "kept_open": true,
+      "reason": "2012 arrival versus caption/current display2018 move wording;do not repair by guessing the speaker or timeline.This turn does not rewrite26 or its actual original-source region."
+    },
+    "existing_source_holds_216217248310317_and_Linux27holds23markersF08_preserved": true,
+    "new_ASR": 0,
+    "planned_new_complete_TTS": 5,
+    "planned_reused_complete_TTS": 1,
+    "professional_phoneme_emotion_human_or_final_approval": false,
+    "normal_rate_recovery": {
+      "unit_id": 34,
+      "previous_seconds": 14.88,
+      "source_window_seconds": 14.07,
+      "preserved_failed_composition": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/opening-precision-emotion-v1/compose-preview-v1.exit",
+        "bytes": 2,
+        "mtime_ns": 1794723110407638350,
+        "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865"
+      },
+      "previous_preview_complete_but_not_admissible": true,
+      "display_unchanged_from_v1": true,
+      "reason": "Equivalent complete spoken compression only: retain speaker observation,compute-intensive devices and accelerators,qualified near-exponential usage growth,software Java focus and the why/later invitation. No speed-up,trimming,borrowed window or deleted premise.",
+      "new_complete_syntheses_this_turn": 6,
+      "selected_from_first_five": 4,
+      "old_complete_318_reused": 1,
+      "human_phoneme_or_emotion_approval": false
+    }
+  },
+  "evidence": {
+    "baseline.json": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/opening-precision-emotion-v1/baseline.json",
+      "bytes": 2651011,
+      "mtime_ns": 1794722884843693738,
+      "sha256": "d708904ddafedd09d6209e152e88cd08580a52f6da84d4c47cbb2b65ffc9ba7b"
+    },
+    "authored-review-v1.json": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/opening-precision-emotion-v1/authored-review-v1.json",
+      "bytes": 28354,
+      "mtime_ns": 1794723099315362681,
+      "sha256": "48f1e54d1949e52c8b1a3f197e672572ad3953f110681de1015cc633d5931dcf"
+    },
+    "authored-review-v2.json": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/opening-precision-emotion-v1/authored-review-v2.json",
+      "bytes": 29292,
+      "mtime_ns": 1794723345310176174,
+      "sha256": "a82b0c7df92a6212031d60d193b24bae1b1571dca0f096c67e6af9bfb276af3a"
+    },
+    "complete-preview-composition-check-v2.json": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/opening-precision-emotion-v1/complete-preview-composition-check-v2.json",
+      "bytes": 16250,
+      "mtime_ns": 1794723348509248230,
+      "sha256": "cbe5eb537a408c76b0499aaa7e8fd4727323d6f5e68bfb3d4d83cafbdab0c4d5"
+    },
+    "source-image-observations-v1.json": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/opening-precision-emotion-v1/source-image-observations-v1.json",
+      "bytes": 1912,
+      "mtime_ns": 1794723099306362457,
+      "sha256": "666d60905d77884994faf394b773017f9355b80f95542a633616f4b5f0ae2bc3"
+    },
+    "independent-stage-v1.json": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/opening-precision-emotion-v1/independent-stage-v1.json",
+      "bytes": 7832,
+      "mtime_ns": 1794723700709802514,
+      "sha256": "b33ff6f67e17fec72afd6edab90902150d5d18541860a6adcaed88f35b3a986c"
+    },
+    "caption-layout-check-v1.json": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/opening-precision-emotion-v1/caption-layout-check-v1.json",
+      "bytes": 860,
+      "mtime_ns": 1794723905556905224,
+      "sha256": "f7833d9b43a52b17fb05443f447a663796d3a31a9f4e67368a62b8f04c41ccb4"
+    },
+    "media-v1/verification.json": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/opening-precision-emotion-v1/media-v1/verification.json",
+      "bytes": 21416,
+      "mtime_ns": 1794724568364020710,
+      "sha256": "ecb8ab9056c721fffcb6d0327a881c618c0e157ba12f03db31c21cda9d1aa211"
+    },
+    "actual-image-observations-v1.json": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/opening-precision-emotion-v1/actual-image-observations-v1.json",
+      "bytes": 17509,
+      "mtime_ns": 1794724329580997094,
+      "sha256": "fd02ca768a25f128e75dace540d40b88ac45120b0426d5547b49fbbe98407b66"
+    },
+    "vlc-diagnostics-v1.json": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/opening-precision-emotion-v1/vlc-diagnostics-v1.json",
+      "bytes": 1056,
+      "mtime_ns": 1794724649623285081,
+      "sha256": "cabe53c17ea2dc679230f91489234c8c2f704d94ccc018f1844ce38ffa79de19"
+    },
+    "history-authority-verification-v1.json": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/opening-precision-emotion-v1/history-authority-verification-v1.json",
+      "bytes": 6628,
+      "mtime_ns": 1794723823340274808,
+      "sha256": "31799912d64cb03fd5c20e996f4a85561a38a767a868c7b9034750f9ffae6d16"
+    },
+    "pre-install-candidate-v1.json": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/opening-precision-emotion-v1/pre-install-candidate-v1.json",
+      "bytes": 4785,
+      "mtime_ns": 1794724649624285061,
+      "sha256": "321e57c44aa3f1c13bae700a8865d72bd496e18d6e95eee8957a9ec9f57879a0"
+    },
+    "install-v1/installation-verification.json": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/opening-precision-emotion-v1/install-v1/installation-verification.json",
+      "bytes": 11461,
+      "mtime_ns": 1794724686148587998,
+      "sha256": "d1e1fbaf6394493881799b1df46b224ef5a59132077306b48f332e46b7c8e575"
+    },
+    "post-install-independent-v1.json": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/opening-precision-emotion-v1/post-install-independent-v1.json",
+      "bytes": 10344,
+      "mtime_ns": 1794724809301562506,
+      "sha256": "5489653980f5f69cf94ca92bf32508af207c93986566ae5585cdd728a9c8e33a"
+    },
+    "current-quality-after-install-v1.json": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/opening-precision-emotion-v1/current-quality-after-install-v1.json",
+      "bytes": 2826,
+      "mtime_ns": 1794724809300562520,
+      "sha256": "4fdc0c9f94a6691c05cf791876c1169cb316676ace7b40a33c180f8e280f99cd"
+    }
+  },
+  "current_master": {
+    "path": "/home/pengdl/Videos/translated_backlog/Science of Performance 2019_中文配音.mp4",
+    "bytes": 566182894,
+    "mtime_ns": 1794723540036438020,
+    "sha256": "27e279edeedb74b5b378a4c7c205aae86e1bc5e96fe38a65de3f81913afb5ae5"
+  },
+  "current_upload": {
+    "path": "/home/pengdl/Videos/translated_backlog/Science of Performance 2019_中文上传版.mp4",
+    "bytes": 452563414,
+    "mtime_ns": 1794724172144694764,
+    "sha256": "fcf3e878936167d261a137b5ae276d9028188ee6504782f00f459105597d9cbe"
+  },
+  "formal_adoption": true,
+  "source_units_unchanged": 321,
+  "english_cues_unchanged": 1022,
+  "original_source_ranges_preserved": 23,
+  "reserved_units_preserved": 39,
+  "human_listened_phoneme_or_emotion_approved": false,
+  "goal_status": "active"
+}

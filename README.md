@@ -1,5 +1,14 @@
 # Media Downloader
 
+## 2026-11-15：Science of Performance 六句来源与表达修订已安装
+
+16/34/36/60补全法国范围、近乎指数级增长、水平扩展与CPU/不同程序条件；79只明确747的朗读输入，318采用完整热爱研究/教学的连续表达。六句均正常速率适配原窗；母版和烧字上传版已通过技术核验，未声称情感或音素人工验收。
+
+- 完整成片仍在`/home/pengdl/Videos/translated_backlog`原正式路径；40.2秒有声导读、85章、23段实际原声保留。
+- 321源文/原窗和1022英文字幕块保持；26张实际上传样图逐张查看仅代表局部图审。
+- 当前入口`/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/checkpoint-opening-precision-installed-v1/execution-progress.json`，详情`docs/science-performance-opening-precision-2026-11-15.md`；不要用旧kernel-tools入口代表当前正式版本。
+- 当前187声音候选未人工复核，26时间指代及其他来源/音素门禁不猜改，Linux旧门禁、人耳、全片、逐词、PotPlayer和最终批准均保持。
+
 ## 2026-11-15：内核工具列表补漏已进入双版
 
 cjiUXZh0ZCo227的完整句已补回dstat/iostat，复用17.760秒正常速率语音并正式更新母版及中文烧字上传版；其余320单元/原窗、23原声区、40.2秒有声导读/85章保持。本轮无新TTS/ASR，完整解码/九媒体操作/安装事务/六张实际字幕图核验通过，不代表人耳或全片批准。

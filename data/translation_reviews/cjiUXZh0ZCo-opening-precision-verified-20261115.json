@@ -1,0 +1,962 @@
+{
+  "kind": "opening-precision-installed-verification-registration-v1",
+  "video_id": "cjiUXZh0ZCo",
+  "passed": true,
+  "checked_at": "2026-11-15T06:40:13+00:00",
+  "independent_stage": {
+    "kind": "opening-six-independent-stage-v1",
+    "passed": true,
+    "verifier": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/opening-precision-emotion-v1/independent-stage-v1.py",
+      "bytes": 9718,
+      "mtime_ns": 1794723621024148143,
+      "sha256": "91638c2537d90acf6835694c173e37067ff73c7fcab9ab227406d03d1cfba2f1"
+    },
+    "verified_at": "2026-11-15T06:21:40+00:00",
+    "initial_verifier": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/opening-precision-emotion-v1/independent-stage-v1-initial.py",
+      "bytes": 9353,
+      "mtime_ns": 1794723566070991204,
+      "sha256": "8b2bb224ca0c61ce0b2f3d28cf54cbe077e4f9360b93c228db6e5712ef456ccd"
+    },
+    "initial_real_failure": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/opening-precision-emotion-v1/independent-stage-v1.exit",
+      "bytes": 2,
+      "mtime_ns": 1794723567521021914,
+      "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865"
+    },
+    "verifier_recovery": "Compare union of override keys: previously display-identical units need not have explicit overrides.No production or gate adjustment.",
+    "selected_units": [
+      16,
+      34,
+      36,
+      60,
+      79,
+      318
+    ],
+    "mappings": [
+      {
+        "unit_id": 16,
+        "complete_samples": 388800,
+        "seconds": 16.2,
+        "gain": 1.140188864462982,
+        "mapping": {
+          "policy": "preserve-exact-source-exterior-within-legacy-ownership-v1",
+          "source_start": "185.52",
+          "source_end": "208.34",
+          "legacy_start_sample": 4452480,
+          "legacy_end_sample": 5000160,
+          "exact_start_scaled": [
+            4452480,
+            1
+          ],
+          "exact_end_scaled": [
+            5000160,
+            1
+          ],
+          "exact_contained_start_sample": 4452480,
+          "exact_contained_end_sample": 5000160,
+          "start_sample": 4452480,
+          "end_sample": 5000160,
+          "complete_samples": 388800,
+          "preview_window_samples": 547680,
+          "remaining_contained_samples": 158880
+        }
+      },
+      {
+        "unit_id": 34,
+        "complete_samples": 308160,
+        "seconds": 12.84,
+        "gain": 1.0711328295868323,
+        "mapping": {
+          "policy": "preserve-exact-source-exterior-within-legacy-ownership-v1",
+          "source_start": "451.5",
+          "source_end": "465.57",
+          "legacy_start_sample": 10836000,
+          "legacy_end_sample": 11173680,
+          "exact_start_scaled": [
+            10836000,
+            1
+          ],
+          "exact_end_scaled": [
+            11173680,
+            1
+          ],
+          "exact_contained_start_sample": 10836000,
+          "exact_contained_end_sample": 11173680,
+          "start_sample": 10836000,
+          "end_sample": 11173680,
+          "complete_samples": 308160,
+          "preview_window_samples": 337680,
+          "remaining_contained_samples": 29520
+        }
+      },
+      {
+        "unit_id": 36,
+        "complete_samples": 427392,
+        "seconds": 17.808,
+        "gain": 1.1838502913159807,
+        "mapping": {
+          "policy": "preserve-exact-source-exterior-within-legacy-ownership-v1",
+          "source_start": "492.3",
+          "source_end": "515.13",
+          "legacy_start_sample": 11815200,
+          "legacy_end_sample": 12363120,
+          "exact_start_scaled": [
+            11815200,
+            1
+          ],
+          "exact_end_scaled": [
+            12363120,
+            1
+          ],
+          "exact_contained_start_sample": 11815200,
+          "exact_contained_end_sample": 12363120,
+          "start_sample": 11815200,
+          "end_sample": 12363120,
+          "complete_samples": 427392,
+          "preview_window_samples": 547920,
+          "remaining_contained_samples": 120528
+        }
+      },
+      {
+        "unit_id": 60,
+        "complete_samples": 468288,
+        "seconds": 19.512,
+        "gain": 1.0280469726476995,
+        "mapping": {
+          "policy": "preserve-exact-source-exterior-within-legacy-ownership-v1",
+          "source_start": "826.47",
+          "source_end": "855.75",
+          "legacy_start_sample": 19835280,
+          "legacy_end_sample": 20538000,
+          "exact_start_scaled": [
+            19835280,
+            1
+          ],
+          "exact_end_scaled": [
+            20538000,
+            1
+          ],
+          "exact_contained_start_sample": 19835280,
+          "exact_contained_end_sample": 20538000,
+          "start_sample": 19835280,
+          "end_sample": 20538000,
+          "complete_samples": 468288,
+          "preview_window_samples": 702720,
+          "remaining_contained_samples": 234432
+        }
+      },
+      {
+        "unit_id": 79,
+        "complete_samples": 321984,
+        "seconds": 13.416,
+        "gain": 1.134443179051417,
+        "mapping": {
+          "policy": "preserve-exact-source-exterior-within-legacy-ownership-v1",
+          "source_start": "1160.08",
+          "source_end": "1173.7",
+          "legacy_start_sample": 27841920,
+          "legacy_end_sample": 28168800,
+          "exact_start_scaled": [
+            27841920,
+            1
+          ],
+          "exact_end_scaled": [
+            28168800,
+            1
+          ],
+          "exact_contained_start_sample": 27841920,
+          "exact_contained_end_sample": 28168800,
+          "start_sample": 27841920,
+          "end_sample": 28168800,
+          "complete_samples": 321984,
+          "preview_window_samples": 326880,
+          "remaining_contained_samples": 4896
+        }
+      },
+      {
+        "unit_id": 318,
+        "complete_samples": 226368,
+        "seconds": 9.432,
+        "gain": 1.1869234686649608,
+        "mapping": {
+          "policy": "preserve-exact-source-exterior-within-legacy-ownership-v1",
+          "source_start": "5493.28",
+          "source_end": "5504.95",
+          "legacy_start_sample": 131838720,
+          "legacy_end_sample": 132118800,
+          "exact_start_scaled": [
+            131838720,
+            1
+          ],
+          "exact_end_scaled": [
+            132118800,
+            1
+          ],
+          "exact_contained_start_sample": 131838720,
+          "exact_contained_end_sample": 132118800,
+          "start_sample": 131838720,
+          "end_sample": 132118800,
+          "complete_samples": 226368,
+          "preview_window_samples": 280080,
+          "remaining_contained_samples": 53712
+        }
+      }
+    ],
+    "independent_audio": {
+      "base": {
+        "frames": 132834768,
+        "exact_exterior_sha256": "e1f0b82dd05e8f0583cb87043eafb1c22d57dcb783335590efb637fa2d57a627",
+        "exact_source_exterior_preserved": true,
+        "complete_gain_only_audio_then_zeros": true
+      },
+      "composite": {
+        "frames": 132834768,
+        "exact_exterior_sha256": "9f99284b5e8ef3e86fda78b814f67e8655c561569effa2732544b7b0dd9cf020",
+        "exact_source_exterior_preserved": true,
+        "complete_gain_only_audio_then_zeros": true
+      }
+    },
+    "source_units": 321,
+    "english_cues_unchanged": 1022,
+    "projected_phrases": 26,
+    "original_regions_equal_source": 23,
+    "reserved_units": 39,
+    "EOF_silence_samples": 21,
+    "database_after_rows": {
+      "decisions": 0,
+      "issues": 10107,
+      "occurrences": 17796,
+      "projects": 60,
+      "repair_resolutions": 0,
+      "scans": 117,
+      "terms": 41
+    },
+    "candidate_history": {
+      "previous_current_candidates": 185,
+      "current_candidates": 187,
+      "unedited_current_candidates_preserved": 184,
+      "edited_previous_candidates_retained_in_old_database_scans": 1,
+      "classified_source_only_synthetic_tail_candidates": 12,
+      "new_review_decisions": 0
+    },
+    "preserved_counts": {
+      "records": 7793,
+      "canonical_targets": 31,
+      "frozen_root_python": 98,
+      "production_mp3": 293,
+      "unrelated_untracked": 13
+    },
+    "all_old_rows_preserved": true,
+    "new_decisions_or_resolutions": 0,
+    "formal_adoption": false,
+    "human_phoneme_emotion_fullvisual_wordlevel_PotPlayer_final_approval": false,
+    "old_source_holds_and_Linux27holds23markersF08_preserved": true,
+    "goal_status": "active"
+  },
+  "installed": {
+    "kind": "opening-six-installed-independent-v1",
+    "passed": true,
+    "verifier": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/opening-precision-emotion-v1/install-six-v1.py",
+      "bytes": 15803,
+      "mtime_ns": 1794724356417044609,
+      "sha256": "e1fb7279d2ab029caa9a78e803f79c060dd7ea70205dee14cb076413ff1823cc"
+    },
+    "checked_at": "2026-11-15T06:40:09+00:00",
+    "installation_verification": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/opening-precision-emotion-v1/install-v1/installation-verification.json",
+      "bytes": 11461,
+      "mtime_ns": 1794724686148587998,
+      "sha256": "d1e1fbaf6394493881799b1df46b224ef5a59132077306b48f332e46b7c8e575"
+    },
+    "transaction": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/opening-precision-emotion-v1/install-v1/file-transaction/transaction.json",
+      "bytes": 38801,
+      "mtime_ns": 1794724686159587795,
+      "sha256": "a45e80c9a353ef5ffa187cfcbff3f51413ec39ec0aec2afe9cc6082562548398"
+    },
+    "transaction_state": "committed",
+    "transaction_targets": 31,
+    "actual_replace_intents": 23,
+    "all31_old_files_exactly_archived": true,
+    "canonical_files_after": [
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/zh.srt",
+        "bytes": 61651,
+        "mtime_ns": 1794723409727612867,
+        "sha256": "cb0ee9a69b1afcf0aa6b7c845cd7bac33ca478883e924051d137183ba177cc12"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/en.srt",
+        "bytes": 83433,
+        "mtime_ns": 1794720181189268312,
+        "sha256": "766e269f8ef754bfbd9b80f3c268eba3a42bea2b05199e752649b3c12bef0bd4"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/timing_review.json",
+        "bytes": 3,
+        "mtime_ns": 1794621436423917798,
+        "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/voices.json",
+        "bytes": 7386,
+        "mtime_ns": 1794620970384512188,
+        "sha256": "8a2e76078e643df374006311148f9ce441a0042d6ada7fab92ee6e08254d7b00"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/compilation.json",
+        "bytes": 1010,
+        "mtime_ns": 1794723409747613309,
+        "sha256": "b0148b267c253eed31f6d8fe3e548fe71c6d5dbfa1bc0d6f531087da8a458656"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/spoken.srt",
+        "bytes": 57137,
+        "mtime_ns": 1794723409727612867,
+        "sha256": "f22c96ff27c1d376c4e29ad4be0d09e1f35fa817e6479880bd881221049c623c"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/translation.tsv",
+        "bytes": 51700,
+        "mtime_ns": 1794723409705612381,
+        "sha256": "a869f099b5243f70cf1c6b5e21e75d5a0e47d68d557900abe80a5cd2a4b814f6"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/bilingual_display.srt",
+        "bytes": 159361,
+        "mtime_ns": 1794723424373935541,
+        "sha256": "f8a2010ef8efe4b3a1b0123cc29a6f7cdfec9049069f63f14057b178b66fca85"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/spoken_overrides.json",
+        "bytes": 31245,
+        "mtime_ns": 1794723409705612381,
+        "sha256": "89e617c33f4e11693b768c3b68a503f0cd94f5139872be5184085dfc4abe3b4e"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/package-plan.json",
+        "bytes": 27311,
+        "mtime_ns": 1794723436514201951,
+        "sha256": "ed92c9d465ff7c01fc51909aa86ebb44f456aeb35c6013abbf7df1ea511cbce7"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/translation_task.json",
+        "bytes": 3985,
+        "mtime_ns": 1794720181192268160,
+        "sha256": "cf5740c8beb7d4328fd467112998a0db8399b85e205d877a6089271f5e05414a"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/tts_voice.txt",
+        "bytes": 18,
+        "mtime_ns": 1794621043528585578,
+        "sha256": "278ec7126151de367498ddc4ed86aaa29a610506a7559b9831fa2fdfce5977de"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/meta.json",
+        "bytes": 146,
+        "mtime_ns": 1794613332409392106,
+        "sha256": "f8a1c184a547b229dee7b091ce9ed8b47fde48011a6c26796b688bbe48a60335"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/zh_display.srt",
+        "bytes": 87055,
+        "mtime_ns": 1794723424367935409,
+        "sha256": "7b56d9cfc91df6db9f3d85c9a419b9fb4d0b4fab59622a4b388024da47558546"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/tts_stats.json",
+        "bytes": 23338,
+        "mtime_ns": 1794723410165622538,
+        "sha256": "89353203e44a0eb6ac21f8a6c012fea44af120ac361ea0c16e82155232ea0395"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/bilingual.srt",
+        "bytes": 133957,
+        "mtime_ns": 1794723409728612889,
+        "sha256": "b47e4cc8bea1a2cd16921c78ae49cb4699776645ab6b21bfca6a515b4e5b2bc4"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/en_display.srt",
+        "bytes": 107595,
+        "mtime_ns": 1794723424369935453,
+        "sha256": "a39f3e6e6550fa2a5063cc408370e6c9aab5f1d85b6900c5c48bfd836997899c"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/translation_audit.md",
+        "bytes": 4066,
+        "mtime_ns": 1794621566492573287,
+        "sha256": "8ccf1fd0a56d92fa6c502281201c849d9cbaf1042959f8fd67ab537d900cb58e"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/speech_policy.json",
+        "bytes": 54,
+        "mtime_ns": 1794620970275510563,
+        "sha256": "82f52a8889d1044e2e37de0fd32dc0cc682b4c2bfaf41b35bee6a8f26cb29fcb"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/Science of Performance 2019_中文配音.mp4",
+        "bytes": 566182894,
+        "mtime_ns": 1794723540036438020,
+        "sha256": "27e279edeedb74b5b378a4c7c205aae86e1bc5e96fe38a65de3f81913afb5ae5"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/Science of Performance 2019_中文上传版.mp4",
+        "bytes": 452563414,
+        "mtime_ns": 1794724172144694764,
+        "sha256": "fcf3e878936167d261a137b5ae276d9028188ee6504782f00f459105597d9cbe"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/editorial_install.json",
+        "bytes": 695,
+        "mtime_ns": 1794724676100774975,
+        "sha256": "81bb49a5ed5e53dd01b6a7ef49c6230366517bd646691e6fbeb9f6c92a283f01"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/narration.json",
+        "bytes": 10271,
+        "mtime_ns": 1794724676142774187,
+        "sha256": "a198d017e0d7a9c0ec2d877a594ca8292f76b19dcbc25d44471346d7bdcc57ad"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/render_state.json",
+        "bytes": 1888,
+        "mtime_ns": 1794724676184773398,
+        "sha256": "d76b14136d39199a24e00892b809503ff57150e9d7268a9f8c18f9b21815cff0"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/upload_export.json",
+        "bytes": 2196,
+        "mtime_ns": 1794724676217772779,
+        "sha256": "a1a833c1a5eeb66e550b3a917dedd7053d00e8bd2406730c60778cdf8b58b646"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/speech_review.json",
+        "bytes": 308636,
+        "mtime_ns": 1794724681519673697,
+        "sha256": "7e5bbb149a4dcbf69aa354ad0f6c8efe72ed6d744a56e10c07b281c61d7ff375"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/speech_review.html",
+        "bytes": 126069,
+        "mtime_ns": 1794724681553673065,
+        "sha256": "4506fa5932f542ba038c21465cf3dbfb46b5d107753b5b63dd6a6c4a6180843f"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/speech_database.json",
+        "bytes": 161,
+        "mtime_ns": 1794724681584672488,
+        "sha256": "d2f33de7599525e31e3e6513137df52066858b5e3db44dad6f31fc436d077522"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/delivery_quality.json",
+        "bytes": 1858,
+        "mtime_ns": 1794724681885666891,
+        "sha256": "9ca23df41f7c206a7dcf43aa69f9a6dde6ba846e6e3cd346b55115b0fce502eb"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/delivery_check.json",
+        "bytes": 9256,
+        "mtime_ns": 1794724684820612507,
+        "sha256": "45bd9772ffb113d2c0d4ccf9c14fbfcb444d4b8561ed404856437c866cfe9dd4"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/release.json",
+        "bytes": 2348,
+        "mtime_ns": 1794724685291603809,
+        "sha256": "09c9b997f5a4d82a8151b55ad10d00c320d324fc12a042b4aa1ebf3a4bace4a9"
+      }
+    ],
+    "preserved_counts": {
+      "records": 7793,
+      "frozen_root_python": 98,
+      "production_mp3": 293,
+      "unrelated_untracked": 13
+    },
+    "master": {
+      "path": "/home/pengdl/Videos/translated_backlog/Science of Performance 2019_中文配音.mp4",
+      "bytes": 566182894,
+      "mtime_ns": 1794723540036438020,
+      "sha256": "27e279edeedb74b5b378a4c7c205aae86e1bc5e96fe38a65de3f81913afb5ae5"
+    },
+    "upload": {
+      "path": "/home/pengdl/Videos/translated_backlog/Science of Performance 2019_中文上传版.mp4",
+      "bytes": 452563414,
+      "mtime_ns": 1794724172144694764,
+      "sha256": "fcf3e878936167d261a137b5ae276d9028188ee6504782f00f459105597d9cbe"
+    },
+    "formal_media_exact_candidate_bytes_and_mtime": true,
+    "selected_units": [
+      16,
+      34,
+      36,
+      60,
+      79,
+      318
+    ],
+    "source_changed_units": [],
+    "english_cues": 1022,
+    "Chinese_bilingual_phrases": 26,
+    "database_scans": [
+      116,
+      117,
+      118,
+      119
+    ],
+    "current_candidates": 187,
+    "source_classifications_not_dismissed": 12,
+    "new_decisions_or_resolutions": 0,
+    "human_pronunciation_emotion_or_final_approval": false,
+    "old_source_holds_and_Linux27holds23markersF08_preserved": true,
+    "goal_status": "active"
+  },
+  "actual_images": {
+    "kind": "opening-six-actual-image-observations-v1",
+    "passed": true,
+    "recorded_at": "2026-11-15T06:32:09+00:00",
+    "recorder": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/opening-precision-emotion-v1/record-images-v1.py",
+      "bytes": 4849,
+      "mtime_ns": 1794724329527999024,
+      "sha256": "01444fa286b6360344bf6d7e9cb15165e4048896bd10029629353c9fba86ed0a"
+    },
+    "image_manifest": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/opening-precision-emotion-v1/actual-upload-images-v1/manifest.json",
+      "bytes": 25332,
+      "mtime_ns": 1794724230895954940,
+      "sha256": "6a81132df93be607bb81abd36b7a84b7423f8d8a5393d89f91fa67c7857b124f"
+    },
+    "all26_images_individually_opened": true,
+    "observations": [
+      {
+        "name": "unit-16-phrase-1",
+        "image": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/opening-precision-emotion-v1/actual-upload-images-v1/unit-16-phrase-1.jpg",
+          "bytes": 30042,
+          "mtime_ns": 1794724178600378292,
+          "sha256": "172117744c80b0fc472880126b7da5157fb6a2f21f1b96fe8d8a3eb91a6e57fc"
+        },
+        "dimensions": [
+          1280,
+          720
+        ],
+        "opened_individually_with_image_tool": true,
+        "actual_observation": "实际Performance career饼图及演讲者小窗；底部80%软件/少量硬件字幕完整可见。"
+      },
+      {
+        "name": "unit-16-phrase-2",
+        "image": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/opening-precision-emotion-v1/actual-upload-images-v1/unit-16-phrase-2.jpg",
+          "bytes": 30051,
+          "mtime_ns": 1794724180360292697,
+          "sha256": "5f31ed5b44a14622c4653fe9d0e7c325d623b8b09aed13cad4f6ef797b7ff790"
+        },
+        "dimensions": [
+          1280,
+          720
+        ],
+        "opened_individually_with_image_tool": true,
+        "actual_observation": "职业经历幻灯不变，底部可见我想/接触不到足够硬件的完整字幕。"
+      },
+      {
+        "name": "unit-16-phrase-3",
+        "image": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/opening-precision-emotion-v1/actual-upload-images-v1/unit-16-phrase-3.jpg",
+          "bytes": 29944,
+          "mtime_ns": 1794724182279199700,
+          "sha256": "333d8357e38ffc0036c458a47f139b40193728fa5f3a826507505addaf3a5a81"
+        },
+        "dimensions": [
+          1280,
+          720
+        ],
+        "opened_individually_with_image_tool": true,
+        "actual_observation": "实际底部明确法国的实验室和大学没有足够经费；不是无地域的普遍断言。"
+      },
+      {
+        "name": "unit-16-phrase-4",
+        "image": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/opening-precision-emotion-v1/actual-upload-images-v1/unit-16-phrase-4.jpg",
+          "bytes": 29754,
+          "mtime_ns": 1794724184142109744,
+          "sha256": "af633179bd5d38f1abe21bc4ecf430034efa73e1985ebc44500d25a688d40de8"
+        },
+        "dimensions": [
+          1280,
+          720
+        ],
+        "opened_individually_with_image_tool": true,
+        "actual_observation": "超级计算机/HPC设备字幕完整在画内；图像不证明HPC实际字音。"
+      },
+      {
+        "name": "unit-34-phrase-1",
+        "image": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/opening-precision-emotion-v1/actual-upload-images-v1/unit-34-phrase-1.jpg",
+          "bytes": 27584,
+          "mtime_ns": 1794724186441999142,
+          "sha256": "c6a83a368f611add7d2ceee42b0081d9babd0e8f2392e8728f5d4dd32fb5d678"
+        },
+        "dimensions": [
+          960,
+          540
+        ],
+        "opened_individually_with_image_tool": true,
+        "actual_observation": "实际Agenda幻灯而非增长曲线；底部两行可见计算密集设备/加速器使用与几乎呈指数级增长，指数级增长未拆在两行。"
+      },
+      {
+        "name": "unit-34-phrase-2",
+        "image": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/opening-precision-emotion-v1/actual-upload-images-v1/unit-34-phrase-2.jpg",
+          "bytes": 27071,
+          "mtime_ns": 1794724188982877504,
+          "sha256": "97ba64cb671d36638c1b6ecf3dae637810c1e289e7e0bfc49c42ca269f2ab15c"
+        },
+        "dimensions": [
+          960,
+          540
+        ],
+        "opened_individually_with_image_tool": true,
+        "actual_observation": "Agenda仍在，底部软件部分主要讨论Java应用字幕完整可见。"
+      },
+      {
+        "name": "unit-34-phrase-3",
+        "image": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/opening-precision-emotion-v1/actual-upload-images-v1/unit-34-phrase-3.jpg",
+          "bytes": 26959,
+          "mtime_ns": 1794724191191772258,
+          "sha256": "a7f9c6d13fa301361801c0ac0caeb4c8ea1fccc63ef1681396ae11c191c6f76d"
+        },
+        "dimensions": [
+          960,
+          540
+        ],
+        "opened_individually_with_image_tool": true,
+        "actual_observation": "底部为什么是Java/待会儿知道的提问及承接同框可见，不据此推断换人。"
+      },
+      {
+        "name": "unit-36-phrase-1",
+        "image": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/opening-precision-emotion-v1/actual-upload-images-v1/unit-36-phrase-1.jpg",
+          "bytes": 27102,
+          "mtime_ns": 1794724193981639957,
+          "sha256": "dea2aa4eaf29baf01b65c98749cd84a977ae478722ddc1ad431504afbb33068d"
+        },
+        "dimensions": [
+          960,
+          540
+        ],
+        "opened_individually_with_image_tool": true,
+        "actual_observation": "Agenda明确Scale Out Performance，底部云端性能/系统怎样水平扩展字幕完整可见，水平扩展未拆行。"
+      },
+      {
+        "name": "unit-36-phrase-2",
+        "image": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/opening-precision-emotion-v1/actual-upload-images-v1/unit-36-phrase-2.jpg",
+          "bytes": 26982,
+          "mtime_ns": 1794724196460523015,
+          "sha256": "f065332365e91b38d1bdc03a152f4b19a25925b55459d72d9576e03c4fef2084"
+        },
+        "dimensions": [
+          960,
+          540
+        ],
+        "opened_individually_with_image_tool": true,
+        "actual_observation": "底部人工智能和性能工程能不能结合起来的反问完整可见，仍为主讲小窗。"
+      },
+      {
+        "name": "unit-36-phrase-3",
+        "image": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/opening-precision-emotion-v1/actual-upload-images-v1/unit-36-phrase-3.jpg",
+          "bytes": 26650,
+          "mtime_ns": 1794724199110398607,
+          "sha256": "464fc9141ec86605898a4ff534b67ce684359752cc39dff3f352b20069d91fa8"
+        },
+        "dimensions": [
+          960,
+          540
+        ],
+        "opened_individually_with_image_tool": true,
+        "actual_observation": "Agenda及主讲小窗，底部独立当然可以！可见；图像不是情感听辨。"
+      },
+      {
+        "name": "unit-36-phrase-4",
+        "image": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/opening-precision-emotion-v1/actual-upload-images-v1/unit-36-phrase-4.jpg",
+          "bytes": 26850,
+          "mtime_ns": 1794724201886268971,
+          "sha256": "e0f8c4d8b775b1805f955a037c18cad2779b3763ba91b7c945a8113699a79dc6"
+        },
+        "dimensions": [
+          960,
+          540
+        ],
+        "opened_individually_with_image_tool": true,
+        "actual_observation": "底部我也为会议写过一篇论文可见，未改成已经发表的声称。"
+      },
+      {
+        "name": "unit-36-phrase-5",
+        "image": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/opening-precision-emotion-v1/actual-upload-images-v1/unit-36-phrase-5.jpg",
+          "bytes": 27243,
+          "mtime_ns": 1794724204474148745,
+          "sha256": "c57b792089635748a53574d62f5db95d6bb4b0a610971382badb86c6fa4c4e66"
+        },
+        "dimensions": [
+          960,
+          540
+        ],
+        "opened_individually_with_image_tool": true,
+        "actual_observation": "底部探讨两个领域以及在我看来很新颖可见；主观限定保留。"
+      },
+      {
+        "name": "unit-60-phrase-1",
+        "image": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/opening-precision-emotion-v1/actual-upload-images-v1/unit-60-phrase-1.jpg",
+          "bytes": 32311,
+          "mtime_ns": 1794724205820086445,
+          "sha256": "192e929315330733adddd979e0049ae86eb2dc349cb3462638562ee77be31fed"
+        },
+        "dimensions": [
+          1280,
+          720
+        ],
+        "opened_individually_with_image_tool": true,
+        "actual_observation": "实际Performance study tells us页明确different programs，底部不同程序/硬件更好字幕完整可见。"
+      },
+      {
+        "name": "unit-60-phrase-2",
+        "image": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/opening-precision-emotion-v1/actual-upload-images-v1/unit-60-phrase-2.jpg",
+          "bytes": 31086,
+          "mtime_ns": 1794724207155024818,
+          "sha256": "86ec693efbba3bef4cfcc8bdb5ec45d429d5aab442cee47ee1dc4e19c2201453"
+        },
+        "dimensions": [
+          1280,
+          720
+        ],
+        "opened_individually_with_image_tool": true,
+        "actual_observation": "同一幻灯，底部这里主要谈CPU可见；CPU焦点由源句而非本页字样证明。"
+      },
+      {
+        "name": "unit-60-phrase-3",
+        "image": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/opening-precision-emotion-v1/actual-upload-images-v1/unit-60-phrase-3.jpg",
+          "bytes": 32022,
+          "mtime_ns": 1794724208395967678,
+          "sha256": "7acc9599c18611f53ec343988dcaa6d680e1717b25bf8f81e00cb99b48027af9"
+        },
+        "dimensions": [
+          1280,
+          720
+        ],
+        "opened_individually_with_image_tool": true,
+        "actual_observation": "底部家中两台电脑及一台更快的类比可见，仍是性能问题页。"
+      },
+      {
+        "name": "unit-60-phrase-4",
+        "image": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/opening-precision-emotion-v1/actual-upload-images-v1/unit-60-phrase-4.jpg",
+          "bytes": 32521,
+          "mtime_ns": 1794724209730906355,
+          "sha256": "eed20168423f7a672f22afa7d3fa7ccc8f456ff98a40fbe15960f2faf9fb9a03"
+        },
+        "dimensions": [
+          1280,
+          720
+        ],
+        "opened_individually_with_image_tool": true,
+        "actual_observation": "底部CPU/有的应用在不同机器上执行及有快有慢可见，没有同一个应用的强加限定。"
+      },
+      {
+        "name": "unit-60-phrase-5",
+        "image": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/opening-precision-emotion-v1/actual-upload-images-v1/unit-60-phrase-5.jpg",
+          "bytes": 27707,
+          "mtime_ns": 1794724211368831334,
+          "sha256": "15607a69dce0c2201d413afcfaa5b1daef6fbca0b02e38763023977cbdc4922f"
+        },
+        "dimensions": [
+          1280,
+          720
+        ],
+        "opened_individually_with_image_tool": true,
+        "actual_observation": "实际已切为主讲全屏，不再是幻灯；底部这就是性能问题完整可见。"
+      },
+      {
+        "name": "unit-79-phrase-1",
+        "image": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/opening-precision-emotion-v1/actual-upload-images-v1/unit-79-phrase-1.jpg",
+          "bytes": 30655,
+          "mtime_ns": 1794724213398738685,
+          "sha256": "244bf89564896764732cef5a09ae58b36ef357561624ce05b80e1cecc1ee9b35"
+        },
+        "dimensions": [
+          1280,
+          720
+        ],
+        "opened_individually_with_image_tool": true,
+        "actual_observation": "实际飞机比较页，777/747标签及底部规范数字字幕同框可见；不证明音素。"
+      },
+      {
+        "name": "unit-79-phrase-2",
+        "image": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/opening-precision-emotion-v1/actual-upload-images-v1/unit-79-phrase-2.jpg",
+          "bytes": 30291,
+          "mtime_ns": 1794724214999665861,
+          "sha256": "2a3f27d356f86f01670f5334df7531041491c97c1fb96f0a3a3e8f43b90825d9"
+        },
+        "dimensions": [
+          1280,
+          720
+        ],
+        "opened_individually_with_image_tool": true,
+        "actual_observation": "Concorde图和标签可见，底部还是选协和客机字幕完整可见。"
+      },
+      {
+        "name": "unit-79-phrase-3",
+        "image": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/opening-precision-emotion-v1/actual-upload-images-v1/unit-79-phrase-3.jpg",
+          "bytes": 30828,
+          "mtime_ns": 1794724216448600164,
+          "sha256": "571d1b8a64a8b3a14a3e769f9341ec0662662d7022bdabf83a026996bfd44d32"
+        },
+        "dimensions": [
+          1280,
+          720
+        ],
+        "opened_individually_with_image_tool": true,
+        "actual_observation": "底部协和客机已不运营限定可见；这是保留讲者历史措辞，不是新增当前航空建议。"
+      },
+      {
+        "name": "unit-79-phrase-4",
+        "image": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/opening-precision-emotion-v1/actual-upload-images-v1/unit-79-phrase-4.jpg",
+          "bytes": 30239,
+          "mtime_ns": 1794724218103525333,
+          "sha256": "457517beba45ae2cd89f40cf2a27b6c1cee8b4309a7f3661a1f807aad18e1eb9"
+        },
+        "dimensions": [
+          1280,
+          720
+        ],
+        "opened_individually_with_image_tool": true,
+        "actual_observation": "底部或者选DC-8-50规范字幕可见，但左下原图型号仍被演示控制条遮挡，不据此声称源型号拼写获图证实。"
+      },
+      {
+        "name": "unit-318-phrase-1",
+        "image": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/opening-precision-emotion-v1/actual-upload-images-v1/unit-318-phrase-1.jpg",
+          "bytes": 27183,
+          "mtime_ns": 1794724220714407777,
+          "sha256": "ef3afac47095b58ccf820e3dbdfc2d9199874f6f9d9efc665946433f34b77665"
+        },
+        "dimensions": [
+          960,
+          540
+        ],
+        "opened_individually_with_image_tool": true,
+        "actual_observation": "实际Performance Eng.Job页/主讲小窗，底部与职业经历相似字幕完整可见。"
+      },
+      {
+        "name": "unit-318-phrase-2",
+        "image": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/opening-precision-emotion-v1/actual-upload-images-v1/unit-318-phrase-2.jpg",
+          "bytes": 27087,
+          "mtime_ns": 1794724222894310070,
+          "sha256": "9008ef9e6b288b893c9a6ea480330158c408bc2fd51175cb0919f9141d54401c"
+        },
+        "dimensions": [
+          960,
+          540
+        ],
+        "opened_individually_with_image_tool": true,
+        "actual_observation": "底部但你不必做研究完整可见；非把研究强制为职业前提。"
+      },
+      {
+        "name": "unit-318-phrase-3",
+        "image": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/opening-precision-emotion-v1/actual-upload-images-v1/unit-318-phrase-3.jpg",
+          "bytes": 27203,
+          "mtime_ns": 1794724225327201518,
+          "sha256": "cab39599319d50b6349a462ce6fd6df6234b6131540e4efcb7ecc0bafe2661a1"
+        },
+        "dimensions": [
+          960,
+          540
+        ],
+        "opened_individually_with_image_tool": true,
+        "actual_observation": "底部我做研究是因为热爱可见，分号连续表达属于编辑选择而非试听胜者。"
+      },
+      {
+        "name": "unit-318-phrase-4",
+        "image": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/opening-precision-emotion-v1/actual-upload-images-v1/unit-318-phrase-4.jpg",
+          "bytes": 27140,
+          "mtime_ns": 1794724227844089743,
+          "sha256": "5dd32baad09f42064a8d241d17334e6fe1c0d1f690a1ea0da57a80e68216f849"
+        },
+        "dimensions": [
+          960,
+          540
+        ],
+        "opened_individually_with_image_tool": true,
+        "actual_observation": "底部现在依然热爱研究可见；真实语音情感仍未人工批准。"
+      },
+      {
+        "name": "unit-318-phrase-5",
+        "image": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/opening-precision-emotion-v1/actual-upload-images-v1/unit-318-phrase-5.jpg",
+          "bytes": 27064,
+          "mtime_ns": 1794724230542970497,
+          "sha256": "e35b802a4c657b522051289b5f9f6433325ccb40133435ef436b6d54e8bda0a7"
+        },
+        "dimensions": [
+          960,
+          540
+        ],
+        "opened_individually_with_image_tool": true,
+        "actual_observation": "底部也热爱教学完整可见，仍在工作要求幻灯/主讲小窗；不称全片或逐词声画验收。"
+      }
+    ],
+    "source_images_separately_reviewed": 3,
+    "human_listened_or_phoneme_emotion_approved": false,
+    "full_film_visual_wordlevel_PotPlayer_or_final_approval": false
+  },
+  "VLC": {
+    "kind": "opening-six-finite-VLC-diagnostics-v1",
+    "actual_exit": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/opening-precision-emotion-v1/vlc-candidate-v1.exit",
+      "bytes": 2,
+      "mtime_ns": 1794724193632656477,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    "log": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/opening-precision-emotion-v1/vlc-candidate-v1.log",
+      "bytes": 3945,
+      "mtime_ns": 1794724193583658796,
+      "sha256": "90eec2ae75fb2e063ce2300abec2d07d1581537ac5749cafe8078dabb0664b9f"
+    },
+    "literal_pattern_counts_may_overlap": {
+      "get_buffer() failed": 32,
+      "thread_get_buffer() failed": 16,
+      "decode_slice_header error": 16,
+      "no frame!": 16,
+      "Timestamp conversion failed": 5,
+      "buffer deadlock prevented": 0
+    },
+    "finite_API_passed": true,
+    "warning_free_playback_proven": false,
+    "diagnostics_cause_proven": false,
+    "human_or_PotPlayer_approval": false
+  },
+  "fullfilm_human_PotPlayer_or_final_approval": false,
+  "source_26_temporal_ambiguity_untouched": {
+    "kept_open": true,
+    "reason": "2012 arrival versus caption/current display2018 move wording;do not repair by guessing the speaker or timeline.This turn does not rewrite26 or its actual original-source region."
+  },
+  "old_source_holds_and_Linux27holds23markersF08_preserved": true,
+  "goal_status": "active"
+}
