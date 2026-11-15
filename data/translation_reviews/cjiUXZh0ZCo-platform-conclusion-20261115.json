@@ -1,0 +1,1370 @@
+{
+  "kind": "agent-platform-conclusion-complete-source-review-v1",
+  "recorded_at": "2026-11-15T01:42:10+00:00",
+  "video_id": "cjiUXZh0ZCo",
+  "range": [
+    276,
+    321
+  ],
+  "current_context": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/vtune-platform-conclusion-v1/current-context-276-321.json",
+    "bytes": 43362,
+    "mtime_ns": 1794706482986863935,
+    "sha256": "64b37a817ea3d6891f68e82cf6f71e0bebd7346af789bcc355eca36f5fba83ad"
+  },
+  "reviewed_units": [
+    {
+      "unit_id": 276,
+      "start": "4802.219",
+      "end": "4815.63",
+      "source": "so it's it's the way how you are motivated to learn about VTune this is the first thing I think the second thing is of course you are going to find issues sometimes it's not working sometimes the system crash and then you need to understand what happened",
+      "display": "第一，还是看你有没有学习它的动力。第二，当然也会遇到问题：有时不工作，有时系统崩溃，需要弄清原因。",
+      "spoken": "第一，还是看你有没有学习它的动力。第二，当然也会遇到问题：有时不工作，有时系统崩溃，需要弄清原因。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "complete-utterance-candidate-not-adopted",
+      "review": "保留两点及可能性，用先列重点再举例的停顿，不改成学习有动力就保证掌握。",
+      "complete_candidates": [
+        {
+          "display": "第一，看你学习 VTune 的动力。第二，当然会遇到问题：工具可能不工作，系统也可能崩溃；这时，就要查清原因。",
+          "spoken": "第一，看你学习 V Tune 的动力。第二，当然会遇到问题：工具可能不工作，系统也可能崩溃；这时，就要查清原因。",
+          "reason": "保留两点及可能性，用先列重点再举例的停顿，不改成学习有动力就保证掌握。",
+          "preserved_facts": [
+            "学习VTune的动力",
+            "可能不工作或系统崩溃",
+            "需了解发生什么"
+          ]
+        }
+      ],
+      "text_only": null,
+      "source_hold": null,
+      "production_text_or_media_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 277,
+      "start": "4815.63",
+      "end": "4836.719",
+      "source": "but I think I think if you take experience of or you you ask help from Intel or even me I can I can give you very fast answer and then you know see how you can you can get it or master the tool yeah so yeah",
+      "display": "不过，积累经验，也可以向 Intel 或我求助。我可以尽快回答，帮助你学会、逐渐掌握这个工具。",
+      "spoken": "不过，积累经验，也可以向 英特尔 或我求助。我可以尽快回答，帮助你学会、逐渐掌握这个工具。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "complete-utterance-candidate-not-adopted",
+      "review": "保持经验或求助两个途径、Intel或讲者两个对象及很快答复；不许诺当前支持服务或具体响应时限。",
+      "complete_candidates": [
+        {
+          "display": "不过，积累些经验，或者向英特尔、向我求助，都能帮上忙。我可以很快答复，帮你学会、掌握这个工具。",
+          "spoken": "不过，积累些经验，或者向英特尔、向我求助，都能帮上忙。我可以很快答复，帮你学会、掌握这个工具。",
+          "reason": "保持经验或求助两个途径、Intel或讲者两个对象及很快答复；不许诺当前支持服务或具体响应时限。",
+          "preserved_facts": [
+            "积累经验或求助",
+            "Intel或讲者",
+            "快速答复与学会掌握工具"
+          ]
+        }
+      ],
+      "text_only": null,
+      "source_hold": null,
+      "production_text_or_media_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 278,
+      "start": "4836.719",
+      "end": "4852.59",
+      "source": "most of people they are they're like confused where when and where I'm going to use VTune and then this is a very good table where you if you go with a snapshot like quick performance analysis I don't think that v2n is going to be the first step you need to use some small tools",
+      "display": "很多人困惑的是：什么时候、在哪里用 VTune？这张表很有用。如果只是想快速看一眼性能，VTune 不一定是第一步，可以先用小工具。",
+      "spoken": "很多人困惑的是：什么时候、在哪里用 V Tune？这张表很有用。如果只是想快速看一眼性能，V Tune 不一定是第一步，可以先用小工具。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "complete-utterance-candidate-not-adopted",
+      "review": "同一讲者的教学反问，不新造提问者；保留快照场景和未必第一步，不改成VTune永远不能先用。",
+      "complete_candidates": [
+        {
+          "display": "什么时候该用 VTune？很多人困惑的就是这一点。看这张表：如果只想快速摸清性能，VTune 未必是第一步——先用小工具。",
+          "spoken": "什么时候该用 V Tune？很多人困惑的就是这一点。看这张表：如果只想快速摸清性能，V Tune 未必是第一步——先用小工具。",
+          "reason": "同一讲者的教学反问，不新造提问者；保留快照场景和未必第一步，不改成VTune永远不能先用。",
+          "preserved_facts": [
+            "何时使用VTune",
+            "表格及快速性能快照",
+            "VTune未必第一步",
+            "先小工具"
+          ]
+        }
+      ],
+      "text_only": null,
+      "source_hold": null,
+      "production_text_or_media_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 279,
+      "start": "4852.59",
+      "end": "4871.07",
+      "source": "and the VTune is going to be okay there's an Intel VTune snapshot where you see the CPU memory i/o network i'm going to show you the picture later but it's going to help you to see your system and then find one by one where is the issue which component is it the CPU or memory or I or whatever this is for the application one application running",
+      "display": "也有 Intel 的快照工具，可以看 CPU、内存、I/O 和网络，后面会展示。它能帮助逐项判断：问题在 CPU、内存，还是 I/O 等部件？这先是看单个应用的情况。",
+      "spoken": "也有 英特尔 的快照工具，可以看 C P U、内存、输入输出 和网络，后面会展示。它能帮助逐项判断：问题在 C P U、内存，还是 输入输出 等部件？这先是看单个应用的情况。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "text-only-not-synthesized",
+      "review": "4844确有Intel VTune Snapshot，不因后段Storage Snapshot而把本项名字删成泛称或静默换产品。",
+      "complete_candidates": [],
+      "text_only": "也有 Intel VTune Snapshot，可以看 CPU、内存、I/O 和网络，稍后会展示。它帮你逐项看系统，找出问题在 CPU、内存，还是 I/O；这里先说单个应用。",
+      "source_hold": null,
+      "production_text_or_media_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 280,
+      "start": "4871.07",
+      "end": "4887.389",
+      "source": "if you talk about the full system load where you are maybe in distributed system or you have you need to scale out your performance then you need to go with the inter storage snapshot a VTune and do maybe locks and weights and interplay a platform profiler",
+      "display": "如果要看整个系统负载，例如分布式系统，或者需要横向扩展，就可以考虑 Intel Storage Performance Snapshot、VTune，以及锁与等待分析、Intel Platform Profiler。",
+      "spoken": "如果要看整个系统负载，例如分布式系统，或者需要横向扩展，就可以考虑 英特尔 Storage Performance Snapshot、V Tune，以及锁与等待分析、英特尔 Platform Profiler。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "complete-utterance-candidate-not-adopted",
+      "review": "按实际表区分System Focus与单应用；朗读用完整中文功能别名，不串念长英文，不把Storage Snapshot偷换成单应用VTune Snapshot。",
+      "complete_candidates": [
+        {
+          "display": "要看整个系统负载，比如分布式系统，或考虑横向扩展，就可以用英特尔存储快照、VTune 的锁与等待分析，还有 Intel Platform Profiler，平台剖析器。",
+          "spoken": "要看整个系统负载，比如分布式系统，或考虑横向扩展，就可以用英特尔存储快照、V Tune 的锁与等待分析，还有英特尔平台剖析器。",
+          "reason": "按实际表区分System Focus与单应用；朗读用完整中文功能别名，不串念长英文，不把Storage Snapshot偷换成单应用VTune Snapshot。",
+          "preserved_facts": [
+            "整机负载",
+            "分布式或横向扩展",
+            "Intel Storage Snapshot",
+            "VTune Locks and Waits",
+            "Intel Platform Profiler"
+          ]
+        }
+      ],
+      "text_only": null,
+      "source_hold": null,
+      "production_text_or_media_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 281,
+      "start": "4887.389",
+      "end": "4900.11",
+      "source": "which is really good because you can collect the data for a long time like 13 hours and then see the behavior of your system and then understand which time you have maybe this bottlenecks or issues we is very very helpful",
+      "display": "Platform Profiler 可以长时间采集，比如13个小时，再看系统行为，了解什么时段出现瓶颈或问题，这非常有帮助。",
+      "spoken": "Platform Profiler 可以长时间采集，比如13个小时，再看系统行为，了解什么时段出现瓶颈或问题，这非常有帮助。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "complete-utterance-candidate-not-adopted",
+      "review": "13小时是原讲示例而非工具最大时限；保留时间定位，连接前项工具不借窗。",
+      "complete_candidates": [
+        {
+          "display": "平台剖析器可以长时间采集，比如十三个小时。再看系统怎样运行、哪个时段出现瓶颈或问题——这就非常有帮助。",
+          "spoken": "平台剖析器可以长时间采集，比如十三个小时。再看系统怎样运行、哪个时段出现瓶颈或问题——这就非常有帮助。",
+          "reason": "13小时是原讲示例而非工具最大时限；保留时间定位，连接前项工具不借窗。",
+          "preserved_facts": [
+            "可长时间采集",
+            "13小时示例",
+            "系统行为",
+            "何时出现瓶颈或问题"
+          ]
+        }
+      ],
+      "text_only": null,
+      "source_hold": null,
+      "production_text_or_media_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 282,
+      "start": "4900.11",
+      "end": "4910.33",
+      "source": "if you go with advanced collection for one application then Intel VTune general expression is one of the things that you need to do for CPU and memory",
+      "display": "如果针对单个应用做高级采集，General Exploration 是分析 CPU 和内存时值得做的一项。",
+      "spoken": "如果针对单个应用做高级采集，整体探索分析 是分析 C P U 和内存时值得做的一项。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "complete-utterance-candidate-not-adopted",
+      "review": "实际表和两旧ASR支持General Exploration而非expression；仅显示精确名，朗读等义中文，不把模式改成自动诊断结论。",
+      "complete_candidates": [
+        {
+          "display": "单个应用深入采集，可用 VTune 的 General Exploration，整体探索分析，查看 CPU 和内存。",
+          "spoken": "单个应用深入采集，可用 V Tune 的整体探索分析，查看 C P U 和内存。",
+          "reason": "实际表和两旧ASR支持General Exploration而非expression；仅显示精确名，朗读等义中文，不把模式改成自动诊断结论。",
+          "preserved_facts": [
+            "单应用深入采集",
+            "VTune General Exploration",
+            "CPU和内存"
+          ]
+        }
+      ],
+      "text_only": null,
+      "source_hold": null,
+      "production_text_or_media_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 283,
+      "start": "4910.33",
+      "end": "4927.77",
+      "source": "there is more tools performance tools for hardware Intel performs a platform profiler Intel application from snapshot and for the software you have the Intel VTune for container and it written for VMS these are the tools that inter created or more features for VTune",
+      "display": "硬件方面，还有 Intel Platform Profiler、Intel Application Performance Snapshot；软件方面，有面向容器和虚拟机的 VTune。这些是 Intel 提供的工具，或者 VTune 扩展功能。",
+      "spoken": "硬件方面，还有 英特尔 Platform Profiler、英特尔 Application Performance Snapshot；软件方面，有面向容器和虚拟机的 V Tune。这些是 英特尔 提供的工具，或者 V Tune 扩展功能。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "complete-utterance-candidate-not-adopted",
+      "review": "对应4918清晰名称及工具或功能的原区分；中文别名仅本句朗读，不写进全局发音词典。",
+      "complete_candidates": [
+        {
+          "display": "硬件方面，有 Intel Platform Profiler、Intel Application Performance Snapshot；软件方面，有面向容器和虚拟机的 VTune。这些是英特尔的工具，或 VTune 的扩展功能。",
+          "spoken": "硬件方面，有英特尔的平台剖析器、应用性能快照；软件方面，有面向容器和虚拟机的 V Tune。这些是英特尔的工具，或 V Tune 的扩展功能。",
+          "reason": "对应4918清晰名称及工具或功能的原区分；中文别名仅本句朗读，不写进全局发音词典。",
+          "preserved_facts": [
+            "硬件两工具",
+            "容器及虚拟机VTune",
+            "工具或扩展功能"
+          ]
+        }
+      ],
+      "text_only": null,
+      "source_hold": null,
+      "production_text_or_media_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 284,
+      "start": "4927.77",
+      "end": "4943.179",
+      "source": "and this is the storage performance an option I was talking about so you can see the CPU you can see the system memory Network even the disk all these things is going to be helpful for you at the first step and stand in what's where is the exactly the issue",
+      "display": "这就是刚才说的 Storage Performance Snapshot。能看到 CPU、系统、内存、网络，甚至磁盘。这些都有助于在第一步弄清楚：问题究竟在哪？",
+      "spoken": "这就是刚才说的 Storage Performance Snapshot。能看到 C P U、系统、内存、网络，甚至磁盘。这些都有助于在第一步弄清楚：问题究竟在哪？",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "complete-utterance-candidate-not-adopted",
+      "review": "精确名称来自4940，保留口述列举和第一步定位，不假定快照本身已证明根因。",
+      "complete_candidates": [
+        {
+          "display": "这就是刚才的 Storage Performance Snapshot，存储性能快照。CPU、系统、内存、网络，甚至磁盘，都能看。第一步，就用它弄清：问题到底在哪儿？",
+          "spoken": "这就是刚才的存储性能快照。C P U、系统、内存、网络，甚至磁盘，都能看。第一步，就用它弄清：问题到底在哪儿？",
+          "reason": "精确名称来自4940，保留口述列举和第一步定位，不假定快照本身已证明根因。",
+          "preserved_facts": [
+            "Storage Performance Snapshot",
+            "CPU/系统/内存/网络/磁盘",
+            "第一步了解问题在哪"
+          ]
+        }
+      ],
+      "text_only": null,
+      "source_hold": null,
+      "production_text_or_media_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 285,
+      "start": "4943.179",
+      "end": "4959.659",
+      "source": "now about power power is like also very important performance term that performance engineering because it's really related to the TCO if we have higher power than with better for performance means that it's a higher TCO",
+      "display": "再谈功耗。它也是性能工程里的重要因素，和总拥有成本 TCO 紧密相关。性能更高，但功耗也更高，就意味着更高的 TCO。",
+      "spoken": "再谈功耗。它也是性能工程里的重要因素，和总拥有成本 T C O 紧密相关。性能更高，但功耗也更高，就意味着更高的 T C O。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "complete-utterance-candidate-not-adopted",
+      "review": "总拥有成本完整展开，保留higher power/更好性能同场比较；不扩成任意场景TCO只由功耗决定。",
+      "complete_candidates": [
+        {
+          "display": "再谈功耗。它在性能工程里也很重要，因为它直接关系总拥有成本 TCO。按这里的比较，性能更高、功耗也更高，总拥有成本也会更高。",
+          "spoken": "再谈功耗。它在性能工程里也很重要，因为它直接关系总拥有成本。按这里的比较，性能更高、功耗也更高，总拥有成本也会更高。",
+          "reason": "总拥有成本完整展开，保留higher power/更好性能同场比较；不扩成任意场景TCO只由功耗决定。",
+          "preserved_facts": [
+            "功耗是性能工程因素",
+            "关联TCO",
+            "此处更高性能伴更高功耗和TCO"
+          ]
+        }
+      ],
+      "text_only": null,
+      "source_hold": null,
+      "production_text_or_media_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 286,
+      "start": "4959.659",
+      "end": "4974.84",
+      "source": "we need to maybe negotiate to get better TCU with better performance and and low power and power of course it's connected directly to the to to money and also it's connected to the CPU too",
+      "display": "我们需要权衡，争取更好的性能、更低的功耗和更合适的总拥有成本。功耗直接关系到钱，也关系到 CPU。",
+      "spoken": "我们需要权衡，争取更好的性能、更低的功耗和更合适的总拥有成本。功耗直接关系到钱，也关系到 C P U。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "complete-utterance-candidate-not-adopted",
+      "review": "并列三目标，不偷删better performance/low power/better TCO，也不把权衡变成已经同时最优。",
+      "complete_candidates": [
+        {
+          "display": "所以，要权衡：性能更好，功耗更低，总拥有成本也要合适。功耗，直接关系到钱，也直接关系到 CPU。",
+          "spoken": "所以，要权衡：性能更好，功耗更低，总拥有成本也要合适。功耗，直接关系到钱，也直接关系到 C P U。",
+          "reason": "并列三目标，不偷删better performance/low power/better TCO，也不把权衡变成已经同时最优。",
+          "preserved_facts": [
+            "权衡TCO/性能/低功耗",
+            "直接关系金钱",
+            "关系CPU"
+          ]
+        }
+      ],
+      "text_only": null,
+      "source_hold": null,
+      "production_text_or_media_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 287,
+      "start": "4974.84",
+      "end": "4993.05",
+      "source": "if the one CPU is consuming let's say 300 watt so far off of heat or of power then it's going to be scalable may be linear or even more exponential in different servers and our data centers this is",
+      "display": "假设一颗 CPU 消耗300瓦，放大到多台服务器、多个数据中心，影响可能成倍增加，讲者甚至形容为可能呈指数增长。",
+      "spoken": "假设一颗 C P U 消耗300瓦，放大到多台服务器、多个数据中心，影响可能成倍增加，讲者甚至形容为可能呈指数增长。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "complete-utterance-candidate-not-adopted",
+      "review": "补回当前稿漏掉的linear，保留300瓦、可能性和原口述heat or power；指数明确归属讲者，不当物理普遍定律。",
+      "complete_candidates": [
+        {
+          "display": "如果一颗 CPU 的发热或耗电，按三百瓦来算呢？扩展到多台服务器、多个数据中心，可能线性增加；讲者还说，甚至可能呈指数增长。",
+          "spoken": "如果一颗 C P U 的发热或耗电，按三百瓦来算呢？扩展到多台服务器、多个数据中心，可能线性增加；讲者还说，甚至可能呈指数增长。",
+          "reason": "补回当前稿漏掉的linear，保留300瓦、可能性和原口述heat or power；指数明确归属讲者，不当物理普遍定律。",
+          "preserved_facts": [
+            "一颗CPU300瓦假设",
+            "热或功率口径",
+            "服务器及数据中心扩展",
+            "线性或讲者所称指数可能"
+          ]
+        }
+      ],
+      "text_only": null,
+      "source_hold": null,
+      "production_text_or_media_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 288,
+      "start": "4993.05",
+      "end": "5016.35",
+      "source": "these are the tools the turbo stat I think everyone knows about it to collect some data which is part of the CPU power utils package and then also in turn has a good tool that which is the inter power governor it's a software utility and the library that you can use to collect some data like the the power data",
+      "display": "工具方面，有 turbostat，可以采集数据，讲者把它放在 CPU 电源相关工具包中介绍。Intel 还有 Power Governor，它是一个软件工具和库，可用来采集功耗数据。",
+      "spoken": "工具方面，有 turbostat，可以采集数据，讲者把它放在 C P U 电源相关工具包中介绍。英特尔 还有 Power Governor，它是一个软件工具和库，可用来采集功耗数据。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "complete-utterance-candidate-not-adopted",
+      "review": "原图明确Power Governor (power_gov)，不因现代熟悉Power Gadget而改名；turbostat及包名只作本句拼读提示，不声称官方音素或现代打包支持。",
+      "complete_candidates": [
+        {
+          "display": "这里介绍的工具有 turbostat。讲者称它属于 cpupowerutils 工具包。英特尔还有 Power Governor，是软件工具加库，可以采集功耗数据。",
+          "spoken": "这里介绍的工具，有 Turbo stat。讲者称它属于 C P U power utils 工具包。英特尔还有 Power Governor，是软件工具加库，可以采集功耗数据。",
+          "reason": "原图明确Power Governor (power_gov)，不因现代熟悉Power Gadget而改名；turbostat及包名只作本句拼读提示，不声称官方音素或现代打包支持。",
+          "preserved_facts": [
+            "turbostat",
+            "历史cpupowerutils包介绍",
+            "Intel Power Governor",
+            "软件工具和库",
+            "功耗数据采集"
+          ]
+        }
+      ],
+      "text_only": null,
+      "source_hold": null,
+      "production_text_or_media_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 289,
+      "start": "5016.35",
+      "end": "5031.21",
+      "source": "talking about power now mobile mobile we really care about performance and power and speed for the energy profilers one on one of the tools that you just connect exactly the same as you see in the picture",
+      "display": "说到功耗，移动设备就更关心性能、功耗和速度。能耗剖析工具，可以像图中这样连接设备来使用。",
+      "spoken": "说到功耗，移动设备就更关心性能、功耗和速度。能耗剖析工具，可以像图中这样连接设备来使用。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "text-only-not-synthesized",
+      "review": "保留三关注点和图示连接，不能凭5062界面声称本项连接步骤已图审。",
+      "complete_candidates": [],
+      "text_only": "说到功耗，再看移动设备：性能、功耗、速度，都很重要。Energy Profiler 是一种工具，可以按图中的方式连接设备。",
+      "source_hold": null,
+      "production_text_or_media_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 290,
+      "start": "5031.21",
+      "end": "5048.55",
+      "source": "Flickr which was one of the Yahoo application tumbler - you just run tumblr or debuggable actually debuggable application here in your tablet or phone it should be enjoyed phone with Intel CPU then you plug it on your computer",
+      "display": "例如 Yahoo 的 Flickr、Tumblr。启动 Tumblr，或者一个可调试的应用；这里演示的是带 Intel CPU 的 Android 手机或平板，再连接到电脑上。",
+      "spoken": "例如 Yahoo 的 Flickr、Tumblr。启动 Tumblr，或者一个可调试的应用；这里演示的是带 英特尔 C P U 的 Android 手机或平板，再连接到电脑上。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "complete-utterance-candidate-not-adopted",
+      "review": "双新ASR恢复Android而非enjoyed，保留可调试、设备/Intel CPU条件和连接；品牌照原文，历史归属不背书当前。",
+      "complete_candidates": [
+        {
+          "display": "以雅虎的 Flickr、Tumblr 为例。先在手机或平板上启动 Tumblr，或其他可调试的应用；这里要求是带英特尔 CPU 的安卓设备，再把它接到电脑上。",
+          "spoken": "以雅虎的 Flickr、Tumblr 为例。先在手机或平板上启动 Tumblr，或其他可调试的应用；这里要求是带英特尔 C P U 的安卓设备，再把它接到电脑上。",
+          "reason": "双新ASR恢复Android而非enjoyed，保留可调试、设备/Intel CPU条件和连接；品牌照原文，历史归属不背书当前。",
+          "preserved_facts": [
+            "Flickr/Tumblr例子",
+            "可调试应用",
+            "手机或平板",
+            "Android及Intel CPU条件",
+            "接到电脑"
+          ]
+        }
+      ],
+      "text_only": null,
+      "source_hold": null,
+      "production_text_or_media_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 291,
+      "start": "5048.55",
+      "end": "5069.34",
+      "source": "you just open the energy profiler and or power analysis and then you see a very good graph like this and different wake up the reason of the wakeup and different power sea state and then the the wake up objects",
+      "display": "打开 Energy Profiler 或功耗分析，就能看到这样的图：不同唤醒事件、唤醒原因、电源 C 状态，以及唤醒相关对象。",
+      "spoken": "打开 Energy Profiler 或功耗分析，就能看到这样的图：不同唤醒事件、唤醒原因、电源 C 状态，以及唤醒相关对象。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "complete-utterance-candidate-not-adopted",
+      "review": "C-state来自双ASR及5062，不读sea或替成P-state；Energy Profiler只作本句中文功能别名。",
+      "complete_candidates": [
+        {
+          "display": "打开 Energy Profiler，或功耗分析，就能看到这样的图：不同的唤醒事件、唤醒原因、电源 C 状态，还有相关的唤醒对象。",
+          "spoken": "打开能耗剖析器，或功耗分析，就能看到这样的图：不同的唤醒事件、唤醒原因、电源 C 状态，还有相关的唤醒对象。",
+          "reason": "C-state来自双ASR及5062，不读sea或替成P-state；Energy Profiler只作本句中文功能别名。",
+          "preserved_facts": [
+            "Energy Profiler或power analysis",
+            "唤醒/原因/对象",
+            "电源C状态"
+          ]
+        }
+      ],
+      "text_only": null,
+      "source_hold": null,
+      "production_text_or_media_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 292,
+      "start": "5069.34",
+      "end": "5082.48",
+      "source": "so and then you can you can play with your debuggable application trying to tune it to consume a better power for the graphics you have the graphics performance analyzer",
+      "display": "接着操作可调试的应用，尝试调优，降低功耗。图形方面，还有 Graphics Performance Analyzer，图形性能分析器。",
+      "spoken": "接着操作可调试的应用，尝试调优，降低功耗。图形方面，还有 Graphics Performance Analyzer，图形性能分析器。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "text-only-not-synthesized",
+      "review": "保留调试条件与调优目的，5088支持工具名，不把降低功耗变成已实现结果。",
+      "complete_candidates": [],
+      "text_only": "接着操作可调试的应用，试着调优，降低功耗。图形方面，还有 Graphics Performance Analyzer，图形性能分析器。",
+      "source_hold": null,
+      "production_text_or_media_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 293,
+      "start": "5082.48",
+      "end": "5099.58",
+      "source": "people who are using you know GPUs and the entire application on the phone also there's a graphics performance analyzers are very helpful for better performance now how to scale out the performance now we are going to then another section",
+      "display": "如果在手机上使用 GPU 和相关应用，图形性能分析器同样很有帮助。接下来进入另一部分：性能怎样扩展？",
+      "spoken": "如果在手机上使用 G P U 和相关应用，图形性能分析器同样很有帮助。接下来进入另一部分：性能怎样扩展？",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "text-only-not-synthesized",
+      "review": "是讲者转场，不新增观众角色或绝对加速保证。",
+      "complete_candidates": [],
+      "text_only": "在手机上使用 GPU 和相关应用时，图形性能分析器也有助于改善性能。接下来换个部分：性能怎样扩展？",
+      "source_hold": null,
+      "production_text_or_media_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 294,
+      "start": "5099.58",
+      "end": "5111.959",
+      "source": "any question about software power and mobile",
+      "display": "关于软件、功耗、移动设备，有什么问题吗？",
+      "spoken": "…",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": true,
+      "context_only": false,
+      "status": "actual-original-audio-reservation-no-TTS",
+      "review": "294问题/换人与321掌声保留实际原声；294旧medium含额外操作系统原问而distil漏，不能只据字幕补猜原问或重做成功原声。",
+      "complete_candidates": [],
+      "text_only": null,
+      "source_hold": null,
+      "production_text_or_media_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 295,
+      "start": "5111.959",
+      "end": "5128.389",
+      "source": "yes everything here even for Mac for example VTune is actually available for Mac as a monitor not a collector because usually you collect on the server yeah",
+      "display": "比如 Mac，VTune 当时可以用作结果查看端，而不是采集器，因为通常是在服务器上采集。",
+      "spoken": "比如 Mac，V Tune 当时可以用作结果查看端，而不是采集器，因为通常是在服务器上采集。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "text-only-not-synthesized",
+      "review": "保留对294原问的回答关系和monitor/not collector；限定历史说法，不推出2026平台支持。",
+      "complete_candidates": [],
+      "text_only": "是的。比如 Mac，讲者当时说 VTune 可用于监看、查看结果，而不是采集；采集通常在服务器上进行。",
+      "source_hold": null,
+      "production_text_or_media_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 296,
+      "start": "5128.389",
+      "end": "5148.92",
+      "source": "so when we talk about the scale of performance we are talking about how we can scale or isn't Li or vertically which means that are we able to increase the throughput vertically with more CPUs and cores and memories and memory within the server",
+      "display": "谈性能扩展，就是考虑横向或纵向扩展。能不能增加吞吐量？在一台服务器里增加 CPU、核心和内存，是这里先讨论的纵向扩展。",
+      "spoken": "谈性能扩展，就是考虑横向或纵向扩展。能不能增加吞吐量？在一台服务器里增加 C P U、核心和内存，是这里先讨论的纵向扩展。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "complete-utterance-candidate-not-adopted",
+      "review": "双旧ASR和5158支持horizontally，不保留or isn’t Li错串；问句是讲者引导，单机CPU/核心/内存及吞吐量俱在。",
+      "complete_candidates": [
+        {
+          "display": "谈性能扩展，先问：横向，还是纵向？要提高吞吐量，能不能在一台服务器里增加 CPU、核心和内存？这就是这里说的纵向扩展。",
+          "spoken": "谈性能扩展，先问：横向，还是纵向？要提高吞吐量，能不能在一台服务器里增加 C P U、核心和内存？这就是这里说的纵向扩展。",
+          "reason": "双旧ASR和5158支持horizontally，不保留or isn’t Li错串；问句是讲者引导，单机CPU/核心/内存及吞吐量俱在。",
+          "preserved_facts": [
+            "横向或纵向",
+            "增加吞吐量",
+            "单台服务器CPU/核心/内存",
+            "该例纵向"
+          ]
+        }
+      ],
+      "text_only": null,
+      "source_hold": null,
+      "production_text_or_media_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 297,
+      "start": "5148.92",
+      "end": "5161.939",
+      "source": "or create or buy other servers with the with with different data centers and this is this is very connected to the cost this is why the cost is really important with performance",
+      "display": "另一种，是购买更多服务器，甚至放到不同数据中心里。这些都与成本紧密相关，所以性能问题，不能离开成本来谈。",
+      "spoken": "另一种，是购买更多服务器，甚至放到不同数据中心里。这些都与成本紧密相关，所以性能问题，不能离开成本来谈。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "text-only-not-synthesized",
+      "review": "保留新增服务器/数据中心与成本，不把下一项299口误静默纠正成已听清。",
+      "complete_candidates": [],
+      "text_only": "另一条路，是增加或购买更多服务器，甚至部署到不同数据中心。这些决定，都和成本紧密相关；所以谈性能，不能不谈成本。",
+      "source_hold": null,
+      "production_text_or_media_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 298,
+      "start": "5161.939",
+      "end": "5178.59",
+      "source": "so we it's a big decision of a capacity planning and this is why we call it the capacity planning for different different application different project different services within the company if we need to plan a largest server and data center capacity",
+      "display": "这是容量规划中的重要决策。不同应用、项目、服务，需要规划多大的服务器和数据中心容量，或者是否要扩建数据中心。",
+      "spoken": "这是容量规划中的重要决策。不同应用、项目、服务，需要规划多大的服务器和数据中心容量，或者是否要扩建数据中心。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "text-only-not-synthesized",
+      "review": "仅此项规划范围；旧中文提前移入的扩建计划属于299，不把相邻语义误作本项原话。",
+      "complete_candidates": [],
+      "text_only": "这是容量规划中的重要决策。公司里的不同应用、项目和服务，都要规划：服务器和数据中心，究竟需要多大的容量？",
+      "source_hold": null,
+      "production_text_or_media_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 299,
+      "start": "5178.59",
+      "end": "5189.53",
+      "source": "or do the data center expansion plan with scaling vertically with different servers on our data centers",
+      "display": "或者，制定数据中心扩建计划，在数据中心的不同服务器上进行“纵向扩展”。",
+      "spoken": "或者，制定数据中心扩建计划，在数据中心的不同服务器上进行“纵向扩展”。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "text-only-not-synthesized",
+      "review": "两旧ASR均vertically，但与多服务器语境/296定义可能冲突。原讲词加引号保留；不能靠定义替讲者说横向，不合成新句或关闭技术门禁。",
+      "complete_candidates": [],
+      "text_only": "或者，制定数据中心扩建计划，在数据中心的不同服务器上进行“纵向扩展”。",
+      "source_hold": null,
+      "production_text_or_media_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 300,
+      "start": "5189.53",
+      "end": "5206.059",
+      "source": "so really its trade-off between and I think this is the natural extension to the cloud performance because it's one of the solution if you do scaling horizontally virtualization is going to help with virtualized compute and network and storage resources",
+      "display": "归根结底，这是权衡，也自然延伸到云端性能。云就是一种解决方案。横向扩展时，虚拟化能帮助整合计算、网络和存储资源。",
+      "spoken": "归根结底，这是权衡，也自然延伸到云端性能。云就是一种解决方案。横向扩展时，虚拟化能帮助整合计算、网络和存储资源。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "text-only-not-synthesized",
+      "review": "保留横向前提和三资源，不能把virtualized擅换成只有资源整合或云必然解决全部瓶颈。",
+      "complete_candidates": [],
+      "text_only": "归根结底，这是权衡，也自然延伸到云端性能。云是一种解决办法；横向扩展时，虚拟化可以帮助实现计算、网络和存储资源的虚拟化。",
+      "source_hold": null,
+      "production_text_or_media_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 301,
+      "start": "5206.059",
+      "end": "5220.82",
+      "source": "between private public and hybrid here is also it's going to be a trade-off why we did we do hybrid for example for a seasonal capacity chance or a seasonal application like Yahoo fantasy sports",
+      "display": "私有云、公有云、混合云之间，也要权衡。为什么用混合云？例如季节性的容量变化，或 Yahoo Fantasy Sports 这种季节性应用。",
+      "spoken": "私有云、公有云、混合云之间，也要权衡。为什么用混合云？例如季节性的容量变化，或 Yahoo Fantasy Sports 这种季节性应用。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "complete-utterance-candidate-not-adopted",
+      "review": "按5230 seasonal capacity changes修chance词面；保留混合云选择的季节性例子，不将云类型设成无条件最优。",
+      "complete_candidates": [
+        {
+          "display": "私有云、公有云，还是混合云？这里同样要权衡。为什么选混合云？比如，雅虎 Fantasy Sports 这样的应用，就有随赛季变化的容量需求。",
+          "spoken": "私有云、公有云，还是混合云？这里同样要权衡。为什么选混合云？比如，雅虎 Fantasy Sports 这样的应用，就有随赛季变化的容量需求。",
+          "reason": "按5230 seasonal capacity changes修chance词面；保留混合云选择的季节性例子，不将云类型设成无条件最优。",
+          "preserved_facts": [
+            "私有/公有/混合云权衡",
+            "混合云季节容量",
+            "Yahoo Fantasy Sports例子"
+          ]
+        }
+      ],
+      "text_only": null,
+      "source_hold": null,
+      "production_text_or_media_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 302,
+      "start": "5220.82",
+      "end": "5238.32",
+      "source": "it doesn't make any sense if you you have a data center just for this application that you're in it only for a season of football season for example this is one of the examples so it's going to be about SLA and the elasticity and security as well too",
+      "display": "如果一个应用，只在橄榄球赛季这样的时间段运行，却专门为它保留一座数据中心，就不太合理。所以，还要考虑 SLA、弹性和安全。",
+      "spoken": "如果一个应用，只在橄榄球赛季这样的时间段运行，却专门为它保留一座数据中心，就不太合理。所以，还要考虑 服务等级协议、弹性和安全。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "complete-utterance-candidate-not-adopted",
+      "review": "美式football按此雅虎赛季例子保留橄榄球，SLA完整展开；保留弹性和安全，不只保留成本理由。",
+      "complete_candidates": [
+        {
+          "display": "比如，一个应用只在橄榄球赛季运行，却专门为它留一座数据中心，就不合理了。选择时，还得看 SLA、弹性，以及安全。",
+          "spoken": "比如，一个应用只在橄榄球赛季运行，却专门为它留一座数据中心，就不合理了。选择时，还得看服务等级协议、弹性，以及安全。",
+          "reason": "美式football按此雅虎赛季例子保留橄榄球，SLA完整展开；保留弹性和安全，不只保留成本理由。",
+          "preserved_facts": [
+            "仅赛季运行的例子",
+            "专建数据中心不合理",
+            "SLA/弹性/安全"
+          ]
+        }
+      ],
+      "text_only": null,
+      "source_hold": null,
+      "production_text_or_media_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 303,
+      "start": "5238.32",
+      "end": "5258.96",
+      "source": "so we need to keep this in mind consolidation between VMs and containers where you you have for example the docker in containers or any other containers or type of containers VMs and the combination of both is going to be it's going to be the perfect word",
+      "display": "还要考虑虚拟机与容器的整合。比如 Docker 容器、其他容器，以及虚拟机。把它们结合起来，是我们所考虑的方案。",
+      "spoken": "还要考虑虚拟机与容器的整合。比如 Docker 容器、其他容器，以及虚拟机。把它们结合起来，是我们所考虑的方案。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "text-only-not-synthesized",
+      "review": "恢复两者组合的积极评价；5304底部best of both worlds与当前完美世界错词分开，不声称已按音形修正源文。",
+      "complete_candidates": [],
+      "text_only": "还要整合虚拟机和容器，比如 Docker 容器、其他容器，以及虚拟机。按讲者这里的说法，把两者结合起来，就能兼取所长。",
+      "source_hold": null,
+      "production_text_or_media_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 304,
+      "start": "5258.96",
+      "end": "5270.09",
+      "source": "because we care about security too and VMC's offering this in containers smart really the case so what we do is like combine them between the both of them",
+      "display": "因为也关心安全。讲者认为，虚拟机在安全方面有优势，而容器没有完全相同的保障，因此会把两者结合。",
+      "spoken": "因为也关心安全。讲者认为，虚拟机在安全方面有优势，而容器没有完全相同的保障，因此会把两者结合。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "text-only-not-synthesized",
+      "review": "原containers not really保留否定；历史简化比较归属讲者，不宣称任何VM绝对安全/任何容器不安全。",
+      "complete_candidates": [],
+      "text_only": "因为我们也关心安全。按讲者当时的概括，虚拟机提供了这层保障，容器则不是同样的情况；所以，要把两者结合起来。",
+      "source_hold": null,
+      "production_text_or_media_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 305,
+      "start": "5270.09",
+      "end": "5284.76",
+      "source": "and they can actually give also talk about containers performance in containers or even one one containers and then see how we can build your own container run application different tasks do performance",
+      "display": "容器性能也可以专门再讲：从单个容器开始，怎样构建自己的容器、运行应用和不同任务，再做性能分析。",
+      "spoken": "容器性能也可以专门再讲：从单个容器开始，怎样构建自己的容器、运行应用和不同任务，再做性能分析。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "text-only-not-synthesized",
+      "review": "保留另讲一场的提议，不把one-on-one词面错串解释为单线程性能。",
+      "complete_candidates": [],
+      "text_only": "容器性能，也可以专门再讲一场：从单个容器开始，怎样构建自己的容器、运行应用和不同任务，再做性能分析。",
+      "source_hold": null,
+      "production_text_or_media_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 306,
+      "start": "5284.76",
+      "end": "5297.35",
+      "source": "and then performance actually that is vital for containers where you either take Vito as a container itself or install a V tone in one of the containers to provide your application or container",
+      "display": "对于容器，可以把 VTune 本身作为一个容器运行，也可以把它装进容器里，剖析应用或容器本身。",
+      "spoken": "对于容器，可以把 V Tune 本身作为一个容器运行，也可以把它装进容器里，剖析应用或容器本身。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "complete-utterance-candidate-not-adopted",
+      "review": "双新ASR支持VTune两次产品名和两种部署方式；不改成容器内必需嵌套容器或当前任何权限配置都可采集。",
+      "complete_candidates": [
+        {
+          "display": "容器里做性能分析，VTune 就能用：可以把 VTune 本身作为容器运行，也可以把它安装到容器内部，剖析你的应用或容器。",
+          "spoken": "容器里做性能分析，V Tune 就能用：可以把 V Tune 本身作为容器运行，也可以把它安装到容器内部，剖析你的应用或容器。",
+          "reason": "双新ASR支持VTune两次产品名和两种部署方式；不改成容器内必需嵌套容器或当前任何权限配置都可采集。",
+          "preserved_facts": [
+            "VTune作为容器",
+            "或安装在容器内部",
+            "剖析应用或容器"
+          ]
+        }
+      ],
+      "text_only": null,
+      "source_hold": null,
+      "production_text_or_media_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 307,
+      "start": "5297.35",
+      "end": "5313.25",
+      "source": "so hear the difference and how we can how we can I mean different in performance if we like to boost the speed it's more about containers if we're talking about about security is more about virtual machines",
+      "display": "这里就在比较性能差异。按讲者的概括，更看重速度，会偏向容器；更看重安全，会偏向虚拟机。",
+      "spoken": "这里就在比较性能差异。按讲者的概括，更看重速度，会偏向容器；更看重安全，会偏向虚拟机。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "text-only-not-synthesized",
+      "review": "5304为启动/占用/成熟/安全等比较，不能把boost speed展开成所有任务吞吐都更高。",
+      "complete_candidates": [],
+      "text_only": "这里是在比较性能。按讲者的概括，想提升速度，会偏向容器；更看重安全，会偏向虚拟机。",
+      "source_hold": null,
+      "production_text_or_media_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 308,
+      "start": "5313.25",
+      "end": "5330.44",
+      "source": "I think this is one of the very exciting for me because I think it's one of the few new articles about how we can use artificial intelligence with with with with performance or performance engineering or science of performance",
+      "display": "这个方向让我特别兴奋。因为在我看来，把人工智能用于性能、性能工程，也就是性能科学的这类新文章，还不多。",
+      "spoken": "这个方向让我特别兴奋。因为在我看来，把人工智能用于性能、性能工程，也就是性能科学的这类新文章，还不多。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "complete-utterance-candidate-not-adopted",
+      "review": "恢复原very exciting第一人称热情；few articles限定讲者看法及历史语境，不暗示2026此领域仍罕见。",
+      "complete_candidates": [
+        {
+          "display": "这个方向，真让我兴奋！把人工智能用于性能、性能工程，也就是性能科学——在我看来，当时这样的新文章还不多。",
+          "spoken": "这个方向，真让我兴奋！把人工智能用于性能、性能工程，也就是性能科学——在我看来，当时这样的新文章还不多。",
+          "reason": "恢复原very exciting第一人称热情；few articles限定讲者看法及历史语境，不暗示2026此领域仍罕见。",
+          "preserved_facts": [
+            "讲者兴奋",
+            "AI用于性能/性能工程/性能科学",
+            "他认为当时相关文章不多"
+          ]
+        }
+      ],
+      "text_only": null,
+      "source_hold": null,
+      "production_text_or_media_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 309,
+      "start": "5330.44",
+      "end": "5352.17",
+      "source": "where we can use one of the deep learning tensorflow model which is LS TM for smart anomaly detection this is one of the paper are we are going to publish internally for one of the conference at Verizon and externally for artificial intelligence conference with performance",
+      "display": "我们用 TensorFlow 里的 LSTM 深度学习模型，做智能异常检测。相关论文，计划先在 Verizon 内部会议发表，再投向外部的人工智能与性能会议。",
+      "spoken": "我们用 TensorFlow 里的 L S T M 深度学习模型，做智能异常检测。相关论文，计划先在 Verizon 内部会议发表，再投向外部的人工智能与性能会议。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "complete-utterance-candidate-not-adopted",
+      "review": "双新ASR及5344支持LSTM，拆字母而不改模型；发表是当时计划，不编造论文标题、已发表状态或外部会议专名。",
+      "complete_candidates": [
+        {
+          "display": "我们用 TensorFlow 的 LSTM 深度学习模型，做智能异常检测。相关论文，计划先在 Verizon 的内部会议发表，再向外部的人工智能与性能会议投稿。",
+          "spoken": "我们用 TensorFlow 的 L S T M 深度学习模型，做智能异常检测。相关论文，计划先在 Verizon 的内部会议发表，再向外部的人工智能与性能会议投稿。",
+          "reason": "双新ASR及5344支持LSTM，拆字母而不改模型；发表是当时计划，不编造论文标题、已发表状态或外部会议专名。",
+          "preserved_facts": [
+            "TensorFlow/LSTM深度学习",
+            "智能异常检测",
+            "Verizon内部及外部会议计划"
+          ]
+        }
+      ],
+      "text_only": null,
+      "source_hold": null,
+      "production_text_or_media_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 310,
+      "start": "5352.17",
+      "end": "5377.4",
+      "source": "so how we can we can use the data we have for system utilization and memory utilization to detect if this data has anomaly or not we do it manually we do some script for that but we never use some artificial intelligence or a model neural network unsupervised the neural network model to detect the anomaly",
+      "display": "我们已经有系统利用率、内存利用率数据，怎样用它们检测异常？过去会手动检查，或者写脚本，但没有用人工智能、无监督神经网络模型来检测。",
+      "spoken": "我们已经有系统利用率、内存利用率数据，怎样用它们检测异常？过去会手动检查，或者写脚本，但没有用人工智能、无监督神经网络模型来检测。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "source-hold-no-new-TTS",
+      "review": "5344二值输出和LSTM架构不能单独证明训练方法。不猜监督或无监督、不合成本项、不自动放行事实门禁。",
+      "complete_candidates": [],
+      "text_only": null,
+      "source_hold": {
+        "question": "原口述模型训练方式是unsupervised，还是and supervised/其他转写？",
+        "current": "当前源与中文写无监督；新两模型分别给and supervise，不能视作一致恢复unsupervised。",
+        "constraint": "5344二值输出和LSTM架构不能单独证明训练方法。不猜监督或无监督、不合成本项、不自动放行事实门禁。"
+      },
+      "production_text_or_media_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 311,
+      "start": "5377.4",
+      "end": "5395.27",
+      "source": "which is very very helpful in our data centers we have a large amount of data and servers would like to to to create some system to prevent any anomaly in the future this is why we created this model of anomaly detection",
+      "display": "数据中心里，数据量大，服务器也多。我们希望建立一套系统，预防未来的异常，这就是创建异常检测模型的原因。",
+      "spoken": "数据中心里，数据量大，服务器也多。我们希望建立一套系统，预防未来的异常，这就是创建异常检测模型的原因。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "text-only-not-synthesized",
+      "review": "would like to是目标，不把检测自动说成已经防止一切异常，也不据相邻模型名关闭310训练方式歧义。",
+      "complete_candidates": [],
+      "text_only": "数据中心的数据量大，服务器也多。我们希望建立一套系统，预防未来的异常，这就是创建异常检测模型的原因。",
+      "source_hold": null,
+      "production_text_or_media_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 312,
+      "start": "5395.27",
+      "end": "5413.97",
+      "source": "so just to give you an idea what doesn't mean so this is two graphs of high and low CPU utilization in one of the server's CPU and memory a transition time series so through maybe a month of off high of utilization of CPU and memory utilization",
+      "display": "举个例子。这两张图，是某台服务器高、低 CPU 利用率，以及 CPU、内存利用率变化的时间序列，可以是一个月的数据。",
+      "spoken": "举个例子。这两张图，是某台服务器高、低 C P U 利用率，以及 C P U、内存利用率变化的时间序列，可以是一个月的数据。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "text-only-not-synthesized",
+      "review": "5405明确CPU和Memory，高低是负载利用率而非两图只有CPU；month仍maybe，不编造精确起止日期。",
+      "complete_candidates": [],
+      "text_only": "举个例子：这两张图展示一台服务器上，高、低利用率负载的 CPU 和内存时间序列；时间跨度可能是一个月。",
+      "source_hold": null,
+      "production_text_or_media_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 313,
+      "start": "5413.97",
+      "end": "5431.84",
+      "source": "and then how we can detect a low utilization of the workload this is always was a question for us and we usually do it through our monitoring system manually and this is why we created this tool or a model through neural network to detect",
+      "display": "怎样发现负载利用率偏低，一直是我们的问题。以前靠监控系统手动看，所以才用神经网络创建了这个工具或模型来检测。",
+      "spoken": "怎样发现负载利用率偏低，一直是我们的问题。以前靠监控系统手动看，所以才用神经网络创建了这个工具或模型来检测。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "text-only-not-synthesized",
+      "review": "manual属于其团队，低利用率并非所有场景都等于故障；不凭本句补训练标签。",
+      "complete_candidates": [],
+      "text_only": "怎样发现负载利用率偏低，一直是我们的问题。以前，我们靠监控系统手动查看；所以才用神经网络创建这个工具或模型，来做检测。",
+      "source_hold": null,
+      "production_text_or_media_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 314,
+      "start": "5431.84",
+      "end": "5439.01",
+      "source": "and actually it's going to be maybe public in December",
+      "display": "这个工具，也许会在十二月公开。",
+      "spoken": "这个工具，也许会在十二月公开。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "text-only-not-synthesized",
+      "review": "两旧ASR均December；maybe和报告当时语境必须保留，不背书2026十二月或已经发布。",
+      "complete_candidates": [],
+      "text_only": "讲者当时说：这个工具，也许会在十二月公开。",
+      "source_hold": null,
+      "production_text_or_media_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 315,
+      "start": "5439.01",
+      "end": "5453.2",
+      "source": "are you looking for a performance engineering job yes this is all about this talk or are you interested in performance is also to this talk I",
+      "display": "你在找性能工程方面的工作吗？那这场报告正好围绕这个话题。或者，你只是对性能感兴趣？这场报告也同样适合你。",
+      "spoken": "你在找性能工程方面的工作吗？那这场报告正好围绕这个话题。或者，你只是对性能感兴趣？这场报告也同样适合你。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "complete-utterance-candidate-not-adopted",
+      "review": "用原两次面向听众的反问恢复邀请感，不编造真实观众回答/新角色或招聘承诺。",
+      "complete_candidates": [
+        {
+          "display": "你在找性能工程方面的工作吗？那，这场报告就是讲给你的！或者，你只是对性能感兴趣？这场报告，同样适合你。",
+          "spoken": "你在找性能工程方面的工作吗？那，这场报告就是讲给你的！或者，你只是对性能感兴趣？这场报告，同样适合你。",
+          "reason": "用原两次面向听众的反问恢复邀请感，不编造真实观众回答/新角色或招聘承诺。",
+          "preserved_facts": [
+            "求职性能工程",
+            "报告面向求职者",
+            "也面向对性能感兴趣者"
+          ]
+        }
+      ],
+      "text_only": null,
+      "source_hold": null,
+      "production_text_or_media_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 316,
+      "start": "5453.2",
+      "end": "5476.6",
+      "source": "do you want to learn about performance is it your is it your your life professional think that you want to do yeah so actually people they think that and they're maybe they do mistakes between software engineer and performance engineer which is two different things",
+      "display": "你想学习性能，把它当成自己今后的职业吗？有些人可能会把软件工程师和性能工程师混为一谈，但这是两种不同的工作。",
+      "spoken": "你想学习性能，把它当成自己今后的职业吗？有些人可能会把软件工程师和性能工程师混为一谈，但这是两种不同的工作。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "text-only-not-synthesized",
+      "review": "同一讲者职业邀请及可能混淆，不能补招聘机会或断言所有人混淆。",
+      "complete_candidates": [],
+      "text_only": "你想学习性能，把它当作今后的职业吗？有些人会把软件工程师和性能工程师混淆，但这是两种不同的工作。",
+      "source_hold": null,
+      "production_text_or_media_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 317,
+      "start": "5476.6",
+      "end": "5493.28",
+      "source": "you need to know about software but also you need to know about hard work you cannot be expert in the software and your good performance engineer this is why you need first you need to do the system architecture of the CPU memory the you know Hennessy and Patterson book",
+      "display": "性能工程师既要懂软件，也得懂硬件；只精通软件可不够。先学系统架构：CPU、内存，比如 Hennessy 和 Patterson 书中的内容。",
+      "spoken": "性能工程师既要懂软件，也得懂硬件；只精通软件可不够。先学系统架构：C P U、内存，比如 Hennessy 和 Patterson 书中的内容。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "source-hold-no-new-TTS",
+      "review": "hard work可显式改hardware，但不能靠熟悉教材作者就声称已听清姓氏；本项不合成新候选。",
+      "complete_candidates": [],
+      "text_only": null,
+      "source_hold": {
+        "question": "书籍作者末名口述/拼写Patterson还是Peterson？",
+        "current": "旧原文写Hennessy and Patterson，两旧ASR均Hennessy and Peterson；5500图无名字。",
+        "constraint": "hard work可显式改hardware，但不能靠熟悉教材作者就声称已听清姓氏；本项不合成新候选。"
+      },
+      "production_text_or_media_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 318,
+      "start": "5493.28",
+      "end": "5504.95",
+      "source": "this is going to be similar thing as my career you don't need to do the research I did research because I loved research and they still love research I love also teaching",
+      "display": "这和我的职业经历有些相似，但你不必做研究。我做研究，是因为热爱；现在依然热爱研究，也热爱教学。",
+      "spoken": "这和我的职业经历有些相似，但你不必做研究。我做研究，是因为热爱；现在依然热爱研究，也热爱教学。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "complete-utterance-candidate-not-adopted",
+      "review": "保留无需科研、过去/现在两次热爱与教学；破折号仅表达语气意图，不冒称TTS已情感自然或实际人耳胜者。",
+      "complete_candidates": [
+        {
+          "display": "这和我的职业经历相似。但你不必做研究。我做研究，是因为热爱——现在依然热爱研究，也热爱教学。",
+          "spoken": "这和我的职业经历相似。但你不必做研究。我做研究，是因为热爱——现在依然热爱研究，也热爱教学。",
+          "reason": "保留无需科研、过去/现在两次热爱与教学；破折号仅表达语气意图，不冒称TTS已情感自然或实际人耳胜者。",
+          "preserved_facts": [
+            "类似讲者职业",
+            "不必做研究",
+            "因热爱研究且现在仍热爱",
+            "也爱教学"
+          ]
+        }
+      ],
+      "text_only": null,
+      "source_hold": null,
+      "production_text_or_media_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 319,
+      "start": "5504.95",
+      "end": "5517.989",
+      "source": "you need to know how to develop application and Java and Hadoop - not an expert but the general understanding of software you need to be good in cost and TCO",
+      "display": "你得会开发应用，对 Java 和 Hadoop 有基本了解；不要求成为专家，但要有软件基础，也要懂成本和总拥有成本。",
+      "spoken": "你得会开发应用，对 Java 和 Hadoop 有基本了解；不要求成为专家，但要有软件基础，也要懂成本和总拥有成本。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "complete-utterance-candidate-not-adopted",
+      "review": "保留会开发而非只听过、Java/Hadoop基本了解而非必须专家，以及成本和TCO；不为ASR错字改品牌。",
+      "complete_candidates": [
+        {
+          "display": "要会开发应用，基本了解 Java、Hadoop；不必是专家，但得懂软件，也得懂成本和总拥有成本。",
+          "spoken": "要会开发应用，基本了解 Java、Hadoop；不必是专家，但得懂软件，也得懂成本和总拥有成本。",
+          "reason": "保留会开发而非只听过、Java/Hadoop基本了解而非必须专家，以及成本和TCO；不为ASR错字改品牌。",
+          "preserved_facts": [
+            "会开发应用",
+            "Java/Hadoop基本了解",
+            "不必专家但需软件基础",
+            "成本及TCO"
+          ]
+        }
+      ],
+      "text_only": null,
+      "source_hold": null,
+      "production_text_or_media_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 320,
+      "start": "5517.989",
+      "end": "5529.98",
+      "source": "or trade of things that you don't need and optimisation good in analytics but perfection is bad you don't need to be perfect thank you",
+      "display": "还要懂取舍，知道什么不需要、怎样优化，也要善于分析。但追求完美反而不好；你不需要事事完美。谢谢大家！",
+      "spoken": "还要懂取舍，知道什么不需要、怎样优化，也要善于分析。但追求完美反而不好；你不需要事事完美。谢谢大家！",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "complete-utterance-candidate-not-adopted",
+      "review": "保留取舍/不需要的项/优化/分析/反完美主义及完整感谢；不补原声没念的脚本技能，不覆盖321真实掌声。",
+      "complete_candidates": [
+        {
+          "display": "还要懂取舍，知道哪些不需要；会优化，善分析。但追求完美反而不好——不必事事完美。谢谢大家！",
+          "spoken": "还要懂取舍，知道哪些不需要；会优化，善分析。但追求完美反而不好——不必事事完美。谢谢大家！",
+          "reason": "保留取舍/不需要的项/优化/分析/反完美主义及完整感谢；不补原声没念的脚本技能，不覆盖321真实掌声。",
+          "preserved_facts": [
+            "取舍不需要的东西",
+            "优化",
+            "分析能力",
+            "讲者反完美主义",
+            "谢谢"
+          ]
+        }
+      ],
+      "text_only": null,
+      "source_hold": null,
+      "production_text_or_media_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 321,
+      "start": "5529.98",
+      "end": "5532.782",
+      "source": "[Applause]",
+      "display": "【原声保留】",
+      "spoken": "…",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": true,
+      "context_only": false,
+      "status": "actual-original-audio-reservation-no-TTS",
+      "review": "294问题/换人与321掌声保留实际原声；294旧medium含额外操作系统原问而distil漏，不能只据字幕补猜原问或重做成功原声。",
+      "complete_candidates": [],
+      "text_only": null,
+      "source_hold": null,
+      "production_text_or_media_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    }
+  ],
+  "source_evidence": [
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/vtune-platform-conclusion-v1/current-context-276-321.json",
+      "bytes": 43362,
+      "mtime_ns": 1794706482986863935,
+      "sha256": "64b37a817ea3d6891f68e82cf6f71e0bebd7346af789bcc355eca36f5fba83ad"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/vtune-platform-conclusion-v1/agent-source-image-observations-v1.json",
+      "bytes": 9406,
+      "mtime_ns": 1794706930575311101,
+      "sha256": "483df6d4806ae0addd8dd470c3183523e6175c2c410e32f7bc3b27de94edbeac"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/vtune-platform-conclusion-v1/source-asr-v1/complete.json",
+      "bytes": 5773,
+      "mtime_ns": 1794706643888670525,
+      "sha256": "9b8f4df543b21ddf93440779916485ba0629808e388079c2800054a072b71e8a"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/vtune-platform-conclusion-v1/source-asr-v1/learning-help-complete-distil-large-v3.json",
+      "bytes": 16799,
+      "mtime_ns": 1794706543847312299,
+      "sha256": "7c19aa64d8c0435027eb3ee7ea59244199aaa3f4cd2f190261a58a3de998d3dd"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/vtune-platform-conclusion-v1/source-asr-v1/mobile-energy-graphics-distil-large-v3.json",
+      "bytes": 33144,
+      "mtime_ns": 1794706558038648450,
+      "sha256": "d5e61e990f91e0cd4ce1922f6488e3f9b71da144ed8d9fcb0778d110d86aff87"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/vtune-platform-conclusion-v1/source-asr-v1/cloud-containers-anomaly-distil-large-v3.json",
+      "bytes": 76192,
+      "mtime_ns": 1794706586551322145,
+      "sha256": "443c3f463e052d2b3a36b02255f312e443c19c214c0867e1f81dbf19143dfda8"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/vtune-platform-conclusion-v1/source-asr-v1/learning-help-complete-medium.json",
+      "bytes": 16177,
+      "mtime_ns": 1794706595685537508,
+      "sha256": "2ca9322119b4e6713b0ea11cf5e8bf3985580fce565db92f0ffecc32f6e52564"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/vtune-platform-conclusion-v1/source-asr-v1/mobile-energy-graphics-medium.json",
+      "bytes": 32448,
+      "mtime_ns": 1794706611913919602,
+      "sha256": "a8da04626363d9ea99043fe68ac259dc0515e1cd8ae318f5590edc75477b58aa"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/vtune-platform-conclusion-v1/source-asr-v1/cloud-containers-anomaly-medium.json",
+      "bytes": 76332,
+      "mtime_ns": 1794706643847669564,
+      "sha256": "bdbe6455c5d2963493f9b00a4a0a5d0e905119920b9722ea808fd0bec445bed2"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/source-asr-recovery-v3/platform-power-tools-distil-large-v3.json",
+      "bytes": 84674,
+      "mtime_ns": 1794617035476181067,
+      "sha256": "0e57a629f52f372030ec4655d0e3bbce45b8ffce08cbaaaad7e10cef08a300c1"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/source-asr-recovery-v3/platform-power-tools-medium.json",
+      "bytes": 84002,
+      "mtime_ns": 1794617650597743633,
+      "sha256": "196d8abe5b7a4ee1947baea0bc43d17af62073037591d36b4984f108cb1a3583"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/source-asr-recovery-v3/complete-ending-distil-large-v3.json",
+      "bytes": 33765,
+      "mtime_ns": 1794616851385160636,
+      "sha256": "d129a0d17c79dba6b68e5be86e407d485dcf0defa138c40ce5202d563038ef16"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/source-asr-recovery-v3/complete-ending-medium.json",
+      "bytes": 33724,
+      "mtime_ns": 1794617425038787999,
+      "sha256": "37ed8be7cc3e2f2a63b40def0172ad7d5f57b384c5382514d216d64b4c8f2412"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/source-asr-supplement-v1/scale-up-out-distil-large-v3.json",
+      "bytes": 41874,
+      "mtime_ns": 1794617125599556383,
+      "sha256": "bf5f794d496f8c95fc416a2ac73c0e08781a5b6ca8ffa83ef6bb013bd7c10c06"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/source-asr-supplement-v1/scale-up-out-medium.json",
+      "bytes": 46261,
+      "mtime_ns": 1794617426305805051,
+      "sha256": "2475bf3e51b8480f9a48d869d7837a659837e9e953b5847a0b72fa744dad2eca"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/source-asr-supplement-v1/release-month-distil-large-v3.json",
+      "bytes": 24517,
+      "mtime_ns": 1794617143968829853,
+      "sha256": "8aade38f99b38f94d061b787d1e1a654a7f185314bfc0d591664e06d4bc9b63f"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/source-asr-supplement-v1/release-month-medium.json",
+      "bytes": 23981,
+      "mtime_ns": 1794617449006109589,
+      "sha256": "d8a4fc2660ebf2d6ad13b461e1af37b8006b5244794830d66d0602018b80cdf2"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/vtune-platform-conclusion-v1/source-images-v1/source-4844.jpg",
+      "bytes": 32272,
+      "mtime_ns": 1794706525983888344,
+      "sha256": "982fe56d3f4b8cebf2c4a5bd9b2a57faf5586b618c0f2c311fb1429bf428cb52"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/vtune-platform-conclusion-v1/source-images-v1/source-4918.jpg",
+      "bytes": 27813,
+      "mtime_ns": 1794706527356920964,
+      "sha256": "66fdc61f3c8431e3b16528557e595ef05e0e50787cba97b3fc8f2b5e8a9fdd97"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/vtune-platform-conclusion-v1/source-images-v1/source-4940.jpg",
+      "bytes": 27575,
+      "mtime_ns": 1794706528610950751,
+      "sha256": "e86fefb662952150c4ff84d90a63ac55bb9ece53ea73dac9c690c37f5b7618e3"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/vtune-platform-conclusion-v1/source-images-v1/source-5005.jpg",
+      "bytes": 28250,
+      "mtime_ns": 1794706531024008057,
+      "sha256": "7d31305724e0a96b0f54f0250c2503265538618179035b0d44b03fa1dccb71db"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/vtune-platform-conclusion-v1/source-images-v1/source-5062.jpg",
+      "bytes": 30216,
+      "mtime_ns": 1794706533445065535,
+      "sha256": "7782700fa1f5db3f3a68bde8a2e567134ce277694f3668e637be66d70aa97921"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/vtune-platform-conclusion-v1/source-images-v1/source-5088.jpg",
+      "bytes": 29529,
+      "mtime_ns": 1794706534905100189,
+      "sha256": "f4d82f3d40514fd0b37303c19df70f64ec727bb182faeec467261a72ed84bb2b"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/vtune-platform-conclusion-v1/source-images-v1/source-5158.jpg",
+      "bytes": 30322,
+      "mtime_ns": 1794706536599140389,
+      "sha256": "e2bac7244f5efbb0396eb9263c1afc252fabcdbf612055fb5c0e7bdd3e16fd51"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/vtune-platform-conclusion-v1/source-images-v1/source-5230.jpg",
+      "bytes": 30223,
+      "mtime_ns": 1794706538444184164,
+      "sha256": "8bd48b27b861467de74d6179e97b7ad720b2a929418e822d4d8ec4bb6447fd2b"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/vtune-platform-conclusion-v1/source-images-v1/source-5304.jpg",
+      "bytes": 30321,
+      "mtime_ns": 1794706539817216734,
+      "sha256": "0724bb2c33e38a3d11c1684f97ea3018ca63fee0818df0279510e2768e32a9c1"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/vtune-platform-conclusion-v1/source-images-v1/source-5344.jpg",
+      "bytes": 32106,
+      "mtime_ns": 1794706541257250886,
+      "sha256": "2e197d043317bb4b2af4b55327dc8db53a2cc732f7ba2c2a8a46201d672c4ce1"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/vtune-platform-conclusion-v1/source-images-v1/source-5405.jpg",
+      "bytes": 26353,
+      "mtime_ns": 1794706544013316235,
+      "sha256": "6b9f6b0b7ffca724a362f5af352e63536777eff5e3b8e42e7b1e0f8afc8e90c9"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/vtune-platform-conclusion-v1/source-images-v1/source-5467.jpg",
+      "bytes": 26952,
+      "mtime_ns": 1794706546548376323,
+      "sha256": "ce8ac03aba1a31e85291bf2442baa9a1e8353595393c7866f1925459b5f8b9f2"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/vtune-platform-conclusion-v1/source-images-v1/source-5500.jpg",
+      "bytes": 26890,
+      "mtime_ns": 1794706549033435209,
+      "sha256": "fac4a2672ece6e8c01d4b6c97efae04134264608a7ecf1b1ae19a73815e6067e"
+    }
+  ],
+  "actual_original_audio_regions": 23,
+  "reserved_units": [
+    6,
+    20,
+    21,
+    26,
+    74,
+    83,
+    84,
+    87,
+    94,
+    96,
+    100,
+    101,
+    102,
+    103,
+    104,
+    106,
+    107,
+    108,
+    109,
+    110,
+    112,
+    166,
+    174,
+    183,
+    192,
+    193,
+    196,
+    239,
+    247,
+    249,
+    250,
+    259,
+    260,
+    261,
+    262,
+    263,
+    268,
+    294,
+    321
+  ],
+  "source_holds": {
+    "310": {
+      "question": "原口述模型训练方式是unsupervised，还是and supervised/其他转写？",
+      "current": "当前源与中文写无监督；新两模型分别给and supervise，不能视作一致恢复unsupervised。",
+      "constraint": "5344二值输出和LSTM架构不能单独证明训练方法。不猜监督或无监督、不合成本项、不自动放行事实门禁。"
+    },
+    "317": {
+      "question": "书籍作者末名口述/拼写Patterson还是Peterson？",
+      "current": "旧原文写Hennessy and Patterson，两旧ASR均Hennessy and Peterson；5500图无名字。",
+      "constraint": "hard work可显式改hardware，但不能靠熟悉教材作者就声称已听清姓氏；本项不合成新候选。"
+    }
+  },
+  "unit299_speaker_vertical_word_not_silently_corrected": true,
+  "earlier216_217_227_248_holds_unchanged": true,
+  "formal_adoption_or_human_approval": false
+}

@@ -1,0 +1,345 @@
+{
+  "kind": "platform-conclusion-complete-preview-verified-not-adopted-v1",
+  "recorded_at": "2026-11-15T01:49:28+00:00",
+  "video_id": "cjiUXZh0ZCo",
+  "range": [
+    276,
+    321
+  ],
+  "passed": true,
+  "goal_turn_classification": "progress",
+  "goal_status": "active",
+  "review": {
+    "path": "/home/pengdl/media-downloader/data/translation_reviews/cjiUXZh0ZCo-platform-conclusion-20261115.json",
+    "bytes": 85277,
+    "mtime_ns": 1794706930583311284,
+    "sha256": "f274a31e890bbb9605b77b82ca56604128c8644e6678906d44f2b28c7d1ad228"
+  },
+  "independent": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/vtune-platform-conclusion-v1/independent-preview-v1.json",
+    "bytes": 21029,
+    "mtime_ns": 1794707249802574034,
+    "sha256": "fabd658e48df8bfa23081ec651e6a1996239d86cd6b84bbd98b74bef3e0546e0"
+  },
+  "reviewed_units": 46,
+  "complete_TTS_attempts": 24,
+  "complete_TTS_successes": 24,
+  "normal_rate_fits": 24,
+  "voice": "zh-CN-YunxiNeural",
+  "rate": "+0%",
+  "real_word_boundaries": 694,
+  "all24_before_windows_equal_formal_AAC_PCM_at_intro40_2": true,
+  "case_results": [
+    {
+      "key": "body-276-motivation-and-real-failures",
+      "unit_id": 276,
+      "seconds": 11.352,
+      "window_seconds": 13.411,
+      "real_word_boundaries": 25
+    },
+    {
+      "key": "body-277-help-and-mastering",
+      "unit_id": 277,
+      "seconds": 10.032,
+      "window_seconds": 21.089,
+      "real_word_boundaries": 24
+    },
+    {
+      "key": "body-278-when-to-use-vtune",
+      "unit_id": 278,
+      "seconds": 11.808,
+      "window_seconds": 15.871,
+      "real_word_boundaries": 34
+    },
+    {
+      "key": "body-280-system-scope-tool-aliases",
+      "unit_id": 280,
+      "seconds": 11.16,
+      "window_seconds": 16.319,
+      "real_word_boundaries": 31
+    },
+    {
+      "key": "body-281-long-collection-example",
+      "unit_id": 281,
+      "seconds": 10.728,
+      "window_seconds": 12.721,
+      "real_word_boundaries": 26
+    },
+    {
+      "key": "body-282-general-exploration",
+      "unit_id": 282,
+      "seconds": 7.272,
+      "window_seconds": 10.22,
+      "real_word_boundaries": 17
+    },
+    {
+      "key": "body-283-hardware-and-software-tools",
+      "unit_id": 283,
+      "seconds": 13.08,
+      "window_seconds": 17.44,
+      "real_word_boundaries": 32
+    },
+    {
+      "key": "body-284-snapshot-first-look",
+      "unit_id": 284,
+      "seconds": 13.032,
+      "window_seconds": 15.409,
+      "real_word_boundaries": 28
+    },
+    {
+      "key": "body-285-power-and-total-cost",
+      "unit_id": 285,
+      "seconds": 13.152,
+      "window_seconds": 16.48,
+      "real_word_boundaries": 35
+    },
+    {
+      "key": "body-286-performance-power-cost-tradeoff",
+      "unit_id": 286,
+      "seconds": 11.496,
+      "window_seconds": 15.181,
+      "real_word_boundaries": 27
+    },
+    {
+      "key": "body-287-power-scaling-speaker-qualified",
+      "unit_id": 287,
+      "seconds": 12.384,
+      "window_seconds": 18.21,
+      "real_word_boundaries": 35
+    },
+    {
+      "key": "body-288-turbostat-and-power-governor",
+      "unit_id": 288,
+      "seconds": 13.152,
+      "window_seconds": 23.3,
+      "real_word_boundaries": 30
+    },
+    {
+      "key": "body-290-historical-mobile-requirements",
+      "unit_id": 290,
+      "seconds": 12.912,
+      "window_seconds": 17.34,
+      "real_word_boundaries": 38
+    },
+    {
+      "key": "body-291-energy-and-c-state",
+      "unit_id": 291,
+      "seconds": 10.68,
+      "window_seconds": 20.79,
+      "real_word_boundaries": 27
+    },
+    {
+      "key": "body-296-horizontal-versus-vertical",
+      "unit_id": 296,
+      "seconds": 14.304,
+      "window_seconds": 20.531,
+      "real_word_boundaries": 33
+    },
+    {
+      "key": "body-301-seasonal-hybrid-cloud",
+      "unit_id": 301,
+      "seconds": 13.704,
+      "window_seconds": 14.761,
+      "real_word_boundaries": 28
+    },
+    {
+      "key": "body-302-season-and-service-constraints",
+      "unit_id": 302,
+      "seconds": 12.672,
+      "window_seconds": 17.5,
+      "real_word_boundaries": 32
+    },
+    {
+      "key": "body-306-vtune-two-container-deployments",
+      "unit_id": 306,
+      "seconds": 9.936,
+      "window_seconds": 12.59,
+      "real_word_boundaries": 32
+    },
+    {
+      "key": "body-308-authentic-research-enthusiasm",
+      "unit_id": 308,
+      "seconds": 11.664,
+      "window_seconds": 17.19,
+      "real_word_boundaries": 26
+    },
+    {
+      "key": "body-309-tensorflow-lstm-publication-plan",
+      "unit_id": 309,
+      "seconds": 13.224,
+      "window_seconds": 21.73,
+      "real_word_boundaries": 34
+    },
+    {
+      "key": "body-315-inviting-performance-careers",
+      "unit_id": 315,
+      "seconds": 11.808,
+      "window_seconds": 14.19,
+      "real_word_boundaries": 31
+    },
+    {
+      "key": "body-318-research-and-teaching-affection",
+      "unit_id": 318,
+      "seconds": 9.24,
+      "window_seconds": 11.67,
+      "real_word_boundaries": 25
+    },
+    {
+      "key": "body-319-java-hadoop-and-total-cost",
+      "unit_id": 319,
+      "seconds": 9.24,
+      "window_seconds": 13.039,
+      "real_word_boundaries": 23
+    },
+    {
+      "key": "body-320-qualified-closing-thanks",
+      "unit_id": 320,
+      "seconds": 10.512,
+      "window_seconds": 11.991,
+      "real_word_boundaries": 21
+    }
+  ],
+  "source_amendment_units": [
+    280,
+    282,
+    283,
+    284,
+    288,
+    290,
+    291,
+    296,
+    301,
+    306,
+    309,
+    317
+  ],
+  "source_replacements": 17,
+  "source_proposal": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/vtune-platform-conclusion-v1/source-amendment-proposal-v1.json",
+    "bytes": 25404,
+    "mtime_ns": 1794706930585311330,
+    "sha256": "e12d2a70e2ba34c4c201af69412a948aecacbda41f1c07eb9c2cf5c1ec817e92"
+  },
+  "source_proposal_contract": "proposal-only plural-replacements literal projection; not historical source_revision runtime compatibility or actual source-stage admission",
+  "finite_source_fixtures": [
+    {
+      "name": "12-explicit-source-unit-proposals",
+      "accepted": true
+    },
+    {
+      "name": "stale-source",
+      "accepted": false,
+      "correctly_rejected": true
+    },
+    {
+      "name": "stale-provenance",
+      "accepted": false,
+      "correctly_rejected": true
+    },
+    {
+      "name": "nonidentity-mapping",
+      "accepted": false,
+      "correctly_rejected": true
+    },
+    {
+      "name": "wrong-source-text",
+      "accepted": false,
+      "correctly_rejected": true
+    },
+    {
+      "name": "duplicate-unit-owner",
+      "accepted": false,
+      "correctly_rejected": true
+    },
+    {
+      "name": "wrong-replacement-count",
+      "accepted": false,
+      "correctly_rejected": true
+    },
+    {
+      "name": "unlisted-source-change",
+      "accepted": false,
+      "correctly_rejected": true
+    },
+    {
+      "name": "training-method-hold-cannot-amend",
+      "accepted": false,
+      "correctly_rejected": true
+    },
+    {
+      "name": "surname-hold-cannot-amend",
+      "accepted": false,
+      "correctly_rejected": true
+    },
+    {
+      "name": "321-windows-other309-source-texts-and-held-surname-preserved",
+      "accepted": true
+    }
+  ],
+  "new_English_source_ASR": 6,
+  "reused_English_source_ASR": 8,
+  "new_Chinese_speech_diagnostics": 8,
+  "pronunciation_interpretation": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/vtune-platform-conclusion-v1/pronunciation-interpretation-v1.json",
+    "bytes": 3825,
+    "mtime_ns": 1794707368216246449,
+    "sha256": "169ee6b5ef970a2517efee54a0cb60b67c374e10be3231c7bbbc4eb3b23f8146"
+  },
+  "source_holds310_and317_surname": true,
+  "unit299_vertically_preserved": true,
+  "prior216_217_227_248_holds_unchanged": true,
+  "reserved_in_review": [
+    294,
+    321
+  ],
+  "source_images_individually_opened": 13,
+  "preserved": {
+    "records": 4690,
+    "canonical_targets_before_separately_bound": 31,
+    "frozen_root_python": 98,
+    "production_mp3": 293,
+    "unrelated_untracked": 13
+  },
+  "master": {
+    "path": "/home/pengdl/Videos/translated_backlog/Science of Performance 2019_中文配音.mp4",
+    "bytes": 566062749,
+    "mtime_ns": 1794701034289519215,
+    "sha256": "112a1daad7e84a4fac71779bca823bcdca344e7c6776735ea6f07336635c7b06"
+  },
+  "upload": {
+    "path": "/home/pengdl/Videos/translated_backlog/Science of Performance 2019_中文上传版.mp4",
+    "bytes": 452371594,
+    "mtime_ns": 1794701681663916205,
+    "sha256": "55d1eba0c849e032b10101c3d1090da3ed06b60f4f1583da1c7fa7b0b5e0fa43"
+  },
+  "database": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-adoption-v1/install-v1/speech-review.sqlite3",
+    "bytes": 23793664,
+    "mtime_ns": 1794702566294819651,
+    "sha256": "487113f3df5fa1d2f2a4048aa01cb3ab3e278f20f6414a61b6075fabbf573b57"
+  },
+  "database_counts": {
+    "scans": 104,
+    "issues": 7691,
+    "occurrences": 13619,
+    "decisions": 0,
+    "repair_resolutions": 0
+  },
+  "current_unreviewed_candidates": 186,
+  "prior_non_dismiss_classifications": 12,
+  "formal_source_translation_audio_media_or_database_changed": false,
+  "new_full_film_decode_encoding_or_quality_scan": false,
+  "formal_adoption": false,
+  "source_windows": 321,
+  "actual_original_audio_regions": 23,
+  "reserved_units": 39,
+  "human_listened": false,
+  "professional_phonemes_naturalness_or_emotion_approved": false,
+  "full_film_visual_wordlevel_or_PotPlayer_approved": false,
+  "Linux27holds23markersCriticalF08_unchanged": true,
+  "checkpoint": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/checkpoint-platform-conclusion-preview-v1/execution-progress.json",
+  "unrelated_added_lines_preserved": 130,
+  "unrelated_untracked_files_preserved": 13,
+  "other_queues_or_totals_modified": false,
+  "background_automatic_resume_claimed": false
+}
