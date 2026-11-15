@@ -1,0 +1,80 @@
+{
+  "kind": "actual-source-caption-preflight-authored-record-v1",
+  "video_id": "cjiUXZh0ZCo",
+  "recorded_at": "2026-11-15T09:26:46+00:00",
+  "scope": [
+    216,
+    217
+  ],
+  "author_review": {
+    "kind": "actual-source-caption-authored-review-v1",
+    "units": [
+      216,
+      217
+    ],
+    "source_window": [
+      "3707.01",
+      "3745.41"
+    ],
+    "intro_offset_seconds": "40.2",
+    "source216": "Do not invent not in the affirmative source. Repeat the existing explicit conflict notice over four bounded original-English phrases rather than confidently translating the disputed definition.",
+    "source217": "Keep the literal negation and its unresolved antecedent, then the complete existing supported Chinese. Six ordered phrases use existing local ASR anchors, not Chinese synthesis timing. Do not call understand/extend double-model consensus.",
+    "source_boundary_limits": "Existing216/217 application and217/218 memory bounds have small ASR crossovers. This operation preserves complete current source-unit windows; it does not prove human-verified speaker or word boundaries.",
+    "English_policy": "Full English SRT remains byte-identical at its prior cue timings. Bilingual English is resegmented in source order with complete word-stream conservation; its ASR phrase timing is not a newly verified full-English-track timing claim.",
+    "new_TTS_ASR_PCM_or_encoding": false,
+    "human_listened": false,
+    "source_issue_resolved": false,
+    "phoneme_emotion_or_human_wordlevel_alignment_approved": false
+  },
+  "author_review_identity": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/source-reservation-captions-v1/authored-review-v1.json",
+    "bytes": 1309,
+    "mtime_ns": 1794734377142606907,
+    "sha256": "922a569b1639e9280a121e78c8c3d3022da728711983e9d63ac5c064ef5a995a"
+  },
+  "selection_manifest": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/source-reservation-captions-v1/selection-v1/manifest.json",
+    "bytes": 7008,
+    "mtime_ns": 1794734305743064632,
+    "sha256": "80b25ed0102cc0021b50e1ed8eba14c16245e916dc99e134e384bf075dc2253c"
+  },
+  "projection_manifest": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/source-reservation-captions-v1/projection-v1/manifest.json",
+    "bytes": 10257,
+    "mtime_ns": 1794734380465851428,
+    "sha256": "64b53e40b85f8b2006e53892d46b5415224eb9b1b022392324318434ce7be3de"
+  },
+  "quality_manifest": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/source-reservation-captions-v1/quality-v1/manifest.json",
+    "bytes": 5323,
+    "mtime_ns": 1794734419485639583,
+    "sha256": "a685358c5615e07d8237dcf9db03e484ad6df550d07b980ee800391145291c8f"
+  },
+  "read_only_runtime": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/source-reservation-captions-v1/check-preflight-v1.py",
+    "bytes": 1347,
+    "mtime_ns": 1794734541267456113,
+    "sha256": "19248d539b651cabd2d2c40f9d1392808d60bb2f5af8aede9fa9a1e4edd73a3f"
+  },
+  "English_track_bytes_unchanged": true,
+  "source_phrases": [
+    4,
+    6
+  ],
+  "new_private_current_audio_scans": 1,
+  "new_TTS_ASR_PCM_encodes_or_installs": 0,
+  "candidate_regions_units": [
+    24,
+    41
+  ],
+  "formal_regions_units_unchanged": [
+    23,
+    39
+  ],
+  "current_unreviewed_candidates": 186,
+  "source_classifications_not_dismissals": 12,
+  "decisions_or_resolutions_written": 0,
+  "formal_adoption_or_render_install_admission": false,
+  "source_issue_or_human_pronunciation_emotion_fullfilm_wordlevel_PotPlayer_final_approved": false,
+  "goal_status": "active"
+}

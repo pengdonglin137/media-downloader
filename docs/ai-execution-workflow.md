@@ -1,5 +1,13 @@
 # AI 执行工作流：自包含中文译配视频
 
+## 2026-11-15：216/217实际原声预检的精确续做入口
+
+使用request-cjiUXZh0ZCo-20261114/source-reservation-captions-v1/check-preflight-v1.py，只读校验typed selection、ASR投影及独立quality-v1；不能裸用旧caption_projection把原声省略号当TTS。先验证不变的source-reservation-v1/stage-v2，再用source_reservation_projection.runtime的精确配置／输出作用域调用editorial_quality.check，运行时退出即恢复旧检查器。
+
+quality-v1已真实一次扫描：186未听辨项、12非dismiss分类、0决定／解决，旧行保持。后续只续媒体与安装，别重跑prepare；须复用40.2秒有声导读／85章，独立核对两版中文音频、视频帧表、完整解码、受限图与有限VLC，再建立安装历史授权。正式视频／数据库仍旧版，当前预检不证明渲染或安装准入。
+
+216不猜补not，217不猜指代；ASR短句保留完整英文词流并公开原边界交叉及understand／extend差异。所有人工／语义／读音／情感门禁不关闭，不重做成功TTS／ASR／PCM，不把审校提示送合成，不发布或扩展播放列表。
+
 ## 2026-11-15：216/217实际原声暂存的成功续接入口
 
 当前成功候选为`request-cjiUXZh0ZCo-20261114/source-reservation-v1/stage-v2`。仅只读检查：`PYTHONPATH=/home/pengdl/media-downloader /vol_1t/pyvideotrans/.venv/bin/python /home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/source-reservation-v1/check-stage-v1.py`。它验证38.4秒原声、旧库存与正式目标不变，不给生产、人耳或定义批准。
