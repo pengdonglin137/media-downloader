@@ -1,0 +1,138 @@
+{
+  "kind": "platform-power-complete-utterance-adoption-review-v1",
+  "video_id": "cjiUXZh0ZCo",
+  "recorded_at": "2026-11-15T02:39:08+00:00",
+  "goal_status": "active",
+  "selected_complete_units": [
+    276,
+    277,
+    278,
+    280,
+    281,
+    282,
+    283,
+    284,
+    285,
+    286,
+    287,
+    288
+  ],
+  "editorial_selection": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/platform-power-adoption-v1/editorial-selection-v1.json",
+    "bytes": 6068,
+    "mtime_ns": 1794707807482211714,
+    "sha256": "32399f3367ed7f8e15b1b86e3181468868f65ad5d5b12657d0c0480bb78ecacd"
+  },
+  "source_amendments": [
+    {
+      "unit_id": 280,
+      "source_start": "4871.07",
+      "source_end": "4887.389",
+      "before": "if you talk about the full system load where you are maybe in distributed system or you have you need to scale out your performance then you need to go with the inter storage snapshot a VTune and do maybe locks and weights and interplay a platform profiler",
+      "after": "if you talk about the full system load where you are maybe in distributed system or you have you need to scale out your performance then you need to go with the inter storage snapshot a VTune and do maybe Locks and Waits and Intel Platform Profiler",
+      "basis": "Explicit spelling/term correction from the unit source context and bound original slides/ASR; not human phonetic approval.317 only hardware, never the unresolved author surname. Exact span normalizes the explicitly enumerated component corrections; all intervening bytes retain their original order and content.",
+      "word_conserving": false,
+      "same_unit_identity_and_window": true,
+      "human_listened": false,
+      "replacement": {
+        "from": "locks and weights and interplay a platform profiler",
+        "to": "Locks and Waits and Intel Platform Profiler",
+        "occurrences": 1
+      }
+    },
+    {
+      "unit_id": 282,
+      "source_start": "4900.11",
+      "source_end": "4910.33",
+      "before": "if you go with advanced collection for one application then Intel VTune general expression is one of the things that you need to do for CPU and memory",
+      "after": "if you go with advanced collection for one application then Intel VTune General Exploration is one of the things that you need to do for CPU and memory",
+      "basis": "Explicit spelling/term correction from the unit source context and bound original slides/ASR; not human phonetic approval.317 only hardware, never the unresolved author surname. Exact span normalizes the explicitly enumerated component corrections; all intervening bytes retain their original order and content.",
+      "word_conserving": false,
+      "same_unit_identity_and_window": true,
+      "human_listened": false,
+      "replacement": {
+        "from": "general expression",
+        "to": "General Exploration",
+        "occurrences": 1
+      }
+    },
+    {
+      "unit_id": 283,
+      "source_start": "4910.33",
+      "source_end": "4927.77",
+      "before": "there is more tools performance tools for hardware Intel performs a platform profiler Intel application from snapshot and for the software you have the Intel VTune for container and it written for VMS these are the tools that inter created or more features for VTune",
+      "after": "there is more tools performance tools for hardware Intel Platform Profiler Intel Application Performance Snapshot and for the software you have the Intel VTune for container and it written for VMS these are the tools that inter created or more features for VTune",
+      "basis": "Explicit spelling/term correction from the unit source context and bound original slides/ASR; not human phonetic approval.317 only hardware, never the unresolved author surname. Exact span normalizes the explicitly enumerated component corrections; all intervening bytes retain their original order and content.",
+      "word_conserving": false,
+      "same_unit_identity_and_window": true,
+      "human_listened": false,
+      "replacement": {
+        "from": "Intel performs a platform profiler Intel application from snapshot",
+        "to": "Intel Platform Profiler Intel Application Performance Snapshot",
+        "occurrences": 1
+      }
+    },
+    {
+      "unit_id": 284,
+      "source_start": "4927.77",
+      "source_end": "4943.179",
+      "before": "and this is the storage performance an option I was talking about so you can see the CPU you can see the system memory Network even the disk all these things is going to be helpful for you at the first step and stand in what's where is the exactly the issue",
+      "after": "and this is the Storage Performance Snapshot I was talking about so you can see the CPU you can see the system memory Network even the disk all these things is going to be helpful for you at the first step and stand in what's where is the exactly the issue",
+      "basis": "Explicit spelling/term correction from the unit source context and bound original slides/ASR; not human phonetic approval.317 only hardware, never the unresolved author surname. Exact span normalizes the explicitly enumerated component corrections; all intervening bytes retain their original order and content.",
+      "word_conserving": false,
+      "same_unit_identity_and_window": true,
+      "human_listened": false,
+      "replacement": {
+        "from": "storage performance an option",
+        "to": "Storage Performance Snapshot",
+        "occurrences": 1
+      }
+    },
+    {
+      "unit_id": 288,
+      "source_start": "4993.05",
+      "source_end": "5016.35",
+      "before": "these are the tools the turbo stat I think everyone knows about it to collect some data which is part of the CPU power utils package and then also in turn has a good tool that which is the inter power governor it's a software utility and the library that you can use to collect some data like the the power data",
+      "after": "these are the tools the turbostat I think everyone knows about it to collect some data which is part of the cpupowerutils package and then also in turn has a good tool that which is the Intel Power Governor it's a software utility and the library that you can use to collect some data like the the power data",
+      "basis": "Explicit spelling/term correction from the unit source context and bound original slides/ASR; not human phonetic approval.317 only hardware, never the unresolved author surname. Exact span normalizes the explicitly enumerated component corrections; all intervening bytes retain their original order and content.",
+      "word_conserving": false,
+      "same_unit_identity_and_window": true,
+      "human_listened": false,
+      "replacement": {
+        "from": "turbo stat I think everyone knows about it to collect some data which is part of the CPU power utils package and then also in turn has a good tool that which is the inter power governor",
+        "to": "turbostat I think everyone knows about it to collect some data which is part of the cpupowerutils package and then also in turn has a good tool that which is the Intel Power Governor",
+        "occurrences": 1
+      }
+    }
+  ],
+  "component_profile": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/platform-power-adoption-v1/component-projection-profile-v1.json",
+    "bytes": 1128,
+    "mtime_ns": 1794708648693920684,
+    "sha256": "34b750478adecc1631cb12b90ab3d1ce5c66a3f024a539c51afe8e758fb53d46"
+  },
+  "formal_adoption": true,
+  "source_windows_unchanged": 321,
+  "new_TTS_or_ASR": false,
+  "human_phoneme_emotion_full_visual_wordlevel_PotPlayer_approval": false,
+  "preserved_source_holds": [
+    216,
+    217,
+    227,
+    248,
+    310,
+    317
+  ],
+  "registration": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/checkpoint-platform-power-adoption-v1/metadata-registration.json",
+    "bytes": 39582,
+    "mtime_ns": 1794710348944053292,
+    "sha256": "41de80ee0cc733cd0a384452313ce1be030f211580f01ea6d409139a760061c4"
+  },
+  "runtime_document": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/platform-power-adoption-v1/RUNTIME.md",
+    "bytes": 3434,
+    "mtime_ns": 1794710302468591336,
+    "sha256": "8f10aee389f17e8145b3fa6e85ef5907f98e9f69933dcce8ae9d456b1c427bc3"
+  }
+}

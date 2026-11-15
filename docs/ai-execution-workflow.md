@@ -1,5 +1,13 @@
 # AI 执行工作流：自包含中文译配视频
 
+## 2026-11-15：组件投影后的完整候选正式采用入口
+
+- 来源校正先保留原始复数组件，再显式规范单一跨度供旧source_revision暂存；缺evidence/JSON3的真实失败和跨英文块原生拒绝都保留，不删难项或放宽旧检查。
+- 新source_component_projection以独立profile准备/核验projection-v2，中文/双语复用真实词界；英文按最小相邻块合并和完整词流/所有权验证。请求component-runtime-v1.py在外层组件分派内运行原生质量/媒体，component-install-runtime-v1.py同理运行事务安装。
+- 先验证完整12项PCM、窗外旧音频和23实际原声区，再候选编码、全解码、15上传版JPEG逐张打开及有限VLC；全部通过后才归档/替换31正式目标。新入口与其kind显式保留，不伪装原生旧CLI输出。
+- 安装后质量依次进入组件投影、来源校正安装、历史计划和正式安装运行时；current-quality-after-install-v1.py含master/upload/package/quality完整权威。不重扫或重编码成功项目来掩盖上下文缺失。
+- 实物/真实出口与续做见checkpoint-platform-power-adoption-v1及docs/science-performance-platform-power-adoption-2026-11-15.md；其他完整批次和所有未证听辨/来源门禁仍active。
+
 ## 2026-11-15：平台与结尾续审执行边界
 
 - 先继承已推送d8f96a5c0e14的真实progress，冻结4690既有文件/31正式目标并保存五文档原状；276–321完整阅读，271–275仅语境，不重跑旧平台/扩展/结尾ASR。
