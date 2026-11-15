@@ -1,5 +1,12 @@
 # AI 执行工作流：自包含中文译配视频
 
+## 2026-11-15：Perf专业缩写与亲近片尾的隔离双版本候选
+
+先读request-M6ldFtwWup0-20261114/editorial-voice-3-52-v1/RUNTIME.md与checkpoint-editorial3-52-v1收据。旧试读false保持，新准入只限来源等义与隔离技术用途；显式运行时只作用精确WORK，原生scan／quality／render实际执行，不覆盖load、阻断器或人耳决定。
+
+首次build-pair-v1母版编码子出口0但und语言核验1均保留；v2只复制已编码流修chi/eng/chi、再做未执行上传步骤。按新exit恢复，不改旧绑定脚本、不重跑成功媒体。保留37投影和30原声，英文时间与双语原文不随TTS重定时；仍需人耳／逐词／全片／PotPlayer／正式采用审查。
+
+
 ## 2026-11-15：Perf37配音字幕时序隔离续做
 
 - 先读request-M6ldFtwWup0-20261114/caption37-engine-v1/RUNTIME.md及checkpoint-caption37-engine-v1收据。project／20夹具／双版／verify-pair-v2／4底部局部／独立核验均已成功，不重跑TTS／ASR／原声转换／扫描／导读／正文或既有成功媒体。

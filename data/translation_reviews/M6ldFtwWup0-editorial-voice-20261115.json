@@ -1,0 +1,200 @@
+{
+  "kind": "perf-source-editorial-voice3-52-review-v1",
+  "video_id": "M6ldFtwWup0",
+  "source_reviewed_by": "current Agent source/editorial review, not human listening",
+  "admission": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/editorial-voice-3-52-v1/admission.json",
+    "bytes": 1816,
+    "mtime_ns": 1794750813945430468,
+    "sha256": "6d9736160543737091ba471146f02fe6497cc06b711fd495d5fa9cb06916af99"
+  },
+  "stage": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/editorial-voice-3-52-v1/stage.json",
+    "bytes": 26648,
+    "mtime_ns": 1794750814688449854,
+    "sha256": "939e2e724927f63e82e4dec728b5b9dc325e8777433836aafea1867cd7660b35"
+  },
+  "package": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/editorial-voice-3-52-v1/media-pair-v2/manifest.json",
+    "bytes": 16609,
+    "mtime_ns": 1794751119659314602,
+    "sha256": "a7238ac284b6c813a4bdb4abea8976700edf374fe0fb9fc64f2be1139032b7d8"
+  },
+  "isolated_only": true,
+  "canonical_adoption": false,
+  "production_eligible": false,
+  "human_selected": false,
+  "source_facts": {
+    "3": [
+      "wiki Linux perf/perf_events",
+      "CPU performance counters",
+      "tracepoints",
+      "kprobes",
+      "uprobes",
+      "lightweight profiling"
+    ],
+    "52": [
+      "hope useful",
+      "question",
+      "comment section",
+      "correction",
+      "omission",
+      "addition",
+      "subtraction",
+      "comments",
+      "thank you for watching"
+    ]
+  },
+  "cases": [
+    {
+      "key": "unit003-cpu-expansion",
+      "unit_id": 3,
+      "display": "这个维基页面介绍 Linux 的 perf 命令，也叫 perf_events。它能利用 CPU 性能计数器、追踪点，以及 kprobes 和 uprobes，进行轻量级性能剖析。",
+      "spoken": "这个维基页面介绍 Linux 的 perf 命令，也叫 perf events。它能利用 中央处理器的性能计数器、追踪点，以及 k 探针和 u 探针，进行轻量级性能剖析。",
+      "source": "So on this page you see it's something like, this is the wiki page for Linux perf command, also called perf events. So perf is powerful, it can instrument CPU performance counters, trace points, k probes and u probes. So it is capable of doing lightweight profiling.",
+      "source_start": "49.28",
+      "source_end": "77.32",
+      "pitch": "+0Hz",
+      "preview": {
+        "key": "unit003-cpu-expansion",
+        "unit_id": 3,
+        "pitch": "+0Hz",
+        "proof": {
+          "contract": {
+            "text": "这个维基页面介绍 Linux 的 perf 命令，也叫 perf events。它能利用 中央处理器的性能计数器、追踪点，以及 k 探针和 u 探针，进行轻量级性能剖析。",
+            "voice": "zh-CN-YunxiNeural",
+            "rate": 0,
+            "engine": "7.3.1",
+            "boundary": "WordBoundary",
+            "implementation_sha256": "8fb0d141d33d909d71e5bfc5985de2adabb57a886a0525cb0deadf40c46c3924"
+          },
+          "audio": {
+            "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/review-phrasing-pronunciation-v1/auditions/cache/1f51e270cfa7b51773ca394c08fb7c3a9b3a959b5484f8ca2bc88b4289f1ebc1.mp3",
+            "bytes": 85536,
+            "mtime_ns": 1794745308036879509,
+            "sha256": "9451eaead64c94a20b15d345189f1ed52d34576a8c92db75d5a339c9f3b99b8a"
+          },
+          "metadata": {
+            "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/review-phrasing-pronunciation-v1/auditions/cache/1f51e270cfa7b51773ca394c08fb7c3a9b3a959b5484f8ca2bc88b4289f1ebc1.jsonl",
+            "bytes": 2724,
+            "mtime_ns": 1794745308036879509,
+            "sha256": "6ba662187b4ce3171afe8584478a6195aa732fc12e645d922feb3669af5ce802"
+          }
+        },
+        "waveform": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/review-phrasing-pronunciation-v1/auditions/unit003-cpu-expansion.wav",
+          "bytes": 684366,
+          "mtime_ns": 1794745308120881094,
+          "sha256": "8bdd8573ebfdcce753e75e2872e7852e8899757e0514a7a58501627e88831fbc"
+        },
+        "decode_command": [
+          "ffmpeg",
+          "-nostdin",
+          "-v",
+          "error",
+          "-i",
+          "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/review-phrasing-pronunciation-v1/auditions/cache/1f51e270cfa7b51773ca394c08fb7c3a9b3a959b5484f8ca2bc88b4289f1ebc1.mp3",
+          "-ac",
+          "1",
+          "-ar",
+          "24000",
+          "-c:a",
+          "pcm_s16le",
+          "-n",
+          "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/review-phrasing-pronunciation-v1/auditions/unit003-cpu-expansion.wav"
+        ],
+        "decode_exit_code": 0,
+        "samples": 342144,
+        "seconds": 14.256,
+        "source_window_samples": 672960,
+        "remaining_samples": 330816,
+        "fits_original_window": true,
+        "returned_boundaries": {
+          "count": 31,
+          "lexical_text": "这个维基页面介绍linux的perf命令也叫perfevents它能利用中央处理器的性能计数器追踪点以及k探针和u探针进行轻量级性能剖析",
+          "timing_authority": "returned-engine-metadata-not-ASR-or-human-phonemes"
+        },
+        "audio_trimmed_or_time_stretched": false,
+        "human_selected": false,
+        "pcm_sha256": "f16749dfc57a96956a22b92c4c3bcd3f8d6e35ef9df9f80f8735f309f9030d0a"
+      }
+    },
+    {
+      "key": "unit052-warm-normal",
+      "unit_id": 52,
+      "display": "希望这段介绍能帮到你！如果有问题，欢迎在评论区告诉我。不管是纠错、指出遗漏、补充内容，还是建议删减，或者有其他意见，都欢迎留言。谢谢观看！",
+      "spoken": "希望这段介绍能帮到你！如果有问题，欢迎在评论区告诉我；不管是纠错、指出遗漏、补充内容，还是建议删减，或者有其他意见，都欢迎留言。谢谢观看！",
+      "source": "so I hope you find this introduction useful and benefit I hope it benefits you so if you have any question let me know put it in the comment section if you have any correction omission addition subtraction or comments you know put it in the comment section and thank you for watching",
+      "source_start": "1065.44",
+      "source_end": "1091.12",
+      "pitch": "+0Hz",
+      "preview": {
+        "key": "unit052-warm-normal",
+        "unit_id": 52,
+        "pitch": "+0Hz",
+        "proof": {
+          "contract": {
+            "text": "希望这段介绍能帮到你！如果有问题，欢迎在评论区告诉我；不管是纠错、指出遗漏、补充内容，还是建议删减，或者有其他意见，都欢迎留言。谢谢观看！",
+            "voice": "zh-CN-YunxiNeural",
+            "rate": 0,
+            "engine": "7.3.1",
+            "boundary": "WordBoundary",
+            "implementation_sha256": "8fb0d141d33d909d71e5bfc5985de2adabb57a886a0525cb0deadf40c46c3924"
+          },
+          "audio": {
+            "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/review-phrasing-pronunciation-v1/auditions/cache/d5105cf03ecbc1652b8127ec80930b1d30215f9bbfaedbf8e809383222042bde.mp3",
+            "bytes": 86256,
+            "mtime_ns": 1794745318332073291,
+            "sha256": "9a5f0829de7e187c97ea22fc06489dd1787d4dd9dd1701121dc6eafa8ce939d8"
+          },
+          "metadata": {
+            "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/review-phrasing-pronunciation-v1/auditions/cache/d5105cf03ecbc1652b8127ec80930b1d30215f9bbfaedbf8e809383222042bde.jsonl",
+            "bytes": 3010,
+            "mtime_ns": 1794745318332073291,
+            "sha256": "811e6a95e5d4a1cf9aaac3cddcec3d09e10c2a9e755b1038762225b20ee28e86"
+          }
+        },
+        "waveform": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/review-phrasing-pronunciation-v1/auditions/unit052-warm-normal.wav",
+          "bytes": 690126,
+          "mtime_ns": 1794745318379074174,
+          "sha256": "3936aeb2b40584367998b5377f6056f1ac17841444f8cba6b21af16e39048288"
+        },
+        "decode_command": [
+          "ffmpeg",
+          "-nostdin",
+          "-v",
+          "error",
+          "-i",
+          "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/review-phrasing-pronunciation-v1/auditions/cache/d5105cf03ecbc1652b8127ec80930b1d30215f9bbfaedbf8e809383222042bde.mp3",
+          "-ac",
+          "1",
+          "-ar",
+          "24000",
+          "-c:a",
+          "pcm_s16le",
+          "-n",
+          "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/review-phrasing-pronunciation-v1/auditions/unit052-warm-normal.wav"
+        ],
+        "decode_exit_code": 0,
+        "samples": 345024,
+        "seconds": 14.376,
+        "source_window_samples": 616320,
+        "remaining_samples": 271296,
+        "fits_original_window": true,
+        "returned_boundaries": {
+          "count": 34,
+          "lexical_text": "希望这段介绍能帮到你如果有问题欢迎在评论区告诉我不管是纠错指出遗漏补充内容还是建议删减或者有其他意见都欢迎留言谢谢观看",
+          "timing_authority": "returned-engine-metadata-not-ASR-or-human-phonemes"
+        },
+        "audio_trimmed_or_time_stretched": false,
+        "human_selected": false,
+        "pcm_sha256": "218246e7f574c83fe92bc99cb9838480e25df36b4abfcdb8e854c7d0691511b6"
+      }
+    }
+  ],
+  "new_TTS": 0,
+  "new_ASR": 0,
+  "no_trimming_or_stretching": true,
+  "human_listened_phoneme_emotion_or_source_role_approved": false
+}

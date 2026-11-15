@@ -1,0 +1,379 @@
+{
+  "kind": "perf-editorial3-52-independent-v2",
+  "passed": true,
+  "classification": "verified-progress",
+  "goal_status": "active",
+  "verifier": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/editorial-voice-3-52-v1/verify-final-v2.py",
+    "bytes": 6707,
+    "mtime_ns": 1794751458573223496,
+    "sha256": "2ca07171292fbda79e1bb71738edbb6e0be6a67c1f7b63adafa57b129f42a1e3"
+  },
+  "first_final_verifier_manifest_schema_failure1": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/editorial-voice-3-52-v1/verify-final-v1.exit",
+    "bytes": 2,
+    "mtime_ns": 1794751421938642286,
+    "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865"
+  },
+  "first_final_verifier_unchanged": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/editorial-voice-3-52-v1/verify-final-v1.py",
+    "bytes": 6432,
+    "mtime_ns": 1794751375125882606,
+    "sha256": "d946b57a72023bbd7b1e6e955000873173f8c27bf278e51ff9d6b36566d11109"
+  },
+  "baseline": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/editorial-voice-3-52-v1/baseline.json",
+    "bytes": 3849414,
+    "mtime_ns": 1794750770961281492,
+    "sha256": "19e56b3c6b350ff8ccea288af380f8cc27ed4871700ba2e4bd7ac5dfb3259761"
+  },
+  "stage": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/editorial-voice-3-52-v1/stage.json",
+    "bytes": 26648,
+    "mtime_ns": 1794750814688449854,
+    "sha256": "939e2e724927f63e82e4dec728b5b9dc325e8777433836aafea1867cd7660b35"
+  },
+  "admission": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/editorial-voice-3-52-v1/admission.json",
+    "bytes": 1816,
+    "mtime_ns": 1794750813945430468,
+    "sha256": "6d9736160543737091ba471146f02fe6497cc06b711fd495d5fa9cb06916af99"
+  },
+  "runtime_instructions": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/editorial-voice-3-52-v1/RUNTIME.md",
+    "bytes": 3854,
+    "mtime_ns": 1794751497423828087,
+    "sha256": "6e5df799fdfcecfa13b27f04a541dc77dbd060e40a137d23936a7ee0bfbc592d"
+  },
+  "projection": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/editorial-voice-3-52-v1/projection-v1/projection.json",
+    "bytes": 6348,
+    "mtime_ns": 1794750828874817048,
+    "sha256": "4bd368b498b002cf01890cd38e06f3d80aea044a40a69ab2fac6bc5a81c37c75"
+  },
+  "package": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/editorial-voice-3-52-v1/media-pair-v2/manifest.json",
+    "bytes": 16609,
+    "mtime_ns": 1794751119659314602,
+    "sha256": "a7238ac284b6c813a4bdb4abea8976700edf374fe0fb9fc64f2be1139032b7d8"
+  },
+  "pair_verification": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/editorial-voice-3-52-v1/pair-verification-v1/verification.json",
+    "bytes": 43942,
+    "mtime_ns": 1794751241680596267,
+    "sha256": "3cc88f30de67ee1d4870cd4a6161d27ec6c826fa26a6b27a5ed3fcabb1ab6bb4"
+  },
+  "fixtures": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/editorial-voice-3-52-v1/fixtures.json",
+    "bytes": 433,
+    "mtime_ns": 1794750828397804790,
+    "sha256": "d2bca06873bcc4df3de30a7f5476f746e6bc7f7a059d5ada172290d2198125dc"
+  },
+  "visual": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/editorial-voice-3-52-v1/visual-review.json",
+    "bytes": 20149,
+    "mtime_ns": 1794751375167883297,
+    "sha256": "88e07aea46eb165efab0712604919ec4fed523c64c47c0d9beac3a12cf20dad2"
+  },
+  "finite_vlc": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/editorial-voice-3-52-v1/finite-vlc-v1/result.json",
+    "bytes": 12371,
+    "mtime_ns": 1794751231726417613,
+    "sha256": "0aab29cf8bee8d4d0de57b46b5bbc5fb8e7308a7dd808d41a6da836dc8b023e1"
+  },
+  "quality": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/editorial-voice-3-52-v1/quality.json",
+    "bytes": 2453,
+    "mtime_ns": 1794750829867842541,
+    "sha256": "761e956aafdac1ce4c96628ae7a7722821c2baadc68cd3a4a95efe1ebd51a555"
+  },
+  "terminals": [
+    {
+      "step": "baseline-v1",
+      "exit_code": 0,
+      "exit_file": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/editorial-voice-3-52-v1/baseline-v1.exit",
+        "bytes": 2,
+        "mtime_ns": 1794750770982282067,
+        "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+      },
+      "log": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/editorial-voice-3-52-v1/baseline-v1.log",
+        "bytes": 45,
+        "mtime_ns": 1794750770963281547,
+        "sha256": "bb3e7c513e988fa39b3d9b6b3cbce4f52f702bb5506cf039d6fbe36cc5cd2402"
+      }
+    },
+    {
+      "step": "prepare-v1",
+      "exit_code": 0,
+      "exit_file": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/editorial-voice-3-52-v1/prepare-v1.exit",
+        "bytes": 2,
+        "mtime_ns": 1794750814767451914,
+        "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+      },
+      "log": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/editorial-voice-3-52-v1/prepare-v1.log",
+        "bytes": 116,
+        "mtime_ns": 1794750814745451341,
+        "sha256": "42651735d522eee833b5405f51c611c0e86020bb9873cb1cf01974365f2de945"
+      }
+    },
+    {
+      "step": "fixtures-v1",
+      "exit_code": 0,
+      "exit_file": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/editorial-voice-3-52-v1/fixtures-v1.exit",
+        "bytes": 2,
+        "mtime_ns": 1794750828418805330,
+        "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+      },
+      "log": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/editorial-voice-3-52-v1/fixtures-v1.log",
+        "bytes": 30,
+        "mtime_ns": 1794750828397804790,
+        "sha256": "3b8a679ccc540095dc5f8d54a7dca83be0fa2b56789b79478c224304a02bc70d"
+      }
+    },
+    {
+      "step": "projection-v1",
+      "exit_code": 0,
+      "exit_file": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/editorial-voice-3-52-v1/projection-v1.exit",
+        "bytes": 2,
+        "mtime_ns": 1794750828896817613,
+        "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+      },
+      "log": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/editorial-voice-3-52-v1/projection-v1.log",
+        "bytes": 73,
+        "mtime_ns": 1794750828875817073,
+        "sha256": "d9f4cb9ac4ffdf88e843b3b20493812621f3cc2b28fe519e9fe13b4bcca2acdc"
+      }
+    },
+    {
+      "step": "scan-v1",
+      "exit_code": 0,
+      "exit_file": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/editorial-voice-3-52-v1/scan-v1.exit",
+        "bytes": 2,
+        "mtime_ns": 1794750829880842875,
+        "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+      },
+      "log": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/editorial-voice-3-52-v1/scan-v1.log",
+        "bytes": 1920,
+        "mtime_ns": 1794750829867842541,
+        "sha256": "647a9c6d79d9fc22669f0405a694e12dea4f4cb1d40f38a7fd656564bad749ee"
+      }
+    },
+    {
+      "step": "render-v1",
+      "exit_code": 0,
+      "exit_file": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/editorial-voice-3-52-v1/render-v1.exit",
+        "bytes": 2,
+        "mtime_ns": 1794750832803917759,
+        "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+      },
+      "log": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/editorial-voice-3-52-v1/render-v1.log",
+        "bytes": 683,
+        "mtime_ns": 1794750832791917452,
+        "sha256": "7248cda060f71c9dc9bcefe920d1aaac864a2679f93fde2eeb3cd730aa3f4b7f"
+      }
+    },
+    {
+      "step": "build-pair-v2",
+      "exit_code": 0,
+      "exit_file": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/editorial-voice-3-52-v1/build-pair-v2.exit",
+        "bytes": 2,
+        "mtime_ns": 1794751119672314857,
+        "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+      },
+      "log": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/editorial-voice-3-52-v1/build-pair-v2.log",
+        "bytes": 165,
+        "mtime_ns": 1794751119659314602,
+        "sha256": "76e0cd622b1fd193ed047bf2e35218cd597c22a39f693fad0e07833b8473dd68"
+      }
+    },
+    {
+      "step": "verify-pair-v1",
+      "exit_code": 0,
+      "exit_file": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/editorial-voice-3-52-v1/verify-pair-v1.exit",
+        "bytes": 2,
+        "mtime_ns": 1794751241820598771,
+        "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+      },
+      "log": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/editorial-voice-3-52-v1/verify-pair-v1.log",
+        "bytes": 1105,
+        "mtime_ns": 1794751241681596285,
+        "sha256": "9c57bf0c542fe24ed7afafade58d7ae3a0885911a76a6b76f18c1e6e73006f10"
+      }
+    },
+    {
+      "step": "sample-frames-v2",
+      "exit_code": 0,
+      "exit_file": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/editorial-voice-3-52-v1/sample-frames-v2.exit",
+        "bytes": 2,
+        "mtime_ns": 1794751218628180637,
+        "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+      },
+      "log": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/editorial-voice-3-52-v1/sample-frames-v2.log",
+        "bytes": 50,
+        "mtime_ns": 1794751218622180528,
+        "sha256": "128b635fa5fa8a95e9c8dadd3dd5e5240e9f2b9de9b6f1e4efaa2c18b4489430"
+      }
+    },
+    {
+      "step": "caption-crops-v1",
+      "exit_code": 0,
+      "exit_file": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/editorial-voice-3-52-v1/caption-crops-v1.exit",
+        "bytes": 2,
+        "mtime_ns": 1794751321134980543,
+        "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+      },
+      "log": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/editorial-voice-3-52-v1/caption-crops-v1.log",
+        "bytes": 50,
+        "mtime_ns": 1794751321128980441,
+        "sha256": "a32876e668090457f540d2a1659f67038f5e641a33e54c138914ae9be6755de1"
+      }
+    },
+    {
+      "step": "record-visual-v1",
+      "exit_code": 0,
+      "exit_file": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/editorial-voice-3-52-v1/record-visual-v1.exit",
+        "bytes": 2,
+        "mtime_ns": 1794751375172883379,
+        "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+      },
+      "log": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/editorial-voice-3-52-v1/record-visual-v1.log",
+        "bytes": 75,
+        "mtime_ns": 1794751375167883297,
+        "sha256": "68e5ffea1740317f9789ad2f221b04c9c241a42ecfeb1a46e06b6fec01ff445c"
+      }
+    },
+    {
+      "step": "verify-vlc-v1",
+      "exit_code": 0,
+      "exit_file": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/editorial-voice-3-52-v1/verify-vlc-v1.exit",
+        "bytes": 2,
+        "mtime_ns": 1794751231754418118,
+        "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+      },
+      "log": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/editorial-voice-3-52-v1/verify-vlc-v1.log",
+        "bytes": 3813,
+        "mtime_ns": 1794751231726417613,
+        "sha256": "e5b45ad522b157586b6690b9579022170e079c130c00aa1a640329acd38b1338"
+      }
+    }
+  ],
+  "databases": {
+    "historical": {
+      "database": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/review-media-admission-v1/media-candidate-v2/speech_review.sqlite3",
+        "bytes": 118784,
+        "mtime_ns": 1794742805513015128,
+        "sha256": "0086ebfaa312fa86afe87b94ed785bd93eb9feed94936f014f28ab87d7e04b55"
+      },
+      "counts": {
+        "scans": 1,
+        "issues": 6,
+        "decisions": 0,
+        "repair_resolutions": 0
+      }
+    },
+    "parent": {
+      "database": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/source-fidelity-37-v1/candidate/speech_review.sqlite3",
+        "bytes": 118784,
+        "mtime_ns": 1794746767971240674,
+        "sha256": "078e3e0e79ca8b8a3babd344269ceca71d3145c056187123ab0563e66cc277e1"
+      },
+      "counts": {
+        "scans": 1,
+        "issues": 5,
+        "decisions": 0,
+        "repair_resolutions": 0
+      }
+    },
+    "new_isolated": {
+      "database": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/editorial-voice-3-52-v1/candidate/speech_review.sqlite3",
+        "bytes": 110592,
+        "mtime_ns": 1794750829741839307,
+        "sha256": "78e051f78b9dcbdffe206993c1ec4eafbe1724b7fa32fab82d3ca231f7d5fef7"
+      },
+      "counts": {
+        "scans": 1,
+        "issues": 4,
+        "decisions": 0,
+        "repair_resolutions": 0
+      }
+    }
+  },
+  "new_VLC_matching_diagnostic_lines": 72,
+  "new_VLC_diagnostic_examples": [
+    "[h264 @ 0x76c098aefd80] get_buffer() failed",
+    "[h264 @ 0x76c098aefd80] thread_get_buffer() failed",
+    "[h264 @ 0x76c098aefd80] decode_slice_header error",
+    "[h264 @ 0x76c098aefd80] no frame!",
+    "[h264 @ 0x76c098b38980] get_buffer() failed",
+    "[h264 @ 0x76c098b38980] thread_get_buffer() failed"
+  ],
+  "new_or_old_VLC_diagnostics_resolved": false,
+  "historical_VLC_counts76_74_64_retained": true,
+  "preserved_counts": {
+    "records": 11522,
+    "canonical_targets": 31,
+    "frozen_root_python": 98,
+    "production_mp3": 293,
+    "unrelated_untracked": 13
+  },
+  "only_units": [
+    3,
+    52
+  ],
+  "replacement_samples": [
+    342144,
+    345024
+  ],
+  "normal_rate_and_pitch0": true,
+  "new_TTS": 0,
+  "new_ASR": 0,
+  "new_native_speech_scans": 1,
+  "speech_decisions_or_resolutions": 0,
+  "initial_build_language_verification_failure1": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/editorial-voice-3-52-v1/build-pair-v1.exit",
+    "bytes": 2,
+    "mtime_ns": 1794750908891788663,
+    "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865"
+  },
+  "initial_first_screenshot_byte_limit_failure1": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/editorial-voice-3-52-v1/sample-frames-v1.exit",
+    "bytes": 2,
+    "mtime_ns": 1794751179789464773,
+    "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865"
+  },
+  "first_successful_Chinese_encoding_reused_via_language_remux_not_rerun": true,
+  "CPU_scanner_hint_absence_not_phonetic_proof_or_old_issue_dismissal": true,
+  "warm_closing_pause_candidate_still_unreviewed": true,
+  "canonical_adoption": false,
+  "production_eligible": false,
+  "human_selected": false,
+  "human_listened_phoneme_emotion_role_full_film_word_picture_PotPlayer_or_final_approved": false,
+  "Linux27holds23markers_and_critical_AI_F08_unchanged": true
+}
