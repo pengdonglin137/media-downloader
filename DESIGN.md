@@ -1,5 +1,12 @@
 # 译配工作流契约
 
+## 2026-11-15：精确原窗暂存的历史安装兼容合同
+
+- 新media_workflow.exact_source_window_history以私有FunctionType命名空间复用冻结editorial_history，独立kind绑定新适配器/精确stage/冻结父；只在私有install作用域把sample-grid运行时换成exact_source_window_stage。拒绝错误kind/work/policy/身份/归档及全局state钩子；不改冻结代码。
+- 当前包计划通过单文件零替换事务精确归档，新合同仍执行原生派生/归档/候选/31文件安装门禁，安装媒体等完整验证候选字节/mtime。23有限用例及真实成功/异常恢复通过，未把新kind泛化到裸旧CLI。
+- 正式当前质量依序显式精确stage、精确历史、editorial_install运行时；数据库110/111/112/113分别保留全部历史行，projects仅本项目revision索引更新，0决定/解决。新增深度学习仅为排版保护，309源文/字幕文字与时间/语音不变，不是假发音控制。
+- 311/319来源忠实性修订已实际安装，10受限实际图只支持局部图审；全片/人耳/专业音素/情感门禁保持。细目docs/science-performance-helpfulness-install-2026-11-15.md。
+
 ## 2026-11-15：精确原窗外样本保持的完整语音暂存合同
 
 - 新增media_workflow.exact_source_window_stage，kind=exact-source-preserving-complete-editorial-stage-v1，policy=preserve-exact-source-exterior-within-legacy-ownership-v1。只清精确原窗和冻结legacy所有权的交集，完整插入仅增益处理的合成，交集外PCM保持；不修改冻结父的已绑定实现。

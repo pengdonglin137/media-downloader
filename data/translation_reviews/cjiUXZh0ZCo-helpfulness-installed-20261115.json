@@ -1,0 +1,33 @@
+{
+  "kind": "installed-helpfulness-cost-source-fidelity-review-v1",
+  "video_id": "cjiUXZh0ZCo",
+  "goal_status": "active",
+  "formal_adoption": true,
+  "human_listened": false,
+  "registration": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/checkpoint-helpfulness-cost-installed-v1/metadata-registration.json",
+    "bytes": 65162,
+    "mtime_ns": 1794718563914262543,
+    "sha256": "379c12ebbca061f666b3fd5d6be1bb34cf803da18b180d2d7747d7549fbf2039"
+  },
+  "independent_verification": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/helpfulness-cost-media-adoption-v1/post-install-independent-v1.json",
+    "bytes": 12632,
+    "mtime_ns": 1794718499123488575,
+    "sha256": "f3eee405584e80654431a441a5d738bea822c5fbc205776d599b8a0d2161e589"
+  },
+  "selected_units": [
+    311,
+    319
+  ],
+  "source_fidelity_not_acoustic_selection": true,
+  "deep_learning_compound_local_rendered_sample_fixed": true,
+  "new_TTS": 0,
+  "new_source_ASR": 0,
+  "new_Chinese_diagnostics": 0,
+  "next": [
+    "Human-listen to complete emotional and technical-name alternatives; do not treat machine recognition or textual selection as phoneme/emotional approval.",
+    "Continue source216/217/227/248/310/317 andLinux27holds/23markers/F08 resolution from existing evidence,without repeating failed weak-source ASR.",
+    "Preserve all full-film listening/visual/word-level/PotPlayer/final gates;309 compound wrap fixed only in the inspected rendered sample."
+  ]
+}

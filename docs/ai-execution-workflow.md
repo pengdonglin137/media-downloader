@@ -1,5 +1,12 @@
 # AI 执行工作流：自包含中文译配视频
 
+## 2026-11-15：精确原窗完整语音的正式采用断点
+
+- 上轮af53aa2328de为已推送progress。本轮helpfulness-cost-media-adoption-v1用已有精确stage与原生媒体生产，不新TTS/ASR；新增精确历史适配器通过23有限检查和真实派生/异常恢复，冻结父与根Python未改。
+- 原生媒体prepare/encode/verify/check及七实际操作0，九短句加309深度学习保护的10张实际上传图逐张查看后才安装；31目标精确归档/committed及当前独立质量0。候选证明只按媒体字节/mtime精确相等转移，不重复成功编码或全解码。
+- checkpoint-helpfulness-cost-installed-v1为当前入口；完整当前quality须依本请求RUNTIME.md使用精确stage/精确历史/editorial_install上下文，不能继续裸套上轮source-corrected当前入口。旧110与隔离111/媒体112/安装113分开，0决定/解决。
+- 仅选择性9路径，保留其他130行/13文件；局部深度学习换行修复不批准全片，人耳/来源/音素/情感/PotPlayer/LinuxF08门禁及目标active保持，不声称后台自动续跑。
+
 ## 2026-11-15：精确原窗暂存的修复与当前断点
 
 - 上轮73ce28442145为已提交推送的progress。新断点checkpoint-helpfulness-cost-stage-v1绑定stage-v2/projection-v3/quality-v3、当前质量权威、26有限用例及independent-stage-verification-v4；六prepare/check和独立检查真实0，不重复成功语音/媒体。

@@ -1,0 +1,324 @@
+{
+  "kind": "actual-exact-source-installed-pair-independent-v1",
+  "passed": true,
+  "verifier": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/helpfulness-cost-media-adoption-v1/post-install-independent-v1.py",
+    "bytes": 8550,
+    "mtime_ns": 1794718425179146692,
+    "sha256": "2292e9a99f53e0c0254011a9e3ffffafd08d6225bac579a27f5bacd2f0276ab0"
+  },
+  "checked_at": "2026-11-15T04:54:59+00:00",
+  "candidate_verification": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/helpfulness-cost-media-adoption-v1/media-v1/verification.json",
+    "bytes": 19703,
+    "mtime_ns": 1794718285739231434,
+    "sha256": "d30321a49ec44231b9402f6c60d07b5bd30e2194900fd950526cb4fbe714c164"
+  },
+  "installation_verification": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/helpfulness-cost-media-adoption-v1/install-v1/installation-verification.json",
+    "bytes": 11503,
+    "mtime_ns": 1794718420878946016,
+    "sha256": "916593d6a35c7e83a920b2d4143f63cba308174316db2d1038b892d06edaeed3"
+  },
+  "transaction": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/helpfulness-cost-media-adoption-v1/install-v1/file-transaction/transaction.json",
+    "bytes": 38999,
+    "mtime_ns": 1794718420888946484,
+    "sha256": "58af524d024f9fee2382eed1b7780220a71f68d626814a34296b9bacc9334be5"
+  },
+  "transaction_state": "committed",
+  "transaction_targets": 31,
+  "actual_replace_intents": 23,
+  "all31_old_files_exactly_archived": true,
+  "canonical_files_after": [
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/zh.srt",
+      "bytes": 61488,
+      "mtime_ns": 1794716102291359924,
+      "sha256": "a1d13eac5ee2a3447797e5f943e9c8bc7b3d243101a3ac41cc8a32746368ae55"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/en.srt",
+      "bytes": 83454,
+      "mtime_ns": 1794711601120498050,
+      "sha256": "e14f42808b078b78c436ea24c31f5671326a032128dda3db0312b9dc14504004"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/timing_review.json",
+      "bytes": 3,
+      "mtime_ns": 1794621436423917798,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/voices.json",
+      "bytes": 7386,
+      "mtime_ns": 1794620970384512188,
+      "sha256": "8a2e76078e643df374006311148f9ce441a0042d6ada7fab92ee6e08254d7b00"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/compilation.json",
+      "bytes": 1010,
+      "mtime_ns": 1794716102311360190,
+      "sha256": "c57f831bf9aed22d5fbbd9374518b6d61a458f02e79537bc63da3eb1c3b55c2b"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/spoken.srt",
+      "bytes": 56984,
+      "mtime_ns": 1794716102292359938,
+      "sha256": "83c6925f215ccc00230366666559246311468a9334a422e8089dc807c55bf99d"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/translation.tsv",
+      "bytes": 51537,
+      "mtime_ns": 1794716102270359645,
+      "sha256": "fbc76f41f2b9efb7495e374ef34dae1660c1111bc0a16f437e83c3d1a69bbece"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/bilingual_display.srt",
+      "bytes": 158997,
+      "mtime_ns": 1794716172517274988,
+      "sha256": "d75861dd458253f155445f635c8462ba6a2598b15d4f300bcf5506e6518c0d3f"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/spoken_overrides.json",
+      "bytes": 30291,
+      "mtime_ns": 1794716102270359645,
+      "sha256": "798e5fb8742c4bc36f45b2241c6920f03d12d7319a9e48bd122ff6f82c60f998"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/package-plan.json",
+      "bytes": 27311,
+      "mtime_ns": 1794716182561402875,
+      "sha256": "ded960023c691e54a7c909146e0458b3bdcfe371408557a3df6d1583a86a2221"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/translation_task.json",
+      "bytes": 4026,
+      "mtime_ns": 1794711601122498285,
+      "sha256": "1889e1976ae90c81551656077c077e6a5ed36a24069486740bf2bde6463f5d5b"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/tts_voice.txt",
+      "bytes": 18,
+      "mtime_ns": 1794621043528585578,
+      "sha256": "278ec7126151de367498ddc4ed86aaa29a610506a7559b9831fa2fdfce5977de"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/meta.json",
+      "bytes": 146,
+      "mtime_ns": 1794613332409392106,
+      "sha256": "f8a1c184a547b229dee7b091ce9ed8b47fde48011a6c26796b688bbe48a60335"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/zh_display.srt",
+      "bytes": 86670,
+      "mtime_ns": 1794716172511274911,
+      "sha256": "76318f24556af80d565aaae519907868259ad755ecc845c97a5fcaf05c19776f"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/tts_stats.json",
+      "bytes": 23267,
+      "mtime_ns": 1794716102450362040,
+      "sha256": "52df69ae8d918982c5c9307fc6a21a581674981176d0445ce2daff7e3a5999e5"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/bilingual.srt",
+      "bytes": 133815,
+      "mtime_ns": 1794716102292359938,
+      "sha256": "c4c02c3f0bbf8677ac41958d1aa550bde7859f04ae7afaaa30958fd4b6885608"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/en_display.srt",
+      "bytes": 107616,
+      "mtime_ns": 1794716172513274937,
+      "sha256": "6be8a5f48f22db74f6633f6ddbe095cd41ef6237132106d70b65b987d0fd1da0"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/translation_audit.md",
+      "bytes": 4066,
+      "mtime_ns": 1794621566492573287,
+      "sha256": "8ccf1fd0a56d92fa6c502281201c849d9cbaf1042959f8fd67ab537d900cb58e"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/speech_policy.json",
+      "bytes": 54,
+      "mtime_ns": 1794620970275510563,
+      "sha256": "82f52a8889d1044e2e37de0fd32dc0cc682b4c2bfaf41b35bee6a8f26cb29fcb"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/Science of Performance 2019_中文配音.mp4",
+      "bytes": 566024417,
+      "mtime_ns": 1794717276550995118,
+      "sha256": "1bf58a2ea1311e1b049da5bb4ad617d42ed7173413de47957ab59db835f79e75"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/Science of Performance 2019_中文上传版.mp4",
+      "bytes": 452401532,
+      "mtime_ns": 1794717894131316905,
+      "sha256": "10cb1d80fb31d52c65beba9051e47c1e8781c40d52dc9adac61379bd7db23105"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/editorial_install.json",
+      "bytes": 701,
+      "mtime_ns": 1794718412015530068,
+      "sha256": "b731463833a3b7dbfd38a8cfc42cdf9315d03b7784f4236b52c285ecc780d06e"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/narration.json",
+      "bytes": 10271,
+      "mtime_ns": 1794718412059532141,
+      "sha256": "b380e6747aa8f974d9346cf94037dd7ad7deaf4475d7b76518c1f8e6cb8298ec"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/render_state.json",
+      "bytes": 1891,
+      "mtime_ns": 1794718412107534401,
+      "sha256": "7fe1231ebd379d10a77e74eae6d58429ea2bb524b947a2863102d8d34c953846"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/upload_export.json",
+      "bytes": 2214,
+      "mtime_ns": 1794718412139535908,
+      "sha256": "e4509af2c88c6227b20fd2ca5b480072400b878516481c08e45a533656e289a7"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/speech_review.json",
+      "bytes": 305857,
+      "mtime_ns": 1794718416331733012,
+      "sha256": "6a7084b1ed81a5971b57f4edae246c4eae73407580ebd25845b62766a805c2c5"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/speech_review.html",
+      "bytes": 125181,
+      "mtime_ns": 1794718416377735170,
+      "sha256": "15d1cef703680e4c2e18180a3acd21e8b66bec8ae95fb188e996526b7562614e"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/speech_database.json",
+      "bytes": 167,
+      "mtime_ns": 1794718416417737048,
+      "sha256": "03a9dba6401804399e5c8475b0337b01a42f53977023171a289ae69c9d4148f6"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/delivery_quality.json",
+      "bytes": 1855,
+      "mtime_ns": 1794718416725751502,
+      "sha256": "11f899febb481ae59eadb4eb6bec77b10c59f5f39813fc18856577baa98a149e"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/delivery_check.json",
+      "bytes": 9295,
+      "mtime_ns": 1794718419662889132,
+      "sha256": "66b4c513a7ea40fcb1afbce9c92cc84312a423a9ef678a5b03aca4104ab78e15"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/release.json",
+      "bytes": 2345,
+      "mtime_ns": 1794718420102909724,
+      "sha256": "becd84ee7a5cf838d348cbed1fa19696bbcbbcc9a5ffaa7e651361970f2cba6c"
+    }
+  ],
+  "preserved_counts": {
+    "records": 6753,
+    "frozen_root_python": 98,
+    "production_mp3": 293,
+    "unrelated_untracked": 13
+  },
+  "master": {
+    "path": "/home/pengdl/Videos/translated_backlog/Science of Performance 2019_中文配音.mp4",
+    "bytes": 566024417,
+    "mtime_ns": 1794717276550995118,
+    "sha256": "1bf58a2ea1311e1b049da5bb4ad617d42ed7173413de47957ab59db835f79e75"
+  },
+  "upload": {
+    "path": "/home/pengdl/Videos/translated_backlog/Science of Performance 2019_中文上传版.mp4",
+    "bytes": 452401532,
+    "mtime_ns": 1794717894131316905,
+    "sha256": "10cb1d80fb31d52c65beba9051e47c1e8781c40d52dc9adac61379bd7db23105"
+  },
+  "formal_media_exact_candidate_bytes_and_mtime": true,
+  "source_changed_units": [],
+  "selected_units": [
+    311,
+    319
+  ],
+  "Chinese_bilingual_phrases": 9,
+  "English_cues": 1022,
+  "complete_video_schedule_frames": 167187,
+  "fixed_offset_audio_regions": 25,
+  "source_windows": 321,
+  "original_regions": 23,
+  "reserved_units": 39,
+  "intro_offset_seconds": 40.2,
+  "chapters": 85,
+  "duration_seconds": 5572.982,
+  "before_database_rows": {
+    "decisions": 0,
+    "issues": 8807,
+    "occurrences": 15545,
+    "projects": 60,
+    "repair_resolutions": 0,
+    "scans": 110,
+    "terms": 41
+  },
+  "stage_database_rows": {
+    "decisions": 0,
+    "issues": 8993,
+    "occurrences": 15866,
+    "projects": 60,
+    "repair_resolutions": 0,
+    "scans": 111,
+    "terms": 41
+  },
+  "candidate_database_rows": {
+    "decisions": 0,
+    "issues": 9179,
+    "occurrences": 16187,
+    "projects": 60,
+    "repair_resolutions": 0,
+    "scans": 112,
+    "terms": 41
+  },
+  "installed_database_rows": {
+    "decisions": 0,
+    "issues": 9365,
+    "occurrences": 16508,
+    "projects": 60,
+    "repair_resolutions": 0,
+    "scans": 113,
+    "terms": 41
+  },
+  "project_current_revision_updates": [
+    {
+      "changed_project_ids": [
+        "cjiUXZh0ZCo"
+      ],
+      "allowed_current_revision_index_only": true,
+      "old_revision": "3f86bbe0bde9aa5c6a050a73be7826b197248a8e7ff43bc7f3008d681b0d2667",
+      "new_revision": "a189b2cf164eec9f81ed078f02599261e18dbeafce52ba57abdfd79c91dee42e"
+    },
+    {
+      "changed_project_ids": [
+        "cjiUXZh0ZCo"
+      ],
+      "allowed_current_revision_index_only": true,
+      "old_revision": "a189b2cf164eec9f81ed078f02599261e18dbeafce52ba57abdfd79c91dee42e",
+      "new_revision": "b410ce49213e1b2925c5b301b3c3a515856410553bbccde581f40dce1e13be8f"
+    },
+    {
+      "changed_project_ids": [
+        "cjiUXZh0ZCo"
+      ],
+      "allowed_current_revision_index_only": true,
+      "old_revision": "b410ce49213e1b2925c5b301b3c3a515856410553bbccde581f40dce1e13be8f",
+      "new_revision": "8a7626dafa71aeec8ba5a5ee533076a2edc0f2b0a84bbac49eb3c3c3c8c7b382"
+    }
+  ],
+  "all_historical_rows_preserved_except_current_project_revision_index": true,
+  "current_candidates": 186,
+  "source_classifications_not_dismissed": 12,
+  "new_decisions_or_resolutions": 0,
+  "human_listened_or_pronunciation_emotion_approved": false,
+  "full_visual_wordlevel_PotPlayer_or_final_approval": false,
+  "goal_status": "active"
+}
