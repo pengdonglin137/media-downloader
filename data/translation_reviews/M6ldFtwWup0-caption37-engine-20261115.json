@@ -1,0 +1,217 @@
+{
+  "kind": "perf37-Chinese-caption-engine-progress-v1",
+  "video_id": "M6ldFtwWup0",
+  "status": "verified-progress",
+  "goal_status": "active",
+  "external_root": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/caption37-engine-v1",
+  "independent_verification": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/caption37-engine-v1/independent-v1.json",
+    "bytes": 20046,
+    "mtime_ns": 1794749522476440591,
+    "sha256": "4311dbe9f1484a8d1ca4d1c3caf67a60fe5b9a5be9f44c95be6c19ad9997aa66"
+  },
+  "runtime_instructions": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/caption37-engine-v1/RUNTIME.md",
+    "bytes": 2778,
+    "mtime_ns": 1794749363994700354,
+    "sha256": "601f70e6d675d7abd3a08f49953a05ecc14f8ce880141c5622b07d2ce4ac96c2"
+  },
+  "projection": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/caption37-engine-v1/projection-v1/projection.json",
+    "bytes": 11228,
+    "mtime_ns": 1794748815847933527,
+    "sha256": "e6a5cf28c32328cd48481c110b8c87a7a4076afa299f9def7d4aac673349189b"
+  },
+  "new_master": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/caption37-engine-v1/media-pair-v1/master.mp4",
+    "bytes": 137937705,
+    "mtime_ns": 1794748890630795291,
+    "sha256": "cbd2afb9a12fa167b2e95adfda8ca5ff3175e6b6bce3438db8579f2abca38f52"
+  },
+  "new_upload": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/caption37-engine-v1/media-pair-v1/upload.mp4",
+    "bytes": 94583564,
+    "mtime_ns": 1794748974945755101,
+    "sha256": "17b7f3ec8d96bcb20e65221dbbcdb4a124f6e71e9080389877a5cf4da164ff99"
+  },
+  "package": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/caption37-engine-v1/media-pair-v1/manifest.json",
+    "bytes": 16280,
+    "mtime_ns": 1794748975203755148,
+    "sha256": "23a90a3344380234b0b59242439850430f2934e13cad51f607790035b87546ee"
+  },
+  "only_Chinese_unit": 37,
+  "source_unit_window_seconds_unchanged": [
+    762.48,
+    780.82
+  ],
+  "new_body_Chinese_cues": [
+    [
+      "762.480",
+      "766.380",
+      "这样就能看出，哪些系统调用耗时最多。"
+    ],
+    [
+      "766.380",
+      "771.048",
+      "比如，再用 trace 分析一下 dd，你看这里。"
+    ]
+  ],
+  "new_final_Chinese_cues": [
+    [
+      "804.180",
+      "808.080",
+      "这样就能看出，哪些系统调用耗时最多。"
+    ],
+    [
+      "808.080",
+      "812.748",
+      "比如，再用 trace 分析一下 dd，你看这里。"
+    ]
+  ],
+  "second_caption_starts_earlier_seconds": "5.057",
+  "second_caption_before_complete_WAV_end_seconds": "4.668",
+  "previous_second_caption_after_complete_WAV_end_seconds": ".389",
+  "engine_switch_offset_seconds": "3.900",
+  "full_reused_speech_seconds": 8.568,
+  "full_reused_speech_samples": 205632,
+  "full_text_and_punctuation_preserved": true,
+  "other_Chinese_cues_and_original_timed_English_bilingual_unchanged": true,
+  "parent_and_new_master_upload_Chinese_AAC_and_decoded_PCM_exact": true,
+  "backup_original_audio_packets_equal_parent": true,
+  "source30_actual_sound_in_both_Chinese_main_tracks_preserved_by_identical_PCM": true,
+  "source30_fixed_offset_proof_reused_not_new_listening": {
+    "proof": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/source-fidelity-37-v1/pair-verification-v1/verification.json",
+      "bytes": 33885,
+      "mtime_ns": 1794747530739049867,
+      "sha256": "df2344aab44d2d9883a29de832b105d62190cf2fa8c3fdf427446737c731697d"
+    },
+    "window_final_samples": [
+      16015920,
+      16482480
+    ],
+    "fixed_offset_metrics": {
+      "cosine": 0.9998455335149864,
+      "RMS_ratio_actual_to_reference": 0.9932328473772558
+    },
+    "identical_Chinese_PCM_keeps_actual_source30_in_both_Chinese_main_tracks": true
+  },
+  "new_TTS": 0,
+  "new_ASR": 0,
+  "new_PCM": 0,
+  "new_speech_scans": 0,
+  "duration_seconds": 1140.538,
+  "intro_offset_seconds": 41.7,
+  "intro_frames": 1251,
+  "embedded_chapters": 21,
+  "subtitle_track_handler_names": [
+    "中文（第37项依配音词界，其余沿用）",
+    "English（原片字幕时间投影）",
+    "双语（原片字幕时间投影）"
+  ],
+  "subtitle_headers_original68_byte_prefix_equal_but20_bytes_appended": true,
+  "whole_subtitle_header_identity_or_font_layout_approval": false,
+  "new_VLC_matching_diagnostic_lines": 76,
+  "VLC_diagnostic_counts_not_an_error_rate_ranking": true,
+  "previous74_and64_VLC_diagnostics_unresolved": true,
+  "old_or_canonical_projects_and_media_modified": false,
+  "candidate_only": true,
+  "canonical_adoption": false,
+  "human_listened_phoneme_emotion_role_full_film_word_picture_PotPlayer_or_final_approved": false,
+  "CPU_CentOS_warm_closing_candidates_not_installed": true,
+  "Linux27holds23markers_criticalAI_F08_unchanged": true,
+  "selection": {
+    "chunks": [
+      {
+        "zh": "这样就能看出，哪些系统调用耗时最多。",
+        "spoken": "这样就能看出，哪些系统调用耗时最多。",
+        "en": "So you can know, know the, maybe the system call that actually takes you know the most of the time"
+      },
+      {
+        "zh": "比如，再用 trace 分析一下 dd，你看这里。",
+        "spoken": "比如，再用 trace 分析一下 dd，你看这里。",
+        "en": "so for example let me run trace on dd here so you see you see"
+      }
+    ],
+    "review_note": "Keep the complete superlative sentence together; begin the example at observed 比如. English phrase mapping is audit context only, not a retiming of the original English or bilingual tracks."
+  },
+  "timing_observation": {
+    "native_source_window_rows": [
+      [
+        "762.480",
+        "766.380",
+        "这样就能看出，哪些系统调用耗时最多。"
+      ],
+      [
+        "766.380",
+        "780.820",
+        "比如，再用 trace 分析一下 dd，你看这里。"
+      ]
+    ],
+    "complete_audio_start": "762.480",
+    "complete_audio_end": "771.048",
+    "last_returned_word_end": "770.155",
+    "last_caption_end_rule": "complete decoded sample count, not a detected phoneme",
+    "engine_word_boundary_is_not_acoustic_or_human_forced_alignment": true
+  },
+  "previous_final_cues": [
+    [
+      "804.18",
+      "813.137",
+      "这样就能看出，哪些系统调用耗时最多。比如，"
+    ],
+    [
+      "813.137",
+      "822.52",
+      "再用 trace 分析一下 dd，你看这里。"
+    ]
+  ],
+  "native_helper": {
+    "path": "/home/pengdl/media-downloader/media_workflow/caption_projection.py",
+    "bytes": 13943,
+    "mtime_ns": 1794636134072118471,
+    "sha256": "260a674424c3feddaf3ccb7abd79c2bd8afdff8a8aa1d1a0644158d2da0a3865"
+  },
+  "audio_signal_diagnostic_only": {
+    "threshold_dBFS": -40,
+    "bin_samples": 1200,
+    "bin_seconds": 0.05,
+    "first_active_bin_start_seconds": 0.2,
+    "last_active_bin_end_seconds": 7.6,
+    "complete_decoded_audio_seconds": 8.568,
+    "signal_energy_is_not_phoneme_or_word_listening": true,
+    "complete_staged_PCM_sha256": "cc3b3031640bd3c2297dbeea098f892bee5d3bd524200fd0e7598042783f2369"
+  },
+  "projection_is_not_acoustic_phoneme_or_human_word_picture_alignment": true,
+  "speech_databases": {
+    "historical": {
+      "database": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/review-media-admission-v1/media-candidate-v2/speech_review.sqlite3",
+        "bytes": 118784,
+        "mtime_ns": 1794742805513015128,
+        "sha256": "0086ebfaa312fa86afe87b94ed785bd93eb9feed94936f014f28ab87d7e04b55"
+      },
+      "counts": {
+        "scans": 1,
+        "issues": 6,
+        "decisions": 0,
+        "repair_resolutions": 0
+      }
+    },
+    "parent_current": {
+      "database": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/source-fidelity-37-v1/candidate/speech_review.sqlite3",
+        "bytes": 118784,
+        "mtime_ns": 1794746767971240674,
+        "sha256": "078e3e0e79ca8b8a3babd344269ceca71d3145c056187123ab0563e66cc277e1"
+      },
+      "counts": {
+        "scans": 1,
+        "issues": 5,
+        "decisions": 0,
+        "repair_resolutions": 0
+      }
+    }
+  }
+}
