@@ -1,0 +1,164 @@
+{
+  "kind": "helpfulness-cost-strict-stage-independent-verification-v4",
+  "passed": true,
+  "verified_at": "2026-11-15T04:19:00+00:00",
+  "verifier": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/helpfulness-cost-stage-v1/independent-stage-verification-v4.py",
+    "bytes": 11286,
+    "mtime_ns": 1794716286298684849,
+    "sha256": "34d883ac98b1d9c581077da261f4ee24c84ddb37427494ef7cb66fae9ee279a2"
+  },
+  "goal_status": "active",
+  "exact_source_adapter": {
+    "path": "/home/pengdl/media-downloader/media_workflow/exact_source_window_stage.py",
+    "bytes": 5098,
+    "mtime_ns": 1794716050488659347,
+    "sha256": "076daacace17fc8a1e9b636173d9ab3d726bd717e05473309d2e315c4aa00678"
+  },
+  "finite_26_guards": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/helpfulness-cost-stage-v1/finite-source-window-guards-v1.json",
+    "bytes": 1799,
+    "mtime_ns": 1794716050661661726,
+    "sha256": "83357e48d58d0163056141d77e5e5f86dcd77f1e639f956367d5224a05711fec"
+  },
+  "original_v1_failure": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/helpfulness-cost-stage-v1/outside-source-sample-v1-failure.json",
+    "bytes": 28035,
+    "mtime_ns": 1794716099398321399,
+    "sha256": "5f57dd53a7dae2c4c81c79457a792eec87ff28b4d99e2843cb242459c062ed3d"
+  },
+  "selected_units": [
+    311,
+    319
+  ],
+  "outside_source_sample311_preserved": true,
+  "source_changes": 0,
+  "new_TTS_ASR": false,
+  "two_existing_complete_syntheses_reused": true,
+  "mapping_checks": [
+    {
+      "unit_id": 311,
+      "complete_samples": 309888,
+      "gain": 1.123451363096804,
+      "mapping": {
+        "policy": "preserve-exact-source-exterior-within-legacy-ownership-v1",
+        "source_start": "5377.4",
+        "source_end": "5395.27",
+        "legacy_start_sample": 129057599,
+        "legacy_end_sample": 129486480,
+        "exact_start_scaled": [
+          129057600,
+          1
+        ],
+        "exact_end_scaled": [
+          129486480,
+          1
+        ],
+        "exact_contained_start_sample": 129057600,
+        "exact_contained_end_sample": 129486480,
+        "start_sample": 129057600,
+        "end_sample": 129486480,
+        "complete_samples": 309888,
+        "preview_window_samples": 428880,
+        "remaining_contained_samples": 118992
+      },
+      "exact_full_audio_containment": true
+    },
+    {
+      "unit_id": 319,
+      "complete_samples": 252864,
+      "gain": 1.0782435535017665,
+      "mapping": {
+        "policy": "preserve-exact-source-exterior-within-legacy-ownership-v1",
+        "source_start": "5504.95",
+        "source_end": "5517.989",
+        "legacy_start_sample": 132118800,
+        "legacy_end_sample": 132431735,
+        "exact_start_scaled": [
+          132118800,
+          1
+        ],
+        "exact_end_scaled": [
+          132431736,
+          1
+        ],
+        "exact_contained_start_sample": 132118800,
+        "exact_contained_end_sample": 132431736,
+        "start_sample": 132118800,
+        "end_sample": 132431735,
+        "complete_samples": 252864,
+        "preview_window_samples": 312936,
+        "remaining_contained_samples": 60071
+      },
+      "exact_full_audio_containment": true
+    }
+  ],
+  "independent_audio": {
+    "base": {
+      "frames": 132834768,
+      "outside_legacy_sha256": "9872a42a03cdb87dee80c8cc02940647ece67a2902cfd29f15c4fc453c893326",
+      "outside_exact_source_windows_unchanged": true,
+      "exact_owned_intersection_equals_complete_gain_only_synthesis_then_zeros": true
+    },
+    "composite": {
+      "frames": 132834768,
+      "outside_legacy_sha256": "6564d528fbb9d13809d505814c76d5b55c2158e2f3b7602c192bb92ee39dc4b9",
+      "outside_exact_source_windows_unchanged": true,
+      "exact_owned_intersection_equals_complete_gain_only_synthesis_then_zeros": true
+    }
+  },
+  "original_regions_equal_source": 23,
+  "reserved_units": 39,
+  "declared_source_eof_silence_samples": 21,
+  "source_units": 321,
+  "english_cues_unchanged": 1022,
+  "projected_Chinese_bilingual_phrases": 9,
+  "quality_state": "eligible_with_unreviewed_candidates",
+  "database_before_rows": {
+    "decisions": 0,
+    "issues": 8807,
+    "occurrences": 15545,
+    "projects": 60,
+    "repair_resolutions": 0,
+    "scans": 110,
+    "terms": 41
+  },
+  "database_after_rows": {
+    "decisions": 0,
+    "issues": 8993,
+    "occurrences": 15866,
+    "projects": 60,
+    "repair_resolutions": 0,
+    "scans": 111,
+    "terms": 41
+  },
+  "all_old_rows_preserved": true,
+  "new_decisions_or_resolutions": 0,
+  "candidate_history": {
+    "previous_current_candidates": 186,
+    "current_candidates": 186,
+    "unedited_current_candidates_preserved": 186,
+    "edited_previous_candidates_retained_in_old_database_scans": 0,
+    "classified_source_only_synthetic_tail_candidates": 12,
+    "new_review_decisions": 0
+  },
+  "preserved_counts": {
+    "records": 6446,
+    "canonical_targets": 31,
+    "frozen_root_python": 98,
+    "production_mp3": 293,
+    "unrelated_untracked": 13
+  },
+  "source_fidelity_not_acoustic_emotional_selection": true,
+  "formal_adoption": false,
+  "professional_phonemes_emotion_human_visual_wordlevel_PotPlayer_or_final_approval": false,
+  "preserved_source_holds": [
+    216,
+    217,
+    227,
+    248,
+    310,
+    317
+  ],
+  "Linux_27holds_23markers_F08_and309_visual_wrap_unchanged": true
+}

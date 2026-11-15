@@ -1,5 +1,12 @@
 # 译配工作流契约
 
+## 2026-11-15：精确原窗外样本保持的完整语音暂存合同
+
+- 新增media_workflow.exact_source_window_stage，kind=exact-source-preserving-complete-editorial-stage-v1，policy=preserve-exact-source-exterior-within-legacy-ownership-v1。只清精确原窗和冻结legacy所有权的交集，完整插入仅增益处理的合成，交集外PCM保持；不修改冻结父的已绑定实现。
+- 私有FunctionType命名空间复用原生门禁、绑定父/新模块身份；核对PCM16、完整映射/非重叠/边界/全部样本。runtime仅分派完全匹配的config/output，拒绝嵌套且finally恢复，不安装全局state钩子。26有限用例含复现22→0旧缺陷及新22保持。
+- 两条真实暂存及九投影短句/隔离quality通过，正式文本/媒体/库未写。21个既有EOF容器零样本与真实源前缀分开验证；正式110和两份独立111不得串成112。新kind不能直接套旧媒体安装器，后续采用需明确支持。
+- 证据与失败历史见docs/science-performance-exact-source-stage-2026-11-15.md；新严格检查不代替来源、专业音素、情感、人耳或全片批准。
+
 ## 2026-11-15：完整句补漏、情感与技术名词对照的证据边界
 
 - 311恢复遗漏的very very helpful时，必须保留未来异常预防只是希望；318保留不必研究及过去/现在热爱的完整对象。319拉丁名和朗读别名比较均使用完整同人原窗，不用孤立词合成证明正文发音。

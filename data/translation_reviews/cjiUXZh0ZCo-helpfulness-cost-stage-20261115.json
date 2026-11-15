@@ -1,0 +1,68 @@
+{
+  "kind": "helpfulness-cost-exact-source-stage-review-v1",
+  "video_id": "cjiUXZh0ZCo",
+  "goal_status": "active",
+  "formal_adoption": false,
+  "selection": {
+    "kind": "source-fidelity-helpfulness-cost-selection-v1",
+    "preview_plan": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/language-emotion-pronunciation-v1/preview-plan-v1.json",
+      "bytes": 15918,
+      "mtime_ns": 1794714983494753597,
+      "sha256": "b03125673b7e53685d42728226ea2e5726a576cf69a7f0642fc759920201325b"
+    },
+    "preview_manifest": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/language-emotion-pronunciation-v1/preview-v1/manifest.json",
+      "bytes": 13876,
+      "mtime_ns": 1794714994354766492,
+      "sha256": "c1ed7adf8f291f677897e69cbabfa9a785567058c10f3e8fa5228f84210ce84a"
+    },
+    "selected": [
+      {
+        "key": "unit-311-helpful-clear",
+        "source_fidelity_selected": true,
+        "reason": "Restore the omitted very very helpful evaluation from the full source and existing original-source observations;retain large data/server counts and the wish to prevent future anomalies,not a prevention guarantee.The clear complete version is a textual-fidelity choice,not a listened/emotional winner.",
+        "human_listened": false,
+        "pronunciation_or_emotion_approved": false
+      },
+      {
+        "key": "unit-319-hadoop-latin",
+        "source_fidelity_selected": true,
+        "reason": "Use a complete sentence with explicit Java-and-Hadoop conjunction and basic-understanding/not-expert/software/cost/TCO qualifications;keep canonical Latin names rather than the unapproved Chinese alias.New unprompted recognition is diagnostic support only,not phonetic or emotional approval.",
+        "human_listened": false,
+        "pronunciation_or_emotion_approved": false
+      }
+    ],
+    "unselected318_emotion_and319_alias_stay_unapproved": true,
+    "source_holds_216_217_227_248_310_317_preserved": true,
+    "formal_adoption": false,
+    "new_TTS_ASR": false
+  },
+  "exact_source_adapter": {
+    "path": "/home/pengdl/media-downloader/media_workflow/exact_source_window_stage.py",
+    "bytes": 5098,
+    "mtime_ns": 1794716050488659347,
+    "sha256": "076daacace17fc8a1e9b636173d9ab3d726bd717e05473309d2e315c4aa00678"
+  },
+  "registration": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/checkpoint-helpfulness-cost-stage-v1/metadata-registration-v2.json",
+    "bytes": 71424,
+    "mtime_ns": 1794716782149134545,
+    "sha256": "1e35cf0174a9b4e52bd81fba047f3131d694c3eceff6faf3fb0e26897daafd46"
+  },
+  "independent_verification": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/helpfulness-cost-stage-v1/independent-stage-verification-v4.json",
+    "bytes": 5424,
+    "mtime_ns": 1794716340489329254,
+    "sha256": "7d9ff92cb7993791c9ee60d72ce2f8d5bdcb2405eb5c1343ae90c14af9b9ff07"
+  },
+  "new_TTS": 0,
+  "new_source_ASR": 0,
+  "new_Chinese_diagnostics": 0,
+  "human_listened": false,
+  "next": [
+    "Only consider formal media adoption after explicit media/history/install support for the new exact-source stage kind; do not bypass old guards.",
+    "Human-listen to complete318 emotional alternatives and319 technical phonemes; do not select aliases or claim an acoustic winner automatically.",
+    "Keep216/217/227/248/310/317 source holds,309 internal compound wrapping,Linux27holds/23markers/F08 and all human/full-visual/word-level/PotPlayer/final gates open."
+  ]
+}

@@ -1,5 +1,12 @@
 # AI 执行工作流：自包含中文译配视频
 
+## 2026-11-15：精确原窗暂存的修复与当前断点
+
+- 上轮73ce28442145为已提交推送的progress。新断点checkpoint-helpfulness-cost-stage-v1绑定stage-v2/projection-v3/quality-v3、当前质量权威、26有限用例及independent-stage-verification-v4；六prepare/check和独立检查真实0，不重复成功语音/媒体。
+- 初始stage-v1原生绿色仍被独立检查拒绝：129057599在精确窗外，原22误清0。用新exact_source_window_stage合同修复，冻结父不改；错误projection-v2绑定、旧外层断言、EOF零样本验证失败均保留，不把失败改0。
+- 请求内RUNTIME-v2.md为正确指引，RUNTIME.md仅历史；新kind尚无正式媒体/安装采用，本轮只是隔离暂存/投影/私库质量。321片尾21零样本不是源音频，正式110与并列两份隔离111分开登记。
+- 只选择性提交9路径，保留五文档130行与13其他文件；全部来源/发音/情感/人耳/视觉/LinuxF08门禁和目标active保持，不宣称后台续跑。
+
 ## 2026-11-15：补漏与发音对照的当前执行入口
 
 - 上轮68751420fc7e已实际采用并推送，分类progress。新language-emotion-pronunciation-v1绑定当前31正式目标和既有全部实物，再从已验证母版PCM按绝对样本捕获311/318/319完整before，不重解码成功全片。
