@@ -1,0 +1,293 @@
+{
+  "kind": "vtune-case-study-complete-speech-trials-verified-not-adopted-v1",
+  "recorded_at": "2026-11-15T01:28:16+00:00",
+  "video_id": "cjiUXZh0ZCo",
+  "range": [
+    246,
+    275
+  ],
+  "goal_turn_classification": "progress",
+  "goal_status": "active",
+  "reviewed_source_units": 30,
+  "review": {
+    "path": "/home/pengdl/media-downloader/data/translation_reviews/cjiUXZh0ZCo-vtune-case-study-20261115.json",
+    "bytes": 56876,
+    "mtime_ns": 1794705238251385111,
+    "sha256": "1e877cf95eed0fc9a24fa898c7c69082955d3dee0696a4db8d259940335f2c08"
+  },
+  "independent_verification": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/vtune-case-study-v1/independent-preview-v1.json",
+    "bytes": 44514,
+    "mtime_ns": 1794705905129240845,
+    "sha256": "6842575ecacf8a9574c5344cac48246b8d4913099d22aee1ac4d2a425e3b3964"
+  },
+  "selected_complete_candidates": 12,
+  "unique_original_windows": 12,
+  "normal_rate_fits": 12,
+  "successful_complete_TTS": 14,
+  "attempted_TTS_calls": 15,
+  "network_timeout_attempts_preserved": 1,
+  "voice": "zh-CN-YunxiNeural",
+  "rate": "+0%",
+  "real_WordBoundary_observations_selected": 385,
+  "cases": [
+    {
+      "key": "body-246-source-code-drilldown",
+      "unit_id": 246,
+      "seconds": 10.512,
+      "window_seconds": 15.05,
+      "real_word_boundaries": 27
+    },
+    {
+      "key": "body-251-historical-mac-viewer-scope",
+      "unit_id": 251,
+      "seconds": 10.416,
+      "window_seconds": 17.25,
+      "real_word_boundaries": 26
+    },
+    {
+      "key": "body-252-collector-desktop-distinction",
+      "unit_id": 252,
+      "seconds": 13.08,
+      "window_seconds": 13.241,
+      "real_word_boundaries": 29
+    },
+    {
+      "key": "body-255-setup-to-collection-transition",
+      "unit_id": 255,
+      "seconds": 12.48,
+      "window_seconds": 20.131,
+      "real_word_boundaries": 25
+    },
+    {
+      "key": "body-256-explicit-cli-initials",
+      "unit_id": 256,
+      "seconds": 12.768,
+      "window_seconds": 16.469,
+      "real_word_boundaries": 30
+    },
+    {
+      "key": "body-257-cpu-usage-local-color-scale",
+      "unit_id": 257,
+      "seconds": 14.184,
+      "window_seconds": 15.89,
+      "real_word_boundaries": 40
+    },
+    {
+      "key": "body-258-hotspot-drilldown-qualified-red",
+      "unit_id": 258,
+      "seconds": 17.976,
+      "window_seconds": 36.24,
+      "real_word_boundaries": 48
+    },
+    {
+      "key": "body-264-qps-latency-case-opening-v2",
+      "unit_id": 264,
+      "seconds": 12.576,
+      "window_seconds": 13.04,
+      "real_word_boundaries": 30
+    },
+    {
+      "key": "body-265-business-motivation-quoted-urgency",
+      "unit_id": 265,
+      "seconds": 13.104,
+      "window_seconds": 17.73,
+      "real_word_boundaries": 32
+    },
+    {
+      "key": "body-266-measured-case-success-not-guarantee",
+      "unit_id": 266,
+      "seconds": 13.224,
+      "window_seconds": 22.26,
+      "real_word_boundaries": 34
+    },
+    {
+      "key": "body-267-developer-collaboration-authentic-enthusiasm",
+      "unit_id": 267,
+      "seconds": 14.592,
+      "window_seconds": 31.61,
+      "real_word_boundaries": 37
+    },
+    {
+      "key": "body-273-profiling-overhead-ironic-hotspot-and-v2",
+      "unit_id": 273,
+      "seconds": 11.328,
+      "window_seconds": 13.669,
+      "real_word_boundaries": 27
+    }
+  ],
+  "before_PCM_matches_reference_with40_2second_offset": true,
+  "unit264": {
+    "original_seconds": 13.608,
+    "window_seconds": 13.04,
+    "over_by_samples_24k": 13632,
+    "original_preview_and_check_exits": [
+      0,
+      0
+    ],
+    "original_fit_passed": false,
+    "equivalent_rewording_seconds": 12.576,
+    "facts_source_window_voice_rate_preserved": true,
+    "correction": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/vtune-case-study-v1/unit264-equivalent-reword-v2.json",
+      "bytes": 7426,
+      "mtime_ns": 1794705399893592744,
+      "sha256": "eb31dbf3f33fb14e90eabcb6509ab6eb0aa1dfa08a2b02e058274525071f7bd2"
+    }
+  },
+  "unit273": {
+    "canonical_display_unchanged": true,
+    "spoken_connector": {
+      "before": "与",
+      "after": "和"
+    },
+    "old_diagnostics": [
+      "所以等待",
+      "所以等待"
+    ],
+    "new_diagnostics": [
+      "索核等待",
+      "锁盒等待"
+    ],
+    "canonical_word_form_reliably_recovered": false,
+    "old_complete_successful_audio_preserved": true,
+    "first_new_alias_attempt_exit": 1,
+    "retry_only_unfinished_new_alias_exit": 0,
+    "correction": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/vtune-case-study-v1/unit273-pronunciation-alias-v2.json",
+      "bytes": 6889,
+      "mtime_ns": 1794705601694372510,
+      "sha256": "a88ce7c533984c2266800cfd09bc4654edb1facaa07eb43e18be6a62d1045d9a"
+    },
+    "editorial_text_choice_not_auditory_winner": true,
+    "pronunciation_approved": false
+  },
+  "whole_audio_selection_layers": [
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/vtune-case-study-v1/selected-preview-v2/manifest.json",
+      "bytes": 43287,
+      "mtime_ns": 1794705403225712496,
+      "sha256": "925cbf6991f60a608a814e095a2737eeec130f38336c8670919c7fb94ea27e07"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/vtune-case-study-v1/selected-preview-v3/manifest.json",
+      "bytes": 43782,
+      "mtime_ns": 1794705690643106980,
+      "sha256": "79682a3603055770561ec20bc362ef8faed8dcffbe8458d74b1a0f9abdfb2505"
+    }
+  ],
+  "each_layer11_prior_complete_WAVs_plus1_new_complete_WAV_exactly_copied": true,
+  "actual_TTS_adapter_and_selection_producer_distinguished": true,
+  "native_check_alone_not_authority_for_new_selection_provenance": true,
+  "new_original_English_ASR_outputs": 8,
+  "new_synthetic_Chinese_diagnostic_ASR_outputs": 10,
+  "old_license_and_multispeaker_ASR_outputs_reused": 4,
+  "pronunciation_diagnostics": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/vtune-case-study-v1/pronunciation-interpretation-v1.json",
+    "bytes": 8431,
+    "mtime_ns": 1794705904844233047,
+    "sha256": "79e3f8aac4c8a71e12e18f901630a136b4bb96a15b1d71873b59bbcb045d9d29"
+  },
+  "AMPLXE_CL_and270_2000_roundtrip_not_phoneme_or_emotion_approval": true,
+  "Chinese_or_audio_modified_to_ASR_error_words": false,
+  "explicit_source_amendments_proposed_only": [
+    246,
+    252,
+    256
+  ],
+  "source_provenance_before_and321_self_mapping_bound": true,
+  "source_hold248_unresolved": true,
+  "prior216_217_227_holds_unchanged": true,
+  "actual_original_audio_reserved_in_review": [
+    247,
+    249,
+    250,
+    259,
+    260,
+    261,
+    262,
+    263,
+    268
+  ],
+  "text_only_not_synthesized_units": [
+    253,
+    254,
+    269,
+    270,
+    271,
+    272,
+    274,
+    275
+  ],
+  "fixtures": {
+    "passed": 9,
+    "accepted": 2,
+    "rejected": 7,
+    "in_memory_only": true,
+    "all321_windows_and_other318_source_texts_preserved": true,
+    "actual_source_stage": false
+  },
+  "source_images_individually_opened": 11,
+  "all_images_longside_at_most1280_bytes_at_most32768": true,
+  "misnamed_initial_crop_and_blank_UI_preserved_and_corrected_by_extra_images": true,
+  "logical_CPU_axis_and_local_color_scope_preserved": true,
+  "historical_QPS_improvement_not_single_tool_or_universal_gain_claim": true,
+  "internal_page": {
+    "media_elements": 26,
+    "unique_paths": 26,
+    "seek_buttons": 13,
+    "static_only": true,
+    "browser_or_audio_playback_tested": false,
+    "delivery_attachment_created": false
+  },
+  "preserved": {
+    "records": 4405,
+    "canonical_targets_before_separately_bound": 31,
+    "frozen_root_python": 98,
+    "production_mp3": 293,
+    "unrelated_untracked": 13
+  },
+  "master": {
+    "path": "/home/pengdl/Videos/translated_backlog/Science of Performance 2019_中文配音.mp4",
+    "bytes": 566062749,
+    "mtime_ns": 1794701034289519215,
+    "sha256": "112a1daad7e84a4fac71779bca823bcdca344e7c6776735ea6f07336635c7b06"
+  },
+  "upload": {
+    "path": "/home/pengdl/Videos/translated_backlog/Science of Performance 2019_中文上传版.mp4",
+    "bytes": 452371594,
+    "mtime_ns": 1794701681663916205,
+    "sha256": "55d1eba0c849e032b10101c3d1090da3ed06b60f4f1583da1c7fa7b0b5e0fa43"
+  },
+  "source_windows": 321,
+  "actual_original_audio_regions": 23,
+  "reserved_units": 39,
+  "database": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-adoption-v1/install-v1/speech-review.sqlite3",
+    "bytes": 23793664,
+    "mtime_ns": 1794702566294819651,
+    "sha256": "487113f3df5fa1d2f2a4048aa01cb3ab3e278f20f6414a61b6075fabbf573b57"
+  },
+  "database_counts": {
+    "scans": 104,
+    "issues": 7691,
+    "occurrences": 13619,
+    "decisions": 0,
+    "repair_resolutions": 0
+  },
+  "current_candidates": 186,
+  "source_only_non_dismiss_classifications": 12,
+  "formal_source_translation_audio_media_or_database_changed": false,
+  "new_full_film_decode_encoding_or_quality_scan": false,
+  "actual_source_stage_projection_or_installation": false,
+  "checkpoint": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/checkpoint-vtune-case-study-preview-v1/execution-progress.json",
+  "automatic_auditory_winner": null,
+  "human_listened": false,
+  "professional_phonemes_naturalness_or_emotion_approved": false,
+  "full_film_visual_wordlevel_or_PotPlayer_approved": false,
+  "Linux27holds23markersCriticalF08_unchanged": true,
+  "other_queues_or_totals_modified": false,
+  "unrelated_added_lines_preserved": 130,
+  "unrelated_untracked_files_preserved": 13,
+  "background_automatic_resume_claimed": false
+}

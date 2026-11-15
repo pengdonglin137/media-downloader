@@ -1,5 +1,12 @@
 # AI 执行工作流：自包含中文译配视频
 
+## 2026-11-15：VTune演示/案例候选断点，旧成功语音精确复用
+
+- 入口`request-cjiUXZh0ZCo-20261114/checkpoint-vtune-case-study-preview-v1`；运行根`vtune-case-study-v1`。当前`selected-preview-v3`12完整候选适配；先核对原生check及独立两层选择来源，不能只因check绿而忽略实际组装器/父manifest，亦不能重跑成功TTS。
+- 264首版13.608秒、原窗13.04秒，preview/check实际0但fit=false；只重写连接词后12.576秒。273原成功与新版都保留，字幕锁与等待不变、朗读等义和；首次新版连接超时1、未完成条新目录重试0。14完整成功/15调用尝试，不能把网络失败改0或把复制计作新合成。
+- 新八英文原声ASR与十中文合成回录分列，273仍索核/锁盒待听辨，不自动判词音/情感胜者。246/252/256三源提案、321窗及source_provenance_before已绑定；九有限夹具不是实际source-stage。248不猜下载对象/否定，九实际原声预留及旧216/217/227门禁保持。
+- 未来采用仍需选择来源核验→显式来源→字幕→质量→媒体→事务安装；当前无新全片解码/编码/安装或正式数据库扫描。385词界、11来源图/26内部媒体路径静态不替代人耳/全片/逐词/PotPlayer；见`docs/science-performance-vtune-case-study-2026-11-15.md`。下一276起及未决来源，目标active、LinuxF08保持，不改队列/总数或声称后台续跑。
+
 ## 2026-11-15：软件剖析试读可复用，216/217先阻断
 
 - 入口`request-cjiUXZh0ZCo-20261114/checkpoint-software-profiling-preview-v1`；运行根`software-profiling-v1`。216–245已阅读审校，12成功试读/11原窗不得重复合成；216/217否定定义冲突、227漏工具未决，不在候选中，239原声预留不送TTS。

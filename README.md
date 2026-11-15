@@ -1,5 +1,7 @@
 # Media Downloader
 
+2026-11-15，Science of Performance 2019续审246–275：12完整候选正常语速适配，385词界/9有限验证通过。实际14完整成功语音、1网络超时；仅重写超窗264和为273补等义连词读法，其他成功WAV精确复用。273新回录仍有同音混淆，未批准专业读音/情感；248来源歧义、九原声预留及旧216/217/227门禁保持。三处仅来源提案，正式媒体/数据库未变，无全片编码或安装；说明`docs/science-performance-vtune-case-study-2026-11-15.md`、断点`checkpoint-vtune-case-study-preview-v1`。目标active，继续276及未决听辨，只交本轮、不声称后台续跑。
+
 2026-11-15，Science of Performance 2019续审216–245：11原窗/12条云溪正常语速完整试读适配，223两版保留；八原声英文ASR与八合成语音中文诊断分列，不以回录判专业读音/情感。216–217发现“比较多个版本”与否定自修正/幻灯实质冲突，阻断采用，不猜补not；227待辨、239原声不动。四处仅来源提案，正式双版和104扫描/186候选/0决定保持，无新全片编码或安装。九张受限来源图仅局部，内部页未试听；说明`docs/science-performance-profiling-2026-11-15.md`，断点`checkpoint-software-profiling-preview-v1`。目标active，下一先解来源冲突，旧人耳/全片/逐词/PotPlayer与LinuxF08不关闭，只交本轮、不承诺后台续跑。
 
 2026-11-15，Science of Performance 2019的GPU/软件段11完整语句与43短句已正式采用：源188/204和英文611/657同步修订，209B仅文本编辑选择，203历史“15号”勘误，不称人耳情感胜者。双版完整解码、34固定偏移及事务归档核验通过；无新TTS/ASR，23实际烧字样图逐张查看。发音/情感、186声音候选、原图横轴遮叠/小字、VLC诊断及全片视觉/PotPlayer仍待验；详见`docs/science-performance-gpu-software-adoption-2026-11-15.md`。新增完整试读证据复用入口见`docs/preview-evidence-import.md`，不改旧成功音频或假装重合成。

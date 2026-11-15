@@ -1,0 +1,884 @@
+{
+  "kind": "agent-vtune-case-study-complete-source-review-v1",
+  "recorded_at": "2026-11-15T01:13:58+00:00",
+  "video_id": "cjiUXZh0ZCo",
+  "range": [
+    246,
+    275
+  ],
+  "current_context": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/vtune-case-study-v1/current-context-246-275.json",
+    "bytes": 35909,
+    "mtime_ns": 1794704850269810686,
+    "sha256": "a9f9bb9bbba31a406a9c1db09b9eb126dec440bc0eb7f3deb2aaf94d987f0bf0"
+  },
+  "reviewed_units": [
+    {
+      "unit_id": 246,
+      "start": "4225.97",
+      "end": "4241.02",
+      "source": "and then when you click in one of the fiction you have all the details here and then you can see the source code here too and then it's going to point you at really the function or the loop or where you are spending most of the time if you click it on",
+      "display": "点选其中一个函数，就能看到细节，也能看到源代码。工具会指向真正耗时的函数、循环，或具体代码区域。",
+      "spoken": "点选其中一个函数，就能看到细节，也能看到源代码。工具会指向真正耗时的函数、循环，或具体代码区域。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "complete-utterance-candidate-authored-not-adopted",
+      "review": "以先操作、再揭示重点的教学语气连贯展开，保留函数/循环/具体耗时区域；fiction修为function需显式源提案，不称ASR已准确恢复该词。",
+      "complete_candidates": [
+        {
+          "key": "body-246-source-code-drilldown",
+          "display": "点选一个函数，细节和源代码就能展开。接着就能看清：时间主要花在哪个函数、哪个循环，或哪一段代码上。",
+          "spoken": "点选一个函数，细节和源代码就能展开。接着就能看清：时间主要花在哪个函数、哪个循环，或哪一段代码上。",
+          "reason": "以先操作、再揭示重点的教学语气连贯展开，保留函数/循环/具体耗时区域；fiction修为function需显式源提案，不称ASR已准确恢复该词。",
+          "preserved_facts": [
+            "点选函数查看细节与源码",
+            "定位耗时函数、循环或代码区域，不保证自动修复"
+          ]
+        }
+      ],
+      "deferred_text_only": null,
+      "current_production_text_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 247,
+      "start": "4241.02",
+      "end": "4254.52",
+      "source": "so we can do we can do this is a small video about how you can use that's good because I didn't make yeah",
+      "display": "这里有一小段视频，演示怎样使用。【原声保留：听辨不清】",
+      "spoken": "…",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": true,
+      "context_only": false,
+      "status": "actual-original-audio-reservation-no-TTS",
+      "review": "保留现有实际原声及角色/交接边界，不能因字幕可读而合成、猜问或宣布声音门禁关闭。",
+      "complete_candidates": [],
+      "deferred_text_only": null,
+      "current_production_text_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 248,
+      "start": "4254.52",
+      "end": "4267.719",
+      "source": "so you don't load the video from Internet and this is what you're going to do because this is will be free for you and this believe me it's expensive and thanks to Intel about this for this",
+      "display": "这段视频从网上下载。大家也可以这样做。这个软件会免费提供给你们，相信我，它原本很贵；感谢 Intel 提供这次机会。",
+      "spoken": "这段视频从网上下载。大家也可以这样做。这个软件会免费提供给你们，相信我，它原本很贵；感谢 英特尔 提供这次机会。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "source-download-object-and-negation-unresolved-no-TTS",
+      "review": "新medium识为download the V2，distil仍给dont the video；video/VTune对象和否定未被两个模型可靠恢复，不把当前下载视频译文称已核准。免费许可/一年支持仅当时表述且249/250原声保持。",
+      "complete_candidates": [],
+      "deferred_text_only": null,
+      "current_production_text_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 249,
+      "start": "4267.719",
+      "end": "4294.659",
+      "source": "so we do the C remember yeah it's really expensive so you are going to get this for free for one year which is very helpful in terms of performance so and support",
+      "display": "记住序列号。对，它原本很贵，但你们可以免费获得一年。——这里说的是一年支持服务。",
+      "spoken": "…",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": true,
+      "context_only": false,
+      "status": "actual-original-audio-reservation-no-TTS",
+      "review": "保留现有实际原声及角色/交接边界，不能因字幕可读而合成、猜问或宣布声音门禁关闭。",
+      "complete_candidates": [],
+      "deferred_text_only": null,
+      "current_production_text_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 250,
+      "start": "4294.659",
+      "end": "4309.449",
+      "source": "yeah the summers knocking back working it just sit whatever version you have been doing style so you just don't get the update you'll have to pay for support",
+      "display": "软件可以继续使用，保留在你安装的那个版本，只是不再获得更新。需要更新或支持，就得为支持服务付费。",
+      "spoken": "…",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": true,
+      "context_only": false,
+      "status": "actual-original-audio-reservation-no-TTS",
+      "review": "保留现有实际原声及角色/交接边界，不能因字幕可读而合成、猜问或宣布声音门禁关闭。",
+      "complete_candidates": [],
+      "deferred_text_only": null,
+      "current_production_text_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 251,
+      "start": "4309.449",
+      "end": "4326.699",
+      "source": "so this is the monitoring and they actually you can install it in your Mac there is a version for your Mac for monitoring and then here you have the the first window",
+      "display": "这里是查看界面。在 Mac 上也可以安装相应版本，用来查看。打开后的第一个窗口，就是这样。",
+      "spoken": "这里是查看界面。在 Mac 上也可以安装相应版本，用来查看。打开后的第一个窗口，就是这样。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "complete-utterance-candidate-authored-not-adopted",
+      "review": "把碎句收成演示语气，明确为讲者演示版本及查看用途，不增加Mac服务器采集或2026支持保证。",
+      "complete_candidates": [
+        {
+          "key": "body-251-historical-mac-viewer-scope",
+          "display": "这里是查看界面。讲者演示的这个版本，在 Mac 上也能安装，用来看采集结果。打开后，第一个窗口就是这样。",
+          "spoken": "这里是查看界面。讲者演示的这个版本，在 Mac 上也能安装，用来看采集结果。打开后，第一个窗口就是这样。",
+          "reason": "把碎句收成演示语气，明确为讲者演示版本及查看用途，不增加Mac服务器采集或2026支持保证。",
+          "preserved_facts": [
+            "历史Mac查看版本",
+            "打开后的第一个窗口",
+            "不是Mac采集器安装承诺"
+          ]
+        }
+      ],
+      "deferred_text_only": null,
+      "current_production_text_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 252,
+      "start": "4326.699",
+      "end": "4339.94",
+      "source": "so here you just open the file that you collected on the server I'm going to show you the what you are going to do in the server so this is installing the v10 collector so you have two two packages one for the server one for your desktop",
+      "display": "在这里，打开服务器上采集的数据文件。我也会演示服务器上怎样操作：安装 VTune Collector。有两套包，一套用于服务器，一套用于桌面端。",
+      "spoken": "在这里，打开服务器上采集的数据文件。我也会演示服务器上怎样操作：安装 V Tune Collector。有两套包，一套用于服务器，一套用于桌面端。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "complete-utterance-candidate-authored-not-adopted",
+      "review": "保持操作顺序及两端职责，Collector自然译为采集器，不口播v10错字；历史工具名词面改动必须显式修订来源。",
+      "complete_candidates": [
+        {
+          "key": "body-252-collector-desktop-distinction",
+          "display": "在这里，打开服务器上采集的数据文件。服务器端怎么操作，后面也会演示：安装 VTune Collector，也就是采集器。一套包给服务器，一套给桌面端。",
+          "spoken": "在这里，打开服务器上采集的数据文件。服务器端怎么操作，后面也会演示：安装 V Tune 采集器。一套包给服务器，一套给桌面端。",
+          "reason": "保持操作顺序及两端职责，Collector自然译为采集器，不口播v10错字；历史工具名词面改动必须显式修订来源。",
+          "preserved_facts": [
+            "服务器采集结果在桌面打开",
+            "VTune Collector",
+            "服务器与桌面两包"
+          ]
+        }
+      ],
+      "deferred_text_only": null,
+      "current_production_text_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 253,
+      "start": "4339.94",
+      "end": "4369.909",
+      "source": "if you don't want to do it on the server if you want to do it remotely you go to the shell and then you you download of course the the the collector and then you install it put the serial number accept all these terms and conditions",
+      "display": "不想直接在服务器上操作、希望远程查看的话，先到命令行下载采集器，然后安装，输入序列号，接受条款与条件。",
+      "spoken": "不想直接在服务器上操作、希望远程查看的话，先到命令行下载采集器，然后安装，输入序列号，接受条款与条件。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "text-only-proposal-not-synthesized",
+      "review": "完整读上下文后仅提出文字修订；不称新语音、发音/情感通过或正式采用。",
+      "complete_candidates": [],
+      "deferred_text_only": "如果希望远程操作，就到命令行下载、安装采集器，输入序列号，接受条款。这里说的是讲者当时的安装演示；“远程”不等于服务器不需要采集器。",
+      "current_production_text_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 254,
+      "start": "4369.909",
+      "end": "4389.169",
+      "source": "or you can do it actually the installation automatically they have a script you just ran the script you put your serial number there and then everything will be running here",
+      "display": "也可以用它提供的脚本自动安装：运行脚本，填入序列号，接下来就会执行安装。",
+      "spoken": "也可以用它提供的脚本自动安装：运行脚本，填入序列号，接下来就会执行安装。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "text-only-proposal-not-synthesized",
+      "review": "完整读上下文后仅提出文字修订；不称新语音、发音/情感通过或正式采用。",
+      "complete_candidates": [],
+      "deferred_text_only": "也可以自动安装：他们提供了脚本，运行它，填入序列号，后面的安装就会接着执行。",
+      "current_production_text_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 255,
+      "start": "4389.169",
+      "end": "4409.3",
+      "source": "done this these are the path that you need to know to use your your collector on the server and then you just start collecting I'm going to show you one of the instructions or command line to collect a data I think for hotspot",
+      "display": "完成。这些路径，是在服务器上使用采集器时需要知道的。接着开始采集，我会展示一条命令，例如采集热点数据。",
+      "spoken": "完成。这些路径，是在服务器上使用采集器时需要知道的。接着开始采集，我会展示一条命令，例如采集热点数据。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "complete-utterance-candidate-authored-not-adopted",
+      "review": "用完成、接下来、然后重建演示节奏；保留路径和命令示例，未读清的路径不猜写。",
+      "complete_candidates": [
+        {
+          "key": "body-255-setup-to-collection-transition",
+          "display": "安装完成。接下来要记住这些路径，才能在服务器上用采集器。然后开始采集；我会展示一条命令，比如采集热点数据。",
+          "spoken": "安装完成。接下来要记住这些路径，才能在服务器上用采集器。然后开始采集；我会展示一条命令，比如采集热点数据。",
+          "reason": "用完成、接下来、然后重建演示节奏；保留路径和命令示例，未读清的路径不猜写。",
+          "preserved_facts": [
+            "安装结束后知道服务器采集器路径",
+            "开始采集",
+            "展示热点采集命令示例"
+          ]
+        }
+      ],
+      "deferred_text_only": null,
+      "current_production_text_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 256,
+      "start": "4409.3",
+      "end": "4425.769",
+      "source": "yeah start collection for example advanced hotspot this is this is how you use an Plex ECL collect advanced hotspot and the name of your script or the application you copy the collection to your desktop",
+      "display": "比如 Advanced Hotspots。用画面中的采集命令，指定 Advanced Hotspots，再给出脚本或应用的名称。采集完成后，把结果拷到桌面端。",
+      "spoken": "比如 Advanced 热点分析。用画面中的采集命令，指定 Advanced 热点分析，再给出脚本或应用的名称。采集完成后，把结果拷到桌面端。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "complete-utterance-candidate-authored-not-adopted",
+      "review": "按实际终端恢复amplxe-cl；朗读显式拆字母且读出连接符，避免把错识Implexi当品牌。保留分析类型、目标脚本/应用及复制结果三步，不把横幅大小写当可执行示例。",
+      "complete_candidates": [
+        {
+          "key": "body-256-explicit-cli-initials",
+          "display": "以 Advanced Hotspots 为例：用 amplxe-cl 的采集命令，指定高级热点分析，再给出脚本或应用名称。采完数据，拷到桌面端查看。",
+          "spoken": "以高级热点分析为例：用 A M P L X E，杠 C L，指定高级热点，再给出脚本或应用名。采完数据，拷到桌面端查看。",
+          "reason": "按实际终端恢复amplxe-cl；朗读显式拆字母且读出连接符，避免把错识Implexi当品牌。保留分析类型、目标脚本/应用及复制结果三步，不把横幅大小写当可执行示例。",
+          "preserved_facts": [
+            "amplxe-cl采集Advanced Hotspots",
+            "脚本或应用名称",
+            "结果拷到桌面端",
+            "仅历史演示，不承诺当前CLI兼容"
+          ]
+        }
+      ],
+      "deferred_text_only": null,
+      "current_production_text_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 257,
+      "start": "4425.769",
+      "end": "4441.659",
+      "source": "and this is how it works this is a very beautiful summary CPU usage how many cores you are using for the specific run and the green is it's better there it's like you're not taking advantage of different threads or cores and your CPU",
+      "display": "这就是汇总结果：CPU 使用情况，这次运行用了多少核心。绿色表示状态较好；这里则显示，CPU 的线程或核心还没有充分利用。",
+      "spoken": "这就是汇总结果：C P U 使用情况，这次运行用了多少核心。绿色表示状态较好；这里则显示，C P U 的线程或核心还没有充分利用。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "complete-utterance-candidate-authored-not-adopted",
+      "review": "保留讲者口述cores并明确图中实际是逻辑CPU标尺，不能把横轴当物理核心数。把绿色好限定此图，避免跨指标套用颜色。",
+      "complete_candidates": [
+        {
+          "key": "body-257-cpu-usage-local-color-scale",
+          "display": "这张汇总很直观：CPU 用了多少核心、利用得怎样，都看得到。按图中的逻辑 CPU 标尺，绿色一端更好；这次运行，线程和核心还没充分利用。",
+          "spoken": "这张汇总很直观：C P U 用了多少核心、利用得怎样，都看得到。按图中的逻辑 C P U 标尺，绿色一端更好；这次运行，线程和核心还没充分利用。",
+          "reason": "保留讲者口述cores并明确图中实际是逻辑CPU标尺，不能把横轴当物理核心数。把绿色好限定此图，避免跨指标套用颜色。",
+          "preserved_facts": [
+            "此次运行CPU使用情况及核心利用",
+            "实际横轴逻辑CPU数量",
+            "绿色较好仅限该图标尺",
+            "线程/核心未充分利用"
+          ]
+        }
+      ],
+      "deferred_text_only": null,
+      "current_production_text_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 258,
+      "start": "4441.659",
+      "end": "4477.899",
+      "source": "here you have all the functions that are spending most of time in your CPU the hotspots are the top ones when it's red means that you are not really taking advantage of your resources in general CPUs and memory and then you see the details and every time you click on the function you have the details and you can get even the frequency all the hardware things and obviously the software thing ok",
+      "display": "这里列出占用 CPU 时间最多的函数，排在最上面的就是热点。红色表示没有充分利用 CPU、内存等资源。点选函数，就能进一步查看细节，甚至能看到频率等硬件信息，当然也包括软件信息。",
+      "spoken": "这里列出占用 C P U 时间最多的函数，排在最上面的就是热点。红色表示没有充分利用 C P U、内存等资源。点选函数，就能进一步查看细节，甚至能看到频率等硬件信息，当然也包括软件信息。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "complete-utterance-candidate-authored-not-adopted",
+      "review": "以重点先行的讲解串起函数排名和钻取，保留原话的宽泛颜色解释但明确归属讲者/该界面；不自行推断任何红色都证明CPU/内存瓶颈。",
+      "complete_candidates": [
+        {
+          "key": "body-258-hotspot-drilldown-qualified-red",
+          "display": "CPU 时间最多的函数列在这里，最上面就是热点。按讲者对这个界面的说明，红色提示 CPU、内存等资源利用还有改进空间。点进函数，还能看细节、频率等硬件信息，以及软件信息。",
+          "spoken": "C P U 时间最多的函数列在这里，最上面就是热点。按讲者对这个界面的说明，红色提示 C P U、内存等资源利用还有改进空间。点进函数，还能看细节、频率等硬件信息，以及软件信息。",
+          "reason": "以重点先行的讲解串起函数排名和钻取，保留原话的宽泛颜色解释但明确归属讲者/该界面；不自行推断任何红色都证明CPU/内存瓶颈。",
+          "preserved_facts": [
+            "热点是CPU耗时最多的函数",
+            "原讲者对红色与资源利用的解释",
+            "点击函数看硬件频率和软件细节"
+          ]
+        }
+      ],
+      "deferred_text_only": null,
+      "current_production_text_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 259,
+      "start": "4477.899",
+      "end": "4501.05",
+      "source": "exactly if you if you want to go deep on the source code then yes you just click on the function and then the function will give you the the source code and then give you the region where you need to tune sometimes you need to maybe change the kind of library that you use for for C++ or Java or whatever",
+      "display": "对，想深入源代码，点选函数就可以。它会显示源码，并指出需要调优的区域。有时，需要更换 C++、Java 等应用所用的库。",
+      "spoken": "…",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": true,
+      "context_only": false,
+      "status": "actual-original-audio-reservation-no-TTS",
+      "review": "保留现有实际原声及角色/交接边界，不能因字幕可读而合成、猜问或宣布声音门禁关闭。",
+      "complete_candidates": [],
+      "deferred_text_only": null,
+      "current_production_text_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 260,
+      "start": "4501.05",
+      "end": "4523.2",
+      "source": "yes so you have you are going to get the two things the collector and the monitor what is it yes this you can find samples to from example application that you ran just to see how it functions and then of course there's a huge tutorial and videos about v2n",
+      "display": "对，你们会得到采集器和查看工具。还可以找到示例应用，运行看看它怎样工作。VTune 也有很多教程和视频。",
+      "spoken": "…",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": true,
+      "context_only": false,
+      "status": "actual-original-audio-reservation-no-TTS",
+      "review": "保留现有实际原声及角色/交接边界，不能因字幕可读而合成、猜问或宣布声音门禁关闭。",
+      "complete_candidates": [],
+      "deferred_text_only": null,
+      "current_production_text_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 261,
+      "start": "4523.2",
+      "end": "4535.66",
+      "source": "But we can do actually seminars or even courses about VTune for them. So I think something important to note, like there's VTune and there are many other applications that are part of Parallel Studio.",
+      "display": "也可以安排 VTune 的研讨，甚至课程。——有一点值得注意：Parallel Studio 里不只有 VTune，还有许多其他应用。",
+      "spoken": "…",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": true,
+      "context_only": false,
+      "status": "actual-original-audio-reservation-no-TTS",
+      "review": "保留现有实际原声及角色/交接边界，不能因字幕可读而合成、猜问或宣布声音门禁关闭。",
+      "complete_candidates": [],
+      "deferred_text_only": null,
+      "current_production_text_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 262,
+      "start": "4535.66",
+      "end": "4555.86",
+      "source": "But in advance of running VTune, they have this lightweight tool, Application Performance Snapshot, and you can run that first. And that will give you pointers on which tools to use. So if you're something system -related or memory -bound, or it could be communication, like it's MPI.",
+      "display": "运行 VTune 之前，可以先用一个轻量工具，Application Performance Snapshot，也就是应用性能快照。它会提示下一步该用哪个工具：问题偏向系统、受内存限制，还是涉及通信，例如 MPI。",
+      "spoken": "…",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": true,
+      "context_only": false,
+      "status": "actual-original-audio-reservation-no-TTS",
+      "review": "保留现有实际原声及角色/交接边界，不能因字幕可读而合成、猜问或宣布声音门禁关闭。",
+      "complete_candidates": [],
+      "deferred_text_only": null,
+      "current_production_text_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 263,
+      "start": "4555.86",
+      "end": "4577.36",
+      "source": "And so APS will make suggestions like on whether you should use VTune or trace analyzer and collector or advisor or one of the many applications that's in the suite. So that will just give you a very, very high level overview and most times you'll be pointed towards VTune. Yeah. So",
+      "display": "APS 会建议你使用 VTune、Trace Analyzer and Collector、Advisor，或套件中的其他工具。先得到一个高层次概览；多数情况下，它会引导你使用 VTune。对。",
+      "spoken": "…",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": true,
+      "context_only": false,
+      "status": "actual-original-audio-reservation-no-TTS",
+      "review": "保留现有实际原声及角色/交接边界，不能因字幕可读而合成、猜问或宣布声音门禁关闭。",
+      "complete_candidates": [],
+      "deferred_text_only": null,
+      "current_production_text_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 264,
+      "start": "4577.36",
+      "end": "4590.4",
+      "source": "so this is one of the real application that we're VTune was very helpful we started from as I told you the beginning the metrics are QPS and latency and latest is one of the biggest enemy for Verizon",
+      "display": "这是一个真实应用的案例，VTune 在其中很有帮助。开始时就说过，我们关心 QPS 和延迟；对 Verizon，延迟是最重要的对手之一。",
+      "spoken": "这是一个真实应用的案例，V Tune 在其中很有帮助。开始时就说过，我们关心 Q P S 和延迟；对 Verizon，延迟是最重要的对手之一。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "complete-utterance-candidate-authored-not-adopted",
+      "review": "用回扣开头的教学反问带出案例，属于同一讲者，不据问号生造提问者。保留QPS/延迟/Verizon及one of，不改成唯一或普遍最重要指标。",
+      "complete_candidates": [
+        {
+          "key": "body-264-qps-latency-case-opening",
+          "display": "下面是一个真实应用的案例，VTune 在这里帮了大忙。还记得开头说的指标吗？QPS 和延迟。对 Verizon 来说，延迟正是最棘手的对手之一。",
+          "spoken": "下面是一个真实应用的案例，V Tune 在这里帮了大忙。还记得开头说的指标吗？Q P S 和延迟。对 Verizon 来说，延迟正是最棘手的对手之一。",
+          "reason": "用回扣开头的教学反问带出案例，属于同一讲者，不据问号生造提问者。保留QPS/延迟/Verizon及one of，不改成唯一或普遍最重要指标。",
+          "preserved_facts": [
+            "真实案例VTune很有帮助",
+            "开头的QPS与延迟两指标",
+            "延迟是Verizon重要挑战之一"
+          ]
+        }
+      ],
+      "deferred_text_only": null,
+      "current_production_text_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 265,
+      "start": "4590.4",
+      "end": "4608.13",
+      "source": "we started at 270 QPS and then we got some developers and the manager of the product coming to performance engineering group and say ok we need to increase this because we are losing a lot of money money because of this number of requests per second",
+      "display": "起点是270 QPS。开发者和产品经理找到性能工程团队，说：“我们得提高它。每秒请求数太少，正在让我们损失很多钱。”",
+      "spoken": "起点是每秒270次请求。开发者和产品经理找到性能工程团队，说：“我们得提高它。每秒请求数太少，正在让我们损失很多钱。”",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "complete-utterance-candidate-authored-not-adopted",
+      "review": "把原话业务压力还原为引用语气而非平直念数字；保留请求/秒和损失原因，不补具体金额、延迟数值或新的说话角色。",
+      "complete_candidates": [
+        {
+          "key": "body-265-business-motivation-quoted-urgency",
+          "display": "起点只有每秒 270 次请求。开发者和产品经理找到性能工程团队，说：“得把它提上去！每秒请求数这么低，我们正在损失很多钱。”",
+          "spoken": "起点只有每秒二百七十次请求。开发者和产品经理找到性能工程团队，说：得把它提上去！每秒请求数这么低，我们正在损失很多钱。",
+          "reason": "把原话业务压力还原为引用语气而非平直念数字；保留请求/秒和损失原因，不补具体金额、延迟数值或新的说话角色。",
+          "preserved_facts": [
+            "起点270QPS即每秒270请求",
+            "开发者及产品经理找性能团队",
+            "需要提高QPS，因为损失很多钱"
+          ]
+        }
+      ],
+      "deferred_text_only": null,
+      "current_production_text_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 266,
+      "start": "4608.13",
+      "end": "4630.39",
+      "source": "then we used VTune to understand where is the bottleneck and then also help us written was help in also to attune the application through different code improvements we actually we moved from 270 to 2000 QPS it was huge successful actually v10 usage also the collaboration with the developers",
+      "display": "于是，用 VTune 找瓶颈，再通过代码改进来调优。最后，从270提高到2000 QPS。这是一次很成功的应用，也离不开开发者的合作。",
+      "spoken": "于是，用 V Tune 找瓶颈，再通过代码改进来调优。最后，从270提高到每秒2000次请求。这是一次很成功的应用，也离不开开发者的合作。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "complete-utterance-candidate-authored-not-adopted",
+      "review": "用起点到结果的重心和原huge successful恢复喜悦，明确代码改进及开发者合作；不把全部提升归因工具，不把历史案例外推通用倍数保证。",
+      "complete_candidates": [
+        {
+          "key": "body-266-measured-case-success-not-guarantee",
+          "display": "我们用 VTune 找到瓶颈，再改代码、调优。这个应用的每秒请求数，从 270 提高到了 2000，成果非常大！当然，也离不开开发者的配合。",
+          "spoken": "我们用 V Tune 找到瓶颈，再改代码、调优。这个应用的每秒请求数，从二百七十提高到了两千，成果非常大！当然，也离不开开发者的配合。",
+          "reason": "用起点到结果的重心和原huge successful恢复喜悦，明确代码改进及开发者合作；不把全部提升归因工具，不把历史案例外推通用倍数保证。",
+          "preserved_facts": [
+            "VTune找瓶颈和调优",
+            "通过代码改进",
+            "270到2000QPS",
+            "成果很大，开发者合作重要"
+          ]
+        }
+      ],
+      "deferred_text_only": null,
+      "current_production_text_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 267,
+      "start": "4630.39",
+      "end": "4662.0",
+      "source": "the they were very often to improve the code and use the different or alternatives in term of libraries for this specific application it was a was really helpful so this is this is one of the things that every performance engineer is dreaming about looking at very low IQ PS high latency going to the best QPS that you can hit and then it's going to be always a big improvement",
+      "display": "开发者非常愿意改进代码，也愿意尝试其他库。这对这个应用很有帮助。对于性能工程师来说，低 QPS、高延迟，变成更高 QPS、更好表现，就是梦寐以求的改善。",
+      "spoken": "开发者非常愿意改进代码，也愿意尝试其他库。这对这个应用很有帮助。对于性能工程师来说，低 Q P S、高延迟，变成更高 Q P S、更好表现，就是梦寐以求的改善。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "complete-utterance-candidate-authored-not-adopted",
+      "review": "惊叹来自dreaming about与really helpful，不新增掌声、成功原因或精确延迟收益；保留特定应用和可达到的最佳QPS而不是无限请求数。",
+      "complete_candidates": [
+        {
+          "key": "body-267-developer-collaboration-authentic-enthusiasm",
+          "display": "开发者愿意改代码，也愿意尝试其他库，确实帮了这个应用大忙。从低 QPS、高延迟，做到应用能达到的最佳 QPS——这正是性能工程师梦寐以求的改善！",
+          "spoken": "开发者愿意改代码，也愿意尝试其他库，确实帮了这个应用大忙。从低 Q P S、高延迟，做到应用能达到的最佳 Q P S——这正是性能工程师梦寐以求的改善！",
+          "reason": "惊叹来自dreaming about与really helpful，不新增掌声、成功原因或精确延迟收益；保留特定应用和可达到的最佳QPS而不是无限请求数。",
+          "preserved_facts": [
+            "开发者开放于改代码和替换库",
+            "对特定应用有帮助",
+            "低QPS/高延迟到可达到的最好QPS",
+            "性能工程师期望的大改善"
+          ]
+        }
+      ],
+      "deferred_text_only": null,
+      "current_production_text_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 268,
+      "start": "4662.0",
+      "end": "4675.93",
+      "source": "what is it learning what do you mean by yeah",
+      "display": "你说的是学习……具体指什么？【原声保留：听辨不清】",
+      "spoken": "…",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": true,
+      "context_only": false,
+      "status": "actual-original-audio-reservation-no-TTS",
+      "review": "保留现有实际原声及角色/交接边界，不能因字幕可读而合成、猜问或宣布声音门禁关闭。",
+      "complete_candidates": [],
+      "deferred_text_only": null,
+      "current_production_text_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 269,
+      "start": "4675.93",
+      "end": "4693.39",
+      "source": "so to be honest I started VTune in 2009 or 2010 right at that time was really like kind of a basic tool and then with time interval is start to improve it better and better better especially in reporting",
+      "display": "坦率说，我从2009或2010年就开始用 VTune 了。那时还比较基础；后来，Intel 不断改进，尤其是结果报告。",
+      "spoken": "坦率说，我从2009或2010年就开始用 V Tune 了。那时还比较基础；后来，英特尔 不断改进，尤其是结果报告。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "text-only-proposal-not-synthesized",
+      "review": "完整读上下文后仅提出文字修订；不称新语音、发音/情感通过或正式采用。",
+      "complete_candidates": [],
+      "deferred_text_only": "坦率说，我从2009年或2010年就开始用VTune了。那时还很基础；后来，英特尔不断改进，尤其是结果报告。",
+      "current_production_text_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 270,
+      "start": "4693.39",
+      "end": "4719.93",
+      "source": "because the actually the biggest issue how you can share the reports to with developers when you finish your collection and also how to teach developers how they can use v10 because they have this idea about open source perf for them it's like they're like really staying the same you know operating system and do the do the collection and do all the performance if they do it because usually they just do program and they don't really care about performance",
+      "display": "最大的问题是：数据采集完了，怎么把报告分享给开发者？又怎么教他们用 VTune？他们更熟悉开源的 perf，希望在同一个操作系统里完成采集和性能分析。当然，那也得他们愿意做分析才行。平时，他们往往只写程序，不太关心性能。",
+      "spoken": "最大的问题是：数据采集完了，怎么把报告分享给开发者？又怎么教他们用 V Tune？他们更熟悉开源的 perf，希望在同一个操作系统里完成采集和性能分析。当然，那也得他们愿意做分析才行。平时，他们往往只写程序，不太关心性能。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "text-only-proposal-not-synthesized",
+      "review": "完整读上下文后仅提出文字修订；不称新语音、发音/情感通过或正式采用。",
+      "complete_candidates": [],
+      "deferred_text_only": "采完数据，怎么把报告交给开发者？又怎么教他们用VTune？讲者观察到的开发者更熟悉开源perf，习惯留在同一个操作系统里采集和分析。当然，前提是他们愿意做分析；他说，平时他们往往只写程序，不太关心性能。",
+      "current_production_text_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 271,
+      "start": "4719.93",
+      "end": "4734.76",
+      "source": "but some people they do they do performance and use the different tools that I have now when when when you have VTune at the beginning as any application anything in your life you have issues installing it",
+      "display": "当然，也有人很关注性能，会用各种工具。刚开始使用 VTune，和使用任何应用一样，可能先会遇到安装问题。",
+      "spoken": "当然，也有人很关注性能，会用各种工具。刚开始使用 V Tune，和使用任何应用一样，可能先会遇到安装问题。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "text-only-proposal-not-synthesized",
+      "review": "完整读上下文后仅提出文字修订；不称新语音、发音/情感通过或正式采用。",
+      "complete_candidates": [],
+      "deferred_text_only": "当然，也有人很关注性能，会尝试不同工具。刚开始用VTune，和上手其他应用一样，可能先遇到安装上的问题。",
+      "current_production_text_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 272,
+      "start": "4734.76",
+      "end": "4754.8",
+      "source": "and then go into the next step which is using the right command lines instructions and understanding which one for example if you start with the Locks and Waits this is not going to help you need to explore your system and look at the hotspot and then see what's what's what's the next if it's Locks and Waits",
+      "display": "接着，要学会正确的命令和分析方式。比如，一上来就做 Locks and Waits，未必有帮助。应该先探索系统、看热点，再决定下一步需不需要锁与等待分析。",
+      "spoken": "接着，要学会正确的命令和分析方式。比如，一上来就做 锁与等待分析，未必有帮助。应该先探索系统、看热点，再决定下一步需不需要锁与等待分析。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "text-only-proposal-not-synthesized",
+      "review": "完整读上下文后仅提出文字修订；不称新语音、发音/情感通过或正式采用。",
+      "complete_candidates": [],
+      "deferred_text_only": "下一步，是选对命令和分析方式。比如，一上来就查锁与等待，未必有帮助。应该先探索系统、找热点，再判断下一步是不是需要锁与等待分析。",
+      "current_production_text_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 273,
+      "start": "4754.8",
+      "end": "4768.469",
+      "source": "because Locks and Waits is like between five to ten percent overhead sometimes when I ran VTune to collect data I found VTune as the first hot spot so you VTune you VTune right which is not really helpful",
+      "display": "因为锁与等待分析，讲者给出的开销有时在5%到10%。我也遇到过采集后，头号热点竟然是 VTune 自己——等于用 VTune 分析 VTune，这就不太有帮助了。",
+      "spoken": "因为锁与等待分析，讲者给出的开销有时在5%到10%。我也遇到过采集后，头号热点竟然是 V Tune 自己——等于用 V Tune 分析 V Tune，这就不太有帮助了。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "complete-utterance-candidate-authored-not-adopted",
+      "review": "保留5%–10%约数及讲者个人经历，以竟是/破折号承接原反讽；不把测量开销当应用真实热点或所有系统的保证。等义简洁而非截尾。",
+      "complete_candidates": [
+        {
+          "key": "body-273-profiling-overhead-ironic-hotspot",
+          "display": "锁与等待分析，开销约为 5% 到 10%。有次采集，头号热点竟是 VTune 自己——用 VTune 分析 VTune，没多大帮助。",
+          "spoken": "锁与等待分析，开销约百分之五到十。有次采集，头号热点竟是 V Tune 自己——用 V Tune 分析 V Tune，没多大帮助。",
+          "reason": "保留5%–10%约数及讲者个人经历，以竟是/破折号承接原反讽；不把测量开销当应用真实热点或所有系统的保证。等义简洁而非截尾。",
+          "preserved_facts": [
+            "锁与等待分析约5%到10%开销",
+            "讲者采集时VTune成第一热点",
+            "测量自己并无多大帮助"
+          ]
+        }
+      ],
+      "deferred_text_only": null,
+      "current_production_text_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 274,
+      "start": "4768.469",
+      "end": "4787.099",
+      "source": "so the way how you do it you need you need to know and this I guess is through the experience but we try to actually help people me with Intel because they see that I use this video and like every day means that every time I I just report to them some bags of new things that him they need to use",
+      "display": "所以，得知道怎样使用，这很大程度上要靠经验。我也和 Intel 一起帮助用户；他们知道我几乎每天都用这个工具，我也经常反馈问题和新需求。",
+      "spoken": "所以，得知道怎样使用，这很大程度上要靠经验。我也和 英特尔 一起帮助用户；他们知道我几乎每天都用这个工具，我也经常反馈问题和新需求。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "text-only-proposal-not-synthesized",
+      "review": "完整读上下文后仅提出文字修订；不称新语音、发音/情感通过或正式采用。",
+      "complete_candidates": [],
+      "deferred_text_only": "怎样用好它，确实需要经验。我和英特尔也在帮大家：他们知道我几乎每天都用VTune，所以我常向他们反馈bug和新的使用需求。",
+      "current_production_text_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 275,
+      "start": "4787.099",
+      "end": "4802.219",
+      "source": "they listen to my feedback always there's something in you now we are going to the next step with VTune where you have your vision in the cloud and then you can run it in different servers where they have bottlenecks or issues",
+      "display": "他们会听取反馈，工具也总在增加新东西。现在还在往下一步发展：把 VTune 放到云端，在存在瓶颈或问题的不同服务器上运行。",
+      "spoken": "他们会听取反馈，工具也总在增加新东西。现在还在往下一步发展：把 V Tune 放到云端，在存在瓶颈或问题的不同服务器上运行。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "text-only-proposal-not-synthesized",
+      "review": "完整读上下文后仅提出文字修订；不称新语音、发音/情感通过或正式采用。",
+      "complete_candidates": [],
+      "deferred_text_only": "他们愿意听反馈，工具也一直在改进。讲者当时还提到下一步：让VTune用于云端，在不同服务器上调查瓶颈或其他问题。",
+      "current_production_text_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    }
+  ],
+  "source_evidence": [
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/vtune-case-study-v1/current-context-246-275.json",
+      "bytes": 35909,
+      "mtime_ns": 1794704850269810686,
+      "sha256": "a9f9bb9bbba31a406a9c1db09b9eb126dec440bc0eb7f3deb2aaf94d987f0bf0"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/vtune-case-study-v1/agent-source-observations-v1.json",
+      "bytes": 7953,
+      "mtime_ns": 1794705238243384783,
+      "sha256": "39f6f63ec51be427cbf5303031d590df365820a8e401bac65d9bddbdcb571f3b"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/vtune-case-study-v1/external-primary-terminology-v1.json",
+      "bytes": 892,
+      "mtime_ns": 1794705238243384783,
+      "sha256": "c59718811760995c3052c613370724424955fa1827b3f56c82393bb512bfb523"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/vtune-case-study-v1/source-asr-v1/complete.json",
+      "bytes": 3132,
+      "mtime_ns": 1794705043120566677,
+      "sha256": "bb93098bcefb72ceefc9b46bc835ff2dfb701d0cfb28eb365bdad27dc244ca09"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/vtune-case-study-v1/source-asr-v1/source-code-first-demo-distil-large-v3.json",
+      "bytes": 17889,
+      "mtime_ns": 1794704898423731458,
+      "sha256": "2709526f03aad39ff2a090220902b60892192d946554e8fd61343b446103e436"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/vtune-case-study-v1/source-asr-v1/collector-and-hotspot-demo-distil-large-v3.json",
+      "bytes": 54286,
+      "mtime_ns": 1794704923762200646,
+      "sha256": "d253122f33eb386c66b9668aa14a6d1a4dcc9a46e61d68a9472f8b6b59ae6876"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/vtune-case-study-v1/source-asr-v1/real-application-QPS-distil-large-v3.json",
+      "bytes": 29490,
+      "mtime_ns": 1794704937390972634,
+      "sha256": "d42c5ead18af43cdc2910b036ed3c3c688e15655f2d9a2d52c29cfdbe3dfd9f1"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/vtune-case-study-v1/source-asr-v1/learning-and-overhead-distil-large-v3.json",
+      "bytes": 59951,
+      "mtime_ns": 1794704961404303050,
+      "sha256": "c04e9de2c36ac05934f42ca7aa4199a203fafea15b564e322f334a02115b6e96"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/vtune-case-study-v1/source-asr-v1/source-code-first-demo-medium.json",
+      "bytes": 17629,
+      "mtime_ns": 1794704972465903508,
+      "sha256": "fd8535225907c8a5183689295675e09e08774f338ff2256ffdf041223dbf89ea"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/vtune-case-study-v1/source-asr-v1/collector-and-hotspot-demo-medium.json",
+      "bytes": 55093,
+      "mtime_ns": 1794705002457493857,
+      "sha256": "e0e9d9f552b865dd69978ee34165583e038df61db876ab924518647a652fac9f"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/vtune-case-study-v1/source-asr-v1/real-application-QPS-medium.json",
+      "bytes": 29703,
+      "mtime_ns": 1794705017389265839,
+      "sha256": "6affec2cfd5d72d8d6f6f4a1322ff7ca1f17a947acc47f90b8ba758d5227f14a"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/vtune-case-study-v1/source-asr-v1/learning-and-overhead-medium.json",
+      "bytes": 60723,
+      "mtime_ns": 1794705043068564085,
+      "sha256": "f9c910a19081c081fae9b89a9cedf69da78f5fba076e605b31b2d05d95502a08"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/vtune-case-study-v1/source-images-v1/source-4235.jpg",
+      "bytes": 32410,
+      "mtime_ns": 1794704881833744761,
+      "sha256": "b5ad5c42881391d185d148d86d2aaffa7bcdd8d686de02ce5506d9bc4db10a1a"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/vtune-case-study-v1/source-images-v1/source-4334.jpg",
+      "bytes": 26065,
+      "mtime_ns": 1794704883069818974,
+      "sha256": "ed28c2bcf1d7624393e8129dc66942eb885b73a8aaef762f1fc3856b428a7724"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/vtune-case-study-v1/source-images-v1/source-4382.jpg",
+      "bytes": 28416,
+      "mtime_ns": 1794704884304893006,
+      "sha256": "770f70c92705acb520faa7fb6443f0f84c0b1c37b95fafaeb3daa299f1772b01"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/vtune-case-study-v1/source-images-v1/source-4401.jpg",
+      "bytes": 29060,
+      "mtime_ns": 1794704885496964358,
+      "sha256": "2bed6f1997f8f8e575443a43054242b4bc528733b506c6f0f1f7d51688da1ce9"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/vtune-case-study-v1/source-images-v1/source-4418.jpg",
+      "bytes": 32532,
+      "mtime_ns": 1794704887870106100,
+      "sha256": "472acfedffd328569226a265af57bee436b70eb84e55c5d02ab030c7b2d1b0d0"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/vtune-case-study-v1/source-images-v1/source-4434.jpg",
+      "bytes": 27346,
+      "mtime_ns": 1794704889249188275,
+      "sha256": "296ef475c5ed86c52115c44df5994ae2ad3ab4d016ada1f8a6480a0e88c7f1a4"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/vtune-case-study-v1/source-images-v1/source-4460.jpg",
+      "bytes": 30651,
+      "mtime_ns": 1794704890337253012,
+      "sha256": "74cc9a570eaed2d6cf3ccc09f713afb489a01badac840b66aaaea0d89b9a99e3"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/vtune-case-study-v1/source-images-v1/source-4623.jpg",
+      "bytes": 30870,
+      "mtime_ns": 1794704891724335417,
+      "sha256": "efb9e83003a9a8dd10c935f42972a14ed1f9195e06ec9e63ef654c30f07d2080"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/vtune-case-study-v1/source-images-v1/source-4434-cpu-usage-crop.jpg",
+      "bytes": 6364,
+      "mtime_ns": 1794705007262743697,
+      "sha256": "890a00ae686ef47067170a42d6d9a79e97e12a0592db37e3d9e6f99dae52473f"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/vtune-case-study-v1/source-images-v1/source-4472.jpg",
+      "bytes": 25527,
+      "mtime_ns": 1794705008945830892,
+      "sha256": "810b7fdbc0c7931ddd343dedbd68a801c19fe3fcbdf2bd5acd69af5c4b94943e"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/vtune-case-study-v1/source-images-v1/source-4434-cpu-usage-native-crop.jpg",
+      "bytes": 11537,
+      "mtime_ns": 1794705063544573665,
+      "sha256": "9858fb2d3c7af5ca9b646de82f1b93168cea9ad630262f593061f36c9a1b8d0a"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/source-asr-recovery-v3/license-second-speaker-distil-large-v3.json",
+      "bytes": 26273,
+      "mtime_ns": 1794617077476829267,
+      "sha256": "c3b19078d70a85214693506c2332686c079799b01b5c6b670b3d46dd894185de"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/source-asr-recovery-v3/license-second-speaker-medium.json",
+      "bytes": 26883,
+      "mtime_ns": 1794617717378593080,
+      "sha256": "25fd84f2276c295785ca484484fc386373d6e587e8941eb802e024575d7ae77f"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/source-asr-recovery-v3/uncaptioned-questions-distil-large-v3.json",
+      "bytes": 40365,
+      "mtime_ns": 1794616993714522875,
+      "sha256": "8c33b2c09a03e62d684077f17b63c35bb92cac850f49aa0ff7a0be8321766dc1"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/source-asr-recovery-v3/uncaptioned-questions-medium.json",
+      "bytes": 39826,
+      "mtime_ns": 1794617582279863768,
+      "sha256": "4bdcd7d1816c5bba93e5527cb716831c81eeba7513eb8c1d701ee46416103434"
+    }
+  ],
+  "actual_source_regions": 23,
+  "reserved_units": [
+    6,
+    20,
+    21,
+    26,
+    74,
+    83,
+    84,
+    87,
+    94,
+    96,
+    100,
+    101,
+    102,
+    103,
+    104,
+    106,
+    107,
+    108,
+    109,
+    110,
+    112,
+    166,
+    174,
+    183,
+    192,
+    193,
+    196,
+    239,
+    247,
+    249,
+    250,
+    259,
+    260,
+    261,
+    262,
+    263,
+    268,
+    294,
+    321
+  ],
+  "new_TTS_not_yet_claimed": true,
+  "pending_source_hold248": true,
+  "prior_critical216_217_and_pending227_unchanged": true,
+  "formal_adoption_or_human_approval": false
+}
