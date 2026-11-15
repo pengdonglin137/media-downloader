@@ -1,5 +1,12 @@
 # 译配工作流契约
 
+## 2026-11-15：软件剖析定义冲突与读音诊断边界
+
+- cjiUXZh0ZCo216–245审校不能以幻灯或ASR多数票掩盖实质否定：216肯定比较版本、幻灯否定、217双ASR后接doesn't mean profiling，故216/217禁止新试读及采用；227漏工具未决、239原声预留保持。
+- 11窗/12完整云溪+0%试读与八合成语音中文回录属于候选；223A/B不按识别率自动选胜者，221的perf→PROF仍需听辨。另八原声英文输出单列，不能用合成回录作原话证据；六项仅文字，不称全30项声音通过。
+- 四源修订提案须同选221/222/223/228并单选223，绑定原source_provenance_before和321窗；11内存夹具只测有限真实校验器，不等于stage。已有完整MP3/WAV、当前AAC精确样本、词界与来源图证据分层，正式文本/媒体/数据库不改。
+- 独立v1字段层级误判1、v2内存整数键与JSON字符串键比较1分别保留，修只读验证器不重写成功证据。断点`checkpoint-software-profiling-preview-v1`，详见`docs/science-performance-profiling-2026-11-15.md`；目标active、人耳/发音/情感与LinuxF08不关闭，只提交本轮前缀与新记录。
+
 ## 2026-11-15：完整试读证据补充与GPU/软件正式采用
 
 `media_workflow.preview_evidence_import`只在新计划末尾追加1–12个新证据、配置及实现身份，保留旧计划全部字段/候选/引用顺序；完整WAV以copy2保留字节/mtime。兼容清单的adapter仍表示原合成来源，新增evidence_import单列真正导入者与时间，不伪造新合成、选择或人耳批准。实际import/check及24有限检查通过；旧live依赖正式采用后失效是正确行为，历史由暂存/归档/安装合同回溯，不重绑旧证据。细节见`docs/preview-evidence-import.md`。

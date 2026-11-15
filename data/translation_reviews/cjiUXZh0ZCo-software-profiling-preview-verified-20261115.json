@@ -1,0 +1,313 @@
+{
+  "kind": "software-profiling-complete-speech-trials-verified-not-adopted-v1",
+  "recorded_at": "2026-11-15T01:02:38+00:00",
+  "video_id": "cjiUXZh0ZCo",
+  "range": [
+    216,
+    245
+  ],
+  "goal_turn_classification": "progress",
+  "goal_status": "active",
+  "reviewed_source_units": 30,
+  "review": {
+    "path": "/home/pengdl/media-downloader/data/translation_reviews/cjiUXZh0ZCo-software-profiling-20261115.json",
+    "bytes": 55498,
+    "mtime_ns": 1794703676410918746,
+    "sha256": "5eddaa49ddec0bc9759a16e37d81667f4d9b4653b1e2aafe0342ca7e2ef88284"
+  },
+  "independent_verification": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/independent-preview-v3.json",
+    "bytes": 37804,
+    "mtime_ns": 1794704443149710379,
+    "sha256": "a30ef0040a508c6f8ef16434e5f8d45ebbe2599aa266974d7af46b6961fa7f91"
+  },
+  "complete_candidates": 12,
+  "unique_original_windows": 11,
+  "normal_rate_fits": 12,
+  "voice": "zh-CN-YunxiNeural",
+  "rate": "+0%",
+  "real_WordBoundary_observations": 396,
+  "whole_MP3_decode_checked": true,
+  "before_PCM_matches_current_reference_with40_2second_offset": true,
+  "cases": [
+    {
+      "key": "body-219-simple-first-command-names",
+      "unit_id": 219,
+      "seconds": 13.08,
+      "original_window_seconds": 23.44,
+      "word_boundaries": 34,
+      "whole_audio_check_receipt": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/preview-check-v2.log",
+        "bytes": 895,
+        "mtime_ns": 1794703729279294304,
+        "sha256": "38c3f185e116fbe16bc302b9442fe98284e62a1e6e502fff79629e8e31997378"
+      }
+    },
+    {
+      "key": "body-220-intermediate-subsystem-transition",
+      "unit_id": 220,
+      "seconds": 11.064,
+      "original_window_seconds": 12.66,
+      "word_boundaries": 28,
+      "whole_audio_check_receipt": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/preview-check-v2.log",
+        "bytes": 895,
+        "mtime_ns": 1794703729279294304,
+        "sha256": "38c3f185e116fbe16bc302b9442fe98284e62a1e6e502fff79629e8e31997378"
+      }
+    },
+    {
+      "key": "body-221-advanced-tool-name-repair",
+      "unit_id": 221,
+      "seconds": 12.48,
+      "original_window_seconds": 18.35,
+      "word_boundaries": 31,
+      "whole_audio_check_receipt": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/preview-check-v2.log",
+        "bytes": 895,
+        "mtime_ns": 1794703729279294304,
+        "sha256": "38c3f185e116fbe16bc302b9442fe98284e62a1e6e502fff79629e8e31997378"
+      }
+    },
+    {
+      "key": "body-222-production-caution-not-universal-ban",
+      "unit_id": 222,
+      "seconds": 10.896,
+      "original_window_seconds": 12.46,
+      "word_boundaries": 28,
+      "whole_audio_check_receipt": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/preview-check-v2.log",
+        "bytes": 895,
+        "mtime_ns": 1794703729279294304,
+        "sha256": "38c3f185e116fbe16bc302b9442fe98284e62a1e6e502fff79629e8e31997378"
+      }
+    },
+    {
+      "key": "body-223-tools-a-canonical-names",
+      "unit_id": 223,
+      "seconds": 13.08,
+      "original_window_seconds": 18.81,
+      "word_boundaries": 31,
+      "whole_audio_check_receipt": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/preview-check-v2.log",
+        "bytes": 895,
+        "mtime_ns": 1794703729279294304,
+        "sha256": "38c3f185e116fbe16bc302b9442fe98284e62a1e6e502fff79629e8e31997378"
+      }
+    },
+    {
+      "key": "body-223-tools-b-explicit-initials",
+      "unit_id": 223,
+      "seconds": 14.424,
+      "original_window_seconds": 18.81,
+      "word_boundaries": 39,
+      "whole_audio_check_receipt": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/preview-check-v2.log",
+        "bytes": 895,
+        "mtime_ns": 1794703729279294304,
+        "sha256": "38c3f185e116fbe16bc302b9442fe98284e62a1e6e502fff79629e8e31997378"
+      }
+    },
+    {
+      "key": "body-228-verizon-local-historical47percent",
+      "unit_id": 228,
+      "seconds": 15.768,
+      "original_window_seconds": 18.0,
+      "word_boundaries": 37,
+      "whole_audio_check_receipt": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/preview-check-v2.log",
+        "bytes": 895,
+        "mtime_ns": 1794703729279294304,
+        "sha256": "38c3f185e116fbe16bc302b9442fe98284e62a1e6e502fff79629e8e31997378"
+      }
+    },
+    {
+      "key": "body-230-java-jvm-memory-management",
+      "unit_id": 230,
+      "seconds": 14.616,
+      "original_window_seconds": 28.779,
+      "word_boundaries": 40,
+      "whole_audio_check_receipt": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/preview-check-v2.log",
+        "bytes": 895,
+        "mtime_ns": 1794703729279294304,
+        "sha256": "38c3f185e116fbe16bc302b9442fe98284e62a1e6e502fff79629e8e31997378"
+      }
+    },
+    {
+      "key": "body-235-collect-analyze-then-tune",
+      "unit_id": 235,
+      "seconds": 13.32,
+      "original_window_seconds": 17.29,
+      "word_boundaries": 31,
+      "whole_audio_check_receipt": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/preview-check-v2.log",
+        "bytes": 895,
+        "mtime_ns": 1794703729279294304,
+        "sha256": "38c3f185e116fbe16bc302b9442fe98284e62a1e6e502fff79629e8e31997378"
+      }
+    },
+    {
+      "key": "body-236-authentic-source-enthusiasm",
+      "unit_id": 236,
+      "seconds": 10.968,
+      "original_window_seconds": 14.84,
+      "word_boundaries": 32,
+      "whole_audio_check_receipt": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/preview-check-v2.log",
+        "bytes": 895,
+        "mtime_ns": 1794703729279294304,
+        "sha256": "38c3f185e116fbe16bc302b9442fe98284e62a1e6e502fff79629e8e31997378"
+      }
+    },
+    {
+      "key": "body-241-second-type-first-step-contrast",
+      "unit_id": 241,
+      "seconds": 10.728,
+      "original_window_seconds": 17.97,
+      "word_boundaries": 30,
+      "whole_audio_check_receipt": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/preview-check-v2.log",
+        "bytes": 895,
+        "mtime_ns": 1794703729279294304,
+        "sha256": "38c3f185e116fbe16bc302b9442fe98284e62a1e6e502fff79629e8e31997378"
+      }
+    },
+    {
+      "key": "body-243-stw-application-thread-scope",
+      "unit_id": 243,
+      "seconds": 12.768,
+      "original_window_seconds": 16.53,
+      "word_boundaries": 35,
+      "whole_audio_check_receipt": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/preview-check-v2.log",
+        "bytes": 895,
+        "mtime_ns": 1794703729279294304,
+        "sha256": "38c3f185e116fbe16bc302b9442fe98284e62a1e6e502fff79629e8e31997378"
+      }
+    }
+  ],
+  "fixture_checks": {
+    "passed": 11,
+    "positive": 3,
+    "negative": 8,
+    "in_memory_only": true,
+    "actual_source_stage": false
+  },
+  "critical_source_holds": {
+    "units": [
+      216,
+      217
+    ],
+    "material_negation_conflict": true,
+    "slide": "Profiling does not compare multiple versions",
+    "current216": "Source and Chinese assert comparing multiple versions",
+    "new_unprompted_ASR": "Both affirm216 then identify217 This is what does not mean profiling",
+    "current217_missing_negative_word": true,
+    "negative_word_placement_resolved": false,
+    "TTS_or_adoption_candidate": false,
+    "source_not_guessed_from_slide": true
+  },
+  "pending_tool_name_unit227_not_synthesized": true,
+  "actual_original_audio_unit239_not_synthesized": true,
+  "text_only_not_synthesized_units": [
+    225,
+    232,
+    233,
+    237,
+    240,
+    245
+  ],
+  "explicit_source_amendments_proposed_only": [
+    221,
+    222,
+    223,
+    228
+  ],
+  "proposal_binds_source_provenance_before": true,
+  "source_windows": 321,
+  "actual_source_regions": 23,
+  "reserved_units": 39,
+  "automatic223_winner": null,
+  "new_TTS": 12,
+  "new_original_English_ASR_outputs": 8,
+  "new_synthetic_Chinese_diagnostic_ASR_outputs": 8,
+  "pronunciation_diagnostics": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/pronunciation-interpretation-v1.json",
+    "bytes": 6040,
+    "mtime_ns": 1794704309480725421,
+    "sha256": "dca168a0aacbb1900c1cf0f87fee5f4abbb46204a4f009946986269646318deb"
+  },
+  "perf_still_recognized_as_PROF_in_two_models": true,
+  "223_explicit_initials_observed_more_completely_not_a_heard_winner": true,
+  "Chinese_or_audio_changed_to_match_ASR_errors": false,
+  "source_images_individually_opened": 9,
+  "new_source_images_including_crop": 8,
+  "reused_source_images": 1,
+  "image_limits": {
+    "maximum_long_side": 1280,
+    "maximum_actual_bytes": 32768,
+    "full_film_approval": false
+  },
+  "internal_page": {
+    "media_elements": 26,
+    "unique_paths": 25,
+    "seek_buttons": 13,
+    "static_verification_only": true,
+    "browser_playback_or_listening": false
+  },
+  "preserved": {
+    "records": 4193,
+    "canonical_targets_before_separately_bound": 31,
+    "frozen_root_python": 98,
+    "production_mp3": 293,
+    "unrelated_untracked": 13
+  },
+  "master": {
+    "path": "/home/pengdl/Videos/translated_backlog/Science of Performance 2019_中文配音.mp4",
+    "bytes": 566062749,
+    "mtime_ns": 1794701034289519215,
+    "sha256": "112a1daad7e84a4fac71779bca823bcdca344e7c6776735ea6f07336635c7b06"
+  },
+  "upload": {
+    "path": "/home/pengdl/Videos/translated_backlog/Science of Performance 2019_中文上传版.mp4",
+    "bytes": 452371594,
+    "mtime_ns": 1794701681663916205,
+    "sha256": "55d1eba0c849e032b10101c3d1090da3ed06b60f4f1583da1c7fa7b0b5e0fa43"
+  },
+  "database": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/gpu-software-adoption-v1/install-v1/speech-review.sqlite3",
+    "bytes": 23793664,
+    "mtime_ns": 1794702566294819651,
+    "sha256": "487113f3df5fa1d2f2a4048aa01cb3ab3e278f20f6414a61b6075fabbf573b57"
+  },
+  "database_counts": {
+    "scans": 104,
+    "issues": 7691,
+    "occurrences": 13619,
+    "decisions": 0,
+    "repair_resolutions": 0
+  },
+  "current_candidates": 186,
+  "source_only_non_dismiss_classifications": 12,
+  "formal_source_translation_audio_media_or_database_changed": false,
+  "new_full_film_decode_or_encoding": false,
+  "actual_source_stage_projection_or_installation": false,
+  "failure_history": {
+    "authoring_v1": 1,
+    "independent_v1": 1,
+    "independent_v2": 1,
+    "independent_v3": 0,
+    "ad_hoc_read_only_len_int_inspection": 1,
+    "ad_hoc_failure_has_no_file_receipt_and_is_not_reconstructed_as_one": true
+  },
+  "checkpoint": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/checkpoint-software-profiling-preview-v1/execution-progress.json",
+  "human_listened": false,
+  "professional_phoneme_naturalness_or_emotion_approved": false,
+  "full_film_visual_wordlevel_or_PotPlayer_approved": false,
+  "Linux27holds23markersCriticalF08_unchanged": true,
+  "other_queues_or_totals_modified": false,
+  "unrelated_added_lines_preserved": 130,
+  "unrelated_untracked_files_preserved": 13,
+  "background_automatic_resume_claimed": false
+}

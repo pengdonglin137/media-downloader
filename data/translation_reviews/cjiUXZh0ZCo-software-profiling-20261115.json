@@ -1,0 +1,875 @@
+{
+  "kind": "software-profiling-30-complete-unit-editorial-review-v1",
+  "video_id": "cjiUXZh0ZCo",
+  "recorded_at": "2026-11-15T00:47:56+00:00",
+  "range": [
+    216,
+    245
+  ],
+  "current_context": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/current-context-216-245.json",
+    "bytes": 35613,
+    "mtime_ns": 1794702922119868532,
+    "sha256": "068877a17b64bb212358fdd42a74c980ff75c31f6bb36a336ecc4b5dc5d3a464"
+  },
+  "reviewed_units": [
+    {
+      "unit_id": 216,
+      "start": "3707.01",
+      "end": "3724.23",
+      "source": "profiling it's about multiple version of the same program or different function within the same program and then see what what are the areas that you can actually improve and also what are the bottlenecks on your application",
+      "display": "剖析，则会看同一个程序的多个版本，或同一程序里的不同函数，找到可以改善的部分，定位瓶颈。",
+      "spoken": "剖析，则会看同一个程序的多个版本，或同一程序里的不同函数，找到可以改善的部分，定位瓶颈。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "critical-source-slide-speech-conflict-no-TTS",
+      "review": "原图明确不比较多个版本；现216肯定比较，双ASR也给肯定，217两模型接does not mean profiling。不能把原图的not硬塞进216，也不能把当前译文当已通过，先阻断该对采用。",
+      "complete_candidates": [],
+      "deferred_text_only": null,
+      "current_production_text_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 217,
+      "start": "3724.23",
+      "end": "3745.41",
+      "source": "this is this is what doesn't mean profiling so it's more about observer observing or observation and then if you are good in analytics then you are good in profiling so it's finding and eliminating the waste and wait time and the area to tune and instead understand the system limits for instance the memory",
+      "display": "剖析，更偏向观察。如果你擅长分析，往往也更容易做好剖析：找出并消除浪费和等待时间，发现可以调优的区域，理解系统限制，例如内存限制。",
+      "spoken": "剖析，更偏向观察。如果你擅长分析，往往也更容易做好剖析：找出并消除浪费和等待时间，发现可以调优的区域，理解系统限制，例如内存限制。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "critical-negation-omission-no-TTS",
+      "review": "现中文遗漏原EN及两ASR的does not mean profiling。否定如何承接216仍须原声核对；understand/extend也在旧两ASR分歧，不宣称已闭合。",
+      "complete_candidates": [],
+      "deferred_text_only": null,
+      "current_production_text_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 218,
+      "start": "3745.41",
+      "end": "3757.46",
+      "source": "and solve the performance issues locate the bottlenecks and the built like a modular architecture system application wherever using the profiling",
+      "display": "目的，是解决性能问题，定位瓶颈，并据此构建模块化的系统架构或应用。",
+      "spoken": "目的，是解决性能问题，定位瓶颈，并据此构建模块化的系统架构或应用。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "retain-editorial-no-new-audio",
+      "review": "性能问题、瓶颈和模块化架构的目标保留，没有为了更顺口增加已解决的承诺。",
+      "complete_candidates": [],
+      "deferred_text_only": null,
+      "current_production_text_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 219,
+      "start": "3757.46",
+      "end": "3780.9",
+      "source": "if you want to do profiling you need to start with something simple and then go to the advanced or the more complicated application or tool or anything if you are working in Linux you have a lot of packages that you can use like top up time for basic analysis where you do observation and find in the bottleneck",
+      "display": "做剖析，要从简单的开始，再进入更高级、更复杂的工具。Linux 上有很多工具包，比如 top、uptime，可用于基础分析：先观察，再寻找瓶颈。",
+      "spoken": "做剖析，要从简单的开始，再进入更高级、更复杂的工具。Linux 上有很多工具包，比如 top、uptime，可用于基础分析：先观察，再寻找瓶颈。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "complete-preview",
+      "review": "简单到复杂及top/uptime完整命令朗读。",
+      "complete_candidates": [
+        {
+          "label": "simple-first-command-names",
+          "display": "做剖析，先从简单的开始，再逐步深入到更复杂的应用和工具。比如在 Linux 上，先用 top、uptime 做基础分析：观察系统，再找瓶颈。",
+          "spoken": "做剖析，先从简单的开始，再逐步深入到更复杂的应用和工具。比如在 Linux 上，先用 top、up time 做基础分析：观察系统，再找瓶颈。",
+          "reason": "用先观察再深入的教学递进替代机械停顿；保留复杂应用/工具及top、uptime，不把入门命令当完整瓶颈诊断。up time只是朗读分词，不是重命名命令。",
+          "preserved_facts": [
+            "先简单、后高级复杂应用和工具",
+            "Linux基础分析示例top及uptime",
+            "观察并寻找瓶颈，不增加诊断保证"
+          ]
+        }
+      ],
+      "deferred_text_only": null,
+      "current_production_text_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 220,
+      "start": "3780.9",
+      "end": "3793.56",
+      "source": "and then you jump to something which is intermediate analysis you can use SAR to specify the subsystem and also find in the issue if you didn't find it on the first step on the basic analysis",
+      "display": "接着进入中级分析。可以用 sar，确定问题在哪个子系统。如果基础分析还没找到问题，就在这一步继续定位。",
+      "spoken": "接着进入中级分析。可以用 sar，确定问题在哪个子系统。如果基础分析还没找到问题，就在这一步继续定位。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "complete-preview",
+      "review": "保留条件的教学反问与sar子系统定位。",
+      "complete_candidates": [
+        {
+          "label": "intermediate-subsystem-transition",
+          "display": "基础分析还没找到问题？那就再深入一层，做中级分析。可以用 sar，把范围缩小到具体子系统，再继续定位问题。",
+          "spoken": "基础分析还没找到问题？那就再深入一层，做中级分析。可以用 sar，把范围缩小到具体子系统，再继续定位问题。",
+          "reason": "把原if条件改成自然承接问句；这仍是讲者的教学反问，不新建观众角色或合并邻句。保留sar和子系统定位，不许诺自动找到根因。",
+          "preserved_facts": [
+            "基础步骤未找到问题的条件",
+            "中级分析",
+            "sar及子系统/问题定位"
+          ]
+        }
+      ],
+      "deferred_text_only": null,
+      "current_production_text_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 221,
+      "start": "3793.56",
+      "end": "3811.91",
+      "source": "now for advanced its selection you already have the solution you just need to tune the application using some advanced tools like G froth curve and also v2 and Intel VTune is the one that actually I use a lot in this step",
+      "display": "高级阶段，通常已经有了方向，需要用更深入的工具调优应用。例如 gprof、perf，还有 VTune。我在这一步，经常使用 Intel VTune。",
+      "spoken": "高级阶段，通常已经有了方向，需要用更深入的工具调优应用。例如 gprof、perf，还有 V Tune。我在这一步，经常使用 英特尔 V Tune。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "source-amendment-and-complete-preview",
+      "review": "原图支持gprof/perf，medium有perf、distil省略，不能称所有名字双ASR一致；恢复选择方案而非已保证有解。",
+      "complete_candidates": [
+        {
+          "label": "advanced-tool-name-repair",
+          "display": "到了高级阶段，就要选择解决方案，再调优应用。可以用 gprof、perf，还有英特尔 VTune；我在这一步，经常用的就是 VTune。",
+          "spoken": "到了高级阶段，就要选择解决方案，再调优应用。可以用 G prof、perf，还有英特尔 V Tune；我在这一步，经常用的就是 V Tune。",
+          "reason": "原图写selecting the solution而非保证已经解决；保留gprof/perf/VTune和讲者个人习惯，用选择再调优的顺序及末尾强调保持教学语气。源错词须显式修订。",
+          "preserved_facts": [
+            "高级阶段选择方案并调优",
+            "gprof、perf、Intel VTune三工具",
+            "经常使用VTune是讲者个人陈述"
+          ]
+        }
+      ],
+      "deferred_text_only": null,
+      "current_production_text_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 222,
+      "start": "3811.91",
+      "end": "3824.37",
+      "source": "so of course more details more impact when you use advanced analysis then you are going to bother the system especially if you are doing profile on the introduction which is not recommended",
+      "display": "当然，细节越多，对系统的影响也越大。高级分析会干扰系统，尤其是在生产环境里做剖析，所以这里并不推荐直接在生产中这样做。",
+      "spoken": "当然，细节越多，对系统的影响也越大。高级分析会干扰系统，尤其是在生产环境里做剖析，所以这里并不推荐直接在生产中这样做。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "source-amendment-and-complete-preview",
+      "review": "旧两ASR支持production；讲者警告不改成普适永久禁止。",
+      "complete_candidates": [
+        {
+          "label": "production-caution-not-universal-ban",
+          "display": "不过，细节越多，对系统的影响也越大。高级分析会干扰系统；尤其是在生产环境中做剖析，讲者这里并不推荐。",
+          "spoken": "不过，细节越多，对系统的影响也越大。高级分析会干扰系统；尤其是在生产环境中做剖析，讲者这里并不推荐。",
+          "reason": "保留more details/more impact和尤其生产环境的警示，把not recommended归属这场报告，不改成永远不能生产剖析。旧双ASR明确production，不是introduction。",
+          "preserved_facts": [
+            "更多细节与系统影响的权衡",
+            "高级分析干扰系统",
+            "讲者不推荐在生产环境中这样做"
+          ]
+        }
+      ],
+      "deferred_text_only": null,
+      "current_production_text_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 223,
+      "start": "3824.37",
+      "end": "3843.18",
+      "source": "this is a beautiful performance script that you can start if you would like to start with the performance engineering and profiling especially you can hit the CPU by MP stat and then memory with VM start the trays with the for the file system and the disk i/o with i/o start and the nuts with the network",
+      "display": "这里是一张很好的性能工具示意。刚开始做性能工程和剖析，可以按部件入手：用 mpstat 看 CPU，用 vmstat 看内存，再结合文件系统、磁盘 I/O 和网络的工具。",
+      "spoken": "这里是一张很好的性能工具示意。刚开始做性能工程和剖析，可以按部件入手：用 mpstat 看 C P U，用 vmstat 看内存，再结合文件系统、磁盘 输入输出 和网络的工具。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "source-amendment-two-complete-tool-readings",
+      "review": "五工具/五对象完整恢复；medium末尾Thank you不在相邻来源中，不采用此截段尾幻觉。A/B均未人耳选胜者。",
+      "complete_candidates": [
+        {
+          "label": "tools-a-canonical-names",
+          "display": "入门性能工程和剖析，可以按这张图看：mpstat 看 CPU，vmstat 看内存，DTrace 看文件系统，iostat 看磁盘 I/O，netstat 看网络。",
+          "spoken": "入门性能工程和剖析，可以按这张图看：mpstat 看 C P U，vmstat 看内存，DTrace 看文件系统，iostat 看磁盘输入输出，netstat 看网络。",
+          "reason": "完整恢复原图五工具/五观察对象，A保留完整英文命令作为朗读；与B只比较完整句的工具名表达，不造音素支持，不宣称已听清或更自然。",
+          "preserved_facts": [
+            "性能工程/剖析入门图",
+            "mpstat/CPU，vmstat/内存",
+            "DTrace/文件系统，iostat/磁盘I/O，netstat/网络",
+            "历史示意而非可直接执行的脚本"
+          ]
+        },
+        {
+          "label": "tools-b-explicit-initials",
+          "display": "入门性能工程和剖析，可以按这张图看：mpstat 看 CPU，vmstat 看内存，DTrace 看文件系统，iostat 看磁盘 I/O，netstat 看网络。",
+          "spoken": "入门性能工程和剖析，可以按这张图看：M P stat 看 C P U，V M stat 看内存，D trace 看文件系统，I O stat 看磁盘输入输出，net stat 看网络。",
+          "reason": "B显式分开MP/VM/IO和stat，D与trace、net与stat仅作配音输入；显示仍用规范工具拼写，语义与A相同。是否改善专业词可懂度仍需整句听辨，不按时长选胜者。",
+          "preserved_facts": [
+            "与A相同五工具及五对象",
+            "未加入命令参数或执行动作",
+            "显示规范拼写不变，非SSML/音素覆盖"
+          ]
+        }
+      ],
+      "deferred_text_only": null,
+      "current_production_text_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 224,
+      "start": "3843.18",
+      "end": "3857.49",
+      "source": "this will give you actually a good overview about what's your system and what you are running on your system let's get back a little bit in the kernel architecture because everything is related we",
+      "display": "这样，就能先对系统、对它正在运行什么，有一个整体认识。接着，再稍微回到内核架构，因为这些东西都互相关联。",
+      "spoken": "这样，就能先对系统、对它正在运行什么，有一个整体认识。接着，再稍微回到内核架构，因为这些东西都互相关联。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "retain-editorial-no-new-audio",
+      "review": "总览转内核架构的自然承接尚可；不只为增加停顿重复合成。",
+      "complete_candidates": [],
+      "deferred_text_only": null,
+      "current_production_text_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 225,
+      "start": "3857.49",
+      "end": "3879.0",
+      "source": "if you want to do profiling you need to have at least a beautiful picture of your kernel of user space and the kernel space and where you are going to use different tools for your for you for different steps or different layers on your system and this is beautiful actually in each system where where you can use and",
+      "display": "要做剖析，至少得在脑中有一张清楚的图：用户空间、内核空间各是什么；在系统的不同层次，该使用哪些工具。",
+      "spoken": "要做剖析，至少得在脑中有一张清楚的图：用户空间、内核空间各是什么；在系统的不同层次，该使用哪些工具。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "text-proposal-awaiting-later-audio",
+      "review": "脑中建立用户/内核分层图的教学语气可自然化，留后续正常流程，不在本次额外合成。",
+      "complete_candidates": [],
+      "deferred_text_only": "想做剖析，先在脑中建立一张清楚的图：哪些在用户空间，哪些在内核空间；系统每一层，又该用哪些工具。",
+      "current_production_text_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 226,
+      "start": "3879.0",
+      "end": "3897.68",
+      "source": "what you you you can use on the user space where you have application of course you can create your debugger to understand what happened what what are the errors that you have on your system if you go to the operating system perf it's it's it's good to profile your operating system",
+      "display": "用户空间里有应用，当然可以使用调试器，了解发生了什么、系统里有哪些错误。到了操作系统层面，perf 是很好的剖析工具。",
+      "spoken": "用户空间里有应用，当然可以使用调试器，了解发生了什么、系统里有哪些错误。到了操作系统层面，perf 是很好的剖析工具。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "retain-editorial-no-new-audio",
+      "review": "用户空间调试器与操作系统perf层次保留，不称perf只能查看内核。",
+      "complete_candidates": [],
+      "deferred_text_only": null,
+      "current_production_text_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 227,
+      "start": "3897.68",
+      "end": "3921.47",
+      "source": "system call interface for the net the TCP scheduler the vitriol a virtual memory you can Li use vmstat the start I or start you have the you have device drivers and then different component of your server in the kernel mode where you can use all this set of tools to profile your system",
+      "display": "再往下，有系统调用接口、网络与 TCP、调度器、虚拟内存，可以使用 vmstat 等工具。还有设备驱动，以及内核模式下的服务器各个部件，都有相应工具可用。",
+      "spoken": "再往下，有系统调用接口、网络与 TCP、调度器、虚拟内存，可以使用 vmstat 等工具。还有设备驱动，以及内核模式下的服务器各个部件，都有相应工具可用。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "pending-tool-name-source-resolution-no-TTS",
+      "review": "原字幕the start I or start疑似dstat/iostat，侧边被遮图不能独立定音；现译等工具有省略候选，留下一次新来源核对，不凭词库补齐。",
+      "complete_candidates": [],
+      "deferred_text_only": null,
+      "current_production_text_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 228,
+      "start": "3921.47",
+      "end": "3939.47",
+      "source": "let's get back to the Java and the garbage collection a profiler our advertising we as bench of tools to profile or to profile the Java application and also to profile the garbage collector or garbage collection in general and the VTune is the more popular with with the 47%",
+      "display": "回到 Java 和垃圾回收。Verizon 使用多种工具，剖析 Java 应用，以及垃圾收集器、垃圾回收过程。图中，VTune 是使用较多的工具，占47%。",
+      "spoken": "回到 Java 和垃圾回收。Verizon 使用多种工具，剖析 Java 应用，以及垃圾收集器、垃圾回收过程。图中，V Tune 是使用较多的工具，占47%。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "source-amendment-and-complete-preview",
+      "review": "原图Verizon/47%和新两ASR范围明确，不升级全球份额或当前状态。",
+      "complete_candidates": [
+        {
+          "label": "Verizon-local-historical47percent",
+          "display": "回到 Java 和垃圾回收。这张图展示的是讲者当时在 Verizon 使用的剖析工具：分析 Java 应用，也分析垃圾收集器和回收过程。其中，VTune 用得最多，占47%。",
+          "spoken": "回到 Java 和垃圾回收。这张图展示的是讲者当时在 Verizon 使用的剖析工具：分析 Java 应用，也分析垃圾收集器和回收过程。其中，V Tune 用得最多，占百分之四十七。",
+          "reason": "以实际标题和双ASR恢复at Verizon，47限定历史内部图；不改成全球市占或推算样本量。用主题切换和最后数字落点作韵律意图，不增加推广评价。",
+          "preserved_facts": [
+            "Java应用及垃圾收集器/回收过程",
+            "Verizon历史使用图",
+            "VTune47%，不外推全球份额"
+          ]
+        }
+      ],
+      "deferred_text_only": null,
+      "current_production_text_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 229,
+      "start": "3939.47",
+      "end": "3960.21",
+      "source": "some people they use the same time different order ever or either oracle tools for garbage collection and Java for Intel VTune for for Java so actually i was i mean i'm happy that i VTune was not supporting Java for a long time like you only see c++",
+      "display": "有些人也会同时使用其他工具，例如 Oracle 的 Java 和垃圾回收工具。VTune 曾经很长时间不支持 Java，主要只能看 C、C++。",
+      "spoken": "有些人也会同时使用其他工具，例如 Oracle 的 Java 和垃圾回收工具。V Tune 曾经很长时间不支持 Java，主要只能看 C、C 加加。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "retain-awkward-emotion-source-limit",
+      "review": "两个新ASR都给happy后接长期不支持Java的转折。不可将其强写成对不支持的喜悦或臆造发布年，保留历史不支持及工具并用事实；完整情绪归属仍待核。",
+      "complete_candidates": [],
+      "deferred_text_only": null,
+      "current_production_text_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 230,
+      "start": "3960.21",
+      "end": "3988.989",
+      "source": "and we start the project with Intel to create this actually to create this feature supporting Java because actually we had a vision that Java application is going to increase and a lot of developers coming out from school there they're good in Java development and also maybe because they trying to avoid allocating memory and Java or JVM and doing it instead",
+      "display": "我们和 Intel 合作，推动了对 Java 的支持。当时就预见 Java 应用会增长，新毕业的开发者也更熟悉 Java，可能也希望避免手动分配内存，把这件事交给 Java 或 JVM。",
+      "spoken": "我们和 英特尔 合作，推动了对 Java 的支持。当时就预见 Java 应用会增长，新毕业的开发者也更熟悉 Java，可能也希望避免手动分配内存，把这件事交给 Java 或 JV M。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "complete-preview",
+      "review": "JVM完整缩写，保留maybe及内存管理语义。",
+      "complete_candidates": [
+        {
+          "label": "Java-JVM-memory-management",
+          "display": "我们和英特尔合作，推动了 Java 支持。当时就预见 Java 应用会增长；很多刚毕业的开发者擅长 Java，也可能是想避开手动内存分配，把这件事交给 Java 或 JVM。",
+          "spoken": "我们和英特尔合作，推动了 Java 支持。当时就预见 Java 应用会增长；很多刚毕业的开发者擅长 Java，也可能是想避开手动内存分配，把这件事交给 Java 或 J V M。",
+          "reason": "修正现朗读JV M不均匀缩写输入，保留maybe的可能性、英特尔合作和历史判断；不改成Java不分配内存或JVM无内存成本，也不承诺专业音素通过。",
+          "preserved_facts": [
+            "英特尔合作支持Java",
+            "预见应用增长及毕业生熟悉Java",
+            "可能希望避免手动分配，交给Java/JVM"
+          ]
+        }
+      ],
+      "deferred_text_only": null,
+      "current_production_text_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 231,
+      "start": "3988.989",
+      "end": "4003.219",
+      "source": "Intel VTune Intel VTune i highly recommend the how they call it godfather of VTune Gary [surname unclear] who is who is a good friend he's retired line now",
+      "display": "说到 Intel VTune，我很推荐一场培训。讲者称 Gary 为“VTune 教父”，说他是自己的好友，当时已经退休。",
+      "spoken": "说到 英特尔 V Tune，我很推荐一场培训。讲者称 Gary 为“V Tune 教父”，说他是自己的好友，当时已经退休。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "retain-unclear-surname",
+      "review": "仍只写Gary与姓氏不清；旧模型Carlton等候选不够人物身份确认，不从互联网名字反推音频。",
+      "complete_candidates": [],
+      "deferred_text_only": null,
+      "current_production_text_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 232,
+      "start": "4003.219",
+      "end": "4020.469",
+      "source": "but there is a very good video that it's already in HPC seminar series it was a 2000 what is it 15 16 something like this before his retirement yeah he was here in Stanford high-performance computing Center very good very good training",
+      "display": "HPC 研讨系列里有他的精彩视频，大约是2015或2016年、退休之前录的。他当时来到斯坦福高性能计算中心，做了一次很好的培训。",
+      "spoken": "H P C 研讨系列里有他的精彩视频，大约是2015或2016年、退休之前录的。他当时来到斯坦福高性能计算中心，做了一次很好的培训。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "text-proposal-awaiting-later-audio",
+      "review": "可恢复very good training的热情，但2015/2016不确定年份、退休前和斯坦福HPC中心须全留。",
+      "complete_candidates": [],
+      "deferred_text_only": "HPC 研讨系列里有他在斯坦福高性能计算中心做培训的视频。大约是2015或2016年，退休前。那场培训，真的很棒。",
+      "current_production_text_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 233,
+      "start": "4020.469",
+      "end": "4043.049",
+      "source": "and please let me know if you need some training a similar training like this he I got a lot of I actually I learned a lot of things from him especially in VTune of course now VTune we have more features like for as I said for Java for containers for VMs for virtual virtualization or virtual machines",
+      "display": "如果需要类似培训，可以告诉我。我从他那里学到了很多，尤其是 VTune。到了这场报告时，VTune 已经有更多功能，包括 Java、容器、VM，也就是虚拟机。",
+      "spoken": "如果需要类似培训，可以告诉我。我从他那里学到了很多，尤其是 V Tune。到了这场报告时，V Tune 已经有更多功能，包括 Java、容器、V M，也就是虚拟机。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "text-proposal-awaiting-later-audio",
+      "review": "培训邀请、向好友学习及Java/容器/虚拟机历史功能均保留，可另做温暖完整句，不偷换当前版本保证。",
+      "complete_candidates": [],
+      "deferred_text_only": "如果需要这样的培训，可以告诉我。我从他那里学到了很多，尤其是 VTune。到了这场报告时，VTune 也多了 Java、容器和虚拟机等功能。",
+      "current_production_text_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 234,
+      "start": "4043.049",
+      "end": "4049.739",
+      "source": "which is going to help a lot people who are working or want to work in this area",
+      "display": "这些功能，对正在从事、或者希望进入这个领域的人，很有帮助。",
+      "spoken": "这些功能，对正在从事、或者希望进入这个领域的人，很有帮助。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "retain-editorial-no-new-audio",
+      "review": "从业者/有意入行者两个人群完整保留，不承诺就业效果。",
+      "complete_candidates": [],
+      "deferred_text_only": null,
+      "current_production_text_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 235,
+      "start": "4049.739",
+      "end": "4067.029",
+      "source": "so VTune is a tool that can locate and remove and remove the software performance bottlenecks by the collection so you collect your data you analyze your data and then if you are good in analytics then you can find the area where you can tune the application to your code function",
+      "display": "VTune 能帮助定位和消除软件性能瓶颈：先采集数据，再分析数据。如果善于分析，就能找到需要调优的应用区域、代码和函数。",
+      "spoken": "V Tune 能帮助定位和消除软件性能瓶颈：先采集数据，再分析数据。如果善于分析，就能找到需要调优的应用区域、代码和函数。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "complete-preview",
+      "review": "采集/分析/据此调优的主体与条件明确，非工具自动消除瓶颈。",
+      "complete_candidates": [
+        {
+          "label": "collect-analyze-then-tune",
+          "display": "VTune 能帮助定位、消除软件性能瓶颈。方法是先采集数据，再分析数据；分析得当，才能找出应用、代码和函数中需要调优的地方。",
+          "spoken": "V Tune 能帮助定位、消除软件性能瓶颈。方法是先采集数据，再分析数据；分析得当，才能找出应用、代码和函数中需要调优的地方。",
+          "reason": "保留工具帮助与分析者作用，把采集、分析、定位调优区域分成完整递进，不把工具拟人化成自动删除瓶颈，也不删if good in analytics条件。",
+          "preserved_facts": [
+            "定位及消除瓶颈的目的",
+            "采集后分析",
+            "分析得当才定位应用/代码/函数调优区域"
+          ]
+        }
+      ],
+      "deferred_text_only": null,
+      "current_production_text_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 236,
+      "start": "4067.029",
+      "end": "4081.869",
+      "source": "and you have also access to the source code which is amazing honestly I don't see a lot of tools that can give you access to the source code C C++ or Java in in the market",
+      "display": "它还可以直接关联源代码。这一点非常好。坦率说，我在市场上见到的、能这样查看 C、C++ 或 Java 源代码的工具并不多。",
+      "spoken": "它还可以直接关联源代码。这一点非常好。坦率说，我在市场上见到的、能这样查看 C、C 加加 或 Java 源代码的工具并不多。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "complete-preview",
+      "review": "真实amazing赞叹及历史个人见闻，C/C++/Java完整保留。",
+      "complete_candidates": [
+        {
+          "label": "authentic-source-enthusiasm",
+          "display": "它还能直接关联 C、C++ 或 Java 源代码——这一点，真的很棒。讲者说，当时能这样查看源码的工具，他见到的并不多。",
+          "spoken": "它还能直接关联 C、C 加加或 Java 源代码——这一点，真的很棒。讲者说，当时能这样查看源码的工具，他见到的并不多。",
+          "reason": "用破折号和原amazing/honestly支持的赞叹恢复真实积极语气，非凭空加广告式兴奋；保留三种语言和个人见闻的历史范围，不声称市场唯一或免源码符号配置。",
+          "preserved_facts": [
+            "C、C++、Java源码关联",
+            "原amazing赞叹",
+            "工具不多是讲者历史个人观察"
+          ]
+        }
+      ],
+      "deferred_text_only": null,
+      "current_production_text_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 237,
+      "start": "4081.869",
+      "end": "4106.929",
+      "source": "and perf well it's very similar to perf just perfect like open source and then you can use it but in I like it in the way how you can monitor your results when you collect the data you copy or you can even collect remotely and then you can see all this bunch of data in very beautiful graphs",
+      "display": "它和 perf 也有相似之处，perf 则是开源工具。我喜欢 VTune 展示结果的方式：采集后把数据拷过来，或者直接远程采集，再用清楚、直观的图表查看。",
+      "spoken": "它和 perf 也有相似之处，perf 则是开源工具。我喜欢 V Tune 展示结果的方式：采集后把数据拷过来，或者直接远程采集，再用清楚、直观的图表查看。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "text-proposal-awaiting-later-audio",
+      "review": "开源perf、VTune结果展示、拷贝数据或远程采集保留；喜欢图表的温度可后续整句试读。",
+      "complete_candidates": [],
+      "deferred_text_only": "它和开源的 perf 有相似之处。不过，我很喜欢 VTune 展示结果的方式：采集完把数据拷过来，或者远程采集，再用直观的图表查看。",
+      "current_production_text_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 238,
+      "start": "4106.929",
+      "end": "4115.27",
+      "source": "and this very very helpful and very visible and you can read it easily not only as a performance engineer but also as a developer",
+      "display": "这些图很直观、容易阅读，不只是性能工程师，开发者也能看明白。",
+      "spoken": "这些图很直观、容易阅读，不只是性能工程师，开发者也能看明白。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "retain-editorial-no-new-audio",
+      "review": "性能工程师与开发者两类读者都保留，无新增图表能自动解释根因的承诺。",
+      "complete_candidates": [],
+      "deferred_text_only": null,
+      "current_production_text_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 239,
+      "start": "4115.27",
+      "end": "4129.82",
+      "source": "yes yeah you can you can collect the remotely what is it so it's going to the what what",
+      "display": "对，可以远程采集。【原声保留：听辨不清】",
+      "spoken": "…",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": true,
+      "context_only": false,
+      "status": "actual-source-reservation-no-TTS",
+      "review": "实际原声远程采集交接保持，不合并到前后同音色，不猜问题或恢复成TTS。",
+      "complete_candidates": [],
+      "deferred_text_only": null,
+      "current_production_text_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 240,
+      "start": "4129.82",
+      "end": "4147.43",
+      "source": "let's say if you have a Java application you have a three type of analysis if you and we are going to talk about about this later it's complicated but three type of analysis you can get the hot spots so the three top functions that spending most of the time making your CPU utilization high",
+      "display": "比如，一个 Java 应用，可以做三类分析。内容稍复杂，稍后会进一步讲。首先是 Hotspots，热点分析，找出最耗时间、使 CPU 利用率升高的前三个函数。",
+      "spoken": "比如，一个 Java 应用，可以做三类分析。内容稍复杂，稍后会进一步讲。首先是热点分析，找出最耗时间、使处理器利用率升高的前三个函数。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "text-proposal-awaiting-later-audio",
+      "review": "两新ASR均说三类、前三个函数；应作为讲者举例而非工具只能看三函数，留完整句后续试读。",
+      "complete_candidates": [],
+      "deferred_text_only": "以 Java 应用为例，讲者先介绍三类分析，稍后还会细讲。先看热点分析：比如找出耗时最多、让 CPU 利用率升高的前三个函数。",
+      "current_production_text_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 241,
+      "start": "4147.43",
+      "end": "4165.4",
+      "source": "the second thing you can do General Exploration which is very good me and I recommend doing the general exploration as the first step because it's going to give you a very good overview a big beautiful summary of your system what's running your system different functions are you running all these things",
+      "display": "第二类是 General Exploration，整体探索分析。我推荐先做这个，因为它能给出系统的整体概览和汇总：在运行什么、有哪些函数，等等。",
+      "spoken": "第二类，是整体探索分析。我推荐先做这个，因为它能给出系统的整体概览和汇总：在运行什么、有哪些函数，等等。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "complete-preview",
+      "review": "列举第二类但建议首先做，历史General Exploration标签保持。",
+      "complete_candidates": [
+        {
+          "label": "second-type-first-step-contrast",
+          "display": "第二类叫 General Exploration，也就是整体探索分析。不过，我建议先做这一项：它能先给你系统的整体概览，看看运行了什么、有哪些函数。",
+          "spoken": "第二类叫整体探索分析。不过，我建议先做这一项：它能先给你系统的整体概览，看看运行了什么、有哪些函数。",
+          "reason": "保留列举第二类但推荐第一步做的关键对比，用不过自然转折；General Exploration是历史界面标签，不偷偷替换为现代产品分析名称或讲成普适最佳实践。",
+          "preserved_facts": [
+            "General Exploration历史标签",
+            "讲者建议首先进行",
+            "系统整体汇总及运行函数"
+          ]
+        }
+      ],
+      "deferred_text_only": null,
+      "current_production_text_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 242,
+      "start": "4165.4",
+      "end": "4179.89",
+      "source": "and then Locks and Waits locks and which is more about connection things that would what's what's happening and if you're it's Java application it can give you even a garbage collection visualization",
+      "display": "还有 Locks and Waits，锁与等待分析，用来了解相关等待、争用等情况。对于 Java 应用，也可以把垃圾回收可视化。",
+      "spoken": "还有锁与等待分析，用来了解相关等待、争用等情况。对于 Java 应用，也可以把垃圾回收可视化。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "retain-contention-word-limit",
+      "review": "Locks and Waits标签当前来源明确；口述connection与ASRconjection/contextual未可靠定为contention，不把技术词库当听辨。等待/争用解释仅为分析类型语义。",
+      "complete_candidates": [],
+      "deferred_text_only": null,
+      "current_production_text_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 243,
+      "start": "4179.89",
+      "end": "4196.42",
+      "source": "which is very good is very helpful and standing when what's the Stop-the-World and what's the frequency of your garbage collector which kind of garbage collector and can give you also the frequency a lot of things like VTune is very very helpful in this",
+      "display": "这很有帮助：可以看 Stop-the-World，也就是整个应用暂停的情况；看垃圾回收的频率、收集器类型，还能看其他频率等多项信息。",
+      "spoken": "这很有帮助：可以看全局停顿，也就是整个应用暂停的情况；看垃圾回收的频率、收集器类型，还能看其他频率等多项信息。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "complete-preview",
+      "review": "STW作用对象限定应用线程；频率/收集器/时间都保留，ASRstop word不冒充术语恢复。",
+      "complete_candidates": [
+        {
+          "label": "STW-application-thread-scope",
+          "display": "它能帮你看清 Stop-the-World 全局停顿何时发生、垃圾回收有多频繁、用的是哪种收集器。这里的停顿指 Java 应用线程；VTune 在这方面很有帮助。",
+          "spoken": "它能帮你看清全局停顿何时发生、垃圾回收有多频繁、用的是哪种收集器。这里的停顿指 Java 应用线程；V Tune 在这方面很有帮助。",
+          "reason": "保留when/频率/收集器类型及讲者评价，限定STW作用对象为Java应用线程，不说整个操作系统全停。新ASR均把术语误作stop word，不能称双模型准确恢复STW。",
+          "preserved_facts": [
+            "Stop-the-World时刻",
+            "GC频率与收集器类型",
+            "Java应用线程停顿而非操作系统全停",
+            "讲者认为VTune有帮助"
+          ]
+        }
+      ],
+      "deferred_text_only": null,
+      "current_production_text_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 244,
+      "start": "4196.42",
+      "end": "4207.87",
+      "source": "you have different tabs you can go top-down you can see the caller and callee which is very very powerful looking at this different of the functions",
+      "display": "不同选项卡，可以自顶向下查看，也能看调用者与被调用者，了解不同函数之间的关系，这些功能都很有用。",
+      "spoken": "不同选项卡，可以自顶向下查看，也能看调用者与被调用者，了解不同函数之间的关系，这些功能都很有用。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "retain-editorial-no-new-audio",
+      "review": "Top-down、caller/callee及函数关系保留，调用者与被调用者不对调。",
+      "complete_candidates": [],
+      "deferred_text_only": null,
+      "current_production_text_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    },
+    {
+      "unit_id": 245,
+      "start": "4207.87",
+      "end": "4225.97",
+      "source": "so this is this is how it looks the VTune you see you see the different application this is the main application and different functions running and then it can give you where it's raining the red thing is the the overhead the running is the green one and then the context switches which is very good in the light green",
+      "display": "这就是 VTune 的界面：主应用，以及正在运行的不同函数。红色表示开销，绿色表示运行，浅绿色能看到上下文切换。",
+      "spoken": "这就是 V Tune 的界面：主应用，以及正在运行的不同函数。红色表示开销，绿色表示运行，浅绿色能看到上下文切换。",
+      "voice": "zh-CN-YunxiNeural",
+      "original_source_reservation": false,
+      "context_only": false,
+      "status": "text-and-source-proposal-awaiting-later-audio",
+      "review": "原图局部有Thread行/图例，函数与线程分开；raining应为running有两ASR支持，但此次不把未绑定的新源改动混进四项正式提案。",
+      "complete_candidates": [],
+      "deferred_text_only": "这就是讲者当时的 VTune 界面：上方看函数，下面是线程时间线。按这里的图例，红色是开销，绿色是运行，浅绿色是上下文切换。",
+      "current_production_text_changed": false,
+      "human_listened_or_pronunciation_emotion_approved": false
+    }
+  ],
+  "source_evidence": [
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/current-context-216-245.json",
+      "bytes": 35613,
+      "mtime_ns": 1794702922119868532,
+      "sha256": "068877a17b64bb212358fdd42a74c980ff75c31f6bb36a336ecc4b5dc5d3a464"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/agent-source-observations-v1.json",
+      "bytes": 7008,
+      "mtime_ns": 1794703676401918682,
+      "sha256": "caf5ad8d0dd1f19f138b656399a0eabe2a17adeeacebae8eebd230ee6394c971"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/external-primary-terminology-v1.json",
+      "bytes": 1392,
+      "mtime_ns": 1794703676401918682,
+      "sha256": "15f34be84978427a2b803ad03768b14dece9ee1bb548f7098a2bdd06e4836dcd"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/source-asr-v1/component-tool-names-distil-large-v3.json",
+      "bytes": 10966,
+      "mtime_ns": 1794703183607886740,
+      "sha256": "bff48571f326fe7aa0b52df3d9689b7553548275f3e5bcdd9a751ce5ff2dec90"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/source-asr-v1/Java-tool-history-distil-large-v3.json",
+      "bytes": 22354,
+      "mtime_ns": 1794703192179929272,
+      "sha256": "be1871bedcadea0c2128710668acd6bd553855f9733c9d5899da3d7a284027c3"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/source-asr-v1/analysis-types-and-timeline-distil-large-v3.json",
+      "bytes": 46962,
+      "mtime_ns": 1794703209008014161,
+      "sha256": "eb22681ec6aa849d8041534a4d9af5557957727521c120e6cfa2b735f1cb1050"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/source-asr-v1/component-tool-names-medium.json",
+      "bytes": 11148,
+      "mtime_ns": 1794703225473098956,
+      "sha256": "b1e63bb358e1ba3220601337ca4b1f39b5913bad92e9b7a4b59ef5d75c7d43f5"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/source-asr-v1/Java-tool-history-medium.json",
+      "bytes": 20714,
+      "mtime_ns": 1794703236520156783,
+      "sha256": "7994d68d18a30919790d93a1b0fcda548bb973640334aa5770487382d747dace"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/source-asr-v1/analysis-types-and-timeline-medium.json",
+      "bytes": 47254,
+      "mtime_ns": 1794703255512257902,
+      "sha256": "9d6fd9eb552f0c3f65c04e04fc0e37c3640830c2a5877cf6792fc14081a37895"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/source-negation-v1/negation-distil-large-v3.json",
+      "bytes": 15015,
+      "mtime_ns": 1794703398297079894,
+      "sha256": "e197e30d7e5950526b23b8290c89d7c7976d0f941af708693d9ce7bb6f895930"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/source-negation-v1/negation-medium.json",
+      "bytes": 15212,
+      "mtime_ns": 1794703407792138013,
+      "sha256": "e551efdec424d6b961d4810c7f2c42143a3e408b60d0b9c4ba326d77d7cf93c1"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/source-asr-recovery-v3/profiling-tool-names-medium.json",
+      "bytes": 34704,
+      "mtime_ns": 1794617747737976134,
+      "sha256": "89ed2ed4040309a9816c38a6e8c8219359dda2538778468e7e8198d411d4fd85"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/source-asr-recovery-v3/profiling-tool-names-distil-large-v3.json",
+      "bytes": 34371,
+      "mtime_ns": 1794617099291160848,
+      "sha256": "5de770b1eede9cf8b18dce23049851c08b2d7f18a6d68750135a73a3a064b8d7"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/source-asr-recovery-v3/vtune-person-name-medium.json",
+      "bytes": 24781,
+      "mtime_ns": 1794617684315173743,
+      "sha256": "19fef13223cbf2791474af58e3903e439f84967103fd05b66d6ec6a548d5274a"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/source-asr-recovery-v3/vtune-person-name-distil-large-v3.json",
+      "bytes": 26822,
+      "mtime_ns": 1794617057170517530,
+      "sha256": "fb7060fa53c5f014073be31b5a155bd866a1aa0b1ca566b6bdb7300388c4be1d"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/source-images-v1/source-3728.jpg",
+      "bytes": 31681,
+      "mtime_ns": 1794703168820814523,
+      "sha256": "eeafbd1e14ede1cd2ec2dbd5c812038922c4c0acf3a21c69a54c8524a7fefee4"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/source-images-v1/source-3798.jpg",
+      "bytes": 31746,
+      "mtime_ns": 1794703170180821103,
+      "sha256": "418ff4b98027c42cab5290091c78a7c1e3b35962cdac8204f23c61a66745e6bc"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/source-images-v1/source-3832.jpg",
+      "bytes": 30844,
+      "mtime_ns": 1794703171602827997,
+      "sha256": "5858fbf1c16e7bb4d7b48ef1bcdc55c9f00fe6e520244b799da976526d280996"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/source-images-v1/source-3868.jpg",
+      "bytes": 30952,
+      "mtime_ns": 1794703172956834573,
+      "sha256": "0e7c70ecbd5086a19281a43fe63d9b026dd8ab7e96da0bba20a4e0eed850f4aa"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/source-images-v1/source-3929.jpg",
+      "bytes": 27540,
+      "mtime_ns": 1794703174379841499,
+      "sha256": "257c288fc8cf73f8a9afa6ff132665d79dba2a0a80cc55faee44cd00c84ae638"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/source-images-v1/source-4145.jpg",
+      "bytes": 28726,
+      "mtime_ns": 1794703175389846423,
+      "sha256": "6a475d519b0cfa207b1265246cd84b5cae0d9fca50281772414acf1cc21eeb10"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/source-images-v1/source-4214.jpg",
+      "bytes": 24746,
+      "mtime_ns": 1794703177546856961,
+      "sha256": "69c4412540a29cb2e40c623c4f5f9dc6919a6829ea4a91da1532d4e471866f1b"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/source-images-v2/frame-3975.jpg",
+      "bytes": 27441,
+      "mtime_ns": 1794615632284364199,
+      "sha256": "43fffe879a31bbcdbbd14ca35b5d1cc046e96d09d8eddff55bf8579f64ab698f"
+    },
+    {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/source-images-v1/source-4214-timeline-crop.jpg",
+      "bytes": 29671,
+      "mtime_ns": 1794703401665100465,
+      "sha256": "86966a7099489cca40c477f82a0881315b214d32e60219798975c713db69cd90"
+    }
+  ],
+  "critical_source_holds": [
+    216,
+    217
+  ],
+  "pending_tool_name_resolution": [
+    227
+  ],
+  "blocked_units_excluded_from_all_TTS_and_adoption_candidates": [
+    216,
+    217,
+    227,
+    239
+  ],
+  "actual_source_regions": 23,
+  "reserved_units": [
+    6,
+    20,
+    21,
+    26,
+    74,
+    83,
+    84,
+    87,
+    94,
+    96,
+    100,
+    101,
+    102,
+    103,
+    104,
+    106,
+    107,
+    108,
+    109,
+    110,
+    112,
+    166,
+    174,
+    183,
+    192,
+    193,
+    196,
+    239,
+    247,
+    249,
+    250,
+    259,
+    260,
+    261,
+    262,
+    263,
+    268,
+    294,
+    321
+  ],
+  "formal_adoption_or_human_approval": false,
+  "new_TTS_not_yet_claimed": true
+}
