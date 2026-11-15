@@ -1,5 +1,11 @@
 # Media Downloader
 
+## 2026-11-16：Linux Performance Tools可切轨完整试听
+
+- iJ_eIsA5E1U已有一个内部完整A/B对照MP4：A为上轮中文，B含三组措辞/命令字母拼读对照，第三音轨是父代原声备用；三组现在能放在原画与整段上下文中比较，但没有选优或替换正式版。
+- 手动将A音轨配A字幕、B音轨配B字幕；来源英文字幕不跟TTS。说明与定位点见`docs/linux-performance-contextual-ab-2026-11-16.md`，断点`/home/pengdl/Videos/translated_backlog/.workflow_logs/request-iJ_eIsA5E1U-20261115/checkpoint-comparison-v1/execution-progress.json`。
+- 原画编码包、A及原声备用AAC保持，三轨完整解码和原窗核验通过。当前软字幕强制样式局部挡表，不是安全带交付；没有真实试听、情感/发音批准或PotPlayer实机证明。媒体/缓存不入Git，既有交付不覆盖。
+
 ## 2026-11-16：Linux Performance Tools安全字幕带候选
 
 - iJ_eIsA5E1U的完整上传候选已将中文字幕移到新增底带，原画不缩放、不裁剪；四处已发现的采样挡图得到修订，完整中文音频直接复用，不重做配音。

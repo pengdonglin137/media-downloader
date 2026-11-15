@@ -1,0 +1,131 @@
+{
+  "kind": "complete-contextual-ab-comparison-v1",
+  "video_id": "iJ_eIsA5E1U",
+  "date": "2026-11-16",
+  "adapter": {
+    "path": "/home/pengdl/media-downloader/media_workflow/contextual_group_comparison.py",
+    "bytes": 13768,
+    "mtime_ns": 1794759562641579311,
+    "sha256": "e80a37d4d360f0a80ecff819275ac08ab06da88788f406161b2fba350d475d5c"
+  },
+  "inputs": {
+    "parent_plan": {
+      "path": "/home/pengdl/media-downloader/data/translation_reviews/iJ_eIsA5E1U-group-phrasing-20261115.json",
+      "bytes": 38808,
+      "mtime_ns": 1794755612416668306,
+      "sha256": "89a4a2a6612c37a00c40e138c67d85e726d6e1513f9e5994743937437d63182e"
+    },
+    "parent_assembly": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-iJ_eIsA5E1U-20261115/group-phrasing-v1/candidate/assembly.json",
+      "bytes": 3987,
+      "mtime_ns": 1794755861697818237,
+      "sha256": "61ca69a48d0b09329b7b69bf7eacce625ed33afd6cd5327cbe7891e59204a472"
+    },
+    "parent_media": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-iJ_eIsA5E1U-20261115/group-phrasing-v1/candidate/media.json",
+      "bytes": 1229,
+      "mtime_ns": 1794755932059700506,
+      "sha256": "7d348f67dbaaf127953dfe8db50c79e77b1b93a9f69a1f8e6c28c5e853d18b3d"
+    },
+    "parent_master": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-iJ_eIsA5E1U-20261115/group-phrasing-v1/candidate/master.mp4",
+      "bytes": 50425570,
+      "mtime_ns": 1794755876443003334,
+      "sha256": "38e1b8ed227e0fb863bb3e57433f24160b960a57747808ae0d85a0f9fa91fc37"
+    },
+    "parent_full": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-iJ_eIsA5E1U-20261115/group-phrasing-v1/candidate/full.wav",
+      "bytes": 20181740,
+      "mtime_ns": 1794755861667817860,
+      "sha256": "56498afe23a10be65711cd7632595757659ef801ce20a90543bbc7e93305fcf2"
+    },
+    "parent_chinese": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-iJ_eIsA5E1U-20261115/group-phrasing-v1/candidate/zh.srt",
+      "bytes": 7536,
+      "mtime_ns": 1794755861657817734,
+      "sha256": "0d5bd206035abaedb9e4678bc0608dd219db1a474f79f5635bee5fcd952969e5"
+    },
+    "parent_english": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-iJ_eIsA5E1U-20261115/group-phrasing-v1/candidate/en.srt",
+      "bytes": 9772,
+      "mtime_ns": 1794755861657817734,
+      "sha256": "a319beab851f7bf41c42333a366afc356c5196ad280672cb33b04626eb60f107"
+    },
+    "alternative_plan": {
+      "path": "/home/pengdl/media-downloader/data/translation_reviews/iJ_eIsA5E1U-clarity-terms-20261115.json",
+      "bytes": 15106,
+      "mtime_ns": 1794758016288524667,
+      "sha256": "bfa323936d84ed138c01aab8c0d741e53cb8c8e8942003502cd85ae004115e09"
+    },
+    "alternative_manifest": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-iJ_eIsA5E1U-20261115/safe-band-v1/clarity-terms-audition-v1/manifest.json",
+      "bytes": 7358,
+      "mtime_ns": 1794758026412782877,
+      "sha256": "2f70e9b8378bf65b6257050473955b18686c55c2a6930ff4379efe5dfdc6cd52"
+    },
+    "alternative_verification": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-iJ_eIsA5E1U-20261115/safe-band-v1/independent-clarity-v1.json",
+      "bytes": 2964,
+      "mtime_ns": 1794758204690235904,
+      "sha256": "bb9c324da1132c548212803f5542b266cc7b2c9c4ef1211560709ee42e594bef"
+    }
+  },
+  "intro_seconds": "20",
+  "video_timescale": "12800",
+  "cases": [
+    {
+      "unit_ids": [
+        6,
+        7
+      ],
+      "chunks": [
+        "叫零件大炮：盲目更换零件，指望碰巧解决故障。",
+        "因此，分析前务必确认性能问题确实存在。",
+        "这样既节省时间，也让我们专注真正的问题，而不是捕风捉影。",
+        "确认问题后，还要精确定义：不要只说慢，而要使用具体指标。",
+        "比如网页要十秒加载，或者数据库查询超时。"
+      ],
+      "review_note": "完整同人源窗不变；中文措辞与逐字母拼读仅为B对照，保留整段上下文和A原候选，不选优。"
+    },
+    {
+      "unit_ids": [
+        16,
+        17
+      ],
+      "chunks": [
+        "处理器或内存占用异常高的进程，它们可能是性能问题的来源。",
+        "注意，top 展示的是当前情况。",
+        "为了看得更完整，可能需要持续观察，或者配合其他工具。",
+        "下一个是 vmstat，会实时更新多个系统组件的数据。",
+        "重点关注处理器运行队列、交换活动，",
+        "以及处理器统计中的 I/O 等待时间。"
+      ],
+      "review_note": "完整同人源窗不变；中文措辞与逐字母拼读仅为B对照，保留整段上下文和A原候选，不选优。"
+    },
+    {
+      "unit_ids": [
+        18,
+        19
+      ],
+      "chunks": [
+        "想进一步了解磁盘 I/O，就用 iostat 持续观察磁盘活动。",
+        "关注每秒传输次数，以及处理器时间中等待 I/O 操作的比例。",
+        "iostat 还按设备分别列出 I/O，帮助确定究竟是哪块磁盘造成性能问题。"
+      ],
+      "review_note": "完整同人源窗不变；中文措辞与逐字母拼读仅为B对照，保留整段上下文和A原候选，不选优。"
+    }
+  ],
+  "scope": "Internal complete-context A/B comparison, not canonical installation or a new delivery attachment.",
+  "selection": "Neither selected; A default preserves the inherited state, not a quality decision.",
+  "manual_track_pairing": {
+    "A": "audio0/subtitle0",
+    "B": "audio1/subtitle1",
+    "original": "audio2/subtitle2 follows source English, not TTS"
+  },
+  "new_tts_or_asr_requests": 0,
+  "canonical_adoption": false,
+  "human_selected": false,
+  "human_listened": false,
+  "pronunciation_or_emotion_approved": false,
+  "final_delivery_approved": false
+}
