@@ -1,0 +1,201 @@
+{
+  "kind": "source-negation-preserving-complete-preview-review-v1",
+  "video_id": "cjiUXZh0ZCo",
+  "recorded_at": "2026-11-15T08:35:33+00:00",
+  "scope": [
+    217
+  ],
+  "author_review": {
+    "kind": "source-negation-preserving-preview-review-v1",
+    "unit_id": 217,
+    "recorded_at": "2026-11-15T08:27:44+00:00",
+    "source_window": [
+      "3724.23",
+      "3745.41"
+    ],
+    "current_source": "this is this is what doesn't mean profiling so it's more about observer observing or observation and then if you are good in analytics then you are good in profiling so it's finding and eliminating the waste and wait time and the area to tune and instead understand the system limits for instance the memory",
+    "current_display": "剖析，更偏向观察。如果你擅长分析，往往也更容易做好剖析：找出并消除浪费和等待时间，发现可以调优的区域，理解系统限制，例如内存限制。",
+    "candidate_display": "这并不是剖析的含义。剖析更侧重观察。如果你擅长分析，也就擅长剖析：找出并消除浪费和等待时间，发现调优空间，理解系统限制，比如内存。",
+    "candidate_spoken": "这，并不是剖析的含义。剖析更侧重观察。如果你擅长分析，也就擅长剖析：找出并消除浪费和等待时间，发现调优空间，理解系统限制，比如内存。",
+    "source_negation_observations": [
+      {
+        "model": "medium",
+        "record": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/source-negation-v1/negation-medium.json",
+          "bytes": 15212,
+          "mtime_ns": 1794703407792138013,
+          "sha256": "e551efdec424d6b961d4810c7f2c42143a3e408b60d0b9c4ba326d77d7cf93c1"
+        },
+        "observed_negation": {
+          "start": 3725.51,
+          "end": 3725.7900000000004,
+          "text": " doesn't",
+          "probability": 0.7428515702486038
+        },
+        "human_or_cross_clause_resolution": false
+      },
+      {
+        "model": "distil-large-v3",
+        "record": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/source-negation-v1/negation-distil-large-v3.json",
+          "bytes": 15015,
+          "mtime_ns": 1794703398297079894,
+          "sha256": "e197e30d7e5950526b23b8290c89d7c7976d0f941af708693d9ce7bb6f895930"
+        },
+        "observed_negation": {
+          "start": 3725.4300000000003,
+          "end": 3725.69,
+          "text": " doesn't",
+          "probability": 0.9682970941066742
+        },
+        "human_or_cross_clause_resolution": false
+      }
+    ],
+    "decision": "Preview a complete literal negation-preserving217; do not yet install or synthesize216.",
+    "reason": "Current217 omits the source negation. Preserve its literal deictic wording without deciding what this refers to or adding a not to216. The visible slide contradicts216; its intended correction is not established by matching ASR words.",
+    "tail_conflict": "Existing3740-onward medium says understand and distil says extend; keep canonical understand rather than claiming complete model agreement.",
+    "speaker_review": "Canonical lecturer unit and voice map; no joining or new acoustic identity approval.",
+    "source_image": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/source-images-v1/source-3728.jpg",
+      "bytes": 31681,
+      "mtime_ns": 1794703168820814523,
+      "sha256": "eeafbd1e14ede1cd2ec2dbd5c812038922c4c0acf3a21c69a54c8524a7fefee4"
+    },
+    "source_image_observed": "Profiling does not compare multiple versions; profiling equals observation. Source image reviewed, not a corrected speech transcript.",
+    "source_audio": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/profiling-adoption-v1/parent-stage-v1/baseline/source.wav",
+      "bytes": 265573572,
+      "mtime_ns": 1794621721070495879,
+      "sha256": "8c4fe4fc7c0ccdd494dcbbbbcb65731f6a9af59c2ff8bdaed9ae0aa566a76ee7"
+    },
+    "before_waveform": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/negation-repair-v1/current-217-complete.wav",
+      "bytes": 1016684,
+      "mtime_ns": 1794731264794634445,
+      "sha256": "b5ff272500e9f7251a8891982dde1ddcce98ad4de551aae21a27d9a45e3752a1"
+    },
+    "before_waveform_provenance": {
+      "input": {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/profiling-adoption-v1/parent-stage-v1/composite.wav",
+        "bytes": 265669580,
+        "mtime_ns": 1794728389124925292,
+        "sha256": "8676a51d2230af8f27198c738367e54725cac57640076f1cb0ae83304aaf2723"
+      },
+      "start_sample": 89381520,
+      "samples": 508320,
+      "sample_rate": 24000,
+      "intro_offset_seconds": "0",
+      "explanation": "Complete body narration WAV, not final AAC; no intro is present in this WAV."
+    },
+    "references": [
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/source-negation-v1/negation-medium.json",
+        "bytes": 15212,
+        "mtime_ns": 1794703407792138013,
+        "sha256": "e551efdec424d6b961d4810c7f2c42143a3e408b60d0b9c4ba326d77d7cf93c1"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/source-negation-v1/negation-distil-large-v3.json",
+        "bytes": 15015,
+        "mtime_ns": 1794703398297079894,
+        "sha256": "e197e30d7e5950526b23b8290c89d7c7976d0f941af708693d9ce7bb6f895930"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/source-asr-recovery-v3/profiling-tool-names-medium.json",
+        "bytes": 34704,
+        "mtime_ns": 1794617747737976134,
+        "sha256": "89ed2ed4040309a9816c38a6e8c8219359dda2538778468e7e8198d411d4fd85"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/source-asr-recovery-v3/profiling-tool-names-distil-large-v3.json",
+        "bytes": 34371,
+        "mtime_ns": 1794617099291160848,
+        "sha256": "5de770b1eede9cf8b18dce23049851c08b2d7f18a6d68750135a73a3a064b8d7"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/source-images-v1/source-3728.jpg",
+        "bytes": 31681,
+        "mtime_ns": 1794703168820814523,
+        "sha256": "eeafbd1e14ede1cd2ec2dbd5c812038922c4c0acf3a21c69a54c8524a7fefee4"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/agent-source-observations-v1.json",
+        "bytes": 7008,
+        "mtime_ns": 1794703676401918682,
+        "sha256": "caf5ad8d0dd1f19f138b656399a0eabe2a17adeeacebae8eebd230ee6394c971"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/software-profiling-v1/authored-review-v2.json",
+        "bytes": 1931,
+        "mtime_ns": 1794703705824126856,
+        "sha256": "e15e671f3596b4d1eca52883a9163b5ba2ee7b71fbb20796e853f04b0f3d1f8e"
+      }
+    ],
+    "preserved_facts": [
+      "explicit negation retained without an invented antecedent",
+      "profiling is observation",
+      "if good in analysis then good in profiling",
+      "find AND eliminate waste AND wait time",
+      "areas to tune",
+      "understand system limits, memory as an example"
+    ],
+    "rejected_alternatives": [
+      {
+        "proposal": "Insert a not in216 to match the slide.",
+        "reason": "Existing two source ASRs are affirmative; the slide is not authority to overwrite oral speech."
+      },
+      {
+        "proposal": "Expand this in217 to comparing multiple versions.",
+        "reason": "Unresolved discourse antecedent and scope; would disguise interpretation as a verbatim repair."
+      },
+      {
+        "proposal": "Install217 alone and close the216/217 definition gate.",
+        "reason": "A literal-negation draft does not settle the cross-clause conflict or listening approval."
+      },
+      {
+        "proposal": "Replace both complete216/217 units with original audio immediately.",
+        "reason": "No new source reservation/runtime has been approved; existing contracts require inventories unchanged and much of217 is reliably translatable."
+      }
+    ],
+    "formal_adoption": false,
+    "source_amendments": [],
+    "new_ASR": 0,
+    "human_listened": false,
+    "pronunciation_or_emotion_approved": false,
+    "definition_hold_resolved": false,
+    "safe_for_production_adoption": false
+  },
+  "author_review_identity": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/negation-repair-v1/authored-review-v1.json",
+    "bytes": 8359,
+    "mtime_ns": 1794731264796634487,
+    "sha256": "c3f4fa1ddd8853acac206d446ffe177d3e251d46d6cdb42b54b9cb9525ca9df5"
+  },
+  "preview_plan": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/negation-repair-v1/preview-plan-v1.json",
+    "bytes": 7548,
+    "mtime_ns": 1794731264798634529,
+    "sha256": "8b36a83611356012add7bfb786c0ced6e109811661f246c6c5e3430a31024750"
+  },
+  "preview_manifest": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/negation-repair-v1/preview-v1/manifest.json",
+    "bytes": 3411,
+    "mtime_ns": 1794731281325981059,
+    "sha256": "ec9c88df75fda6007f47a8c51241606965107278f7a6d7217893d7bff11eb900"
+  },
+  "read_only_runtime": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/negation-repair-v1/check-preview-v1.py",
+    "bytes": 1292,
+    "mtime_ns": 1794731685250811234,
+    "sha256": "a9f745e07940d31a56dbc23d1ae8611e7061d7e374d65d2d0d18b91c29acf9dc"
+  },
+  "complete_preview_seconds": 15.24,
+  "source_window_seconds": "21.18",
+  "word_boundaries": 34,
+  "new_TTS": 1,
+  "new_ASR": 0,
+  "canonical_translation_or_media_installed": false,
+  "production_admission_or_definition_resolution": false,
+  "human_listened_or_pronunciation_emotion_approved": false,
+  "goal_status": "active"
+}
