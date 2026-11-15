@@ -1,0 +1,66 @@
+{
+  "kind": "perf-full-translation-draft-independent-verification-v1",
+  "passed": true,
+  "checked_at": "2026-11-15T10:53:32+00:00",
+  "verifier": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/full-source-translation-v1/independent-v1.py",
+    "bytes": 7700,
+    "mtime_ns": 1794739918384648950,
+    "sha256": "18fc7f12e326633a2f009f37849cba5485abb712a32b662c702bb69be4aef9c5"
+  },
+  "draft": {
+    "path": "/home/pengdl/media-downloader/data/translation_reviews/M6ldFtwWup0-full-draft-20261115.json",
+    "bytes": 411146,
+    "mtime_ns": 1794739864591381127,
+    "sha256": "d401c269f7c29dd5a755cf96d92f6785fb97700160e92bd6beae2108d2725d95"
+  },
+  "original_draft_before_explicit_editorial_fix": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/full-source-translation-v1/draft-built-before-editorial-v1.json",
+    "bytes": 410576,
+    "mtime_ns": 1794739864583381086,
+    "sha256": "f01d48cde5cc5a8ef61ebcb7fd3472bab1d0c60a2b8563c413a6c5a4e5d3e731"
+  },
+  "baseline": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-M6ldFtwWup0-20261114/full-source-translation-v1/baseline.json",
+    "bytes": 3393849,
+    "mtime_ns": 1794739090731362774,
+    "sha256": "00b3e2fa2b303904a0ba14eaec7daabead146a8a64215b4d8033662a1d64923d"
+  },
+  "preserved_counts": {
+    "records": 10111,
+    "canonical_targets": 31,
+    "frozen_root_python": 98,
+    "production_mp3": 293,
+    "unrelated_untracked": 13
+  },
+  "original_units_preserved": 85,
+  "proposed_complete_semantic_windows": 53,
+  "all_units_have_full_scope_Chinese_draft": true,
+  "formal_translation_imported": false,
+  "explicit_lexical_review_groups": 22,
+  "holds_open": 4,
+  "unheard_nonheld_spoken_candidates": 49,
+  "new_local_ASR_observations": 24,
+  "new_TTS_or_media_encodes_or_production_scans": 0,
+  "new_bounded_source_images_individually_opened": 12,
+  "source_image_first_attempt_exit1_retained": true,
+  "raw_github_HTTP429_exit22_retained": true,
+  "last_bye_observations": {
+    "small": {
+      "word": " bye",
+      "source_end_seconds": 1098.52
+    },
+    "medium": {
+      "word": " Bye.",
+      "source_end_seconds": 1098.56
+    }
+  },
+  "diagnostic_unobserved_tail_samples_16k": 1,
+  "diagnostic_reference_does_not_prove_native_signal_retention": true,
+  "source_boundary_and_translation_semantics_or_human_approval": false,
+  "canonical_M6_project_or_CJI31targets_changed": false,
+  "human_listening_pronunciation_emotion_wholevisual_wordlevel_PotPlayer_final_approval": false,
+  "full_repository_tests_not_run_no_code_change_and_previous_import_error_retained": true,
+  "goal_status": "active",
+  "classification": "verified-progress"
+}
