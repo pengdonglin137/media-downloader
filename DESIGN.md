@@ -1,5 +1,9 @@
 # 译配工作流契约
 
+## 2026-11-15：性能指标修订沿用精确原窗安装合同
+
+五完整单元复用既有speech_variants→exact_source_window_stage→caption_projection→editorial_quality→editorial_media→exact_source_window_history→editorial_install，无根Python或模块改动。实际幻灯参与单位与比值方向审校，英文源词流和原窗不改；耗时分组不泛化为全部指标同义。正常速率完整音频仅作既有增益，精确窗外PCM保持；90仅624样本余量必须如实保留，不能称宽裕或截尾。96排版词条保留，新增三项不作音素强制。31旧目标精确归档、安装不重编码；来源忠实性、技术准入与人耳/情感/专业音素批准分离。
+
 ## 2026-11-15：保持英文来源的六完整句增量安装契约
 
 - 开场16/34/36/60/79及结尾318使用既有exact_source_window_stage→caption_projection→editorial_quality→editorial_media→exact_source_window_history→editorial_install，不修改冻结模块；前序227来源修订已在本轮基线，不能回退或冒充新增英文修订。

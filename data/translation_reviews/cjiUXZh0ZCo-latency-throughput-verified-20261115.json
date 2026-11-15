@@ -1,0 +1,775 @@
+{
+  "kind": "latency-throughput-installed-verification-registration-v1",
+  "video_id": "cjiUXZh0ZCo",
+  "passed": true,
+  "checked_at": "2026-11-15T07:19:57+00:00",
+  "independent_stage": {
+    "kind": "latency-five-independent-stage-v1",
+    "passed": true,
+    "verifier": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/latency-throughput-precision-v1/independent-stage-v1.py",
+      "bytes": 9439,
+      "mtime_ns": 1794725718752064298,
+      "sha256": "8289f910df99131bd3680267c0a35ae84d9ee8f01d4d637d9c330d53ab2e9bcb"
+    },
+    "verified_at": "2026-11-15T06:57:37+00:00",
+    "selected_units": [
+      81,
+      82,
+      88,
+      90,
+      99
+    ],
+    "mappings": [
+      {
+        "unit_id": 81,
+        "complete_samples": 370944,
+        "seconds": 15.456,
+        "gain": 1.2289235455063185,
+        "mapping": {
+          "policy": "preserve-exact-source-exterior-within-legacy-ownership-v1",
+          "source_start": "1189.66",
+          "source_end": "1216.09",
+          "legacy_start_sample": 28551840,
+          "legacy_end_sample": 29186159,
+          "exact_start_scaled": [
+            28551840,
+            1
+          ],
+          "exact_end_scaled": [
+            29186160,
+            1
+          ],
+          "exact_contained_start_sample": 28551840,
+          "exact_contained_end_sample": 29186160,
+          "start_sample": 28551840,
+          "end_sample": 29186159,
+          "complete_samples": 370944,
+          "preview_window_samples": 634320,
+          "remaining_contained_samples": 263375
+        }
+      },
+      {
+        "unit_id": 82,
+        "complete_samples": 283968,
+        "seconds": 11.832,
+        "gain": 1.1100095358893352,
+        "mapping": {
+          "policy": "preserve-exact-source-exterior-within-legacy-ownership-v1",
+          "source_start": "1216.09",
+          "source_end": "1236.37",
+          "legacy_start_sample": 29186159,
+          "legacy_end_sample": 29672879,
+          "exact_start_scaled": [
+            29186160,
+            1
+          ],
+          "exact_end_scaled": [
+            29672880,
+            1
+          ],
+          "exact_contained_start_sample": 29186160,
+          "exact_contained_end_sample": 29672880,
+          "start_sample": 29186160,
+          "end_sample": 29672879,
+          "complete_samples": 283968,
+          "preview_window_samples": 486720,
+          "remaining_contained_samples": 202751
+        }
+      },
+      {
+        "unit_id": 88,
+        "complete_samples": 274176,
+        "seconds": 11.424,
+        "gain": 1.3226180647653003,
+        "mapping": {
+          "policy": "preserve-exact-source-exterior-within-legacy-ownership-v1",
+          "source_start": "1327.769",
+          "source_end": "1345.869",
+          "legacy_start_sample": 31866456,
+          "legacy_end_sample": 32300855,
+          "exact_start_scaled": [
+            31866456,
+            1
+          ],
+          "exact_end_scaled": [
+            32300856,
+            1
+          ],
+          "exact_contained_start_sample": 31866456,
+          "exact_contained_end_sample": 32300856,
+          "start_sample": 31866456,
+          "end_sample": 32300855,
+          "complete_samples": 274176,
+          "preview_window_samples": 434400,
+          "remaining_contained_samples": 160223
+        }
+      },
+      {
+        "unit_id": 90,
+        "complete_samples": 184896,
+        "seconds": 7.704,
+        "gain": 1.285128520326708,
+        "mapping": {
+          "policy": "preserve-exact-source-exterior-within-legacy-ownership-v1",
+          "source_start": "1365.789",
+          "source_end": "1373.519",
+          "legacy_start_sample": 32778936,
+          "legacy_end_sample": 32964456,
+          "exact_start_scaled": [
+            32778936,
+            1
+          ],
+          "exact_end_scaled": [
+            32964456,
+            1
+          ],
+          "exact_contained_start_sample": 32778936,
+          "exact_contained_end_sample": 32964456,
+          "start_sample": 32778936,
+          "end_sample": 32964456,
+          "complete_samples": 184896,
+          "preview_window_samples": 185520,
+          "remaining_contained_samples": 624
+        }
+      },
+      {
+        "unit_id": 99,
+        "complete_samples": 231552,
+        "seconds": 9.648,
+        "gain": 1.3244970660043338,
+        "mapping": {
+          "policy": "preserve-exact-source-exterior-within-legacy-ownership-v1",
+          "source_start": "1532.98",
+          "source_end": "1549.779",
+          "legacy_start_sample": 36791520,
+          "legacy_end_sample": 37194696,
+          "exact_start_scaled": [
+            36791520,
+            1
+          ],
+          "exact_end_scaled": [
+            37194696,
+            1
+          ],
+          "exact_contained_start_sample": 36791520,
+          "exact_contained_end_sample": 37194696,
+          "start_sample": 36791520,
+          "end_sample": 37194696,
+          "complete_samples": 231552,
+          "preview_window_samples": 403176,
+          "remaining_contained_samples": 171624
+        }
+      }
+    ],
+    "independent_audio": {
+      "base": {
+        "frames": 132834768,
+        "exact_exterior_sha256": "3c74308f4cfcf48fb2ec3b473547be6b766ecaee89eb4561b71c410ca89c0589",
+        "exact_source_exterior_preserved": true,
+        "complete_gain_only_audio_then_zeros": true
+      },
+      "composite": {
+        "frames": 132834768,
+        "exact_exterior_sha256": "3121baf89e7093cf06df90a5ee18351aef58fd61c510398ef361eae19d4d86a3",
+        "exact_source_exterior_preserved": true,
+        "complete_gain_only_audio_then_zeros": true
+      }
+    },
+    "source_units": 321,
+    "english_cues_unchanged": 1022,
+    "projected_phrases": 16,
+    "original_regions_equal_source": 23,
+    "reserved_units": 39,
+    "EOF_silence_samples": 21,
+    "database_after_rows": {
+      "decisions": 0,
+      "issues": 10668,
+      "occurrences": 18771,
+      "projects": 60,
+      "repair_resolutions": 0,
+      "scans": 120,
+      "terms": 41
+    },
+    "candidate_history": {
+      "previous_current_candidates": 187,
+      "current_candidates": 187,
+      "unedited_current_candidates_preserved": 186,
+      "edited_previous_candidates_retained_in_old_database_scans": 1,
+      "classified_source_only_synthetic_tail_candidates": 12,
+      "new_review_decisions": 0
+    },
+    "preserved_counts": {
+      "records": 8335,
+      "canonical_targets": 31,
+      "frozen_root_python": 98,
+      "production_mp3": 293,
+      "unrelated_untracked": 13
+    },
+    "all_old_rows_preserved": true,
+    "new_decisions_or_resolutions": 0,
+    "formal_adoption": false,
+    "human_phoneme_emotion_fullvisual_wordlevel_PotPlayer_final_approval": false,
+    "old_source_holds_and_Linux27holds23markersF08_preserved": true,
+    "goal_status": "active"
+  },
+  "installed": {
+    "kind": "latency-five-installed-independent-v1",
+    "passed": true,
+    "verifier": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/latency-throughput-precision-v1/install-five-v1.py",
+      "bytes": 16118,
+      "mtime_ns": 1794725809193814453,
+      "sha256": "02f124b7271512af20507d9fdaaa8d6cbf070b25fa27800d77469541fde025c4"
+    },
+    "checked_at": "2026-11-15T07:19:36+00:00",
+    "installation_verification": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/latency-throughput-precision-v1/install-v1/installation-verification.json",
+      "bytes": 11482,
+      "mtime_ns": 1794727056283795482,
+      "sha256": "c2a32f6eebc34bcac6a5be2f1fe0e3faa3e41c6afa6c0649edc3c1aac84ef622"
+    },
+    "transaction": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/latency-throughput-precision-v1/install-v1/file-transaction/transaction.json",
+      "bytes": 38900,
+      "mtime_ns": 1794727056294795579,
+      "sha256": "cc965b71a32ddc6564c5cc583e150ac8c194c68e9e9b48cc4c12ed12c1514227"
+    },
+    "transaction_state": "committed",
+    "transaction_targets": 31,
+    "actual_replace_intents": 23,
+    "all31_old_files_exactly_archived": true,
+    "canonical_files_after": [
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/zh.srt",
+        "bytes": 61589,
+        "mtime_ns": 1794725722399053533,
+        "sha256": "047ac3b21e1012253a91e56202bdff6998231b8deb024c2188fa0d98d3fcb11e"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/en.srt",
+        "bytes": 83433,
+        "mtime_ns": 1794720181189268312,
+        "sha256": "766e269f8ef754bfbd9b80f3c268eba3a42bea2b05199e752649b3c12bef0bd4"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/timing_review.json",
+        "bytes": 3,
+        "mtime_ns": 1794621436423917798,
+        "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/voices.json",
+        "bytes": 7386,
+        "mtime_ns": 1794620970384512188,
+        "sha256": "8a2e76078e643df374006311148f9ce441a0042d6ada7fab92ee6e08254d7b00"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/compilation.json",
+        "bytes": 1010,
+        "mtime_ns": 1794725722420053472,
+        "sha256": "ee70e703c2659fe3375de6eb30ea2f31b3a82eb51a7a4a0393220732f337b6c5"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/spoken.srt",
+        "bytes": 57081,
+        "mtime_ns": 1794725722400053530,
+        "sha256": "bdde1cc74da63ba30b01821b73177aaf3d9d9eb70b2bbb67a275cf017e854b57"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/translation.tsv",
+        "bytes": 51638,
+        "mtime_ns": 1794725722378053595,
+        "sha256": "d85ab7824ce5278c3484c433cfa230ba9f3f94670b452320f80de0e0f7646964"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/bilingual_display.srt",
+        "bytes": 159336,
+        "mtime_ns": 1794725736277013125,
+        "sha256": "e1d3de37d4e280240b596bf315ac660a4c2765a917682c445384f53039a32f08"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/spoken_overrides.json",
+        "bytes": 31693,
+        "mtime_ns": 1794725722378053595,
+        "sha256": "66797681c8e3ae8619e0d81a5d537ce902649a8344fdb7a4b4b93acba743e391"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/package-plan.json",
+        "bytes": 27311,
+        "mtime_ns": 1794725747232981834,
+        "sha256": "e71afb1181c804b7c7ac614835381340fd847e0a7e454b1928980565aed7c850"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/translation_task.json",
+        "bytes": 3985,
+        "mtime_ns": 1794720181192268160,
+        "sha256": "cf5740c8beb7d4328fd467112998a0db8399b85e205d877a6089271f5e05414a"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/tts_voice.txt",
+        "bytes": 18,
+        "mtime_ns": 1794621043528585578,
+        "sha256": "278ec7126151de367498ddc4ed86aaa29a610506a7559b9831fa2fdfce5977de"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/meta.json",
+        "bytes": 146,
+        "mtime_ns": 1794613332409392106,
+        "sha256": "f8a1c184a547b229dee7b091ce9ed8b47fde48011a6c26796b688bbe48a60335"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/zh_display.srt",
+        "bytes": 87030,
+        "mtime_ns": 1794725736270013145,
+        "sha256": "454cc69ad9efb57ce5c3114a8fdd8695a2d50bca2b9f547ff360f4b778dc1b2c"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/tts_stats.json",
+        "bytes": 23401,
+        "mtime_ns": 1794725722718052595,
+        "sha256": "46c2e6495485f4e1404a36686eeed3b8023978984ba21c644e3166e63b6a8b73"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/bilingual.srt",
+        "bytes": 133895,
+        "mtime_ns": 1794725722401053527,
+        "sha256": "1e6b070dc18efc87c667ca28f2c360af36e3175e17d98f0644c85066ad416303"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/en_display.srt",
+        "bytes": 107595,
+        "mtime_ns": 1794725736272013139,
+        "sha256": "a39f3e6e6550fa2a5063cc408370e6c9aab5f1d85b6900c5c48bfd836997899c"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/translation_audit.md",
+        "bytes": 4066,
+        "mtime_ns": 1794621566492573287,
+        "sha256": "8ccf1fd0a56d92fa6c502281201c849d9cbaf1042959f8fd67ab537d900cb58e"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/speech_policy.json",
+        "bytes": 54,
+        "mtime_ns": 1794620970275510563,
+        "sha256": "82f52a8889d1044e2e37de0fd32dc0cc682b4c2bfaf41b35bee6a8f26cb29fcb"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/Science of Performance 2019_中文配音.mp4",
+        "bytes": 566144875,
+        "mtime_ns": 1794725831111758908,
+        "sha256": "3960c57e47ecb38e7bd065fc5e48f7ed586b29f0f297742e1cf468cd8aa95719"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/Science of Performance 2019_中文上传版.mp4",
+        "bytes": 452679540,
+        "mtime_ns": 1794726499370058745,
+        "sha256": "4b47200c22eb5ca573a7872f390121e59d340bfd6aeb6cfd0dc8d9d209ccbefe"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/editorial_install.json",
+        "bytes": 698,
+        "mtime_ns": 1794727047121714100,
+        "sha256": "45489da28bb649e0715c004ff5838c99d6d19d0d850936edb7412045eda2b65d"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/narration.json",
+        "bytes": 10298,
+        "mtime_ns": 1794727047164714483,
+        "sha256": "8d59f60f59937c00598c578de77a2cdb651c65934c9968a827e9d5429e7f78a3"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/render_state.json",
+        "bytes": 1894,
+        "mtime_ns": 1794727047203714831,
+        "sha256": "ea06a21d8732440e48b3b582d8e3c247fc6f2292fdf69496c1865dbaee636047"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/upload_export.json",
+        "bytes": 2205,
+        "mtime_ns": 1794727047238715143,
+        "sha256": "d102a40a54445b6dc63b85b347a90e94cc33b62215b8a8b24b82cffcd5d76901"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/speech_review.json",
+        "bytes": 308668,
+        "mtime_ns": 1794727051580753790,
+        "sha256": "82215ab44c2747efbd274be5cec3c07c071ae04556de8ca3b0d2279fbb1f9b9a"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/speech_review.html",
+        "bytes": 126039,
+        "mtime_ns": 1794727051615754101,
+        "sha256": "8c94de3b0d50d5a13ac187593bb37b516c25af18e3eab9489fd4c7d721561ca7"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/speech_database.json",
+        "bytes": 164,
+        "mtime_ns": 1794727051647754385,
+        "sha256": "82b22bb68a8f02131a59049d1c3141ea9c9fdbe83483c88cec1ace4ec2d0f49e"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/delivery_quality.json",
+        "bytes": 1861,
+        "mtime_ns": 1794727051949757068,
+        "sha256": "9eb286fafc3156eeeb81fe6a4fef5e4c5197c3ccfc585fa810755e522b6f649a"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/delivery_check.json",
+        "bytes": 9267,
+        "mtime_ns": 1794727054944783630,
+        "sha256": "a1f3c4326c49ca98b98067dc40a4501250c35eea905d9446f1deaaa1c90c7e7a"
+      },
+      {
+        "path": "/home/pengdl/Videos/translated_backlog/.zh_work_yt_cjiUXZh0ZCo/release.json",
+        "bytes": 2351,
+        "mtime_ns": 1794727055405787711,
+        "sha256": "3a294f97e1cd87baf7dd13b401de85d6afdef87241137c5735f9eb5a6d71a6b9"
+      }
+    ],
+    "preserved_counts": {
+      "records": 8335,
+      "frozen_root_python": 98,
+      "production_mp3": 293,
+      "unrelated_untracked": 13
+    },
+    "master": {
+      "path": "/home/pengdl/Videos/translated_backlog/Science of Performance 2019_中文配音.mp4",
+      "bytes": 566144875,
+      "mtime_ns": 1794725831111758908,
+      "sha256": "3960c57e47ecb38e7bd065fc5e48f7ed586b29f0f297742e1cf468cd8aa95719"
+    },
+    "upload": {
+      "path": "/home/pengdl/Videos/translated_backlog/Science of Performance 2019_中文上传版.mp4",
+      "bytes": 452679540,
+      "mtime_ns": 1794726499370058745,
+      "sha256": "4b47200c22eb5ca573a7872f390121e59d340bfd6aeb6cfd0dc8d9d209ccbefe"
+    },
+    "formal_media_exact_candidate_bytes_and_mtime": true,
+    "selected_units": [
+      81,
+      82,
+      88,
+      90,
+      99
+    ],
+    "source_changed_units": [],
+    "english_cues": 1022,
+    "Chinese_bilingual_phrases": 16,
+    "database_scans": [
+      119,
+      120,
+      121,
+      122
+    ],
+    "current_candidates": 187,
+    "source_classifications_not_dismissed": 12,
+    "new_decisions_or_resolutions": 0,
+    "human_pronunciation_emotion_or_final_approval": false,
+    "old_source_holds_and_Linux27holds23markersF08_preserved": true,
+    "goal_status": "active"
+  },
+  "actual_images": {
+    "kind": "latency-five-actual-image-observations-v1",
+    "image_manifest": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/latency-throughput-precision-v1/actual-upload-images-v1/manifest.json",
+      "bytes": 16107,
+      "mtime_ns": 1794726539013705092,
+      "sha256": "d2c0ef1312ec7a0298e8539f91bf41e8b07c73abddf1541515dd2c0d0c3e00c3"
+    },
+    "all_images_individually_opened": true,
+    "observations": [
+      {
+        "name": "unit-81-phrase-1",
+        "image": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/latency-throughput-precision-v1/actual-upload-images-v1/unit-81-phrase-1.jpg",
+          "bytes": 31096,
+          "mtime_ns": 1794726512154271046,
+          "sha256": "b8ba9cd02ea3855c363515da0f40c1f565348941a1326e6594702aca6fb210ba"
+        },
+        "dimensions": [
+          1280,
+          720
+        ],
+        "individually_opened": true,
+        "visual_observation": "实际仍为飞机图片页，不是参数表；底部航空公司角度及先只看左边完整。不按单元名冒称已切表或逐词声画同步。",
+        "full_film_visual_wordlevel_phoneme_or_human_audio_approval": false
+      },
+      {
+        "name": "unit-81-phrase-2",
+        "image": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/latency-throughput-precision-v1/actual-upload-images-v1/unit-81-phrase-2.jpg",
+          "bytes": 31805,
+          "mtime_ns": 1794726513971300917,
+          "sha256": "9516c2913d2fbcd5d1a3b9dbbbc94ee20849ada5c6a6d4672428466f312e6103"
+        },
+        "dimensions": [
+          1280,
+          720
+        ],
+        "individually_opened": true,
+        "visual_observation": "已进Airline example参数表，底部这是不同飞机的参数完整。",
+        "full_film_visual_wordlevel_phoneme_or_human_audio_approval": false
+      },
+      {
+        "name": "unit-81-phrase-3",
+        "image": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/latency-throughput-precision-v1/actual-upload-images-v1/unit-81-phrase-3.jpg",
+          "bytes": 32058,
+          "mtime_ns": 1794726515739329909,
+          "sha256": "e227e654903cb22b985aa9f44e3b005c64f56c5ae1af39cd28c3bd17ad9c8f44"
+        },
+        "dimensions": [
+          1280,
+          720
+        ],
+        "individually_opened": true,
+        "visual_observation": "表头mph和底部波音777、速度每小时610英里完整可见。",
+        "full_film_visual_wordlevel_phoneme_or_human_audio_approval": false
+      },
+      {
+        "name": "unit-81-phrase-4",
+        "image": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/latency-throughput-precision-v1/actual-upload-images-v1/unit-81-phrase-4.jpg",
+          "bytes": 31977,
+          "mtime_ns": 1794726517552359566,
+          "sha256": "68575a161b3bc0e9fb72fbb1584b1abc0ecf9276d1c61e9112bc2e2ba75ae868"
+        },
+        "dimensions": [
+          1280,
+          720
+        ],
+        "individually_opened": true,
+        "visual_observation": "参数表与底部航程4630英里、载客量375人完整可见。",
+        "full_film_visual_wordlevel_phoneme_or_human_audio_approval": false
+      },
+      {
+        "name": "unit-82-phrase-1",
+        "image": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/latency-throughput-precision-v1/actual-upload-images-v1/unit-82-phrase-1.jpg",
+          "bytes": 31872,
+          "mtime_ns": 1794726519407389835,
+          "sha256": "0b7b7c6fe42a73a82a98d284bba2ab06b1b72fa6fbaec479a8360d5d011cba06"
+        },
+        "dimensions": [
+          1280,
+          720
+        ],
+        "individually_opened": true,
+        "visual_observation": "参数表与747也有它的参数完整可见；不据图证明音素。",
+        "full_film_visual_wordlevel_phoneme_or_human_audio_approval": false
+      },
+      {
+        "name": "unit-82-phrase-2",
+        "image": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/latency-throughput-precision-v1/actual-upload-images-v1/unit-82-phrase-2.jpg",
+          "bytes": 32181,
+          "mtime_ns": 1794726521113417605,
+          "sha256": "e4ef152f2d1667e4a991a6ccbf102abbd961623c816c82bc442d3928454b2eb4"
+        },
+        "dimensions": [
+          1280,
+          720
+        ],
+        "individually_opened": true,
+        "visual_observation": "Concorde/DC 8-50表行与协和更快、DC-8-50相对较慢字幕完整可见。",
+        "full_film_visual_wordlevel_phoneme_or_human_audio_approval": false
+      },
+      {
+        "name": "unit-82-phrase-3",
+        "image": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/latency-throughput-precision-v1/actual-upload-images-v1/unit-82-phrase-3.jpg",
+          "bytes": 31845,
+          "mtime_ns": 1794726523028448700,
+          "sha256": "77d458adfe6d259d013bce4e1f1a5b5240b5155eaa731c6e3506d7c9363033db"
+        },
+        "dimensions": [
+          1280,
+          720
+        ],
+        "individually_opened": true,
+        "visual_observation": "参数表与那么、到底哪种最好完整可见，不因问号判断换人。",
+        "full_film_visual_wordlevel_phoneme_or_human_audio_approval": false
+      },
+      {
+        "name": "unit-82-phrase-4",
+        "image": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/latency-throughput-precision-v1/actual-upload-images-v1/unit-82-phrase-4.jpg",
+          "bytes": 32087,
+          "mtime_ns": 1794726524866478465,
+          "sha256": "a187b25236be073d5d99286e6c32d348c74a5d623c6945fc44eb1400e24702a2"
+        },
+        "dimensions": [
+          1280,
+          720
+        ],
+        "individually_opened": true,
+        "visual_observation": "参数表与这个问题、没有统一的答案完整可见。",
+        "full_film_visual_wordlevel_phoneme_or_human_audio_approval": false
+      },
+      {
+        "name": "unit-88-phrase-1",
+        "image": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/latency-throughput-precision-v1/actual-upload-images-v1/unit-88-phrase-1.jpg",
+          "bytes": 30250,
+          "mtime_ns": 1794726526549505655,
+          "sha256": "9b4d1fa0f923c2e6bc503506734dc58e828a9f9e140668b63ad31852299587fd"
+        },
+        "dimensions": [
+          1280,
+          720
+        ],
+        "individually_opened": true,
+        "visual_observation": "实际Two aspects页，底部这里把性能指标分成两类完整可见。",
+        "full_film_visual_wordlevel_phoneme_or_human_audio_approval": false
+      },
+      {
+        "name": "unit-88-phrase-2",
+        "image": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/latency-throughput-precision-v1/actual-upload-images-v1/unit-88-phrase-2.jpg",
+          "bytes": 30561,
+          "mtime_ns": 1794726528420535809,
+          "sha256": "5815c9c849005ece2e99b33fb11aa8cc081a956e29d1207c38bc2c0a43fc3d7f"
+        },
+        "dimensions": [
+          1280,
+          720
+        ],
+        "individually_opened": true,
+        "visual_observation": "同页耗时/延迟/响应时间/执行时间字幕完整，响应时间和执行时间未拆断。",
+        "full_film_visual_wordlevel_phoneme_or_human_audio_approval": false
+      },
+      {
+        "name": "unit-88-phrase-3",
+        "image": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/latency-throughput-precision-v1/actual-upload-images-v1/unit-88-phrase-3.jpg",
+          "bytes": 30773,
+          "mtime_ns": 1794726530205564507,
+          "sha256": "76a27c057fd2b47c63fe8acea700d0ccfd27a6a48289df84e641107bdabde6e8"
+        },
+        "dimensions": [
+          1280,
+          720
+        ],
+        "individually_opened": true,
+        "visual_observation": "同页另一类吞吐量/单位时间内任务数字幕完整；task per unit time原文可见。",
+        "full_film_visual_wordlevel_phoneme_or_human_audio_approval": false
+      },
+      {
+        "name": "unit-90-phrase-1",
+        "image": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/latency-throughput-precision-v1/actual-upload-images-v1/unit-90-phrase-1.jpg",
+          "bytes": 30431,
+          "mtime_ns": 1794726531769589593,
+          "sha256": "c04bf9252e23cba73625d0f1e26dcca06028b4e94372942715924399244d261c"
+        },
+        "dimensions": [
+          1280,
+          720
+        ],
+        "individually_opened": true,
+        "visual_observation": "同页吞吐量、看单位时间能完成多少工作完整，单位时间未拆断。",
+        "full_film_visual_wordlevel_phoneme_or_human_audio_approval": false
+      },
+      {
+        "name": "unit-90-phrase-2",
+        "image": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/latency-throughput-precision-v1/actual-upload-images-v1/unit-90-phrase-2.jpg",
+          "bytes": 30356,
+          "mtime_ns": 1794726533572618446,
+          "sha256": "52edc18cede1070d0f981fbd5d7b703625a43242671118c0e9dd1b8c8e5dcfd7"
+        },
+        "dimensions": [
+          1280,
+          720
+        ],
+        "individually_opened": true,
+        "visual_observation": "同页这、就是延迟和吞吐量的区别完整可见。",
+        "full_film_visual_wordlevel_phoneme_or_human_audio_approval": false
+      },
+      {
+        "name": "unit-99-phrase-1",
+        "image": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/latency-throughput-precision-v1/actual-upload-images-v1/unit-99-phrase-1.jpg",
+          "bytes": 32575,
+          "mtime_ns": 1794726535082642558,
+          "sha256": "d834a206e9b1b1b147e9614bf65f4bb829400c586bf2ffdebe3549b8ec476547"
+        },
+        "dimensions": [
+          1280,
+          720
+        ],
+        "individually_opened": true,
+        "visual_observation": "实际Performance公式页与比较程序X和Y字幕；原页同一程序20/25sec例题仍可见。",
+        "full_film_visual_wordlevel_phoneme_or_human_audio_approval": false
+      },
+      {
+        "name": "unit-99-phrase-2",
+        "image": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/latency-throughput-precision-v1/actual-upload-images-v1/unit-99-phrase-2.jpg",
+          "bytes": 28707,
+          "mtime_ns": 1794726536894671424,
+          "sha256": "f61fdf98fca577d7ee293577faa165d089401115b232572bc9c38dd6fd59031d"
+        },
+        "dimensions": [
+          1280,
+          720
+        ],
+        "individually_opened": true,
+        "visual_observation": "性能X/Y及反向执行时间比公式，与取X性能除Y性能、得到比值n字幕完整。",
+        "full_film_visual_wordlevel_phoneme_or_human_audio_approval": false
+      },
+      {
+        "name": "unit-99-phrase-3",
+        "image": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/latency-throughput-precision-v1/actual-upload-images-v1/unit-99-phrase-3.jpg",
+          "bytes": 28434,
+          "mtime_ns": 1794726538673699694,
+          "sha256": "94ba515c6ec5eca7365dc4af7a94530398d1505e2cd247997e064dfbf70c8684"
+        },
+        "dimensions": [
+          1280,
+          720
+        ],
+        "individually_opened": true,
+        "visual_observation": "同公式页与这个比值、表示X相对Y性能高低字幕完整可见。",
+        "full_film_visual_wordlevel_phoneme_or_human_audio_approval": false
+      }
+    ],
+    "source_images_separately_viewed": 3,
+    "unit81_first_sample_is_photo_slide_not_table": true,
+    "all_captions_on_screen_at_sample_not_whole_word_timing_approval": true,
+    "human_listened_emotion_or_final_approval": false,
+    "goal_status": "active"
+  },
+  "VLC": {
+    "kind": "latency-five-finite-VLC-diagnostics-v1",
+    "actual_exit": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/latency-throughput-precision-v1/vlc-candidate-v1.exit",
+      "bytes": 2,
+      "mtime_ns": 1794726552798921764,
+      "sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa"
+    },
+    "log": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/latency-throughput-precision-v1/vlc-candidate-v1.log",
+      "bytes": 3586,
+      "mtime_ns": 1794726552765921249,
+      "sha256": "68dd91c2a5068c233e27c7a9454b37c6f2a044197765d40268d93c17a0a680de"
+    },
+    "literal_pattern_counts_may_overlap": {
+      "get_buffer() failed": 30,
+      "thread_get_buffer() failed": 15,
+      "decode_slice_header error": 15,
+      "no frame!": 15,
+      "Timestamp conversion failed": 4,
+      "buffer deadlock prevented": 0
+    },
+    "finite_API_passed": true,
+    "warning_free_playback_proven": false,
+    "diagnostics_cause_proven": false,
+    "human_or_PotPlayer_approval": false
+  },
+  "fullfilm_human_PotPlayer_or_final_approval": false,
+  "old_source_holds_26_95_97_111_216_217_248_310_317_and_Linux27holds23markersF08_preserved": true,
+  "goal_status": "active"
+}

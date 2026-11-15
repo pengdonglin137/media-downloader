@@ -1,0 +1,447 @@
+{
+  "kind": "latency-throughput-complete-speech-installed-review-v1",
+  "video_id": "cjiUXZh0ZCo",
+  "recorded_at": "2026-11-15T07:19:57+00:00",
+  "review": {
+    "kind": "latency-throughput-five-complete-unit-review-v1",
+    "recorded_at": "2026-11-15T06:53:32+00:00",
+    "preceding_context_review_units": [
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111
+    ],
+    "rechecked_selected_units": [
+      81,
+      82,
+      88,
+      90,
+      99
+    ],
+    "edited_units": [
+      81,
+      82,
+      88,
+      90,
+      99
+    ],
+    "cases": [
+      {
+        "key": "body-081-aircraft-speed-unit",
+        "unit_id": 81,
+        "source": "now if we go with the perspective of the airline and you have this data just see now only the actually the left side you have this data about different companies different plane or aircraft the Boeing 707 77 the speed is 610 the range of 4,000 630 miles and the number of passengers or capacity is 375",
+        "source_start": "1189.66",
+        "source_end": "1216.09",
+        "current_display": "现在，从航空公司的角度看这组数据，先只看左边。这是不同飞机的参数。波音777，速度610，航程4630英里，载客量375人。",
+        "current_spoken": "现在，从航空公司的角度看这组数据，先只看左边。这是不同飞机的参数。波音七七七，速度610，航程4630英里，载客量375人。",
+        "display": "现在，从航空公司的角度看这组数据，先只看左边。这是不同飞机的参数。波音777，速度每小时610英里，航程4630英里，载客量375人。",
+        "spoken": "现在，从航空公司的角度看这组数据，先只看左边。这是不同飞机的参数。波音七七七，速度每小时610英里，航程4630英里，载客量375人。",
+        "reason": "Restore mph from the actually viewed aircraft table,keeping the historical777 model,610 speed,4630mile range and375passengers. Retain airline viewpoint and left-table restriction. No current aviation claim or silent English source amendment.",
+        "preserved_facts": [
+          "Restore mph from the actually viewed aircraft table,keeping the historical777 model,610 speed,4630mile range and375passengers. Retain airline viewpoint and left-table restriction. No current aviation claim or silent English source amendment."
+        ],
+        "before_waveform": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/latency-throughput-precision-v1/current-unit-81.wav",
+          "bytes": 1268684,
+          "mtime_ns": 1794725486621897499,
+          "sha256": "9f7ee470e1c3877a960515d4102e89a3889b9944cb0a70988b448f7ae990cf7a"
+        },
+        "speaker_review": {
+          "same_speaker": true,
+          "evidence": "Previously reviewed complete81-111context,actual three source slides,current canonical voice map and exclusion from all39original-source reservations. Rhetorical question82is not a newly inferred audience role.No new human acoustic identity approval."
+        }
+      },
+      {
+        "key": "body-082-model-digits-and-question",
+        "unit_id": 82,
+        "source": "if you go to the 747 you have this data the Concorde of course is faster and DC 850 is kind of the slower compared to different or aircraft so which one is the best there's no answer to this question there is no answer to the question",
+        "source_start": "1216.09",
+        "source_end": "1236.37",
+        "current_display": "747也有它的参数；协和客机更快，DC-8-50相对较慢。那么，哪种最好？这个问题，没有一个直接的答案。",
+        "current_spoken": "747也有它的参数；协和客机更快，D C 八，五零相对较慢。那么，哪种最好？这个问题，没有一个直接的答案。",
+        "display": "747也有它的参数。协和客机更快，DC-8-50相对较慢。那么，到底哪种最好？这个问题，没有统一的答案。",
+        "spoken": "七四七也有它的参数。协和客机更快，D C 八，五零相对较慢。那么，到底哪种最好？这个问题，没有统一的答案。",
+        "reason": "Use explicit747 model digits consistently with79,not a claim about the old synthesized phonemes. Preserve fasterConcorde,slowerDC-8-50 and open question;no single answer in the85context is not no possible answer.",
+        "preserved_facts": [
+          "Use explicit747 model digits consistently with79,not a claim about the old synthesized phonemes. Preserve fasterConcorde,slowerDC-8-50 and open question;no single answer in the85context is not no possible answer."
+        ],
+        "before_waveform": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/latency-throughput-precision-v1/current-unit-82.wav",
+          "bytes": 973484,
+          "mtime_ns": 1794725486623897491,
+          "sha256": "828386c8a595116a7fd737debf6da41c65ecdcfa3a7740af1b25b81dd0153189"
+        },
+        "speaker_review": {
+          "same_speaker": true,
+          "evidence": "Previously reviewed complete81-111context,actual three source slides,current canonical voice map and exclusion from all39original-source reservations. Rhetorical question82is not a newly inferred audience role.No new human acoustic identity approval."
+        }
+      },
+      {
+        "key": "body-088-local-metric-categories",
+        "unit_id": 88,
+        "source": "okay the two aspect of performance its time and throughput time or latency or response time or execution time doesn't matter how we explain this but it's about time and throughput it's the task per unit if we go to",
+        "source_start": "1327.769",
+        "source_end": "1345.869",
+        "current_display": "性能有两个方面：时间和吞吐量。时间，也可以叫延迟、响应时间、执行时间，不管怎么称呼，说的都是耗时。吞吐量，则是单位时间里完成的任务数。",
+        "current_spoken": "性能有两个方面：时间和吞吐量。时间，也可以叫延迟、响应时间、执行时间，不管怎么称呼，说的都是耗时。吞吐量，则是单位时间里完成的任务数。",
+        "display": "这里把性能指标分成两类：一类是耗时，包括延迟、响应时间和执行时间；另一类是吞吐量，也就是单位时间内完成的任务数。",
+        "spoken": "这里把性能指标分成两类：一类是耗时，包括延迟、响应时间和执行时间；另一类是吞吐量，也就是单位时间内完成的任务数。",
+        "reason": "Keep the viewed slide two-category framing without universally equating latency,response time and execution time. Preserve unit-time denominator and task count,with current source/context continuity and no role change.",
+        "preserved_facts": [
+          "Keep the viewed slide two-category framing without universally equating latency,response time and execution time. Preserve unit-time denominator and task count,with current source/context continuity and no role change."
+        ],
+        "before_waveform": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/latency-throughput-precision-v1/current-unit-88.wav",
+          "bytes": 868844,
+          "mtime_ns": 1794725486624897486,
+          "sha256": "8340432dc4e7b0a37a928476edff62949ca48477e08166f485a75bbc210eca1f"
+        },
+        "speaker_review": {
+          "same_speaker": true,
+          "evidence": "Previously reviewed complete81-111context,actual three source slides,current canonical voice map and exclusion from all39original-source reservations. Rhetorical question82is not a newly inferred audience role.No new human acoustic identity approval."
+        }
+      },
+      {
+        "key": "body-090-throughput-unit-time",
+        "unit_id": 90,
+        "source": "and the throughput is how many jobs how many things that we can execute this is the difference between the time latency and throughput",
+        "source_start": "1365.789",
+        "source_end": "1373.519",
+        "current_display": "吞吐量，则是能够完成多少项工作、多少件事。这就是时间、延迟，与吞吐量的区别。",
+        "current_spoken": "吞吐量，则是能够完成多少项工作、多少件事。这就是时间、延迟，与吞吐量的区别。",
+        "display": "吞吐量，看单位时间能完成多少工作。这，就是延迟和吞吐量的区别。",
+        "spoken": "吞吐量，看单位时间能完成多少工作。这，就是延迟和吞吐量的区别。",
+        "reason": "Restore the unit-time denominator explicitly established in88and the actual slide. Keep concise complete contrast within the7.730second original window;no borrowed window,truncation,rate adjustment or audio approval.",
+        "preserved_facts": [
+          "Restore the unit-time denominator explicitly established in88and the actual slide. Keep concise complete contrast within the7.730second original window;no borrowed window,truncation,rate adjustment or audio approval."
+        ],
+        "before_waveform": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/latency-throughput-precision-v1/current-unit-90.wav",
+          "bytes": 371084,
+          "mtime_ns": 1794725486625897482,
+          "sha256": "484a14216a04117d666c29cff37ef3d94de51d4c733a1bf9b5a645cc3f06bc54"
+        },
+        "speaker_review": {
+          "same_speaker": true,
+          "evidence": "Previously reviewed complete81-111context,actual three source slides,current canonical voice map and exclusion from all39original-source reservations. Rhetorical question82is not a newly inferred audience role.No new human acoustic identity approval."
+        }
+      },
+      {
+        "key": "body-099-performance-ratio-direction",
+        "unit_id": 99,
+        "source": "so if we'd like to compare two programs x compared to Y we just take the performance of x and y and the N is going to be the difference or faster or slower compared to the compare the two programs",
+        "source_start": "1532.98",
+        "source_end": "1549.779",
+        "current_display": "比较两个程序 X 和 Y 时，就取它们的性能之比，用这个比值来表示：一个相对于另一个，快了多少，或者慢了多少。",
+        "current_spoken": "比较两个程序 X 和 Y 时，就取它们的性能之比，用这个比值来表示：一个相对于另一个，快了多少，或者慢了多少。",
+        "display": "比较程序 X 和 Y，就取 X 的性能除以 Y 的性能，得到比值 n。这个比值，表示 X 相对 Y 的性能高低。",
+        "spoken": "比较程序 X 和 Y，就取 X 的性能除以 Y 的性能，得到比值 n。这个比值，表示 X 相对 Y 的性能高低。",
+        "reason": "Make the X/Y performance ratio direction explicit from the actual slide and preserve n as ratio,not excess increase. Do not add an unspoken reciprocal formula or arbitrary letter aliases,or claim general comparability of unrelated tasks.",
+        "preserved_facts": [
+          "Make the X/Y performance ratio direction explicit from the actual slide and preserve n as ratio,not excess increase. Do not add an unspoken reciprocal formula or arbitrary letter aliases,or claim general comparability of unrelated tasks."
+        ],
+        "before_waveform": {
+          "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/latency-throughput-precision-v1/current-unit-99.wav",
+          "bytes": 806396,
+          "mtime_ns": 1794725486626897478,
+          "sha256": "cfc63c96c1fb098fd7d103094bd7ee1f9d8239bc7a3baa4a64c80d1e47c4d068"
+        },
+        "speaker_review": {
+          "same_speaker": true,
+          "evidence": "Previously reviewed complete81-111context,actual three source slides,current canonical voice map and exclusion from all39original-source reservations. Rhetorical question82is not a newly inferred audience role.No new human acoustic identity approval."
+        }
+      }
+    ],
+    "projection_edits": [
+      {
+        "unit_id": 81,
+        "key": "body-081-aircraft-speed-unit",
+        "review_note": "Restore mph from the actually viewed aircraft table,keeping the historical777 model,610 speed,4630mile range and375passengers. Retain airline viewpoint and left-table restriction. No current aviation claim or silent English source amendment.",
+        "chunks": [
+          {
+            "zh": "现在，从航空公司的角度看这组数据，先只看左边。",
+            "spoken": "现在，从航空公司的角度看这组数据，先只看左边。",
+            "en": "now if we go with the perspective of the airline and you have this data just see now only the actually the left side"
+          },
+          {
+            "zh": "这是不同飞机的参数。",
+            "spoken": "这是不同飞机的参数。",
+            "en": "you have this data about different companies different plane or aircraft"
+          },
+          {
+            "zh": "波音777，速度每小时610英里，",
+            "spoken": "波音七七七，速度每小时610英里，",
+            "en": "the Boeing 707 77 the speed is 610"
+          },
+          {
+            "zh": "航程4630英里，载客量375人。",
+            "spoken": "航程4630英里，载客量375人。",
+            "en": "the range of 4,000 630 miles and the number of passengers or capacity is 375"
+          }
+        ]
+      },
+      {
+        "unit_id": 82,
+        "key": "body-082-model-digits-and-question",
+        "review_note": "Use explicit747 model digits consistently with79,not a claim about the old synthesized phonemes. Preserve fasterConcorde,slowerDC-8-50 and open question;no single answer in the85context is not no possible answer.",
+        "chunks": [
+          {
+            "zh": "747也有它的参数。",
+            "spoken": "七四七也有它的参数。",
+            "en": "if you go to the 747 you have this data"
+          },
+          {
+            "zh": "协和客机更快，DC-8-50相对较慢。",
+            "spoken": "协和客机更快，D C 八，五零相对较慢。",
+            "en": "the Concorde of course is faster and DC 850 is kind of the slower compared to different or aircraft"
+          },
+          {
+            "zh": "那么，到底哪种最好？",
+            "spoken": "那么，到底哪种最好？",
+            "en": "so which one is the best"
+          },
+          {
+            "zh": "这个问题，没有统一的答案。",
+            "spoken": "这个问题，没有统一的答案。",
+            "en": "there's no answer to this question there is no answer to the question"
+          }
+        ]
+      },
+      {
+        "unit_id": 88,
+        "key": "body-088-local-metric-categories",
+        "review_note": "Keep the viewed slide two-category framing without universally equating latency,response time and execution time. Preserve unit-time denominator and task count,with current source/context continuity and no role change.",
+        "chunks": [
+          {
+            "zh": "这里把性能指标分成两类：",
+            "spoken": "这里把性能指标分成两类：",
+            "en": "okay the two aspect of performance its time and throughput"
+          },
+          {
+            "zh": "一类是耗时，包括延迟、响应时间和执行时间；",
+            "spoken": "一类是耗时，包括延迟、响应时间和执行时间；",
+            "en": "time or latency or response time or execution time doesn't matter how we explain this but it's about time"
+          },
+          {
+            "zh": "另一类是吞吐量，也就是单位时间内完成的任务数。",
+            "spoken": "另一类是吞吐量，也就是单位时间内完成的任务数。",
+            "en": "and throughput it's the task per unit if we go to"
+          }
+        ]
+      },
+      {
+        "unit_id": 90,
+        "key": "body-090-throughput-unit-time",
+        "review_note": "Restore the unit-time denominator explicitly established in88and the actual slide. Keep concise complete contrast within the7.730second original window;no borrowed window,truncation,rate adjustment or audio approval.",
+        "chunks": [
+          {
+            "zh": "吞吐量，看单位时间能完成多少工作。",
+            "spoken": "吞吐量，看单位时间能完成多少工作。",
+            "en": "and the throughput is how many jobs how many things that we can execute"
+          },
+          {
+            "zh": "这，就是延迟和吞吐量的区别。",
+            "spoken": "这，就是延迟和吞吐量的区别。",
+            "en": "this is the difference between the time latency and throughput"
+          }
+        ]
+      },
+      {
+        "unit_id": 99,
+        "key": "body-099-performance-ratio-direction",
+        "review_note": "Make the X/Y performance ratio direction explicit from the actual slide and preserve n as ratio,not excess increase. Do not add an unspoken reciprocal formula or arbitrary letter aliases,or claim general comparability of unrelated tasks.",
+        "chunks": [
+          {
+            "zh": "比较程序 X 和 Y，",
+            "spoken": "比较程序 X 和 Y，",
+            "en": "so if we'd like to compare two programs x compared to Y"
+          },
+          {
+            "zh": "就取 X 的性能除以 Y 的性能，得到比值 n。",
+            "spoken": "就取 X 的性能除以 Y 的性能，得到比值 n。",
+            "en": "we just take the performance of x and y"
+          },
+          {
+            "zh": "这个比值，表示 X 相对 Y 的性能高低。",
+            "spoken": "这个比值，表示 X 相对 Y 的性能高低。",
+            "en": "and the N is going to be the difference or faster or slower compared to the compare the two programs"
+          }
+        ]
+      }
+    ],
+    "editorial_selections": [
+      {
+        "key": "body-081-aircraft-speed-unit",
+        "source_fidelity_selected": true,
+        "reason": "Restore mph from the actually viewed aircraft table,keeping the historical777 model,610 speed,4630mile range and375passengers. Retain airline viewpoint and left-table restriction. No current aviation claim or silent English source amendment.",
+        "human_listened": false,
+        "pronunciation_or_emotion_approved": false
+      },
+      {
+        "key": "body-082-model-digits-and-question",
+        "source_fidelity_selected": true,
+        "reason": "Use explicit747 model digits consistently with79,not a claim about the old synthesized phonemes. Preserve fasterConcorde,slowerDC-8-50 and open question;no single answer in the85context is not no possible answer.",
+        "human_listened": false,
+        "pronunciation_or_emotion_approved": false
+      },
+      {
+        "key": "body-088-local-metric-categories",
+        "source_fidelity_selected": true,
+        "reason": "Keep the viewed slide two-category framing without universally equating latency,response time and execution time. Preserve unit-time denominator and task count,with current source/context continuity and no role change.",
+        "human_listened": false,
+        "pronunciation_or_emotion_approved": false
+      },
+      {
+        "key": "body-090-throughput-unit-time",
+        "source_fidelity_selected": true,
+        "reason": "Restore the unit-time denominator explicitly established in88and the actual slide. Keep concise complete contrast within the7.730second original window;no borrowed window,truncation,rate adjustment or audio approval.",
+        "human_listened": false,
+        "pronunciation_or_emotion_approved": false
+      },
+      {
+        "key": "body-099-performance-ratio-direction",
+        "source_fidelity_selected": true,
+        "reason": "Make the X/Y performance ratio direction explicit from the actual slide and preserve n as ratio,not excess increase. Do not add an unspoken reciprocal formula or arbitrary letter aliases,or claim general comparability of unrelated tasks.",
+        "human_listened": false,
+        "pronunciation_or_emotion_approved": false
+      }
+    ],
+    "source_changed": false,
+    "planned_new_complete_TTS": 5,
+    "new_ASR": 0,
+    "old_source_holds_95_97_111_216_217_248_310_317_and_Linux27holds23markersF08_preserved": true,
+    "professional_phoneme_emotion_human_or_final_approval": false
+  },
+  "evidence": {
+    "baseline.json": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/latency-throughput-precision-v1/baseline.json",
+      "bytes": 2827346,
+      "mtime_ns": 1794725486615897525,
+      "sha256": "f8f507b2f9b2689ac6f7668b8967a593e598c14a8f55a49a1fc7807f5fd80629"
+    },
+    "authored-review-v1.json": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/latency-throughput-precision-v1/authored-review-v1.json",
+      "bytes": 19975,
+      "mtime_ns": 1794725612337407454,
+      "sha256": "17faa0fc372076d83d57ef5c0bd9a9087f11fcea9e1c0ccc5d76ce70686f4a73"
+    },
+    "preview-native-check-v1.json": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/latency-throughput-precision-v1/preview-native-check-v1.json",
+      "bytes": 3002,
+      "mtime_ns": 1794725719498062091,
+      "sha256": "eb0fdf601439a97f26ef8441943699dd23b9310c30926e770caed3229b9b0c4d"
+    },
+    "source-image-observations-v1.json": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/latency-throughput-precision-v1/source-image-observations-v1.json",
+      "bytes": 2046,
+      "mtime_ns": 1794725612330407478,
+      "sha256": "00a5c5b8ceb5d90ac1de89266fc9afafb5af10f71319da859940c690119805f4"
+    },
+    "independent-stage-v1.json": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/latency-throughput-precision-v1/independent-stage-v1.json",
+      "bytes": 6224,
+      "mtime_ns": 1794725857086648645,
+      "sha256": "4987b630af60bb6359b9e669f7365b3d7afa70cede3eace3fd9e88711c6ff7ab"
+    },
+    "caption-layout-check-v1.json": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/latency-throughput-precision-v1/caption-layout-check-v1.json",
+      "bytes": 956,
+      "mtime_ns": 1794725837256743660,
+      "sha256": "01298458853fea411207c56a2f3ba1e23f024ee8e5d8a7752d38b66989892cae"
+    },
+    "media-v1/verification.json": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/latency-throughput-precision-v1/media-v1/verification.json",
+      "bytes": 21009,
+      "mtime_ns": 1794726896087266273,
+      "sha256": "769c7c24ecd57f3b40a1db51ebe032463932664f964d8eddf2d62998724ccc04"
+    },
+    "actual-image-observations-v1.json": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/latency-throughput-precision-v1/actual-image-observations-v1.json",
+      "bytes": 11660,
+      "mtime_ns": 1794726645405278985,
+      "sha256": "40625adc6a5a8408792f28d9a01dcff4a2f02f3258e243c7401596b33231a9d6"
+    },
+    "vlc-diagnostics-v1.json": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/latency-throughput-precision-v1/vlc-diagnostics-v1.json",
+      "bytes": 1063,
+      "mtime_ns": 1794727021974487247,
+      "sha256": "d04a9c4d6baf3f1448a867266e2e36ff4f489c4a0e5019ac47d37377a896db4e"
+    },
+    "history-authority-verification-v1.json": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/latency-throughput-precision-v1/history-authority-verification-v1.json",
+      "bytes": 6673,
+      "mtime_ns": 1794725979611799857,
+      "sha256": "49e0799ae11b12cbc5df521b00137eb7c0f25f80963646633e321712186b5457"
+    },
+    "pre-install-candidate-v1.json": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/latency-throughput-precision-v1/pre-install-candidate-v1.json",
+      "bytes": 4817,
+      "mtime_ns": 1794727021975487256,
+      "sha256": "5448e98732b252b1ac7d969fe78f55d8dfacfc01fdf3e33a38315767e2b7e38c"
+    },
+    "install-v1/installation-verification.json": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/latency-throughput-precision-v1/install-v1/installation-verification.json",
+      "bytes": 11482,
+      "mtime_ns": 1794727056283795482,
+      "sha256": "c2a32f6eebc34bcac6a5be2f1fe0e3faa3e41c6afa6c0649edc3c1aac84ef622"
+    },
+    "post-install-independent-v1.json": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/latency-throughput-precision-v1/post-install-independent-v1.json",
+      "bytes": 10346,
+      "mtime_ns": 1794727176629807503,
+      "sha256": "e97d6882b227833fd475c3f6c3745be723e761544e3219dcc0ae3e3b6fa74474"
+    },
+    "current-quality-after-install-v1.json": {
+      "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/latency-throughput-precision-v1/current-quality-after-install-v1.json",
+      "bytes": 2837,
+      "mtime_ns": 1794727176629807503,
+      "sha256": "73494f346a4de3f515f197303fc4467cf0dc7b33c74bd960456cac16b2558727"
+    }
+  },
+  "current_master": {
+    "path": "/home/pengdl/Videos/translated_backlog/Science of Performance 2019_中文配音.mp4",
+    "bytes": 566144875,
+    "mtime_ns": 1794725831111758908,
+    "sha256": "3960c57e47ecb38e7bd065fc5e48f7ed586b29f0f297742e1cf468cd8aa95719"
+  },
+  "current_upload": {
+    "path": "/home/pengdl/Videos/translated_backlog/Science of Performance 2019_中文上传版.mp4",
+    "bytes": 452679540,
+    "mtime_ns": 1794726499370058745,
+    "sha256": "4b47200c22eb5ca573a7872f390121e59d340bfd6aeb6cfd0dc8d9d209ccbefe"
+  },
+  "formal_adoption": true,
+  "source_units_unchanged": 321,
+  "english_cues_unchanged": 1022,
+  "original_source_ranges_preserved": 23,
+  "reserved_units_preserved": 39,
+  "human_listened_phoneme_or_emotion_approved": false,
+  "goal_status": "active"
+}
