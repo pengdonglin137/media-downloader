@@ -1,5 +1,12 @@
 # AI 执行工作流：自包含中文译配视频
 
+## 2026-11-15：Linux审校字幕五词组断行与否定词保护
+
+先读request-0sZlaQr3e2w-20261114/checkpoint-text-layout-v2/execution-progress.json；最新完整审校载体为同请求text-layout-v2/review-v2/source-text-review.mp4。新控制先追加五词组，再根据中间图审补不能保护；两控制／媒体和旧冻结实现均保留，两次正常source_subtitle_review各实际执行六子步骤。
+
+旧31处按重复显示计数，非31个独立事实；中间25次否定词拆分另行登记修复。新385中文、441英文、105说明屏保留原字符与毫秒窗。当前六整图加六底裁逐张查看仅适用于显式libass字体条件。正式角色、原声交接、正文配音、旧OOM卡片问题及人耳／情感／PotPlayer仍待处理，不重做既有成功音频或变更并行队列。
+
+
 ## 2026-11-15：Perf专业缩写与亲近片尾的隔离双版本候选
 
 先读request-M6ldFtwWup0-20261114/editorial-voice-3-52-v1/RUNTIME.md与checkpoint-editorial3-52-v1收据。旧试读false保持，新准入只限来源等义与隔离技术用途；显式运行时只作用精确WORK，原生scan／quality／render实际执行，不覆盖load、阻断器或人耳决定。

@@ -1,0 +1,173 @@
+{
+  "kind": "linux-term-and-negation-source-text-layout-review-v1",
+  "review_date": "2026-11-15",
+  "video_id": "0sZlaQr3e2w",
+  "scope": "internal-complete-original-audio-review-only",
+  "verification": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-0sZlaQr3e2w-20261114/text-layout-v2/independent-v2.json",
+    "bytes": 2883,
+    "mtime_ns": 1794753898718174036,
+    "sha256": "e5a68b1798ee9293b107ef588c5bfc573810d0eba65dab079819df03632bf16e"
+  },
+  "layout_delta": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-0sZlaQr3e2w-20261114/text-layout-v2/layout-delta-v2.json",
+    "bytes": 3520,
+    "mtime_ns": 1794753576667340495,
+    "sha256": "d5224edeaff708802ed7762c38be28c55327b2c1a6a6e0ffeabb83bef46e2d34"
+  },
+  "intermediate_visual_review": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-0sZlaQr3e2w-20261114/text-layout-v2/intermediate-visual-review-v1.json",
+    "bytes": 12792,
+    "mtime_ns": 1794753575533326959,
+    "sha256": "88b245e486010024b811782e7c455dbd74a2825f4489698da27a5735517efd3c"
+  },
+  "intermediate_preservation": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-0sZlaQr3e2w-20261114/text-layout-v2/intermediate-v1-preservation.json",
+    "bytes": 9654,
+    "mtime_ns": 1794753576030332892,
+    "sha256": "a517ef4c4b364e53e4cc8d6271605edd87e507473676d02f367860314f9f84bd"
+  },
+  "negation_regression_verification": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-0sZlaQr3e2w-20261114/text-layout-v2/negation-regression-verification-v1.json",
+    "bytes": 1878,
+    "mtime_ns": 1794753957978877649,
+    "sha256": "9692ad70e49587eb36d4e407f802cc8a91cc12a55965a5164ab6758a4c40220e"
+  },
+  "parallel_reconciliation": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-0sZlaQr3e2w-20261114/text-layout-v2/parallel-reconciliation-v1.json",
+    "bytes": 4915,
+    "mtime_ns": 1794754204361799037,
+    "sha256": "495718a71189de087ea7ef4f448edd5b5667dbcd47fa32be17428e01bf4b53f0"
+  },
+  "retained_register_v1_actual_exit": 1,
+  "actual_image_observations": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-0sZlaQr3e2w-20261114/text-layout-v2/image-observations-v1.json",
+    "bytes": 16923,
+    "mtime_ns": 1794754130479923586,
+    "sha256": "139638b45e90292ce04ec860579a90e7071768d7756aaaa8c2d2f396497afab1"
+  },
+  "media": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-0sZlaQr3e2w-20261114/text-layout-v2/review-v2/source-text-review.mp4",
+    "bytes": 713182368,
+    "mtime_ns": 1794753582902414914,
+    "sha256": "24e255cfbd950a8f5d5a2411fdfa8a3113a322aee523cccac3d6d0e879a90436"
+  },
+  "manifest": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-0sZlaQr3e2w-20261114/text-layout-v2/review-v2/manifest.json",
+    "bytes": 13713,
+    "mtime_ns": 1794753589377492188,
+    "sha256": "ee9027913e650ecd6792787a9747b2012a42f0b01601c45f36477db8c9a8ca0f"
+  },
+  "added_terms": [
+    "分数",
+    "判断",
+    "优先级",
+    "数据量",
+    "网络流量",
+    "不能"
+  ],
+  "before_split_occurrences": {
+    "zh": {
+      "分数": 15,
+      "判断": 0,
+      "优先级": 2,
+      "数据量": 1,
+      "网络流量": 1,
+      "不能": 0
+    },
+    "en": {
+      "分数": 0,
+      "判断": 0,
+      "优先级": 0,
+      "数据量": 0,
+      "网络流量": 0,
+      "不能": 0
+    },
+    "notes": {
+      "分数": 10,
+      "判断": 2,
+      "优先级": 0,
+      "数据量": 0,
+      "网络流量": 0,
+      "不能": 0
+    }
+  },
+  "after_split_occurrences": {
+    "zh": {
+      "分数": 0,
+      "判断": 0,
+      "优先级": 0,
+      "数据量": 0,
+      "网络流量": 0,
+      "不能": 0
+    },
+    "en": {
+      "分数": 0,
+      "判断": 0,
+      "优先级": 0,
+      "数据量": 0,
+      "网络流量": 0,
+      "不能": 0
+    },
+    "notes": {
+      "分数": 0,
+      "判断": 0,
+      "优先级": 0,
+      "数据量": 0,
+      "网络流量": 0,
+      "不能": 0
+    }
+  },
+  "changed_cues": {
+    "zh": [
+      241,
+      257,
+      258,
+      281,
+      282,
+      283,
+      285,
+      291,
+      296,
+      297,
+      298,
+      299,
+      300,
+      301,
+      302,
+      303,
+      304,
+      326,
+      352
+    ],
+    "en": [],
+    "notes": [
+      66,
+      67,
+      70,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      80,
+      82
+    ]
+  },
+  "canonical_stage": "awaiting_translation",
+  "textual_holds": 27,
+  "provider_markers": 23,
+  "critical_F08_production_hold_retained": true,
+  "contextual_cards_not_changed_and_previous_two_visual_issues_remain": true,
+  "retained_actual_image_v1_exit": 1,
+  "retained_actual_image_v2_exit": 2,
+  "intermediate_image_v3_exit": 0,
+  "actual_final_image_v4_exit": 0,
+  "new_TTS": 0,
+  "new_ASR": 0,
+  "audio_or_video_reencoding": false,
+  "source_role_phoneme_emotion_full_film_or_player_approved": false,
+  "goal_status": "active"
+}
