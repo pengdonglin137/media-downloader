@@ -1,0 +1,182 @@
+{
+  "kind": "conclusion-career-complete-utterance-formal-adoption-review-v1",
+  "video_id": "cjiUXZh0ZCo",
+  "recorded_at": "2026-11-15T03:45:45+00:00",
+  "goal_status": "active",
+  "formal_adoption": true,
+  "selected_complete_units": [
+    290,
+    291,
+    296,
+    301,
+    302,
+    306,
+    308,
+    309,
+    315,
+    318,
+    319,
+    320
+  ],
+  "source_changed_units": [
+    290,
+    291,
+    296,
+    301,
+    306,
+    309
+  ],
+  "source_amendments": [
+    {
+      "unit_id": 290,
+      "source_start": "5031.21",
+      "source_end": "5048.55",
+      "before": "Flickr which was one of the Yahoo application tumbler - you just run tumblr or debuggable actually debuggable application here in your tablet or phone it should be enjoyed phone with Intel CPU then you plug it on your computer",
+      "after": "Flickr which was one of the Yahoo application tumbler - you just run tumblr or debuggable actually debuggable application here in your tablet or phone it should be Android phone with Intel CPU then you plug it on your computer",
+      "basis": "Explicit spelling/term correction from the unit source context and bound original slides/ASR; not human phonetic approval.317 only hardware, never the unresolved author surname.",
+      "word_conserving": false,
+      "same_unit_identity_and_window": true,
+      "human_listened": false,
+      "replacement": {
+        "from": "enjoyed phone",
+        "to": "Android phone",
+        "occurrences": 1
+      }
+    },
+    {
+      "unit_id": 291,
+      "source_start": "5048.55",
+      "source_end": "5069.34",
+      "before": "you just open the energy profiler and or power analysis and then you see a very good graph like this and different wake up the reason of the wakeup and different power sea state and then the the wake up objects",
+      "after": "you just open the energy profiler and or power analysis and then you see a very good graph like this and different wake up the reason of the wakeup and different power C-state and then the the wake up objects",
+      "basis": "Explicit spelling/term correction from the unit source context and bound original slides/ASR; not human phonetic approval.317 only hardware, never the unresolved author surname.",
+      "word_conserving": false,
+      "same_unit_identity_and_window": true,
+      "human_listened": false,
+      "replacement": {
+        "from": "power sea state",
+        "to": "power C-state",
+        "occurrences": 1
+      }
+    },
+    {
+      "unit_id": 296,
+      "source_start": "5128.389",
+      "source_end": "5148.92",
+      "before": "so when we talk about the scale of performance we are talking about how we can scale or isn't Li or vertically which means that are we able to increase the throughput vertically with more CPUs and cores and memories and memory within the server",
+      "after": "so when we talk about the scale of performance we are talking about how we can scale horizontally or vertically which means that are we able to increase the throughput vertically with more CPUs and cores and memories and memory within the server",
+      "basis": "Explicit spelling/term correction from the unit source context and bound original slides/ASR; not human phonetic approval.317 only hardware, never the unresolved author surname.",
+      "word_conserving": false,
+      "same_unit_identity_and_window": true,
+      "human_listened": false,
+      "replacement": {
+        "from": "or isn't Li",
+        "to": "horizontally",
+        "occurrences": 1
+      }
+    },
+    {
+      "unit_id": 301,
+      "source_start": "5206.059",
+      "source_end": "5220.82",
+      "before": "between private public and hybrid here is also it's going to be a trade-off why we did we do hybrid for example for a seasonal capacity chance or a seasonal application like Yahoo fantasy sports",
+      "after": "between private public and hybrid here is also it's going to be a trade-off why we did we do hybrid for example for a seasonal capacity changes or a seasonal application like Yahoo fantasy sports",
+      "basis": "Explicit spelling/term correction from the unit source context and bound original slides/ASR; not human phonetic approval.317 only hardware, never the unresolved author surname.",
+      "word_conserving": false,
+      "same_unit_identity_and_window": true,
+      "human_listened": false,
+      "replacement": {
+        "from": "capacity chance",
+        "to": "capacity changes",
+        "occurrences": 1
+      }
+    },
+    {
+      "unit_id": 306,
+      "source_start": "5284.76",
+      "source_end": "5297.35",
+      "before": "and then performance actually that is vital for containers where you either take Vito as a container itself or install a V tone in one of the containers to provide your application or container",
+      "after": "and then performance actually that is vital for containers where you either take VTune as a container itself or install a VTune in one of the containers to provide your application or container",
+      "basis": "Explicit spelling/term correction from the unit source context and bound original slides/ASR; not human phonetic approval.317 only hardware, never the unresolved author surname.",
+      "word_conserving": false,
+      "same_unit_identity_and_window": true,
+      "human_listened": false,
+      "replacement": {
+        "from": "Vito as a container itself or install a V tone",
+        "to": "VTune as a container itself or install a VTune",
+        "occurrences": 1
+      }
+    },
+    {
+      "unit_id": 309,
+      "source_start": "5330.44",
+      "source_end": "5352.17",
+      "before": "where we can use one of the deep learning tensorflow model which is LS TM for smart anomaly detection this is one of the paper are we are going to publish internally for one of the conference at Verizon and externally for artificial intelligence conference with performance",
+      "after": "where we can use one of the deep learning tensorflow model which is LSTM for smart anomaly detection this is one of the paper are we are going to publish internally for one of the conference at Verizon and externally for artificial intelligence conference with performance",
+      "basis": "Explicit spelling/term correction from the unit source context and bound original slides/ASR; not human phonetic approval.317 only hardware, never the unresolved author surname.",
+      "word_conserving": false,
+      "same_unit_identity_and_window": true,
+      "human_listened": false,
+      "replacement": {
+        "from": "LS TM",
+        "to": "LSTM",
+        "occurrences": 1
+      }
+    }
+  ],
+  "semantic_309_revision": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/conclusion-career-adoption-v1/publication-order-editorial-hold-v2.json",
+    "bytes": 5984,
+    "mtime_ns": 1794711580351015936,
+    "sha256": "8bdfb724af8dec3417877be1f7e82ad0e3aa154d596b16cef562cf78256ec576"
+  },
+  "new_TTS": 0,
+  "reused_complete_syntheses": 12,
+  "new_Chinese_diagnostic_observations": 2,
+  "new_source_ASR": 0,
+  "pronunciation_diagnostics": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/conclusion-career-media-adoption-v1/pronunciation-review-v1.json",
+    "bytes": 2767,
+    "mtime_ns": 1794712911914889249,
+    "sha256": "eab77a8116de78865d0ae8da985c39fe14a0aecefe3fe4dc98c1fc6a4e6651aa"
+  },
+  "emotion_intentions_not_acoustic_approval": {
+    "308": "research enthusiasm",
+    "315": "welcoming invitation",
+    "318": "love of research and teaching",
+    "320": "qualified closing and thanks"
+  },
+  "pending_visual_followups": [
+    {
+      "unit_id": 309,
+      "phrase": 1,
+      "observed": "深/度学习自动跨行；字面完整，但词内断行仍需后续版式优化。",
+      "status": "open",
+      "not_auto_dismissed_or_closed": true
+    }
+  ],
+  "source_windows": 321,
+  "original_regions": 23,
+  "original_reserved_units": 39,
+  "preserved_source_holds": [
+    216,
+    217,
+    227,
+    248,
+    310,
+    317
+  ],
+  "human_professional_phoneme_emotion_full_visual_wordlevel_PotPlayer_or_final_approval": false,
+  "registration": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/checkpoint-conclusion-career-media-adoption-v1/metadata-registration.json",
+    "bytes": 37046,
+    "mtime_ns": 1794714344298222047,
+    "sha256": "6704fac921c1718db7eb80ce931ea1bb243d3415b80255434ac5a70f461196d0"
+  },
+  "runtime_document": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/conclusion-career-media-adoption-v1/RUNTIME.md",
+    "bytes": 4154,
+    "mtime_ns": 1794712991339130657,
+    "sha256": "84bb49ef3681017d7aba22c7a86ec98a5c7f259fab121e0be3b5117b7340eac4"
+  }
+}

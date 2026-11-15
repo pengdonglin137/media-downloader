@@ -1,0 +1,180 @@
+{
+  "passed": true,
+  "kind": "conclusion-career-complete-adoption-verified-index-v1",
+  "verifier": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/conclusion-career-media-adoption-v1/post-install-independent-v1.py",
+    "bytes": 9150,
+    "mtime_ns": 1794712882779044802,
+    "sha256": "22c0871c5fc844641d25f0be57699eaa3f1ed933dcee76f80257065829ab4982"
+  },
+  "checked_at": "2026-11-15T03:42:16+00:00",
+  "candidate_verification": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/conclusion-career-media-adoption-v1/media-v1/verification.json",
+    "bytes": 32181,
+    "mtime_ns": 1794713611996085428,
+    "sha256": "0c876b1327f8bc1d6a4702f802640e0dcb257ae308b7d5090ab0bcb3810bff1d"
+  },
+  "installation_verification": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/conclusion-career-media-adoption-v1/install-v1/installation-verification.json",
+    "bytes": 11510,
+    "mtime_ns": 1794714029048823466,
+    "sha256": "3e2b810a1cad518dbd96465cede385958138709da1702b384f0fc9b7c69ed022"
+  },
+  "transaction": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/conclusion-career-media-adoption-v1/install-v1/file-transaction/transaction.json",
+    "bytes": 40369,
+    "mtime_ns": 1794714029059823082,
+    "sha256": "755e0a47f3cbf08bf0fe6629a7ec96abcd18e195b9cfac7e2bf6f6591ea1b4c5"
+  },
+  "transaction_state": "committed",
+  "transaction_targets": 31,
+  "actual_replace_intents": 25,
+  "all31_old_files_exactly_archived": true,
+  "preserved_counts": {
+    "records": 5992,
+    "frozen_root_python": 98,
+    "production_mp3": 293,
+    "unrelated_untracked": 13
+  },
+  "master": {
+    "path": "/home/pengdl/Videos/translated_backlog/Science of Performance 2019_中文配音.mp4",
+    "bytes": 565976850,
+    "mtime_ns": 1794712599090010849,
+    "sha256": "7ca1f0cc96333b81ad1e90dd04a2afcf1294a379692ae76085d79e87fbeb6d12"
+  },
+  "upload": {
+    "path": "/home/pengdl/Videos/translated_backlog/Science of Performance 2019_中文上传版.mp4",
+    "bytes": 452338167,
+    "mtime_ns": 1794713219247164598,
+    "sha256": "eed3c303db07568901f4a2016ea426dcbdc117501c202702fab9d1568f3ba82e"
+  },
+  "formal_media_exact_candidate_bytes_and_mtime": true,
+  "source_changed_units": [
+    290,
+    291,
+    296,
+    301,
+    306,
+    309
+  ],
+  "selected_units": [
+    290,
+    291,
+    296,
+    301,
+    302,
+    306,
+    308,
+    309,
+    315,
+    318,
+    319,
+    320
+  ],
+  "Chinese_bilingual_phrases": 33,
+  "English_changed_groups": 6,
+  "English_component_replacements": 7,
+  "English_cues": 1022,
+  "complete_video_schedule_frames": 167187,
+  "fixed_offset_audio_regions": 35,
+  "source_windows": 321,
+  "original_regions": 23,
+  "reserved_units": 39,
+  "intro_offset_seconds": 40.2,
+  "chapters": 85,
+  "duration_seconds": 5572.982,
+  "before_database_rows": {
+    "decisions": 0,
+    "issues": 8249,
+    "occurrences": 14582,
+    "projects": 60,
+    "repair_resolutions": 0,
+    "scans": 107,
+    "terms": 41
+  },
+  "stage_database_rows": {
+    "decisions": 0,
+    "issues": 8435,
+    "occurrences": 14903,
+    "projects": 60,
+    "repair_resolutions": 0,
+    "scans": 108,
+    "terms": 41
+  },
+  "candidate_database_before_install_rows": {
+    "decisions": 0,
+    "issues": 8621,
+    "occurrences": 15224,
+    "projects": 60,
+    "repair_resolutions": 0,
+    "scans": 109,
+    "terms": 41
+  },
+  "after_database_rows": {
+    "decisions": 0,
+    "issues": 8807,
+    "occurrences": 15545,
+    "projects": 60,
+    "repair_resolutions": 0,
+    "scans": 110,
+    "terms": 41
+  },
+  "all_old_database_rows_preserved": true,
+  "current_candidates": 186,
+  "source_only_non_dismiss_classifications": 12,
+  "new_decisions_or_resolutions": 0,
+  "semantic_309_revision": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/conclusion-career-adoption-v1/publication-order-editorial-hold-v2.json",
+    "bytes": 5984,
+    "mtime_ns": 1794711580351015936,
+    "sha256": "8bdfb724af8dec3417877be1f7e82ad0e3aa154d596b16cef562cf78256ec576"
+  },
+  "component_profile": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/conclusion-career-adoption-v1/component-projection-profile-v3.json",
+    "bytes": 1135,
+    "mtime_ns": 1794711716649910649,
+    "sha256": "6df62a3b1cf485bd79dbe1638dc83aef9f8561946edd115a09d1a2d5830ccb29"
+  },
+  "new_TTS_or_install_reencoding": false,
+  "human_listened_or_pronunciation_emotion_approved": false,
+  "full_film_visual_wordlevel_or_PotPlayer_approval": false,
+  "Linux27holds23markersCriticalF08_unchanged": true,
+  "goal_status": "active",
+  "goal_turn_classification": "progress",
+  "independent_verification": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/conclusion-career-media-adoption-v1/post-install-independent-v1.json",
+    "bytes": 12686,
+    "mtime_ns": 1794714136514519888,
+    "sha256": "27f47b6531a5564868757c50badda5487a25ca1797fa076b8ae23810ee4e4465"
+  },
+  "current_complete_quality_authority": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/conclusion-career-media-adoption-v1/current-quality-after-install-v1.json",
+    "bytes": 2890,
+    "mtime_ns": 1794714183152339317,
+    "sha256": "380a51d029c26e2e68e9bfc26d2c95cd47a12486aa6c781d2fd4c798793fe1ac"
+  },
+  "actual_image_observations": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/conclusion-career-media-adoption-v1/actual-image-observations-v1.json",
+    "bytes": 16521,
+    "mtime_ns": 1794713915738357488,
+    "sha256": "aafd81c3e1cde7396a9f81cc2d6830bee1abe5446c0dec3bd6de68a3f0142944"
+  },
+  "pronunciation_diagnostics": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/conclusion-career-media-adoption-v1/pronunciation-review-v1.json",
+    "bytes": 2767,
+    "mtime_ns": 1794712911914889249,
+    "sha256": "eab77a8116de78865d0ae8da985c39fe14a0aecefe3fe4dc98c1fc6a4e6651aa"
+  },
+  "VLC_diagnostics": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/conclusion-career-media-adoption-v1/vlc-diagnostics-v1.json",
+    "bytes": 1756,
+    "mtime_ns": 1794713661075954351,
+    "sha256": "f3a97071ce2bfb6ac4ba1da5f8aaa5d71a2a46f32996b6c823cb683ef4e42477"
+  },
+  "checkpoint": {
+    "path": "/home/pengdl/Videos/translated_backlog/.workflow_logs/request-cjiUXZh0ZCo-20261114/checkpoint-conclusion-career-media-adoption-v1/execution-progress.json",
+    "bytes": 1521,
+    "mtime_ns": 1794714344848213635,
+    "sha256": "80818a60a758e25e7ca990c25d88e4cc95c8d831181e35f8d122ccd857a7baf5"
+  }
+}

@@ -1,5 +1,13 @@
 # AI 执行工作流：自包含中文译配视频
 
+## 2026-11-15：结尾/职业段正式媒体采用的恢复入口
+
+- 先核对上轮67c64fb50060推送与未安装12候选的独立收据；新基线绑定5992不可变和31正式目标。本轮不重做任何TTS，只对上轮新309补small/medium两个本地无提示中文诊断，不复跑旧11条或原文ASR。
+- 媒体入口component-media-runtime-v1.py显式加载原暂存profile-v3/projection-v3，复用quality-v3；新媒体9实际编码/提取/解码操作完成。19实际上传JPEG逐张view_image，309词内跨行另存open；不把抽帧生成当已查看。
+- 有限VLC在独立Xvfb/dummy音频中检查，原缓冲/切片/时戳日志保留；通过不等于无警告、全片播放或人耳。完整FFmpeg解码独立为0/空错误日志。
+- pre-install通过后先零替换归档当前package-plan，再prepare/apply/check31文件事务；post-install独立核对全部旧文件归档、候选等身份、来源时窗和107/108/109/110四数据库口径，不重跑成功媒体。
+- 当前质量检查依序组件投影、来源安装、历史计划、canonical安装运行时，见conclusion-career-media-adoption-v1/RUNTIME.md。新断点checkpoint-conclusion-career-media-adoption-v1绑定实际实物/终态；186候选、12非dismiss和所有旧/人工门禁保持，目标active。
+
 ## 2026-11-15：第二批结尾/职业候选的续作入口
 
 - 先核对现有会话终态；原12试读因上一批不相交采用而失去当前绑定，用preview_rebinding检查精确事务归档及当前媒体，再刷新完整before窗，不重做12项合成。原始六个旧身份守卫均实际执行，无全局state钩子。
